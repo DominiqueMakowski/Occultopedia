@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Occultopedia</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- Top Navigation -->
+        <div class="top-nav">
+            <button class="nav-tab active" onclick="switchTab('societies')">Network</button>
+        </div>
+
+        <div class="view-container">
+            <!-- View 1: Societies (3-Column Layout) -->
+            <div id="view-societies" class="view active">
+                <!-- Left Sidebar: List -->
+                <div id="sidebar-left">
+                    <div class="sidebar-header">
+                        <h2>Index</h2>
+                        <div class="search-container">
+                            <input type="text" id="search-input" placeholder="Search..." />
+                            <div id="active-tags" class="active-tags"></div>
+                            <select id="tag-filter">
+                                <option value="">Add Tag Filter...</option>
+                            </select>
+                        </div>
+                    </div>
+                    <ul class="nav-list" id="nav-list">
+                        <!-- Nav items injected here -->
+                    </ul>
+                </div>
+
+                <!-- Center: Network -->
+                <div id="network-container" style="flex: 1; position: relative; overflow: hidden">
+                    <canvas id="network-canvas"></canvas>
+                    <div
+                        id="network-tooltip"
+                        style="
+                            display: none;
+                            position: absolute;
+                            background: rgba(0, 0, 0, 0.8);
+                            padding: 5px 10px;
+                            border-radius: 4px;
+                            pointer-events: none;
+                        "
+                    ></div>
+                    <div
+                        id="network-controls"
+                        style="
+                            position: absolute;
+                            top: 10px;
+                            left: 10px;
+                            background: rgba(0, 0, 0, 0.5);
+                            padding: 10px;
+                            border-radius: 5px;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 5px;
+                        "
+                    >
+                        <label><input type="checkbox" id="show-labels" checked /> Show Labels</label>
+                        <select
+                            id="network-connection-mode"
+                            style="background: #333; color: #fff; border: 1px solid #555; padding: 2px; border-radius: 3px"
+                        >
+                            <option value="aesthetic">Connect by: Aesthetic</option>
+                            <option value="practice">Connect by: Practice</option>
+                            <option value="source">Connect by: Source</option>
+                            <option value="path">Connect by: Path</option>
+                            <option value="era">Connect by: Era</option>
+                            <option value="all" selected>Connect by: All Tags</option>
+                        </select>
+                        <div style="display: flex; align-items: center; gap: 5px; color: white; font-size: 12px">
+                            <label for="connection-threshold">Min Strength:</label>
+                            <input type="range" id="connection-threshold" min="1" max="10" value="4" style="width: 60px" />
+                            <span id="threshold-value">4</span>
+                        </div>
+                        <div
+                            id="network-legend"
+                            style="margin-top: 5px; display: flex; flex-direction: column; gap: 2px; font-size: 11px; color: #ccc"
+                        >
+                            <!-- Legend items injected by JS -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Sidebar: Detail -->
+                <div
+                    id="sidebar-right"
+                    style="
+                        width: 500px;
+                        background-color: #1e1e1e;
+                        border-left: 1px solid #333;
+                        overflow-y: auto;
+                        display: flex;
+                        flex-direction: column;
+                        flex-shrink: 0;
+                    "
+                >
+                    <div id="detail-container" style="padding: 20px">
+                        <p style="text-align: center; color: #666; margin-top: 100px">
+                            Select a society from the list or network to view details.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="database.js"></script>
+        <script src="images.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
