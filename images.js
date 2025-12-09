@@ -65,12 +65,6 @@ const imagesManifest = {
         "The_Arcane_School_2.jpg",
         "The_Arcane_School_3.jpg"
     ],
-    "Gnostic_Sects": [
-        "Gnostic_Sects_0.png",
-        "Gnostic_Sects_1.jpg",
-        "Gnostic_Sects_2.jpg",
-        "Gnostic_Sects_3.jpg"
-    ],
     "Acephale": [
         "Acephale_1.jpg",
         "Acephale_2.jpg",
@@ -176,12 +170,6 @@ const imagesManifest = {
         "Renewed_Order_of_the_Temple_ORT_1.jpg",
         "Renewed_Order_of_the_Temple_ORT_2.png",
         "Renewed_Order_of_the_Temple_ORT_3.jpg"
-    ],
-    "Ku_Klux_Klan_Second_Era": [
-        "Ku_Klux_Klan_Second_Era_0.png",
-        "Ku_Klux_Klan_Second_Era_1.png",
-        "Ku_Klux_Klan_Second_Era_2.png",
-        "Ku_Klux_Klan_Second_Era_3.jpg"
     ],
     "Teutonic_Knights": [
         "Teutonic_Knights_0.png",
@@ -428,12 +416,6 @@ const imagesManifest = {
         "The_Khlysty_2.jpg",
         "The_Khlysty_3.jpg"
     ],
-    "Ku_Klux_Klan_First_Era": [
-        "Ku_Klux_Klan_First_Era_0.png",
-        "Ku_Klux_Klan_First_Era_1.png",
-        "Ku_Klux_Klan_First_Era_2.png",
-        "Ku_Klux_Klan_First_Era_3.jpg"
-    ],
     "Heavens_Gate": [
         "Heavens_Gate_0.jpg",
         "Heavens_Gate_1.png",
@@ -493,12 +475,6 @@ const imagesManifest = {
         "Argentium_Astrum_2.jpg",
         "Argentium_Astrum_3.png"
     ],
-    "Sovereign_Order_of_the_Solar_Temple_OSTS": [
-        "Sovereign_Order_of_the_Solar_Temple_OSTS_0.png",
-        "Sovereign_Order_of_the_Solar_Temple_OSTS_1.jpg",
-        "Sovereign_Order_of_the_Solar_Temple_OSTS_2.png",
-        "Sovereign_Order_of_the_Solar_Temple_OSTS_3.jpg"
-    ],
     "Bauls_of_Bengal": [
         "Bauls_of_Bengal_0.jpg",
         "Bauls_of_Bengal_1.jpg",
@@ -510,12 +486,6 @@ const imagesManifest = {
         "The_Pagans_MC_1.jpg",
         "The_Pagans_MC_2.jpg",
         "The_Pagans_MC_3.jpg"
-    ],
-    "Left_Hand_Path_Shakta_Vamachara": [
-        "Left_Hand_Path_Shakta_Vamachara_0.jpg",
-        "Left_Hand_Path_Shakta_Vamachara_1.jpg",
-        "Left_Hand_Path_Shakta_Vamachara_2.jpg",
-        "Left_Hand_Path_Shakta_Vamachara_3.jpg"
     ],
     "Cicada_3301": [
         "Cicada_3301_0.jpg",
@@ -588,12 +558,6 @@ const imagesManifest = {
         "Triads_1.jpg",
         "Triads_2.png",
         "Triads_3.jpg"
-    ],
-    "Order_of_the_Solar_Temple_OTS": [
-        "Order_of_the_Solar_Temple_OTS_0.png",
-        "Order_of_the_Solar_Temple_OTS_1.jpg",
-        "Order_of_the_Solar_Temple_OTS_2.png",
-        "Order_of_the_Solar_Temple_OTS_3.jpg"
     ],
     "Situationist_International": [
         "Situationist_International_0.jpg",
@@ -689,12 +653,6 @@ const imagesManifest = {
         "Way_of_the_Future_2.jpg",
         "Way_of_the_Future_3.png"
     ],
-    "List_Society_Guido_von_List_Gesellschaft": [
-        "List_Society_Guido_von_List_Gesellschaft_0.jpg",
-        "List_Society_Guido_von_List_Gesellschaft_1.png",
-        "List_Society_Guido_von_List_Gesellschaft_2.jpg",
-        "List_Society_Guido_von_List_Gesellschaft_3.jpg"
-    ],
     "National_Renaissance_Party": [
         "National_Renaissance_Party_0.png",
         "National_Renaissance_Party_1.jpg",
@@ -732,7 +690,9 @@ const imagesManifest = {
         "Odinic_Rite_3.jpg"
     ],
     "Church_of_Perpetual_Life": [
-        "Church_of_Perpetual_Life_1.jpg"
+        "Church_of_Perpetual_Life_0.jpg",
+        "Church_of_Perpetual_Life_2.jpg",
+        "Church_of_Perpetual_Life_3.jpg"
     ],
     "The_Sith_Order": [
         "The_Sith_Order_0.png",
@@ -866,12 +826,6 @@ const imagesManifest = {
         "The_Process_Church_of_the_Final_Judgment_2.jpg",
         "The_Process_Church_of_the_Final_Judgment_3.jpg"
     ],
-    "High_Armanen_Order_HAO": [
-        "High_Armanen_Order_HAO_0.jpg",
-        "High_Armanen_Order_HAO_1.jpg",
-        "High_Armanen_Order_HAO_2.jpg",
-        "High_Armanen_Order_HAO_3.jpg"
-    ],
     "Christian_Identity": [
         "Christian_Identity_0.png",
         "Christian_Identity_1.png",
@@ -942,5 +896,155 @@ const imagesManifest = {
         "Vamachara_Tantra_1.jpg",
         "Vamachara_Tantra_2.jpg",
         "Vamachara_Tantra_3.jpg"
+    ],
+    "Bogomils": [
+        "Bogomils_0.jpg",
+        "Bogomils_1.png",
+        "Bogomils_2.jpg",
+        "Bogomils_3.jpg"
+    ],
+    "Armanen_Order_List_Society": [
+        "Armanen_Order_List_Society_0.png",
+        "Armanen_Order_List_Society_1.png",
+        "Armanen_Order_List_Society_2.jpg",
+        "Armanen_Order_List_Society_3.jpg"
+    ],
+    "Simonians": [
+        "Simonians_0.png",
+        "Simonians_1.jpg",
+        "Simonians_2.png",
+        "Simonians_3.jpg"
+    ],
+    "Cainites": [
+        "Cainites_0.png",
+        "Cainites_1.png",
+        "Cainites_2.jpg",
+        "Cainites_3.jpg"
+    ],
+    "Discordianism": [
+        "Discordianism_0.jpg",
+        "Discordianism_1.jpg",
+        "Discordianism_2.png",
+        "Discordianism_3.jpg"
+    ],
+    "Valentinian_Christians": [
+        "Valentinian_Christians_0.jpg",
+        "Valentinian_Christians_1.png",
+        "Valentinian_Christians_2.png",
+        "Valentinian_Christians_3.jpg"
+    ],
+    "Carpocratians": [
+        "Carpocratians_0.png",
+        "Carpocratians_1.png",
+        "Carpocratians_2.png",
+        "Carpocratians_3.jpg"
+    ],
+    "Brethren_of_the_Free_Spirit": [
+        "Brethren_of_the_Free_Spirit_0.jpg",
+        "Brethren_of_the_Free_Spirit_1.jpg",
+        "Brethren_of_the_Free_Spirit_2.jpg",
+        "Brethren_of_the_Free_Spirit_3.jpg"
+    ],
+    "Adamites": [
+        "Adamites_0.jpg",
+        "Adamites_1.jpg",
+        "Adamites_2.png",
+        "Adamites_3.jpg"
+    ],
+    "Mandaeans": [
+        "Mandaeans_0.jpg",
+        "Mandaeans_1.jpg",
+        "Mandaeans_2.png",
+        "Mandaeans_3.png"
+    ],
+    "Hermetic_Brotherhood_of_Luxor": [
+        "Hermetic_Brotherhood_of_Luxor_0.jpg",
+        "Hermetic_Brotherhood_of_Luxor_1.jpg",
+        "Hermetic_Brotherhood_of_Luxor_2.png",
+        "Hermetic_Brotherhood_of_Luxor_3.jpg"
+    ],
+    "Cathars_Albigensians": [
+        "Cathars_Albigensians_0.jpg",
+        "Cathars_Albigensians_1.png",
+        "Cathars_Albigensians_2.jpg",
+        "Cathars_Albigensians_3.jpg"
+    ],
+    "Sabbateans_Donmeh": [
+        "Sabbateans_Donmeh_0.jpg",
+        "Sabbateans_Donmeh_1.jpg",
+        "Sabbateans_Donmeh_2.jpg",
+        "Sabbateans_Donmeh_3.png"
+    ],
+    "Ophian_Gnostics": [
+        "Ophian_Gnostics_0.jpg",
+        "Ophian_Gnostics_1.png",
+        "Ophian_Gnostics_2.jpg",
+        "Ophian_Gnostics_3.jpg"
+    ],
+    "Manichaeism": [
+        "Manichaeism_0.jpg",
+        "Manichaeism_1.png",
+        "Manichaeism_2.jpg",
+        "Manichaeism_3.jpg"
+    ],
+    "Jeuians": [
+        "Jeuians_0.jpg",
+        "Jeuians_1.jpg",
+        "Jeuians_2.jpg",
+        "Jeuians_3.jpg"
+    ],
+    "Naassenes": [
+        "Naassenes_0.jpg",
+        "Naassenes_1.png",
+        "Naassenes_2.jpg",
+        "Naassenes_3.jpg"
+    ],
+    "Illuminates_of_Thanateros_IOT": [
+        "Illuminates_of_Thanateros_IOT_0.png",
+        "Illuminates_of_Thanateros_IOT_1.png",
+        "Illuminates_of_Thanateros_IOT_2.jpg",
+        "Illuminates_of_Thanateros_IOT_3.png"
+    ],
+    "Frankism": [
+        "Frankism_0.jpg",
+        "Frankism_1.jpg",
+        "Frankism_2.jpg",
+        "Frankism_3.png"
+    ],
+    "Peratics": [
+        "Peratics_0.png",
+        "Peratics_1.png",
+        "Peratics_2.jpg",
+        "Peratics_3.jpg"
+    ],
+    "Hermetic_Circles": [
+        "Hermetic_Circles_0.jpg",
+        "Hermetic_Circles_1.png",
+        "Hermetic_Circles_2.jpg",
+        "Hermetic_Circles_3.jpg"
+    ],
+    "Sethian_Gnostics": [
+        "Sethian_Gnostics_0.jpg",
+        "Sethian_Gnostics_1.png",
+        "Sethian_Gnostics_2.jpg",
+        "Sethian_Gnostics_3.jpg"
+    ],
+    "Basilideans": [
+        "Basilideans_0.png",
+        "Basilideans_1.png",
+        "Basilideans_2.jpg",
+        "Basilideans_3.jpg"
+    ],
+    "Order_of_the_Solar_Temple": [
+        "Order_of_the_Solar_Temple_0.png",
+        "Order_of_the_Solar_Temple_1.jpg",
+        "Order_of_the_Solar_Temple_2.png",
+        "Order_of_the_Solar_Temple_3.jpg"
+    ],
+    "Ku_Klux_Klan": [
+        "Ku_Klux_Klan_0.png",
+        "Ku_Klux_Klan_1.jpg",
+        "Ku_Klux_Klan_2.jpg",
+        "Ku_Klux_Klan_3.png"
     ]
 };

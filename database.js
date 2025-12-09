@@ -208,36 +208,322 @@ const dataSocieties = {
         },
     },
 
-    Gnostic_Sects: {
+    Sethian_Gnostics: {
         tags: [
             "aesthetic_cerebral",
-            "aesthetic_carnal",
+            "aesthetic_ecstatic",
             "path_left_hand",
+            "source_gnosis",
+            "type_fraternal",
+            "era_ancient",
+            "practice_chant",
+            "practice_initiation",
+            "practice_meditation",
+            "practice_costume", // Robes of light concepts
+        ],
+        Origins:
+            "Emerging in the first century CE; they identified themselves as the 'Seed of Seth', the 'Incorruptible Race', and the 'Immobiles'.",
+        Beliefs: {
+            The_Standing_One:
+                "The spiritual goal is to become 'motionless' or 'immobile' like the divine beings, contrasting with the chaotic motion of the cosmos.",
+            Four_Illuminators: "Divine beings (Armozel, Oroiael, Daveithai, Eleleth) who populate the transcendent realms.",
+            Reversal_of_Genesis:
+                "They viewed the biblical Creator (Ialdabaoth/Saklas) as a jealous, lion-headed dragon who trapped the divine spirit in matter.",
+        },
+        Rituals: {
+            The_Five_Seals:
+                "A water ritual (baptism) involving immersion in 'living water' (running water). It is described as stripping off the physical/psychic garments and putting on a 'robe of light'.",
+            Vowel_Chanting:
+                "The chanting of vowels to imitate the sounds of the transcendent realm. A specific recorded chant to invoke the creative power is: 'I-I-I-I-E-E-E-E-O-O-O-O-U-U-U-U-Ô-Ô-Ô-Ô-A-A-A-A'.",
+            The_Snore_Mantra: "Imitating the silence/rest of the invisible spirit by making a snoring sound, represented as 'zza zza zza'.",
+            Standing_Prayer:
+                "Initiates stood still for long periods with hands stretched out (orans position) or folded at the breast and then circling outwards, mimicking the angels who have 'no knees'.",
+        },
+        Structure: {
+            The_Immobiles: "The self-designation of the group, emphasizing stability and the ability to stand in God's presence.",
+        },
+    },
+
+    Valentinian_Christians: {
+        tags: [
+            "aesthetic_ecstatic",
+            "aesthetic_carnal",
+            "path_syncretic",
+            "source_gnosis",
+            "type_fraternal",
+            "era_ancient",
+            "practice_sex",
+            "practice_initiation",
+            "practice_chant",
+            "practice_costume", // Bridal imagery
+        ],
+        Origins: "Founded by Valentinus (c. 140 CE) in Rome; he was a brilliant theologian who almost became Pope.",
+        Beliefs: {
+            The_Syzygy:
+                "God is a dyad or couple (Husband/Wife) whose lovemaking generated the universe; human marriage and sex were seen as a sacred reenactment of this divine creativity.",
+            In_One_Room:
+                "Valentinians often worshipped alongside 'ordinary' (Catholic) Christians, reserving their higher mysteries for the 'spiritual' (pneumatic) elite.",
+        },
+        Rituals: {
+            Redemption_Ritual:
+                "A second baptism for the elite 'pneumatics'. It involved smearing a mixture of water and oil on the initiate while reciting Hebrew names to protect them from the cosmic judge (YHWH).",
+            Bridal_Chamber:
+                "The ultimate rite of integration. Initiates prepared themselves as brides awaiting an angelic bridegroom (their avatar/double) from the transcendent realm.",
+            Marcus_Eucharist:
+                "A theatrical ritual where white wine in a cup turned blood-red (likely using chemical compounds). The chalice would bubble and effervesce, inducing a prophetic trance in the participant.",
+            Chanting_for_Healing:
+                "The congregation would intone the long vowel 'Ô' in unison to heal distress, believing it mimicked the cry of a baby calling for help.",
+        },
+        Structure: {
+            Dual_Membership:
+                "Divided into 'Psychics' (ordinary Christians who attain salvation through faith/works) and 'Pneumatics' (Gnostics who attain perfection through knowledge/nature).",
+            Women_Prophets:
+                "Women were active leaders; in Marcus's circle, women acted as prophets and performed the eucharistic consecration.",
+        },
+    },
+
+    Ophian_Gnostics: {
+        tags: [
+            "aesthetic_macabre",
+            "aesthetic_cerebral",
+            "path_left_hand",
+            "source_gnosis",
+            "type_fraternal",
+            "era_ancient",
+            "practice_costume",
+            "practice_password",
+            "practice_chant",
+        ],
+        Origins: "Also known as Ophites (Snake Gnostics); active in the 2nd century.",
+        Beliefs: {
+            Veneration_of_the_Serpent:
+                "They honored the serpent of Eden for bringing knowledge (Gnosis) to humanity against the will of the jealous creator god.",
+            Planetary_Archons:
+                "The cosmos is ruled by seven demon-gods associated with planets and animals (Lion, Bull, Bear, Dog, Eagle, Ass).",
+        },
+        Rituals: {
+            The_Seal: "A resurrection ritual where the initiate is anointed with 'white oil from the tree of life'.",
+            Diagram_Walk:
+                "Use of a physical diagram mapping the seven planetary spheres. The initiate enacts a journey through these spheres, greeting each archon by name and showing a seal/symbol to pass.",
+            Animal_Masks:
+                "During the initiation, participants may have worn masks or costumes representing the theriomorphic (animal-shaped) archons: Lion (Michael/Saturn), Bull (Iao/Jupiter), Dragon (Sabaoth/Mars), Eagle (Astaphaeus/Venus), Bear (Thauthabaoth), Dog (Erathaoth), Ass (Onoel).",
+            Passwords:
+                "Specific greetings were memorized. To the Lion-headed Ialdabaoth: 'Greetings Solitary King, Bond of Blindness... I am already part of the light of the Son and the Father'.",
+        },
+        Structure: {
+            Zodiac_Avengers: "Initiates viewed themselves as warriors conquering the astrological fate controlled by the stars.",
+        },
+    },
+
+    Naassenes: {
+        tags: [
+            "aesthetic_carnal", // Due to focus on fluids/sexuality (even if abstaining)
+            "aesthetic_ecstatic",
+            "path_syncretic",
+            "source_gnosis",
+            "type_fraternal",
+            "era_ancient",
+            "practice_chant",
+            "practice_initiation",
+            "practice_costume",
+        ],
+        Origins: "Deriving their name from the Hebrew 'Nachash' (Snake); they claimed traditions from James the Just.",
+        Beliefs: {
+            The_Primal_Androgyne: "The ultimate reality is a hermaphroditic Man (Adamas).",
+            Spiritual_Fluid: "The universe consists of three currents (intellectual, psychic, earthy).",
+        },
+        Rituals: {
+            Cup_of_Anacreon:
+                "A ritual drinking of water turned into wine (or vice versa) to induce a state of 'speaking without speech', likely involving an intoxicant.",
+            Three_Passwords:
+                "The ascent required three specific Hebrew passwords derived from Isaiah 28: 'Saulasau' (to escape the underworld), 'Zeesar' (to pass the gate of heaven), and 'Kaulakau' (to enter the Pleroma).",
+            Hermes_Psychopomp:
+                "Veneration of Hermes with his caduceus (snake-staff) as the awakener of souls. The staff was used to physically 'smack' souls awake in the ritual drama.",
+            Lovers_of_Adamas:
+                "Initiates took vows of celibacy to become 'male-female' hermaphrodites like their god, rejecting gender roles.",
+        },
+        Structure: {
+            Three_Levels: "Initiates progressed through grades: Child (Paidos), Youth (Ephebos), and Adult (Aner).",
+        },
+    },
+
+    Peratics: {
+        tags: [
+            "aesthetic_cerebral",
+            "aesthetic_martial",
+            "path_left_hand",
+            "source_gnosis",
+            "type_fraternal",
+            "era_ancient",
+            "practice_alteration", // Tattoos
+            "practice_divination", // Astrology
+            "practice_initiation",
+        ],
+        Origins: "Meaning 'The Travelers' or 'Crossers'; associated with traversing the cosmos.",
+        Beliefs: {
+            Draco_Portal:
+                "Christ is identified with the constellation Draco (the Serpent) at the north pole of the sky. This is the only exit from the cosmic prison.",
+            Star_Conflict:
+                "The stars of the zodiac are the 'fiery serpents' of the wilderness that bite and destroy the soul; Christ-Draco is the bronze serpent that heals.",
+        },
+        Rituals: {
+            Hell_Walk:
+                "A ritual incubation where the initiate awakens in the 'realm of night' to confront Kronos and the powers of tartarus.",
+            Mark_of_Cain:
+                "Initiates were physically tattooed with the sign of Draco (the serpent) to protect them from the hostile astrological powers.",
+            Mystery_of_Eden:
+                "The final ascent ritual where the spirit is believed to be 'spit out' of the mouth of the Draco constellation into the transcendent realm.",
+        },
+        Structure: {
+            Travelers: "They viewed themselves as the only ones possessing the map to navigate through the sphere of the fixed stars.",
+        },
+    },
+
+    Hermetic_Circles: {
+        tags: [
+            "aesthetic_cerebral",
+            "path_right_hand",
+            "source_gnosis",
+            "type_fraternal",
+            "era_ancient",
+            "practice_chant",
+            "practice_meditation",
+            "practice_commune",
+        ],
+        Origins: "Egypt, blending Egyptian religion with Greek philosophy; focused on Hermes Trismegistus (Thoth).",
+        Beliefs: {
+            The_Bowl_of_Mind:
+                "God sent down a great basin filled with 'Mind' (Nous) for those who wished to dunk themselves and attain gnosis.",
+            Mortal_Gods: "Humans are mortal gods; gods are immortal humans.",
+        },
+        Rituals: {
+            Basin_Baptism: "Ritual immersion in a 'vat' or basin representing Mind to awaken the spiritual self.",
+            Directional_Prayer: "Praying at sunrise facing East, and at sunset facing South.",
+            Vegetarian_Meal: "A communal pure meal eaten at sunset, avoiding 'living things' to prevent harm to souls.",
+            The_Hymn_of_Rebirth: "Chanting hymns to the 'One and Only' to induce a trance of silence.",
+        },
+        Structure: {
+            Instructional: "Operated as schools or circles of disciples gathered around a guru-figure.",
+        },
+    },
+
+    Simonians: {
+        tags: [
+            "aesthetic_carnal",
+            "aesthetic_ecstatic",
+            "path_left_hand",
+            "source_gnosis",
+            "type_fraternal",
+            "era_ancient",
+            "practice_sex",
+            "practice_initiation",
+            "practice_costume",
+        ],
+        Origins: "Samaria; founded by Simon Magus and his consort Helena.",
+        Beliefs: {
+            The_Great_Power: "Simon was the 'Great Power' (God) descended in human form to rescue his First Thought (Ennoia).",
+            Redemption_of_Helena:
+                "Helena, a former prostitute from Tyre, was the incarnation of the Holy Spirit/First Thought; her rescue from the brothel symbolized the salvation of humanity.",
+        },
+        Rituals: {
+            Perfect_Love:
+                "A ritual involving sexual intercourse, viewed as a sacrament enacting the union of the Father and Mother (Simon and Helena).",
+            Image_Worship: "Veneration of statues of Simon (as Zeus) and Helena (as Athena).",
+        },
+        Structure: {
+            Priesthood: "Established a priesthood to officiate mysteries and perform the sexual rites.",
+        },
+    },
+
+    Manichaeism: {
+        tags: [
+            "aesthetic_cerebral",
+            "aesthetic_macabre", // Due to the strict asceticism
+            "path_syncretic",
             "source_gnosis",
             "type_revolutionary",
             "era_ancient",
-            "practice_sex",
+            "practice_commune",
             "practice_chant",
-            "practice_initiation",
+            "practice_alteration", // Digestive alchemy
         ],
-        Description:
-            "Collection of sects (1st-4th centuries AD) believing salvation comes only through Gnosis (secret knowledge) and that the material world is a prison.",
+        Origins: "Founded by Mani (born 216 CE) in Babylon; became the first true 'world religion' spanning from Rome to China.",
         Beliefs: {
-            Dualism: "Matter is a prison/battlefield; Spirit must ascend.",
-            Antinomianism: "The Carpocratians believed biblical laws were invented by evil angels and had to be transgressed.",
+            Light_Trap: "Light (soul) is trapped in all matter (darkness), including plants and bodies.",
+            The_Universal_Faith: "Mani viewed himself as the 'Seal of the Prophets', culminating the work of Jesus, Buddha, and Zoroaster.",
         },
         Rituals: {
-            Bridal_Chamber:
-                "A Valentinian sacrament (Nymphon) symbolizing the 'Syzygy'. Initiates often stood before a mirror to see their 'angelic double', viewing the reflection as their true spiritual self.",
-            Fluid_Eucharist:
-                "The Borborites collected semen and menstrual blood in chalices to consume as a Eucharist, believing they were gathering 'trapped light' from the body fluids.",
-            Libertine_Rites:
-                "Carpocratians practiced communal sexual rites, often extinguishing the lamps to symbolize the return to the primordial chaos and unity.",
-            General: "Use of magic vowels (chanting strings like 'IAO-UE') and applying baptismal oil seals to the forehead.",
+            Digestive_Alchemy:
+                "The 'Elect' ate a daily meal of light-filled vegetables (melons, cucumbers) prepared by 'Hearers'. By digesting this food in their purified bodies, they released the trapped light, which they then belched or exhaled back to the heavens during hymn singing.",
+            The_Bema:
+                "An annual festival commemorating Mani's passion, involving an empty throne (Bema) on a dais, fasting, and confession.",
+            Hand_Kissing: "Greeting involving the clasping of right hands to acknowledge the shared light.",
         },
         Structure: {
-            Hierarchy_of_Souls: "Hylics (material), Psychics (soulful), Pneumatics (spiritual).",
-            Notable_Sects: "Valentinians, Carpocratians, Borborites.",
+            Two_Tiers:
+                "Strict division between the 'Elect' (celibate, vegetarian, non-working) and the 'Hearers' (who supported the Elect with alms/food).",
+        },
+    },
+
+    Mandaeans: {
+        tags: [
+            "aesthetic_ecstatic",
+            "path_right_hand",
+            "source_gnosis",
+            "type_fraternal",
+            "era_ancient", // Survives to modern day
+            "practice_initiation",
+            "practice_burial",
+            "practice_chant",
+            "practice_costume",
+        ],
+        Origins:
+            "Origins in the Jordan Valley/Samaria, migrating to the marshes of Iraq/Iran; the only surviving Gnostic religion from antiquity.",
+        Beliefs: {
+            World_of_Light: "The soul originates from a Light World and must return there, navigating past planetary watchstations.",
+            Manda_d_Hiia: "Knowledge of Life, the savior spirit. They revere John the Baptist but reject Jesus as a false prophet.",
+        },
+        Rituals: {
+            Masbuta:
+                "Frequent (weekly) baptism in 'living' (running) water. It is not a one-time event but a repeated sacrament of connection to the World of Light. Participants wear white robes (rasta).",
+            Masiqta:
+                "The 'Death Mass', a complex ritual performed to aid the soul's ascent to the Light World, involving meals for the dead and ceremonial handshakes (kushta).",
+            North_Facing_Prayer: "Praying towards the North Star, considered the door to the World of Light.",
+        },
+        Structure: {
+            Priestly_Caste: "A hereditary priesthood and scribe class that copies the sacred texts (Ginza).",
+        },
+    },
+
+    Jeuians: {
+        tags: [
+            "aesthetic_cerebral",
+            "aesthetic_ecstatic",
+            "path_syncretic",
+            "source_gnosis",
+            "type_fraternal",
+            "era_ancient",
+            "practice_initiation",
+            "practice_chant",
+            "practice_password",
+        ],
+        Origins: "Egypt, 3rd century; known from the Books of Jeu and Pistis Sophia.",
+        Beliefs: {
+            The_Treasuries:
+                "The Father (Jeu) created 60 'Treasuries of Light'. The soul must possess the specific cipher, seal, and name for each treasury to enter.",
+            Forgiveness_of_Sins:
+                "Jesus was sent to initiate the apostles into the mysteries of the treasuries to allow souls to bypass the judgement of the archons.",
+        },
+        Rituals: {
+            Seals_and_Ciphers:
+                "Initiates held physical amulets or drawings of seals in their hands while reciting specific defenses to the guardians of the gates.",
+            Vegetable_Masks:
+                "Some rituals involved branches or plants (olive branches, vine branches) used in the baptismal or sealing ceremonies.",
+            Circle_Dance:
+                "Jesus standing at an altar with disciples around him, chanting 'Amen' and specific vowel strings to open the gates of the treasuries.",
+        },
+        Structure: {
+            Liturgical: "Heavily reliant on 'handbooks' containing the specific maps, names, and seals required for salvation.",
         },
     },
 
@@ -857,22 +1143,39 @@ const dataSocieties = {
             "practice_costume",
             "practice_violent",
         ],
-        Origins: "Founded c. 1119 on the Temple Mount to protect Christian pilgrims.",
+        Origins:
+            "Founded c. 1119 in Jerusalem. The detailed 'French Rule' evolved from the original Latin Rule of 1129, expanding to cover military logistics and daily conduct.",
         Beliefs: {
-            Militant_Christianity:
-                "Combined monastic vows with knighthood; killing infidels was considered 'Malecide' (killing evil), not homicide.",
-            Divine_Banking:
-                "Developed early banking systems where funds could be deposited in Europe and withdrawn in Jerusalem using encrypted letters of credit.",
+            Malecide:
+                "A revolutionary theology (promoted by St. Bernard) where killing an infidel was not homicide but 'malecide' (the killing of evil). The knight who dies in battle is a martyr; the knight who kills an infidel glorifies Christ.",
+            Absolute_Obedience:
+                "The individual will was completely annihilated. A brother could not bathe, bleed, take medicine, or even adjust his stirrup leathers without specific permission. The standard reply to any command was 'De par Dieu' (On behalf of God).",
+            The_Accusations_Heresy:
+                "During the 1307 trials, the Order was accused of a 'secret rule' involving the denial of Christ (claiming He was a false prophet), spitting on the Cross during initiation, and the worship of an idol named Baphomet (described variously as a severed head, a cat, or a three-faced skull).",
+            The_Accusations_Immorality:
+                "They were accused of institutionalized sodomy and 'obscene kisses' planted on the base of the spine, the navel, and the mouth during the reception ceremony.",
         },
         Rituals: {
-            Reception:
-                "A secretive initiation held at night in a round church. The novice was stripped of his secular clothes and given the white mantle. The 'Kiss of Peace' was administered, sometimes controversially on the navel or base of the spine, followed by a test of obedience where the initiate was ordered to spit on a wooden cross.",
-            Baphomet:
-                "During the 1307 trials, knights were accused of worshipping a bearded idol named Baphomet. Descriptions varied from a severed head with three faces to a silver-gilt skull or a cat, with eyes made of carbuncles (red gemstones). ",
+            The_Reception_True:
+                "The authentic initiation took place at night in a chapter meeting. The candidate waited outside while two knights interrogated him. He then entered, knelt before the Master with clasped hands, and swore to live without property and in chastity. The Master placed the white mantle over his neck, tied the strings, and gave him the 'Kiss of Peace' on the mouth (a standard period greeting, later twisted by inquisitors).",
+            The_Reception_Alleged:
+                "According to trial confessions (extracted under torture), the initiator would take the candidate behind the altar or into a side room, show him a crucifix, and order him to deny Christ and spit three times upon the cross. He was then allegedly kissed on the 'shameful parts' (anus/spine) as a seal of secrecy.",
+            Mess_Hall_Discipline:
+                "Knights ate in pairs (two to one bowl) to ensure fairness and mutual supervision (to ensure one did not fast excessively or eat gluttonously). Meals were eaten in silence while a clerk read scripture. Meat was eaten only three times a week to prevent 'corruption of the body'.",
+            Camp_Life_and_War:
+                "When the Marshal ordered 'Make camp, lord brothers, on behalf of God!', knights pitched tents around the Chapel. No one could leave the camp except to use the latrine or if they could still hear the camp bell. In battle, no one could charge until the Marshal cried 'Banniere!' and unfurled the Beauseant (the piebald black and white banner).",
+            Penance_of_the_Floor:
+                "For faults like losing equipment or anger, a brother was stripped of his habit and forced to eat his meals sitting on the ground for a year and a day. He was forbidden to drive away the dogs that tried to eat from his bowl, symbolizing his degradation.",
+            The_Rope_of_Mercy:
+                "A brother seeking re-admission after expulsion or fleeing would stand at the gate for days. Eventually, he would enter the chapter house stripped to his breeches, carrying a rope round his neck, and prostrate himself to be walked over or flogged by the brethren while begging for mercy.",
         },
         Structure: {
-            Grand_Master: "Absolute leader, answerable only to the Pope.",
-            Ranks: "Knights (Nobles/White Mantles with Red Cross), Sergeants (Commoners/Black or Brown Mantles), and Chaplains.",
+            Hierarchy:
+                "Grand Master (absolute authority), Seneschal (second-in-command, carrier of the Beauseant), Marshal (military commander), Draper (quartermaster for clothes).",
+            Dress_Code:
+                "Knight Brothers (nobles) wore the White Mantle to signify purity; Sergeant Brothers (commoners) wore Black or Brown mantles. Pointed shoes and shoelaces were strictly forbidden as 'pagan' fashion. Hair was cut short, but beards were grown long and unkempt.",
+            Equipment:
+                "Each knight was allowed three horses and one squire. Gold or silver on bridles and spurs was forbidden; if a knight was gifted such items, he had to paint them over to hide the vanity.",
         },
     },
 
@@ -958,28 +1261,40 @@ const dataSocieties = {
         },
     },
 
-    Sovereign_Order_of_the_Solar_Temple_OSTS: {
+    Order_of_the_Solar_Temple: {
         tags: [
             "aesthetic_macabre",
-            "aesthetic_cerebral",
+            "aesthetic_ecstatic",
             "path_syncretic",
             "source_gnosis",
+            "type_doomsday",
             "type_fraternal",
             "era_modern",
+            "practice_self_harm",
             "practice_costume",
+            "practice_chant",
             "practice_meditation",
         ],
-        Origins: "Founded 1952 by Jacques Breyer; the ideological ancestor of Solar Temple cults.",
+        Origins:
+            "Rooted in the 1952 foundation by Jacques Breyer (OSTS); radicalized in 1984 Geneva by Joseph Di Mambro and Luc Jouret (OTS).",
         Beliefs: {
-            Arginy_Renaissance: "Based on Breyer's mystical experience at Arginy Castle, contacted by 'Masters of the Temple'.",
-            Synarchy: "Rule by a secret elite.",
+            Transit_to_Sirius:
+                "Members believed a ritualized death (by fire) was necessary to transport their souls to the star Sirius to escape an environmental apocalypse on Earth.",
+            Arginy_Renaissance:
+                "Based on Breyer's mystical contact with 'Masters of the Temple' at Arginy Castle, blending Masonic-style investitures with mediumship.",
+            Synarchy: "Belief in rule by a secret elite or 'Hidden Masters' who guide the destiny of the world.",
         },
         Rituals: {
-            Foundational:
-                "Established the modern mythos of 'Solar Templarism', blending Masonic-style investitures with mediumship and channeling sessions.",
+            Technological_Illusion:
+                "Sanctuary rituals used holographic projections of 'Ascended Masters', pulsating lights, and electronically rigged swords to impress initiates with 'miracles'.",
+            The_Transit:
+                "The final exit rituals involved members dressed in white, red, or gold ceremonial robes (denoting rank) arranged in star formations. Incendiary devices triggered by timers consumed the bodies in fire.",
+            Foundational_Seances: "Early rituals involved channeling sessions where the 'Masters' dictated the future of the order.",
         },
         Structure: {
-            Legal_Entity: "Served as a funnel for member wealth and money laundering.",
+            Charismatic_Radial: "Totalitarian authority flowing from a central leader (Di Mambro).",
+            The_Synarchy:
+                "A secret inner leadership group. The OSTS served as a legal funnel for member wealth and money laundering to support the core cult.",
         },
     },
 
@@ -1004,34 +1319,6 @@ const dataSocieties = {
         },
         Structure: {
             Grand_Master: "Originally led by Origas, later influenced Luc Jouret.",
-        },
-    },
-
-    Order_of_the_Solar_Temple_OTS: {
-        tags: [
-            "aesthetic_macabre",
-            "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_gnosis",
-            "type_doomsday",
-            "era_modern",
-            "practice_self_harm",
-            "practice_costume",
-            "practice_chant",
-        ],
-        Origins: "Lethal terminus of the Neo-Templar lineage, founded in Geneva (1984) by Joseph Di Mambro and Luc Jouret.",
-        Beliefs: {
-            Transit_to_Sirius:
-                "Members believed a ritualized death (by fire) would transport their souls to the star Sirius to escape an environmental apocalypse.",
-        },
-        Rituals: {
-            Technological_Illusion:
-                "Rituals in the 'Sanctuary' involved special effects: holographic projections of 'Ascended Masters', pulsating lights, and a sword that could electronically flash with sparks to impress initiates. ",
-            The_Transit:
-                "The final exits involved members dressed in white, red, or gold ceremonial robes (denoting rank) arranged in a star formation. The sites were rigged with incendiary devices triggered by telephone timers to consume the bodies in fire.",
-        },
-        Structure: {
-            Charismatic_Radial: "Totalitarian authority flowing from a central leader (Di Mambro); The Synarchy (secret inner leadership).",
         },
     },
 
@@ -2097,68 +2384,44 @@ const dataSocieties = {
         },
     },
 
-    Ku_Klux_Klan_First_Era: {
+    Ku_Klux_Klan: {
         tags: [
             "aesthetic_macabre",
             "aesthetic_martial",
-            "path_left_hand",
-            "source_ancestral",
-            "type_criminal",
-            "era_industrial",
-            "practice_violent",
-            "practice_costume",
-            "practice_initiation",
-        ],
-        Origins: "Founded 1865 in Pulaski, Tennessee by six Confederate veterans. Active until approx. 1871.",
-        Beliefs: {
-            The_Lost_Cause: "Sought to restore white supremacy in the aftermath of the Civil War.",
-            Ghosts_of_the_Confederacy:
-                "Early members claimed to be the vengeful spirits of the Confederate dead returning from Hell to terrify freed slaves.",
-        },
-        Rituals: {
-            Night_Riding:
-                "Psychological warfare involving galloping horses with muffled hooves. Riders wore varied costumes (not just white)—often red or black robes with conical hats, fake beards, and horns. ",
-            The_Prescript: "The original 1867 constitution outlined cryptic titles in dog-Latin (e.g., 'Hydra', 'Fury').",
-            Burlesque_Initiation:
-                "Early initiations featured fraternity-style pranks, such as blindfolding a candidate and forcing them to sit on a 'throne' of wet ice, before the activities turned to violent intimidation.",
-        },
-        Structure: {
-            The_Dens: "Local chapters led by a Grand Cyclops.",
-            Hierarchy: "Grand Wizard (Empire), Grand Dragon (Realm/State), Grand Titan (Dominion/District).",
-        },
-    },
-
-    Ku_Klux_Klan_Second_Era: {
-        tags: [
-            "aesthetic_martial",
             "path_right_hand",
             "source_ancestral",
+            "type_criminal",
             "type_fraternal",
             "era_industrial",
             "practice_violent",
             "practice_costume",
-            "practice_password",
             "practice_initiation",
+            "practice_password",
         ],
         Origins:
-            "Refounded 1915 at Stone Mountain, Georgia by William J. Simmons. Reached peak membership of 3–6 million in the mid-1920s.",
+            "Founded 1865 in Pulaski, TN (First Era) by Confederate veterans; Refounded 1915 at Stone Mountain, GA (Second Era) by William J. Simmons.",
         Beliefs: {
+            The_Lost_Cause:
+                "(First Era) Sought to restore white supremacy in the aftermath of the Civil War. Early members claimed to be the vengeful spirits of the Confederate dead returning from Hell.",
             One_Hundred_Percent_Americanism:
-                "Expanded hate to include Catholics, Jews, and immigrants; positioned as a 'patriotic' fraternity.",
-            Militant_Protestantism: "Viewed the Klan as the defender of the Protestant faith and the purity of white womanhood.",
+                "(Second Era) Expanded hate to include Catholics, Jews, and immigrants; positioned the Klan as a 'patriotic' fraternity defending the purity of white womanhood and militant Protestantism.",
         },
         Rituals: {
+            Night_Riding:
+                "Psychological warfare involving galloped horses with muffled hooves. Early costumes were varied (red, black, horned masks, fake beards) designed to terrify freed slaves as 'ghosts'.",
             Cross_Burning:
-                "Originally termed 'The Fiery Cross'; a ritual borrowed from the Scottish crann tara (to signal a gathering), reinterpreted as the 'Light of Christ'. Huge wooden crosses wrapped in burlap and soaked in kerosene were ignited at rallies.",
+                "Introduced in the Second Era (borrowed from the Scottish 'crann tara' signal and the film 'Birth of a Nation'). Huge wooden crosses wrapped in burlap and soaked in kerosene were ignited at rallies as the 'Light of Christ'.",
             Naturalization:
-                "The initiation ceremony in the 'Kloran' required the candidate to kneel at an altar draped with the US Flag, an open Bible, and a sword, swearing eternal secrecy. ",
-            Klonversation:
-                "The use of secret codes where words began with 'Kl' (e.g., Klonklave for secret meeting, Klorero for state convention).",
+                "The initiation ceremony in the 'Kloran' required the candidate to kneel at an altar draped with the US Flag, an open Bible, and a sword, swearing eternal secrecy.",
+            Burlesque_Hazing:
+                "Early initiations often featured fraternity-style pranks (e.g., sitting on wet ice) before turning to violent intimidation.",
         },
         Structure: {
             Invisible_Empire:
-                "A massive pyramid scheme structure involving the sale of standardized white robes ($6.50 cost to members) and life insurance.",
-            Kleagles: "Recruiters who kept a portion ($4) of the initiation fee ($10), incentivizing mass recruitment.",
+                "A massive pyramid structure (Second Era) involving the sale of standardized white robes ($6.50) and life insurance.",
+            Hierarchy: "Grand Wizard (Empire), Grand Dragon (Realm/State), Grand Titan (Dominion), Grand Cyclops (Local Den).",
+            Kleagles:
+                "Recruiters who kept a portion of the initiation fee, turning the Second Era Klan into a massive multi-level marketing scheme.",
         },
     },
 
@@ -3010,37 +3273,6 @@ const dataSocieties = {
         },
         Structure: {
             Tantric_Lineage: "Strict Guru-Disciple relationship (Samaya bond). Breaking the bond is believed to lead to 'Vajra Hell'.",
-        },
-    },
-
-    Left_Hand_Path_Shakta_Vamachara: {
-        tags: [
-            "aesthetic_carnal",
-            "aesthetic_macabre",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fraternal",
-            "era_medieval",
-            "practice_commune",
-            "practice_initiation",
-        ],
-        Origins: "Bengal and Assam; the 'Left-Hand' path (Vama Marga) utilizes the forbidden.",
-        Beliefs: {
-            Inversion: "Poison is the antidote. By engaging with taboos (death, sex, intoxication) with awareness, one transcends them.",
-            Shining_Blackness:
-                "Kali's blackness is not a void, but 'Supreme Blackness' (sawad-e a'zam). It is the very light of the Absolute-as-such, where nothingness is realized as existence[cite: 831].",
-            Shakti_Centrism: "The Goddess (Kali/Tara) is the dynamic power of the universe; Shiva is the static corpse without her.",
-        },
-        Rituals: {
-            Cremation_Ground_Sadhana:
-                "Sitting next to corpses and images of death to speed the freeing of the self. The spiritual human being is believed to arise 'shining' out of the symbolic death of the body[cite: 583, 586].",
-            Wine_and_Flesh: "Ritual consumption of alcohol and meat (forbidden to high-caste Brahmins) offered in a skull cup.",
-            Secret_Puja: "Use of menstrual blood (considered powerful biological 'red gold') in offerings to the fierce goddesses.",
-            Midnight_Ceremonies:
-                "Rites performed at the dead of night, often involving animal sacrifice (goats/buffalo) to sever attachment to life.",
-        },
-        Structure: {
-            Kula: "Initiatory families ('Clans'). One enters the Kula through a specific initiation (abhisheka).",
         },
     },
 
@@ -4175,57 +4407,39 @@ const dataSocieties = {
         },
     },
 
-    List_Society_Guido_von_List_Gesellschaft: {
-        tags: ["aesthetic_cerebral", "path_right_hand", "source_ancestral", "type_revolutionary", "era_industrial", "practice_commune"],
-        Origins: "Founded in 1908 in Vienna to support the research and writings of Guido von List, the godfather of Ariosophy.",
-        Beliefs: {
-            Armanism:
-                "The belief in a lost ancient priest-king caste (Armanen) who governed the Germanic tribes with runic wisdom and authority.",
-            Wotanist_Priesthood:
-                "Explicitly sought to revive the authority of the 'Armanenschaft', the hierarchical priesthood of Wotan, to guide the German nation.",
-            Landscape_Mysticism:
-                "Believed the Austrian landscape was encoded with secret messages and locations of ancient sanctuaries (Halgadome) visible only to the initiated.",
-        },
-        Rituals: {
-            Pilgrimages:
-                "Organized group visits to sites like Carnuntum and St. Stephen's Cathedral catacombs to connect with the ancient spirit.",
-            Heraldry_Reading: "Interpreting coats of arms and place names as esoteric runic codes revealing the history of the Armanen.",
-            Solstice_Festivals: "Celebrating the turning of the seasons as sacred cosmic events, often involving hilltop bonfires.",
-        },
-        Structure: {
-            Patronage_Network:
-                "Operated as a funding body for List's publications, supported by wealthy industrialists and culturally influential figures in Vienna.",
-        },
-    },
-
-    High_Armanen_Order_HAO: {
+    Armanen_Order_List_Society: {
         tags: [
             "aesthetic_cerebral",
             "path_right_hand",
-            "source_elite",
+            "source_ancestral",
+            "type_revolutionary",
             "type_fraternal",
             "era_industrial",
             "practice_initiation",
+            "practice_commune",
             "practice_password",
         ],
-        Origins:
-            "Founded in 1911 by Guido von List as the secret 'inner ring' of the public List Society, dedicated to practical occultism rather than just theory.",
+        Origins: "Founded 1908 (Society) and 1911 (Order) in Vienna by Guido von List, the godfather of Ariosophy.",
         Beliefs: {
-            Elite_Priesthood:
-                "Members viewed themselves as the reborn 'Armanenschaft', the ancient priest-kings of the Aryans, distinct from the dues-paying members of the public society.",
+            Armanism:
+                "The belief in a lost ancient priest-king caste (Armanen) who governed the Germanic tribes with runic wisdom. The Order sought to revive this hierarchical priesthood.",
+            Landscape_Mysticism:
+                "Believed the Austrian landscape was encoded with secret messages and locations of ancient sanctuaries (Halgadome) visible only to the initiated.",
             Gnostic_Wotanism: "Practiced a mystery religion where Wotan was interpreted as the 'All-Father' of the Teutonic soul.",
         },
         Rituals: {
             Pilgrimages:
-                "The order conducted ritual visits to 'Halgadome' (sanctuaries) such as the catacombs of St. Stephen's Cathedral and the Carnuntum ruins to commune with the genius loci.",
+                "Ritual visits to 'Halgadome' sites like the Carnuntum ruins and St. Stephen's Cathedral catacombs to commune with the genius loci.",
             Solstice_Rites:
-                "Secret celebrations of the summer solstice, distinct from the public festivals, often involving magical workings.",
+                "Secret celebrations of the sun distinct from public festivals, often involving magical workings to connect with the 'Armanenschaft'.",
             Fraternal_Names:
-                "Initiates adopted secret Germanic names (e.g., List was 'Arz-Wiho-Aithari') to separate their magical persona from their public life.",
+                "Initiates of the Inner Circle (HAO) adopted secret Germanic names (e.g., List was 'Arz-Wiho-Aithari') to separate their magical persona from their public life.",
+            Heraldry_Reading: "Interpreting coats of arms and place names as esoteric runic codes.",
         },
         Structure: {
-            Grand_Master:
-                "List served as the Grand Master of this inner circle, which recruited only the most dedicated followers from the wider List Society.",
+            Two_Circles:
+                "The 'List Society' acted as the public patronage network and funding body. The 'High Armanen Order' (HAO) was the secret inner circle dedicated to practical occultism.",
+            Grand_Master: "Guido von List served as the supreme authority for both bodies.",
         },
     },
 
@@ -4476,27 +4690,41 @@ const dataSocieties = {
             "era_ancient",
             "practice_sex",
             "practice_commune",
+            "practice_initiation",
+            "practice_chant",
+            "practice_self_harm", // Added due to bloodletting/sacrifice elements
         ],
-        Origins:
-            "Ancient India; the 'Left-Way' of Tantrism, distinct from the 'Right-Way' (Dakshinachara) which adheres to Vedic social norms.",
+        Origins: "Ancient India, with specific flourishing in Medieval Bengal and Assam (the center of the Vama Marga or 'Left-Way').",
         Beliefs: {
             Sva_Tantra:
                 "The goal is to become 'self-functioning' (sva-tantra), free of all limitations, including the personality and natural laws.",
+            Inversion:
+                "Poison is the antidote. By engaging with taboos (death, sex, intoxication) with awareness, one transcends them, utilizing the power of Nature (Shakti) to conquer the senses.",
+            Shining_Blackness:
+                "Kali's blackness is not a void, but 'Supreme Blackness' (sawad-e a'zam). It is the very light of the Absolute-as-such, where nothingness is realized as existence.",
             Separation_in_Love:
                 "Unlike the Right-Hand Path which seeks merger with the divine, the Vamacharin seeks to realize the personal divinity (Jivatman) and maintain its independence to enjoy the 'play' (lila) of the universe eternally.",
-            Inversion: "Uses the power of Nature (Shakti) and the passions to conquer the senses; 'poison is the antidote'.",
+            Shakti_Centrism: "The Goddess (Kali/Tara) is the dynamic power of the universe; Shiva is the static corpse without her.",
         },
         Rituals: {
             Panchamakara:
-                "The 'Five Ms' ritual involving the Five Essentials: Madya (Wine), Mamsa (Meat), Matsya (Fish), Mudra (Grain), and Maithuna (Sexual Union). These taboo substances are used to shock the psyche into a non-dual state.",
+                "The 'Five Ms' ritual involving the Five Essentials: Madya (Wine), Mamsa (Meat), Matsya (Fish), Mudra (Parched Grain), and Maithuna (Sexual Union). These taboo substances are used to shock the psyche into a non-dual state.",
+            Cremation_Ground_Sadhana:
+                "Sitting next to corpses and images of death (Shava Sadhana) to speed the freeing of the self. The spiritual human being is believed to arise 'shining' out of the symbolic death of the body.",
+            Secret_Puja:
+                "The use of menstrual blood (considered powerful biological 'red gold') in offerings to the fierce goddesses, often collected and offered in a skull cup.",
             Reversal_of_Flow:
                 "Esoteric techniques to reverse natural physiological processes, such as the retention of semen (Bindu) or the re-absorption of sexual fluids to generate spiritual heat and build an immortal body.",
             Icchashuddhi:
                 "Purification of the Will by systematically breaking the eight bonds (fetters) of human existence, including fear, shame, caste, and family.",
+            Midnight_Ceremonies:
+                "Rites performed at the dead of night, often involving animal sacrifice (goats/buffalo) to sever attachment to life.",
         },
         Structure: {
             Levels_of_Initiation:
                 "Pashu (the fettered/animal man), Vira (the hero who confronts the passions), and Divya (the divine man who has transmuted the passions).",
+            The_Kula:
+                "Initiates are organized into 'Clans' (Kula). One enters the Kula through a specific initiation (abhisheka), becoming part of a spiritual family that supersedes biological caste.",
         },
     },
 
@@ -4749,6 +4977,361 @@ const dataSocieties = {
         Structure: {
             The_Dean:
                 "Levandowski appointed himself the Dean of the church, intending to act as the primary interface between the AI and humanity.",
+        },
+    },
+
+    Carpocratians: {
+        tags: [
+            "aesthetic_carnal",
+            "aesthetic_cerebral",
+            "path_left_hand",
+            "source_gnosis",
+            "type_fraternal",
+            "era_ancient",
+            "practice_sex",
+            "practice_alteration", // Branding
+            "practice_art", // First to use icons of Jesus
+        ],
+        Origins: "Alexandria, 2nd Century. Founded by Carpocrates and his son Epiphanes (who died at 17 and was worshipped as a god).",
+        Beliefs: {
+            Exhausting_the_Powers:
+                "The soul is trapped in reincarnation until it has experienced every possible condition of life. One must perform every 'sin' to pay the debt to the Rulers and leave the prison.",
+            The_Great_Equality:
+                "God’s justice is a fellowship with equality (like the sky or light which is shared by all); human laws of 'property' and 'marriage' are sins invented by the Creator to divide us.",
+        },
+        Rituals: {
+            The_Brand_of_Fire: "Disciples marked themselves by branding a specific seal on the back of the right earlobe.",
+            The_Agape_Feast:
+                "Communal dinners that dissolved into sexual sharing, aimed at breaking the jealousy/possessiveness of the Creator's laws.",
+            Icon_Veneration:
+                "They were the first to produce images of Christ, placing his statue alongside Pythagoras, Plato, and Aristotle, crowning them with garlands.",
+        },
+        Structure: {
+            The_Youth_Cult:
+                "Venerated the founder's son Epiphanes at a temple in Cephalonia, where at the new moon, worshippers celebrated his apotheosis.",
+        },
+    },
+
+    Cainites: {
+        tags: [
+            "aesthetic_macabre",
+            "path_left_hand",
+            "source_gnosis",
+            "type_revolutionary",
+            "era_ancient",
+            "practice_chant",
+            "practice_subversion", // Inversion of scripture
+        ],
+        Origins: "2nd Century Gnostic sect that inverted the Old Testament heroes and villains.",
+        Beliefs: {
+            The_Holy_Sinner:
+                "Characters punished by the Creator (Cain, Esau, the Sodomites) were actually heroes bearing the true Gnosis, persecuted by a jealous lower god.",
+            The_Mystery_of_Judas:
+                "Judas Iscariot was the only apostle who knew the truth; he betrayed Jesus to liberate the divine spirit from the trap of the body, an act of supreme sacrifice.",
+        },
+        Rituals: {
+            Inversion_Prayer:
+                "Invoking the names of the 'oppressed' figures of the Bible (Korah, Dathan, Abiram) to gain power against the orthodox angels.",
+            Dissolution_of_Law:
+                "Deliberately violating biblical commandments (sabbath breaking, dietary laws) to prove they were not subject to the Creator's authority.",
+        },
+        Structure: {
+            Anti_Apostolic: "Operated as a counter-church, possessing their own 'Gospel of Judas' (recovered in 2006).",
+        },
+    },
+
+    Basilideans: {
+        tags: [
+            "aesthetic_cerebral",
+            "aesthetic_surreal",
+            "path_syncretic",
+            "source_gnosis",
+            "type_fraternal",
+            "era_ancient",
+            "practice_meditation", // Silence
+            "practice_magic", // Gems/Amulets
+        ],
+        Origins: "Alexandria, 2nd Century. Founded by Basilides, who claimed teachings from Peter's interpreter.",
+        Beliefs: {
+            Abraxas:
+                "The Great Archon of the 365 heavens. A deity representing the union of time and space, often depicted with a rooster's head (wakefulness) and snake legs (earthly power).",
+            The_Laughing_Jesus:
+                "Jesus did not die on the cross; he swapped places with Simon of Cyrene and stood by laughing at the ignorance of the Rulers who thought they could kill the Spirit.",
+        },
+        Rituals: {
+            The_Silence: "A Pythagorean-style novitiate requiring five years of silence to unlearn the names of the world.",
+            Gem_Magic: "Extensive use of 'Abraxas Stones'—engraved gems used as apotropaic amulets to navigate the 365 heavens.",
+            The_Caulacau: "A mantra or password used to ascend: 'I know you, and I know your names.'",
+        },
+        Structure: {
+            The_Stranger: "Initiates viewed themselves as 'strangers' to the world, invisible to the powers that rule it.",
+        },
+    },
+
+    Brethren_of_the_Free_Spirit: {
+        tags: [
+            "aesthetic_ascetic", // Paradoxically ascetic yet libertine
+            "path_left_hand",
+            "source_mysticism",
+            "type_revolutionary",
+            "era_medieval",
+            "practice_commune",
+            "practice_sex",
+        ],
+        Origins: "13th-14th Century Europe; a heresy that flourished along the Rhine and in the Low Countries.",
+        Beliefs: {
+            Autotheism: "The soul is identical to God. Once a person realizes this, they cannot sin.",
+            The_Holy_Freedom:
+                "Because the 'Spirit' is free, the enlightened man ('Godman') is above all moral, religious, and civil laws. 'Nothing is a sin except what is thought to be a sin.'",
+        },
+        Rituals: {
+            The_Miraculous_Bed:
+                "Testing one's detachment by sleeping with a member of the opposite sex without touching, or conversely, engaging in sex without 'conscience' to prove sinlessness.",
+            Begging_for_Pride:
+                "Members (Beghards) lived by begging, not out of poverty, but to demonstrate their refusal to work for the 'worldly' system.",
+        },
+        Structure: {
+            Cellular: "Loose networks of wandering 'apostles' and safe-houses disguised as Beguinages.",
+        },
+    },
+
+    Adamites: {
+        tags: [
+            "aesthetic_primitive",
+            "aesthetic_ecstatic",
+            "path_left_hand",
+            "source_biblical",
+            "type_commune",
+            "era_medieval", // And ancient
+            "practice_nudity",
+            "practice_dance",
+            "practice_commune",
+        ],
+        Origins: "Reappeared in 15th Century Bohemia (Taborites) and earlier in North Africa; attempting to return to Eden.",
+        Beliefs: {
+            Return_to_Innocence: "Clothing is a consequence of the Fall. To be redeemed is to be naked and unashamed like Adam and Eve.",
+            Rejection_of_Marriage: "Exclusive marriage is a sin of ownership; 'love' should be free and communal as it was in Paradise.",
+        },
+        Rituals: {
+            The_Paradise_Service: "Worshipping in heated rooms or around fires entirely naked, calling each other 'Adam' and 'Eve'.",
+            The_Holy_Kiss: "Ritualized intimacy during services to demonstrate the lack of 'lust' (or the sanctification of it).",
+        },
+        Structure: {
+            Communal:
+                "Isolated communes (like the island in the Nežárka river) where they raided neighboring villages for food, believing they were 'angels' entitled to the earth's bounty.",
+        },
+    },
+
+    Sabbateans_Donmeh: {
+        tags: [
+            "aesthetic_oriental",
+            "aesthetic_macabre",
+            "path_syncretic",
+            "source_kabbalah",
+            "type_fraternal",
+            "era_renaissance",
+            "practice_subversion", // Crypto-religion
+            "practice_chant", // Ladino hymns
+            "practice_sex",
+        ],
+        Origins: "17th Century Ottoman Empire; followers of Sabbatai Zevi, the Messiah who converted to Islam.",
+        Beliefs: {
+            The_Apostate_Messiah:
+                "The Messiah had to descend into the 'Kelipot' (Realm of Impurity/Islam) to rescue the trapped sparks of divine light that no righteous person could reach.",
+            Redemption_through_Sin:
+                "A mitzvah (commandment) that comes through a transgression. One must outwardly appear as a Muslim/Heretic but inwardly remain a Jew.",
+        },
+        Rituals: {
+            The_Festival_of_the_Lamb:
+                "A spring festival (likely Passover inverted) rumored to involve the eating of a lamb and the extinguishing of lights for communal wife-sharing (purifying the 'vessels').",
+            Sixteen_Commandments:
+                "Replaced the Ten Commandments; included the instruction to 'throw dust in the eyes of the Turks' (concealment).",
+        },
+        Structure: {
+            The_Double_Life: "Members had two names (one Turkish/Muslim for public, one Jewish for private) and lived in strict secrecy.",
+        },
+    },
+
+    Frankism: {
+        tags: [
+            "aesthetic_martial", // Military uniforms
+            "aesthetic_ecstatic",
+            "path_syncretic",
+            "source_kabbalah",
+            "type_revolutionary",
+            "era_enlightenment",
+            "practice_sex",
+            "practice_costume",
+            "practice_alteration", // Baptism as disguise
+        ],
+        Origins: "18th Century Poland; founded by Jacob Frank, who claimed to be the reincarnation of Sabbatai Zevi.",
+        Beliefs: {
+            The_Way_to_Esau:
+                "The Jews must embrace the 'religion of Edom' (Christianity) just as Sabbatai embraced Islam, to destroy it from within.",
+            The_V_Ladder: "One must descend into the abyss of sin to rise to the height of holiness.",
+            The_Maiden: "Veneration of Frank's daughter, Eve, as the incarnation of the Shekhinah (Divine Presence).",
+        },
+        Rituals: {
+            Strange_Fire: "Rituals involving sexual acts (orgies) interpreted as 'entering the Holy of Holies'.",
+            The_Company_Drill:
+                "Frank organized his followers into a military company, wearing uniforms and performing drills, believing they were an army conquering the spiritual world.",
+            Baptism_of_Lwów:
+                "A mass ritual where thousands of Frankists converted to Catholicism in a grand ceremony, not out of faith, but as a 'strategic maneuver' against Jewish law.",
+        },
+        Structure: {
+            The_Court: "Frank maintained a lavish court in Offenbach, Germany, supported by the tithes of his 'believers'.",
+        },
+    },
+
+    Hermetic_Brotherhood_of_Luxor: {
+        tags: [
+            "aesthetic_victorian",
+            "path_right_hand", // Claims right, uses sexual magic
+            "source_hermetic",
+            "type_fraternal",
+            "era_modern",
+            "practice_sex",
+            "practice_divination", // Magic Mirrors
+        ],
+        Origins: "Late 19th Century; a distinct rival to the Theosophical Society, influencing the O.T.O.",
+        Beliefs: {
+            Sexual_Polarity:
+                "The universe functions on the magnetic attraction between Male and Female. Magic is the manipulation of this current.",
+            The_Light_of_Egypt: "Opposed the 'Buddhist' (ascetic) drift of Theosophy, advocating for practical, Western, operative magic.",
+        },
+        Rituals: {
+            The_Voltia:
+                "A technique of using sexual intercourse (without procreation) to generate a 'magnetic vortex' for spiritual ascent or materializing desires.",
+            Mirror_Scrying: "Use of specially prepared convex mirrors to communicate with the 'Interior Circle'.",
+        },
+        Structure: {
+            Correspondence_Course: "Operated largely by mail, sending secret manuscripts to members before the internet age.",
+        },
+    },
+
+    Illuminates_of_Thanateros_IOT: {
+        tags: [
+            "aesthetic_cyberpunk",
+            "aesthetic_minimalist",
+            "path_left_hand",
+            "source_chaos_magic",
+            "type_fraternal",
+            "era_postmodern",
+            "practice_ritual",
+            "practice_meditation", // Gnosis states
+        ],
+        Origins: "Founded in 1978 by Peter Carroll and Ray Sherwin; the premier order of Chaos Magic.",
+        Beliefs: {
+            Nothing_is_True:
+                "Belief is a tool. One can adopt any belief system (paradigm shifting) to achieve a magical result, then discard it.",
+            Eros_and_Thanatos:
+                "The two primary psychological drives (Sex and Death) are the keys to entering the 'Gnostic State' (altered consciousness).",
+        },
+        Rituals: {
+            The_Gnostic_State:
+                "Reaching a state of 'no-mind' through orgasm, exhaustion, pain, or fear to launch a 'sigil' (magical intention) into the subconscious.",
+            Mass_of_Chaos_B: "A ritual involving the invocation of Baphomet (the union of opposites) and the use of the 'Chaos Star'.",
+            Ourano_Barbarian: "Chanting in a constructed language designed to bypass the censor of the conscious mind.",
+        },
+        Structure: {
+            Meritocratic: "Heirarchy is based strictly on magical skill and contributions, known as the 'Pact'.",
+        },
+    },
+
+    Discordianism: {
+        tags: [
+            "aesthetic_surreal",
+            "aesthetic_pop",
+            "path_left_hand",
+            "source_parody", // "Serious Joke"
+            "type_disorganized",
+            "era_postmodern",
+            "practice_subversion",
+            "practice_art",
+        ],
+        Origins: "Founded in 1957; centered on the 'Principia Discordia'.",
+        Beliefs: {
+            The_Sacred_Chao:
+                "Order (Aneris) and Disorder (Eris) are illusions imposed on the pure Chaos of the universe. The Discordian embraces the Chaos.",
+            The_Creative_Mess: "Reality is a Rorschach test; you create your own reality tunnels.",
+        },
+        Rituals: {
+            Operation_Mindfuck:
+                "Deliberate acts of surrealism, pranks, or spreading disinformation (e.g., about the Illuminati) to break people's rigid programming.",
+            Turkey_Curse: "A ritual chant to negate negative energy.",
+            Bunless_Hotdogs:
+                "Eating hot dogs on Friday without buns to violate the norms of Catholicism (no meat), Judaism (no pork), and Hinduism (no beef) simultaneously.",
+        },
+        Structure: {
+            Pope_Card: "Every man, woman, and child is a Pope. Cards are distributed declaring the bearer an infallible Pope.",
+        },
+    },
+
+    Cathars_Albigensians: {
+        tags: [
+            "aesthetic_medieval",
+            "aesthetic_ascetic",
+            "path_right_hand", // Extreme purity
+            "source_gnosis",
+            "type_revolutionary",
+            "era_medieval",
+            "practice_initiation",
+            "practice_fasting",
+            "practice_burial", // or lack thereof
+        ],
+        Origins:
+            "12th-14th Century Southern France (Languedoc) and Italy. Viewing themselves as the only true Christians, successors to the Apostles.",
+        Beliefs: {
+            Two_Gods:
+                "The benevolent God of the Spirit (New Testament) vs. the malevolent God of Matter/Rex Mundi (Old Testament/Jehovah).",
+            Transmigration:
+                "Souls are fallen angels trapped in a cycle of reincarnation (tuning from human to animal) until they are purified.",
+            Docetism: "Jesus was a phantom of pure light; he had no physical body and therefore never died on the cross.",
+        },
+        Rituals: {
+            The_Consolamentum:
+                "The 'Baptism of Fire'. The central rite where a 'Believer' became a 'Perfect' (Parfait). It involved the laying on of hands and the placement of the Gospel of John on the head. Once received, the initiate could never eat meat or touch a woman again.",
+            The_Melioramentum:
+                "A ritual greeting where a believer would bow three times to a Perfect, saying 'Pray for us, Good Christian,' acknowledging the Holy Spirit dwelling within them.",
+            The_Endura:
+                "A ritual suicide by starvation (or sometimes cold/poison) undertaken after receiving the Consolamentum on one's deathbed, to ensure the soul remained pure before death.",
+            Appareillamentum: "A monthly public confession of sins, not to a priest, but to the community of deacons.",
+        },
+        Structure: {
+            The_Perfecti:
+                "The spiritual elite (Good Men/Women) who wore black robes, carried a leather bag with the Gospel, and refused to swear oaths.",
+            The_Credentes:
+                "The 'Believers' who lived normal lives (married, fought, ate meat) but supported the Perfecti and hoped to receive the Consolamentum before death.",
+        },
+    },
+
+    Bogomils: {
+        tags: [
+            "aesthetic_rustic",
+            "aesthetic_surreal",
+            "path_right_hand",
+            "source_gnosis",
+            "type_revolutionary",
+            "era_medieval",
+            "practice_chant",
+            "practice_subversion",
+        ],
+        Origins: "10th Century Bulgaria and Balkans; the bridge between ancient Manichaeism and Western Catharism.",
+        Beliefs: {
+            Satanael:
+                "Satan was the elder son of God and the brother of Jesus. He created the physical world and the body of Adam, but could not breathe life into it until God helped him.",
+            Hated_Symbols:
+                "They despised the Cross (viewing it as the weapon used to murder Jesus) and churches (piles of stones where Satan dwells).",
+        },
+        Rituals: {
+            Chanting_the_Pater:
+                "They rejected all prayers except the Lord's Prayer (Pater Noster), which they recited continuously—120 times a day and 30 times a night.",
+            Rocking_Prayer:
+                "While chanting, they would sway or rock violently, sometimes falling into ecstatic fits to purge the demon from the body.",
+            Confession_to_Sun: "Confessing sins while facing the sun (a remnant of Manichaean light-worship).",
+        },
+        Structure: {
+            Blind_Demons: "They taught that orthodox priests were 'blind demons' leading the blind.",
         },
     },
 }
