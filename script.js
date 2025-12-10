@@ -194,6 +194,7 @@ function renderDetail(key, society) {
     if (typeof restartSimulation === "function") {
         restartSimulation() // Trigger redraw to show highlight
     }
+    updateUrlState()
 }
 
 function addTagFilter(tag) {
@@ -661,6 +662,7 @@ function initNetwork() {
             }
         }
         restartSimulation()
+        updateUrlState()
     }
 
     // Initial link generation
@@ -843,7 +845,33 @@ function initNetwork() {
 
     // Start the loop
     networkSimulation()
-} // --- Initialization ---
+}
+
+// --- URL State Management ---
+function updateUrlState() {
+    const params = new URLSearchParams(window.location.search)
+    if (selectedNodeId) params.set("society", selectedNodeId)
+
+    const connectionModeSelect = document.getElementById("network-connection-mode")
+    if (connectionModeSelect) params.set("mode", connectionModeSelect.value)
+
+    const connectionThresholdSlider = document.getElementById("connection-threshold")
+    if (connectionThresholdSlider) params.set("threshold", connectionThresholdSlider.value)
+
+    const newUrl = `${window.location.pathname}?${params.toString()}`
+    window.history.replaceState({}, "", newUrl)
+}
+
+function loadStateFromUrl() {
+    const params = new URLSearchParams(window.location.search)
+    return {
+        society: params.get("society"),
+        mode: params.get("mode"),
+        threshold: params.get("threshold"),
+    }
+}
+
+// --- Initialization ---
 async function init() {
     manifestData = await loadManifest()
 
@@ -869,14 +897,32 @@ async function init() {
         // Render Explore Column (Random initially) - REMOVED
         // renderExplore(keys)
 
-        // Select first item
-        if (keys.length > 0) {
-            const firstKey = keys[0]
-            renderDetail(firstKey, dataSocieties[firstKey])
-            // Highlight first
+        // Load State
+        const urlState = loadStateFromUrl()
+
+        // Apply Network Settings (before initNetwork)
+        if (urlState.mode) {
+            const modeSelect = document.getElementById("network-connection-mode")
+            if (modeSelect) modeSelect.value = urlState.mode
+        }
+        if (urlState.threshold) {
+            const thresholdSlider = document.getElementById("connection-threshold")
+            if (thresholdSlider) thresholdSlider.value = urlState.threshold
+        }
+
+        // Select item
+        let initialKey = keys.length > 0 ? keys[0] : null
+        if (urlState.society && dataSocieties[urlState.society]) {
+            initialKey = urlState.society
+        }
+
+        if (initialKey) {
+            renderDetail(initialKey, dataSocieties[initialKey])
+            // Highlight
             document.querySelectorAll(".nav-item").forEach((item) => {
-                if (item.querySelector("span").textContent === formatKey(firstKey)) {
+                if (item.querySelector("span").textContent === formatKey(initialKey)) {
                     item.classList.add("active")
+                    item.scrollIntoView({ behavior: "smooth", block: "center" })
                 }
             })
         }
