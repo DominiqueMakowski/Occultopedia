@@ -1046,5 +1046,47 @@ const imagesManifest = {
         "Ku_Klux_Klan_1.jpg",
         "Ku_Klux_Klan_2.jpg",
         "Ku_Klux_Klan_3.png"
+    ],
+    "Order_of_the_Golden_and_Rosy_Cross": [
+        "Order_of_the_Golden_and_Rosy_Cross_0.jpg",
+        "Order_of_the_Golden_and_Rosy_Cross_1.jpg",
+        "Order_of_the_Golden_and_Rosy_Cross_2.jpg",
+        "Order_of_the_Golden_and_Rosy_Cross_3.png"
+    ],
+    "Martinist_Order": [
+        "Martinist_Order_0.png",
+        "Martinist_Order_1.png",
+        "Martinist_Order_2.png",
+        "Martinist_Order_3.jpg"
+    ],
+    "Societas_Rosicruciana_in_Anglia": [
+        "Societas_Rosicruciana_in_Anglia_0.png",
+        "Societas_Rosicruciana_in_Anglia_1.jpg",
+        "Societas_Rosicruciana_in_Anglia_2.png",
+        "Societas_Rosicruciana_in_Anglia_3.jpg"
+    ],
+    "Elus_Coens": [
+        "Elus_Coens_0.jpg",
+        "Elus_Coens_1.png",
+        "Elus_Coens_2.jpg",
+        "Elus_Coens_3.jpg"
+    ],
+    "Spiritism_Kardecist_Circles": [
+        "Spiritism_Kardecist_Circles_0.jpg",
+        "Spiritism_Kardecist_Circles_1.jpg",
+        "Spiritism_Kardecist_Circles_2.jpg",
+        "Spiritism_Kardecist_Circles_3.jpg"
+    ],
+    "Nauvoo_Council_of_Fifty": [
+        "Nauvoo_Council_of_Fifty_0.jpg",
+        "Nauvoo_Council_of_Fifty_1.jpg",
+        "Nauvoo_Council_of_Fifty_2.jpg",
+        "Nauvoo_Council_of_Fifty_3.jpg"
+    ],
+    "Society_of_Universal_Harmony_Mesmerism": [
+        "Society_of_Universal_Harmony_Mesmerism_0.jpg",
+        "Society_of_Universal_Harmony_Mesmerism_1.jpg",
+        "Society_of_Universal_Harmony_Mesmerism_2.png",
+        "Society_of_Universal_Harmony_Mesmerism_3.jpg"
     ]
 };
