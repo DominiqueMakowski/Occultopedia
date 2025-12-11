@@ -1088,5 +1088,64 @@ const imagesManifest = {
         "Society_of_Universal_Harmony_Mesmerism_1.jpg",
         "Society_of_Universal_Harmony_Mesmerism_2.png",
         "Society_of_Universal_Harmony_Mesmerism_3.jpg"
+    ],
+    "Eglise_Gnostique_Catholique": [
+        "Eglise_Gnostique_Catholique_0.png",
+        "Eglise_Gnostique_Catholique_1.png",
+        "Eglise_Gnostique_Catholique_2.jpg",
+        "Eglise_Gnostique_Catholique_3.png"
+    ],
+    "Rite_of_Memphis_Misraim": [
+        "Rite_of_Memphis_Misraim_0.jpg",
+        "Rite_of_Memphis_Misraim_1.png",
+        "Rite_of_Memphis_Misraim_2.jpg",
+        "Rite_of_Memphis_Misraim_3.png"
+    ],
+    "Builders_of_the_Adytum_BOTA": [
+        "Builders_of_the_Adytum_BOTA_0.jpg",
+        "Builders_of_the_Adytum_BOTA_1.png",
+        "Builders_of_the_Adytum_BOTA_2.jpg",
+        "Builders_of_the_Adytum_BOTA_3.png"
+    ],
+    "Brotherhood_of_Eulis": [
+        "Brotherhood_of_Eulis_0.jpg",
+        "Brotherhood_of_Eulis_1.jpg",
+        "Brotherhood_of_Eulis_2.jpg",
+        "Brotherhood_of_Eulis_3.png"
+    ],
+    "UR_Group": [
+        "UR_Group_0.png",
+        "UR_Group_1.png",
+        "UR_Group_2.png",
+        "UR_Group_3.png"
+    ],
+    "Eulis_Brotherhood": [
+        "Eulis_Brotherhood_0.jpg",
+        "Eulis_Brotherhood_1.png",
+        "Eulis_Brotherhood_2.png",
+        "Eulis_Brotherhood_3.png"
+    ],
+    "Thee_Temple_ov_Psychick_Youth_TOPY": [
+        "Thee_Temple_ov_Psychick_Youth_TOPY_0.png",
+        "Thee_Temple_ov_Psychick_Youth_TOPY_1.png",
+        "Thee_Temple_ov_Psychick_Youth_TOPY_2.jpg",
+        "Thee_Temple_ov_Psychick_Youth_TOPY_3.jpg"
+    ],
+    "Fraternity_of_the_Inner_Light": [
+        "Fraternity_of_the_Inner_Light_0.jpg",
+        "Fraternity_of_the_Inner_Light_1.png",
+        "Fraternity_of_the_Inner_Light_3.jpg"
+    ],
+    "Brotherhood_of_Myriam": [
+        "Brotherhood_of_Myriam_0.png",
+        "Brotherhood_of_Myriam_1.jpg",
+        "Brotherhood_of_Myriam_2.png",
+        "Brotherhood_of_Myriam_3.jpg"
+    ],
+    "Fraternitas_Rosae_Crucis": [
+        "Fraternitas_Rosae_Crucis_0.jpg",
+        "Fraternitas_Rosae_Crucis_1.png",
+        "Fraternitas_Rosae_Crucis_2.png",
+        "Fraternitas_Rosae_Crucis_3.jpg"
     ]
 };

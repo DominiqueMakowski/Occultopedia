@@ -330,8 +330,9 @@ const dataSocieties = {
 
     Naassenes: {
         tags: [
-            "aesthetic_carnal",
+            "aesthetic_cerebral", // Added: They were intense philosophers/exegetes
             "aesthetic_ecstatic",
+            "aesthetic_carnal", // Retained: Their symbolism is sexual, even if practice was ascetic
             "path_syncretic",
             "source_gnosis",
             "type_fraternal",
@@ -340,24 +341,36 @@ const dataSocieties = {
             "practice_initiation",
             "practice_costume",
             "practice_drugs",
+            "practice_meditation", // Added: Focus on internal anatomy/brain
         ],
-        Origins: "Deriving their name from the Hebrew 'Nachash' (Snake); they claimed traditions from James the Just.",
+        Origins:
+            "2nd Century CE; the first group to explicitly call themselves 'Gnostics'. They claimed their secret tradition was passed from James the Just to Mariamne. The name derives from the Hebrew 'Naḥash' (Serpent), honoring the snake of Eden as the instructor of humanity.",
         Beliefs: {
-            The_Primal_Androgyne: "The ultimate reality is a hermaphroditic Man (Adamas).",
-            Spiritual_Fluid: "The universe consists of three currents (intellectual, psychic, earthy).",
+            The_Primal_Man:
+                "The ultimate reality is the 'Primal Man' (Adamas) who is 'Arsenothelys' (male-female). All religious figures (Attis, Osiris, Hermes, Christ) are masks of this single, universal Androgyne.",
+            The_Great_Jordan:
+                "They viewed the River Jordan not as water, but as the cosmic stream of sexual/spiritual energy. The 'downward flowing' Jordan generates flesh (birth/death), while the 'upward flowing' Jordan (controlled by the Gnostic) generates the immortal spirit.",
+            Anatomy_of_the_Temple:
+                "The human head was the true Temple. The brain was the 'Inner Sanctuary', and the spinal cord was the path of the serpent. Salvation was the neurological ascent of the 'seed' from the loins to the pineal gland.",
+            Serpent_Soteriology:
+                "The Serpent is the Moist Essence of the Universe; without it, nothing exists. It is the 'Logos' that bridges the gap between the unformed chaos and the formed world.",
         },
         Rituals: {
+            The_Green_Ear_of_Wheat:
+                "The climax of their initiation mirrored the Eleusinian Mysteries. The Hierophant, under brilliant light, silently displayed a 'cut ear of wheat'—symbolizing the perfect spiritual seed harvested from the world of flesh.",
+            The_Three_Gatekeepers:
+                "Initiates memorized the 'Kaulakau' (Adam/Intellect), 'Saulasau' (Mortal/Psychic), and 'Zeesar' (Jordan/Earthly) passwords. These were keys to unlock the planetary spheres, allowing the soul to escape the 'Rock' (the dense material body).",
             Cup_of_Anacreon:
-                "A ritual drinking of water turned into wine (or vice versa) to induce a state of 'speaking without speech', likely involving an intoxicant.",
-            Three_Passwords:
-                "The ascent required three specific Hebrew passwords derived from Isaiah 28: 'Saulasau' (to escape the underworld), 'Zeesar' (to pass the gate of heaven), and 'Kaulakau' (to enter the Pleroma).",
-            Hermes_Psychopomp:
-                "Veneration of Hermes with his caduceus (snake-staff) as the awakener of souls. The staff was used to physically 'smack' souls awake in the ritual drama.",
-            Lovers_of_Adamas:
-                "Initiates took vows of celibacy to become 'male-female' hermaphrodites like their god, rejecting gender roles.",
+                "A eucharistic rite involving a cup of wine poured into water (or water into wine) to symbolize the mixing of the lower and higher spirits. Participants sought a state of 'divine intoxication' to loosen the soul from the body.",
+            Hermetic_Awakening:
+                "Veneration of Hermes-Logos. The ritual involved the 'Stroke of the Wand'—a symbolic act (likely touching the forehead or spine with a caduceus) meant to shock the 'sleeping' psychic consciousness into a pneumatic (spiritual) state.",
+            Theater_of_Attis:
+                "They ritually enacted the castration of Attis, not physically, but allegorically. 'Castration' meant cutting off the lower, generative desires of the flesh to redirect that creative potency upward toward the brain/heaven.",
         },
         Structure: {
-            Three_Levels: "Initiates progressed through grades: Child (Paidos), Youth (Ephebos), and Adult (Aner).",
+            Ecclesia_of_the_Called:
+                "They divided humanity into three classes: the 'Captives' (materialists), the 'Called' (psychics/Christians), and the 'Chosen' (pneumatics/Naassenes).",
+            Lineage: "Strict apostolic succession traced through Mariamne, emphasizing secret oral tradition over written scripture.",
         },
     },
 
@@ -5686,6 +5699,348 @@ const dataSocieties = {
         Structure: {
             Spiritist_Centres:
                 "Operated as study circles and charitable organizations rather than hierarchical lodges, but maintained strict 'inner' study groups for mediums.",
+        },
+    },
+
+    Eulis_Brotherhood: {
+        tags: [
+            "aesthetic_carnal",
+            "aesthetic_ecstatic",
+            "path_left_hand",
+            "source_gnosis",
+            "type_fraternal",
+            "era_industrial",
+            "practice_sex",
+            "practice_drugs",
+            "practice_divination", // Magic Mirrors
+            "practice_secret",
+        ],
+        Origins:
+            "Founded c. 1874 by Paschal Beverly Randolph in the USA; the first 'Rosicrucian' order in America and the primary source for modern Western sexual magic.",
+        Beliefs: {
+            Sexual_Polarity:
+                "The belief that the moment of sexual orgasm is the only moment a human can truly contact the divine or influence the cosmos.",
+            Pre_Adamites:
+                "Randolph taught that the human race existed long before the Biblical Adam, a radical view for his time attempting to reconcile evolution with occultism.",
+            The_Ansairetic_Mystery:
+                "The secret science of using sex not for procreation or pleasure, but for 'Volantia' (Will-Power) and magical creation.",
+        },
+        Rituals: {
+            The_Nuptial_Moment:
+                "The central ritual is the 'prayer' offered at the exact moment of climax. Randolph taught that a wish formulated at this split-second would be imprinted on the 'photosphere' of the universe.",
+            Magic_Mirrors:
+                "Extensive use of black concave mirrors (which Randolph manufactured and sold) for scrying. The initiate would stare into the dark depth, aided by hashish, to communicate with spirits.",
+            Hashish_Eucharist:
+                "Randolph was one of the first to introduce hashish to the West as a spiritual tool, using it in 'confections' to loosen the soul from the body for magical work.",
+        },
+        Structure: {
+            Triple_Order:
+                "Organized into three grades: Eulis, the Ansaireh, and the Tribune. It was largely autocratic, centered on Randolph's teachings and mail-order manuscripts.",
+        },
+    },
+
+    Eglise_Gnostique_Catholique: {
+        tags: [
+            "aesthetic_cerebral",
+            "aesthetic_macabre",
+            "path_syncretic",
+            "source_gnosis",
+            "type_fraternal",
+            "era_industrial",
+            "practice_initiation",
+            "practice_chant",
+            "practice_commune",
+        ],
+        Origins:
+            "Founded 1890 in France by Jules Doinel after a spirit séance in the library of Orléans. This is the church in which René Guénon was consecrated a bishop (Palingenius).",
+        Beliefs: {
+            Neo_Catharism:
+                "Claimed to be a spiritual reconstitution of the medieval Cathars (Albigensians) who were wiped out by the Inquisition.",
+            Divine_Feminine: "Veneration of Sophia (Wisdom) alongside Christ; Doinel claimed to have visions of the 'Eternal Feminine'.",
+            Restoration_of_Gnosis: "The belief that salvation comes through knowledge (Gnosis) of the Pleroma, not through faith or works.",
+        },
+        Rituals: {
+            Consolamentum:
+                "A revival of the Cathar 'Baptism of Fire/Spirit'. The ritual involved the laying on of hands to make the initiate a 'Perfect' (Parfait), ostensibly purifying them of the corruption of matter.",
+            Fraction_of_the_Bread:
+                "A Gnostic eucharist where bread was broken and wine was shared, but explicitly interpreted as symbols of Light trapped in Matter, rather than the body of Christ.",
+            Appareillamentum:
+                "A public confession ritual where the 'Perfects' acknowledged their errors before the 'Good Men' and 'Good Women' of the assembly.",
+        },
+        Structure: {
+            Ecclesiastical_Hierarchy:
+                "Modeled on the Catholic Church but with Gnostic titles: Patriarch, Bishops (Sophia), Deacons, and Faithful. It became a hub for the French occult intelligentsia (Papus, Sédir, Guénon).",
+        },
+    },
+
+    Rite_of_Memphis_Misraim: {
+        tags: [
+            "aesthetic_cerebral",
+            "aesthetic_martial",
+            "path_right_hand",
+            "source_ancestral",
+            "type_fraternal",
+            "era_industrial",
+            "practice_initiation",
+            "practice_secret",
+            "practice_chant",
+        ],
+        Origins:
+            "Formed in 1881 by the fusion of two older rites (Memphis and Misraïm) under Giuseppe Garibaldi. It represents the 'Egyptian' current of Freemasonry critiqued by Guénon.",
+        Beliefs: {
+            Arcana_Arcanorum: "The belief that the highest degrees contain the ultimate secrets of immortality and internal alchemy.",
+            Hermetic_Masonry: "Unlike standard masonry, M&M integrates Cabala, Alchemy, and Hermeticism directly into its degree work.",
+            The_99_Degrees:
+                "Famous for its massive hierarchy of 99 degrees (compared to the standard 33 of the Scottish Rite), which Guénon criticized as 'inflation' of titles.",
+        },
+        Rituals: {
+            The_Kneph:
+                "High-degree rituals focus on the 'Kneph' (the winged egg) and the cycles of creation/destruction found in Egyptian mythology.",
+            Philosophical_Death:
+                "The initiate must undergo a symbolic decomposition (putrefaction) to separate the subtle body from the physical shell.",
+            Senate_of_Hermetic_Philosophers:
+                "Meetings for the higher degrees (40°–90°) are purely philosophical and occult, discussing the nature of the soul and the structure of the universe.",
+        },
+        Structure: {
+            Sovereign_Sanctuary:
+                "The governing body of the Rite. The Grand Hierophant (97°) holds supreme authority over the international lodges.",
+        },
+    },
+
+    Fraternitas_Rosae_Crucis: {
+        tags: [
+            "aesthetic_cerebral",
+            "aesthetic_ecstatic",
+            "path_syncretic",
+            "source_gnosis",
+            "type_fraternal",
+            "era_industrial",
+            "practice_initiation",
+            "practice_sex", // Inner teachings
+            "practice_meditation",
+            "practice_secret",
+        ],
+        Origins:
+            "Founded c. 1858 by Paschal Beverly Randolph; generally recognized as the oldest Rosicrucian order established in the United States. It established its first Grand Lodge in San Francisco in 1861.",
+        Beliefs: {
+            Volitive_Soul:
+                "Emphasized the active power of the Will (Volitia) over the passive mediumship of Spiritualism. The goal was to actively master spirits rather than be possessed by them.",
+            Rosicrucian_Rectification:
+                "Taught that true Rosicrucianism was not merely an ancient tradition but a living system of 'rectifying' the soul through specific physical and mental disciplines.",
+            Pre_Adamite_History:
+                "Randolph taught that humanity existed long before the Biblical Adam, a radical view attempting to reconcile occult history with emerging evolutionary theory.",
+        },
+        Rituals: {
+            Breathing_Exercises:
+                "Specific rhythmic breathing techniques aimed at charging the blood with oxygen and 'vital force' to strengthen the will.",
+            The_Sleep_of_Sialam:
+                "A trance state induced not for passive mediumship, but for clairvoyant travel and the projection of the will.",
+        },
+        Structure: {
+            Grand_Dome:
+                "Organized into a hierarchy of Lodges led by a Supreme Grand Master (Randolph), later succeeded by Freeman B. Dowd and the Clymer family.",
+        },
+    },
+
+    Brotherhood_of_Eulis: {
+        tags: [
+            "aesthetic_carnal",
+            "aesthetic_macabre",
+            "path_left_hand", // Western Left Hand Path progenitor
+            "source_gnosis",
+            "type_fraternal",
+            "era_industrial",
+            "practice_sex",
+            "practice_drugs",
+            "practice_divination",
+            "practice_alteration",
+        ],
+        Origins:
+            "The 'Interior Order' or inner circle of Randolph's work (c. 1874), distinct from the FRC. It focused explicitly on the 'Ansairetic Mystery' (Sexual Magic) which Randolph claimed to have learned in the Middle East.",
+        Beliefs: {
+            The_Nuptial_Moment:
+                "The core doctrine that the moment of sexual orgasm is a magical singularity. A prayer or wish formulated at the precise moment of climax is impressed upon the cosmos with irresistible force.",
+            Sexual_Polarity:
+                "The universe is driven by the magnetic interaction of Male (positive) and Female (negative) forces. Magic is the manipulation of this polarity.",
+        },
+        Rituals: {
+            Magic_Mirrors:
+                "The use of concave black mirrors (manufactured by Randolph) for scrying. Initiates stared into the dark depth to contact spirits and view distant events.",
+            Hashish_Confections:
+                "Randolph was one of the first to introduce hashish to the West as a ritual tool, using it in specific electuaries to loosen the astral body for magical work.",
+            The_Prayer_of_Union:
+                "The ritualized sexual act where the couple focuses their combined will on a single intent (magical child or material desire) at the moment of 'crisis' (orgasm).",
+        },
+        Structure: {
+            Triple_Order: "Divided into three grades: Eulis, The Ansaireh, and The Tribune.",
+        },
+    },
+
+    Brotherhood_of_Myriam: {
+        tags: [
+            "aesthetic_cerebral",
+            "aesthetic_ecstatic",
+            "path_syncretic",
+            "source_gnosis",
+            "type_fraternal",
+            "era_industrial",
+            "practice_meditation",
+            "practice_chant", // Invocatory rituals
+            "practice_commune",
+            "practice_secret",
+        ],
+        Origins:
+            "Founded in 1896 in Italy by Giuliano Kremmerz (Ciro Formisano). It is a 'Therapeutic and Magical Brotherhood' focused on reviving the ancient Roman/Egyptian hermetic tradition.",
+        Beliefs: {
+            Sacred_Materialism:
+                "The belief in the unity of spirit and matter; spiritual evolution must have concrete effects on the living organism (the body).",
+            Isaiatic_Magic:
+                "A specific current of healing magic propagated by the order, distinct from the kabbalistic magic of the Golden Dawn.",
+            Distance_Healing:
+                "The primary external aim is therapeutic aid to the sick, effected through 'distance medicine' and invocatory rituals.",
+        },
+        Rituals: {
+            Invocatory_Therapy:
+                "Rituals are strictly private and focused on healing rather than ceremonial pageantry. They involve specific prayers and mental focus to transmit vital force to patients.",
+            The_Pragmatica:
+                "The order follows a strict statutory code (Pragmatica Fondamentale) of 60 paragraphs outlining the disciple's duties of selfless good.",
+        },
+        Structure: {
+            Schola_Philosophica:
+                "Operates as the 'Schola Philosophica Hermetica Classica Italica' (S.P.H.C.I.). It eschews public exposure, unlike the Golden Dawn.",
+        },
+    },
+
+    UR_Group: {
+        tags: [
+            "aesthetic_cerebral",
+            "aesthetic_martial",
+            "path_left_hand", // Focus on absolute individual power
+            "source_elite",
+            "type_fraternal",
+            "era_modern",
+            "practice_meditation",
+            "practice_visualization",
+            "practice_secret",
+            "practice_magic",
+        ],
+        Origins:
+            "Founded c. 1927 in Italy by Julius Evola and Arturo Reghini. A collective of intellectuals seeking to move beyond theory to practical 'Magic as a Science of the Self'.",
+        Beliefs: {
+            Autarchy:
+                "The goal is absolute individual power and the creation of a superior being, rejecting 'petty bourgeois' morality and humanitarianism.",
+            The_Magical_Chain:
+                "Creating a psychic link among members to generate a force capable of influencing the external world (including politics).",
+            Traditionalism: "Rooted in a 'universal Tradition' prior to modern religion, drawing on Roman, Mithraic, and Tantric sources.",
+        },
+        Rituals: {
+            Mithraic_Rite: "Utilization of the 'Grand Papyrus of Paris' (Mithraic Liturgy) to invoke solar power and achieve immortality.",
+            Etheric_Double: "Instructions for detaching and developing the 'body of light' or etheric double for magical action.",
+            Words_of_Power: "The use of specific phonetic formulas (like the 'Thunderbolt Diamond Path') to alter consciousness.",
+        },
+        Structure: {
+            The_Chains:
+                "Organized into operational 'chains' in various cities. Members used pseudonyms (e.g., Ea, Iagla) to emphasize the work over the personality.",
+        },
+    },
+
+    Builders_of_the_Adytum_BOTA: {
+        tags: [
+            "aesthetic_cerebral",
+            "path_right_hand",
+            "source_gnosis",
+            "type_fraternal",
+            "era_modern",
+            "practice_meditation",
+            "practice_initiation",
+            "practice_divination", // Tarot
+            "practice_chant",
+        ],
+        Origins: "Founded in 1922 by Paul Foster Case after he left the Alpha et Omega (Golden Dawn). Later extended by Ann Davies.",
+        Beliefs: {
+            Ageless_Wisdom: "The belief that Qabalah and Tarot are not human inventions but keys 'written by God upon the face of nature'.",
+            Living_Temple:
+                "The 'Adytum' refers to the Holy of Holies within the human body; members are builders of this inner living temple.",
+            Tarot_Psychology:
+                "Tarot is viewed primarily as a tool for psychological transmutation and attuning the mind to the 'One Reality', rather than just fortune-telling.",
+        },
+        Rituals: {
+            Pronaos_Work: "Group rituals involving dramatic enactment of Tarot symbolism to impress the images upon the psyche.",
+            Second_Order_Rites:
+                "Advanced rituals including the 'Consecration of the Vault of the Adepts', adapted from the Golden Dawn but replacing god-forms with angelic/abstract imagery.",
+            Sound_and_Color:
+                "Specific use of chanting (intoning Hebrew letters) combined with color visualization to stimulate psychic centers.",
+        },
+        Structure: {
+            Outer_and_Inner:
+                "Divided into an Outer School (correspondence lessons) and an Inner School (ritual Chapter). Governed by a Board of Stewards.",
+        },
+    },
+
+    Fraternity_of_the_Inner_Light: {
+        tags: [
+            "aesthetic_cerebral",
+            "path_right_hand",
+            "source_gnosis",
+            "type_fraternal",
+            "era_modern",
+            "practice_meditation",
+            "practice_initiation",
+            "practice_sex", // Spiritual polarity
+            "practice_visualization",
+        ],
+        Origins:
+            "Founded in 1924 by Dion Fortune (Violet Mary Firth) after her expulsion from the Alpha et Omega. Originally the 'Community of the Inner Light'.",
+        Beliefs: {
+            Esoteric_Psychology:
+                "Heavily influenced by Freud and Jung; magic is defined as 'the art of causing changes in consciousness in conformity with will'.",
+            The_Cosmic_Doctrine:
+                "A cosmology received via trance mediumship describing the evolution of the universe through 'Rings' and 'Rays'.",
+            Arthurian_Tradition:
+                "A shift towards native British mythology (Grail/Arthur) as the proper vehicle for Western initiates, replacing the heavy Egyptian focus of the Golden Dawn.",
+        },
+        Rituals: {
+            Polarity_Magic:
+                "Ritual work based on the dynamic tension between male and female principles (without necessary physical union) to generate magical force.",
+            Wartime_Meditations:
+                "During WWII, the Order performed synchronized visualizations of angelic guardians patrolling the British coast to repel Nazi invasion.",
+        },
+        Structure: {
+            Sanctuary:
+                "Based in Glastonbury (Chalice Well) and London. The order survived its founder and influenced the later New Age movement.",
+        },
+    },
+
+    Thee_Temple_ov_Psychick_Youth_TOPY: {
+        tags: [
+            "aesthetic_cyberpunk",
+            "aesthetic_ecstatic",
+            "path_left_hand",
+            "source_chaos_magic",
+            "type_fraternal", // Network
+            "era_postmodern",
+            "practice_alteration", // Piercing/Tattoos
+            "practice_sex",
+            "practice_magic", // Sigils
+            "practice_subversion",
+        ],
+        Origins:
+            "Founded in 1981 by Genesis P-Orridge and the industrial band Psychic TV. A key driver of the 'Chaos Magic' and 'Modern Primitive' movements.",
+        Beliefs: {
+            Occulture: "The blurring of lines between art, magic, and pop culture. Information is the new territory of struggle.",
+            De_Programming:
+                "The goal is to break the conditioning of society (family, media, religion) to reclaim individual liberty and the 'True Will'.",
+            Zero_Regret: "A state of inner balance and acceptance of mortality, using the fear of death to motivate radical action.",
+        },
+        Rituals: {
+            Sigil_ov_Three_Liquids:
+                "The central discipline: on the 23rd of each month at 23:00, members create a sigil representing a desire, anointed with fluids (blood, spit, semen/vaginal fluid) and hair, then mail it to a central station.",
+            Psychick_TV:
+                "Concerts were treated as rituals, using strobe lights, noise, and video loops to induce trance and de-pattern the audience's minds.",
+        },
+        Structure: {
+            Stations:
+                "A loose network of 'Access Points' and 'Stations' (e.g., TOPYNA in North America) rather than a rigid hierarchy. Texts are disseminated via the 'Psychick Bible'.",
         },
     },
 }
