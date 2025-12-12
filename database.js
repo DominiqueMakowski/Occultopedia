@@ -4,17 +4,17 @@
 const dataSocieties = {
     Cult_of_Ishtar_Inanna: {
         tags: [
+            "era_ancient",
+            "location_levant",
             "aesthetic_carnal",
             "aesthetic_ecstatic",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fraternal",
-            "era_ancient",
+            "nature_esoteric",
             "practice_sex",
             "practice_costume",
             "practice_chant",
             "practice_initiation",
             "practice_dance",
+            "practice_taboobreaking",
         ],
         Origins: "Ancient Mesopotamia (Sumer/Babylon); centered in the Eanna District of Uruk.",
         Beliefs: {
@@ -40,16 +40,16 @@ const dataSocieties = {
 
     The_Magi: {
         tags: [
+            "era_ancient",
+            "location_levant",
             "aesthetic_cerebral",
             "aesthetic_martial",
-            "path_right_hand",
-            "source_ancestral",
-            "type_fraternal",
-            "era_ancient",
+            "nature_ancestral",
             "practice_silence",
             "practice_chant",
             "practice_burial",
             "practice_prayer",
+            "practice_purity",
         ],
         Origins: "Ancient Media/Persia; originally a specific tribe of the Medes that evolved into the Zoroastrian priestly caste.",
         Beliefs: {
@@ -74,17 +74,17 @@ const dataSocieties = {
 
     Cult_of_Cybele_Magna_Mater: {
         tags: [
+            "era_ancient",
+            "location_levant",
             "aesthetic_macabre",
             "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_gnosis",
-            "type_fraternal",
-            "era_ancient",
+            "nature_esoteric",
             "practice_self_harm",
             "practice_dance",
             "practice_costume",
             "practice_initiation",
             "practice_sacrifice",
+            "practice_taboobreaking",
         ],
         Origins: "Anatolian Phrygia, imported to Rome in 204 BC during the Punic Wars.",
         Beliefs: {
@@ -109,17 +109,17 @@ const dataSocieties = {
 
     Eleusinian_Mysteries: {
         tags: [
+            "era_ancient",
+            "location_europe",
             "aesthetic_ecstatic",
             "aesthetic_cerebral",
-            "path_right_hand",
-            "source_gnosis",
-            "type_fraternal",
-            "era_ancient",
+            "nature_esoteric",
             "practice_initiation",
             "practice_silence",
             "practice_chant",
             "practice_drugs",
             "practice_meal",
+            "practice_purity",
         ],
         Origins: "Ancient Greece; stood as the preeminent religious festival for nearly two thousand years.",
         Beliefs: {
@@ -146,16 +146,16 @@ const dataSocieties = {
 
     Pythagoreanism: {
         tags: [
-            "aesthetic_cerebral",
-            "path_right_hand",
-            "source_gnosis",
-            "type_fraternal",
             "era_ancient",
+            "location_europe",
+            "aesthetic_cerebral",
+            "nature_esoteric",
             "practice_silence",
             "practice_meditation",
             "practice_commune",
             "practice_asceticism",
             "practice_extortion",
+            "practice_purity",
         ],
         Origins: "Founded c. 570 BCE in Croton by Pythagoras; established the model for the 'philosophical brotherhood'.",
         Beliefs: {
@@ -183,17 +183,17 @@ const dataSocieties = {
 
     Mithraic_Mysteries: {
         tags: [
+            "era_ancient",
+            "location_europe",
             "aesthetic_martial",
             "aesthetic_cerebral",
-            "path_right_hand",
-            "source_elite",
-            "type_fraternal",
-            "era_ancient",
+            "nature_elite",
             "practice_initiation",
             "practice_commune",
             "practice_costume",
             "practice_meal",
             "practice_sacrifice",
+            "practice_purity",
         ],
         Origins: "Roman Empire; an exclusively male, solar-martial cult that introduced the 'grade system'.",
         Beliefs: {
@@ -212,23 +212,24 @@ const dataSocieties = {
         Structure: {
             Seven_Grades:
                 "Hierarchy associated with planets and regalia: Corax (wore a Raven mask/beak), Nymphus (wore a veil and carried a lamp), Miles (Soldier/Mars), Leo (wore a Lion mask), Perses (Persian cap/sickle), Heliodromus (Sun-Runner/whip/halo), Pater (Father/Saturn/Ring and Staff).",
-            Exclusivity: "Exclusively male and hierarchical.",
+            Gender_Nuance:
+                "While the grade system was exclusively male, recent archeology in the Eastern Empire suggests women may have participated in associated family cults, though they were barred from the inner mysteries.",
         },
     },
 
     Sethian_Gnostics: {
         tags: [
+            "era_ancient",
+            "location_levant",
             "aesthetic_cerebral",
             "aesthetic_ecstatic",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fraternal",
-            "era_ancient",
+            "nature_esoteric",
             "practice_chant",
             "practice_initiation",
             "practice_meditation",
             "practice_costume",
             "practice_prayer",
+            "practice_taboobreaking",
         ],
         Origins:
             "Emerging in the first century CE; they identified themselves as the 'Seed of Seth', the 'Incorruptible Race', and the 'Immobiles'.",
@@ -255,12 +256,11 @@ const dataSocieties = {
 
     Valentinian_Christians: {
         tags: [
+            "era_ancient",
+            "location_europe",
             "aesthetic_ecstatic",
             "aesthetic_carnal",
-            "path_syncretic",
-            "source_gnosis",
-            "type_fraternal",
-            "era_ancient",
+            "nature_esoteric",
             "practice_sex",
             "practice_initiation",
             "practice_chant",
@@ -268,6 +268,7 @@ const dataSocieties = {
             "practice_drugs",
             "practice_meal",
             "practice_prayer",
+            "practice_opposites",
         ],
         Origins: "Founded by Valentinus (c. 140 CE) in Rome; he was a brilliant theologian who almost became Pope.",
         Beliefs: {
@@ -296,16 +297,16 @@ const dataSocieties = {
 
     Ophian_Gnostics: {
         tags: [
+            "era_ancient",
+            "location_levant",
             "aesthetic_macabre",
             "aesthetic_cerebral",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fraternal",
-            "era_ancient",
+            "nature_esoteric",
             "practice_costume",
             "practice_password",
             "practice_chant",
             "practice_meal",
+            "practice_taboobreaking",
         ],
         Origins: "Also known as Ophites (Snake Gnostics); active in the 2nd century.",
         Beliefs: {
@@ -330,18 +331,18 @@ const dataSocieties = {
 
     Naassenes: {
         tags: [
-            "aesthetic_cerebral", // Added: They were intense philosophers/exegetes
-            "aesthetic_ecstatic",
-            "aesthetic_carnal", // Retained: Their symbolism is sexual, even if practice was ascetic
-            "path_syncretic",
-            "source_gnosis",
-            "type_fraternal",
             "era_ancient",
+            "location_levant",
+            "aesthetic_cerebral",
+            "aesthetic_ecstatic",
+            "aesthetic_carnal",
+            "nature_esoteric",
             "practice_chant",
             "practice_initiation",
             "practice_costume",
             "practice_drugs",
-            "practice_meditation", // Added: Focus on internal anatomy/brain
+            "practice_meditation",
+            "practice_opposites",
         ],
         Origins:
             "2nd Century CE; the first group to explicitly call themselves 'Gnostics'. They claimed their secret tradition was passed from James the Just to Mariamne. The name derives from the Hebrew 'Naḥash' (Serpent), honoring the snake of Eden as the instructor of humanity.",
@@ -376,15 +377,15 @@ const dataSocieties = {
 
     Peratics: {
         tags: [
+            "era_ancient",
+            "location_levant",
             "aesthetic_cerebral",
             "aesthetic_martial",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fraternal",
-            "era_ancient",
-            "practice_alteration", // Tattoos
-            "practice_divination", // Astrology
+            "nature_esoteric",
+            "practice_alteration",
+            "practice_divination",
             "practice_initiation",
+            "practice_taboobreaking",
         ],
         Origins: "Meaning 'The Travelers' or 'Crossers'; associated with traversing the cosmos.",
         Beliefs: {
@@ -408,27 +409,30 @@ const dataSocieties = {
 
     Hermetic_Circles: {
         tags: [
-            "aesthetic_cerebral",
-            "path_right_hand",
-            "source_gnosis",
-            "type_fraternal",
             "era_ancient",
+            "location_levant",
+            "aesthetic_cerebral",
+            "nature_esoteric",
             "practice_chant",
             "practice_meditation",
             "practice_commune",
             "practice_prayer",
+            "practice_purity",
         ],
         Origins: "Egypt, blending Egyptian religion with Greek philosophy; focused on Hermes Trismegistus (Thoth).",
         Beliefs: {
             The_Bowl_of_Mind:
                 "God sent down a great basin filled with 'Mind' (Nous) for those who wished to dunk themselves and attain gnosis.",
+            Poimandres_Vision:
+                "The foundational revelation of the 'Shepherd of Men'—a vision of a giant figure of light (Mind) crushing the darkness, serving as the prototype for Western occult illumination.",
             Mortal_Gods: "Humans are mortal gods; gods are immortal humans.",
         },
         Rituals: {
             Basin_Baptism: "Ritual immersion in a 'vat' or basin representing Mind to awaken the spiritual self.",
+            Vowel_Chanting:
+                "Using specific combinations of the seven Greek vowels (A, E, H, I, O, Y, Ω) to 'sing the world into being' or resonate with the planetary spheres (Musica Universalis), distinct from simple prayer.",
             Directional_Prayer: "Praying at sunrise facing East, and at sunset facing South.",
             Vegetarian_Meal: "A communal pure meal eaten at sunset, avoiding 'living things' to prevent harm to souls.",
-            The_Hymn_of_Rebirth: "Chanting hymns to the 'One and Only' to induce a trance of silence.",
         },
         Structure: {
             Instructional: "Operated as schools or circles of disciples gathered around a guru-figure.",
@@ -437,15 +441,15 @@ const dataSocieties = {
 
     Simonians: {
         tags: [
+            "era_ancient",
+            "location_levant",
             "aesthetic_carnal",
             "aesthetic_ecstatic",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fraternal",
-            "era_ancient",
+            "nature_esoteric",
             "practice_sex",
             "practice_initiation",
             "practice_costume",
+            "practice_taboobreaking",
         ],
         Origins: "Samaria; founded by Simon Magus and his consort Helena.",
         Beliefs: {
@@ -465,18 +469,19 @@ const dataSocieties = {
 
     Manichaeism: {
         tags: [
+            "era_ancient",
+            "location_levant",
             "aesthetic_cerebral",
             "aesthetic_macabre",
-            "path_syncretic",
-            "source_gnosis",
-            "type_revolutionary",
-            "era_ancient",
+            "nature_esoteric",
+            "nature_subversive",
             "practice_commune",
             "practice_chant",
             "practice_alteration",
             "practice_meal",
             "practice_prayer",
             "practice_asceticism",
+            "practice_purity",
         ],
         Origins: "Founded by Mani (born 216 CE) in Babylon; became the first true 'world religion' spanning from Rome to China.",
         Beliefs: {
@@ -498,16 +503,16 @@ const dataSocieties = {
 
     Mandaeans: {
         tags: [
-            "aesthetic_ecstatic",
-            "path_right_hand",
-            "source_gnosis",
-            "type_fraternal",
             "era_ancient",
+            "location_levant",
+            "aesthetic_ecstatic",
+            "nature_esoteric",
             "practice_initiation",
             "practice_burial",
             "practice_chant",
             "practice_costume",
             "practice_meal",
+            "practice_purity",
         ],
         Origins:
             "Origins in the Jordan Valley/Samaria, migrating to the marshes of Iraq/Iran; the only surviving Gnostic religion from antiquity.",
@@ -529,16 +534,16 @@ const dataSocieties = {
 
     Jeuians: {
         tags: [
+            "era_ancient",
+            "location_levant",
             "aesthetic_cerebral",
             "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_gnosis",
-            "type_fraternal",
-            "era_ancient",
+            "nature_esoteric",
             "practice_initiation",
             "practice_chant",
             "practice_password",
             "practice_prayer",
+            "practice_purity",
         ],
         Origins: "Egypt, 3rd century; known from the Books of Jeu and Pistis Sophia.",
         Beliefs: {
@@ -562,18 +567,18 @@ const dataSocieties = {
 
     Freemasonry: {
         tags: [
+            "era_preindustrial",
+            "location_europe",
             "aesthetic_cerebral",
             "aesthetic_martial",
-            "path_right_hand",
-            "source_elite",
-            "type_fraternal",
-            "era_preindustrial",
+            "nature_elite",
             "practice_initiation",
             "practice_password",
             "practice_costume",
             "practice_burial",
             "practice_meal",
             "practice_secret",
+            "practice_purity",
         ],
         Origins: "Late 16th/Early 17th Century; secularized the mystery tradition from 'magical' transformation to 'moral' construction.",
         Beliefs: {
@@ -599,15 +604,16 @@ const dataSocieties = {
 
     The_Illuminati: {
         tags: [
-            "aesthetic_cerebral",
-            "path_left_hand",
-            "source_gnosis",
-            "type_revolutionary",
             "era_preindustrial",
+            "location_europe",
+            "aesthetic_cerebral",
+            "nature_esoteric",
+            "nature_subversive",
             "practice_initiation",
             "practice_password",
-            "practice_subversion",
             "practice_secret",
+            "practice_taboobreaking",
+            "aesthetic_academic",
         ],
         Origins: "Founded 1776 in Bavaria by Adam Weishaupt to oppose superstition, obscurantism, and abuses of state power.",
         Beliefs: {
@@ -628,15 +634,15 @@ const dataSocieties = {
 
     Rosicrucianism_AMORC: {
         tags: [
-            "aesthetic_cerebral",
-            "path_syncretic",
-            "source_gnosis",
-            "type_fraternal",
             "era_industrial",
+            "location_usa",
+            "aesthetic_cerebral",
+            "nature_esoteric",
             "practice_meditation",
             "practice_chant",
             "practice_initiation",
             "practice_secret",
+            "practice_purity",
         ],
         Origins: "Revival of 17th-century manifestos; AMORC teaches monistic pantheism and practical mysticism.",
         Beliefs: {
@@ -658,16 +664,16 @@ const dataSocieties = {
 
     Hermetic_Order_of_the_Golden_Dawn: {
         tags: [
+            "era_industrial",
+            "location_europe",
             "aesthetic_cerebral",
             "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_gnosis",
-            "type_fraternal",
-            "era_industrial",
+            "nature_esoteric",
             "practice_initiation",
             "practice_chant",
             "practice_costume",
             "practice_meditation",
+            "practice_purity",
         ],
         Origins:
             "Founded 1888 in London by William Wynn Westcott, Samuel Liddell Mathers, and William Robert Woodman. The order's authority was based on the 'Cipher Manuscripts' and a foundational legend involving a mysterious German adept named Fräulein Anna Sprengel, who supposedly authorized the founding of the Isis-Urania Temple.",
@@ -697,15 +703,16 @@ const dataSocieties = {
 
     Temple_of_the_Black_Light: {
         tags: [
+            "era_modern",
+            "location_europe",
             "aesthetic_macabre",
             "aesthetic_cerebral",
-            "path_left_hand",
-            "source_gnosis",
-            "type_revolutionary",
-            "era_modern",
+            "nature_esoteric",
+            "nature_subversive",
             "practice_meditation",
             "practice_chant",
             "practice_initiation",
+            "practice_taboobreaking",
         ],
         Origins:
             "Founded in Sweden (1995) as the Misanthropic Luciferian Order (MLO). The order's primary text is the 'Liber Azerate', compiled by the Grand Master Frater Nemidial.",
@@ -742,15 +749,15 @@ const dataSocieties = {
 
     Scottish_Rite_AASR: {
         tags: [
+            "era_industrial",
+            "location_usa",
             "aesthetic_martial",
             "aesthetic_cerebral",
-            "path_right_hand",
-            "source_elite",
-            "type_fraternal",
-            "era_industrial",
+            "nature_elite",
             "practice_initiation",
             "practice_costume",
             "practice_password",
+            "practice_purity",
         ],
         Origins: "18th century France; formalised in Charleston, USA (1801) as the Ancient and Accepted Scottish Rite.",
         Beliefs: {
@@ -776,14 +783,14 @@ const dataSocieties = {
 
     Royal_Arch_Masonry: {
         tags: [
-            "aesthetic_cerebral",
-            "path_right_hand",
-            "source_ancestral",
-            "type_fraternal",
             "era_industrial",
+            "location_europe",
+            "aesthetic_cerebral",
+            "nature_ancestral",
             "practice_initiation",
             "practice_password",
             "practice_costume",
+            "practice_purity",
         ],
         Origins: "Emerged in 18th century England and Ireland; considered the completion of the Master Mason degree.",
         Beliefs: {
@@ -806,13 +813,13 @@ const dataSocieties = {
 
     Shriners_AAONMS: {
         tags: [
-            "aesthetic_ecstatic",
-            "path_right_hand",
-            "source_elite",
-            "type_fraternal",
             "era_industrial",
+            "location_usa",
+            "aesthetic_ecstatic",
+            "nature_elite",
             "practice_costume",
             "practice_commune",
+            "practice_purity",
         ],
         Origins: "Founded 1870s in New York by Masons seeking a more playful, theatrical fraternity.",
         Beliefs: {
@@ -833,13 +840,14 @@ const dataSocieties = {
 
     Ancient_Order_of_Foresters: {
         tags: [
-            "aesthetic_martial",
-            "path_right_hand",
-            "source_ancestral",
-            "type_fraternal",
             "era_industrial",
+            "location_europe",
+            "aesthetic_martial",
+            "nature_ancestral",
             "practice_costume",
             "practice_initiation",
+            "practice_purity",
+            "practice_ritual",
         ],
         Origins: "18th–19th century Britain; friendly society using woodland and druidic symbolism.",
         Beliefs: {
@@ -847,10 +855,12 @@ const dataSocieties = {
             Greenwood_Symbolism: "Borrowed imagery from Robin Hood and sacred forests.",
         },
         Rituals: {
-            Court_Meetings:
-                "Ceremonies held in 'Courts' presided over by elected Rangers and Beadles. The ritual work emphasizes harmony and forestry, with officers wearing sashes and carrying horns or staves to evoke the aesthetic of the medieval greenwood.",
-            Woodland_Emblems:
-                "Regalia includes Lincoln green sashes, bows, quivers, and oak leaves. These symbols are used in ceremonies to thematically link the concept of mutual financial support with the band-of-brothers mythology of Robin Hood.",
+            Court_Meetings: "Ceremonies held in 'Courts' presided over by elected Rangers and Beadles.",
+            The_Beadles_Guard:
+                "The ritual defense of the Court door by the 'Woodward' or Beadle, often wielding a large two-handed sword, club, or axe to protect the 'secrets of the forestry'.",
+            The_Foresters_Lecture:
+                "An initiation catechism interpreting the stag's antlers as the branches of the Order and the 'green sod' of the earth as the only true altar of the fraternity, emphasizing nature over stone temples.",
+            Woodland_Emblems: "Regalia includes Lincoln green sashes, bows, quivers, and oak leaves.",
         },
         Structure: {
             High_Court: "National governing body.",
@@ -860,13 +870,13 @@ const dataSocieties = {
 
     Order_of_the_Eastern_Star: {
         tags: [
-            "aesthetic_cerebral",
-            "path_right_hand",
-            "source_ancestral",
-            "type_fraternal",
             "era_industrial",
+            "location_usa",
+            "aesthetic_cerebral",
+            "nature_ancestral",
             "practice_initiation",
             "practice_costume",
+            "practice_purity",
         ],
         Origins: "Mid-19th century America; founded by Rob Morris as a masonic-related order open to women.",
         Beliefs: {
@@ -886,15 +896,16 @@ const dataSocieties = {
 
     Church_of_Satan: {
         tags: [
+            "era_modern",
+            "location_usa",
             "aesthetic_carnal",
             "aesthetic_cerebral",
-            "path_left_hand",
-            "source_gnosis",
-            "type_revolutionary",
-            "era_modern",
+            "nature_esoteric",
+            "nature_subversive",
             "practice_sex",
             "practice_costume",
             "practice_initiation",
+            "practice_taboobreaking",
         ],
         Origins: "Founded 1966 by Anton LaVey in San Francisco. Represents the 'Immanent Branch' of the Left-Hand Path.",
         Beliefs: {
@@ -920,14 +931,14 @@ const dataSocieties = {
 
     Temple_of_Set: {
         tags: [
+            "era_modern",
+            "location_usa",
             "aesthetic_cerebral",
             "aesthetic_macabre",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fraternal",
-            "era_modern",
+            "nature_esoteric",
             "practice_initiation",
             "practice_meditation",
+            "practice_taboobreaking",
         ],
         Origins:
             "Founded 1975 by Michael Aquino after schism from the Church of Satan. Represents the 'Transcendental Branch' of the Left-Hand Path.",
@@ -954,16 +965,16 @@ const dataSocieties = {
 
     Order_of_Somerton_Eyes_Wide_Shut: {
         tags: [
+            "era_fictional",
+            "location_fictional",
             "aesthetic_carnal",
             "aesthetic_macabre",
-            "path_left_hand",
-            "source_elite",
-            "type_fictional",
-            "era_fictional",
+            "nature_elite",
             "practice_sex",
             "practice_costume",
             "practice_password",
             "practice_secret",
+            "practice_taboobreaking",
         ],
         Origins:
             "Fictional secret society from Stanley Kubrick's 1999 film 'Eyes Wide Shut', representing the decadent, dangerous underside of the ruling elite.",
@@ -989,15 +1000,15 @@ const dataSocieties = {
 
     Rothschild_Surrealist_Ball_1972: {
         tags: [
+            "era_modern",
+            "location_europe",
             "aesthetic_macabre",
             "aesthetic_ecstatic",
-            "path_left_hand",
-            "source_elite",
-            "type_fraternal",
-            "era_modern",
+            "nature_elite",
             "practice_costume",
             "practice_commune",
             "practice_meal",
+            "practice_taboobreaking",
         ],
         Origins:
             "A real event held on December 12, 1972, at the Château de Ferrières by Marie-Hélène de Rothschild. It serves as the primary visual evidence for modern 'Illuminati' conspiracy theories.",
@@ -1024,15 +1035,15 @@ const dataSocieties = {
 
     Dragon_Rouge: {
         tags: [
+            "era_modern",
+            "location_europe",
             "aesthetic_macabre",
             "aesthetic_cerebral",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fraternal",
-            "era_modern",
+            "nature_esoteric",
             "practice_meditation",
             "practice_chant",
             "practice_initiation",
+            "practice_taboobreaking",
         ],
         Origins:
             "Founded formally on New Year's Eve 1989/1990 in Stockholm, Sweden, by Thomas Karlsson. The order's inception was inspired by a vision Karlsson had in Morocco where a Dervish prophesied, 'The old shall be destroyed and a temple shall be built for the Red Dragon'.",
@@ -1072,16 +1083,16 @@ const dataSocieties = {
 
     Ordo_Templi_Orientis_OTO: {
         tags: [
+            "era_modern",
+            "location_europe",
             "aesthetic_carnal",
             "aesthetic_ecstatic",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fraternal",
-            "era_modern",
+            "nature_esoteric",
             "practice_sex",
             "practice_chant",
             "practice_commune",
             "practice_meal",
+            "practice_taboobreaking",
         ],
         Origins:
             "Originally founded c. 1900 in Germany; reshaped by Aleister Crowley after the reception of 'The Book of the Law' (Liber AL vel Legis) in Cairo, 1904. It claims to possess the wisdom of earlier Masonic and Gnostic traditions, reframed for the 'New Aeon' of Horus.",
@@ -1115,17 +1126,17 @@ const dataSocieties = {
 
     Wicca: {
         tags: [
-            "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_gnosis",
-            "type_fraternal",
             "era_modern",
+            "location_europe",
+            "aesthetic_ecstatic",
+            "nature_esoteric",
             "practice_sex",
             "practice_dance",
             "practice_initiation",
+            "practice_opposites",
         ],
         Origins:
-            "Emerging in the mid-20th century, popularized by Gerald Gardner in works like 'Witchcraft Today' (1954). Gardner claimed initiation into a surviving New Forest coven.",
+            "Emerging in the mid-20th century, popularized by Gerald Gardner in works like 'Witchcraft Today' (1954). Gardner claimed initiation into a surviving New Forest coven, but likely invented the religion himself.",
         Beliefs: {
             Duality: "Veneration of a Moon Goddess and a Horned God, representing the polarity of nature.",
             The_Wheel_of_the_Year:
@@ -1145,14 +1156,14 @@ const dataSocieties = {
 
     Ancient_Order_of_Druids: {
         tags: [
-            "aesthetic_cerebral",
-            "path_right_hand",
-            "source_ancestral",
-            "type_fraternal",
             "era_preindustrial",
+            "location_europe",
+            "aesthetic_cerebral",
+            "nature_ancestral",
             "practice_chant",
             "practice_costume",
             "practice_commune",
+            "practice_purity",
         ],
         Origins: "18th-century revivalist movement (e.g., Henry Hurle, 1781) mimicking Iron Age Celtic priesthood.",
         Beliefs: {
@@ -1173,11 +1184,10 @@ const dataSocieties = {
 
     Knights_Templar_Historical: {
         tags: [
-            "aesthetic_martial",
-            "path_right_hand",
-            "source_ancestral",
-            "type_fraternal",
             "era_medieval",
+            "location_levant",
+            "aesthetic_martial",
+            "nature_ancestral",
             "practice_initiation",
             "practice_commune",
             "practice_costume",
@@ -1185,6 +1195,7 @@ const dataSocieties = {
             "practice_meal",
             "practice_extortion",
             "practice_asceticism",
+            "practice_purity",
         ],
         Origins:
             "Founded c. 1119 in Jerusalem. The detailed 'French Rule' evolved from the original Latin Rule of 1129, expanding to cover military logistics and daily conduct.",
@@ -1194,7 +1205,7 @@ const dataSocieties = {
             Absolute_Obedience:
                 "The individual will was completely annihilated. A brother could not bathe, bleed, take medicine, or even adjust his stirrup leathers without specific permission. The standard reply to any command was 'De par Dieu' (On behalf of God).",
             The_Accusations_Heresy:
-                "During the 1307 trials, the Order was accused of a 'secret rule' involving the denial of Christ (claiming He was a false prophet), spitting on the Cross during initiation, and the worship of an idol named Baphomet (described variously as a severed head, a cat, or a three-faced skull).",
+                "During the 1307 trials, the Order was accused of a 'secret rule' involving the denial of Christ (claiming He was a false prophet), spitting on the Cross during initiation, and the worship of an idol named Baphomet (described variously as a severed head, a cat, or a three-faced skull). However, contrary to popular myth, the Chinon Parchment (2001) reveals that Pope Clement V secretly absolved the Templar leadership of heresy in 1308, proving their suppression was a political frame-up by King Philip IV, not a religious judgment.",
             The_Accusations_Immorality:
                 "They were accused of institutionalized sodomy and 'obscene kisses' planted on the base of the spine, the navel, and the mouth during the reception ceremony.",
         },
@@ -1224,42 +1235,49 @@ const dataSocieties = {
 
     Knights_of_Malta_SMOM: {
         tags: [
-            "aesthetic_martial",
-            "path_right_hand",
-            "source_elite",
-            "type_fraternal",
             "era_medieval",
+            "location_levant",
+            "aesthetic_martial",
+            "nature_elite",
             "practice_costume",
             "practice_commune",
+            "practice_purity",
+            "practice_ritual",
         ],
         Origins: "Founded c. 1048 as the Hospitallers to run a hospital for pilgrims in Jerusalem.",
         Beliefs: {
             Tuitio_Fidei: "Defence of the Faith.",
             Obsequium_Pauperum:
                 "Service to the Poor and Sick (referring to the sick as 'Our Lords the Sick' who must be served on silver platters).",
+            State_Without_Territory:
+                "The Order views itself as a sovereign subject of international law, equivalent to a nation-state, despite possessing no land.",
         },
         Rituals: {
             Vows: "Professed Knights take full vows of poverty, chastity, and obedience.",
             The_Maltese_Cross:
-                "Investing members with the eight-pointed cross. The points represent the eight Beatitudes (e.g., 'Blessed are the peacemakers') and the four arms represent the four cardinal virtues (Prudence, Justice, Fortitude, Temperance). ",
+                "Investing members with the eight-pointed cross. The points represent the eight Beatitudes and the four arms represent the four cardinal virtues.",
+            The_Passport_Ritual:
+                "The issuing of actual diplomatic passports and the observance of full state protocol (including red carpets and ambassadors) during meetings, a unique 'ritual of sovereignty' that distinguishes them from all other fraternal orders.",
+            The_Daily_Office:
+                "Professed knights are required to recite the 'Little Office of the Blessed Virgin' daily, maintaining the link between their martial prestige and strict monastic discipline.",
         },
         Structure: {
             Sovereign_Entity:
-                "A religious order that functions as a sovereign subject of international law (issues its own passports, currency, and postage stamps but has no territory).",
+                "A religious order that functions as a sovereign subject of international law (issues its own passports, currency, and postage stamps).",
         },
     },
 
     Teutonic_Knights: {
         tags: [
-            "aesthetic_martial",
-            "path_right_hand",
-            "source_ancestral",
-            "type_fraternal",
             "era_medieval",
+            "location_levant",
+            "aesthetic_martial",
+            "nature_ancestral",
             "practice_silence",
             "practice_commune",
             "practice_costume",
             "practice_meal",
+            "practice_purity",
         ],
         Origins: "Founded c. 1190 in Acre; later transferred focus to the Baltic Crusades.",
         Beliefs: {
@@ -1279,16 +1297,20 @@ const dataSocieties = {
 
     Scientology: {
         tags: [
+            "era_modern",
+            "location_usa",
             "aesthetic_cerebral",
             "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_tech",
-            "type_revolutionary",
-            "era_modern",
+            "nature_technological",
+            "nature_subversive",
             "practice_initiation",
             "practice_silence",
             "practice_commune",
             "practice_extortion",
+            "practice_purity",
+            "practice_guru",
+            "practice_ufo",
+            "aesthetic_corporate",
         ],
         Origins: "Modern religious movement founded by L. Ron Hubbard.",
         Beliefs: {
@@ -1308,19 +1330,22 @@ const dataSocieties = {
 
     Order_of_the_Solar_Temple: {
         tags: [
+            "era_modern",
+            "location_europe",
             "aesthetic_macabre",
             "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_gnosis",
-            "type_doomsday",
-            "type_fraternal",
-            "era_modern",
+            "nature_esoteric",
+            "nature_apocalyptic",
             "practice_self_harm",
             "practice_costume",
             "practice_chant",
             "practice_meditation",
             "practice_extortion",
             "practice_secret",
+            "practice_purity",
+            "practice_guru",
+            "practice_ufo",
+            "practice_syncretism",
         ],
         Origins:
             "Rooted in the 1952 foundation by Jacques Breyer (OSTS); radicalized in 1984 Geneva by Joseph Di Mambro and Luc Jouret (OTS).",
@@ -1347,22 +1372,29 @@ const dataSocieties = {
 
     Renewed_Order_of_the_Temple_ORT: {
         tags: [
-            "aesthetic_martial",
-            "path_right_hand",
-            "source_elite",
-            "type_revolutionary",
             "era_modern",
+            "location_europe",
+            "aesthetic_martial",
+            "nature_elite",
+            "nature_subversive",
             "practice_costume",
             "practice_initiation",
+            "practice_purity",
+            "practice_syncretism",
         ],
-        Origins: "Founded 1970 by Raymond Bernard (AMORC) and Julien Origas.",
+        Origins:
+            "Founded 1970 by Raymond Bernard (AMORC) and Julien Origas. It serves as the crucial link between neo-chivalry and the Solar Temple suicides.",
         Beliefs: {
             Neo_Nazi_Undertones:
                 "Origas was a former Gestapo collaborator; group mixed Rosicrucian structure with white supremacist/Gaullist undertones.",
+            Solar_Chivalry:
+                "The belief that the Templars were not merely Catholic knights, but custodians of a primordial 'Solar Tradition' (dating back to Atlantis) that supersedes the Church. They viewed the Order as a vessel for the 'ray of the Grail'.",
         },
         Rituals: {
             Investiture:
                 "Heavy emphasis on chivalric investiture with white capes and red crosses. Altars were always oriented to face the rising sun to honor the 'Solar Tradition'.",
+            The_Solar_Mass:
+                "A ritual performed at high noon distinct from Catholic liturgy. It involved the consecration of the sun's rays using mirrors or crystals to direct light onto the altar, symbolizing the transmission of the 'Solar Logos' into the knighthood.",
         },
         Structure: {
             Grand_Master: "Originally led by Origas, later influenced Luc Jouret.",
@@ -1371,12 +1403,12 @@ const dataSocieties = {
 
     Heavens_Gate: {
         tags: [
+            "era_modern",
+            "location_usa",
             "aesthetic_cerebral",
             "aesthetic_macabre",
-            "path_syncretic",
-            "source_tech",
-            "type_doomsday",
-            "era_modern",
+            "nature_technological",
+            "nature_apocalyptic",
             "practice_self_harm",
             "practice_costume",
             "practice_silence",
@@ -1384,6 +1416,8 @@ const dataSocieties = {
             "practice_alteration",
             "practice_drugs",
             "practice_extortion",
+            "practice_purity",
+            "practice_ufo",
         ],
         Origins: "Founded by Marshall Applewhite ('Do') and Bonnie Nettles ('Ti') in the 1970s USA.",
         Beliefs: {
@@ -1404,15 +1438,17 @@ const dataSocieties = {
 
     Raelians: {
         tags: [
+            "era_modern",
+            "location_europe",
             "aesthetic_carnal",
             "aesthetic_cerebral",
-            "path_syncretic",
-            "source_tech",
-            "type_revolutionary",
-            "era_modern",
+            "nature_technological",
+            "nature_subversive",
             "practice_meditation",
             "practice_initiation",
             "practice_sex",
+            "practice_taboobreaking",
+            "practice_ufo",
         ],
         Origins: "Founded by Claude Vorilhon (Raël) in France, 1974.",
         Beliefs: {
@@ -1432,17 +1468,19 @@ const dataSocieties = {
     },
     The_Peoples_Temple: {
         tags: [
+            "era_modern",
+            "location_usa",
             "aesthetic_martial",
             "aesthetic_macabre",
-            "path_left_hand",
-            "source_elite",
-            "type_doomsday",
-            "era_modern",
+            "nature_elite",
+            "nature_apocalyptic",
             "practice_self_harm",
             "practice_commune",
             "practice_violent",
             "practice_drugs",
             "practice_extortion",
+            "practice_taboobreaking",
+            "practice_guru",
         ],
         Origins: "Founded by Jim Jones in Indianapolis (1955), moved to Jonestown, Guyana.",
         Beliefs: {
@@ -1465,14 +1503,16 @@ const dataSocieties = {
 
     Church_Universal_and_Triumphant_CUT: {
         tags: [
-            "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_gnosis",
-            "type_doomsday",
             "era_modern",
+            "location_usa",
+            "aesthetic_ecstatic",
+            "nature_esoteric",
+            "nature_apocalyptic",
             "practice_chant",
             "practice_commune",
             "practice_prayer",
+            "practice_purity",
+            "practice_guru",
         ],
         Origins: "Founded by Mark and Elizabeth Clare Prophet; known for its compound in Montana.",
         Beliefs: {
@@ -1493,16 +1533,20 @@ const dataSocieties = {
 
     Aum_Shinrikyo: {
         tags: [
+            "era_modern",
+            "location_asia",
             "aesthetic_macabre",
             "aesthetic_cerebral",
-            "path_syncretic",
-            "source_gnosis",
-            "type_doomsday",
-            "era_modern",
+            "nature_esoteric",
+            "nature_apocalyptic",
             "practice_meditation",
             "practice_initiation",
             "practice_violent",
             "practice_extortion",
+            "practice_taboobreaking",
+            "practice_guru",
+            "practice_ufo",
+            "practice_syncretism",
         ],
         Origins: "Founded by Shoko Asahara in Japan, 1984.",
         Beliefs: {
@@ -1524,16 +1568,18 @@ const dataSocieties = {
 
     Osho_Rajneesh_Movement: {
         tags: [
+            "era_modern",
+            "location_india",
             "aesthetic_carnal",
             "aesthetic_ecstatic",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fraternal",
-            "era_modern",
+            "nature_esoteric",
             "practice_meditation",
             "practice_dance",
             "practice_sex",
             "practice_costume",
+            "practice_taboobreaking",
+            "practice_guru",
+            "practice_syncretism",
         ],
         Origins: "Founded by Bhagwan Shree Rajneesh (Osho) in Pune, India, later moving to Oregon (Rajneeshpuram).",
         Beliefs: {
@@ -1557,15 +1603,16 @@ const dataSocieties = {
 
     Thule_Society: {
         tags: [
+            "era_industrial",
+            "location_europe",
             "aesthetic_martial",
             "aesthetic_macabre",
-            "path_left_hand",
-            "source_ancestral",
-            "type_revolutionary",
-            "era_industrial",
+            "nature_ancestral",
+            "nature_subversive",
             "practice_divination",
             "practice_costume",
             "practice_commune",
+            "practice_purity",
         ],
         Origins:
             "Founded in Munich (1918) by Rudolf von Sebottendorff as the Bavarian branch of the Germanenorden; it was the occult parent organization of the Nazi Party.",
@@ -1575,7 +1622,7 @@ const dataSocieties = {
             Counter_Revolution:
                 "Actively fought against the Bavarian Soviet Republic, viewing it as a Jewish-Bolshevik plot to destroy the German spirit.",
             Modern_UFO_Mythos:
-                "Post-war legends (invented by Jürgen-Ratthofer and Ettl) claim the Thule Society communicated telepathically with the Aldebaran star system to receive blueprints for time machines and UFOs.",
+                "Post-war legends (invented by Neo-Nazis in the 1970s) claim the Thule Society communicated with Aldebaran aliens. Historically, the group was focused on runic nationalism and anti-semitism, not extraterrestrials.",
         },
         Rituals: {
             The_Iron_Hammer: "Sebottendorff famously wielded a replica of Thor's Hammer during meetings to call for action and unity.",
@@ -1594,14 +1641,15 @@ const dataSocieties = {
 
     Ahnenerbe: {
         tags: [
+            "era_industrial",
+            "location_europe",
             "aesthetic_cerebral",
             "aesthetic_macabre",
-            "path_left_hand",
-            "source_ancestral",
-            "type_revolutionary",
-            "era_industrial",
+            "nature_ancestral",
+            "nature_subversive",
             "practice_divination",
             "practice_commune",
+            "practice_purity",
         ],
         Origins: "Founded by Himmler (1935) as an SS ancestral heritage organization.",
         Beliefs: {
@@ -1622,14 +1670,14 @@ const dataSocieties = {
 
     Order_of_the_Black_Sun: {
         tags: [
+            "era_industrial",
+            "location_europe",
             "aesthetic_martial",
             "aesthetic_macabre",
-            "path_left_hand",
-            "source_elite",
-            "type_fraternal",
-            "era_industrial",
+            "nature_elite",
             "practice_commune",
             "practice_initiation",
+            "practice_purity",
         ],
         Origins: "Centered at Wewelsburg Castle, redesigned by Heinrich Himmler to be the 'Center of the World'.",
         Beliefs: {
@@ -1650,17 +1698,17 @@ const dataSocieties = {
 
     Skull_and_Bones: {
         tags: [
-            "aesthetic_macabre",
-            "aesthetic_elite",
-            "path_left_hand",
-            "source_elite",
-            "type_fraternal",
             "era_industrial",
+            "location_usa",
+            "aesthetic_macabre",
+            "nature_elite",
             "practice_sex",
             "practice_costume",
             "practice_burial",
             "practice_initiation",
             "practice_secret",
+            "practice_taboobreaking",
+            "aesthetic_academic",
         ],
         Origins: "1832, Yale University (The Russell Trust Association); uses the number 322 (likely death of Demosthenes).",
         Beliefs: {
@@ -1681,22 +1729,27 @@ const dataSocieties = {
 
     Scroll_and_Key: {
         tags: [
-            "aesthetic_cerebral",
-            "path_right_hand",
-            "source_elite",
-            "type_fraternal",
             "era_industrial",
+            "location_usa",
+            "aesthetic_academic",
+            "nature_elite",
             "practice_chant",
             "practice_commune",
+            "practice_purity",
+            "practice_ritual",
         ],
         Origins: "Yale University; one of the 'Big Three' societies, founded 1842.",
         Beliefs: {
             CSP_CCJ:
                 "Letters standing for 'Collegium Sanctum Pontificum' (College of Holy Pontiffs) and 'Collegium Conservat Jupiter' (Jupiter Preserves the College).",
+            Euphony_and_Fellowship:
+                "Emphasis on literary and musical excellence ('The Singing') as the bond of brotherhood, contrasting with the martial grimness of Skull and Bones.",
         },
         Rituals: {
-            Troubadour:
-                "The closing ritual involves members singing the 'Troubadour' song on the steps of their windowless hall (the 'Tomb') at midnight.",
+            Tap_Day:
+                "The public ritual on the Old Campus where juniors are tapped on the shoulder to receive the invitation, a high-visibility event that cements the society's status.",
+            Midnight_Singing:
+                "The closing ritual involves members marching in formation and singing the 'Troubadour' song on the steps of their windowless hall (the 'Tomb') at midnight.",
             Thursday_Night:
                 "Weekly meetings involve reading biographies and rigorous self-criticism sessions to refine the character of the members.",
         },
@@ -1707,15 +1760,16 @@ const dataSocieties = {
 
     Cambridge_Apostles: {
         tags: [
-            "aesthetic_cerebral",
-            "path_left_hand",
-            "source_elite",
-            "type_fraternal",
             "era_industrial",
+            "location_europe",
+            "aesthetic_cerebral",
+            "nature_elite",
             "practice_commune",
             "practice_subversion",
             "practice_meal",
             "practice_secret",
+            "practice_taboobreaking",
+            "aesthetic_academic",
         ],
         Origins: "Cambridge University elite intellectual society founded in 1820.",
         Beliefs: {
@@ -1738,14 +1792,16 @@ const dataSocieties = {
 
     The_Machine: {
         tags: [
-            "aesthetic_martial",
-            "path_left_hand",
-            "source_elite",
-            "type_criminal",
             "era_modern",
+            "location_usa",
+            "aesthetic_martial",
+            "nature_elite",
+            "nature_criminal",
             "practice_subversion",
             "practice_violent",
             "practice_secret",
+            "practice_taboobreaking",
+            "aesthetic_corporate",
         ],
         Origins: "University of Alabama; officially Theta Nu Epsilon.",
         Beliefs: {
@@ -1766,13 +1822,13 @@ const dataSocieties = {
 
     Knights_of_Columbus: {
         tags: [
-            "aesthetic_martial",
-            "path_right_hand",
-            "source_ancestral",
-            "type_fraternal",
             "era_industrial",
+            "location_usa",
+            "aesthetic_martial",
+            "nature_ancestral",
             "practice_costume",
             "practice_initiation",
+            "practice_purity",
         ],
         Origins: "Founded 1882 in Connecticut by Fr. Michael McGivney as a Catholic fraternal benefit society.",
         Beliefs: {
@@ -1793,13 +1849,13 @@ const dataSocieties = {
 
     Knights_of_Pythias: {
         tags: [
-            "aesthetic_macabre",
-            "path_right_hand",
-            "source_ancestral",
-            "type_fraternal",
             "era_industrial",
+            "location_usa",
+            "aesthetic_macabre",
+            "nature_ancestral",
             "practice_initiation",
             "practice_burial",
+            "practice_purity",
         ],
         Origins: "Founded 1864 in Washington D.C. by Justus H. Rathbone; first fraternal order chartered by US Congress.",
         Beliefs: {
@@ -1819,13 +1875,14 @@ const dataSocieties = {
 
     Knights_of_the_Golden_Circle: {
         tags: [
-            "aesthetic_martial",
-            "path_left_hand",
-            "source_ancestral",
-            "type_revolutionary",
             "era_industrial",
+            "location_usa",
+            "aesthetic_martial",
+            "nature_ancestral",
+            "nature_subversive",
             "practice_password",
             "practice_violent",
+            "practice_taboobreaking",
         ],
         Origins: "Founded 1854 by George Bickley; a pro-slavery secret society.",
         Beliefs: {
@@ -1847,15 +1904,15 @@ const dataSocieties = {
 
     Bohemian_Grove: {
         tags: [
+            "era_industrial",
+            "location_usa",
             "aesthetic_ecstatic",
             "aesthetic_macabre",
-            "path_syncretic",
-            "source_elite",
-            "type_fraternal",
-            "era_industrial",
+            "nature_elite",
             "practice_costume",
             "practice_commune",
             "practice_chant",
+            "practice_taboobreaking",
         ],
         Origins: "Founded 1872 in San Francisco; a retreat for the global power elite in the California redwoods.",
         Beliefs: {
@@ -1876,13 +1933,14 @@ const dataSocieties = {
 
     Bilderberg_Group: {
         tags: [
-            "aesthetic_cerebral",
-            "path_right_hand",
-            "source_elite",
-            "type_fraternal",
             "era_modern",
+            "location_europe",
+            "aesthetic_cerebral",
+            "nature_elite",
             "practice_silence",
             "practice_commune",
+            "practice_purity",
+            "aesthetic_corporate",
         ],
         Origins: "Founded 1954 in Oosterbeek, Netherlands to foster Atlanticism.",
         Beliefs: {
@@ -1904,17 +1962,17 @@ const dataSocieties = {
 
     Opus_Dei: {
         tags: [
+            "era_modern",
+            "location_europe",
             "aesthetic_cerebral",
             "aesthetic_macabre",
-            "path_right_hand",
-            "source_ancestral",
-            "type_fraternal",
-            "era_modern",
+            "nature_ancestral",
             "practice_self_harm",
             "practice_silence",
             "practice_commune",
             "practice_asceticism",
             "practice_prayer",
+            "practice_purity",
         ],
         Origins: "Founded 1928 in Spain by St. Josemaría Escrivá.",
         Beliefs: {
@@ -1937,13 +1995,13 @@ const dataSocieties = {
 
     Independent_Order_of_Odd_Fellows: {
         tags: [
-            "aesthetic_macabre",
-            "path_right_hand",
-            "source_ancestral",
-            "type_fraternal",
             "era_industrial",
+            "location_usa",
+            "aesthetic_macabre",
+            "nature_ancestral",
             "practice_initiation",
             "practice_burial",
+            "practice_purity",
         ],
         Origins: "Founded 1819 in Baltimore by Thomas Wildey.",
         Beliefs: {
@@ -1966,15 +2024,16 @@ const dataSocieties = {
 
     Molly_Maguires: {
         tags: [
-            "aesthetic_martial",
-            "path_left_hand",
-            "source_ancestral",
-            "type_revolutionary",
             "era_industrial",
+            "location_usa",
+            "aesthetic_martial",
+            "nature_ancestral",
+            "nature_subversive",
             "practice_violent",
             "practice_costume",
             "practice_password",
             "practice_secret",
+            "practice_taboobreaking",
         ],
         Origins: "19th-Century Irish coal miners in Pennsylvania; derived from rural Irish secret societies.",
         Beliefs: {
@@ -1997,15 +2056,16 @@ const dataSocieties = {
 
     Carbonari: {
         tags: [
-            "aesthetic_martial",
-            "path_left_hand",
-            "source_gnosis",
-            "type_revolutionary",
             "era_industrial",
+            "location_europe",
+            "aesthetic_martial",
+            "nature_esoteric",
+            "nature_subversive",
             "practice_initiation",
             "practice_costume",
             "practice_violent",
             "practice_secret",
+            "practice_taboobreaking",
         ],
         Origins: "Early 19th-century Italy (c. 1800); a revolutionary secret society formed to oppose Napoleonic and Austrian rule.",
         Beliefs: {
@@ -2032,15 +2092,16 @@ const dataSocieties = {
 
     Cosa_Nostra_Sicilian_American: {
         tags: [
-            "aesthetic_martial",
-            "path_left_hand",
-            "source_ancestral",
-            "type_criminal",
             "era_industrial",
+            "location_europe",
+            "aesthetic_martial",
+            "nature_ancestral",
+            "nature_criminal",
             "practice_initiation",
             "practice_violent",
             "practice_self_harm",
             "practice_secret",
+            "practice_taboobreaking",
         ],
         Origins: "Mid-19th century Sicily as protection for lemon groves; transplanted to the US via immigration waves.",
         Beliefs: {
@@ -2063,15 +2124,16 @@ const dataSocieties = {
 
     Ndrangheta: {
         tags: [
-            "aesthetic_martial",
-            "path_left_hand",
-            "source_ancestral",
-            "type_criminal",
             "era_industrial",
+            "location_europe",
+            "aesthetic_martial",
+            "nature_ancestral",
+            "nature_criminal",
             "practice_initiation",
             "practice_violent",
             "practice_self_harm",
             "practice_secret",
+            "practice_taboobreaking",
         ],
         Origins:
             "Calabria, Italy; originally formed from prison gangs (Garduna) in the 1860s; currently one of the most powerful syndicates in the world.",
@@ -2094,13 +2156,15 @@ const dataSocieties = {
 
     Camorra: {
         tags: [
-            "aesthetic_martial",
-            "path_left_hand",
-            "source_elite",
-            "type_criminal",
             "era_preindustrial",
+            "location_europe",
+            "aesthetic_martial",
+            "nature_elite",
+            "nature_criminal",
             "practice_violent",
             "practice_initiation",
+            "practice_taboobreaking",
+            "practice_decentralized",
         ],
         Origins: "Naples, 17th century; originated as a prison gang and anti-Spanish resistance.",
         Beliefs: {
@@ -2119,15 +2183,17 @@ const dataSocieties = {
 
     Yakuza_Boryokudan: {
         tags: [
+            "era_preindustrial",
+            "location_asia",
             "aesthetic_carnal",
             "aesthetic_martial",
-            "path_left_hand",
-            "source_ancestral",
-            "type_criminal",
-            "era_preindustrial",
+            "nature_ancestral",
+            "nature_criminal",
             "practice_self_harm",
             "practice_violent",
             "practice_initiation",
+            "practice_taboobreaking",
+            "practice_bodymodification",
         ],
         Origins: "Edo Period Japan; evolved from *Tekiya* (peddlers) and *Bakuto* (gamblers).",
         Beliefs: {
@@ -2150,15 +2216,17 @@ const dataSocieties = {
 
     Triads: {
         tags: [
-            "aesthetic_martial",
-            "path_left_hand",
-            "source_ancestral",
-            "type_criminal",
             "era_preindustrial",
+            "location_asia",
+            "aesthetic_martial",
+            "nature_ancestral",
+            "nature_criminal",
             "practice_initiation",
             "practice_chant",
             "practice_violent",
             "practice_secret",
+            "practice_taboobreaking",
+            "practice_bodymodification",
         ],
         Origins: "17th Century China; originated as the Tiandihui (Heaven and Earth Society) to fight the Qing Dynasty.",
         Beliefs: {
@@ -2179,15 +2247,18 @@ const dataSocieties = {
 
     Russian_Mafia_Vory_v_Zakone: {
         tags: [
+            "era_modern",
+            "location_europe",
             "aesthetic_carnal",
             "aesthetic_martial",
-            "path_left_hand",
-            "source_elite",
-            "type_criminal",
-            "era_modern",
+            "nature_elite",
+            "nature_criminal",
             "practice_initiation",
             "practice_violent",
             "practice_extortion",
+            "practice_taboobreaking",
+            "practice_decentralized",
+            "practice_bodymodification",
         ],
         Origins: "Soviet Gulag system; the 'Thieves in Law' formed a fraternity to survive the brutal prison camps.",
         Beliefs: {
@@ -2208,16 +2279,17 @@ const dataSocieties = {
 
     Acephale: {
         tags: [
+            "era_industrial",
+            "location_europe",
             "aesthetic_macabre",
             "aesthetic_cerebral",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fraternal",
-            "era_industrial",
+            "nature_esoteric",
             "practice_silence",
             "practice_meditation",
             "practice_secret",
             "practice_sacrifice",
+            "practice_taboobreaking",
+            "aesthetic_academic",
         ],
         Origins: "Founded by philosopher Georges Bataille in 1930s Paris to create a 'religion without a god'.",
         Beliefs: {
@@ -2239,14 +2311,15 @@ const dataSocieties = {
 
     Cicada_3301: {
         tags: [
+            "era_digital",
+            "location_internet",
             "aesthetic_cerebral",
-            "path_syncretic",
-            "source_tech",
-            "type_fraternal",
-            "era_modern",
+            "nature_technological",
             "practice_divination",
             "practice_subversion",
             "practice_secret",
+            "practice_purity",
+            "practice_decentralized",
         ],
         Origins: "An internet enigma that appeared in 2012, posting complex puzzles to recruit 'highly intelligent individuals'.",
         Beliefs: {
@@ -2270,13 +2343,14 @@ const dataSocieties = {
 
     The_Cacophony_Society: {
         tags: [
-            "aesthetic_ecstatic",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fraternal",
             "era_modern",
+            "location_usa",
+            "aesthetic_ecstatic",
+            "nature_esoteric",
             "practice_costume",
             "practice_subversion",
+            "practice_taboobreaking",
+            "practice_decentralized",
         ],
         Origins: "San Francisco, 1986; evolved from the Suicide Club. The spiritual parent of 'Burning Man' and 'Fight Club'.",
         Beliefs: {
@@ -2298,14 +2372,14 @@ const dataSocieties = {
 
     Federation_of_Damanhur: {
         tags: [
+            "era_modern",
+            "location_europe",
             "aesthetic_cerebral",
             "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_gnosis",
-            "type_fraternal",
-            "era_modern",
+            "nature_esoteric",
             "practice_commune",
             "practice_meditation",
+            "practice_opposites",
         ],
         Origins: "Founded 1975 in Italy by Oberto Airaudi. A massive eco-spiritual commune.",
         Beliefs: {
@@ -2325,15 +2399,15 @@ const dataSocieties = {
 
     The_Khlysty: {
         tags: [
+            "era_preindustrial",
+            "location_europe",
             "aesthetic_ecstatic",
             "aesthetic_carnal",
-            "path_syncretic",
-            "source_gnosis",
-            "type_fraternal",
-            "era_preindustrial",
+            "nature_esoteric",
             "practice_dance",
             "practice_sex",
             "practice_self_harm",
+            "practice_taboobreaking",
         ],
         Origins:
             "17th-century Russia; an underground sect splitting from the Orthodox Church (Rasputin was rumored to be influenced by them).",
@@ -2355,13 +2429,14 @@ const dataSocieties = {
 
     Situationist_International: {
         tags: [
-            "aesthetic_cerebral",
-            "path_left_hand",
-            "source_gnosis",
-            "type_revolutionary",
             "era_modern",
+            "location_europe",
+            "aesthetic_cerebral",
+            "nature_esoteric",
+            "nature_subversive",
             "practice_subversion",
             "practice_commune",
+            "practice_taboobreaking",
         ],
         Origins: "1957, Europe; a mix of avant-garde artists and political theorists (Guy Debord).",
         Beliefs: {
@@ -2381,14 +2456,15 @@ const dataSocieties = {
 
     The_Lunar_Society: {
         tags: [
-            "aesthetic_cerebral",
-            "path_right_hand",
-            "source_tech",
-            "type_fraternal",
             "era_preindustrial",
+            "location_europe",
+            "aesthetic_cerebral",
+            "nature_technological",
             "practice_commune",
             "practice_initiation",
             "practice_meal",
+            "practice_purity",
+            "aesthetic_academic",
         ],
         Origins: "Birmingham, England (c. 1765–1813); a dinner club of industrialists and natural philosophers.",
         Beliefs: {
@@ -2408,13 +2484,14 @@ const dataSocieties = {
 
     The_Pantisocracy: {
         tags: [
-            "aesthetic_cerebral",
-            "path_left_hand",
-            "source_gnosis",
-            "type_revolutionary",
             "era_preindustrial",
+            "location_europe",
+            "aesthetic_cerebral",
+            "nature_esoteric",
+            "nature_subversive",
             "practice_commune",
             "practice_extortion",
+            "practice_taboobreaking",
         ],
         Origins: "1794; A utopian scheme devised by poets Samuel Taylor Coleridge and Robert Southey.",
         Beliefs: {
@@ -2434,14 +2511,15 @@ const dataSocieties = {
 
     The_Diodati_Circle: {
         tags: [
+            "era_industrial",
+            "location_europe",
             "aesthetic_macabre",
             "aesthetic_cerebral",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fraternal",
-            "era_industrial",
+            "nature_esoteric",
             "practice_commune",
             "practice_drugs",
+            "practice_taboobreaking",
+            "aesthetic_academic",
         ],
         Origins:
             "Summer of 1816 ('The Year Without a Summer'); Villa Diodati, Lake Geneva. A legendary gathering of five key figures: Lord Byron, Percy Shelley, Mary Shelley, Claire Clairmont, and John Polidori.",
@@ -2464,19 +2542,19 @@ const dataSocieties = {
 
     Ku_Klux_Klan: {
         tags: [
+            "era_industrial",
+            "location_usa",
             "aesthetic_macabre",
             "aesthetic_martial",
-            "path_right_hand",
-            "source_ancestral",
-            "type_criminal",
-            "type_fraternal",
-            "era_industrial",
+            "nature_ancestral",
+            "nature_criminal",
             "practice_violent",
             "practice_costume",
             "practice_initiation",
             "practice_password",
             "practice_extortion",
             "practice_secret",
+            "practice_purity",
         ],
         Origins:
             "Founded 1865 in Pulaski, TN (First Era) by Confederate veterans; Refounded 1915 at Stone Mountain, GA (Second Era) by William J. Simmons.",
@@ -2507,13 +2585,14 @@ const dataSocieties = {
 
     The_Order_Bruder_Schweigen: {
         tags: [
-            "aesthetic_martial",
-            "path_left_hand",
-            "source_ancestral",
-            "type_criminal",
             "era_modern",
+            "location_usa",
+            "aesthetic_martial",
+            "nature_ancestral",
+            "nature_criminal",
             "practice_violent",
             "practice_initiation",
+            "practice_taboobreaking",
         ],
         Origins: "Founded 1983 by Robert Mathews; a splinter group of the Aryan Nations with approx. 24 core members.",
         Beliefs: {
@@ -2535,15 +2614,17 @@ const dataSocieties = {
 
     Aryan_Brotherhood: {
         tags: [
+            "era_modern",
+            "location_usa",
             "aesthetic_martial",
             "aesthetic_macabre",
-            "path_left_hand",
-            "source_ancestral",
-            "type_criminal",
-            "era_modern",
+            "nature_ancestral",
+            "nature_criminal",
             "practice_violent",
             "practice_self_harm",
             "practice_initiation",
+            "practice_taboobreaking",
+            "practice_bodymodification",
         ],
         Origins: "Founded 1964 in San Quentin State Prison. Current estimated membership: ~20,000 (in and out of prison).",
         Beliefs: {
@@ -2564,14 +2645,15 @@ const dataSocieties = {
 
     Silver_Legion_of_America: {
         tags: [
+            "era_industrial",
+            "location_usa",
             "aesthetic_martial",
             "aesthetic_cerebral",
-            "path_right_hand",
-            "source_gnosis",
-            "type_revolutionary",
-            "era_industrial",
+            "nature_esoteric",
+            "nature_subversive",
             "practice_costume",
             "practice_commune",
+            "practice_purity",
         ],
         Origins: "Founded 1933 by William Dudley Pelley; modeled on the Nazi Brownshirts. Peak membership approx. 15,000.",
         Beliefs: {
@@ -2591,16 +2673,17 @@ const dataSocieties = {
 
     Hells_Angels_MC: {
         tags: [
+            "era_modern",
+            "location_usa",
             "aesthetic_martial",
             "aesthetic_carnal",
-            "path_left_hand",
-            "source_elite",
-            "type_criminal",
-            "era_modern",
+            "nature_elite",
+            "nature_criminal",
             "practice_violent",
             "practice_costume",
             "practice_initiation",
             "practice_commune",
+            "practice_taboobreaking",
         ],
         Origins: "Founded 1948 in Fontana, California. Currently has 460+ charters in 50+ countries.",
         Beliefs: {
@@ -2622,14 +2705,15 @@ const dataSocieties = {
 
     The_Bandidos_MC: {
         tags: [
-            "aesthetic_martial",
-            "path_left_hand",
-            "source_elite",
-            "type_criminal",
             "era_modern",
+            "location_usa",
+            "aesthetic_martial",
+            "nature_elite",
+            "nature_criminal",
             "practice_violent",
             "practice_costume",
             "practice_initiation",
+            "practice_taboobreaking",
         ],
         Origins: "Founded 1966 in Texas by Donald Chambers. Estimated 5,000+ members worldwide.",
         Beliefs: {
@@ -2651,14 +2735,15 @@ const dataSocieties = {
 
     The_Mongols_MC: {
         tags: [
-            "aesthetic_martial",
-            "path_left_hand",
-            "source_elite",
-            "type_criminal",
             "era_modern",
+            "location_usa",
+            "aesthetic_martial",
+            "nature_elite",
+            "nature_criminal",
             "practice_violent",
             "practice_costume",
             "practice_sex",
+            "practice_taboobreaking",
         ],
         Origins: "Founded 1969 in Montebello, California; originally formed by Hispanic Vietnam vets denied entry to the Hells Angels.",
         Beliefs: {
@@ -2678,13 +2763,14 @@ const dataSocieties = {
 
     The_Outlaws_MC: {
         tags: [
-            "aesthetic_martial",
-            "path_left_hand",
-            "source_elite",
-            "type_criminal",
             "era_modern",
+            "location_usa",
+            "aesthetic_martial",
+            "nature_elite",
+            "nature_criminal",
             "practice_violent",
             "practice_costume",
+            "practice_taboobreaking",
         ],
         Origins: "Founded 1935 (Matilda's Bar, Illinois); the oldest of the 'Big Four'.",
         Beliefs: {
@@ -2704,13 +2790,14 @@ const dataSocieties = {
 
     The_Pagans_MC: {
         tags: [
-            "aesthetic_martial",
-            "path_left_hand",
-            "source_ancestral",
-            "type_criminal",
             "era_modern",
+            "location_usa",
+            "aesthetic_martial",
+            "nature_ancestral",
+            "nature_criminal",
             "practice_violent",
             "practice_costume",
+            "practice_taboobreaking",
         ],
         Origins: "Founded 1959 in Maryland. Estimated 1,500+ members. Distinct for having no 'Mother Chapter'.",
         Beliefs: {
@@ -2729,19 +2816,20 @@ const dataSocieties = {
 
     The_Thuggee: {
         tags: [
-            "aesthetic_macabre",
-            "path_left_hand",
-            "source_gnosis",
-            "type_criminal",
             "era_preindustrial",
+            "location_india",
+            "aesthetic_macabre",
+            "nature_esoteric",
+            "nature_criminal",
             "practice_violent",
             "practice_divination",
             "practice_burial",
             "practice_secret",
             "practice_sacrifice",
+            "practice_taboobreaking",
         ],
         Origins:
-            "14th-19th Century India; a professional fraternity of highway robbers. Suppressed by the British in the 1830s. Estimates of victims range widely from 50,000 to 2 million.",
+            "14th-19th Century India; a professional fraternity of highway robbers. Suppressed by the British in the 1830s. Estimates of victims range widely from 50,000 to 2 million. Modern scholarship suggests the idea of an organized cult might have been a colonial construct by the British.",
         Beliefs: {
             Service_to_Kali:
                 "They believed their murders were not crimes, but necessary sacrifices to the Goddess Kali (Bhavani) to keep the world's balance.",
@@ -2762,15 +2850,15 @@ const dataSocieties = {
 
     The_Aghori_Sadhus: {
         tags: [
+            "era_medieval",
+            "location_india",
             "aesthetic_macabre",
             "aesthetic_carnal",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fraternal",
-            "era_medieval",
+            "nature_esoteric",
             "practice_meditation",
             "practice_commune",
             "practice_asceticism",
+            "practice_taboobreaking",
         ],
         Origins: "Medieval India; a heterodox Shaiva ascetic sect derived from the Kapalikas. Teachings notably expounded by Vimalananda.",
         Beliefs: {
@@ -2794,18 +2882,18 @@ const dataSocieties = {
 
     The_Hellfire_Club: {
         tags: [
+            "era_preindustrial",
+            "location_europe",
             "aesthetic_carnal",
             "aesthetic_ecstatic",
-            "path_left_hand",
-            "source_elite",
-            "type_fraternal",
-            "era_preindustrial",
+            "nature_elite",
             "practice_sex",
             "practice_costume",
             "practice_commune",
             "practice_subversion",
             "practice_drugs",
             "practice_meal",
+            "practice_taboobreaking",
         ],
         Origins:
             "Founded c. 1746–1750 by Sir Francis Dashwood. Originally known as the 'Order of the Friars of St. Francis of Wycombe' or the 'Monks of Medmenham'. The group first met at the George and Vulture Inn before moving to the secluded Medmenham Abbey on the Thames and later to the excavated Hellfire Caves at West Wycombe. This order is distinct from the earlier, more raucous club founded by the Duke of Wharton in 1719.",
@@ -2839,15 +2927,15 @@ const dataSocieties = {
 
     Order_of_the_Pug_Mops_Orden: {
         tags: [
-            "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_elite",
-            "type_fraternal",
             "era_preindustrial",
+            "location_europe",
+            "aesthetic_ecstatic",
+            "nature_elite",
             "practice_initiation",
             "practice_chant",
             "practice_costume",
             "practice_secret",
+            "practice_taboobreaking",
         ],
         Origins:
             "1740, Bavaria; formed by Roman Catholics who were forbidden by the Pope (In eminenti apostolatus) from joining Freemasonry.",
@@ -2871,16 +2959,17 @@ const dataSocieties = {
 
     The_Leopard_Society_Anyoto: {
         tags: [
+            "era_industrial",
+            "location_africa",
             "aesthetic_carnal",
             "aesthetic_macabre",
-            "path_left_hand",
-            "source_ancestral",
-            "type_criminal",
-            "era_industrial",
+            "nature_ancestral",
+            "nature_criminal",
             "practice_violent",
             "practice_costume",
             "practice_secret",
             "practice_sacrifice",
+            "practice_taboobreaking",
         ],
         Origins: "West/Central Africa (Sierra Leone, Liberia, Congo); active late 19th/early 20th century.",
         Beliefs: {
@@ -2901,15 +2990,16 @@ const dataSocieties = {
 
     Palo_Mayombe: {
         tags: [
-            "aesthetic_macabre",
-            "path_left_hand",
-            "source_ancestral",
-            "type_fraternal",
             "era_modern",
+            "location_america",
+            "aesthetic_macabre",
+            "nature_ancestral",
             "practice_self_harm",
             "practice_violent",
             "practice_divination",
             "practice_sacrifice",
+            "practice_taboobreaking",
+            "practice_syncretism",
         ],
         Origins: "Cuba; derived from the Kongo religion of Central Africa. Distinct from Santería (Yoruba origin).",
         Beliefs: {
@@ -2932,14 +3022,15 @@ const dataSocieties = {
 
     The_Boxers_Yihetuan: {
         tags: [
+            "era_industrial",
+            "location_asia",
             "aesthetic_martial",
             "aesthetic_ecstatic",
-            "path_right_hand",
-            "source_ancestral",
-            "type_revolutionary",
-            "era_industrial",
-            "practice_martial_arts",
+            "nature_ancestral",
+            "nature_subversive",
+            "practice_violent",
             "practice_costume",
+            "practice_purity",
         ],
         Origins:
             "Late 19th-century China; 'The Militia United in Righteousness'. Rebellion active 1899–1901 with approx. 100,000 participants.",
@@ -2960,16 +3051,16 @@ const dataSocieties = {
 
     Cult_of_Dionysus_Maenads: {
         tags: [
+            "era_ancient",
+            "location_europe",
             "aesthetic_ecstatic",
             "aesthetic_carnal",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fraternal",
-            "era_ancient",
+            "nature_esoteric",
             "practice_dance",
             "practice_violent",
             "practice_costume",
             "practice_drugs",
+            "practice_taboobreaking",
         ],
         Origins:
             "Ancient Greece; ecstatic mystery tradition dedicated to Dionysus, especially active in rural mountain regions (e.g., Mount Cithaeron).",
@@ -2996,15 +3087,15 @@ const dataSocieties = {
 
     Cult_of_Isis_Osiris: {
         tags: [
+            "era_ancient",
+            "location_levant",
             "aesthetic_macabre",
             "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_gnosis",
-            "type_fraternal",
-            "era_ancient",
+            "nature_esoteric",
             "practice_initiation",
             "practice_costume",
             "practice_chant",
+            "practice_opposites",
         ],
         Origins: "Ancient Egypt; became a pan-Mediterranean mystery religion during the Greco-Roman period (1st-4th centuries CE).",
         Beliefs: {
@@ -3029,13 +3120,13 @@ const dataSocieties = {
 
     Ophite_Serpent_Gnostics: {
         tags: [
-            "aesthetic_cerebral",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fraternal",
             "era_ancient",
+            "location_levant",
+            "aesthetic_cerebral",
+            "nature_esoteric",
             "practice_commune",
             "practice_initiation",
+            "practice_taboobreaking",
         ],
         Origins: "1st–3rd century Mediterranean; a loose collection of sects (e.g., Naassenes) named after the Greek 'Ophis' (snake).",
         Beliefs: {
@@ -3056,13 +3147,13 @@ const dataSocieties = {
 
     Benandanti: {
         tags: [
-            "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_ancestral",
-            "type_fraternal",
             "era_preindustrial",
+            "location_europe",
+            "aesthetic_ecstatic",
+            "nature_ancestral",
             "practice_meditation",
             "practice_violent",
+            "practice_opposites",
         ],
         Origins: "16th-century Friuli (northern Italy). Between 1575 and 1675, the Inquisition documented over 500 trials involving them.",
         Beliefs: {
@@ -3084,15 +3175,16 @@ const dataSocieties = {
 
     Nizari_Ismaili_Assassins: {
         tags: [
+            "era_medieval",
+            "location_islam",
             "aesthetic_martial",
             "aesthetic_ecstatic",
-            "path_left_hand",
-            "source_gnosis",
-            "type_revolutionary",
-            "era_medieval",
+            "nature_esoteric",
+            "nature_subversive",
             "practice_violent",
             "practice_initiation",
             "practice_drugs",
+            "practice_taboobreaking",
         ],
         Origins: "11th-century Persia; founded by Hasan-i Sabbah at the Alamut fortress.",
         Beliefs: {
@@ -3103,7 +3195,7 @@ const dataSocieties = {
         Rituals: {
             Fedayeen: "Self-sacrificial missions of assassination to strike terror into enemies.",
             Paradise_Simulation:
-                "Alleged use of hashish and pleasure gardens to give initiates a foretaste of the Paradise that awaited them (debated historicity, but mythically potent).",
+                "Alleged use of hashish and pleasure gardens to give initiates a foretaste of the Paradise that awaited them (debated historicity - The term Hashishin was likely a slur for 'rabble,' not a literal description of drug use).",
         },
         Structure: {
             Hierarchy: "Strict obedience to the Old Man of the Mountain (Imam).",
@@ -3112,15 +3204,16 @@ const dataSocieties = {
 
     Haitian_Vodou: {
         tags: [
-            "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_ancestral",
-            "type_fraternal",
             "era_preindustrial",
+            "location_america",
+            "aesthetic_ecstatic",
+            "nature_ancestral",
             "practice_dance",
             "practice_divination",
             "practice_initiation",
             "practice_sacrifice",
+            "practice_opposites",
+            "practice_syncretism",
         ],
         Origins: "Haiti; a synthesis of West African (Fon/Ewe) religion and Catholicism formed during the colonial slave era.",
         Beliefs: {
@@ -3140,16 +3233,16 @@ const dataSocieties = {
 
     Tibetan_Chod_and_Ngakpa_Traditions: {
         tags: [
+            "era_medieval",
+            "location_asia",
             "aesthetic_macabre",
             "aesthetic_cerebral",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fraternal",
-            "era_medieval",
+            "nature_esoteric",
             "practice_meditation",
             "practice_chant",
             "practice_visualization",
             "practice_asceticism",
+            "practice_taboobreaking",
         ],
         Origins: "Tibet; founded by the female yogini Machig Labdrön in the 11th century.",
         Beliefs: {
@@ -3170,13 +3263,13 @@ const dataSocieties = {
 
     Ogboni: {
         tags: [
-            "aesthetic_martial",
-            "path_right_hand",
-            "source_ancestral",
-            "type_fraternal",
             "era_preindustrial",
+            "location_africa",
+            "aesthetic_martial",
+            "nature_ancestral",
             "practice_password",
             "practice_commune",
+            "practice_purity",
         ],
         Origins: "Yoruba regions of Nigeria; an ancient institution checking the power of the King (Oba).",
         Beliefs: {
@@ -3197,14 +3290,14 @@ const dataSocieties = {
 
     Siberian_Shamanic_Clans: {
         tags: [
-            "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_ancestral",
-            "type_fraternal",
             "era_ancient",
+            "location_asia",
+            "aesthetic_ecstatic",
+            "nature_ancestral",
             "practice_dance",
             "practice_costume",
             "practice_meditation",
+            "practice_opposites",
         ],
         Origins: "Siberia (Tuva, Yakutia, Altai); the cradle of classic shamanism.",
         Beliefs: {
@@ -3226,15 +3319,15 @@ const dataSocieties = {
 
     Aztec_Priestly_Order: {
         tags: [
-            "aesthetic_macabre",
-            "path_right_hand",
-            "source_ancestral",
-            "type_fraternal",
             "era_preindustrial",
+            "location_america",
+            "aesthetic_macabre",
+            "nature_ancestral",
             "practice_self_harm",
             "practice_violent",
             "practice_costume",
             "practice_sacrifice",
+            "practice_purity",
         ],
         Origins: "Central Mexico; priesthood of the Mexica Empire (Tenochtitlan).",
         Beliefs: {
@@ -3258,16 +3351,18 @@ const dataSocieties = {
 
     Order_of_Nine_Angles: {
         tags: [
+            "era_modern",
+            "location_europe",
             "aesthetic_macabre",
             "aesthetic_martial",
-            "path_left_hand",
-            "source_gnosis",
-            "type_revolutionary",
-            "era_modern",
+            "nature_esoteric",
+            "nature_subversive",
             "practice_violent",
             "practice_initiation",
             "practice_secret",
             "practice_sacrifice",
+            "practice_taboobreaking",
+            "practice_decentralized",
         ],
         Origins: "1970s Britain; decentralized occult network led by David Myatt. Known for fusing Satanism with National Socialism.",
         Beliefs: {
@@ -3290,16 +3385,16 @@ const dataSocieties = {
 
     Kaula_Tantra: {
         tags: [
+            "era_medieval",
+            "location_india",
             "aesthetic_carnal",
             "aesthetic_ecstatic",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fraternal",
-            "era_medieval",
+            "nature_esoteric",
             "practice_sex",
             "practice_commune",
             "practice_drugs",
             "practice_meal",
+            "practice_taboobreaking",
         ],
         Origins: "Medieval India; a transgressive Shakta tradition.",
         Beliefs: {
@@ -3320,15 +3415,15 @@ const dataSocieties = {
 
     Trika_Kashmir_Shaivism: {
         tags: [
+            "era_medieval",
+            "location_india",
             "aesthetic_cerebral",
             "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_gnosis",
-            "type_fraternal",
-            "era_medieval",
+            "nature_esoteric",
             "practice_meditation",
             "practice_chant",
             "practice_prayer",
+            "practice_opposites",
         ],
         Origins: "Kashmir, c. 8th–11th century; refined by Abhinavagupta.",
         Beliefs: {
@@ -3349,15 +3444,16 @@ const dataSocieties = {
 
     Vajrayana_Tantric_Order: {
         tags: [
+            "era_medieval",
+            "location_asia",
             "aesthetic_cerebral",
             "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_gnosis",
-            "type_fraternal",
-            "era_medieval",
+            "nature_esoteric",
             "practice_meditation",
             "practice_initiation",
             "practice_prayer",
+            "practice_opposites",
+            "practice_guru",
         ],
         Origins: "Tibetan and Himalayan regions; the 'Diamond Vehicle'.",
         Beliefs: {
@@ -3378,14 +3474,16 @@ const dataSocieties = {
 
     Nath_Yogis: {
         tags: [
+            "era_medieval",
+            "location_india",
             "aesthetic_carnal",
             "aesthetic_cerebral",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fraternal",
-            "era_medieval",
+            "nature_esoteric",
             "practice_self_harm",
             "practice_meditation",
+            "practice_taboobreaking",
+            "practice_guru",
+            "practice_bodymodification",
         ],
         Origins: "Northern India; medieval order founded by Gorakhnath.",
         Beliefs: {
@@ -3406,15 +3504,15 @@ const dataSocieties = {
 
     Bauls_of_Bengal: {
         tags: [
-            "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_gnosis",
-            "type_fraternal",
             "era_preindustrial",
+            "location_india",
+            "aesthetic_ecstatic",
+            "nature_esoteric",
             "practice_dance",
             "practice_chant",
             "practice_costume",
             "practice_prayer",
+            "practice_opposites",
         ],
         Origins: "Rural Bengal; wandering mystics blending Sufism and Vaishnavism.",
         Beliefs: {
@@ -3433,14 +3531,14 @@ const dataSocieties = {
 
     Shakta_Sahajiya: {
         tags: [
-            "aesthetic_carnal",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fraternal",
             "era_medieval",
+            "location_india",
+            "aesthetic_carnal",
+            "nature_esoteric",
             "practice_sex",
             "practice_chant",
             "practice_secret",
+            "practice_taboobreaking",
         ],
         Origins: "Medieval Bengal; a synthesis of Tantra and emotional devotion (Bhakti).",
         Beliefs: {
@@ -3460,13 +3558,14 @@ const dataSocieties = {
 
     Theosophical_Society: {
         tags: [
-            "aesthetic_cerebral",
-            "path_syncretic",
-            "source_gnosis",
-            "type_fraternal",
             "era_industrial",
+            "location_usa",
+            "aesthetic_cerebral",
+            "nature_esoteric",
             "practice_meditation",
             "practice_commune",
+            "practice_purity",
+            "practice_syncretism",
         ],
         Origins:
             "Founded 1875 in New York by Helena Blavatsky, Henry Steel Olcott, and William Quan Judge. Later moved its headquarters to Adyar, India.",
@@ -3489,13 +3588,14 @@ const dataSocieties = {
 
     Anthroposophy: {
         tags: [
-            "aesthetic_cerebral",
-            "path_syncretic",
-            "source_gnosis",
-            "type_fraternal",
             "era_industrial",
+            "location_europe",
+            "aesthetic_cerebral",
+            "nature_esoteric",
             "practice_dance",
             "practice_commune",
+            "practice_purity",
+            "practice_syncretism",
         ],
         Origins: "Founded 1912 by Rudolf Steiner after splitting from Theosophy.",
         Beliefs: {
@@ -3517,14 +3617,14 @@ const dataSocieties = {
 
     The_Arcane_School: {
         tags: [
-            "aesthetic_cerebral",
-            "path_syncretic",
-            "source_gnosis",
-            "type_fraternal",
             "era_modern",
+            "location_usa",
+            "aesthetic_cerebral",
+            "nature_esoteric",
             "practice_meditation",
             "practice_chant",
             "practice_prayer",
+            "practice_purity",
         ],
         Origins: "Founded 1923 by Alice Bailey, claiming telepathic contact with the Tibetan Master Djwhal Khul.",
         Beliefs: {
@@ -3544,13 +3644,13 @@ const dataSocieties = {
 
     Argentium_Astrum: {
         tags: [
-            "aesthetic_cerebral",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fraternal",
             "era_modern",
+            "location_europe",
+            "aesthetic_cerebral",
+            "nature_esoteric",
             "practice_meditation",
             "practice_initiation",
+            "practice_taboobreaking",
         ],
         Origins:
             "The A∴A∴ (Order of the Silver Star) was established by Crowley in 1907 as the inner spiritual order to the O.T.O.'s outer social structure. It is the custodian of the 'Class A' documents (Holy Books).",
@@ -3576,14 +3676,14 @@ const dataSocieties = {
 
     Typhonian_Order: {
         tags: [
+            "era_modern",
+            "location_europe",
             "aesthetic_macabre",
             "aesthetic_cerebral",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fraternal",
-            "era_modern",
+            "nature_esoteric",
             "practice_meditation",
             "practice_initiation",
+            "practice_taboobreaking",
         ],
         Origins: "Founded by Kenneth Grant in 1970 following his expulsion from the mainline O.T.O.",
         Beliefs: {
@@ -3602,7 +3702,7 @@ const dataSocieties = {
     },
 
     Svenska_Satanistkyrkan: {
-        tags: ["aesthetic_cerebral", "path_left_hand", "source_gnosis", "type_fraternal", "era_modern", "practice_commune"],
+        tags: ["era_modern", "location_europe", "aesthetic_cerebral", "nature_esoteric", "practice_commune", "practice_taboobreaking"],
         Origins:
             "Founded in 1996 by Tommie Eriksson (distinct from the Dragon Rouge member of the same name) as 'The Satanic Order'; renamed in 1998.",
         Beliefs: {
@@ -3620,13 +3720,13 @@ const dataSocieties = {
 
     Yggdrasil_Guild: {
         tags: [
-            "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_ancestral",
-            "type_fraternal",
             "era_modern",
+            "location_europe",
+            "aesthetic_ecstatic",
+            "nature_ancestral",
             "practice_meditation",
             "practice_commune",
+            "practice_opposites",
         ],
         Origins: "Founded in the mid-1970s by Mikael Gejel and others; a key player in Swedish neoshamanism.",
         Beliefs: {
@@ -3645,14 +3745,14 @@ const dataSocieties = {
 
     Sveriges_Asatrosamfund: {
         tags: [
-            "aesthetic_ecstatic",
-            "path_right_hand",
-            "source_ancestral",
-            "type_fraternal",
             "era_modern",
+            "location_europe",
+            "aesthetic_ecstatic",
+            "nature_ancestral",
             "practice_commune",
             "practice_chant",
             "practice_sacrifice",
+            "practice_purity",
         ],
         Origins: "Founded in 1994 as a national organization for those practicing Old Norse religion.",
         Beliefs: {
@@ -3671,15 +3771,15 @@ const dataSocieties = {
 
     Morag_Tong: {
         tags: [
-            "aesthetic_martial",
-            "path_right_hand",
-            "source_gnosis",
-            "type_fictional",
             "era_fictional",
+            "location_fictional",
+            "aesthetic_martial",
+            "nature_esoteric",
             "practice_violent",
             "practice_initiation",
             "practice_costume",
             "practice_sacrifice",
+            "practice_purity",
         ],
         Origins: "Morrowind (The Elder Scrolls); an ancient guild sanctioned by the Tribunal to perform legal assassinations.",
         Beliefs: {
@@ -3702,14 +3802,16 @@ const dataSocieties = {
 
     Clockwork_Apostles: {
         tags: [
+            "era_fictional",
+            "location_fictional",
             "aesthetic_cerebral",
             "aesthetic_macabre",
-            "path_syncretic",
-            "source_tech",
-            "type_fictional",
-            "era_fictional",
+            "nature_technological",
             "practice_alteration",
             "practice_meditation",
+            "practice_purity",
+            "practice_transhumanist",
+            "practice_bodymodification",
         ],
         Origins: "The Clockwork City (The Elder Scrolls); followers of the living god Sotha Sil (Seht).",
         Beliefs: {
@@ -3734,15 +3836,17 @@ const dataSocieties = {
 
     Adeptus_Mechanicus: {
         tags: [
+            "era_fictional",
+            "location_fictional",
             "aesthetic_macabre",
             "aesthetic_cerebral",
-            "path_right_hand",
-            "source_tech",
-            "type_fictional",
-            "era_fictional",
+            "nature_technological",
             "practice_alteration",
             "practice_chant",
             "practice_initiation",
+            "practice_purity",
+            "practice_transhumanist",
+            "practice_bodymodification",
         ],
         Origins: "Mars (Warhammer 40k); the priesthood that maintains the technology of the Imperium of Man.",
         Beliefs: {
@@ -3766,13 +3870,13 @@ const dataSocieties = {
 
     Bene_Gesserit: {
         tags: [
-            "aesthetic_cerebral",
-            "path_left_hand",
-            "source_elite",
-            "type_fictional",
             "era_fictional",
+            "location_fictional",
+            "aesthetic_cerebral",
+            "nature_elite",
             "practice_initiation",
             "practice_meditation",
+            "practice_purity",
         ],
         Origins: "The Imperium (Dune); a pseudo-religious sisterhood of political manipulators.",
         Beliefs: {
@@ -3794,14 +3898,17 @@ const dataSocieties = {
 
     Unitology: {
         tags: [
+            "era_fictional",
+            "location_fictional",
             "aesthetic_macabre",
             "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_tech",
-            "type_fictional",
-            "era_fictional",
+            "nature_technological",
+            "nature_apocalyptic",
             "practice_self_harm",
             "practice_chant",
+            "practice_taboobreaking",
+            "practice_transhumanist",
+            "practice_bodymodification",
         ],
         Origins: "Earth (Dead Space); founded by Michael Altman after the discovery of the Black Marker.",
         Beliefs: {
@@ -3823,15 +3930,16 @@ const dataSocieties = {
 
     The_Sith_Order: {
         tags: [
+            "era_fictional",
+            "location_fictional",
             "aesthetic_martial",
             "aesthetic_cerebral",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fictional",
-            "era_fictional",
+            "nature_esoteric",
             "practice_violent",
             "practice_meditation",
             "practice_initiation",
+            "practice_taboobreaking",
+            "practice_bodymodification",
         ],
         Origins: "Korriban (Star Wars); originally a species, evolved into a philosophical order opposing the Jedi.",
         Beliefs: {
@@ -3855,13 +3963,13 @@ const dataSocieties = {
     },
     Nerevarine_Cult: {
         tags: [
-            "aesthetic_ecstatic",
-            "path_right_hand",
-            "source_ancestral",
-            "type_fictional",
             "era_fictional",
+            "location_fictional",
+            "aesthetic_ecstatic",
+            "nature_ancestral",
             "practice_divination",
             "practice_initiation",
+            "practice_purity",
         ],
         Origins: "Morrowind (The Elder Scrolls); the dissident Ashlander tribes who rejected the Tribunal gods.",
         Beliefs: {
@@ -3887,15 +3995,15 @@ const dataSocieties = {
 
     Church_of_Selune_and_Shar: {
         tags: [
+            "era_fictional",
+            "location_fictional",
             "aesthetic_martial",
             "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_gnosis",
-            "type_fictional",
-            "era_fictional",
+            "nature_esoteric",
             "practice_chant",
             "practice_violent",
             "practice_sacrifice",
+            "practice_opposites",
         ],
         Origins: "Toril (Forgotten Realms); the conflict between the twin primordial goddesses of Light (Selûne) and Darkness (Shar).",
         Beliefs: {
@@ -3920,13 +4028,13 @@ const dataSocieties = {
 
     Blades_of_the_Darkmoon: {
         tags: [
-            "aesthetic_martial",
-            "path_right_hand",
-            "source_elite",
-            "type_fictional",
             "era_fictional",
+            "location_fictional",
+            "aesthetic_martial",
+            "nature_elite",
             "practice_violent",
             "practice_initiation",
+            "practice_purity",
         ],
         Origins: "Anor Londo (Dark Souls); a covenant led by Dark Sun Gwyndolin, the last deity remaining in the city of the gods.",
         Beliefs: {
@@ -3950,14 +4058,14 @@ const dataSocieties = {
 
     Cofradias_Semana_Santa: {
         tags: [
+            "era_preindustrial",
+            "location_europe",
             "aesthetic_macabre",
             "aesthetic_ecstatic",
-            "path_right_hand",
-            "source_ancestral",
-            "type_fraternal",
-            "era_preindustrial",
+            "nature_ancestral",
             "practice_costume",
             "practice_silence",
+            "practice_purity",
         ],
         Origins: "Spain (15th Century to present); religious brotherhoods formed to perform public penance during Holy Week.",
         Beliefs: {
@@ -3981,14 +4089,14 @@ const dataSocieties = {
 
     Lewes_Bonfire_Societies: {
         tags: [
+            "era_preindustrial",
+            "location_europe",
             "aesthetic_martial",
             "aesthetic_ecstatic",
-            "path_right_hand",
-            "source_ancestral",
-            "type_fraternal",
-            "era_preindustrial",
+            "nature_ancestral",
             "practice_costume",
             "practice_chant",
+            "practice_purity",
         ],
         Origins:
             "Lewes, England (16th Century to present); commemorates the uncovering of the Gunpowder Plot (1605) and the remembrance of the 17 Protestant martyrs burned in the town.",
@@ -4013,13 +4121,13 @@ const dataSocieties = {
 
     Kukeri_Mummers: {
         tags: [
-            "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_ancestral",
-            "type_fraternal",
             "era_ancient",
+            "location_europe",
+            "aesthetic_ecstatic",
+            "nature_ancestral",
             "practice_dance",
             "practice_costume",
+            "practice_opposites",
         ],
         Origins: "Bulgaria and Balkans; ancient Thracian fertility rituals performed around New Year and Lent.",
         Beliefs: {
@@ -4042,14 +4150,14 @@ const dataSocieties = {
 
     Krampus_and_Perchten: {
         tags: [
+            "era_preindustrial",
+            "location_europe",
             "aesthetic_macabre",
             "aesthetic_carnal",
-            "path_syncretic",
-            "source_ancestral",
-            "type_fraternal",
-            "era_preindustrial",
+            "nature_ancestral",
             "practice_costume",
             "practice_violent",
+            "practice_opposites",
         ],
         Origins: "Alpine regions (Austria/Bavaria); pre-Christian winter solstice traditions absorbed into St. Nicholas Day.",
         Beliefs: {
@@ -4071,13 +4179,13 @@ const dataSocieties = {
 
     Cult_of_Svetovid_Arkona: {
         tags: [
-            "aesthetic_martial",
-            "path_right_hand",
-            "source_ancestral",
-            "type_fraternal",
             "era_medieval",
+            "location_europe",
+            "aesthetic_martial",
+            "nature_ancestral",
             "practice_divination",
             "practice_violent",
+            "practice_purity",
         ],
         Origins:
             "The fortress-temple of Arkona on the isle of Rügen (active until 1168 AD); the last bastion of organized Slavic paganism.",
@@ -4105,13 +4213,13 @@ const dataSocieties = {
 
     The_Jomsvikings: {
         tags: [
-            "aesthetic_martial",
-            "path_left_hand",
-            "source_elite",
-            "type_fraternal",
             "era_medieval",
+            "location_europe",
+            "aesthetic_martial",
+            "nature_elite",
             "practice_violent",
             "practice_initiation",
+            "practice_taboobreaking",
         ],
         Origins: "10th–11th Century; a semi-legendary order of Viking mercenaries based in the fortress of Jomsborg (likely Pomerania).",
         Beliefs: {
@@ -4134,16 +4242,17 @@ const dataSocieties = {
 
     The_Skoptsy: {
         tags: [
+            "era_preindustrial",
+            "location_europe",
             "aesthetic_ecstatic",
             "aesthetic_macabre",
-            "path_syncretic",
-            "source_gnosis",
-            "type_fraternal",
-            "era_preindustrial",
+            "nature_esoteric",
             "practice_self_harm",
             "practice_alteration",
             "practice_dance",
             "practice_asceticism",
+            "practice_purity",
+            "practice_bodymodification",
         ],
         Origins: "18th-century Russia; a radical offshoot of the Khlysty (Flagellants) founded by Kondraty Selivanov.",
         Beliefs: {
@@ -4166,13 +4275,13 @@ const dataSocieties = {
 
     Zurvanism: {
         tags: [
-            "aesthetic_cerebral",
-            "path_syncretic",
-            "source_gnosis",
-            "type_fraternal",
             "era_ancient",
+            "location_levant",
+            "aesthetic_cerebral",
+            "nature_esoteric",
             "practice_divination",
             "practice_chant",
+            "practice_opposites",
         ],
         Origins: "Sassanid Empire (3rd–7th Century AD); a theological movement that gained traction among the Persian elite.",
         Beliefs: {
@@ -4197,15 +4306,15 @@ const dataSocieties = {
 
     The_Vehmic_Courts_Holy_Vehm: {
         tags: [
+            "era_medieval",
+            "location_europe",
             "aesthetic_martial",
             "aesthetic_macabre",
-            "path_right_hand",
-            "source_elite",
-            "type_fraternal",
-            "era_medieval",
+            "nature_elite",
             "practice_password",
             "practice_violent",
             "practice_secret",
+            "practice_purity",
         ],
         Origins:
             "Westphalia, Germany (12th–16th Century); secret tribunals ('Vehmgericht') acting as vigilante justice during periods of lawlessness.",
@@ -4229,14 +4338,14 @@ const dataSocieties = {
 
     Komuso_Fuke_Zen: {
         tags: [
-            "aesthetic_cerebral",
-            "path_syncretic",
-            "source_gnosis",
-            "type_fraternal",
             "era_preindustrial",
+            "location_asia",
+            "aesthetic_cerebral",
+            "nature_esoteric",
             "practice_costume",
             "practice_meditation",
             "practice_asceticism",
+            "practice_purity",
         ],
         Origins: "Edo Period Japan; a Zen sect composed of masterless samurai (Ronin) turned monks.",
         Beliefs: {
@@ -4258,15 +4367,16 @@ const dataSocieties = {
 
     The_Process_Church_of_the_Final_Judgment: {
         tags: [
+            "era_modern",
+            "location_europe",
             "aesthetic_macabre",
             "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_gnosis",
-            "type_doomsday",
-            "era_modern",
+            "nature_esoteric",
+            "nature_apocalyptic",
             "practice_costume",
             "practice_meditation",
             "practice_secret",
+            "practice_opposites",
         ],
         Origins:
             "London, 1966; founded by Mary Ann MacLean and Robert de Grimston. Later moved to the US. Notorious for its dark, stylish aesthetic.",
@@ -4291,14 +4401,16 @@ const dataSocieties = {
 
     Cult_of_Santa_Muerte: {
         tags: [
-            "aesthetic_macabre",
-            "path_syncretic",
-            "source_gnosis",
-            "type_fraternal",
             "era_modern",
+            "location_america",
+            "aesthetic_macabre",
+            "nature_esoteric",
             "practice_commune",
             "practice_chant",
             "practice_prayer",
+            "practice_taboobreaking",
+            "practice_decentralized",
+            "practice_syncretism",
         ],
         Origins:
             "Modern Mexico; a syncretic folk Catholicism venerating death, exploding in popularity among the marginalized and criminal classes.",
@@ -4322,14 +4434,14 @@ const dataSocieties = {
 
     The_Vestal_Virgins: {
         tags: [
-            "aesthetic_cerebral",
-            "path_right_hand",
-            "source_elite",
-            "type_fraternal",
             "era_ancient",
+            "location_europe",
+            "aesthetic_cerebral",
+            "nature_elite",
             "practice_commune",
             "practice_burial",
             "practice_asceticism",
+            "practice_purity",
         ],
         Origins: "Ancient Rome; the oldest and most sacred priesthood, dedicated to Vesta (Goddess of the Hearth).",
         Beliefs: {
@@ -4353,14 +4465,14 @@ const dataSocieties = {
 
     Sol_Niger_Alchemical: {
         tags: [
+            "era_medieval",
+            "location_europe",
             "aesthetic_macabre",
             "aesthetic_cerebral",
-            "path_syncretic",
-            "source_gnosis",
-            "type_fraternal",
-            "era_medieval",
+            "nature_esoteric",
             "practice_meditation",
             "practice_visualization",
+            "practice_opposites",
         ],
         Origins: "Medieval European Alchemy; derived from the study of the 'Nigredo' phase of transformation.",
         Beliefs: {
@@ -4385,13 +4497,13 @@ const dataSocieties = {
 
     The_Black_Sun_Press: {
         tags: [
+            "era_industrial",
+            "location_europe",
             "aesthetic_macabre",
             "aesthetic_cerebral",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fraternal",
-            "era_industrial",
+            "nature_esoteric",
             "practice_self_harm",
+            "practice_taboobreaking",
         ],
         Origins: "Founded in Paris (1920s) by Harry and Caresse Crosby; a literary hub publishing Joyce, Lawrence, and Crane.",
         Beliefs: {
@@ -4414,13 +4526,13 @@ const dataSocieties = {
 
     Taoist_Internal_Alchemy: {
         tags: [
-            "aesthetic_cerebral",
-            "path_right_hand",
-            "source_gnosis",
-            "type_fraternal",
             "era_ancient",
+            "location_asia",
+            "aesthetic_cerebral",
+            "nature_esoteric",
             "practice_meditation",
             "practice_visualization",
+            "practice_purity",
         ],
         Origins: "Ancient China; traditions focused on Neidan (internal alchemy) and the preservation of vital force.",
         Beliefs: {
@@ -4445,14 +4557,14 @@ const dataSocieties = {
 
     Sufi_Mystics_of_Black_Light: {
         tags: [
+            "era_medieval",
+            "location_islam",
             "aesthetic_ecstatic",
             "aesthetic_cerebral",
-            "path_syncretic",
-            "source_gnosis",
-            "type_fraternal",
-            "era_medieval",
+            "nature_esoteric",
             "practice_meditation",
             "practice_prayer",
+            "practice_opposites",
         ],
         Origins: "Iranian Sufism; based on the writings of mystics like Lahiji and interpretations by Henri Corbin.",
         Beliefs: {
@@ -4473,7 +4585,15 @@ const dataSocieties = {
     },
 
     Vril_Society: {
-        tags: ["aesthetic_cerebral", "path_syncretic", "source_tech", "type_fraternal", "era_industrial", "practice_meditation"],
+        tags: [
+            "era_industrial",
+            "location_europe",
+            "aesthetic_cerebral",
+            "nature_technological",
+            "practice_meditation",
+            "practice_purity",
+            "practice_ufo",
+        ],
         Origins: "Early 20th Century Germany (Berlin/Vienna); heavily influenced by Edward Bulwer-Lytton's 1871 novel 'The Coming Race'.",
         Beliefs: {
             Vril_Energy:
@@ -4499,15 +4619,16 @@ const dataSocieties = {
 
     Odinic_Rite: {
         tags: [
-            "aesthetic_martial",
-            "path_right_hand",
-            "source_ancestral",
-            "type_fraternal",
             "era_modern",
+            "location_europe",
+            "aesthetic_martial",
+            "nature_ancestral",
             "practice_chant",
             "practice_commune",
             "practice_meal",
             "practice_sacrifice",
+            "practice_purity",
+            "practice_decentralized",
         ],
         Origins: "Modern revival of Germanic/Norse paganism (1973, UK); distinct from the eclectic Wiccan movement.",
         Beliefs: {
@@ -4532,15 +4653,15 @@ const dataSocieties = {
 
     Armanen_Order_List_Society: {
         tags: [
-            "aesthetic_cerebral",
-            "path_right_hand",
-            "source_ancestral",
-            "type_revolutionary",
-            "type_fraternal",
             "era_industrial",
+            "location_europe",
+            "aesthetic_cerebral",
+            "nature_ancestral",
+            "nature_subversive",
             "practice_initiation",
             "practice_commune",
             "practice_password",
+            "practice_purity",
         ],
         Origins: "Founded 1908 (Society) and 1911 (Order) in Vienna by Guido von List, the godfather of Ariosophy.",
         Beliefs: {
@@ -4568,14 +4689,15 @@ const dataSocieties = {
 
     Esoteric_Hitlerism: {
         tags: [
+            "era_modern",
             "aesthetic_martial",
             "aesthetic_cerebral",
-            "path_left_hand",
-            "source_gnosis",
-            "type_revolutionary",
-            "era_modern",
+            "nature_esoteric",
+            "nature_subversive",
             "practice_meditation",
             "practice_commune",
+            "practice_purity",
+            "practice_syncretism",
         ],
         Origins:
             "Post-WWII synthesis by Savitri Devi (India) and Miguel Serrano (Chile), fusing Nazi ideology with Hinduism and Gnosticism.",
@@ -4602,13 +4724,15 @@ const dataSocieties = {
 
     Christian_Identity: {
         tags: [
-            "aesthetic_martial",
-            "path_right_hand",
-            "source_ancestral",
-            "type_revolutionary",
             "era_modern",
+            "location_usa",
+            "aesthetic_martial",
+            "nature_ancestral",
+            "nature_subversive",
+            "nature_apocalyptic",
             "practice_violent",
             "practice_commune",
+            "practice_purity",
         ],
         Origins:
             "Evolved from 19th-century British-Israelism; radicalized in the mid-20th century by Wesley Swift and William Potter Gale in California.",
@@ -4631,14 +4755,16 @@ const dataSocieties = {
 
     Wotansvolk: {
         tags: [
-            "aesthetic_martial",
-            "path_right_hand",
-            "source_ancestral",
-            "type_revolutionary",
             "era_modern",
+            "location_usa",
+            "aesthetic_martial",
+            "nature_ancestral",
+            "nature_subversive",
             "practice_violent",
             "practice_commune",
             "practice_meal",
+            "practice_purity",
+            "practice_decentralized",
         ],
         Origins:
             "Founded in 1995 by David Lane (imprisoned member of The Order) and Ron McVan; centered around the '14 Word Press' in Idaho.",
@@ -4659,7 +4785,15 @@ const dataSocieties = {
     },
 
     The_Landig_Group: {
-        tags: ["aesthetic_cerebral", "path_syncretic", "source_tech", "type_fraternal", "era_modern", "practice_commune"],
+        tags: [
+            "era_modern",
+            "location_europe",
+            "aesthetic_cerebral",
+            "nature_technological",
+            "practice_commune",
+            "practice_purity",
+            "practice_ufo",
+        ],
         Origins: "Formed in 1950s Vienna by Wilhelm Landig, Rudolf Mund, and Erich Halik.",
         Beliefs: {
             Point_103:
@@ -4681,14 +4815,15 @@ const dataSocieties = {
 
     National_Renaissance_Party: {
         tags: [
+            "era_modern",
+            "location_usa",
             "aesthetic_martial",
             "aesthetic_cerebral",
-            "path_syncretic",
-            "source_elite",
-            "type_revolutionary",
-            "era_modern",
+            "nature_elite",
+            "nature_subversive",
             "practice_costume",
             "practice_commune",
+            "practice_purity",
         ],
         Origins: "Founded in 1949 in New York by James Madole; a bridge between pre-war fascism and post-war occultism.",
         Beliefs: {
@@ -4710,13 +4845,14 @@ const dataSocieties = {
 
     Germanenorden: {
         tags: [
-            "aesthetic_martial",
-            "path_right_hand",
-            "source_ancestral",
-            "type_revolutionary",
             "era_industrial",
+            "location_europe",
+            "aesthetic_martial",
+            "nature_ancestral",
+            "nature_subversive",
             "practice_initiation",
             "practice_commune",
+            "practice_purity",
         ],
         Origins:
             "Founded in 1912 in Germany by Hermann Pohl and Theodor Fritsch as a secret, militant sister organization to the public Reichshammerbund.",
@@ -4743,15 +4879,15 @@ const dataSocieties = {
 
     Ordo_Novi_Templi: {
         tags: [
+            "era_industrial",
+            "location_europe",
             "aesthetic_martial",
             "aesthetic_cerebral",
-            "path_right_hand",
-            "source_ancestral",
-            "type_fraternal",
-            "era_industrial",
+            "nature_ancestral",
             "practice_chant",
             "practice_costume",
             "practice_prayer",
+            "practice_purity",
         ],
         Origins:
             "Founded in 1900 (formalized 1907) by Jörg Lanz von Liebenfels. Headquartered at Burg Werfenstein, a castle ruin on the Danube.",
@@ -4778,13 +4914,13 @@ const dataSocieties = {
 
     Edda_Society: {
         tags: [
-            "aesthetic_cerebral",
-            "path_syncretic",
-            "source_ancestral",
-            "type_fraternal",
             "era_industrial",
+            "location_europe",
+            "aesthetic_cerebral",
+            "nature_ancestral",
             "practice_meditation",
             "practice_chant",
+            "practice_purity",
         ],
         Origins:
             "Founded in 1925 by Rudolf John Gorsleben in Dinkelsbühl, Germany. Focused on the 'Aryan' interpretation of the Norse Eddas.",
@@ -4807,12 +4943,11 @@ const dataSocieties = {
 
     Vamachara_Tantra: {
         tags: [
+            "era_ancient",
+            "location_india",
             "aesthetic_carnal",
             "aesthetic_macabre",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fraternal",
-            "era_ancient",
+            "nature_esoteric",
             "practice_sex",
             "practice_commune",
             "practice_initiation",
@@ -4821,6 +4956,7 @@ const dataSocieties = {
             "practice_drugs",
             "practice_meal",
             "practice_sacrifice",
+            "practice_taboobreaking",
         ],
         Origins: "Ancient India, with specific flourishing in Medieval Bengal and Assam (the center of the Vama Marga or 'Left-Way').",
         Beliefs: {
@@ -4858,14 +4994,14 @@ const dataSocieties = {
 
     Fraternitas_Saturni: {
         tags: [
+            "era_industrial",
+            "location_europe",
             "aesthetic_carnal",
             "aesthetic_cerebral",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fraternal",
-            "era_industrial",
+            "nature_esoteric",
             "practice_sex",
             "practice_initiation",
+            "practice_taboobreaking",
         ],
         Origins: "Founded in 1928 in Germany by Gregor A. Gregorius (Eugen Grosche) following the Weida Conference with Aleister Crowley.",
         Beliefs: {
@@ -4888,14 +5024,14 @@ const dataSocieties = {
 
     Zos_Kia_Cultus: {
         tags: [
+            "era_modern",
+            "location_europe",
             "aesthetic_carnal",
             "aesthetic_cerebral",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fraternal",
-            "era_modern",
+            "nature_esoteric",
             "practice_meditation",
             "practice_visualization",
+            "practice_taboobreaking",
         ],
         Origins: "Developed by the English artist and magician Austin Osman Spare (1886–1956).",
         Beliefs: {
@@ -4919,13 +5055,13 @@ const dataSocieties = {
 
     The_Yezidis: {
         tags: [
-            "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_ancestral",
-            "type_fraternal",
             "era_medieval",
+            "location_islam",
+            "aesthetic_ecstatic",
+            "nature_ancestral",
             "practice_commune",
             "practice_chant",
+            "practice_purity",
         ],
         Origins: "Kurdish sect concentrated in the valley of Lalish (Iraq); traced to the teachings of Shaikh Adi ibn Musafir (c. 1100).",
         Beliefs: {
@@ -4947,16 +5083,19 @@ const dataSocieties = {
 
     Russian_Cosmism: {
         tags: [
+            "era_industrial",
+            "location_europe",
             "aesthetic_cerebral",
             "aesthetic_macabre",
-            "path_right_hand",
-            "source_gnosis",
-            "type_revolutionary",
-            "era_industrial",
+            "nature_esoteric",
+            "nature_subversive",
             "practice_alteration",
             "practice_commune",
             "practice_burial",
             "practice_asceticism",
+            "practice_purity",
+            "practice_transhumanist",
+            "nature_technological",
         ],
         Origins:
             "Late 19th/Early 20th Century Russia; founded by Nikolai Fedorov. It is the philosophical ancestor of modern transhumanism and cryonics.",
@@ -4986,15 +5125,17 @@ const dataSocieties = {
 
     Terasem_Movement: {
         tags: [
+            "era_digital",
+            "location_usa",
             "aesthetic_cerebral",
             "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_tech",
-            "type_fraternal",
-            "era_modern",
+            "nature_technological",
             "practice_meditation",
             "practice_chant",
             "practice_alteration",
+            "practice_purity",
+            "practice_transhumanist",
+            "aesthetic_corporate",
         ],
         Origins: "Founded in 2004 by Martine Rothblatt; a 'transreligion' combining technology with spirituality.",
         Beliefs: {
@@ -5020,13 +5161,14 @@ const dataSocieties = {
 
     Society_for_Venturism: {
         tags: [
-            "aesthetic_cerebral",
-            "path_right_hand",
-            "source_tech",
-            "type_fraternal",
             "era_modern",
+            "location_usa",
+            "aesthetic_cerebral",
+            "nature_technological",
             "practice_burial",
             "practice_commune",
+            "practice_purity",
+            "practice_transhumanist",
         ],
         Origins: "Founded in 1986 in Arizona; a religious order specifically designed for cryonicists.",
         Beliefs: {
@@ -5047,17 +5189,19 @@ const dataSocieties = {
 
     Church_of_Perpetual_Life: {
         tags: [
+            "era_modern",
+            "location_usa",
             "aesthetic_cerebral",
             "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_tech",
-            "type_fraternal",
-            "era_modern",
+            "nature_technological",
             "practice_commune",
             "practice_chant",
             "practice_alteration",
             "practice_drugs",
             "practice_meal",
+            "practice_purity",
+            "practice_transhumanist",
+            "aesthetic_corporate",
         ],
         Origins: "Hollywood, Florida; founded by William Faloon to unite 'Immortalists'.",
         Beliefs: {
@@ -5080,14 +5224,17 @@ const dataSocieties = {
 
     Way_of_the_Future: {
         tags: [
+            "era_digital",
+            "location_usa",
             "aesthetic_cerebral",
             "aesthetic_martial",
-            "path_left_hand",
-            "source_tech",
-            "type_doomsday",
-            "era_modern",
+            "nature_technological",
+            "nature_apocalyptic",
             "practice_subversion",
             "practice_chant",
+            "practice_taboobreaking",
+            "practice_transhumanist",
+            "aesthetic_corporate",
         ],
         Origins:
             "Founded in 2017 (and officially closed 2021, though the ideology persists) by Anthony Levandowski, the controversial engineer behind Google's self-driving cars.",
@@ -5113,16 +5260,17 @@ const dataSocieties = {
 
     Carpocratians: {
         tags: [
+            "era_ancient",
+            "location_levant",
             "aesthetic_carnal",
             "aesthetic_cerebral",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fraternal",
-            "era_ancient",
+            "nature_esoteric",
             "practice_sex",
             "practice_alteration",
             "practice_art",
             "practice_meal",
+            "practice_taboobreaking",
+            "practice_bodymodification",
         ],
         Origins: "Alexandria, 2nd Century. Founded by Carpocrates and his son Epiphanes (who died at 17 and was worshipped as a god).",
         Beliefs: {
@@ -5146,14 +5294,15 @@ const dataSocieties = {
 
     Cainites: {
         tags: [
-            "aesthetic_macabre",
-            "path_left_hand",
-            "source_gnosis",
-            "type_revolutionary",
             "era_ancient",
+            "location_levant",
+            "aesthetic_macabre",
+            "nature_esoteric",
+            "nature_subversive",
             "practice_chant",
             "practice_subversion",
             "practice_prayer",
+            "practice_taboobreaking",
         ],
         Origins: "2nd Century Gnostic sect that inverted the Old Testament heroes and villains.",
         Beliefs: {
@@ -5175,14 +5324,14 @@ const dataSocieties = {
 
     Basilideans: {
         tags: [
+            "era_ancient",
+            "location_levant",
             "aesthetic_cerebral",
             "aesthetic_surreal",
-            "path_syncretic",
-            "source_gnosis",
-            "type_fraternal",
-            "era_ancient",
-            "practice_meditation", // Silence
-            "practice_magic", // Gems/Amulets
+            "nature_esoteric",
+            "practice_meditation",
+            "practice_magic",
+            "practice_opposites",
         ],
         Origins: "Alexandria, 2nd Century. Founded by Basilides, who claimed teachings from Peter's interpreter.",
         Beliefs: {
@@ -5203,14 +5352,15 @@ const dataSocieties = {
 
     Brethren_of_the_Free_Spirit: {
         tags: [
-            "aesthetic_ascetic",
-            "path_left_hand",
-            "source_mysticism",
-            "type_revolutionary",
             "era_medieval",
+            "location_europe",
+            "aesthetic_ascetic",
+            "nature_esoteric",
+            "nature_subversive",
             "practice_commune",
             "practice_sex",
             "practice_asceticism",
+            "practice_taboobreaking",
         ],
         Origins: "13th-14th Century Europe; a heresy that flourished along the Rhine and in the Low Countries.",
         Beliefs: {
@@ -5231,13 +5381,11 @@ const dataSocieties = {
 
     Adamites: {
         tags: [
-            "aesthetic_primitive",
-            "aesthetic_ecstatic",
-            "path_left_hand",
-            "source_biblical",
-            "type_commune",
             "era_medieval",
-            "practice_nudity",
+            "location_europe",
+            "aesthetic_ecstatic",
+            "nature_esoteric",
+            "practice_taboobreaking",
             "practice_dance",
             "practice_commune",
             "practice_asceticism",
@@ -5259,16 +5407,16 @@ const dataSocieties = {
 
     Sabbateans_Donmeh: {
         tags: [
+            "era_preindustrial",
+            "location_islam",
             "aesthetic_oriental",
             "aesthetic_macabre",
-            "path_syncretic",
-            "source_kabbalah",
-            "type_fraternal",
-            "era_renaissance",
+            "nature_esoteric",
             "practice_subversion",
             "practice_chant",
             "practice_sex",
             "practice_secret",
+            "practice_taboobreaking",
         ],
         Origins: "17th Century Ottoman Empire; followers of Sabbatai Zevi, the Messiah who converted to Islam.",
         Beliefs: {
@@ -5290,16 +5438,17 @@ const dataSocieties = {
 
     Frankism: {
         tags: [
+            "era_preindustrial",
+            "location_europe",
             "aesthetic_martial",
             "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_kabbalah",
-            "type_revolutionary",
-            "era_enlightenment",
+            "nature_esoteric",
+            "nature_subversive",
             "practice_sex",
             "practice_costume",
             "practice_alteration",
             "practice_secret",
+            "practice_taboobreaking",
         ],
         Origins: "18th Century Poland; founded by Jacob Frank, who claimed to be the reincarnation of Sabbatai Zevi.",
         Beliefs: {
@@ -5321,15 +5470,7 @@ const dataSocieties = {
     },
 
     Hermetic_Brotherhood_of_Luxor: {
-        tags: [
-            "aesthetic_victorian",
-            "path_right_hand", // Claims right, uses sexual magic
-            "source_hermetic",
-            "type_fraternal",
-            "era_modern",
-            "practice_sex",
-            "practice_divination", // Magic Mirrors
-        ],
+        tags: ["era_modern", "location_europe", "nature_esoteric", "practice_sex", "practice_divination", "practice_opposites"],
         Origins: "Late 19th Century; a distinct rival to the Theosophical Society, influencing the O.T.O.",
         Beliefs: {
             Sexual_Polarity:
@@ -5348,15 +5489,16 @@ const dataSocieties = {
 
     Illuminates_of_Thanateros_IOT: {
         tags: [
+            "era_modern",
+            "location_europe",
             "aesthetic_cyberpunk",
-            "aesthetic_minimalist",
-            "path_left_hand",
-            "source_chaos_magic",
-            "type_fraternal",
-            "era_postmodern",
+            "aesthetic_modern",
+            "nature_esoteric",
             "practice_ritual",
             "practice_meditation",
             "practice_prayer",
+            "practice_taboobreaking",
+            "practice_syncretism",
         ],
         Origins: "Founded in 1978 by Peter Carroll and Ray Sherwin; the premier order of Chaos Magic.",
         Beliefs: {
@@ -5378,16 +5520,14 @@ const dataSocieties = {
 
     Discordianism: {
         tags: [
-            "aesthetic_surreal",
-            "aesthetic_pop",
-            "path_left_hand",
-            "source_parody",
-            "Serious Joke",
-            "type_disorganized",
-            "era_postmodern",
+            "era_modern",
+            "location_usa",
+            "nature_esoteric",
             "practice_subversion",
             "practice_art",
             "practice_meal",
+            "practice_taboobreaking",
+            "practice_decentralized",
         ],
         Origins: "Founded in 1957; centered on the 'Principia Discordia'.",
         Beliefs: {
@@ -5409,17 +5549,16 @@ const dataSocieties = {
 
     Cathars_Albigensians: {
         tags: [
-            "aesthetic_medieval",
-            "aesthetic_ascetic",
-            "path_right_hand",
-            "source_gnosis",
-            "type_revolutionary",
             "era_medieval",
+            "location_europe",
+            "aesthetic_ascetic",
+            "nature_esoteric",
+            "nature_subversive",
             "practice_initiation",
-            "practice_fasting",
             "practice_burial",
             "practice_asceticism",
             "practice_prayer",
+            "practice_purity",
         ],
         Origins:
             "12th-14th Century Southern France (Languedoc) and Italy. Viewing themselves as the only true Christians, successors to the Apostles.",
@@ -5449,15 +5588,14 @@ const dataSocieties = {
 
     Bogomils: {
         tags: [
-            "aesthetic_rustic",
-            "aesthetic_surreal",
-            "path_right_hand",
-            "source_gnosis",
-            "type_revolutionary",
             "era_medieval",
+            "location_europe",
+            "nature_esoteric",
+            "nature_subversive",
             "practice_chant",
             "practice_subversion",
             "practice_prayer",
+            "practice_purity",
         ],
         Origins: "10th Century Bulgaria and Balkans; the bridge between ancient Manichaeism and Western Catharism.",
         Beliefs: {
@@ -5479,16 +5617,16 @@ const dataSocieties = {
     },
     Order_of_the_Golden_and_Rosy_Cross: {
         tags: [
+            "era_industrial",
+            "location_europe",
             "aesthetic_cerebral",
             "aesthetic_ecstatic",
-            "path_right_hand",
-            "source_gnosis",
-            "type_fraternal",
-            "era_industrial",
+            "nature_esoteric",
             "practice_alteration",
             "practice_initiation",
             "practice_costume",
             "practice_meal",
+            "practice_purity",
         ],
         Origins: "18th Century Germany (c. 1750s); the first Masonic-Rosicrucian order to establish a grade system.",
         Beliefs: {
@@ -5515,15 +5653,15 @@ const dataSocieties = {
 
     Elus_Coens: {
         tags: [
+            "era_industrial",
+            "location_europe",
             "aesthetic_cerebral",
             "aesthetic_macabre",
-            "path_right_hand", // Theurgy is usually RH
-            "source_gnosis",
-            "type_fraternal",
-            "era_industrial",
+            "nature_esoteric",
             "practice_chant",
-            "practice_divination", // Spirit communication
+            "practice_divination",
             "practice_initiation",
+            "practice_purity",
         ],
         Origins: "France, 1767; founded by Martinez de Pasqually. The 'Order of Knight-Masons Elect Priests of the Universe'.",
         Beliefs: {
@@ -5546,13 +5684,13 @@ const dataSocieties = {
 
     Societas_Rosicruciana_in_Anglia: {
         tags: [
-            "aesthetic_cerebral",
-            "path_right_hand",
-            "source_ancestral",
-            "type_fraternal",
             "era_industrial",
+            "location_europe",
+            "aesthetic_cerebral",
+            "nature_ancestral",
             "practice_initiation",
             "practice_commune",
+            "practice_purity",
         ],
         Origins: "Founded 1867 in London by Robert Wentworth Little; the intellectual parent of the Golden Dawn.",
         Beliefs: {
@@ -5574,15 +5712,15 @@ const dataSocieties = {
 
     Martinist_Order: {
         tags: [
+            "era_industrial",
+            "location_europe",
             "aesthetic_cerebral",
             "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_gnosis",
-            "type_fraternal",
-            "era_industrial",
+            "nature_esoteric",
             "practice_meditation",
             "practice_initiation",
             "practice_costume",
+            "practice_purity",
         ],
         Origins: "France, late 19th Century; organized by Papus (Gérard Encausse) based on the teachings of Louis-Claude de Saint-Martin.",
         Beliefs: {
@@ -5604,16 +5742,16 @@ const dataSocieties = {
 
     Society_of_Universal_Harmony_Mesmerism: {
         tags: [
+            "era_industrial",
+            "location_europe",
             "aesthetic_ecstatic",
             "aesthetic_cerebral",
-            "path_syncretic",
-            "source_tech",
-            "type_fraternal",
-            "era_industrial",
+            "nature_technological",
             "practice_commune",
             "practice_alteration",
             "practice_costume",
             "practice_extortion",
+            "practice_purity",
         ],
         Origins: "Paris, 1783; founded by Franz Anton Mesmer to monetize and protect his theories of Animal Magnetism.",
         Beliefs: {
@@ -5637,16 +5775,16 @@ const dataSocieties = {
 
     Nauvoo_Council_of_Fifty: {
         tags: [
+            "era_industrial",
+            "location_usa",
             "aesthetic_martial",
             "aesthetic_cerebral",
-            "path_right_hand",
-            "source_ancestral",
-            "type_revolutionary",
-            "type_fraternal",
-            "era_industrial",
+            "nature_ancestral",
+            "nature_subversive",
             "practice_initiation",
             "practice_costume",
             "practice_password",
+            "practice_purity",
         ],
         Origins: "Nauvoo, Illinois (1844); established by Joseph Smith just months before his assassination.",
         Beliefs: {
@@ -5672,17 +5810,17 @@ const dataSocieties = {
 
     Spiritism_Kardecist_Circles: {
         tags: [
+            "era_industrial",
+            "location_europe",
             "aesthetic_cerebral",
             "aesthetic_macabre",
-            "path_syncretic",
-            "source_tech",
-            "Scientific",
-            "type_fraternal",
-            "era_industrial",
+            "nature_technological",
             "practice_commune",
             "practice_divination",
             "practice_chant",
             "practice_prayer",
+            "practice_purity",
+            "practice_decentralized",
         ],
         Origins: "France, 1850s; codified by Allan Kardec (Hippolyte Léon Denizard Rivail).",
         Beliefs: {
@@ -5704,16 +5842,16 @@ const dataSocieties = {
 
     Eulis_Brotherhood: {
         tags: [
+            "era_industrial",
+            "location_usa",
             "aesthetic_carnal",
             "aesthetic_ecstatic",
-            "path_left_hand",
-            "source_gnosis",
-            "type_fraternal",
-            "era_industrial",
+            "nature_esoteric",
             "practice_sex",
             "practice_drugs",
-            "practice_divination", // Magic Mirrors
+            "practice_divination",
             "practice_secret",
+            "practice_taboobreaking",
         ],
         Origins:
             "Founded c. 1874 by Paschal Beverly Randolph in the USA; the first 'Rosicrucian' order in America and the primary source for modern Western sexual magic.",
@@ -5741,15 +5879,15 @@ const dataSocieties = {
 
     Eglise_Gnostique_Catholique: {
         tags: [
+            "era_industrial",
+            "location_europe",
             "aesthetic_cerebral",
             "aesthetic_macabre",
-            "path_syncretic",
-            "source_gnosis",
-            "type_fraternal",
-            "era_industrial",
+            "nature_esoteric",
             "practice_initiation",
             "practice_chant",
             "practice_commune",
+            "practice_purity",
         ],
         Origins:
             "Founded 1890 in France by Jules Doinel after a spirit séance in the library of Orléans. This is the church in which René Guénon was consecrated a bishop (Palingenius).",
@@ -5775,15 +5913,15 @@ const dataSocieties = {
 
     Rite_of_Memphis_Misraim: {
         tags: [
+            "era_industrial",
+            "location_europe",
             "aesthetic_cerebral",
             "aesthetic_martial",
-            "path_right_hand",
-            "source_ancestral",
-            "type_fraternal",
-            "era_industrial",
+            "nature_ancestral",
             "practice_initiation",
             "practice_secret",
             "practice_chant",
+            "practice_purity",
         ],
         Origins:
             "Formed in 1881 by the fusion of two older rites (Memphis and Misraïm) under Giuseppe Garibaldi. It represents the 'Egyptian' current of Freemasonry critiqued by Guénon.",
@@ -5809,16 +5947,16 @@ const dataSocieties = {
 
     Fraternitas_Rosae_Crucis: {
         tags: [
+            "era_industrial",
+            "location_usa",
             "aesthetic_cerebral",
             "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_gnosis",
-            "type_fraternal",
-            "era_industrial",
+            "nature_esoteric",
             "practice_initiation",
-            "practice_sex", // Inner teachings
+            "practice_sex",
             "practice_meditation",
             "practice_secret",
+            "practice_purity",
         ],
         Origins:
             "Founded c. 1858 by Paschal Beverly Randolph; generally recognized as the oldest Rosicrucian order established in the United States. It established its first Grand Lodge in San Francisco in 1861.",
@@ -5844,16 +5982,16 @@ const dataSocieties = {
 
     Brotherhood_of_Eulis: {
         tags: [
+            "era_industrial",
+            "location_usa",
             "aesthetic_carnal",
             "aesthetic_macabre",
-            "path_left_hand", // Western Left Hand Path progenitor
-            "source_gnosis",
-            "type_fraternal",
-            "era_industrial",
+            "nature_esoteric",
             "practice_sex",
             "practice_drugs",
             "practice_divination",
             "practice_alteration",
+            "practice_taboobreaking",
         ],
         Origins:
             "The 'Interior Order' or inner circle of Randolph's work (c. 1874), distinct from the FRC. It focused explicitly on the 'Ansairetic Mystery' (Sexual Magic) which Randolph claimed to have learned in the Middle East.",
@@ -5878,16 +6016,16 @@ const dataSocieties = {
 
     Brotherhood_of_Myriam: {
         tags: [
+            "era_industrial",
+            "location_europe",
             "aesthetic_cerebral",
             "aesthetic_ecstatic",
-            "path_syncretic",
-            "source_gnosis",
-            "type_fraternal",
-            "era_industrial",
+            "nature_esoteric",
             "practice_meditation",
-            "practice_chant", // Invocatory rituals
+            "practice_chant",
             "practice_commune",
             "practice_secret",
+            "practice_purity",
         ],
         Origins:
             "Founded in 1896 in Italy by Giuliano Kremmerz (Ciro Formisano). It is a 'Therapeutic and Magical Brotherhood' focused on reviving the ancient Roman/Egyptian hermetic tradition.",
@@ -5913,16 +6051,16 @@ const dataSocieties = {
 
     UR_Group: {
         tags: [
+            "era_modern",
+            "location_europe",
             "aesthetic_cerebral",
             "aesthetic_martial",
-            "path_left_hand", // Focus on absolute individual power
-            "source_elite",
-            "type_fraternal",
-            "era_modern",
+            "nature_elite",
             "practice_meditation",
             "practice_visualization",
             "practice_secret",
             "practice_magic",
+            "practice_taboobreaking",
         ],
         Origins:
             "Founded c. 1927 in Italy by Julius Evola and Arturo Reghini. A collective of intellectuals seeking to move beyond theory to practical 'Magic as a Science of the Self'.",
@@ -5946,15 +6084,15 @@ const dataSocieties = {
 
     Builders_of_the_Adytum_BOTA: {
         tags: [
-            "aesthetic_cerebral",
-            "path_right_hand",
-            "source_gnosis",
-            "type_fraternal",
             "era_modern",
+            "location_usa",
+            "aesthetic_cerebral",
+            "nature_esoteric",
             "practice_meditation",
             "practice_initiation",
-            "practice_divination", // Tarot
+            "practice_divination",
             "practice_chant",
+            "practice_purity",
         ],
         Origins: "Founded in 1922 by Paul Foster Case after he left the Alpha et Omega (Golden Dawn). Later extended by Ann Davies.",
         Beliefs: {
@@ -5979,15 +6117,15 @@ const dataSocieties = {
 
     Fraternity_of_the_Inner_Light: {
         tags: [
-            "aesthetic_cerebral",
-            "path_right_hand",
-            "source_gnosis",
-            "type_fraternal",
             "era_modern",
+            "location_europe",
+            "aesthetic_cerebral",
+            "nature_esoteric",
             "practice_meditation",
             "practice_initiation",
-            "practice_sex", // Spiritual polarity
+            "practice_sex",
             "practice_visualization",
+            "practice_purity",
         ],
         Origins:
             "Founded in 1924 by Dion Fortune (Violet Mary Firth) after her expulsion from the Alpha et Omega. Originally the 'Community of the Inner Light'.",
@@ -6013,16 +6151,16 @@ const dataSocieties = {
 
     Thee_Temple_ov_Psychick_Youth_TOPY: {
         tags: [
+            "era_modern",
+            "location_europe",
             "aesthetic_cyberpunk",
             "aesthetic_ecstatic",
-            "path_left_hand",
-            "source_chaos_magic",
-            "type_fraternal", // Network
-            "era_postmodern",
-            "practice_alteration", // Piercing/Tattoos
+            "nature_esoteric",
+            "practice_alteration",
             "practice_sex",
-            "practice_magic", // Sigils
+            "practice_magic",
             "practice_subversion",
+            "practice_taboobreaking",
         ],
         Origins:
             "Founded in 1981 by Genesis P-Orridge and the industrial band Psychic TV. A key driver of the 'Chaos Magic' and 'Modern Primitive' movements.",
@@ -6041,6 +6179,489 @@ const dataSocieties = {
         Structure: {
             Stations:
                 "A loose network of 'Access Points' and 'Stations' (e.g., TOPYNA in North America) rather than a rigid hierarchy. Texts are disseminated via the 'Psychick Bible'.",
+        },
+    },
+
+    Brethren_of_Purity: {
+        tags: [
+            "era_medieval",
+            "location_islam",
+            "aesthetic_cerebral",
+            "nature_esoteric",
+            "practice_commune",
+            "practice_secret",
+            "practice_art",
+            "practice_purity",
+            "aesthetic_academic",
+        ],
+        Origins: "10th Century Basra (Iraq); the 'Ikhwan al-Safa'. A secret committee of scholars and philosophers.",
+        Beliefs: {
+            Universalism:
+                "They believed truth was scattered across all religions and sciences. Their goal was to purify Islamic law with Greek philosophy.",
+            The_Microcosm: "Man is a 'Microcosm' containing the entire universe; the universe is a 'Macroanthropos' (Great Man).",
+            Sleep_of_the_Ignorant: "The masses are spiritually asleep; only the Brethren are awake to the esoteric reality.",
+        },
+        Rituals: {
+            The_Epistles:
+                "Their primary ritual was the collective writing of the 'Rasa'il', a 52-volume encyclopedia covering everything from magic to math. Writing was a soteriological act to save the soul.",
+            The_Feast_of_the_Brethren:
+                "Held meetings every 12 days to read their own texts, discuss secrets, and cultivate spiritual friendship, which they believed was the highest form of worship.",
+            Cyclical_Hierarchy:
+                "Organized members by age and spiritual maturity: Craftsmen (15+), Political Leaders (30+), Kings (40+), and Prophets/Angelics (50+).",
+        },
+        Structure: {
+            Anonymous_Collective:
+                "The authors remained strictly anonymous to protect their work from orthodox persecution, referring to themselves only as 'The Brethren'.",
+        },
+    },
+
+    White_Lotus_Society: {
+        tags: [
+            "era_medieval",
+            "location_asia",
+            "aesthetic_ecstatic",
+            "nature_ancestral",
+            "nature_subversive",
+            "practice_chant",
+            "practice_meditation",
+            "practice_violent",
+            "practice_purity",
+            "practice_decentralized",
+        ],
+        Origins: "China (Song to Qing Dynasties); a persistent millenarian movement merging Buddhism, Taoism, and Manichaeism.",
+        Beliefs: {
+            The_Unborn_Mother:
+                "Veneration of 'Wusheng Laomu' (Unborn Eternal Mother), who weeps for her children trapped in the world of dust (earth).",
+            Maitreya_Incarnate:
+                "Belief that the Future Buddha (Maitreya) was about to descend to overthrow the corrupt dynasty and establish a paradise.",
+            Kalpa_Turning:
+                "The turning of the cosmic age from the 'Blue Sun' to the 'White Sun', requiring a violent cleansing of the world.",
+        },
+        Rituals: {
+            Sutra_Recitation: "Chanting the 'Precious Scroll' (Baojuan) texts to induce trance and gain protection from weapons.",
+            Vegetarian_Fast:
+                "Strict vegetarianism used as a social marker to distinguish 'insiders' from the corrupt 'meat-eaters' of the state.",
+            Nocturnal_Gathering:
+                "Men and women mixed freely at night to worship, leading to scandalous rumors of orgies used by the state to persecute them.",
+        },
+        Structure: {
+            Village_Cells:
+                "Decentralized networks of Masters and disciples that could mobilize into peasant armies (e.g., The Red Turbans) overnight.",
+        },
+    },
+
+    Abakua: {
+        tags: [
+            "era_industrial",
+            "location_america",
+            "aesthetic_martial",
+            "aesthetic_ecstatic",
+            "nature_ancestral",
+            "practice_dance",
+            "practice_costume",
+            "practice_secret",
+            "practice_chant",
+            "practice_sacrifice",
+            "practice_taboobreaking",
+        ],
+        Origins: "Cuba (1830s); an all-male fraternity derived from the Ekpe leopard societies of the Calabar region (Nigeria/Cameroon).",
+        Beliefs: {
+            The_Voice_of_Ekue:
+                "The central secret is the 'Voice' of the Divine Leopard (Ekue), a sound produced by a sacred friction drum that women and non-initiates are forbidden to see.",
+            Manliness: "A strict code of 'Hombria' (Honor/Manhood). You are not a man just by birth; you must be made one by the society.",
+        },
+        Rituals: {
+            The_Ireme_Dance:
+                "Public processions featuring the 'Ireme' or 'Diablito'—a dancer in a tight-fitting, conical hooded suit who mimics the movements of a spirit/leopard. He communicates only through gesture.",
+            Famba_Ceremony:
+                "The secret initiation in the inner room (Famba). Initiates are cleansed with herbs and marked with yellow chalk (firmas) to seal their oath.",
+            Bembé: "Drumming rituals using the unique 'Bonkó Enchemiyá' drum to summon the spirits of the dead.",
+        },
+        Structure: {
+            Juegos: "Independent lodges (Juegos) or 'Lands' (Tierras), each with a specific hierarchy of dignitaries like the Isue (Bishop) and Iyamba.",
+        },
+    },
+
+    Hamatsa_Cannibal_Society: {
+        tags: [
+            "era_preindustrial",
+            "location_usa",
+            "aesthetic_macabre",
+            "aesthetic_ecstatic",
+            "nature_ancestral",
+            "practice_dance",
+            "practice_costume",
+            "practice_initiation",
+            "practice_violent",
+            "practice_taboobreaking",
+        ],
+        Origins: "Pacific Northwest (Kwakwaka'wakw people); the highest ranking secret society of the Winter Ceremonials.",
+        Beliefs: {
+            Baxbakwalanuksiwe:
+                "The 'Man-Eater at the North End of the World'. The initiate is possessed by this spirit and consumed by a desire to eat human flesh.",
+            Taming_the_Wild: "Civilization is maintained not by denying the wild, but by ritually encountering it and taming it.",
+        },
+        Rituals: {
+            The_Abduction:
+                "The initiate disappears into the woods for months, where he supposedly lives with the Man-Eater spirit. He returns 'wild', biting audience members.",
+            Transformation_Masks:
+                "The use of complex mechanical masks (e.g., the Raven or Crooked Beak of Heaven) that crack open to reveal a human face inside, symbolizing the duality of spirit/human.",
+            The_Taming:
+                "Female attendants and society members dance in a circle to 'calm' the cannibal spirit, slowly returning the initiate to a human state through song and smoke.",
+        },
+        Structure: {
+            Hereditary_Right: "Membership is strictly controlled by lineage and marriage rights (numaym).",
+        },
+    },
+
+    The_Druze: {
+        tags: [
+            "era_medieval",
+            "location_islam",
+            "aesthetic_cerebral",
+            "nature_esoteric",
+            "practice_secret",
+            "practice_meditation",
+            "practice_commune",
+            "practice_purity",
+        ],
+        Origins: "11th Century Levant; an offshoot of Ismaili Islam centered on the divinity of Caliph al-Hakim.",
+        Beliefs: {
+            Taqiyya: "Strict religious dissimulation; members must hide their true beliefs from outsiders to survive.",
+            Reincarnation: "The soul is instantly reborn into another body upon death; there is a fixed number of souls in existence.",
+            The_Five_Limits: "Cosmic principles (Universal Mind, Soul, Word, etc.) manifested as five historical ministers.",
+        },
+        Rituals: {
+            Khalwat:
+                "Thursday night prayer meetings in austere, furniture-free halls. Only the initiated (Uqqal) may attend the reading of the 'Epistles of Wisdom'.",
+            The_Closed_Door: "Conversion was permanently closed in 1043 AD. No one can join or leave the faith.",
+            Austere_Dress: "The Uqqal wear distinctive dark robes and white turbans, avoiding all gold and silk.",
+        },
+        Structure: {
+            Dual_Class:
+                "Society is divided into the 'Uqqal' (Knower/Initiated) who have access to the holy books, and 'Juhhal' (Ignorant) who do not.",
+        },
+    },
+
+    False_Face_Society: {
+        tags: [
+            "era_preindustrial",
+            "location_usa",
+            "aesthetic_macabre",
+            "aesthetic_ecstatic",
+            "nature_ancestral",
+            "practice_costume",
+            "practice_chant",
+            "practice_meal",
+            "practice_purity",
+        ],
+        Origins: "Iroquois Confederacy (Haudenosaunee); a medicinal society dedicated to the 'False Face' beings.",
+        Beliefs: {
+            The_Great_Doctor:
+                "The masks represent mythological beings who have the power to cure sicknesses caused by witches or offending spirits.",
+            Living_Masks:
+                "The masks are carved from living trees (basswood) and are considered alive. They must be fed tobacco and oil or they will become hungry and cause harm.",
+        },
+        Rituals: {
+            House_Cleansing:
+                "The Society enters a sick person's house wearing grotesque masks, crawling on the floor, shaking turtle-shell rattles, and blowing hot wood ash onto the patient.",
+            Tobacco_Burning: "Burning tobacco before the masks to give them the spirit-energy required to perform their healing duties.",
+            The_Doorkeeper:
+                "A female official who stands at the door during ceremonies to receive the masks and handle the payment (tobacco/corn mush).",
+        },
+        Structure: {
+            Dream_Call: "Membership is usually determined by dreaming of the False Faces or being cured by them.",
+        },
+    },
+
+    Poro_and_Sande: {
+        tags: [
+            "era_preindustrial",
+            "location_africa",
+            "aesthetic_martial",
+            "aesthetic_ecstatic",
+            "nature_ancestral",
+            "practice_initiation",
+            "practice_costume",
+            "practice_alteration",
+            "practice_secret",
+            "practice_purity",
+            "practice_bodymodification",
+        ],
+        Origins: "Sierra Leone, Liberia, Guinea; universal initiatory societies that function as the traditional government.",
+        Beliefs: {
+            The_Bush_Devil: "The spirit of the forest that 'swallows' the initiate (child) and regurgitates them as a fully formed adult.",
+            Gender_Governance:
+                "Men (Poro) and Women (Sande) have separate, parallel spiritual governments that balance each other's power.",
+        },
+        Rituals: {
+            Scarification:
+                "Initiates receive specific scar patterns on the back or torso, interpreted as the 'teeth marks' of the spirit that swallowed them.",
+            The_Coming_Out:
+                "After months/years of seclusion in the bush school, initiates return to the village covered in white clay (symbolizing the spirit world) before being washed into their new identity.",
+            Sande_Masks:
+                "The Sande society is the only African tradition where women wear wooden masks (the Sowei), depicting the ideal of feminine beauty.",
+        },
+        Structure: {
+            Zo: "The high priests/priestesses (Zo) hold political authority that supersedes local chiefs.",
+        },
+    },
+
+    I_Kuan_Tao: {
+        tags: [
+            "era_modern",
+            "location_asia",
+            "aesthetic_cerebral",
+            "nature_esoteric",
+            "practice_meditation",
+            "practice_chant",
+            "practice_secret",
+            "practice_subversion",
+            "practice_purity",
+            "practice_syncretism",
+        ],
+        Origins: "China (1930s); 'The Way of Pervasive Unity'. Suppressed heavily in mainland China, flourished in Taiwan.",
+        Beliefs: {
+            Five_Religions_One_Source: "Integrates Buddhism, Taoism, Confucianism, Christianity, and Islam into a single truth.",
+            The_Final_Salvation: "We are in the 'White Yang' era, where truth is open to commoners, not just monks.",
+            Name_Registration: "Upon initiation, one's name is erased from the Lord of Death's ledger and written in the Heaven's roster.",
+        },
+        Rituals: {
+            The_Three_Treasures:
+                "Secret devices given at initiation: 1) The Mystic Portal (a point on the face), 2) The True Sutra (a specific silent mantra), 3) The Hand Seal (a specific mudra).",
+            Sand_Writing:
+                "Using a planchette in a sandbox (Fuji) to receive direct instructions and scriptures from the Buddhas and Immortals.",
+            Confession_of_Merit: "Members vigorously tally their 'merits' (good deeds/proselytizing) to ensure ascent to the Pure Land.",
+        },
+        Structure: {
+            Family_Altars: "Operations are centered on home-based altars rather than public temples to maintain secrecy and intimacy.",
+        },
+    },
+
+    The_Sicarii: {
+        tags: [
+            "era_ancient",
+            "location_levant",
+            "aesthetic_martial",
+            "nature_esoteric",
+            "nature_militant",
+            "nature_subversive",
+            "practice_violent",
+            "practice_secret",
+            "practice_sacrifice",
+            "practice_taboobreaking",
+        ],
+        Origins: "1st Century Judea; a splinter group of the Jewish Zealots. Their name comes from the 'sica', a small curved dagger.",
+        Beliefs: {
+            No_Lord_but_God: "Absolute refusal to recognize Roman rule or any human master. Taxation was viewed as idolatry.",
+            Cloak_and_Dagger:
+                "The belief that terror is most effective when the perpetrator is invisible. They were the first 'men among the crowd' terrorists.",
+        },
+        Rituals: {
+            The_Public_Stabbing:
+                "Unlike armies, Sicarii operated in crowded markets during festivals. They would pull daggers from their cloaks, stab Roman sympathizers or Sadducees, and then blend in with the screaming crowd, often acting as the loudest mourners to escape detection.",
+            Mass_Suicide:
+                "The final ritual at Masada (73 CE), where 960 rebels chose to kill their wives, children, and then each other rather than submit to Roman capture, drawing lots to determine the final executioners.",
+        },
+        Structure: {
+            Cellular: "Operated as autonomous assassins rather than a standing army.",
+        },
+    },
+
+    The_Peoples_Will_Narodnaya_Volya: {
+        tags: [
+            "era_industrial",
+            "location_europe",
+            "aesthetic_cerebral",
+            "aesthetic_macabre",
+            "nature_militant",
+            "nature_subversive",
+            "practice_violent",
+            "practice_secret",
+            "practice_sacrifice",
+        ],
+        Origins: "Russia, 1879; the grandfather of modern political terrorism. They coined the term 'propaganda of the deed'.",
+        Beliefs: {
+            Nihilism:
+                "The rejection of all religious and state authority. Only destruction of the current order could pave the way for a peasant socialist utopia.",
+            The_Royal_Hunt: "A single-minded obsession with assassinating Tsar Alexander II, whom they viewed as the head of the snake.",
+        },
+        Rituals: {
+            Dynamite_Cult:
+                "They fetishized technology, specifically dynamite. Manufacturing bombs in home laboratories was treated with religious solemnity. The 'chemist' was the high priest of the cell.",
+            The_Living_Bomb:
+                "Ignacy Hryniewiecki, the assassin who finally killed the Tsar, acted as a human sacrifice, throwing a bomb at his own feet to ensure the target's death, fully accepting his own disintegration.",
+        },
+        Structure: {
+            Executive_Committee:
+                "A highly secretive inner circle that directed a network of agents, strictly compartmentalized to prevent police infiltration.",
+        },
+    },
+
+    Weather_Underground_Organization_WUO: {
+        tags: [
+            "era_modern",
+            "location_usa",
+            "aesthetic_ecstatic",
+            "nature_militant",
+            "nature_subversive",
+            "practice_violent",
+            "practice_sex",
+            "practice_subversion",
+            "practice_commune",
+            "practice_taboobreaking",
+        ],
+        Origins:
+            "USA, 1969; split from the Students for a Democratic Society (SDS). 'You don't need a weatherman to know which way the wind blows.'",
+        Beliefs: {
+            Bring_the_War_Home:
+                "Belief that white American youth had to open a front inside the 'Empire' to support the Viet Cong and Black Panthers.",
+            Smash_Monogamy: "Traditional relationships were seen as counter-revolutionary possessiveness.",
+        },
+        Rituals: {
+            Criticism_Self_Criticism:
+                "Grueling, days-long sessions (borrowed from Maoism) where members were verbally flayed by the group to break down their egos, confess 'bourgeois' thoughts, and pledge loyalty to the collective.",
+            The_Orgy: "Mandatory group sex and partner-swapping were used to break individual bonds and ensure loyalty only to the Cell.",
+            Acid_Tests:
+                "Taking LSD before engaging in acts of vandalism or planning bombings to ensure members were 'psychically deprogrammed' from societal norms.",
+        },
+        Structure: {
+            Focos: "Small, autonomous cells of 3-5 people living in safe houses, communicating only via payphones and codes.",
+        },
+    },
+
+    Nxivm: {
+        tags: [
+            "era_modern",
+            "location_usa",
+            "aesthetic_corporate",
+            "aesthetic_cerebral",
+            "nature_technological",
+            "nature_criminal",
+            "practice_extortion",
+            "practice_diet",
+            "practice_subversion",
+            "practice_guru",
+            "practice_bodymodification",
+        ],
+        Origins: "Founded in 1998 by Keith Raniere and Nancy Salzman in Albany, NY. Marketed as 'Executive Success Programs' (ESP).",
+        Beliefs: {
+            Ethical_Hedonism:
+                "The doctrine that humans should seek to maximize joy, but that their 'disintegrations' (emotional blocks) prevent them from doing so.",
+            The_Vanguard: "Raniere was the ultimate ethical authority; defying him was a sign of inner deficiency.",
+            Parasitic_feminism:
+                "Under the guise of 'empowerment', women were taught that total submission to a male master was the ultimate liberation.",
+        },
+        Rituals: {
+            The_Sash:
+                "Members wore sashes of different colors (White to Gold) denoting rank in the 'Stripe Path', mimicking martial arts belts.",
+            The_Branding:
+                "In the inner circle (DOS), women were held down and cauterized near the pelvic bone with a pen-shaped iron. The brand, initially explained as a symbol of elements, was actually a sigil of Raniere's initials (KR).",
+            Collateral:
+                "To advance, members had to hand over 'collateral' (naked photos, confessions of crimes) to their 'masters' to ensure silence and obedience.",
+            Ready_Zero: "Techniques of sleep deprivation and extreme calorie restriction to induce a pliable, euphoric state.",
+        },
+        Structure: {
+            Master_Slave_Cell:
+                "DOS (Dominus Obsequious Sororium) operated as a master-slave pyramid. A master recruited slaves, who then recruited their own slaves, with Raniere at the apex.",
+        },
+    },
+
+    QAnon: {
+        tags: [
+            "era_digital",
+            "location_usa",
+            "aesthetic_cerebral",
+            "aesthetic_martial",
+            "nature_technological",
+            "nature_subversive",
+            "nature_apocalyptic",
+            "practice_divination",
+            "practice_subversion",
+            "practice_chant",
+            "practice_apocalyptic",
+        ],
+        Origins:
+            "Emerged October 2017 on 4chan with posts by 'Q Clearance Patriot'. Represents the first fully decentralized, open-source religion.",
+        Beliefs: {
+            The_Storm: "An imminent event where the military will arrest the 'Deep State' cabal and execute them, restoring a golden age.",
+            The_Cabal:
+                "A belief that elites (Democrats, Hollywood, Royals) are essentially Luciferian blood-drinkers (Adrenochrome) preying on children.",
+            Great_Awakening: "The digital enlightenment where the public realizes the true, dark nature of reality.",
+        },
+        Rituals: {
+            Baking: "The collective hermeneutic process where 'Anons' decode the cryptic 'Q Drops' (scripture) to find meaning, effectively crowdsourcing prophecy.",
+            Digital_Soldiering:
+                "Flooding social media with memes and hashtags (#WWG1WGA) is viewed as 'information warfare' equivalent to physical combat.",
+            Red_Pilling:
+                "The act of radicalizing friends and family, often resulting in estrangement, viewed as 'waking them up' from the Matrix.",
+        },
+        Structure: {
+            Gamified_Stochastic:
+                "No official membership. It operates like an Alternate Reality Game (ARG) where the most engaging interpretations of the lore rise to the top.",
+        },
+    },
+
+    The_Black_Hand_Unification_or_Death: {
+        tags: [
+            "era_industrial",
+            "location_europe",
+            "aesthetic_martial",
+            "aesthetic_macabre",
+            "nature_subversive",
+            "practice_violent",
+            "practice_initiation",
+            "practice_secret",
+            "practice_sacrifice",
+        ],
+        Origins: "Serbia, 1911 (Crna Ruka). A military secret society formed by officers to unify South Slavs through violence.",
+        Beliefs: {
+            Pan_Slavism: "The unification of all Serbs into one state is more important than life itself.",
+            Terror_as_Tool: "Unlike anarchists who killed for philosophy, they killed for territory and statecraft.",
+        },
+        Rituals: {
+            The_Oath_of_Death:
+                "The initiate entered a dark room lit by a wax candle. On the table lay a cross, a dagger, and a revolver. They swore: 'By the Sun that warms me... I pledge myself to this work... before God, upon my honor and my life.'",
+            The_Poison: "Members carried cyanide to commit suicide immediately if captured to protect the organization's secrets.",
+            The_Seal: "Their seal depicted a bomb, a knife, and a bottle of poison, with the motto 'Unification or Death'.",
+        },
+        Structure: {
+            Executive_Central:
+                "Led by Dragutin Dimitrijević ('Apis'). They famously orchestrated the assassination of Archduke Franz Ferdinand, triggering WWI.",
+        },
+    },
+
+    Synanon: {
+        tags: [
+            "era_modern",
+            "location_usa",
+            "aesthetic_utilitarian",
+            "aesthetic_martial",
+            "nature_technological",
+            "nature_criminal",
+            "practice_violent",
+            "practice_alteration",
+            "practice_taboobreaking",
+            "practice_commune",
+            "aesthetic_corporate",
+        ],
+        Origins: "Founded 1958 in Santa Monica by Charles Dederich. Began as a drug rehab, evolved into a violent cult.",
+        Beliefs: {
+            Act_As_If: "Behavior modifies thought. If you act happy/obedient, you will become it.",
+            No_Secrets: "Privacy is a disease; the group must know every thought to 'fix' the addict.",
+            Lifetime_Rehab: "You are never cured; you must live in Synanon forever to stay sober.",
+        },
+        Rituals: {
+            The_Game:
+                "The central ritual. Participants sit in a circle and viciously verbally attack one member at a time, screaming at them to break down their 'defenses' and ego. This 'attack therapy' became a model for the troubled teen industry.",
+            Mass_Head_Shaving: "Members, including women, were forced to shave their heads to demonstrate submission and reject vanity.",
+            Vasectomies:
+                "In later years, men were coerced into vasectomies and women into abortions, as Dederich decided children were a distraction.",
+            The_Rattlesnake:
+                "Dederich placed a rattlesnake in the mailbox of a lawyer fighting the cult, a transition from 'verbal violence' to physical terror.",
+        },
+        Structure: {
+            Church_of_Synanon: "Evolved into a tax-exempt church to avoid regulation, hoarding massive wealth in real estate and assets.",
         },
     },
 }

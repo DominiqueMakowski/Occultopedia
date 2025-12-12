@@ -1147,5 +1147,95 @@ const imagesManifest = {
         "Fraternitas_Rosae_Crucis_1.png",
         "Fraternitas_Rosae_Crucis_2.png",
         "Fraternitas_Rosae_Crucis_3.jpg"
+    ],
+    "The_Peoples_Will_Narodnaya_Volya": [
+        "The_Peoples_Will_Narodnaya_Volya_0.jpg",
+        "The_Peoples_Will_Narodnaya_Volya_1.png",
+        "The_Peoples_Will_Narodnaya_Volya_2.jpg",
+        "The_Peoples_Will_Narodnaya_Volya_3.jpg"
+    ],
+    "Brethren_of_Purity": [
+        "Brethren_of_Purity_0.jpg",
+        "Brethren_of_Purity_1.png",
+        "Brethren_of_Purity_2.jpg",
+        "Brethren_of_Purity_3.jpg"
+    ],
+    "Weather_Underground_Organization_WUO": [
+        "Weather_Underground_Organization_WUO_0.png",
+        "Weather_Underground_Organization_WUO_1.jpg",
+        "Weather_Underground_Organization_WUO_2.jpg",
+        "Weather_Underground_Organization_WUO_3.png"
+    ],
+    "Abakua": [
+        "Abakua_0.png",
+        "Abakua_1.jpg",
+        "Abakua_2.png",
+        "Abakua_3.jpg"
+    ],
+    "The_Druze": [
+        "The_Druze_0.png",
+        "The_Druze_1.jpg",
+        "The_Druze_2.jpg",
+        "The_Druze_3.png"
+    ],
+    "False_Face_Society": [
+        "False_Face_Society_0.jpg",
+        "False_Face_Society_1.jpg",
+        "False_Face_Society_2.jpg",
+        "False_Face_Society_3.jpg"
+    ],
+    "The_Black_Hand_Unification_or_Death": [
+        "The_Black_Hand_Unification_or_Death_0.png",
+        "The_Black_Hand_Unification_or_Death_1.jpg",
+        "The_Black_Hand_Unification_or_Death_2.jpg",
+        "The_Black_Hand_Unification_or_Death_3.jpg"
+    ],
+    "I_Kuan_Tao": [
+        "I_Kuan_Tao_0.png",
+        "I_Kuan_Tao_1.jpg",
+        "I_Kuan_Tao_2.png",
+        "I_Kuan_Tao_3.png"
+    ],
+    "Nxivm": [
+        "Nxivm_0.jpg",
+        "Nxivm_1.jpg",
+        "Nxivm_2.jpg",
+        "Nxivm_3.jpg"
+    ],
+    "QAnon": [
+        "QAnon_0.jpg",
+        "QAnon_1.jpg",
+        "QAnon_2.png",
+        "QAnon_3.png"
+    ],
+    "Synanon": [
+        "Synanon_0.jpg",
+        "Synanon_1.jpg",
+        "Synanon_2.jpg",
+        "Synanon_3.png"
+    ],
+    "Hamatsa_Cannibal_Society": [
+        "Hamatsa_Cannibal_Society_0.jpg",
+        "Hamatsa_Cannibal_Society_1.jpg",
+        "Hamatsa_Cannibal_Society_2.jpg",
+        "Hamatsa_Cannibal_Society_3.jpg"
+    ],
+    "Poro_and_Sande": [
+        "Poro_and_Sande_0.jpg",
+        "Poro_and_Sande_1.jpg",
+        "Poro_and_Sande_2.jpg",
+        "Poro_and_Sande_3.jpg"
+    ],
+    "The_Sicarii": [
+        "The_Sicarii_0.jpg",
+        "The_Sicarii_1.png",
+        "The_Sicarii_2.png",
+        "The_Sicarii_3.jpg"
+    ],
+    "White_Lotus_Society": [
+        "White_Lotus_Society_0.jpg",
+        "White_Lotus_Society_1.png",
+        "White_Lotus_Society_2.jpg",
+        "White_Lotus_Society_3.png"
     ]
 };

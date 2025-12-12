@@ -17,24 +17,22 @@ let camera = { x: 0, y: 0, zoom: 1 } // Global camera state
 
 const TAG_COLORS = {
     aesthetic: "#ff4081", // Pink
-    path: "#7c4dff", // Purple
+    location: "#7c4dff", // Purple
     practice: "#00e676", // Green
     era: "#ffab00", // Amber
-    source: "#2979ff", // Blue
-    type: "#00bcd4", // Cyan
+    nature: "#2979ff", // Blue (reusing source color for nature)
     other: "#9e9e9e", // Grey
     all: "#9b59b6", // Purple for all tags mode
 }
 
 const ERA_COLORS = {
-    era_ancient: "#D32F2F", // Red
-    era_medieval: "#E64A19", // Deep Orange
-    era_renaissance: "#F57C00", // Orange
-    era_enlightenment: "#FFA000", // Amber
-    era_industrial: "#FFC107", // Amber-Yellow
-    era_victorian: "#FFD54F", // Light Amber
-    era_modern: "#FFEB3B", // Yellow
-    era_information: "#FFF176", // Light Yellow
+    era_ancient: "#FF3333", // Red
+    era_medieval: "#FF8833", // Orange
+    era_preindustrial: "#FFDD33", // Golden
+    era_industrial: "#BBDD33", // Yellow-Green
+    era_modern: "#33DD88", // Teal-ish
+    era_digital: "#3388FF", // Blue
+    era_fictional: "#9e9e9e", // Grey
 }
 
 function getEraColor(tags) {
@@ -66,21 +64,18 @@ function getTagInfo(tag) {
     if (tag.startsWith("aesthetic_")) {
         type = "aesthetic"
         label = tag.replace("aesthetic_", "")
-    } else if (tag.startsWith("path_")) {
-        type = "path"
-        label = tag.replace("path_", "")
+    } else if (tag.startsWith("location_")) {
+        type = "location"
+        label = tag.replace("location_", "")
     } else if (tag.startsWith("practice_")) {
         type = "practice"
         label = tag.replace("practice_", "")
     } else if (tag.startsWith("era_")) {
         type = "era"
         label = tag.replace("era_", "")
-    } else if (tag.startsWith("source_")) {
-        type = "source"
-        label = tag.replace("source_", "")
-    } else if (tag.startsWith("type_")) {
-        type = "type"
-        label = tag.replace("type_", "")
+    } else if (tag.startsWith("nature_")) {
+        type = "nature"
+        label = tag.replace("nature_", "")
     }
 
     return {
@@ -325,12 +320,11 @@ function initNetwork() {
         const eras = [
             { key: "era_ancient", label: "Ancient" },
             { key: "era_medieval", label: "Medieval" },
-            { key: "era_renaissance", label: "Renaissance" },
-            { key: "era_enlightenment", label: "Enlightenment" },
+            { key: "era_preindustrial", label: "Pre-Industrial" },
             { key: "era_industrial", label: "Industrial" },
-            { key: "era_victorian", label: "Victorian" },
             { key: "era_modern", label: "Modern" },
-            { key: "era_information", label: "Information" },
+            { key: "era_digital", label: "Digital" },
+            { key: "era_fictional", label: "Fictional" },
         ]
 
         eras.forEach((era) => {
@@ -607,11 +601,10 @@ function initNetwork() {
 
                     // Determine type for coloring
                     if (firstShared.startsWith("aesthetic")) type = "aesthetic"
-                    else if (firstShared.startsWith("path")) type = "path"
+                    else if (firstShared.startsWith("location")) type = "location"
                     else if (firstShared.startsWith("practice")) type = "practice"
                     else if (firstShared.startsWith("era")) type = "era"
-                    else if (firstShared.startsWith("source")) type = "source"
-                    else if (firstShared.startsWith("type")) type = "type"
+                    else if (firstShared.startsWith("nature")) type = "nature"
 
                     // Filtering Logic
                     let shouldConnect = false
@@ -645,8 +638,8 @@ function initNetwork() {
                             strength = categoryTags.length
                             // Update type to match the mode for coloring consistency
                             if (mode.startsWith("practice")) type = "practice"
-                            else if (mode.startsWith("source")) type = "source"
-                            else if (mode.startsWith("path")) type = "path"
+                            else if (mode.startsWith("nature")) type = "nature"
+                            else if (mode.startsWith("location")) type = "location"
                         }
                     }
 
@@ -669,7 +662,15 @@ function initNetwork() {
     updateLinks()
 
     // Event Listener for Dropdown
-    connectionModeSelect.addEventListener("change", updateLinks)
+    connectionModeSelect.addEventListener("change", () => {
+        const mode = connectionModeSelect.value
+        if (mode === "all") {
+            connectionThresholdSlider.value = 5
+        } else {
+            connectionThresholdSlider.value = 1
+        }
+        updateLinks()
+    })
     connectionThresholdSlider.addEventListener("input", updateLinks)
 
     // Pre-calculate layout (Warmup)
@@ -803,6 +804,7 @@ function initNetwork() {
         draggedNode = null
         panning = false
         canvas.style.cursor = "default"
+        updateUrlState()
     })
 
     canvas.addEventListener("wheel", (e) => {
@@ -824,6 +826,7 @@ function initNetwork() {
         camera.zoom = newZoom
 
         restartSimulation() // Redraw
+        updateUrlState()
     })
 
     canvas.addEventListener("click", (e) => {
@@ -858,6 +861,10 @@ function updateUrlState() {
     const connectionThresholdSlider = document.getElementById("connection-threshold")
     if (connectionThresholdSlider) params.set("threshold", connectionThresholdSlider.value)
 
+    params.set("x", Math.round(camera.x))
+    params.set("y", Math.round(camera.y))
+    params.set("zoom", camera.zoom.toFixed(2))
+
     const newUrl = `${window.location.pathname}?${params.toString()}`
     window.history.replaceState({}, "", newUrl)
 }
@@ -868,6 +875,9 @@ function loadStateFromUrl() {
         society: params.get("society"),
         mode: params.get("mode"),
         threshold: params.get("threshold"),
+        x: params.get("x"),
+        y: params.get("y"),
+        zoom: params.get("zoom"),
     }
 }
 
@@ -899,6 +909,11 @@ async function init() {
 
         // Load State
         const urlState = loadStateFromUrl()
+
+        // Apply Camera State
+        if (urlState.x) camera.x = parseFloat(urlState.x)
+        if (urlState.y) camera.y = parseFloat(urlState.y)
+        if (urlState.zoom) camera.zoom = parseFloat(urlState.zoom)
 
         // Apply Network Settings (before initNetwork)
         if (urlState.mode) {
