@@ -172,7 +172,10 @@ function renderDetail(key, society) {
     const html = `
     <div class="society-detail">
         <img src="${mainImageSrc}" class="main-image" onerror="this.style.display='none'" alt="${formatKey(key)}">
-        <h2>${formatKey(key)}</h2>
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h2>${formatKey(key)}</h2>
+            <a href="https://github.com/DominiqueMakowski/Occultopedia/blob/main/database.js" target="_blank" style="color: #666; text-decoration: none; font-size: 0.9em; border: 1px solid #444; padding: 2px 8px; border-radius: 4px;">Suggest change</a>
+        </div>
         ${tagsHtml}
         ${contentHtml}
         ${galleryHtml}
