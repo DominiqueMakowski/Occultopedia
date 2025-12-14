@@ -615,20 +615,31 @@ const dataSocieties = {
             "practice_taboobreaking",
             "aesthetic_academic",
         ],
-        Origins: "Founded 1776 in Bavaria by Adam Weishaupt to oppose superstition, obscurantism, and abuses of state power.",
+        Origins:
+            "Founded May 1, 1976, by Adam Weishaupt (code name: Spartacus) at the University of Ingolstadt. Originally named the 'Perfectibilists', the order was a reaction against Jesuit control of education. It was not a magical order, but a frantic attempt to use Masonic secrecy to spread radical Enlightenment rationalism.",
         Beliefs: {
-            Perfectibilism: "Humanity could reach a state of perfection through reason, bypassing religious dogma.",
-            Secular_Rationalism: "Opposed the Jesuit order and monarchical rule.",
+            Perfectibilism:
+                "The core doctrine that humanity is not fallen, but capable of infinite improvement through the removal of external obstacles (monarchy and religion).",
+            The_Hidden_Hand:
+                "Weishaupt believed that 'Princes and Nations will disappear without violence from the earth,' replaced by a benevolent, invisible rational elite.",
+            Morality_as_Tool:
+                "Unlike Freemasonry, which taught morality as an end, the Illuminati used morality as a means of control. The end justifies the means (Exitus acta probat).",
         },
         Rituals: {
-            Minerval_Degree:
-                "Initiates were brought into a dimly lit room and given a 'secret classical name' (e.g., Weishaupt was 'Spartacus'). They presented a detailed autobiography to the superior, symbolizing the surrender of their private self.",
-            The_Owl:
-                "A medallion or statue of the Owl of Minerva holding an open book was displayed on the table, symbolizing wisdom observing the darkness.",
+            The_Quibus_Licet:
+                "A sophisticated surveillance ritual. Every initiate was required to keep a 'Quibus Licet' (To whom it is permitted) notebook. In it, they had to record the psychological profiles, secrets, and weaknesses of their family, friends, and enemies. These books were submitted monthly to superiors, creating a massive intelligence database used for blackmail and control.",
+            The_Minerval_Degree:
+                "The candidate was introduced to the 'Owl of Minerva'  and given a classical cipher name (e.g., Munich became 'Athens', Bavaria became 'Achaia'). They were taught that the Order was ancient, dating back to Persia, to validate its authority.",
+            The_Regent_Degree:
+                "In the higher administrative degrees, the 'secret' was revealed: Religion is an invention of statecraft. The Regent was trained to manipulate public opinion and infiltrate court positions to steer the state toward rationalism.",
+            The_Poison_Protocol:
+                "High-ranking members allegedly carried a 'locket' containing poison (likely arsenic or opium) to commit suicide rather than betray the order's secrets if captured.",
         },
         Structure: {
-            Areopagites: "The ruling council.",
-            Hierarchy: "Divided into three classes: The Nursery, The Masonic Grades, and The Mysteries.",
+            The_Insinuators:
+                "A specific rank of recruiter ('Insinuator') whose sole job was to spot intelligent young men in law and government, slowly seducing them into the order without revealing its true political aim.",
+            The_Three_Classes:
+                "1. The Nursery (Novice, Minerval, Illuminatus Minor). 2. The Masonic Grades (Illuminatus Major, Illuminatus Dirigens). 3. The Mysteries (Priest, Regent, Magus, King).",
         },
     },
 
@@ -682,6 +693,12 @@ const dataSocieties = {
                 "The initiatory structure is strictly mapped to the Qabalistic Tree of Life, representing a spiritual ascent up the Sephiroth.",
             Theurgy:
                 "Divine working; ritual practice serves to purify the self and invoke divine forces (angels and archangels) to facilitate spiritual evolution.",
+            The_Redemptive_Ascent:
+                "The soul is 'fallen' into matter. The goal is to climb the 'Tree of Life' (the Qabalah) from Malkuth (Earth) to Kether (Divine Light) to reunite with the 'Higher Self'.",
+            The_Invisible_College:
+                "Authority is derived from the 'Secret Chiefs' (Third Order)—disincarnate adepts who ostensibly dictated the rituals to the founders.",
+            Magic_as_Science:
+                "Magick is the science and art of causing change to occur in conformity with Will, using specific symbols to stimulate the operator's psyche.",
         },
         Rituals: {
             Godforms:
@@ -690,8 +707,18 @@ const dataSocieties = {
                 "Tracing pentagrams in the air with a dagger (athame) or finger, visualizing them flaming in electric blue light, to clear the space of unwanted influences.",
             Crypt_Ritual:
                 "The Adeptus Minor ($5=6$) initiation involves entering the 'Vault of the Adept'—a seven-sided chamber painted in flashing colors—where the Chief Adept lies in a pastos (coffin) to simulate the death and resurrection of Christian Rosenkreuz.",
+            The_Z2_Formula:
+                "The technical formula for Godform Assumption. The magician visualizes themselves expanding to colossal size, donning the mask and colors of a specific Egyptian deity (e.g., Horus), and vibrating their name until they 'become' the god.",
+            The_Vault_of_the_Adepts:
+                "The central initiation hall for the Inner Order (5=6). It is a seven-sided chamber  painted in the flashing (complementary) colors of the planets. It contains the 'Pastos' (coffin) of Christian Rosenkreutz, which the adept must lie in to simulate death.",
+            Sign_of_the_Enterer:
+                "A specific physical gesture used to project force: The magician takes a step forward with the left foot and thrusts both arms forward (fingers extended) while vibrating a name, visualizing a beam of light shooting from the hands.",
+            Enochian_Chess:
+                "A method of divination and magic played on four separate chessboards (Fire, Water, Air, Earth) where the pieces are Egyptian gods. It is used to test the magician's ability to concentrate and strategize on multiple planes.",
         },
         Structure: {
+            The_Golden_Chain:
+                "Strict examination system. You could not progress to the next grade without passing written tests on Hebrew, Tarot, and Astrology. Progress was intellectual, not just ceremonial.",
             Outer_Order:
                 "Consists of the elementary grades: Neophyte ($0=0$), Zelator ($1=10$), Theoreticus ($2=9$), Practicus ($3=8$), and Philosophus ($4=7$).",
             Inner_Order:
@@ -1314,17 +1341,31 @@ const dataSocieties = {
         ],
         Origins: "Modern religious movement founded by L. Ron Hubbard.",
         Beliefs: {
-            Thetan: "The immortal spiritual being that is the true self.",
-            The_Bridge: "A chart of gradation ('The Bridge to Total Freedom') mapping the path from 'Pre-Clear' to 'Operating Thetan'.",
+            The_Reactive_Mind:
+                "The mind is split. The 'Analytical Mind' is a perfect computer; the 'Reactive Mind' is a stimulus-response mechanism storing traumas ('engrams') that ruin life. The goal is to erase the Reactive Mind to become 'Clear'.",
+            Thetan_Immortality:
+                "The individual is a 'Thetan' (spirit) that has lived through trillions of years of space opera history, currently trapped in a meat body.",
+            Ksw_Keep_Scientology_Working:
+                "The doctrine that the 'Tech' (Hubbard's writings) works 100% of the time if applied exactly. Any failure is the fault of the application, never the technology.",
         },
         Rituals: {
             Auditing:
                 "A counseling session where the 'Auditor' and 'Pre-Clear' sit face-to-face at a small table. The Pre-Clear holds two tin cans (electrodes) connected to the E-Meter.  The Auditor watches the needle for 'reads' (movement) to identify and clear past traumas (engrams).",
+            The_E_Meter_Drill:
+                "Using the 'Electropsychometer' . The device sends a 1.5-volt charge through the body. The auditor watches the needle for a 'Rock Slam' (erratic movement indicating hidden evil intent) or a 'Float' (indicating release).",
+            TR0_Bullbaiting:
+                "A conditioning drill ('Training Routine 0'). The student must sit perfectly still and stare at a coach for hours without flinching, blinking excessively, or reacting, while the coach screams insults, sexual jokes, or threats to find their 'buttons'.",
+            The_Purification_Rundown:
+                "A ritual involving massive doses of Niacin (Vitamin B3) and 4+ hours of daily sauna time for weeks, believed to 'boil out' radiation and drug residues stored in the fat cells.",
             Silent_Birth:
-                "A practice where labor and birth must occur in absolute silence to prevent recording negative engrams in the infant's reactive mind.",
+                "Strict prohibition of spoken words during labor. Doctors and nurses must remain silent so the trauma of birth doesn't implant verbal engrams (suggestions) into the baby's reactive mind.",
         },
         Structure: {
             Hierarchical: "Strict progression of courses and levels (OT I - OT VIII).",
+            The_Bridge_to_Total_Freedom:
+                "A rigidly priced menu of courses. One moves from 'Pre-Clear' to 'Clear' and then into the 'OT Levels' (Operating Thetan), where the Xenu cosmology is revealed.",
+            The_Sea_Org:
+                "The para-military clergy who sign a billion-year contract. They wear naval uniforms and live in communal berthing, subject to the 'RPF' (Rehabilitation Project Force) prison camps for disciplinary infractions.",
         },
     },
 
@@ -1623,15 +1664,28 @@ const dataSocieties = {
                 "Actively fought against the Bavarian Soviet Republic, viewing it as a Jewish-Bolshevik plot to destroy the German spirit.",
             Modern_UFO_Mythos:
                 "Post-war legends (invented by Neo-Nazis in the 1970s) claim the Thule Society communicated with Aldebaran aliens. Historically, the group was focused on runic nationalism and anti-semitism, not extraterrestrials.",
+            Ariosophy:
+                "A blend of Theosophy and racism. Believed Aryans were descendants of god-men from 'Thule' (Hyperborea) who had lost their electrical/magical powers by interbreeding with 'animal' races.",
+            Runen_Mysticism:
+                "Runes are not just letters, but antennae for cosmic Vril energy. Posturing the body into the shape of runes (Runen-Yoga) reconnects the Aryan to the divine.",
+            Blood_Memory:
+                "The belief that 'Clairvoyance' is actually 'Blood Memory'—accessing the genetic record of the ancestors. Purity of blood equals clarity of vision.",
         },
         Rituals: {
             The_Iron_Hammer: "Sebottendorff famously wielded a replica of Thor's Hammer during meetings to call for action and unity.",
             Bronze_Pin: "Members wore a distinctive bronze pin featuring a swastika on a shield crossed by two spears.",
             Guest_Status:
                 "Allowed military officers and students to join as 'guests' to circumvent laws against soldiers joining political parties.",
-            Sun_Wheel_Worship: "Adoption of the Swastika as a solar symbol.",
             Martyrdom:
                 "The execution of members (including Prince Thurn und Taxis) by Red Guards in 1919 created a powerful 'blood martyr' mythos for the early right wing.",
+            The_Sign_of_the_Hammer:
+                "Members recognized each other by making the 'Sign of the Hammer' (mimicking Thor's Hammer) with their hand against their forehead.",
+            Measuring_the_Head:
+                "Admission was strictly biological. Applicants had to submit photos and undergo cranial measurements to prove 'Aryan' phenotype. A 'Blood Declaration' swearing no Jewish or colored ancestry was mandatory.",
+            The_Broken_Sun_Wheel:
+                "Adoption of the Swastika  (curved legs) and later the Hakenkreuz (straight legs) as a solar symbol representing the 'ascension' of the race.",
+            Winter_Solstice_Yule:
+                "Replaced Christmas with Yule. Rituals involved lighting a massive bonfire to 'call back the sun', reading verses from the Edda, and gifting 'Julleuchter' (ceramic Yule lanterns) to members.",
         },
         Structure: {
             Study_Group_Cover: "Operated officially as a 'Study Group for Germanic Antiquity' to hide its paramilitary activities.",
@@ -5500,21 +5554,35 @@ const dataSocieties = {
             "practice_taboobreaking",
             "practice_syncretism",
         ],
-        Origins: "Founded in 1978 by Peter Carroll and Ray Sherwin; the premier order of Chaos Magic.",
+        Origins:
+            "Founded in 1978 by Peter J. Carroll and Ray Sherwin in London. They formalized 'Chaos Magic' as an anti-tradition, rejecting the 'museum of occultism' (Golden Dawn, Egyptology) in favor of a 'magical engineering' approach. Their core texts, *Liber Null* and *Liber Kaos*, treat magic as a technology to be stripped of superstition and applied with scientific rigor.",
         Beliefs: {
-            Nothing_is_True:
-                "Belief is a tool. One can adopt any belief system (paradigm shifting) to achieve a magical result, then discard it.",
+            The_Meta_Paradigm:
+                "The only truth is that there is no truth. Practitioners use 'Paradigm Shifting' to adopt a belief system (e.g., Voodoo, Christianity, Quantum Mechanics) with 100% fanaticism for the duration of a ritual, then discard it immediately after to prevent dogmatic attachment. Belief is treated as a psychic fuel, not a description of reality.",
+            Kia_and_Chaos:
+                "The universe is dualistic: 'Chaos' is the physical universe (a senseless, unordered creative force), and 'Kia' is the psychic censor/observer within the human mind. Magic is the art of temporarily relaxing the Kia (the ego) to allow the will to manipulate Chaos directly.",
             Eros_and_Thanatos:
-                "The two primary psychological drives (Sex and Death) are the keys to entering the 'Gnostic State' (altered consciousness).",
+                "The order focuses on the two physiological extremes of the human body—Excitatory (Eros/Sex) and Inhibitory (Thanatos/Death)—as the only reliable triggers for the 'Gnostic State' (altered consciousness).",
         },
         Rituals: {
-            The_Gnostic_State:
-                "Reaching a state of 'no-mind' through orgasm, exhaustion, pain, or fear to launch a 'sigil' (magical intention) into the subconscious.",
-            Mass_of_Chaos_B: "A ritual involving the invocation of Baphomet (the union of opposites) and the use of the 'Chaos Star'.",
-            Ourano_Barbarian: "Chanting in a constructed language designed to bypass the censor of the conscious mind.",
+            Gnosis_and_Sigilization:
+                "The primary technique is 'Sigil Magic'. 1. A desire is written ('I WANT MONEY'). 2. Repeating letters are removed ('IWANTMOEY'). 3. The letters are combined into an abstract glyph (sigil). 4. The magician enters 'Gnosis' (no-mind) via orgasm, pain, or spinning. 5. At the peak of Gnosis, the sigil is visualized and then immediately banished with laughter to force it into the subconscious.",
+            The_Death_Posture:
+                "A specific 'Inhibitory Gnosis' technique adapted from Austin Osman Spare. Step 1: The magician stands on tiptoes, locks fingers behind their back, and arches the spine/neck until painful. Step 2: They stare into a mirror or at a sigil without blinking. Step 3: They hyperventilate or hold their breath until the body begins to fail. Step 4: Upon the moment of near-fainting (the 'mini-death'), the ego collapses; the sigil is visualized in this void. Step 5: Collapse and banish.",
+            Ourano_Barbarian:
+                "A constructed 'Magical Language' designed to bypass the conscious mind's censor. It lacks the verb 'to be' (E-Prime) to reflect a quantum reality where nothing 'is', only 'does'. Example incantation: 'ZOD-KAL! I-DO-KHANDA!'. The words have no semantic meaning, forcing the magician to rely on pure emotional intent (anger, lust, command) rather than linguistic logic.",
+            Liber_Jugorum:
+                "The 'Book of Games' used for will-training. It requires the magician to break a habit for a set period (e.g., 'Do not use the word \"I\" for one week' or 'Do not cross your legs'). If the magician fails, they must immediately inflict a 'mild aversive stimulus' (historically, a cut on the arm with a sterilized lancet, or a sharp snap of a rubber band) to Pavlovian-train the brain into obedience.",
+            Mass_of_Chaos_B:
+                "The central group ritual. It invokes Baphomet not as a devil, but as the 'Psychic Censor' and 'Life Force of Earth'. Participants often use a 'Chalice of Ecstasy' (charged with fluids or energy) and chant in glossolalia (speaking in tongues) to raise a 'Cone of Power' for a collective magical aim.",
         },
         Structure: {
-            Meritocratic: "Heirarchy is based strictly on magical skill and contributions, known as the 'Pact'.",
+            The_Pact:
+                "The IOT is a meritocracy. There are no hereditary titles. Rank is determined by the 'Magical Diary'—a log of experiments and verified results. The leadership is often anonymous to the lower ranks to prevent 'Guru Worship'.",
+            Hierarchy:
+                "4° Neophyte (Must prove ability to control dreams and silence the mind); 3° Initiate (Must demonstrate effective magic/results); 2° Adept (Must contribute new techniques to the Order); 1° Magus (Administrative leader).",
+            Insubordination:
+                "A unique mechanism where a junior member can disobey a senior member's instruction if the senior cannot explain the *practical utility* of the order. 'Because I said so' is not valid in the Pact.",
         },
     },
 
