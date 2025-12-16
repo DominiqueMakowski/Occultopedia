@@ -600,11 +600,14 @@ const dataSocieties = {
             "practice_secret",
             "practice_purity",
         ],
-        Origins: "Late 16th/Early 17th Century; secularized the mystery tradition from 'magical' transformation to 'moral' construction.",
+        Origins: "Formalized in 1717 at the Goose and Gridiron Alehouse (London) with the formation of the Premier Grand Lodge. However, it evolved from medieval 'Operative' stone-mason guilds (which possessed 'Old Charges' or legendary histories) into 'Speculative' lodges accepting non-masons (gentlemen) seeking moral instruction.",
         Beliefs: {
-            Supreme_Being: "Requires belief in a 'Great Architect of the Universe'.",
+            Supreme_Being: "Requires belief in a 'Great Architect of the Universe', which is a non-denominational definitions of the Divine. In 'Regular' Masonry, a Volume of Sacred Law (Bible, Quran, Torah, etc.) must be open on the altar. In 'Continental/Irregular' Masonry (e.g., Grand Orient de France), this requirement is often waived to admit atheists.",
             Temple_Metaphor: "The Mason builds his character as a fit dwelling place for the divine, using Solomon's Temple as a metaphor.",
             Duality: "The Mosaic Pavement (black and white checkerboard floor) symbolizes the duality of human life (good/evil).",
+            The_Three_Great_Lights: "The Square (morality/honesty), The Compasses (circumscribing desires/moderation), and The Volume of Sacred Law (faith/truth).",
+            The_Ashlars: "The twin metaphors for human development: The 'Rough Ashlar' is the unpolished stone (the uninitiated man), and the 'Perfect Ashlar' is the squared stone fit for the builder's use (the enlightened man), achieved through the gavel of conscience.",
+            Geometry_as_Gnosis: "The letter 'G' suspended in the East stands for both God and Geometry. It posits that the universe is rational and can be understood through the liberal arts and sciences.",
         },
         Rituals: {
             The_Lodge:
@@ -616,9 +619,38 @@ const dataSocieties = {
             Recognition: "Passwords such as Boaz, Jachin, and Tubalcain, often whispered ear-to-ear.",
         },
         Structure: {
-            Blue_Lodge:
-                "Three degrees: Entered Apprentice (plain white lambskin apron), Fellowcraft (apron with rosettes), and Master Mason (apron with blue border and silver tassels).",
-            Appendant_Bodies: "Scottish Rite, York Rite.",
+            Blue_Lodge: "1. Entered Apprentice (Youth/Learning), 2. Fellowcraft (Manhood/Labor), 3. Master Mason (Age/Wisdom).",
+            Appendant_Bodies: "Scottish Rite (33 degrees expanding on the legend), York Rite (Christian/Templar focus), Shriners (Fun/Charity focus).",
+            Conflicts: "Antients vs Moderns: A major 18th-century conflict. The 'Antients' (mostly Irish/working class) accused the 'Moderns' (aristocratic London) of de-Christianizing the ritual and neglecting the Royal Arch. They merged in 1813 to form the United Grand Lodge of England (UGLE). In the US: The disappearance of William Morgan (who threatened to publish secrets) led to a massive anti-Masonic political movement, nearly destroying the order in the US.",
+        },
+    },
+
+    Masonic_Knights_Templar: {
+        tags: [
+            "era_preindustrial", // 18th Century onwards
+            "location_europe",
+            "aesthetic_military",
+            "nature_fraternal",
+            "practice_costume", // Chapeaux, baldrics, swords
+        ],
+        Origins: "Mid-18th Century; born from the 'Ramsay Oration' and the desire of aristocracy to claim chivalric lineage. Codified in the York Rite.",
+        Beliefs: {
+            Defense_of_the_Faith: "Unlike the universalist 'Blue Lodge' (which accepts all religions), this Order requires candidates to be Trinitarian Christians and defend the Christian religion.",
+            In_Hoc_Signo_Vinces: "Motto: 'In this sign you will conquer' (Constantine's vision).",
+            Mortality: "A heavy focus on the 'Memento Mori' (reminder of death). The Order teaches that the penance of the Crusader is a path to spiritual resurrection.",
+        },
+        Rituals: {
+            The_Mediterranean_Pass:
+                "A prelude degree (Knight of St. Paul) where the candidate represents Paul shipwrecked on Malta. He learns the 'sign' (shaking a viper from the hand) to pass safely among heathens.",
+            The_Fifth_Libation:
+                "The most controversial and solemn ritual. The candidate drinks a toast (often from a human skull or a skull-cup) to seal his vows, swearing that the sins of the person whose skull it was should be heaped upon his own head if he ever violates his oath.",
+            The_Triangular_Table:
+                "Knights sit at a triangular table (symbolizing the Trinity) with tapers of black wax. The room is often draped in black, featuring a sepulcher, relics of mortality, and the Holy Bible.",
+        },
+        Structure: {
+            Commandery: "The local body is called a 'Commandery' (US) or 'Preceptory' (UK/Canada).",
+            Officers: "Eminent Commander (Leader), Generalissimo (Second), Captain General (Drill Instructor).",
+            Regalia: "Distinctive 'Chapeau' (cocked hat with ostrich plumes), black frock coats, silver swords, and belts. The apron is usually discarded in favor of the uniform.",
         },
     },
 
