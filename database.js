@@ -21,6 +21,8 @@ const dataSocieties = {
             Paradoxical_Goddess: "Ishtar was the goddess of both Love and War—she represented the chaotic, intense energy of life.",
             Me_Powers: "She possessed the 'Me'—divine decrees of civilization which she stole from the god of wisdom.",
             Nekyia: "The necessity of the descent into the underworld. Ereshkigal, the Dark Goddess, represents the 'abyss that is the source and the end,' a totally uncaring force that grinds down distinctions to renew life.",
+            The_Pentagram_of_Venus:
+                "The 8-year cycle of Venus (in which it completes 5 synodic periods) traces a near-perfect pentagram in the zodiac. This celestial geometry was seen as the seal of the goddess, linking the numbers 5 and 8 to her power.",
         },
         Rituals: {
             The_Descent:
@@ -31,6 +33,8 @@ const dataSocieties = {
                 "Temple personnel (Assinnu/Kurgarru) engaged in sex acts as worship. They often wore heavy kohl eyeliner and carried daggers. A specific visual feature of the rites involved the 'Assinnu' wearing female clothing on their left side and male clothing on their right side.",
             Lamentations:
                 "Ritual weeping for Dumuzi. Participants would tear their clothes and cover themselves in dust, sitting in the dirt while playing mournful flute music to mimic the goddess's grief.",
+            Gates_of_Disappearance:
+                "The 'Seven Gates' of the underworld correspond to the days/weeks Venus disappears behind the Sun (Superior Conjunction) or in front of it (Inferior Conjunction), transitioning from the Evening Star to the Morning Star.",
         },
         Structure: {
             Gender_Fluidity:
@@ -164,6 +168,11 @@ const dataSocieties = {
             Metempsychosis_and_Katharsis:
                 "Transmigration of the soul; the goal of life was purification (katharsis) to escape the wheel of rebirth.",
             Numerology: "Central belief that 'All is Number'.",
+            The_Antichthon:
+                "To perfect the 'Sacred Ten', they posited the existence of a 'Counter-Earth' (Antichthon)—an invisible planet always on the opposite side of the Central Fire from Earth, hidden from view.",
+
+            Planetary_Intervals:
+                "The distances between planets were believed to correspond to musical intervals (tone, semitone), creating a literal 'Harmony of the Spheres' that the initiated soul could hear.",
         },
         Rituals: {
             Acousmatic_Silence:
@@ -197,9 +206,18 @@ const dataSocieties = {
         ],
         Origins: "Roman Empire; an exclusively male, solar-martial cult that introduced the 'grade system'.",
         Beliefs: {
-            Tauroctony: "Centered on the image of Mithras slaying a bull, interpreted as 'cosmic renewal'.",
             Cosmic_Ascension:
                 "The soul descends through planetary spheres into the body and ascends back to divine light through initiation.",
+            The_Hypercosmic_God:
+                "The discovery that the equinoxes move (Precession) implied that the entire cosmos was being shifted by a power *outside* the stars. Mithras was this 'Hypercosmic' god, powerful enough to rotate the universe.",
+            Tauroctony:
+                "Centered on the image of Mithras slaying a bull, interpreted as 'cosmic renewal'. Has been interpreted as a star map: The Bull is Taurus; the scorpion (Scorpio) attacks the genitals; the dog (Canis Major/Minor) and snake (Hydra) drink the blood. Mithras ends the 'Age of Taurus' to usher in the new epoch.",
+            Planetary_Ladder:
+                "The soul descends into the body through the planetary spheres (collecting impurities/vices from each) and must ascend back through them after death, giving the vices back to the planetary 'Gatekeepers'.",
+            The_Cosmic_Gates:
+                "Souls were believed to enter existence by descending through the 'Gate of Cancer' (Summer Solstice) and leave the material world by ascending through the 'Gate of Capricorn' (Winter Solstice).",
+            Equinoctial_Torchbearers:
+                "Mithras is flanked by Cautes (torch up) and Cautopates (torch down), symbolizing the Spring and Autumn equinoxes—the balance points of the cosmic year.",
         },
         Rituals: {
             The_Cave:
@@ -208,6 +226,8 @@ const dataSocieties = {
                 "The 'Miles' (Soldier) grade was offered a laurel crown on the tip of a sword; he had to physically push it away, declaring 'Mithras is my crown'.",
             Syndexioi:
                 "A distinct handshake grip used for recognition, often exchanged while reclining on the stone benches during the ritual meal.",
+            he_Seven_Gate_Ascent:
+                "Initiates climbed a ritual ladder (or walked a floor mosaic) representing the seven planets: Lead (Saturn), Tin (Jupiter), Iron (Mars), Gold (Sun), Copper (Venus), Quicksilver (Mercury), and Silver (Moon).",
         },
         Structure: {
             Seven_Grades:
@@ -659,13 +679,15 @@ const dataSocieties = {
         Beliefs: {
             Alchemy: "Spiritual alchemy—transmuting the base self into the enlightened spirit.",
             Guardian_of_the_Threshold: "The conscience which must be challenged during initiation.",
+            The_Chymical_Wedding:
+                "The ultimate goal is often symbolized as the 'Marriage of the Sun and Moon'—the union of the solar (masculine/sulfur/soul) and lunar (feminine/mercury/spirit) principles to produce the 'Star' (Philosopher's Stone).",
         },
         Rituals: {
-            Home_Sanctum:
-                "Members utilize a home altar with a mirror at eye level and two candles (representing polarity). The member wears a ritual apron and faces East.",
             Vowel_Intonation:
                 "Intonation of sounds (e.g., 'RA-MA' or 'KHEI') on specific notes to physically vibrate and stimulate psychic centers in the body.",
             The_Crossing: "Initiation involves crossing the threshold, often marked by stepping over a symbolic line or cord.",
+            The_Mirror_Sanctum:
+                "The home altar is arranged as a laboratory of the soul. Two candles represent the polarity of Light and Life. At eye level, The mirror in the center represents the 'Sea of Consciousness' (Mercury). The member gazes into the mirror not to see their face, but to see the 'Self' behind the duality of the physical reflection. The member wears a ritual apron and faces East.",
         },
         Structure: {
             Traditional: "Junior Frater to Magus.",
@@ -715,6 +737,12 @@ const dataSocieties = {
                 "A specific physical gesture used to project force: The magician takes a step forward with the left foot and thrusts both arms forward (fingers extended) while vibrating a name, visualizing a beam of light shooting from the hands.",
             Enochian_Chess:
                 "A method of divination and magic played on four separate chessboards (Fire, Water, Air, Earth) where the pieces are Egyptian gods. It is used to test the magician's ability to concentrate and strategize on multiple planes.",
+            The_Vault_Ceiling:
+                "The ceiling of the Vault of the Adepts features a white heptagram on a black ground, representing the seven planets reigning over the darkness of Saturn/Binah. In the center is the Rose Cross, symbolizing the Sun/Tiphareth acting as the mediator of the solar system.",
+            Color_Scales:
+                "Magical work utilized the 'King' and 'Queen' scales of color—specific hues derived from the zodiacal signs (e.g., Aries = Scarlet, Libra = Emerald) used to vibrate energy in harmony with astrological currents.",
+            Formula_of_YHVH:
+                "A magical method of uniting the four worlds. The Magician identifies 'Yod' (Fire/Father) and 'He' (Water/Mother) to produce 'Vau' (Air/Son). This union resolves in the final 'He' (Earth/Daughter). It is a practical formula for manifesting will: The seed of Will (Fire) unites with Understanding (Water) to create a Result (Air) which solidifies in Reality (Earth).",
         },
         Structure: {
             The_Golden_Chain:
@@ -1225,36 +1253,49 @@ const dataSocieties = {
             "practice_purity",
         ],
         Origins:
-            "Founded c. 1119 in Jerusalem. The detailed 'French Rule' evolved from the original Latin Rule of 1129, expanding to cover military logistics and daily conduct.",
+            "Founded c. 1119 in Jerusalem by Hugues de Payens and eight companions. Initially the 'Poor Fellow-Soldiers of Christ', they were granted headquarters on the Temple Mount (Solomon's Stables) by King Baldwin II, from which they derived their name.",
         Beliefs: {
             Malecide:
-                "A revolutionary theology (promoted by St. Bernard) where killing an infidel was not homicide but 'malecide' (the killing of evil). The knight who dies in battle is a martyr; the knight who kills an infidel glorifies Christ.",
+                "Derived from St. Bernard of Clairvaux's 'De Laude Novae Militiae' (In Praise of the New Knighthood). He argued that a Templar killing an infidel was not committing homicide (homicidium) but 'malecide' (malicidium)—the killing of evil itself.",
+            The_Double_Conflict:
+                "St. Bernard defined their struggle as unique because they fought a 'double war': one against flesh and blood enemies, and another against spiritual armies of wickedness in the heavens.",
+            Non_Nobis_Domine:
+                "Their motto, taken from Psalm 115:1: 'Non nobis, Domine, non nobis, sed nomini tuo da gloriam' (Not unto us, O Lord, not unto us, but unto thy name give glory). It emphasized that their military victories were solely acts of divine will, not personal prowess.",
             Absolute_Obedience:
                 "The individual will was completely annihilated. A brother could not bathe, bleed, take medicine, or even adjust his stirrup leathers without specific permission. The standard reply to any command was 'De par Dieu' (On behalf of God).",
             The_Accusations_Heresy:
                 "During the 1307 trials, the Order was accused of a 'secret rule' involving the denial of Christ (claiming He was a false prophet), spitting on the Cross during initiation, and the worship of an idol named Baphomet (described variously as a severed head, a cat, or a three-faced skull). However, contrary to popular myth, the Chinon Parchment (2001) reveals that Pope Clement V secretly absolved the Templar leadership of heresy in 1308, proving their suppression was a political frame-up by King Philip IV, not a religious judgment.",
             The_Accusations_Immorality:
-                "They were accused of institutionalized sodomy and 'obscene kisses' planted on the base of the spine, the navel, and the mouth during the reception ceremony.",
+                "They were accused of institutionalized sodomy and 'obscene kisses' planted on the base of the spine, the navel, and the mouth during the reception ceremony (potentially a standard period greeting).",
         },
         Rituals: {
             The_Reception_True:
-                "The authentic initiation took place at night in a chapter meeting. The candidate waited outside while two knights interrogated him. He then entered, knelt before the Master with clasped hands, and swore to live without property and in chastity. The Master placed the white mantle over his neck, tied the strings, and gave him the 'Kiss of Peace' on the mouth (a standard period greeting, later twisted by inquisitors).",
+                "The authentic initiation took place at night in a chapter meeting. The candidate waited outside while two knights interrogated him. He then entered, knelt before the Master with clasped hands, and swore to live without property and in chastity. The Master placed the white mantle over his neck, tied the strings, and gave him the 'Kiss of Peace' on the mouth.",
             The_Reception_Alleged:
                 "According to trial confessions (extracted under torture), the initiator would take the candidate behind the altar or into a side room, show him a crucifix, and order him to deny Christ and spit three times upon the cross. He was then allegedly kissed on the 'shameful parts' (anus/spine) as a seal of secrecy.",
             Mess_Hall_Discipline:
-                "Knights ate in pairs (two to one bowl) to ensure fairness and mutual supervision (to ensure one did not fast excessively or eat gluttonously). Meals were eaten in silence while a clerk read scripture. Meat was eaten only three times a week to prevent 'corruption of the body'.",
+                "Knights ate in pairs (two to one bowl) to ensure fairness and mutual supervision (e.g., to ensure one did not fast excessively or eat gluttonously). Meals were eaten in silence while a clerk read scripture. Meat was eaten only three times a week to prevent 'corruption of the body'.",
             Camp_Life_and_War:
-                "When the Marshal ordered 'Make camp, lord brothers, on behalf of God!', knights pitched tents around the Chapel. No one could leave the camp except to use the latrine or if they could still hear the camp bell. In battle, no one could charge until the Marshal cried 'Banniere!' and unfurled the Beauseant (the piebald black and white banner).",
+                "When the Marshal ordered 'Make camp, lord brothers, on behalf of God!', knights pitched tents around the Chapel. No one could leave the camp except to use the latrine or if they could still hear the camp bell. In battle, no one could charge until the Marshal cried 'Banniere!' and unfurled the Beauseant.",
             Penance_of_the_Floor:
                 "For faults like losing equipment or anger, a brother was stripped of his habit and forced to eat his meals sitting on the ground for a year and a day. He was forbidden to drive away the dogs that tried to eat from his bowl, symbolizing his degradation.",
             The_Rope_of_Mercy:
-                "A brother seeking re-admission after expulsion or fleeing would stand at the gate for days. Eventually, he would enter the chapter house stripped to his breeches, carrying a rope round his neck, and prostrate himself to be walked over or flogged by the brethren while begging for mercy.",
+                "A brother seeking re-admission after expulsion would stand at the gate for days, eventually entering stripped to his breeches with a rope round his neck, prostrating himself to be walked over by the brethren.",
+            Abraxas_Seal:
+                "While 'Baphomet' is the famous accusation, historical evidence shows Templars did possess gems featuring 'Abraxas' (a Gnostic deity with a rooster head and snake legs). These were likely used as amulets or official seals by high dignitaries (e.g., the Master of France), fueling later Gnostic theories.",
+            Masonic_Transmission:
+                "The theory that fleeing Templars (specifically to Scotland/Rosslyn Chapel) evolved into Freemasonry. This 'survival myth' suggests that the 'Operative' stone-mason guilds were infiltrated by 'Speculative' knights who introduced chivalric degrees.",
+            Ramsay_Oration:
+                "The historical pivot point (1737) where Chevalier Ramsay delivered a speech in Paris explicitly claiming that Freemasonry descended from 'Crusader Knights' rather than simple stone-workers, effectively birthing the 'Masonic Knights Templar' degree.",
+            York_Rite:
+                "The modern Masonic body that officially confers the degree of 'Knight Templar', requiring the candidate to be a Christian and complete the 'Royal Arch' degree first.",
         },
         Structure: {
             Hierarchy:
-                "Grand Master (absolute authority), Seneschal (second-in-command, carrier of the Beauseant), Marshal (military commander), Draper (quartermaster for clothes).",
+                "Grand Master (absolute authority), Seneschal (second-in-command), Marshal (military commander), Draper (quartermaster), and Turcopolier (commander of light cavalry/mercenaries).",
+
             Dress_Code:
-                "Knight Brothers (nobles) wore the White Mantle to signify purity; Sergeant Brothers (commoners) wore Black or Brown mantles. Pointed shoes and shoelaces were strictly forbidden as 'pagan' fashion. Hair was cut short, but beards were grown long and unkempt.",
+                "Knight Brothers (nobles) wore the White Mantle to signify purity (Cistercian influence); Sergeant Brothers (commoners) wore Black or Brown mantles. Pointed shoes and shoelace were strictly forbidden as 'pagan' fashion. Hair was typically cut short, but beards were sometimes grown long and unkempt.",
             Equipment:
                 "Each knight was allowed three horses and one squire. Gold or silver on bridles and spurs was forbidden; if a knight was gifted such items, he had to paint them over to hide the vanity.",
         },
@@ -3389,6 +3430,8 @@ const dataSocieties = {
                 "The gods sacrificed themselves to create the sun; humans are 'Macehualtin' (those deserved by penance) who must repay the debt with blood.",
             Sacred_Calendar:
                 "Rituals were timed by the 260-day calendar. Every 52 years (a Calendar Round), the sun was in danger of dying forever.",
+            The_Dart_Thrower:
+                "The Morning Star (Tlahuizcalpantecuhtli) was feared as a violent deity. Upon its heliacal rising, it was believed to 'shoot darts' of light that could cause drought, kill kings, or pollute the water supply depending on the day-sign.",
         },
         Rituals: {
             Heart_Offering:
@@ -3397,6 +3440,8 @@ const dataSocieties = {
                 "At the end of the 52-year cycle, all fires in the empire were extinguished. Priests watched the Pleiades; at the zenith, a new fire was kindled in the chest cavity of a sacrificial victim.",
             Bloodletting:
                 "Priests pierced their earlobes, tongues, and genitals with maguey thorns or stingray spines, collecting blood on paper strips to burn.",
+            Venus_Warfare:
+                "Wars were often timed to coincide with the first appearance of Venus as the Morning Star to align with the aggressive energy of the planet.",
         },
         Structure: {
             Calmecac: "Elite seminary schools where noble sons were trained in astronomy, reading codices, and ritual austerity.",
@@ -3423,6 +3468,8 @@ const dataSocieties = {
             Self_Transcendence: "Evolution requires 'culling' the weak and overcoming physical/mental limits to create a new species.",
             Aeonics: "The manipulation of cosmic time-cycles to usher in a new 'Imperium' or 'Galactic Empire' (the Vindex mythos).",
             Sinister_Dialectic: "Using terror and evil to disrupt the status quo and provoke evolution.",
+            Tree_of_Wyrd:
+                "Unlike the 10-sphere Qabalistic Tree of Life, the ONA utilizes a 'Septenary' system (The Tree of Wyrd) consisting of only seven spheres corresponding to the seven classical planets, emphasizing a harder, more primal astrological path.",
         },
         Rituals: {
             The_Star_Game: "A complex three-dimensional board game used for magical training and esoteric thinking.",
@@ -3629,6 +3676,8 @@ const dataSocieties = {
             Root_Races: "Humanity evolves through seven 'Root Races' (e.g., Lemurian, Atlantean, Aryan) and sub-races.",
             Septenary_Nature:
                 "Man consists of seven principles or bodies, ranging from the dense physical body to the divine spirit (Atma).",
+            Planetary_Chains:
+                "The belief that the soul of humanity evolves by jumping between 'Globes' or planetary chains (e.g., the Moon Chain to the Earth Chain) over millions of years.",
         },
         Rituals: {
             Precipitation:
@@ -4534,6 +4583,8 @@ const dataSocieties = {
                 "The 'Light of Nature'—a light of darkness itself which illuminates its own darkness. It turns blackness into brightness and burns away all superfluities.",
             The_Black_Sun:
                 "Sol Niger is not merely destructive but a paradoxical image of the non-Self. It represents the 'blacker than black' stage of decomposition that is necessary for regeneration.",
+            Cauda_Pavonis:
+                "The 'Peacock's Tail'. After the total blackness of the Nigredo (putrefaction), the alchemist watches for the sudden appearance of iridescent colors (like oil on water) on the surface of the matter. This signals that the 'inner light' is beginning to break through the dead matter, marking the transition from death to resurrection.",
         },
         Rituals: {
             Mortificatio:
@@ -4542,6 +4593,8 @@ const dataSocieties = {
                 "A meditative focus on decay and rotting. The alchemist visualizes the dissolution of matter until it becomes 'black and not porous,' believing that putrefaction renders the spirit 'soft and sweet'.",
             Visualizing_the_Skeleton:
                 "Meditating on the skull (Caput Corvi) or skeleton standing on a black orb. This signifies that the ego has been stripped of illusions and stands on the ground of reality.",
+            Sublimation_of_the_Body:
+                "Practitioners visualize the heat of their own neurosis or suffering not as pain, but as an 'Athanor' (furnace). They use this heat to 'distill' their heavy emotions into a subtle vapor (spirit), effectively turning leaden depression into golden insight.",
         },
         Structure: {
             Solitary_Art:
@@ -4594,6 +4647,8 @@ const dataSocieties = {
                 "The gateway to all understanding is 'Darkness within darkness' (Lao Tzu). Mystery and manifestation arise from this same dark source.",
             The_Spiritual_Embryo:
                 "The goal is to birth a 'spiritual embryo' or immortal self in the solar plexus (the 'Elixir Field' or 'Medicine Field').",
+            Kan_and_Li:
+                "The fundamental Union of Opposites in the body. 'Kan' (Water/Kidneys/Vitality) is naturally cold and sinks downward. 'Li' (Fire/Heart/Spirit) is naturally hot and rises upward. Death occurs because they separate.",
         },
         Rituals: {
             Circulation_of_the_Light:
@@ -4602,6 +4657,8 @@ const dataSocieties = {
                 "A meditative state where opposites unite, described as seeing 'White snow flying in mid summer / The sun blazing in the water at midnight'.",
             The_Elixir_Field:
                 "Focusing attention on the 'Dantian' (solar plexus/belly) to congeal spirit and energy. This center is often visualized as a dark field where the 'Golden Flower' blooms.",
+            Inversion_of_the_Flow:
+                "The practitioner uses breath and visualization to force the 'Cool Water' of the kidneys to rise as steam, and the 'Hot Fire' of the heart to sink. When they meet in the solar plexus (the Crucible), they steam/mate to form the 'Golden Pill' or Immortal Embryo.",
         },
         Structure: {
             Master_Student:
@@ -5065,6 +5122,8 @@ const dataSocieties = {
                 "Primacy of darkness; 'Without darkness there is no light.' Focus on the tension between centripetal and centrifugal forces.",
             Divine_Isolation:
                 "Rejection of 'pity' and self-annihilation; the goal is to become a distinct, god-like entity. 'Thou art Thine Own God.'",
+            The_Aquarian_Ruler:
+                "They believe the coming 'New Age' of Aquarius is ruled by Saturn (the traditional ruler of Aquarius), necessitating a 'Saturnian' magic of discipline, coldness, and clarity, rather than a solar or lunar mysticism.",
         },
         Rituals: {
             Sexual_Magic: "Heavy emphasis on sexual-magical techniques (Spermo-Gnosticism) to empower the will and influence the cosmos.",
@@ -5703,6 +5762,11 @@ const dataSocieties = {
             Secret_Chiefs: "Claimed obedience to 'Unknown Superiors' who possessed the full secrets of the Philosopher's Stone.",
             Anti_Enlightenment:
                 "Ideally opposed to the rationalism of the Bavarian Illuminati, focusing instead on faith and monarchy (influencing King Frederick William II of Prussia).",
+            The_Rebis:
+                "The ultimate goal of the work is the creation of the 'Rebis' (The Double Thing)—a divine hermaphroditic being often depicted with two heads. It represents the perfect reconciliation of the Red King (Sulphur/Soul/Masculine) and the White Queen (Mercury/Spirit/Feminine) into a single, immortal body that has transcended duality.",
+
+            Tria_Prima:
+                "All matter is composed of three philosophical principles: Mercury (Spirit/Mind), Sulphur (Soul/Oil/Flammability), and Salt (Body/Ash/Solidity). Practical work requires separating these three from a 'Primal Matter' and recombining them in a purified state.",
         },
         Rituals: {
             Laboratory_Work:
@@ -5711,6 +5775,8 @@ const dataSocieties = {
                 "Lodge tables were set with specific alchemical symbols: a salt-cellar in the center (Salt/Body), surrounded by three candles (Sulphur/Soul), and the Book of Constitutions (Mercury/Spirit).",
             Grade_Chambers:
                 "Initiations involved passing through rooms colored to match the alchemical stage (e.g., a Black Room for the Juniorus grade to symbolize decay/death, a Green Room for growth).",
+            The_Chemical_Wedding:
+                "A ritual enactment of the Coniunctio. It is the 'fixing of the volatile' (giving form to spirit) and the 'volatilization of the fixed' (spiritualizing the body). In the laboratory, this was often mirrored by the heating of mercury and sulphur in a sealed vessel (the Pelican) until they fused.",
         },
         Structure: {
             Grade_System:
@@ -6730,6 +6796,139 @@ const dataSocieties = {
         },
         Structure: {
             Church_of_Synanon: "Evolved into a tax-exempt church to avoid regulation, hoarding massive wealth in real estate and assets.",
+        },
+    },
+
+    Sabeans_of_Harran: {
+        tags: [
+            "era_ancient",
+            "location_levant",
+            "aesthetic_cerebral",
+            "aesthetic_oriental",
+            "nature_esoteric",
+            "practice_sacrifice",
+            "practice_chant",
+            "practice_divination",
+            "practice_costume",
+            "practice_purity",
+            "practice_syncretism",
+        ],
+        Origins:
+            "Harran (modern Turkey), active 8th–11th Century; the 'Pagans of the Book' who preserved Hermetic and Babylonian star-worship under Islamic rule.",
+        Beliefs: {
+            The_Governors:
+                "The Supreme God is too remote for humans; worship must be directed to the 'Governors' (Planets) who administer the cosmos.",
+            Talismans:
+                "Spiritual forces can be drawn down into physical objects (idols or talismans) if created at the precise astrological moment.",
+            Alchemy_of_Metals:
+                "They established the canonical correspondence between the seven planets and the seven metals which became the basis of all later alchemy: Sun (Gold), Moon (Silver), Mercury (Quicksilver / Mercury), Venus (Copper), Mars (Iron), Jupiter (Tin), and Saturn (Lead).",
+            Mystery_of_the_North:
+                "They prayed facing the North Pole, believing it to be the immutable pivot of the universe and the seat of the 'Hidden God', while the planets were merely the moving governors.",
+        },
+        Rituals: {
+            Planetary_Liturgy:
+                "Each day of the week was dedicated to a specific planet with matching sacrifices and vestments. For Mars (Tuesday): Priests wore red, smeared themselves with blood, carried drawn swords, and sacrificed a red rooster.",
+            The_Mystery_of_the_Head:
+                "Legend describes a ritual involving a severed human head (the 'Head of the North') which was cured, placed in a niche, and used as an oracle to speak the movement of the spheres.",
+            Weeping_for_Tammuz:
+                "In mid-summer, they performed a ritual lamentation for the waning power of the sun, grinding bones in a mill to symbolize the crushing of the life-force.",
+        },
+        Structure: {
+            Intellectual_Elite:
+                "Included famous mathematicians and astronomers (like Thabit ibn Qurra) who translated Greek works into Arabic, acting as the bridge for science between East and West.",
+        },
+    },
+
+    The_Church_of_Light: {
+        tags: ["era_modern", "location_usa", "aesthetic_cerebral", "nature_esoteric", "practice_divination", "practice_meditation"],
+        Origins: "Founded in 1932 in Los Angeles by C.C. Zain (Elbert Benjamine); evolved from the earlier 'Brotherhood of Light'.",
+        Beliefs: {
+            The_Religion_of_the_Stars:
+                "Astrology is not just a tool but the 'Golden Key' to interpreting God's will. The zodiac is the only divine scripture that has not been altered by human hands.",
+            Soul_Mates:
+                "Belief that souls are created in dual pairs (male/female) and evolve through the mineral, vegetable, and animal kingdoms to eventually reunite in the celestial spheres.",
+            Stellar_Healing:
+                "Illness is caused by discordant planetary vibrations in the 'astral form'; cure requires applying the 'mental antidote' (e.g., cultivating Jupiterian optimism to counter Saturnian melancholy).",
+        },
+        Rituals: {
+            Astrological_Timing:
+                "No action (founding a branch, marrying, surgery) is undertaken without calculating the 'Elective Astrology' chart to ensure cosmic support.",
+            The_Twenty_One_Steps:
+                "A curriculum of 21 courses (degrees) covering alchemy, tarot, and astrology. Initiation is intellectual, requiring the passing of rigorous written exams rather than ceremonial drama.",
+        },
+        Structure: {
+            Hermetic_Academia:
+                "Operates as a school of occult science rather than a lodge, distributing lessons by mail to prepare humanity for the Aquarian Age.",
+        },
+    },
+
+    The_Dogon_Awa_Society: {
+        tags: [
+            "era_preindustrial",
+            "location_africa",
+            "aesthetic_ecstatic",
+            "aesthetic_martial",
+            "nature_ancestral",
+            "nature_esoteric",
+            "practice_dance",
+            "practice_costume",
+            "practice_secret",
+            "practice_initiation",
+            "practice_taboobreaking",
+        ],
+        Origins:
+            "Mali (Bandiagara Escarpment); the men's secret society responsible for masks and funeral rites. Famous for their alleged pre-telescopic knowledge of astronomy.",
+        Beliefs: {
+            The_Sirius_Mystery:
+                "According to Marcel Griaule (although contested by many scholars), the Awa possess secret knowledge of 'Po Tolo' (Sirius B)—a white dwarf star invisible to the naked eye, which they describe as 'the heaviest thing in the universe'.",
+            The_Nommo: "Amphibious, fish-like beings from the Sirius system who descended in an ark to civilize humanity.",
+            Nyama: "A vital life-force energy that is released at death. The masks are designed to trap and control this dangerous energy.",
+        },
+        Rituals: {
+            The_Sigui:
+                "A massive ritual held only once every 60 years (when Sirius A and B align). It involves the carving of a 'Great Mask' (several meters tall) which is never worn but kept in a secret cave. The last Sigui was in 1967.",
+            Dama_Dance:
+                "Funerary rites where initiates wear the 'Kanaga' mask (a cross shape representing the connection of heaven and earth) and the 'Sirige' mask (a multi-story tall plank representing the connection of the sun and star). They dance on stilts to bridge the gap between worlds.",
+            Language_of_the_Bush: "Initiates learn 'Sigi So', a secret ritual language used only by the Society members.",
+        },
+        Structure: {
+            The_Olubaru: "The elders who are the guardians of the Great Mask and the masters of the secret language.",
+        },
+    },
+
+    Cult_of_Starry_Wisdom: {
+        tags: [
+            "era_fictional",
+            "location_fictional",
+            "aesthetic_macabre",
+            "aesthetic_cerebral",
+            "nature_esoteric",
+            "nature_apocalyptic",
+            "practice_divination",
+            "practice_chant",
+            "practice_sacrifice",
+            "practice_secret",
+            "practice_taboobreaking",
+            "practice_ufo",
+        ],
+        Origins:
+            "Providence, RI (H.P. Lovecraft / Cthulhu Mythos); a sect founded by Professor Enoch Bowen in 1844 after finding an artifact in Egypt.",
+        Beliefs: {
+            The_Haunter_of_the_Dark:
+                "Worship of an avatar of Nyarlathotep that cannot exist in light, dwelling in the darkness of the church steeple.",
+            Cosmic_Indifference:
+                "Humanity is insignificant; the goal is to gaze into other worlds to learn the secrets of the Old Ones, regardless of the madness it causes.",
+        },
+        Rituals: {
+            The_Shining_Trapezohedron:
+                "The central idol is an impossible non-Euclidean crystal (black with red striations) held in a metal box. Members gaze into it to summon the entity.",
+            Feast_of_Shadows:
+                "Rituals require absolute darkness. The entity is summoned to 'eat' the sacrifices, leaving them with no visible wounds but drained of all fluids.",
+            Azure_Flame: "The burning of specific chemical compounds to produce a strange light that serves as a gateway for the 'Hunter'.",
+        },
+        Structure: {
+            Inner_Circle:
+                "Operated within the abandoned Free-Will Church, eventually disbanded by local authorities after too many neighborhood disappearances.",
         },
     },
 }
