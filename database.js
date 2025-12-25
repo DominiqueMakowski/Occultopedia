@@ -23,6 +23,8 @@ const dataSocieties = {
             Nekyia: "The necessity of the descent into the underworld. Ereshkigal, the Dark Goddess, represents the 'abyss that is the source and the end,' a totally uncaring force that grinds down distinctions to renew life.",
             The_Pentagram_of_Venus:
                 "The 8-year cycle of Venus (in which it completes 5 synodic periods) traces a near-perfect pentagram in the zodiac. This celestial geometry was seen as the seal of the goddess, linking the numbers 5 and 8 to her power.",
+            The_Retrograde_Descent: "The period when Venus disappears from the sky (inferior conjunction) is viewed as Inanna's death in the Underworld. During these weeks, no new ventures are started; it is a time of mourning and stripping away the ego.",
+            The_Bipolar_Star: "Worship is divided between the 'Male' Morning Star (War/Conflict) and the 'Female' Evening Star (Love/Rest).",
         },
         Rituals: {
             The_Descent:
@@ -35,6 +37,7 @@ const dataSocieties = {
                 "Ritual weeping for Dumuzi. Participants would tear their clothes and cover themselves in dust, sitting in the dirt while playing mournful flute music to mimic the goddess's grief.",
             Gates_of_Disappearance:
                 "The 'Seven Gates' of the underworld correspond to the days/weeks Venus disappears behind the Sun (Superior Conjunction) or in front of it (Inferior Conjunction), transitioning from the Evening Star to the Morning Star.",
+            Dance_of_the_Seven_Gates: "A ritual stripping of seven veils or items of regalia, mirroring the seven planetary spheres Inanna passed through to reach the underworld (Kur). Used for psychological ego-death.",
         },
         Structure: {
             Gender_Fluidity:
@@ -55,24 +58,109 @@ const dataSocieties = {
             "practice_prayer",
             "practice_purity",
         ],
-        Origins: "Ancient Media/Persia; originally a specific tribe of the Medes that evolved into the Zoroastrian priestly caste.",
+        Origins: "Originally a Median tribe that became the hereditary priestly caste of the Persian Empire (Achaemenid, Parthian, and Sassanid eras). They were the sole authorized performers of ritual sacrifice and keepers of the Royal Annals.",
         Beliefs: {
-            Dualism: "The universe is a battleground between Ahura Mazda (Light/Truth) and Angra Mainyu (Darkness/Lie).",
-            Asha: "The cosmic order of Truth/Fire.",
+            Cosmic_Dualism: "The universe is a battleground between Asha (Truth/Order/Light) and Druj (Lie/Chaos/Darkness). Every action supports one side.",
+            Zurvan_Akarana: "Some sects (Zurvanites) believed in Infinite Time as the progenitor of both the Good Spirit (Ahura Mazda) and the Evil Spirit (Angra Mainyu).",
+            The_Saoshyant: "The belief in a future World Savior born of a virgin who would lead humanity in the final battle against evil—a concept that likely primed them to recognize the Star of Bethlehem.",
+            Astrological_Fatalism: "The movements of the stars were the 'writing of heaven,' dictating the fate of kings and nations."
         },
         Rituals: {
-            The_Eternal_Flame:
-                "Maintained fire temples (Atash Behram) where the sacred fire was never allowed to go out. Priests wore the 'Padam' (a white cloth mask over the mouth held by strings) to prevent their breath from polluting the sacred flame while feeding it with clean, dry sandalwood.",
-            Barsom_Bundle:
-                "Holding a bundle of tamarisk twigs (Barsom)—or later, brass/silver wires—in the left hand during prayers to separate the holy space from the polluted world. The bundle was always held at eye level, ensuring the priest's gaze remained fixed on the sacred while chanting the Yasna.",
-            The_Kusti:
-                "The daily ritual of untying and retying the 'Kusti' (a sacred cord made of 72 threads of white wool) around the waist three times, symbolizing Good Thoughts, Good Words, and Good Deeds. This was done over a white muslin undershirt (Sudreh).",
-            Exposure_of_the_Dead:
-                "Believing earth and fire were too sacred to pollute with corpses, they exposed the naked dead in open-air circular stone 'Towers of Silence' (Dakhma) to be eaten by vultures.",
+            Yasna_and_Haoma: "The central liturgy involved the preparation and consumption of Haoma (a consecrated, likely psychoactive plant extract) to achieve spiritual ecstasy and foresight.",
+            The_Barsom: "Priests held a bundle of sacred tamarisk twigs (Barsom) to demarcate holy space and channel divine power during prayer.",
+            Khvaetvadatha: "Next-of-kin marriage (incest) was historically practiced and praised as a supreme act of piety and merit (though this is controversial in modern scholarship).",
+            Silent_Vigil: "According to the 'Revelation of the Magi' (apocrypha), they practiced long, silent vigils on the Mountain of Victories, waiting for the Star.",
+            Sagdid: " The 'Gaze of the Dog' ritual, where a dog with 'four eyes' (spots above the eyes) is brought to view a corpse to drive away the Corpse Demon (Druj-i-Nasu).",
+            Nativity_Role: `
+            - The Star Prophecy: While rooted in the prophecy of Balaam and the Saoshyant, the 'Star' was likely the 'King-Maker' conjunction of Jupiter (The Father/King) and Venus (The Mother/Ishtar) merging in the constellation of Leo (The Lion of Judah) near the star Regulus. To the Magi, this was not just a light, but a celestial marriage of opposites signaling the birth of a 'King of Kings' who would transcend duality—a figure explicitly linked to the 'Morning Star' (Venus) in later Gnostic and Christian tradition.
+            - Gifts Symbolism: Gold - Kingship and material dominion(Tribute to a King); Frankincense - Divinity and priestly mediation(Offering to a God); Myrrh - Mortality, suffering, and embalming (Anointing for the Sacrifice/Death).
+            - Apocryphal Tradition: In the 'Revelation of the Magi', there were not three, but twelve or more Magi. They came from the semi-mythical land of 'Shir' and were descendants of Seth (son of Adam), guarding books of prophecy left by him.
+            - Return to the East: After the visitation, they are said to have returned to Persia/India, where they were later baptized by the Apostle Thomas and martyred.
+            `
         },
         Structure: {
-            Hereditary_Caste:
-                "Knowledge was strictly oral and passed father-to-son; they were the 'keepers of the flame' and royal advisors.",
+            Hereditary_Caste: "One could not 'become' a Magus; one had to be born into the tribe.",
+            Mobed_and_Herbad: "Hierarchical ranks included the Herbad (teacher/priest) and the Mobed (high priest), culminating in the Mobedan-Mobed (High Priest of High Priests)."
+        }
+    },
+
+    Order_of_the_Magi_Richmond: {
+        tags: [
+            "era_industrial",
+            "location_usa",
+            "aesthetic_cerebral",
+            "nature_esoteric",
+            "practice_divination",
+            "practice_initiation",
+            "practice_astrology",
+        ],
+        Origins: "Chicago, 1889; founded by Olney H. Richmond. He claimed to have been initiated by a 'stranger' into a lost temple in Nashville, Tennessee.",
+        Beliefs: {
+            Cardology: "The standard 52-card deck is not a game but an ancient solar calendar and astronomical book (The Little Book of the Seven Thunders) inherited from the Magi of Atlantis.",
+            Astrological_Correspondence: "Each day of the year is governed by a specific playing card (the 'Birth Card'), which dictates one's destiny and personality.",
+            Planetary_Periods: "Life is divided into 7 planetary periods (Mercury to Neptune), each ruled by a sequence of cards.",
+        },
+        Rituals: {
+            Grand_Spread: "Laying out the entire deck in a specific mathematical matrix to read the 'world horoscope' for the year.",
+            Solar_Value_Calculation: "Mathematical summation of the face values of cards to determine compatibility and karmic debts between individuals.",
+            Temple_Initiation: "Degrees were conferred not by ritual drama but by the transmission of mathematical 'keys' to unlock the secrets of the deck.",
+        },
+        Structure: {
+            Grand_Magus: "The supreme head of the order (Richmond held this title).",
+            Temple_System: "Localized lodges (Temples) dedicated to the study of the 'Book of Time'.",
+        },
+    },
+
+    Confraternity_of_the_Three_Kings: {
+        tags: [
+            "era_medieval",
+            "location_europe",
+            "aesthetic_religious",
+            "nature_fraternal",
+            "practice_chant",
+        ],
+        Origins: "12th Century onwards; centered around Cologne Cathedral (Germany) where the relics of the Magi were transferred by Frederick Barbarossa in 1164.",
+        Beliefs: {
+            Protectors_of_Travel: "As the ultimate travelers, the Magi (Caspar, Melchior, Balthasar) grant safety to pilgrims and merchants.",
+            Healing_Patrons: "They were specifically invoked against epilepsy ('The Falling Sickness') and sudden death.",
+            Royal_Legitimacy: "Venerating the 'Three Kings' was a way for the Holy Roman Emperors to claim divine sanction for their rule.",
+        },
+        Rituals: {
+            Star_Singing_Sternsinger: "Processions of children or initiates dressed as kings, carrying a star on a pole, singing carols to bless houses.",
+            Chalking_the_Door: "Marking the lintel of homes with 'C+M+B' (Christus Mansionem Benedicat / Caspar, Melchior, Balthasar) at Epiphany for protection.",
+            Touching_of_Relics: "Items (coins, cloth) touched to the shrine in Cologne became 'Brandea' (contact relics) used for healing.",
+            Dreikonigszettel: "Small paper amulets bearing the names of the Magi, swallowed or worn to cure illness.",
+        },
+        Structure: {
+            Lay_Brotherhoods: "Voluntary associations of laypeople (merchants, guildsmen) dedicated to the cult of the Magi.",
+            Arch_Chancellors: "High ecclesiastical officials who managed the pilgrimage routes and the shrine's treasury.",
+        },
+    },
+
+    Modern_Zoroastrian_Priesthood: {
+        tags: [
+            "era_modern",
+            "location_asia", // India (Mumbai) and Iran
+            "nature_ancestral",
+            "practice_purity",
+            "practice_chant",
+        ],
+        Origins: "Direct biological and spiritual descendants of the Sassanid Magi who fled to India (becoming Parsis) or remained in Iran (becoming Zartoshtis) after the Islamic conquest.",
+        Beliefs: {
+            Good_Thoughts_Words_Deeds: "Humata, Hukhta, Huvarshta—the ethical core replacing the older, complex ritualism.",
+            Fire_Energy: "Fire is not worshipped as God, but as the purest physical manifestation of God's energy and truth (Asha).",
+            Non_Conversion: "Generally, one cannot 'convert' to become a Parsi; the sacred fire is protected from the gaze of non-Zoroastrians (Juddin).",
+        },
+        Rituals: {
+            Yasna_Ceremony: "The high liturgy (lasting hours) performed in the fire temple, reciting the 72 chapters of the Yasna.",
+            Navjote: "The initiation ceremony for children (ages 7-9), investing them with the sacred shirt (Sudreh) and girdle (Kusti).",
+            Tower_of_Silence_Dakhma: "Traditional sky burial (exposure to vultures) is now largely replaced by electric cremation or stone-encased burial due to the decline of vulture populations.",
+            Nirangdin: "A complex ritual to consecrate 'Nirang' (bull's urine) as a purifying agent, believed to remain bacteria-free for years after the ceremony.",
+        },
+        Structure: {
+            Dastur: "High Priest/Bishop rank.",
+            Mobed: "Fully qualified priest capable of performing inner liturgical ceremonies.",
+            Ervad: "Lower rank priest or student.",
         },
     },
 
@@ -173,6 +261,8 @@ const dataSocieties = {
 
             Planetary_Intervals:
                 "The distances between planets were believed to correspond to musical intervals (tone, semitone), creating a literal 'Harmony of the Spheres' that the initiated soul could hear.",
+            The_Venus_Pentagram:
+                "They observed that over an 8-year cycle, Venus completes 5 synodic periods. When plotted against the zodiac, its rising points trace a near-perfect pentagram.  This proved to them that the cosmos was designed with geometric intelligence.",
         },
         Rituals: {
             Acousmatic_Silence:
@@ -600,14 +690,19 @@ const dataSocieties = {
             "practice_secret",
             "practice_purity",
         ],
-        Origins: "Formalized in 1717 at the Goose and Gridiron Alehouse (London) with the formation of the Premier Grand Lodge. However, it evolved from medieval 'Operative' stone-mason guilds (which possessed 'Old Charges' or legendary histories) into 'Speculative' lodges accepting non-masons (gentlemen) seeking moral instruction.",
+        Origins:
+            "Formalized in 1717 at the Goose and Gridiron Alehouse (London) with the formation of the Premier Grand Lodge. However, it evolved from medieval 'Operative' stone-mason guilds (which possessed 'Old Charges' or legendary histories) into 'Speculative' lodges accepting non-masons (gentlemen) seeking moral instruction.",
         Beliefs: {
-            Supreme_Being: "Requires belief in a 'Great Architect of the Universe', which is a non-denominational definitions of the Divine. In 'Regular' Masonry, a Volume of Sacred Law (Bible, Quran, Torah, etc.) must be open on the altar. In 'Continental/Irregular' Masonry (e.g., Grand Orient de France), this requirement is often waived to admit atheists.",
+            Supreme_Being:
+                "Requires belief in a 'Great Architect of the Universe', which is a non-denominational definitions of the Divine. In 'Regular' Masonry, a Volume of Sacred Law (Bible, Quran, Torah, etc.) must be open on the altar. In 'Continental/Irregular' Masonry (e.g., Grand Orient de France), this requirement is often waived to admit atheists.",
             Temple_Metaphor: "The Mason builds his character as a fit dwelling place for the divine, using Solomon's Temple as a metaphor.",
             Duality: "The Mosaic Pavement (black and white checkerboard floor) symbolizes the duality of human life (good/evil).",
-            The_Three_Great_Lights: "The Square (morality/honesty), The Compasses (circumscribing desires/moderation), and The Volume of Sacred Law (faith/truth).",
-            The_Ashlars: "The twin metaphors for human development: The 'Rough Ashlar' is the unpolished stone (the uninitiated man), and the 'Perfect Ashlar' is the squared stone fit for the builder's use (the enlightened man), achieved through the gavel of conscience.",
-            Geometry_as_Gnosis: "The letter 'G' suspended in the East stands for both God and Geometry. It posits that the universe is rational and can be understood through the liberal arts and sciences.",
+            The_Three_Great_Lights:
+                "The Square (morality/honesty), The Compasses (circumscribing desires/moderation), and The Volume of Sacred Law (faith/truth).",
+            The_Ashlars:
+                "The twin metaphors for human development: The 'Rough Ashlar' is the unpolished stone (the uninitiated man), and the 'Perfect Ashlar' is the squared stone fit for the builder's use (the enlightened man), achieved through the gavel of conscience.",
+            Geometry_as_Gnosis:
+                "The letter 'G' suspended in the East stands for both God and Geometry. It posits that the universe is rational and can be understood through the liberal arts and sciences.",
         },
         Rituals: {
             The_Lodge:
@@ -620,8 +715,10 @@ const dataSocieties = {
         },
         Structure: {
             Blue_Lodge: "1. Entered Apprentice (Youth/Learning), 2. Fellowcraft (Manhood/Labor), 3. Master Mason (Age/Wisdom).",
-            Appendant_Bodies: "Scottish Rite (33 degrees expanding on the legend), York Rite (Christian/Templar focus), Shriners (Fun/Charity focus).",
-            Conflicts: "Antients vs Moderns: A major 18th-century conflict. The 'Antients' (mostly Irish/working class) accused the 'Moderns' (aristocratic London) of de-Christianizing the ritual and neglecting the Royal Arch. They merged in 1813 to form the United Grand Lodge of England (UGLE). In the US: The disappearance of William Morgan (who threatened to publish secrets) led to a massive anti-Masonic political movement, nearly destroying the order in the US.",
+            Appendant_Bodies:
+                "Scottish Rite (33 degrees expanding on the legend), York Rite (Christian/Templar focus), Shriners (Fun/Charity focus).",
+            Conflicts:
+                "Antients vs Moderns: A major 18th-century conflict. The 'Antients' (mostly Irish/working class) accused the 'Moderns' (aristocratic London) of de-Christianizing the ritual and neglecting the Royal Arch. They merged in 1813 to form the United Grand Lodge of England (UGLE). In the US: The disappearance of William Morgan (who threatened to publish secrets) led to a massive anti-Masonic political movement, nearly destroying the order in the US.",
         },
     },
 
@@ -633,11 +730,14 @@ const dataSocieties = {
             "nature_fraternal",
             "practice_costume", // Chapeaux, baldrics, swords
         ],
-        Origins: "Mid-18th Century; born from the 'Ramsay Oration' and the desire of aristocracy to claim chivalric lineage. Codified in the York Rite.",
+        Origins:
+            "Mid-18th Century; born from the 'Ramsay Oration' and the desire of aristocracy to claim chivalric lineage. Codified in the York Rite.",
         Beliefs: {
-            Defense_of_the_Faith: "Unlike the universalist 'Blue Lodge' (which accepts all religions), this Order requires candidates to be Trinitarian Christians and defend the Christian religion.",
+            Defense_of_the_Faith:
+                "Unlike the universalist 'Blue Lodge' (which accepts all religions), this Order requires candidates to be Trinitarian Christians and defend the Christian religion.",
             In_Hoc_Signo_Vinces: "Motto: 'In this sign you will conquer' (Constantine's vision).",
-            Mortality: "A heavy focus on the 'Memento Mori' (reminder of death). The Order teaches that the penance of the Crusader is a path to spiritual resurrection.",
+            Mortality:
+                "A heavy focus on the 'Memento Mori' (reminder of death). The Order teaches that the penance of the Crusader is a path to spiritual resurrection.",
         },
         Rituals: {
             The_Mediterranean_Pass:
@@ -650,7 +750,8 @@ const dataSocieties = {
         Structure: {
             Commandery: "The local body is called a 'Commandery' (US) or 'Preceptory' (UK/Canada).",
             Officers: "Eminent Commander (Leader), Generalissimo (Second), Captain General (Drill Instructor).",
-            Regalia: "Distinctive 'Chapeau' (cocked hat with ostrich plumes), black frock coats, silver swords, and belts. The apron is usually discarded in favor of the uniform.",
+            Regalia:
+                "Distinctive 'Chapeau' (cocked hat with ostrich plumes), black frock coats, silver swords, and belts. The apron is usually discarded in favor of the uniform.",
         },
     },
 
@@ -1141,6 +1242,7 @@ const dataSocieties = {
                 "The Dragon represents the primordial, limitless chaos force. It manifests as the 'Inner Dragon' (Kundalini/life force) and the 'Outer Dragon' (cosmic potential/Vril).",
             Left_Hand_Path:
                 "A path of self-deification where the magician strives to become a creator rather than serve a creator. It emphasizes individuality and the integration of the 'Shadow' rather than its rejection.",
+            Gamaliel_Current: "Lilith rules the Qliphothic sphere of Gamaliel (The Obscene Ones). This sphere represents the 'Dark Dreams' of the subconscious and the forbidden sexual instincts that must be integrated, not repressed.",
         },
         Rituals: {
             The_Dragon_Ceremony:
@@ -1157,6 +1259,8 @@ const dataSocieties = {
 
             Soul_Mirror:
                 "A preparatory exercise where the magician writes two lists: one of positive traits and one of negative traits/weaknesses. After deep meditation and self-confrontation, the list of negative traits is ritually burned, symbolizing the transmutation of the personality.",
+            Lepaca_Lilith: "The foundational formula 'Lepaca Lilith Ruach Badad Arioth Samalo Shedot' is used to open the gates of the Qliphoth. It invokes Lilith not as a demon, but as the 'Mother of the Nightside' who breaks the chains of creation.",
+            The_Red_Mirror: "Workings often involve scrying into a red mirror (associated with menstrual blood and the Moon) to commune with the succubus-aspects of the self.",
         },
         Structure: {
             The_11_Degrees:
@@ -1321,6 +1425,8 @@ const dataSocieties = {
                 "The historical pivot point (1737) where Chevalier Ramsay delivered a speech in Paris explicitly claiming that Freemasonry descended from 'Crusader Knights' rather than simple stone-workers, effectively birthing the 'Masonic Knights Templar' degree.",
             York_Rite:
                 "The modern Masonic body that officially confers the degree of 'Knight Templar', requiring the candidate to be a Christian and complete the 'Royal Arch' degree first.",
+            Veneration_of_the_Black_Virgin:
+                "St. Bernard of Clairvaux (spiritual patron of the Order) was deeply devoted to the Black Madonna. The Templars are rumored to have brought these statues from the East, viewing them as representations of the feminine aspect of God (Shekinah).",
         },
         Structure: {
             Hierarchy:
@@ -3464,6 +3570,8 @@ const dataSocieties = {
                 "Rituals were timed by the 260-day calendar. Every 52 years (a Calendar Round), the sun was in danger of dying forever.",
             The_Dart_Thrower:
                 "The Morning Star (Tlahuizcalpantecuhtli) was feared as a violent deity. Upon its heliacal rising, it was believed to 'shoot darts' of light that could cause drought, kill kings, or pollute the water supply depending on the day-sign.",
+            Shutting_the_Way:
+                "During the 8 days of Venus's inferior conjunction (invisibility), commoners sealed their chimneys and windows with clay. It was believed the new light of the Morning Star was radioactive with malice, capable of contaminating food and entering the body.",
         },
         Rituals: {
             Heart_Offering:
@@ -3681,8 +3789,8 @@ const dataSocieties = {
         Rituals: {
             Maithuna_Symbolism:
                 "Ritual intercourse where the goal is not orgasm but the retention of fluids ('Bindu-siddhi') to generate spiritual heat.",
-            Esoteric_Songs:
-                "Doctrines were hidden in 'Sandhya Bhasha' (Twilight Language)—coded poetry that sounded like love songs but contained yoga instructions.",
+            Sandhya_Bhasha:
+                "The 'Twilight Language', coded poetry that sounded like love songs but contained yoga instructions. A system of 'polysemy' or double-meaning. Poems and songs appear to be simple romantic ballads or folk songs to the uninitiated, but contain precise technical instructions for breath control, sexual retention (Bindu-siddhi), and meditation for the initiate.",
         },
         Structure: {
             Hidden_Lineages: "Operated in extreme secrecy to avoid persecution by orthodox Vaishnavas.",
@@ -3710,11 +3818,17 @@ const dataSocieties = {
                 "Man consists of seven principles or bodies, ranging from the dense physical body to the divine spirit (Atma).",
             Planetary_Chains:
                 "The belief that the soul of humanity evolves by jumping between 'Globes' or planetary chains (e.g., the Moon Chain to the Earth Chain) over millions of years.",
+            Sanat_Kumara:
+                "The 'Lord of the World' (Sanat Kumara) is believed to be an advanced spiritual entity who descended from Venus 18.5 million years ago to instill the spark of mind (Manas) into early humanity.",
+            Lords_of_the_Flame:
+                "Venus is viewed as the 'Sacred Planet' and the elder sister to Earth. High-ranking spirits (Kumaras) traverse space from Venus to Earth to guide planetary evolution.",
         },
         Rituals: {
             Precipitation:
                 "Early history involved the 'miraculous' materialization of letters from the 'Mahatmas' (Masters of Wisdom like Koot Hoomi), appearing in locked cabinets or dropping from the air.",
             Study: "Lodge meetings focused on the dense analysis of texts like 'The Secret Doctrine' and 'Isis Unveiled'.",
+            Wesak_Festival:
+                "The most sacred annual event (Full Moon of Taurus), believed to be the time when the Buddha and the Venusian hierarchy descend closest to the physical plane to bless the planet.",
         },
         Structure: {
             Adyar_Headquarters: "A massive campus in Chennai, India. The society is non-dogmatic but highly bureaucratic.",
@@ -3826,6 +3940,8 @@ const dataSocieties = {
                 "Views the 'Draconian' or Typhonian tradition (associated with Set and Tiamat) as the primal, authentic spiritual current.",
             The_Qliphoth:
                 "Unlike Crowley, who viewed the Qliphoth as unbalanced or evil, Grant emphasized working with the 'Nightside' of the Tree of Life for magical power.",
+            The_Mauve_Zone: "Grant identified Lilith with the 'Mauve Zone'—a twilight dimension between dream and waking where contact with extraterrestrial intelligences occurs.",
+            Kalas: "The magical use of 'Kalas' (vaginal fluids) collected at specific lunar phases. Lilith is viewed as the keeper of the 'Time-Flow' manifested in the menstrual cycle.",
         },
         Rituals: {
             Daath_Entry: "Magical workings focus on entering the 'Mauve Zone' or Qliphoth through the abyss of Daäth.",
@@ -4715,12 +4831,15 @@ const dataSocieties = {
                 "The highest spiritual stage is not white light, but 'Black Light' (noor-e-siyah). This is the attribute of Majesty which sets the mystic's being on fire.",
             Annihilation:
                 "The mystic must pass through annihilation (fana) to reach survival (baqa); blackness is the light of the Absolute-as-such.",
+            Ama_Lilith: "Lilith is venerated as 'Ama Lilith', the Dark Mother and the womb of the Anti-Cosmos. While Satan is the sword that cuts the cosmos, Lilith is the void that swallows the shards.",
+            Anti_Cosmic_Trinity: "The order worships the trinity of the Void: Satan (The Adversary), Tanin'iver (The Blind Dragon who connects them), and Lilith (The Empty Womb).",
         },
         Rituals: {
             The_Dazzling_Dark:
                 "Meditative practices aiming to perceive the 'uncreated light' or 'divine darkness' that outshines all brilliance. It attacks, invades, and annihilates the human organism to reveal the truth.",
             Negative_Theology:
                 "A practice of 'unknowing' or 'poverty of spirit' where the seeker is reduced to Nothingness, realizing that existence is light, and light is reality darkness.",
+            Opening_the_Womb: "Rituals involving the symbolic or actual use of sexual fluids to grease the 'Gate of Lilith', facilitating the entry of acausal energies into the causal world.",
         },
         Structure: {
             Tariqa: "Sufi orders or paths led by a Sheikh or Guide who leads the disciple through the stages of fana (annihilation).",
@@ -6924,7 +7043,8 @@ const dataSocieties = {
             Language_of_the_Bush: "Initiates learn 'Sigi So', a secret ritual language used only by the Society members.",
         },
         Structure: {
-            The_Olubaru: "The elders who are the guardians of the Great Mask and the masters of the secret language.",
+            The_Olubaru:
+                'The elders who are the guardians of the Great Mask and the masters of the secret language. A secret ritual language reserved exclusively for society members (the Olubaru), distinct from the vernacular Dogon tongue. It is used to transmit the deepest knowledge of the stars and the "Great Mask" during the Sigui rituals.',
         },
     },
 
@@ -6961,6 +7081,192 @@ const dataSocieties = {
         Structure: {
             Inner_Circle:
                 "Operated within the abandoned Free-Will Church, eventually disbanded by local authorities after too many neighborhood disappearances.",
+        },
+    },
+
+    The_Desposyni: {
+        tags: [
+            "era_medieval", // Legend claims ancient origin, but flourished in medieval/modern mythos
+            "era_modern",
+            "location_europe",
+            "aesthetic_cerebral",
+            "nature_esoteric",
+            "nature_subversive",
+            "practice_secret",
+            "practice_initiation",
+        ],
+        Origins: "Derived from the Greek *desposynos* ('of the Master'); historically refers to the blood relatives of Jesus who argued for dynastic leadership in the early Church. In modern occultism, it refers to the theory that this bloodline migrated to Southern France and Britain, merging with Merovingian royalty.",
+        Beliefs: {
+            Sangreal_Royal_Blood: "Interprets the 'Holy Grail' (San Greal) not as a cup, but as 'Sang Real' (Royal Blood)—the literal biological descendants of Jesus and Mary Magdalene (or his brothers).",
+            The_Rex_Deus: "The belief that a sacred genetic lineage exists, carrying a divine right to rule that supersedes the Vatican's apostolic authority.",
+            The_Great_Usurpation: "Contends that the Roman Church (Peter/Paul) hijacked the movement from the rightful heirs (James the Just and the family of Jesus) and suppressed the truth of Christ's humanity.",
+        },
+        Rituals: {
+            Genealogical_Keeping: "The primary 'ritual' is the obsessive tracking and protection of secret genealogies and heraldry, believing these documents prove the legitimacy of the 'Grail Kings'.",
+            The_Secret_Guard: "Modern groups (like the Neo-Templar orders or the Priory of Sion mythos) view their function as 'Guardians' of the bloodline, sworn to protect the descendants from Church persecution.",
+            Veneration_of_the_Black_Madonna: "Interpretation of Black Madonna shrines not as Mary the Virgin, but as Mary Magdalene or Sarah the Egyptian (the alleged daughter of Jesus), representing the 'dark' or hidden bloodline.",
+        },
+        Structure: {
+            Dynastic_Order: "Hierarchy is strictly hereditary; authority is not granted by ordination but by the 'purity' of one's bloodline proximity to the Source.",
+            Grand_Monarch: "Many sects await the 'Grand Monarch' (Chyren), a messianic figure from this bloodline who will restore the true spiritual government of Europe.",
+        },
+    },
+
+    The_Ebionites: {
+        tags: [
+            "era_ancient",
+            "location_levant",
+            "aesthetic_ascetic",
+            "nature_ancestral",
+            "practice_purity",
+            "practice_meal",
+            "practice_chant",
+        ],
+        Origins: "2nd Century CE; a Jewish-Christian sect known as 'The Poor Ones' (Ebionim). They claimed to follow the original teachings of Jesus handed down to his brother James.",
+        Beliefs: {
+            Adoptionism: "Jesus was the Jewish Messiah, but he was the *biological* son of Joseph and Mary, not born of a virgin. He became the 'Son of God' only at his baptism due to his supreme righteousness.",
+            The_Enemy_Paul: "They viewed the Apostle Paul as an apostate, a liar, and a false prophet who distorted Jesus's message to appeal to Gentiles.",
+            Primacy_of_James: "James the Just (the brother of Jesus) is the true 'Bishop of Bishops' and the central authority of the faith, superior to Peter.",
+        },
+        Rituals: {
+            Vegetarianism: "Strict refusal to eat meat, believing that Jesus came to abolish animal sacrifice. They used 'water only' in their Eucharist, rejecting the wine as a symbol of Bacchus.",
+            Daily_Ablutions: "Frequent ritual bathing (mikvah) to maintain purity, similar to the Essenes.",
+            Facing_Jerusalem: "Prayer was strictly oriented toward Jerusalem, rejecting the eastward orientation of the growing Gentile church.",
+        },
+        Structure: {
+            Synagogues: "They worshipped in synagogues, not churches, and adhered to the Mosaic Law (circumcision, Sabbath) alongside their veneration of Jesus.",
+        },
+    },
+
+    Mormon_Fundamentalist_Bloodlines: {
+        tags: [
+            "era_industrial",
+            "era_modern",
+            "location_usa",
+            "aesthetic_utilitarian",
+            "nature_ancestral",
+            "nature_polygamous",
+            "practice_sex",
+            "practice_commune",
+            "practice_secret",
+            "practice_purity",
+        ],
+        Origins: "19th Century Utah (splintering from mainstream LDS); rooted in the speculative theology of early leaders like Orson Pratt and Brigham Young regarding the nature of God's family.",
+        Beliefs: {
+            Jesus_the_Polygamist: "The belief that the wedding at Cana was Jesus's own wedding, and that he was married to Mary Magdalene, Martha, and Mary of Bethany to fulfill the command to 'multiply and replenish the earth'.",
+            The_Holy_Seed: "The contention that Jesus fathered literal children during his life, and that this 'Holy Seed' migrated to the British Isles and eventually to the Joseph Smith lineage.",
+            Patriarchal_Order: "Salvation is dynastic; a man's glory in the afterlife depends on the size of his family kingdom (wives and children).",
+        },
+        Rituals: {
+            Plural_Marriage: "The practice of polygamy is viewed as a sacred imitation of Jesus and the Patriarchs, essential for reaching the highest degree of the Celestial Kingdom.",
+            The_Law_of_Placement: "In some fundamentalist groups (like the FLDS), marriages are not romantic choices but 'assignments' granted by the Prophet, who holds the keys to the bloodline.",
+            Consecration: "Total surrender of property and autonomy to the 'United Order' or the priesthood leadership, mimicking the communal life of the early disciples.",
+        },
+        Structure: {
+            One_Man_Rule: "Authority is concentrated in a single Prophet/President who holds the 'Keys of the Priesthood' and dictates all lineage/marriage decisions.",
+        },
+    },
+
+    The_Black_Madonna: {
+        tags: [
+            "era_medieval",
+            "location_europe",
+            "aesthetic_gothic",
+            "nature_esoteric",
+            "nature_syncretic",
+        ],
+        Origins: "Middle Ages (11th-12th Century); mysterious statues of the Virgin Mary depicted with dark skin, emerging simultaneously with the Crusades and the rise of the Knights Templar. Famous sites include Chartres, Rocamadour, and Montserrat.",
+        Beliefs: {
+            Nigredo_Alchemy: "Represents the *Materia Prima* or the 'Nigredo' phase of alchemy—the blackening/putrefaction that precedes the creation of the Philosopher's Stone (gold). She is the chaos from which order is born.",
+            The_Hidden_Goddess: "Often viewed not as Mary the Virgin, but as Mary Magdalene or a Christianized version of pagan Earth Mothers (Isis, Cybele, Artemis of Ephesus) who represent fertility, death, and the underground.",
+            Nigra_Sum_Sed_Formosa: "Central theological motto derived from the Song of Songs (1:5): 'I am black, but comely.' Interpreted esoterically to mean wisdom is found in the darkness/shadow.",
+        },
+        Rituals: {
+            The_Incubation: "Pilgrims would historically spend the night in the crypts of Black Madonna shrines (like 'Notre-Dame-de-Sous-Terre' in Chartres) to receive healing dreams or visions in the absolute dark.",
+            The_Green_Candle: "In folk magic, green candles are often burned before Black Madonna icons to invoke fertility or monetary gain, linking her to the earth's abundance rather than celestial purity.",
+        },
+        Structure: {
+            Sanctuary_Guardians: "Historically tended by Benedictine monks, but often associated with legends of Templar guardianship. Modern devotees often form loose, non-dogmatic pilgrimage networks.",
+        },
+    },
+
+    Vodou_Ezili_Danto: {
+        tags: [
+            "era_colonial",
+            "era_modern",
+            "location_america",
+            "nature_syncretic",
+            "practice_sacrifice",
+        ],
+        Origins: "Haiti (18th Century); born from the syncretism of West African spirits and Catholic iconography. The Polish legions sent by Napoleon brought the icon of the Black Madonna of Częstochowa, which enslaved Haitians adopted as Ezili Dantò.",
+        Beliefs: {
+            The_Warrior_Mother: "She is the Lwa (spirit) of vengeance, protection, and motherhood. Unlike the 'White' Mary, she is not passive; she fights for her children and the marginalized.",
+            The_Mute_Witness: "Often depicted as mute or speaking only in a 'stutter' (kek-kek-kek) during possession because her tongue was cut out during the Haitian Revolution (or to keep the secrets of the resistance).",
+            Rejection_of_Purity: "She embodies the hard reality of life—she is a single mother, a worker, and a fighter, contrasting with the luxury and flirtation of her rival spirit, Ezili Freda.",
+        },
+        Rituals: {
+            Petro_Rites: "Belongs to the 'Petro' family of spirits (hot, aggressive). Her rituals often involve fire, rum, and the sacrifice of black pigs.",
+            The_Scars: "Devotees recognize her by the two facial scars on the icon (originally damage to the painting), interpreted as tribal markings or battle wounds.",
+        },
+        Structure: {
+            Societe: "Organized into autonomous 'Sociétés' led by a Houngan (priest) or Mambo (priestess). There is no central 'Pope'; authority is local and charismatic.",
+        },
+    },
+
+    Order_of_Phosphorus: {
+        tags: [
+            "era_modern",
+            "location_usa",
+            "aesthetic_macabre",
+            "aesthetic_carnal",
+            "nature_esoteric",
+            "practice_magic",
+            "practice_sex",
+            "practice_taboobreaking",
+            "practice_initiation",
+        ],
+        Origins: "Founded in the early 2000s by Michael W. Ford in Houston, Texas; codifying 'Luciferian Witchcraft' as a path of self-illumination.",
+        Beliefs: {
+            Adversarial_Feminine: "Lilith is the 'Adversary' to the restrictive laws of nature and the church. She is the mother of the 'Witchblood'—the instinctual drive to master magic.",
+            Yatuk_Dinoih: "A syncretism of ancient Persian sorcery (Ahrimanic Yoga) and Western ceremonial magic, viewing demons not as external masters but as parts of the human psyche to be controlled.",
+            The_Black_Flame: "Similar to other LHP groups, the goal is to ignite the Black Flame of consciousness, but with a specific focus on balancing the Luciferian (Solar/Intellect) and Lilithian (Lunar/Instinct) principles.",
+        },
+        Rituals: {
+            Rite_of_the_Succubus: "Psychodramatic rituals to invoke Lilithian energy to master one's own lusts and turn sexual energy into magical will (Volantia).",
+            The_Azal_ucel: "A rite of awakening the 'Holy Guardian Angel', interpreted here as the 'Daemon' or the higher, isolated self.",
+            Casting_the_Circle_of_the_Dragon: "Unlike Wiccan circles of protection, this circle is cast to *contain* and focus the energy raised by the sorcerer, calling on the 'Four Hells' rather than the Four Watchtowers.",
+        },
+        Structure: {
+            Guilds: "Organized into sub-orders like 'The Black Order of the Dragon', focusing on specific aspects of predatory spirituality.",
+        },
+    },
+
+    Qliphothic_Qabalah: {
+        tags: [
+            "era_medieval",
+            "location_europe",
+            "aesthetic_cerebral",
+            "aesthetic_macabre",
+            "nature_esoteric",
+            "practice_meditation",
+            "practice_chant",
+            "practice_visualization",
+            "practice_taboobreaking",
+        ],
+        Origins: "13th Century Spain (The Zohar) and 16th Century Safed (Isaac Luria); the study of the 'Shells' (Qliphoth) or the waste-products of creation.",
+        Beliefs: {
+            Sitra_Ahra: "The 'Other Side'. Evil is not independent but is a result of the imbalance of Divine Judgment (Gevurah) without Mercy (Chesed).",
+            The_Ten_Hells: "Just as there are 10 Sephiroth of Holiness, there are 10 Qliphoth of Impurity (e.g., Gamaliel/The Obscene, Thaumiel/The Twins of God).",
+            Lilith_and_Samael: "The supreme demonic couple. Samael is the blind active force; Lilith is the blind passive vessel. Their union generates the 'Beasts' of the world.",
+            Aarab_Zaraq: "The Qliphoth of Venus is 'A'arab Zaraq' (The Ravens of Dispersion). While Divine Venus represents cohesive love (bringing things together), Dark Venus represents obsession, jealousy, and the chaotic dispersal of emotion.",
+        },
+        Rituals: {
+            Breaking_the_Vessels: "Modern practitioners (unlike traditional Kabbalists who shunned it) deliberately meditate on the Qliphothic spheres to 'eat the fruit' of knowledge contained within the shells.",
+            Tunnel_Work: "Navigating the 22 'Tunnels of Set' that connect the dark spheres, often using sexual gnosis or fear-states to unlock the pathways.",
+            Invocation_of_the_Demon_Rulers: "Summoning the specific arch-demons (e.g., Naamah, Belial, Moloch) associated with each Qlipha to harness their powers.",
+        },
+        Structure: {
+            Esoteric_Transmission: "Historically a forbidden oral tradition; popularized in the 20th century by Crowley, Grant, and the Dragon Rouge.",
         },
     },
 }
