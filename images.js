@@ -1237,5 +1237,176 @@ const imagesManifest = {
         "White_Lotus_Society_1.png",
         "White_Lotus_Society_2.jpg",
         "White_Lotus_Society_3.png"
+    ],
+    "Lev_Tahor": [
+        "Lev_Tahor_0.png",
+        "Lev_Tahor_1.png",
+        "Lev_Tahor_2.png",
+        "Lev_Tahor_3.jpg"
+    ],
+    "The_Safed_Circle_Lurianic_Kabbalah": [
+        "The_Safed_Circle_Lurianic_Kabbalah_0.jpg",
+        "The_Safed_Circle_Lurianic_Kabbalah_1.jpg",
+        "The_Safed_Circle_Lurianic_Kabbalah_2.png",
+        "The_Safed_Circle_Lurianic_Kabbalah_3.jpg"
+    ],
+    "Modern_Zoroastrian_Priesthood": [
+        "Modern_Zoroastrian_Priesthood_0.jpg",
+        "Modern_Zoroastrian_Priesthood_1.jpg",
+        "Modern_Zoroastrian_Priesthood_2.jpg",
+        "Modern_Zoroastrian_Priesthood_3.jpg"
+    ],
+    "The_Church_of_Light": [
+        "The_Church_of_Light_0.jpg",
+        "The_Church_of_Light_1.jpg",
+        "The_Church_of_Light_2.png"
+    ],
+    "Movement_for_Restoration_Ten_Commandments": [
+        "Movement_for_Restoration_Ten_Commandments_0.png",
+        "Movement_for_Restoration_Ten_Commandments_1.jpg",
+        "Movement_for_Restoration_Ten_Commandments_2.png",
+        "Movement_for_Restoration_Ten_Commandments_3.jpg"
+    ],
+    "Order_of_Phosphorus": [
+        "Order_of_Phosphorus_1.png",
+        "Order_of_Phosphorus_2.jpg",
+        "Order_of_Phosphorus_3.jpg"
+    ],
+    "Aumism_Mandarom": [
+        "Aumism_Mandarom_0.jpg",
+        "Aumism_Mandarom_1.jpg",
+        "Aumism_Mandarom_2.png",
+        "Aumism_Mandarom_3.png"
+    ],
+    "Vodou_Ezili_Danto": [
+        "Vodou_Ezili_Danto_1.png",
+        "Vodou_Ezili_Danto_2.jpg"
+    ],
+    "Mormon_Fundamentalist_Bloodlines": [
+        "Mormon_Fundamentalist_Bloodlines_0.jpg",
+        "Mormon_Fundamentalist_Bloodlines_1.jpg",
+        "Mormon_Fundamentalist_Bloodlines_2.jpg",
+        "Mormon_Fundamentalist_Bloodlines_3.jpg"
+    ],
+    "Sabeans_of_Harran": [
+        "Sabeans_of_Harran_0.jpg",
+        "Sabeans_of_Harran_1.jpg",
+        "Sabeans_of_Harran_2.jpg",
+        "Sabeans_of_Harran_3.jpg"
+    ],
+    "Order_of_the_Magi_Richmond": [
+        "Order_of_the_Magi_Richmond_0.png",
+        "Order_of_the_Magi_Richmond_1.png",
+        "Order_of_the_Magi_Richmond_2.jpg",
+        "Order_of_the_Magi_Richmond_3.jpg"
+    ],
+    "The_Dogon_Awa_Society": [
+        "The_Dogon_Awa_Society_0.jpg",
+        "The_Dogon_Awa_Society_1.jpg",
+        "The_Dogon_Awa_Society_3.png"
+    ],
+    "Five_Percent_Nation_NGE": [
+        "Five_Percent_Nation_NGE_1.png",
+        "Five_Percent_Nation_NGE_2.png",
+        "Five_Percent_Nation_NGE_3.png"
+    ],
+    "The_Desposyni": [
+        "The_Desposyni_0.jpg",
+        "The_Desposyni_1.png",
+        "The_Desposyni_2.jpg",
+        "The_Desposyni_3.jpg"
+    ],
+    "Confraternity_of_the_Three_Kings": [
+        "Confraternity_of_the_Three_Kings_0.png",
+        "Confraternity_of_the_Three_Kings_1.png",
+        "Confraternity_of_the_Three_Kings_2.png",
+        "Confraternity_of_the_Three_Kings_3.jpg"
+    ],
+    "The_Sons_of_Freedom_Doukhobors": [
+        "The_Sons_of_Freedom_Doukhobors_0.jpg",
+        "The_Sons_of_Freedom_Doukhobors_1.jpg",
+        "The_Sons_of_Freedom_Doukhobors_2.jpg",
+        "The_Sons_of_Freedom_Doukhobors_3.jpg"
+    ],
+    "La_Familia_Michoacana": [
+        "La_Familia_Michoacana_1.png",
+        "La_Familia_Michoacana_2.png",
+        "La_Familia_Michoacana_3.png"
+    ],
+    "The_Kabbalah_Centre": [
+        "The_Kabbalah_Centre_0.jpg",
+        "The_Kabbalah_Centre_1.jpg",
+        "The_Kabbalah_Centre_2.jpg",
+        "The_Kabbalah_Centre_3.jpg"
+    ],
+    "Masonic_Knights_Templar": [
+        "Masonic_Knights_Templar_0.jpg",
+        "Masonic_Knights_Templar_2.png",
+        "Masonic_Knights_Templar_3.jpg"
+    ],
+    "Cult_of_Starry_Wisdom": [
+        "Cult_of_Starry_Wisdom_0.jpg",
+        "Cult_of_Starry_Wisdom_1.png",
+        "Cult_of_Starry_Wisdom_2.png",
+        "Cult_of_Starry_Wisdom_3.jpg"
+    ],
+    "The_Ebionites": [
+        "The_Ebionites_0.jpg",
+        "The_Ebionites_1.jpg",
+        "The_Ebionites_2.png",
+        "The_Ebionites_3.jpg"
+    ],
+    "The_Black_Madonna": [
+        "The_Black_Madonna_1.jpg",
+        "The_Black_Madonna_2.png",
+        "The_Black_Madonna_3.jpg"
+    ],
+    "Yordei_Merkavah_Hechalot_Mystics": [
+        "Yordei_Merkavah_Hechalot_Mystics_0.jpg",
+        "Yordei_Merkavah_Hechalot_Mystics_1.jpg",
+        "Yordei_Merkavah_Hechalot_Mystics_2.jpg",
+        "Yordei_Merkavah_Hechalot_Mystics_3.jpg"
+    ],
+    "Pana_Wave_Laboratory": [
+        "Pana_Wave_Laboratory_0.jpg",
+        "Pana_Wave_Laboratory_1.jpg",
+        "Pana_Wave_Laboratory_2.jpg",
+        "Pana_Wave_Laboratory_3.jpg"
+    ],
+    "Chen_Tao_True_Way": [
+        "Chen_Tao_True_Way_0.jpg",
+        "Chen_Tao_True_Way_1.jpg",
+        "Chen_Tao_True_Way_2.jpg",
+        "Chen_Tao_True_Way_3.jpg"
+    ],
+    "Qliphothic_Qabalah": [
+        "Qliphothic_Qabalah_0.png",
+        "Qliphothic_Qabalah_1.png",
+        "Qliphothic_Qabalah_2.jpg",
+        "Qliphothic_Qabalah_3.jpg"
+    ],
+    "The_Numbers_Gang_26s_27s_28s": [
+        "The_Numbers_Gang_26s_27s_28s_0.jpg",
+        "The_Numbers_Gang_26s_27s_28s_1.png",
+        "The_Numbers_Gang_26s_27s_28s_2.jpg",
+        "The_Numbers_Gang_26s_27s_28s_3.jpg"
+    ],
+    "Rite_Operatif_de_Salomon": [
+        "Rite_Operatif_de_Salomon_0.png",
+        "Rite_Operatif_de_Salomon_1.jpg",
+        "Rite_Operatif_de_Salomon_2.jpg",
+        "Rite_Operatif_de_Salomon_3.jpg"
+    ],
+    "Chevaliers_Bienfaisants_de_la_Cite_Sainte_CBCS": [
+        "Chevaliers_Bienfaisants_de_la_Cite_Sainte_CBCS_0.png",
+        "Chevaliers_Bienfaisants_de_la_Cite_Sainte_CBCS_1.png",
+        "Chevaliers_Bienfaisants_de_la_Cite_Sainte_CBCS_2.png",
+        "Chevaliers_Bienfaisants_de_la_Cite_Sainte_CBCS_3.jpg"
+    ],
+    "Ordre_Kabbalistique_de_la_Rose_Croix_OKRC": [
+        "Ordre_Kabbalistique_de_la_Rose_Croix_OKRC_0.jpg",
+        "Ordre_Kabbalistique_de_la_Rose_Croix_OKRC_1.jpg",
+        "Ordre_Kabbalistique_de_la_Rose_Croix_OKRC_2.jpg",
+        "Ordre_Kabbalistique_de_la_Rose_Croix_OKRC_3.jpg"
     ]
 };

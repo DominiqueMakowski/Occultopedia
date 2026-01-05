@@ -16,11 +16,10 @@ let networkSimulation = null
 let camera = { x: 0, y: 0, zoom: 1 } // Global camera state
 
 const TAG_COLORS = {
-    aesthetic: "#ff4081", // Pink
     location: "#7c4dff", // Purple
     practice: "#00e676", // Green
     era: "#ffab00", // Amber
-    nature: "#2979ff", // Blue (reusing source color for nature)
+    belief: "#ff5722", // Deep Orange
     other: "#9e9e9e", // Grey
     all: "#9b59b6", // Purple for all tags mode
 }
@@ -61,10 +60,7 @@ function getTagInfo(tag) {
     let type = "other"
     let label = tag
 
-    if (tag.startsWith("aesthetic_")) {
-        type = "aesthetic"
-        label = tag.replace("aesthetic_", "")
-    } else if (tag.startsWith("location_")) {
+    if (tag.startsWith("location_")) {
         type = "location"
         label = tag.replace("location_", "")
     } else if (tag.startsWith("practice_")) {
@@ -73,9 +69,9 @@ function getTagInfo(tag) {
     } else if (tag.startsWith("era_")) {
         type = "era"
         label = tag.replace("era_", "")
-    } else if (tag.startsWith("nature_")) {
-        type = "nature"
-        label = tag.replace("nature_", "")
+    } else if (tag.startsWith("belief_")) {
+        type = "belief"
+        label = tag.replace("belief_", "")
     }
 
     return {
@@ -146,8 +142,8 @@ function renderDetail(key, society) {
     if (society.Beliefs) {
         contentHtml += `<span class="section-title">Beliefs</span>${renderObject(society.Beliefs)}`
     }
-    if (society.Rituals) {
-        contentHtml += `<span class="section-title">Rituals</span>${renderObject(society.Rituals)}`
+    if (society.Practices) {
+        contentHtml += `<span class="section-title">Practices</span>${renderObject(society.Practices)}`
     }
     if (society.Structure) {
         contentHtml += `<span class="section-title">Structure</span>${renderObject(society.Structure)}`
@@ -603,11 +599,10 @@ function initNetwork() {
                     const firstShared = shared[0]
 
                     // Determine type for coloring
-                    if (firstShared.startsWith("aesthetic")) type = "aesthetic"
-                    else if (firstShared.startsWith("location")) type = "location"
+                    if (firstShared.startsWith("location")) type = "location"
                     else if (firstShared.startsWith("practice")) type = "practice"
                     else if (firstShared.startsWith("era")) type = "era"
-                    else if (firstShared.startsWith("nature")) type = "nature"
+                    else if (firstShared.startsWith("belief")) type = "belief"
 
                     // Filtering Logic
                     let shouldConnect = false
@@ -617,14 +612,6 @@ function initNetwork() {
                         shouldConnect = true
                         strength = shared.length
                         type = "all"
-                    } else if (mode === "aesthetic") {
-                        // Only connect if they share an aesthetic tag
-                        const aestheticTags = shared.filter((t) => t.startsWith("aesthetic"))
-                        if (aestheticTags.length > 0) {
-                            shouldConnect = true
-                            strength = aestheticTags.length
-                            if (!type.startsWith("aesthetic")) type = "aesthetic"
-                        }
                     } else if (mode === "era") {
                         // Only connect if they share an era tag
                         const eraTags = shared.filter((t) => t.startsWith("era"))
@@ -641,8 +628,8 @@ function initNetwork() {
                             strength = categoryTags.length
                             // Update type to match the mode for coloring consistency
                             if (mode.startsWith("practice")) type = "practice"
-                            else if (mode.startsWith("nature")) type = "nature"
                             else if (mode.startsWith("location")) type = "location"
+                            else if (mode.startsWith("belief")) type = "belief"
                         }
                     }
 
