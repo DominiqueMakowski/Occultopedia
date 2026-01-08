@@ -107,6 +107,9 @@ function switchTab(tabName) {
     if (tabName === "societies") {
         initNetwork() // Ensure network is running when switching back
     }
+    if (tabName === "timeline") {
+        initTimeline()
+    }
 }
 
 // --- Data Loading ---
@@ -873,6 +876,15 @@ function loadStateFromUrl() {
 
 // --- Initialization ---
 async function init() {
+    // Merge data from tags.js into dataSocieties
+    if (typeof dataSocieties !== "undefined" && typeof dataTags !== "undefined") {
+        for (const key in dataTags) {
+            if (dataSocieties[key]) {
+                Object.assign(dataSocieties[key], dataTags[key])
+            }
+        }
+    }
+
     manifestData = await loadManifest()
 
     if (typeof dataSocieties !== "undefined") {
@@ -937,6 +949,351 @@ async function init() {
     } else {
         detailContainer.innerHTML = '<p style="color:red; text-align:center;">Error: dataSocieties not found.</p>'
     }
+}
+
+// --- Timeline View ---
+let timelineCanvas, timelineCtx
+let timelineNodes = []
+let timelineLinks = []
+let timelineCamera = { y: 0, zoom: 1, initialized: false }
+let timelineAnimationId
+
+function initTimeline() {
+    timelineCanvas = document.getElementById("timeline-canvas")
+    if (!timelineCanvas) return
+    timelineCtx = timelineCanvas.getContext("2d")
+
+    resizeTimeline()
+    window.addEventListener("resize", resizeTimeline)
+
+    // Prepare Data
+    if (timelineNodes.length === 0) {
+        prepareTimelineData()
+    }
+
+    if (!timelineAnimationId) {
+        setupTimelineInteraction()
+        timelineLoop()
+    }
+}
+
+function resizeTimeline() {
+    if (!timelineCanvas) return
+    const parent = timelineCanvas.parentElement
+    timelineCanvas.width = parent.clientWidth
+    timelineCanvas.height = parent.clientHeight
+}
+
+function formatDate(year) {
+    if (year < 0) return `${Math.abs(year)} BC`
+    return `${year}`
+}
+
+function prepareTimelineData() {
+    const present = new Date().getFullYear()
+
+    // Find limits
+    let maxYearsAgo = 0
+    let minYearsAgo = Infinity
+
+    // Pre-process dataVal logic
+    const timelineData = []
+    Object.entries(dataTags).forEach(([key, data]) => {
+        const isFictional = data.startDate === null || typeof data.startDate === "undefined"
+        const date = isFictional ? present + 2 : data.startDate // Default to future
+
+        let yearsAgo = isFictional ? 0.2 : present - date
+        // Log scale requires > 0
+        if (!isFictional && yearsAgo < 1) yearsAgo = 0.5 // Handle future/present safely for log scale
+
+        if (yearsAgo > maxYearsAgo) maxYearsAgo = yearsAgo
+        if (yearsAgo < minYearsAgo) minYearsAgo = yearsAgo
+
+        timelineData.push({ key, data, date, yearsAgo })
+    })
+
+    const maxLog = Math.log(maxYearsAgo)
+    const minLog = Math.log(minYearsAgo)
+    timelineCamera.maxLog = maxLog
+
+    timelineNodes = timelineData.map((item) => {
+        // Formula: yLog = maxLog - Math.log(yearsAgo)
+        const yVal = maxLog - Math.log(item.yearsAgo)
+
+        return {
+            id: item.key,
+            date: item.date,
+            yLog: yVal,
+            x: 0.1 + Math.random() * 0.8,
+            label: formatKey(item.key),
+            startDate: item.startDate,
+            inspiredBy: item.data.inspiredBy || [],
+        }
+    })
+
+    // Calculate initial zoom to fit 200% screen height
+    const rangeLog = maxLog - minLog
+    timelineCamera.rangeLog = rangeLog
+
+    // Adjust X to avoid overlaps
+    for (let i = 0; i < 50; i++) {
+        timelineNodes.forEach((a) => {
+            timelineNodes.forEach((b) => {
+                if (a === b) return
+                const dy = (a.yLog - b.yLog) * 100
+                if (Math.abs(dy) < 0.5) {
+                    const dx = a.x - b.x
+                    if (Math.abs(dx) < 0.1) {
+                        const push = 0.001 / (dx || 0.01)
+                        a.x += push
+                        b.x -= push
+                        a.x = Math.max(0.1, Math.min(0.9, a.x))
+                        b.x = Math.max(0.1, Math.min(0.9, b.x))
+                    }
+                }
+            })
+        })
+    }
+
+    timelineLinks = []
+    timelineNodes.forEach((node) => {
+        if (node.inspiredBy) {
+            node.inspiredBy.forEach((targetId) => {
+                const target = timelineNodes.find((n) => n.id === targetId)
+                if (target) {
+                    timelineLinks.push({ source: node, target: target })
+                }
+            })
+        }
+    })
+}
+
+function drawTimeline() {
+    if (!timelineCtx) return
+    const width = timelineCanvas.width
+    const height = timelineCanvas.height
+    timelineCtx.clearRect(0, 0, width, height)
+
+    // Initial Zoom Setup
+    if (!timelineCamera.initialized && timelineCamera.rangeLog && height > 0) {
+        timelineCamera.zoom = (2 * height) / (timelineCamera.rangeLog * 100)
+        timelineCamera.initialized = true
+    }
+
+    const pixelsPerLogUnit = 100 * timelineCamera.zoom
+    const yOffset = timelineCamera.y
+
+    const getScreenY = (node) => node.yLog * pixelsPerLogUnit - yOffset + 50
+    const getScreenX = (node) => node.x * width
+
+    // Axis
+    timelineCtx.textAlign = "left"
+
+    const present = new Date().getFullYear()
+    // More detail between 1000 and 2000
+    const yearsToMark = [
+        present,
+        2020,
+        2010,
+        2000,
+        1950,
+        1900,
+        1800,
+        1700,
+        1600,
+        1500,
+        1400,
+        1300,
+        1200,
+        1100,
+        1000,
+        500,
+        0,
+        -500,
+        -1000,
+        -2000,
+        -3000,
+        -4000,
+        -5000,
+        -6000,
+    ]
+
+    yearsToMark.forEach((year) => {
+        let yearsAgo = present - year
+        if (yearsAgo < 1) yearsAgo = 0.5 // Avoid log(<=0)
+
+        if (timelineCamera.maxLog !== undefined) {
+            const val = timelineCamera.maxLog - Math.log(yearsAgo)
+            const y = val * pixelsPerLogUnit - yOffset + 50
+
+            if (y > -20 && y < height + 20) {
+                timelineCtx.beginPath()
+                timelineCtx.moveTo(0, y)
+                timelineCtx.lineTo(width, y)
+
+                if (year === present || year === 0) {
+                    timelineCtx.strokeStyle = "orange"
+                    timelineCtx.lineWidth = 2 // Make it slightly thicker too
+                } else {
+                    timelineCtx.strokeStyle = "#333"
+                    timelineCtx.lineWidth = 1
+                }
+                timelineCtx.stroke()
+
+                timelineCtx.fillStyle = year === present || year === 0 ? "orange" : "#555"
+                timelineCtx.fillText(formatDate(year), 5, y - 5)
+            }
+        }
+    })
+
+    // Determine Highlight targets
+    let activeNodes = new Set()
+    if (selectedNodeId) {
+        activeNodes.add(selectedNodeId)
+        // Add neighbors
+        timelineLinks.forEach((link) => {
+            if (link.source.id === selectedNodeId) activeNodes.add(link.target.id)
+            if (link.target.id === selectedNodeId) activeNodes.add(link.source.id)
+        })
+    }
+
+    // Links
+    timelineLinks.forEach((link) => {
+        const sx = getScreenX(link.source)
+        const sy = getScreenY(link.source)
+        const tx = getScreenX(link.target)
+        const ty = getScreenY(link.target)
+        if ((sy < 0 && ty < 0) || (sy > height && ty > height)) return
+
+        let alpha = 0.3
+        let color = "#444"
+        let lineWidth = 1
+
+        if (selectedNodeId) {
+            // Highlight connections relative to selected
+            if (link.source.id === selectedNodeId || link.target.id === selectedNodeId) {
+                alpha = 1.0
+                color = "#fff"
+                lineWidth = 2
+            } else {
+                alpha = 0.2 // Less transparent than before (was 0.05)
+            }
+        }
+
+        timelineCtx.globalAlpha = alpha
+        timelineCtx.strokeStyle = color
+        timelineCtx.lineWidth = lineWidth
+        timelineCtx.beginPath()
+        timelineCtx.moveTo(sx, sy)
+        timelineCtx.bezierCurveTo(sx, (sy + ty) / 2, tx, (sy + ty) / 2, tx, ty)
+        timelineCtx.stroke()
+        timelineCtx.globalAlpha = 1.0
+    })
+
+    // Nodes
+    timelineNodes.forEach((node) => {
+        const x = getScreenX(node)
+        const y = getScreenY(node)
+        if (y < -50 || y > height + 50) return
+
+        let color = "#bb86fc"
+        if (dataTags[node.id] && dataTags[node.id].tags) {
+            const era = dataTags[node.id].tags.find((t) => t.startsWith("era_"))
+            if (era && typeof getEraColor === "function") color = getEraColor([era])
+        }
+
+        // Highlight logic
+        let alpha = 1.0
+        let radius = 6
+        let labelColor = "#ccc"
+        let showLabel = true
+
+        if (selectedNodeId) {
+            if (activeNodes.has(node.id)) {
+                alpha = 1.0
+                if (node.id === selectedNodeId) {
+                    radius = 9
+                    labelColor = "#fff"
+                }
+            } else {
+                alpha = 0.4 // Less transparent than before (was 0.1)
+                showLabel = true // Keep labels visible
+            }
+        }
+
+        timelineCtx.globalAlpha = alpha
+        timelineCtx.fillStyle = color
+        timelineCtx.beginPath()
+        timelineCtx.arc(x, y, radius, 0, Math.PI * 2)
+        timelineCtx.fill()
+
+        if (showLabel || !selectedNodeId) {
+            timelineCtx.fillStyle = labelColor
+            timelineCtx.font = "12px sans-serif"
+            timelineCtx.fillText(node.label, x + radius + 4, y + 4)
+        }
+
+        timelineCtx.globalAlpha = 1.0
+    })
+}
+
+function timelineLoop() {
+    drawTimeline()
+    timelineAnimationId = requestAnimationFrame(timelineLoop)
+}
+
+function setupTimelineInteraction() {
+    let isDragging = false
+    let lastY = 0
+
+    timelineCanvas.addEventListener("mousedown", (e) => {
+        isDragging = true
+        lastY = e.clientY
+    })
+
+    window.addEventListener("mousemove", (e) => {
+        if (isDragging) {
+            const dy = e.clientY - lastY
+            timelineCamera.y -= dy
+            lastY = e.clientY
+        }
+    })
+
+    window.addEventListener("mouseup", () => (isDragging = false))
+
+    timelineCanvas.addEventListener("wheel", (e) => {
+        e.preventDefault()
+        // Scrolling now pans Y instead of zooming
+        timelineCamera.y += e.deltaY
+    })
+
+    timelineCanvas.addEventListener("click", (e) => {
+        const rect = timelineCanvas.getBoundingClientRect()
+        const mx = e.clientX - rect.left
+        const my = e.clientY - rect.top
+        const pixelsPerLogUnit = 100 * timelineCamera.zoom
+        const yOffset = timelineCamera.y
+
+        let clicked = null
+        for (const node of timelineNodes) {
+            const nx = node.x * timelineCanvas.width
+            const ny = node.yLog * pixelsPerLogUnit - yOffset + 50
+            const dist = Math.sqrt((nx - mx) ** 2 + (ny - my) ** 2)
+            if (dist < 10) {
+                clicked = node
+                break
+            }
+        }
+
+        if (clicked && dataSocieties[clicked.id]) {
+            renderDetail(clicked.id, dataSocieties[clicked.id])
+            // Force redraw to update highlighting
+            // Using selectedNodeId logic in drawTimeline
+        } else {
+            // Optional: Deselect if clicking empty space?
+            // selectedNodeId = null;
+        }
+    })
 }
 
 init()

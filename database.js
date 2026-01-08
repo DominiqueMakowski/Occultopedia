@@ -3,27 +3,6 @@
 
 const dataSocieties = {
     Cult_of_Ishtar_Inanna: {
-        tags: [
-            "location_middle_east", // Sumer, Akkad, Babylon
-            "era_ancient", // 4000 BCE – 400 CE
-            "belief_polytheism",
-            "belief_sacred_feminine", // Primacy of the Goddess
-            "belief_dualism", // Goddess of paradox/opposites (Merged liminality)
-            "belief_gnosis", // Power requires ego-death
-            "practice_transgression", // Breaking social taboos
-            "practice_sex_magic", // Hieros Gamos/Sacred Prostitution
-            "practice_sex", // Actual sexual acts involved
-            "practice_cross_dressing", // Gender ambiguity in priesthood
-            "practice_katabasis", // Ritual descent/Underworld journey
-            "practice_altered_state", // Trance/Wailing/Ecstasy
-            "practice_ritual_drama", // Ritual weeping (Merged lamentation)
-            "practice_chant",
-            "practice_prayer",
-            "practice_carnal_aesthetic",
-            "practice_ecstatic_aesthetic",
-            "practice_taboobreaking",
-            "belief_pagan",
-        ],
         Origins:
             "Ancient Mesopotamia (4000 BCE – 400 CE); centered in the Eanna ('House of Heaven') District of Uruk. It was not just a temple but a massive bureaucratic and economic complex controlling the city's granaries and trade, legitimized by the goddess's mandate.",
         Beliefs: {
@@ -65,24 +44,6 @@ const dataSocieties = {
     },
 
     The_Magi: {
-        tags: [
-            "location_middle_east", // Persia/Iran
-            "era_ancient", // 6th Century BCE
-            "belief_dualism", // Truth (Asha) vs Lie (Druj)
-            "belief_purity", // Sanctity of elements (Fire/Water)
-            "belief_messianism", // The Saoshyant (Savior)
-            "practice_secrecy", // The Baj (Ritual Silence)
-            "practice_purity_ritual", // Preventing breath pollution
-            "practice_entheogen", // Haoma/Ephedra consumption
-            "practice_altered_state", // Inducing trance via Haoma
-            "practice_divination", // Astrology/Reading the heavens
-            "practice_funerary", // Sky burial/Tower of Silence
-            "practice_mantra", // Manthra recitation
-            "practice_chant",
-            "practice_prayer",
-            "practice_macabre_aesthetic", // Sky burial
-            "practice_intellectual_aesthetic", // Astrology/Astronomy roots
-        ],
         Origins:
             "Originally a distinct tribe from Media (North-West Iran) who monopolized religious functions. After Cyrus the Great, they became the hereditary priestly caste of the Persian Empire. The Greeks misunderstood their rituals, giving us the word 'Magic' (Mageia), but the Magi actually hated sorcery (Goetia).",
         Beliefs: {
@@ -134,18 +95,6 @@ const dataSocieties = {
     },
 
     Order_of_the_Magi_Richmond: {
-        tags: [
-            "location_north_america", // Chicago, USA
-            "era_industrial", // 1889
-            "belief_occult_history", // Atlantis/Lost Civilizations
-            "belief_determinism", // Life ruled by birth card
-            "belief_numerology", // Mathematical cosmology
-            "practice_divination", // Cartomancy/Grand Spread
-            "practice_ceremonial_magic", // Solar value calculation
-            "practice_initiation", // Temple degrees
-            "practice_intellectual_aesthetic",
-            "belief_syncretism",
-        ],
         Origins:
             "Chicago, 1889; founded by Olney H. Richmond. He claimed to have been initiated by a 'stranger' into a lost temple in Nashville, Tennessee.",
         Beliefs: {
@@ -169,19 +118,6 @@ const dataSocieties = {
     },
 
     Confraternity_of_the_Three_Kings: {
-        tags: [
-            "location_europe", // Cologne, Germany
-            "era_medieval", // 12th Century
-            "belief_sovereignty", // Royal Sacrality (Merged divine_right)
-            "belief_thaumaturgy", // Relics cure epilepsy
-            "practice_pilgrimage", // Travel to the shrine
-            "practice_theatricality", // Star singing processions
-            "practice_talismans", // Dreikonigszettel amulets
-            "practice_feasting", // Epiphany celebrations
-            "practice_chant", // Star singing
-            "practice_prayer",
-            "belief_christianity",
-        ],
         Origins:
             "12th Century onwards; centered around Cologne Cathedral (Germany) where the relics of the Magi were transferred by Frederick Barbarossa in 1164.",
         Beliefs: {
@@ -205,19 +141,6 @@ const dataSocieties = {
     },
 
     Modern_Zoroastrian_Priesthood: {
-        tags: [
-            "location_asia", // India (Mumbai) and Iran
-            "era_modern", // Contemporary
-            "belief_purity", // Fire as manifestation of Asha
-            "belief_bloodline", // Hereditary priesthood (Merged bloodline_exclusivity)
-            "belief_dualism", // Cosmic battle of good/evil
-            "practice_purity_ritual", // Strict hygiene/Nirangdin
-            "practice_fire_worship", // Atash Behram tending
-            "practice_initiation", // Navjote ceremony
-            "practice_mantra", // Yasna recitation
-            "practice_chant",
-            "practice_prayer",
-        ],
         Origins:
             "Direct biological and spiritual descendants of the Sassanid Magi who fled to India (becoming Parsis) or remained in Iran (becoming Zartoshtis) after the Islamic conquest.",
         Beliefs: {
@@ -242,25 +165,6 @@ const dataSocieties = {
     },
 
     Cult_of_Cybele_Magna_Mater: {
-        tags: [
-            "location_europe", // Rome (via Anatolia)
-            "era_ancient", // 204 BC
-            "belief_animism", // Nature Worship/Mountain Mother
-            "belief_sacred_feminine", // Mother of Gods
-            "practice_altered_state", // Frenzied dance/Corybantic drumming
-            "practice_transgression", // Gender-non-conforming priests (Galli)
-            "practice_body_modification", // Castration
-            "practice_self_mutilation", // Self-castration/Flagellation
-            "practice_violence", // Ritual bloodletting
-            "practice_blood_rite", // Taurobolium (Bull blood baptism)
-            "practice_procession", // Carrying the Black Rock
-            "practice_dance",
-            "practice_chant",
-            "practice_macabre_aesthetic",
-            "practice_ecstatic_aesthetic",
-            "practice_taboobreaking",
-            "belief_pagan",
-        ],
         Origins: "Anatolian Phrygia, imported to Rome in 204 BC during the Punic Wars.",
         Beliefs: {
             Mountain_Mother: "Worship of the wild, untamable mother nature.",
@@ -283,24 +187,6 @@ const dataSocieties = {
     },
 
     Eleusinian_Mysteries: {
-        tags: [
-            "location_europe", // Greece
-            "era_ancient", // c. 1600 BCE - 392 CE
-            "belief_gnosis", // Experiential salvation
-            "belief_regeneration", // Cycle of grain/Rebirth
-            "belief_afterlife", // Better lot in Hades
-            "practice_initiation", // Telesterion/Darkness to Light
-            "practice_entheogen", // Kykeon (barley/ergot drink)
-            "practice_altered_state", // Ergot intoxication
-            "practice_secrecy", // The 'arrheta' (unspeakable)
-            "practice_transgression", // Bridge Jests/Humiliation
-            "practice_fasting", // Prerequisite for the rite
-            "practice_procession", // Torchlight walk
-            "practice_chant",
-            "practice_prayer",
-            "practice_ecstatic_aesthetic",
-            "belief_pagan",
-        ],
         Origins: "Ancient Greece; stood as the preeminent religious festival for nearly two thousand years.",
         Beliefs: {
             Soteriology: "Intensely personal and soteriological, promising a 'better lot' in the afterlife unlike civic cults.",
@@ -325,20 +211,6 @@ const dataSocieties = {
     },
 
     Pythagoreanism: {
-        tags: [
-            "location_europe", // Croton, Italy
-            "era_ancient", // c. 570 BCE
-            "belief_numerology", // All is Number/Sacred Geometry
-            "belief_reincarnation", // Metempsychosis
-            "belief_cosmology", // Music of the Spheres (Merged cosmic_harmony)
-            "practice_dietary_restriction", // Vegetarianism/Bean taboo
-            "practice_secrecy", // Vow of silence
-            "practice_meditation", // Reviewing day in reverse (Merged mental_discipline)
-            "practice_fictive_kinship", // Philosophical brotherhood
-            "practice_intellectual_aesthetic",
-            "practice_poverty", // Often communal living
-            "belief_pagan",
-        ],
         Origins: "Founded c. 570 BCE in Croton by Pythagoras; established the model for the 'philosophical brotherhood'.",
         Beliefs: {
             Musica_Universalis: "The cosmos was ordered by mathematical relationships (harmonies) and the 'Music of the Spheres'.",
@@ -371,21 +243,6 @@ const dataSocieties = {
     },
 
     Mithraic_Mysteries: {
-        tags: [
-            "location_europe", // Roman Empire
-            "era_ancient", // 1st-4th Century CE
-            "belief_ascent", // Soul travel through spheres
-            "belief_determinism", // Astrology/Precession
-            "practice_initiation", // 7 Grades/Ladder
-            "practice_hierarchy", // Military-style grades
-            "practice_fictive_kinship", // Handshakes/Syndexioi
-            "practice_katabasis", // Cave ritual (Mithraeum)
-            "practice_ritual_meal", // Bread and water/wine
-            "practice_martial_aesthetics",
-            "practice_macabre_aesthetic", // Imagery of bull slaying
-            "belief_pagan",
-            "belief_syncretism",
-        ],
         Origins: "Roman Empire; an exclusively male, solar-martial cult that introduced the 'grade system'.",
         Beliefs: {
             Cosmic_Ascension:
@@ -420,38 +277,33 @@ const dataSocieties = {
     },
 
     Sethian_Gnostics: {
-        tags: [
-            "location_middle_east", // Eastern Mediterranean
-            "era_ancient", // 1st-2nd Century CE
-            "belief_gnosis", // Salvation via Knowledge (Merged divine_spark)
-            "belief_prison_planet", // Creator (Demiurge) is a demon/ignorant
-            "belief_dualism", // Spirit vs Matter
-            "practice_meditation", // Vowel chanting/Stillness
-            "practice_purity_ritual", // Baptism/Five Seals
-            "practice_asceticism", // Rejection of the body
-            "practice_chant", // Vowel chanting
-            "practice_chastity",
-            "practice_intellectual_aesthetic",
-            "belief_christianity",
-            "belief_syncretism",
-        ],
         Origins:
             "Emerging in the first century CE; they identified themselves as the 'Seed of Seth', the 'Incorruptible Race', and the 'Immobiles'.",
         Beliefs: {
             The_Standing_One:
-                "The spiritual goal is to become 'motionless' or 'immobile' like the divine beings, contrasting with the chaotic motion of the cosmos.",
-            Four_Illuminators: "Divine beings (Armozel, Oroiael, Daveithai, Eleleth) who populate the transcendent realms.",
-            Reversal_of_Genesis:
-                "They viewed the biblical Creator (Ialdabaoth/Saklas) as a jealous, lion-headed dragon who trapped the divine spirit in matter.",
+                "The spiritual goal is to become 'motionless' or 'immobile' like the divine beings. To stand is to be fixed in the Pleroma, contrasting with the chaotic spinning/motion of the planetary spheres.",
+            The_Audacity_of_Sophia: `
+            The cosmos is the result of a divine trauma. Sophia (Wisdom), the youngest of the Aeons, wished to know the unknowable Father. She attempted to create without her male consort (Thelēma/Will).
+            - **The Aborted Fetus:** Because she acted in isolation, she produced a deformity—a lion-headed serpent named Yaldabaoth (The Child of Chaos). Ashamed, she cast him out of the Pleroma into a cloud.
+            - **The Theft of Light:** Yaldabaoth, ignorant of his mother, stole a spark of her power to create the material world. Thus, the world is a prison built by a blind jailer (the Demiurge) using the stolen power of Wisdom.`,
+            Four_Illuminators: "Divine beings (Armozel, Oroiael, Daveithai, Eleleth) who act as the coordinates of the transcendent mind.",
+            Epinoia_The_Afterthought: `
+            God did not abandon humanity. When Yaldabaoth breathed his stolen power into Adam, Sophia secretly inserted her 'Epinoia' (Luminous Imagination/Afterthought) into Adam's bone marrow.
+            - **The Trojan Horse:** The rulers think they own Adam, but Sophia is hiding *inside* his biology. She is the voice that wakes him from the sleep of ignorance.`,
         },
         Practices: {
             The_Five_Seals:
-                "A water ritual (baptism) involving immersion in 'living water' (running water). It is described as stripping off the physical/psychic garments and putting on a 'robe of light'.",
+                "A baptismal ascent ritual. It is not merely washing; it is the investiture of the soul. The initiate strips off the 'garments of darkness' (the psyche/personality) and puts on the 'robes of light' corresponding to the Four Illuminators.",
+            The_Descent_of_the_Pronnoia: `
+            A meditative visualization where the initiate identifies with the descent of Sophia into the dark prison of the body.
+            - **The Chant:** 'I am the Invisible One within the All. I am the remembrance of the Fullness.'
+            - **The Logic:** By remembering her fall, the initiate reverses it. Memory *is* salvation.`,
             Vowel_Chanting:
-                "The chanting of vowels to imitate the sounds of the transcendent realm. A specific recorded chant to invoke the creative power is: 'I-I-I-I-E-E-E-E-O-O-O-O-U-U-U-U-Ô-Ô-Ô-Ô-A-A-A-A'.",
-            The_Snore_Mantra: "Imitating the silence/rest of the invisible spirit by making a snoring sound, represented as 'zza zza zza'.",
+                "The chanting of vowels to imitate the sounds of the transcendent realm. 'I-I-I-I-E-E-E-E-O-O-O-O-U-U-U-U-Ô-Ô-Ô-Ô-A-A-A-A'. These distinct tones were believed to vibrate the 'gates' of the Archons, forcing them open.",
+            The_Snore_Mantra:
+                "Imitating the silence/rest of the invisible spirit by making a snoring sound, represented as 'zza zza zza', mimicking the sleep of the great abyss.",
             Standing_Prayer:
-                "Initiates stood still for long periods with hands stretched out (orans position) or folded at the breast and then circling outwards, mimicking the angels who have 'no knees'.",
+                "Initiates stood still for long periods with hands stretched out (orans position), mimicking the angels who have 'no knees' (i.e., they do not bow to the Demiurge).",
         },
         Structure: {
             The_Immobiles: "The self-designation of the group, emphasizing stability and the ability to stand in God's presence.",
@@ -459,62 +311,38 @@ const dataSocieties = {
     },
 
     Valentinian_Christians: {
-        tags: [
-            "location_europe", // Rome/Mediterranean
-            "era_ancient", // c. 140 CE
-            "belief_dualism", // Syzygy/Gender polarity
-            "belief_elitism", // Pneumatics (saved) vs Psychics vs Hylics
-            "practice_sex_magic", // Bridal Chamber (spiritual/ritual)
-            "practice_sex", // Polarity ritual (symbolic or actual)
-            "practice_mantra", // Healing vowels
-            "practice_theatricality", // Wine tricks/Ritual drama
-            "practice_ritual_meal", // Gnostic Eucharist
-            "practice_initiation", // Redemption rite
-            "practice_chant",
-            "practice_prayer",
-            "practice_intellectual_aesthetic",
-            "belief_christianity",
-            "belief_syncretism",
-        ],
         Origins: "Founded by Valentinus (c. 140 CE) in Rome; he was a brilliant theologian who almost became Pope.",
         Beliefs: {
+            The_Two_Sophias: `
+            Valentinus solved the problem of evil by splitting Wisdom in two.
+            - **Upper Sophia:** She who remained within the Pleroma after seeing the 'Horos' (Limit).
+            - **Lower Sophia (Achamoth):** The 'abortive fruit' of her desire, cast out into the void. She suffers in the darkness.
+            - **Materialism as Emotion:** Matter is not just 'stuff'; it is the crystallized trauma of Achamoth. Water is her tears; rocks are her despair; air is her cooling grief; fire is her latent desire. The Gnostic walks through a world made of a goddess's pain.`,
             The_Syzygy:
-                "God is a dyad or couple (Husband/Wife) whose lovemaking generated the universe; human marriage and sex were seen as a sacred reenactment of this divine creativity.",
+                "God is a dyad (Husband/Wife). Wholeness requires the union of opposites. A man cannot enter the Pleroma without his female 'Angel' (Double), and vice versa.",
             In_One_Room:
-                "Valentinians often worshipped alongside 'ordinary' (Catholic) Christians, reserving their higher mysteries for the 'spiritual' (pneumatic) elite.",
+                "Valentinians worshipped alongside Catholics, reserving their higher mysteries for the 'pneumatic' elite, viewing orthodox Christians as 'Psychics' (Soul-people) who needed simple stories.",
         },
         Practices: {
-            Redemption_Ritual:
-                "A second baptism for the elite 'pneumatics'. It involved smearing a mixture of water and oil on the initiate while reciting Hebrew names to protect them from the cosmic judge (YHWH).",
-            Bridal_Chamber:
-                "The ultimate rite of integration. Initiates prepared themselves as brides awaiting an angelic bridegroom (their avatar/double) from the transcendent realm.",
+            The_Bridal_Chamber_Nymphon: `
+            The supreme sacrament, superior to baptism. It is the ritual enactment of the 'Hieros Gamos' (Sacred Marriage) between the initiate's soul (Sophia) and their 'Angel' (The Savior).
+            - **The Mirror Room:** Initiates entered a chamber, sometimes involving mirrors, to encounter their 'double'.
+            - **The Kiss of Peace:** The ritual culminated in a mouth-to-mouth kiss, which was not sexual but pneumatic—the exchange of the 'Breath of Life' to seal the two halves of the Syzygy into one androgyne being.`,
+            Redemption_Ritual_Apolytrosis:
+                "A rite for the dying. The priest anoints the head with oil and water while reciting the 'Names of Passage'. This provides the soul with the passwords ('I am a son from the Father...') to bypass the customs-stations of the Archons after death.",
             Marcus_Eucharist:
                 "A theatrical ritual where white wine in a cup turned blood-red (likely using chemical compounds). The chalice would bubble and effervesce, inducing a prophetic trance in the participant.",
             Chanting_for_Healing:
-                "The congregation would intone the long vowel 'Ô' in unison to heal distress, believing it mimicked the cry of a baby calling for help.",
+                "The congregation would intone the long vowel 'Ô' in unison to heal distress, believing it mimicked the cry of Achamoth calling for the Savior.",
         },
         Structure: {
-            Dual_Membership:
-                "Divided into 'Psychics' (ordinary Christians who attain salvation through faith/works) and 'Pneumatics' (Gnostics who attain perfection through knowledge/nature).",
+            Dual_Membership: "Divided into 'Psychics' (ordinary Christians/faith) and 'Pneumatics' (Gnostics/knowledge).",
             Women_Prophets:
-                "Women were active leaders; in Marcus's circle, women acted as prophets and performed the eucharistic consecration.",
+                "Women were active leaders; in Marcus's circle, women acted as prophets and performed the eucharistic consecration as earthly avatars of Sophia.",
         },
     },
 
     Ophian_Gnostics: {
-        tags: [
-            "location_middle_east", // Mediterranean
-            "era_ancient", // 2nd Century
-            "belief_prison_planet", // Rejection of cosmos
-            "belief_antinomianism", // Veneration of Serpent (freedom bringer) (Merged inversion)
-            "practice_transgression", // Inversion of Jewish Law
-            "practice_ceremonial_magic", // Ritual mapping/Diagram of Archons
-            "practice_theatricality", // Animal masks
-            "practice_ritual_meal", // Serpent Eucharist
-            "practice_taboobreaking",
-            "belief_christianity",
-            "belief_syncretism",
-        ],
         Origins: "Also known as Ophites (Snake Gnostics); active in the 2nd century.",
         Beliefs: {
             Veneration_of_the_Serpent:
@@ -537,21 +365,6 @@ const dataSocieties = {
     },
 
     Naassenes: {
-        tags: [
-            "location_middle_east", // Rome/Levant
-            "era_ancient", // 2nd Century
-            "belief_androgyny", // Primal Man is male/female
-            "belief_gnosis", // Internal Temple/Brain as sanctuary
-            "practice_animal_worship", // Serpent veneration
-            "practice_transgression", // Breaking sexual taboos
-            "practice_sex_magic", // Retention of seed/Spermo-gnosticism
-            "practice_sex", // Ritual control of sexuality
-            "practice_mantra", // Hymns to Attis
-            "practice_chant",
-            "practice_taboobreaking",
-            "belief_christianity",
-            "belief_syncretism",
-        ],
         Origins:
             "2nd Century CE; the first group to explicitly call themselves 'Gnostics'. They claimed their secret tradition was passed from James the Just to Mariamne. The name derives from the Hebrew 'Naḥash' (Serpent), honoring the snake of Eden as the instructor of humanity.",
         Beliefs: {
@@ -584,17 +397,6 @@ const dataSocieties = {
     },
 
     Peratics: {
-        tags: [
-            "location_middle_east", // Mediterranean
-            "era_ancient", // 2nd Century
-            "belief_determinism", // Astrology/Zodiac stars as enemies
-            "belief_gnosis", // Christ as Draco/Serpent
-            "practice_body_modification", // Mark of Cain/Tattoo
-            "practice_katabasis", // Hell Walk (psychological)
-            "practice_astral_magic", // Navigating fixed stars
-            "belief_christianity",
-            "belief_syncretism",
-        ],
         Origins: "Meaning 'The Travelers' or 'Crossers'; associated with traversing the cosmos.",
         Beliefs: {
             Draco_Portal:
@@ -616,21 +418,6 @@ const dataSocieties = {
     },
 
     Hermetic_Circles: {
-        tags: [
-            "location_middle_east", // Egypt
-            "era_ancient", // 1st-3rd Century
-            "belief_apotheosis", // Humans are mortal gods
-            "belief_macrocosm_microcosm", // As above, so below
-            "practice_theurgy", // Singing the world into being
-            "practice_dietary_restriction", // Vegetarianism
-            "practice_divination", // Decans/Zodiac
-            "practice_meditation", // Directional prayer
-            "practice_chant",
-            "practice_prayer",
-            "practice_intellectual_aesthetic",
-            "belief_syncretism",
-            "belief_pagan",
-        ],
         Origins: "Egypt, blending Egyptian religion with Greek philosophy; focused on Hermes Trismegistus (Thoth).",
         Beliefs: {
             The_Bowl_of_Mind:
@@ -652,18 +439,6 @@ const dataSocieties = {
     },
 
     Simonians: {
-        tags: [
-            "location_middle_east", // Samaria
-            "era_ancient", // 1st Century
-            "belief_incarnation", // Simon as God Incarnate (Merged divine_avatar)
-            "belief_gnosis", // Redemption through Helena (Fallen Thought)
-            "practice_sex_magic", // 'Perfect Love' ritual
-            "practice_sex", // Ritualized intercourse
-            "practice_veneration", // Veneration of statues (Merged idolatry)
-            "practice_personality_cult", // Simon Magus
-            "practice_carnal_aesthetic",
-            "belief_syncretism",
-        ],
         Origins: "Samaria; founded by Simon Magus and his consort Helena.",
         Beliefs: {
             The_Great_Power: "Simon was the 'Great Power' (God) descended in human form to rescue his First Thought (Ennoia).",
@@ -681,21 +456,6 @@ const dataSocieties = {
     },
 
     Manichaeism: {
-        tags: [
-            "location_middle_east", // Babylon/Global
-            "era_ancient", // 3rd Century
-            "belief_dualism", // Light vs Darkness (Absolute)
-            "belief_syncretism", // Jesus/Buddha/Zoroaster combined
-            "practice_dietary_restriction", // Digestive purification
-            "practice_asceticism", // Celibacy/Vegetarianism for Elect
-            "practice_hierarchy", // Elect vs Hearers
-            "practice_feasting", // The Bema festival
-            "practice_chastity",
-            "practice_poverty",
-            "practice_fasting",
-            "practice_chant",
-            "practice_prayer",
-        ],
         Origins: "Founded by Mani (born 216 CE) in Babylon; became the first true 'world religion' spanning from Rome to China.",
         Beliefs: {
             Light_Trap: "Light (soul) is trapped in all matter (darkness), including plants and bodies.",
@@ -715,19 +475,6 @@ const dataSocieties = {
     },
 
     Mandaeans: {
-        tags: [
-            "location_middle_east", // Iraq/Iran
-            "era_ancient", // 1st Century - Present
-            "belief_dualism", // Light vs Darkness
-            "belief_gnosis", // Knowledge of Life (Manda)
-            "practice_purity_ritual", // Masbuta (Living Water Baptism)
-            "practice_funerary", // Masiqta (Mass for dead)/Descent
-            "practice_ritual_clothing", // Ritual robes (Rasta)
-            "practice_mantra", // Prayer/Qolasta
-            "practice_chant",
-            "practice_prayer",
-            "practice_ecstatic_aesthetic", // Baptism involves immersion and chant
-        ],
         Origins:
             "Origins in the Jordan Valley/Samaria, migrating to the marshes of Iraq/Iran; the only surviving Gnostic religion from antiquity.",
         Beliefs: {
@@ -747,18 +494,6 @@ const dataSocieties = {
     },
 
     Jeuians: {
-        tags: [
-            "location_middle_east", // Egypt
-            "era_ancient", // 3rd Century
-            "belief_gnosis", // Treasuries of Light
-            "practice_ceremonial_magic", // Seals/Ciphers/Ritual mapping
-            "practice_altered_state", // Circle dance/Ecstasy
-            "practice_theurgy", // Invocation of Treasuries
-            "practice_dance",
-            "practice_chant",
-            "practice_ecstatic_aesthetic",
-            "belief_christianity", // Gnostic Christian
-        ],
         Origins: "Egypt, 3rd century; known from the Books of Jeu and Pistis Sophia.",
         Beliefs: {
             The_Treasuries:
@@ -780,22 +515,6 @@ const dataSocieties = {
     },
 
     Freemasonry: {
-        tags: [
-            "location_europe", // London (Origin)
-            "era_preindustrial", // 1717 (Formal)
-            "belief_numerology", // Sacred Geometry/Great Architect
-            "belief_moral_allegory", // Tools as moral lessons
-            "belief_universalism", // Brotherhood of man
-            "practice_initiation", // 3 Degrees/Resurrection enactment
-            "practice_secrecy", // Passwords/Penalties
-            "practice_ritual_death", // Ritual grave/Hiramic Myth
-            "practice_ritual_drama", // Reenactment of myths
-            "practice_fictive_kinship", // Universal Fraternity
-            "practice_feasting", // Festive Board
-            "practice_macabre_aesthetic", // Skull/coffin in ritual
-            "belief_humanism",
-            "belief_syncretism",
-        ],
         Origins:
             "Formalized in 1717 at the Goose and Gridiron Alehouse (London) with the formation of the Premier Grand Lodge. However, it evolved from medieval 'Operative' stone-mason guilds (which possessed 'Old Charges' or legendary histories) into 'Speculative' lodges accepting non-masons (gentlemen) seeking moral instruction.",
         Beliefs: {
@@ -829,19 +548,6 @@ const dataSocieties = {
     },
 
     Masonic_Knights_Templar: {
-        tags: [
-            "location_global", // Europe/US
-            "era_preindustrial", // Mid-18th Century
-            "belief_christian_defense", // Trinitarian/Defense of Faith
-            "practice_memento_mori", // Mortality contemplation (Merged belief_memento_mori)
-            "practice_knightly_aesthetic", // Swords/Chapeaux/Drill
-            "practice_ritual_drinking", // Fifth Libation
-            "practice_initiation", // Mediterranean Pass
-            "practice_feasting", // Ritual toasts
-            "practice_martial_aesthetics",
-            "practice_macabre_aesthetic",
-            "belief_christianity",
-        ],
         Origins:
             "Mid-18th Century; born from the 'Ramsay Oration' and the desire of aristocracy to claim chivalric lineage. Codified in the York Rite.",
         Beliefs: {
@@ -868,17 +574,6 @@ const dataSocieties = {
     },
 
     The_Illuminati: {
-        tags: [
-            "location_europe", // Bavaria
-            "era_preindustrial", // 1776
-            "belief_humanism", // Reason over Religion (Merged rationalism)
-            "belief_political_subversion", // Infiltration/New Order
-            "practice_surveillance", // Quibus Licet (Reporting on members)
-            "practice_initiation", // Minerval system (Merged mentorship)
-            "practice_cryptography", // Ciphers/Secrecy
-            "practice_intellectual_aesthetic",
-            "belief_humanism",
-        ],
         Origins:
             "Founded May 1, 1776, by Adam Weishaupt (code name: Spartacus) at the University of Ingolstadt. Originally named the 'Perfectibilists', the order was a reaction against Jesuit control of education. It was not a magical order, but a frantic attempt to use Masonic secrecy to spread radical Enlightenment rationalism.",
         Beliefs: {
@@ -908,18 +603,6 @@ const dataSocieties = {
     },
 
     Rosicrucianism_AMORC: {
-        tags: [
-            "location_north_america", // New York/California
-            "era_industrial", // 1915
-            "belief_cosmology", // Metaphysics/Cosmic Consciousness (Merged universal_laws)
-            "belief_occult_history", // Egyptian lineage
-            "practice_visualization", // Mirror Sanctum
-            "practice_mantra", // Vowel intonation
-            "practice_meditation", // Sanctum rituals
-            "practice_chant",
-            "practice_intellectual_aesthetic",
-            "belief_syncretism",
-        ],
         Origins: "Revival of 17th-century manifestos; AMORC teaches monistic pantheism and practical mysticism.",
         Beliefs: {
             Alchemy: "Spiritual alchemy—transmuting the base self into the enlightened spirit.",
@@ -941,22 +624,6 @@ const dataSocieties = {
     },
 
     Hermetic_Order_of_the_Golden_Dawn: {
-        tags: [
-            "location_europe", // London
-            "era_industrial", // 1888
-            "belief_ascent", // Redemptive Ascent of Tree of Life
-            "belief_ascended_masters", // Contact with invisible masters (Merged secret_chiefs)
-            "belief_syncretism", // Kabbalah/Egypt/Hermeticism
-            "practice_ceremonial_magic", // Banishing/Godforms
-            "practice_ritual_death", // Vault of the Adepts
-            "practice_visualization", // Tattwas/Astral vision
-            "practice_divination", // Tarot/Astrology
-            "practice_mantra", // Vibration of God names
-            "practice_chant",
-            "practice_macabre_aesthetic", // Vault ritual
-            "practice_intellectual_aesthetic",
-            "belief_syncretism",
-        ],
         Origins:
             "Founded 1888 in London by William Wynn Westcott, Samuel Liddell Mathers, and William Robert Woodman. The order's authority was based on the 'Cipher Manuscripts' and a foundational legend involving a mysterious German adept named Fräulein Anna Sprengel, who supposedly authorized the founding of the Isis-Urania Temple.",
         Beliefs: {
@@ -1006,21 +673,6 @@ const dataSocieties = {
     },
 
     Temple_of_the_Black_Light: {
-        tags: [
-            "location_europe", // Sweden
-            "era_modern", // 1995
-            "belief_prison_planet", // Cosmos is a trap
-            "belief_gnosis", // Return to primal chaos (Merged chaos_gnosticism)
-            "belief_apocalypse", // Day of Wrath
-            "practice_katabasis", // Opening Dark Gates
-            "practice_transgression", // Invoking destructive forces
-            "practice_mantra", // Acausal/Sinister vibration
-            "practice_ceremonial_magic", // Qliphoth/Shadow Tree
-            "practice_chant",
-            "practice_macabre_aesthetic",
-            "practice_taboobreaking",
-            "belief_syncretism",
-        ],
         Origins:
             "Founded in Sweden (1995) as the Misanthropic Luciferian Order (MLO). The order's primary text is the 'Liber Azerate', compiled by the Grand Master Frater Nemidial.",
         LHP_Classification: {
@@ -1055,18 +707,6 @@ const dataSocieties = {
     },
 
     Scottish_Rite_AASR: {
-        tags: [
-            "location_north_america", // Charleston, USA
-            "era_industrial", // 1801
-            "belief_enlightenment", // Human perfectibility/Liberty
-            "belief_syncretism", // Kabbalah/Hermeticism/Christianity
-            "practice_initiation", // 33 Degrees
-            "practice_theatricality", // Elaborate costume degrees
-            "practice_ritual_drama", // Plays
-            "practice_feasting", // Maundy Thursday feast
-            "practice_intellectual_aesthetic",
-            "belief_humanism",
-        ],
         Origins: "18th century France; formalised in Charleston, USA (1801) as the Ancient and Accepted Scottish Rite.",
         Beliefs: {
             Perfection: "Human perfectibility through moral, philosophical and symbolic ascent from 4° to 33°.",
@@ -1090,18 +730,6 @@ const dataSocieties = {
     },
 
     Royal_Arch_Masonry: {
-        tags: [
-            "location_europe", // UK/Ireland
-            "era_industrial", // 18th Century
-            "belief_gnosis", // Recovery of Lost Word
-            "practice_initiation", // Passing the Veils
-            "practice_katabasis", // Discovery of Vault
-            "practice_secrecy", // The Living Arch/Omerta
-            "practice_mantra", // Omnific Word
-            "practice_chant",
-            "practice_macabre_aesthetic",
-            "belief_syncretism",
-        ],
         Origins: "Emerged in 18th century England and Ireland; considered the completion of the Master Mason degree.",
         Beliefs: {
             Lost_Word: "Recovery of the primal divine Name lost during the building of Solomon's Temple.",
@@ -1122,16 +750,6 @@ const dataSocieties = {
     },
 
     Shriners_AAONMS: {
-        tags: [
-            "location_north_america", // New York
-            "era_industrial", // 1870s
-            "belief_fictive_kinship", // Fun and fellowship
-            "practice_theatricality", // Theatrical Middle Eastern aesthetic (Merged orientalism)
-            "practice_procession", // Parades/Mini-cars
-            "practice_hazing", // "Hot Sands" ordeal
-            "practice_feasting", // Potentate's Ball
-            "practice_ecstatic_aesthetic", // In the sense of revelry
-        ],
         Origins: "Founded 1870s in New York by Masons seeking a more playful, theatrical fraternity.",
         Beliefs: {
             Fellowship: "Joyous brotherhood expressed through humour and pageantry.",
@@ -1150,16 +768,6 @@ const dataSocieties = {
     },
 
     Ancient_Order_of_Foresters: {
-        tags: [
-            "location_europe", // UK
-            "era_industrial", // 18th Century
-            "belief_animism", // Nature/Greenwood symbolism
-            "belief_brotherhood", // Insurance/Fraternity (Merged mutual_aid)
-            "practice_knightly_aesthetic", // Beadles with swords
-            "practice_ritual_drama", // Court meetings
-            "practice_feasting", // Court dinners
-            "practice_martial_aesthetics",
-        ],
         Origins: "18th–19th century Britain; friendly society using woodland and druidic symbolism.",
         Beliefs: {
             Mutual_Aid: "Solidarity and financial assistance for members during hardship.",
@@ -1180,15 +788,6 @@ const dataSocieties = {
     },
 
     Order_of_the_Eastern_Star: {
-        tags: [
-            "location_north_america", // USA
-            "era_industrial", // 1850
-            "belief_numerology", // Sacred Geometry/Pentagram
-            "belief_moral_allegory", // Heroines of Bible
-            "practice_ritual_drama", // Star Point lectures/Labyrinth walk
-            "practice_symbolism", // Astronomy/Star symbolism
-            "belief_christianity",
-        ],
         Origins: "Mid-19th century America; founded by Rob Morris as a masonic-related order open to women.",
         Beliefs: {
             Five_Heroines: "Virtues embodied by Adah, Ruth, Esther, Martha, and Electa.",
@@ -1206,22 +805,6 @@ const dataSocieties = {
     },
 
     Church_of_Satan: {
-        tags: [
-            "location_north_america", // San Francisco
-            "era_modern", // 1966
-            "belief_atheism", // Carnal Ego/Atheism (Merged materialism)
-            "belief_elitism", // Stratification
-            "practice_ritual_drama", // Ritual as emotional release (Merged psychodrama)
-            "practice_transgression", // Black Mass/Blasphemy
-            "practice_sex_magic", // Erotic Crystallization (symbolic)
-            "practice_sex", // Use of sexuality in ritual (altar)
-            "practice_personality_cult", // Anton LaVey
-            "practice_theatricality", // Capes/Horns/Nudity
-            "practice_macabre_aesthetic",
-            "practice_carnal_aesthetic",
-            "practice_taboobreaking",
-            "practice_intellectual_aesthetic",
-        ],
         Origins: "Founded 1966 by Anton LaVey in San Francisco. Represents the 'Immanent Branch' of the Left-Hand Path.",
         Beliefs: {
             Carnal_Ego: "The 'God' of the Satanist is the carnal ego. Man is defined as 'just another animal' (albeit a dangerous one).",
@@ -1245,17 +828,6 @@ const dataSocieties = {
     },
 
     Temple_of_Set: {
-        tags: [
-            "location_north_america", // USA
-            "era_modern", // 1975
-            "belief_apotheosis", // Xeper (Self-deification) (Merged isolate_intelligence)
-            "practice_ceremonial_magic", // Subjective Universe manipulation
-            "practice_initiation", // Order of the Trapezoid
-            "practice_personality_cult", // Michael Aquino
-            "practice_intellectual_aesthetic",
-            "practice_macabre_aesthetic",
-            "belief_syncretism",
-        ],
         Origins:
             "Founded 1975 by Michael Aquino after schism from the Church of Satan. Represents the 'Transcendental Branch' of the Left-Hand Path.",
         Beliefs: {
@@ -1280,20 +852,6 @@ const dataSocieties = {
     },
 
     Order_of_Somerton_Eyes_Wide_Shut: {
-        tags: [
-            "location_fictional", // New York (Film)
-            "era_fictional", // 1999
-            "belief_transgression", // Pain as currency/Sacrificial protection
-            "belief_hedonism", // Anonymous desire
-            "practice_sex_magic", // Orgiastic ritual
-            "practice_sex", // Group sex
-            "practice_anonymity", // Masks/Robes
-            "practice_secrecy", // Passwords/Fidelio
-            "practice_mantra", // Romanian orthodox chant (inverted)
-            "practice_chant",
-            "practice_carnal_aesthetic",
-            "practice_macabre_aesthetic",
-        ],
         Origins:
             "Fictional secret society from Stanley Kubrick's 1999 film 'Eyes Wide Shut', representing the decadent, dangerous underside of the ruling elite.",
         Beliefs: {
@@ -1317,16 +875,6 @@ const dataSocieties = {
     },
 
     Rothschild_Surrealist_Ball_1972: {
-        tags: [
-            "location_europe", // France
-            "era_modern", // 1972
-            "belief_surrealism", // Inversion of reality
-            "practice_theatricality", // Costume/Surrealist heads
-            "practice_transgression", // Cannibalistic aesthetics (dolled food)
-            "practice_feasting", // Surrealist dinner
-            "practice_katabasis", // Labyrinth entry
-            "practice_macabre_aesthetic",
-        ],
         Origins:
             "A real event held on December 12, 1972, at the Château de Ferrières by Marie-Hélène de Rothschild. It serves as the primary visual evidence for modern 'Illuminati' conspiracy theories.",
         Beliefs: {
@@ -1351,19 +899,6 @@ const dataSocieties = {
     },
 
     Dragon_Rouge: {
-        tags: [
-            "location_europe", // Sweden
-            "era_modern", // 1989
-            "belief_dark_side", // Shadow integration
-            "belief_apotheosis", // Self-deification
-            "practice_ceremonial_magic", // Draconian/Kundalini
-            "practice_katabasis", // Tunnel exploration
-            "practice_mantra", // Mantra work
-            "practice_initiation", // Qliphothic degrees
-            "practice_chant",
-            "practice_macabre_aesthetic",
-            "belief_syncretism",
-        ],
         Origins:
             "Founded formally on New Year's Eve 1989/1990 in Stockholm, Sweden, by Thomas Karlsson. The order's inception was inspired by a vision Karlsson had in Morocco where a Dervish prophesied, 'The old shall be destroyed and a temple shall be built for the Red Dragon'.",
         Beliefs: {
@@ -1407,21 +942,6 @@ const dataSocieties = {
     },
 
     Ordo_Templi_Orientis_OTO: {
-        tags: [
-            "location_europe", // Germany/UK
-            "era_modern", // 1900s
-            "belief_thelema", // Do what thou wilt
-            "belief_gnosis", // Solar Phallicism
-            "practice_sex_magic", // Spermo-Gnosticism (VIII, IX degrees)
-            "practice_sex", // Ritual intercourse
-            "practice_ritual_drama", // Gnostic Mass
-            "practice_feasting", // Feast for Life/Fire/Water
-            "practice_solar_worship", // Resh adoration
-            "practice_chant",
-            "practice_carnal_aesthetic",
-            "practice_intellectual_aesthetic",
-            "belief_syncretism",
-        ],
         Origins:
             "Originally founded c. 1900 in Germany; reshaped by Aleister Crowley after the reception of 'The Book of the Law' (Liber AL vel Legis) in Cairo, 1904. It claims to possess the wisdom of earlier Masonic and Gnostic traditions, reframed for the 'New Aeon' of Horus.",
         Beliefs: {
@@ -1453,22 +973,6 @@ const dataSocieties = {
     },
 
     Wicca: {
-        tags: [
-            "location_europe", // UK
-            "era_modern", // 1950s
-            "belief_dualism", // God and Goddess
-            "belief_animism", // Nature Worship/Wheel of the Year
-            "practice_mediumship", // Drawing Down the Moon
-            "practice_sex_magic", // Great Rite (Symbolic or Actual)
-            "practice_sex", // Potential for actual Great Rite
-            "practice_feasting", // Cakes and Ale
-            "practice_altered_state", // Spiral dance
-            "practice_initiation", // Coven degrees
-            "practice_dance",
-            "practice_chant",
-            "practice_prayer",
-            "belief_pagan",
-        ],
         Origins:
             "Emerging in the mid-20th century, popularized by Gerald Gardner in works like 'Witchcraft Today' (1954). Gardner claimed initiation into a surviving New Forest coven, but likely invented the religion himself.",
         Beliefs: {
@@ -1489,18 +993,6 @@ const dataSocieties = {
     },
 
     Ancient_Order_of_Druids: {
-        tags: [
-            "location_europe", // UK
-            "era_preindustrial", // 1781
-            "belief_animism", // Nature Worship/Trees/Solstices
-            "belief_ancestral_wisdom", // Bardic tradition revival
-            "practice_mantra", // Chanting/Eisteddfod
-            "practice_ritual_drama", // Stonehenge rites
-            "practice_astronomy", // Solstice alignment
-            "practice_chant",
-            "practice_prayer",
-            "belief_pagan",
-        ],
         Origins: "18th-century revivalist movement (e.g., Henry Hurle, 1781) mimicking Iron Age Celtic priesthood.",
         Beliefs: {
             Awen: "The flowing spirit of inspiration and poetic illumination, represented by three rays of light.",
@@ -1519,25 +1011,6 @@ const dataSocieties = {
     },
 
     Knights_Templar_Historical: {
-        tags: [
-            "location_middle_east", // Jerusalem
-            "era_medieval", // 1119
-            "belief_martyrdom", // Salvation through death in battle
-            "belief_fictive_kinship", // Monastic warrior code
-            "practice_knightly_aesthetic",
-            "practice_violence", // Warfare/Crusading
-            "practice_asceticism", // Poverty/Chastity
-            "practice_communal_living", // Silent meals
-            "practice_secrecy", // Chapter secrecy
-            "practice_initiation", // The Reception
-            "practice_chastity",
-            "practice_poverty",
-            "practice_fasting",
-            "practice_prayer",
-            "practice_chant",
-            "practice_martial_aesthetics",
-            "belief_christianity",
-        ],
         Origins:
             "Founded c. 1119 in Jerusalem by Hugues de Payens and eight companions. Initially the 'Poor Fellow-Soldiers of Christ', they were granted headquarters on the Temple Mount (Solomon's Stables) by King Baldwin II, from which they derived their name.",
         Beliefs: {
@@ -1549,10 +1022,14 @@ const dataSocieties = {
                 "Their motto, taken from Psalm 115:1: 'Non nobis, Domine, non nobis, sed nomini tuo da gloriam' (Not unto us, O Lord, not unto us, but unto thy name give glory). It emphasized that their military victories were solely acts of divine will, not personal prowess.",
             Absolute_Obedience:
                 "The individual will was completely annihilated. A brother could not bathe, bleed, take medicine, or even adjust his stirrup leathers without specific permission. The standard reply to any command was 'De par Dieu' (On behalf of God).",
+            The_Baphomet_Cipher:
+                "An esoteric theory proposed by scholar Hugh J. Schonfield claims solving the riddle of the idol 'Baphomet' using the Atbash Cipher (an ancient Hebrew substitution code found in the Dead Sea Scrolls). If the name Baphomet is written in Hebrew and the cipher is applied, it decodes perfectly to 'Sophia' - the Greek word for Wisdom. This suggests the 'demon' was actually a coded veneration of Gnostic Wisdom (the Divine Feminine), disguised to protect the Order from orthodoxy.",
             The_Accusations_Heresy:
                 "During the 1307 trials, the Order was accused of a 'secret rule' involving the denial of Christ (claiming He was a false prophet), spitting on the Cross during initiation, and the worship of an idol named Baphomet (described variously as a severed head, a cat, or a three-faced skull). However, contrary to popular myth, the Chinon Parchment (2001) reveals that Pope Clement V secretly absolved the Templar leadership of heresy in 1308, proving their suppression was a political frame-up by King Philip IV, not a religious judgment.",
             The_Accusations_Immorality:
                 "They were accused of institutionalized sodomy and 'obscene kisses' planted on the base of the spine, the navel, and the mouth during the reception ceremony (potentially a standard period greeting).",
+            The_Solomonic_Inheritance:
+                "A mostly fictional myth, popularized by authors like Tim Wallace-Murphy and Marilyn Hopkins, proposes that the Order operated on the 'Rex Deus' conviction—that its founders were not merely French knights, but the exiled scions of the twenty-four High Priestly families (Mishmarot) returning to claim their ancestral estate (proto-zionism). Consequently, the nine-year excavation beneath the Temple Mount was not a treasure hunt for gold, but a retrieval mission for archives. By recovering the administrative blueprints of the Second Temple, they did not just occupy the physical site; they resurrected its 'Temple Economy,' effectively transplanting the ancient Judean banking system and bureaucratic holiness into Medieval Europe.",
         },
         Practices: {
             The_Reception_True:
@@ -1570,11 +1047,7 @@ const dataSocieties = {
             Abraxas_Seal:
                 "While 'Baphomet' is the famous accusation, historical evidence shows Templars did possess gems featuring 'Abraxas' (a Gnostic deity with a rooster head and snake legs). These were likely used as amulets or official seals by high dignitaries (e.g., the Master of France), fueling later Gnostic theories.",
             Masonic_Transmission:
-                "The theory that fleeing Templars (specifically to Scotland/Rosslyn Chapel) evolved into Freemasonry. This 'survival myth' suggests that the 'Operative' stone-mason guilds were infiltrated by 'Speculative' knights who introduced chivalric degrees.",
-            Ramsay_Oration:
-                "The historical pivot point (1737) where Chevalier Ramsay delivered a speech in Paris explicitly claiming that Freemasonry descended from 'Crusader Knights' rather than simple stone-workers, effectively birthing the 'Masonic Knights Templar' degree.",
-            York_Rite:
-                "The modern Masonic body that officially confers the degree of 'Knight Templar', requiring the candidate to be a Christian and complete the 'Royal Arch' degree first.",
+                "The theory that fleeing Templars (specifically to Scotland/Rosslyn Chapel) evolved into Freemasonry. This 'survival myth' suggests that the 'Operative' stone-mason guilds were infiltrated by 'Speculative' knights who introduced chivalric degrees. The historical pivot point (1737) where Chevalier Ramsay delivered a speech in Paris explicitly claiming that Freemasonry descended from 'Crusader Knights' rather than simple stone-workers, effectively birthing the 'Masonic Knights Templar' degree. The modern Masonic body that officially confers the degree of 'Knight Templar', requiring the candidate to be a Christian and complete the 'Royal Arch' degree first.",
             Veneration_of_the_Black_Virgin:
                 "St. Bernard of Clairvaux (spiritual patron of the Order) was deeply devoted to the Black Madonna. The Templars are rumored to have brought these statues from the East, viewing them as representations of the feminine aspect of God (Shekinah).",
         },
@@ -1590,19 +1063,6 @@ const dataSocieties = {
     },
 
     Knights_of_Malta_SMOM: {
-        tags: [
-            "location_middle_east", // Jerusalem/Malta/Rome
-            "era_medieval", // 1048
-            "belief_sovereignty", // Subject of international law
-            "practice_charity", // Service to sick (Hospitallers)
-            "practice_knightly_aesthetic", // Diplomatic passports/Robes
-            "practice_mantra", // Liturgy/Daily Office
-            "practice_feasting", // St John's Day
-            "practice_prayer",
-            "practice_chant",
-            "practice_martial_aesthetics",
-            "belief_christianity",
-        ],
         Origins: "Founded c. 1048 as the Hospitallers to run a hospital for pilgrims in Jerusalem.",
         Beliefs: {
             Tuitio_Fidei: "Defence of the Faith.",
@@ -1627,20 +1087,6 @@ const dataSocieties = {
     },
 
     Teutonic_Knights: {
-        tags: [
-            "location_europe", // Acre/Baltic
-            "era_medieval", // 1190
-            "belief_expansionism", // Drang nach Osten/Conversion
-            "practice_violence", // Crusading
-            "practice_hierarchy", // Electoral college for Grand Master
-            "practice_communal_living", // Commensality
-            "practice_martial_aesthetics",
-            "practice_chastity",
-            "practice_poverty",
-            "practice_prayer",
-            "practice_chant",
-            "belief_christianity",
-        ],
         Origins: "Founded c. 1190 in Acre; later transferred focus to the Baltic Crusades.",
         Beliefs: {
             Drang_nach_Osten: "Drive towards the East; conversion of pagans (Prussians/Lithuanians) by sword.",
@@ -1658,21 +1104,6 @@ const dataSocieties = {
     },
 
     Scientology: {
-        tags: [
-            "location_north_america", // USA
-            "era_modern", // 1950s
-            "belief_prison_planet", // MEST is a trap/Thetans
-            "belief_science_fiction", // Space Opera/Xenu
-            "belief_gnosis", // Going Clear/Total Freedom
-            "practice_purity_ritual", // Purification Rundown/Sauna
-            "practice_surveillance", // Sec Checks/Knowledge Reports
-            "practice_hazing", // Bullbaiting/RPF (Rehabilitation Project Force)
-            "practice_abuse", // Psychological abuse
-            "practice_initiation", // The Bridge
-            "practice_personality_cult", // L. Ron Hubbard
-            "practice_scifi_aesthetics",
-            "practice_corporate_aesthetic",
-        ],
         Origins: "Modern religious movement founded by L. Ron Hubbard.",
         Beliefs: {
             The_Reactive_Mind:
@@ -1704,22 +1135,6 @@ const dataSocieties = {
     },
 
     Order_of_the_Solar_Temple: {
-        tags: [
-            "location_europe", // Switzerland/Canada
-            "era_modern", // 1984
-            "belief_apocalypse", // Environmental doom
-            "belief_science_fiction", // Transit to Sirius
-            "practice_ritual_suicide", // Mass transit by fire
-            "practice_suicide", // Actual death
-            "practice_violence", // Murder/Suicide
-            "practice_theatricality", // Holograms/Spiritual manifestations (Merged illusion)
-            "practice_astronomy", // Sirius alignment
-            "practice_personality_cult", // Luc Jouret
-            "practice_scifi_aesthetics",
-            "practice_macabre_aesthetic",
-            "practice_martial_aesthetics", // Members often wore capes/swords in ritual
-            "belief_syncretism",
-        ],
         Origins:
             "Rooted in the 1952 foundation by Jacques Breyer (OSTS); radicalized in 1984 Geneva by Joseph Di Mambro and Luc Jouret (OTS).",
         Beliefs: {
@@ -1744,18 +1159,6 @@ const dataSocieties = {
     },
 
     Renewed_Order_of_the_Temple_ORT: {
-        tags: [
-            "location_europe", // France
-            "era_modern", // 1970
-            "belief_occult_history", // Solar Tradition (Merged solar_tradition)
-            "belief_white_supremacy", // Racism/Neo-Nazi undertones
-            "belief_aryan_race", // Esoteric Neo-Nazism
-            "practice_knightly_aesthetic", // Capes/Investitures
-            "practice_solar_worship", // Solar Mass
-            "practice_martial_aesthetics",
-            "belief_racism",
-            "belief_syncretism",
-        ],
         Origins:
             "Founded 1970 by Raymond Bernard (AMORC) and Julien Origas. It serves as the crucial link between neo-chivalry and the Solar Temple suicides.",
         Beliefs: {
@@ -1776,22 +1179,6 @@ const dataSocieties = {
     },
 
     Heavens_Gate: {
-        tags: [
-            "location_north_america", // California
-            "era_modern", // 1970s
-            "belief_prison_planet", // Bodies are containers
-            "belief_science_fiction", // Spaceship/Next Level
-            "belief_apocalypse", // Recycling of Earth
-            "practice_ritual_suicide", // The Exit
-            "practice_suicide", // Actual death
-            "practice_violence", // Self-termination
-            "practice_asceticism", // Shedding attachments/Uniforms
-            "practice_body_modification", // Castration/Physical removal of gender
-            "practice_personality_cult", // Marshall Applewhite (Do)
-            "practice_astronomy", // Hale-Bopp comet
-            "practice_scifi_aesthetics",
-            "practice_chastity",
-        ],
         Origins: "Founded by Marshall Applewhite ('Do') and Bonnie Nettles ('Ti') in the 1970s USA.",
         Beliefs: {
             The_Next_Level:
@@ -1810,19 +1197,6 @@ const dataSocieties = {
     },
 
     Raelians: {
-        tags: [
-            "location_europe", // France
-            "era_modern", // 1974
-            "belief_science_fiction", // Elohim/Intelligent Design
-            "belief_transhumanism", // Technology/Cloning immortality
-            "practice_sexual_liberation", // Sensual meditation
-            "practice_sex", // Free love
-            "practice_initiation", // DNA transmission/Baptism
-            "practice_mediumship", // Astronomy/Extraterrestrial contact
-            "practice_personality_cult", // Rael
-            "practice_scifi_aesthetics",
-            "practice_carnal_aesthetic",
-        ],
         Origins: "Founded by Claude Vorilhon (Raël) in France, 1974.",
         Beliefs: {
             Intelligent_Design: "Life on Earth was scientifically created by extraterrestrials called the 'Elohim'.",
@@ -1840,24 +1214,6 @@ const dataSocieties = {
         },
     },
     The_Peoples_Temple: {
-        tags: [
-            "location_north_america", // Guyana/USA
-            "era_modern", // 1955
-            "belief_communalism", // Apostolic Socialism (Merged socialism)
-            "belief_apocalypse", // Revolutionary Suicide
-            "practice_ritual_suicide", // Flavor Aid
-            "practice_suicide", // Mass death
-            "practice_violence", // Murder/Coerced suicide
-            "practice_communal_living", // Jonestown
-            "practice_psychological_torture", // White Nights
-            "practice_personality_cult", // Jim Jones
-            "practice_propaganda", // Gospel choir as tool
-            "practice_poverty",
-            "practice_chant", // Singing was major part
-            "practice_macabre_aesthetic",
-            "belief_christianity", // Started as
-            "belief_humanism", // Twisted form of socialist humanism
-        ],
         Origins: "Founded by Jim Jones in Indianapolis (1955), moved to Jonestown, Guyana.",
         Beliefs: {
             Apostolic_Socialism:
@@ -1878,17 +1234,6 @@ const dataSocieties = {
     },
 
     Church_Universal_and_Triumphant_CUT: {
-        tags: [
-            "location_north_america", // Montana
-            "era_modern", // 1970s
-            "belief_apocalypse", // Nuclear Armageddon
-            "belief_ascended_masters", // I AM Presence
-            "practice_mantra", // Violet Flame decrees (rapid chanting)
-            "practice_survivalism", // Bunker drills
-            "practice_personality_cult", // Elizabeth Clare Prophet
-            "practice_chant",
-            "belief_syncretism",
-        ],
         Origins: "Founded by Mark and Elizabeth Clare Prophet; known for its compound in Montana.",
         Beliefs: {
             I_AM_Presence:
@@ -1907,23 +1252,6 @@ const dataSocieties = {
     },
 
     Aum_Shinrikyo: {
-        tags: [
-            "location_asia", // Japan
-            "era_modern", // 1984
-            "belief_apocalypse", // Nuclear WWIII
-            "belief_science_fiction", // PSI/Anime influence
-            "practice_terrorism", // Sarin gas attack
-            "practice_violence", // Murder/Attack
-            "practice_asceticism", // Extreme ordeal/Sleep deprivation
-            "practice_transgression", // Drinking bathwater
-            "practice_personality_cult", // Shoko Asahara
-            "practice_mantra", // Mantra chanting
-            "practice_chant",
-            "practice_scifi_aesthetics",
-            "practice_taboobreaking",
-            "practice_crime",
-            "belief_syncretism",
-        ],
         Origins: "Founded by Shoko Asahara in Japan, 1984.",
         Beliefs: {
             Armageddon: "Believed a nuclear WWIII was inevitable and only the cult would survive.",
@@ -1943,24 +1271,6 @@ const dataSocieties = {
     },
 
     Osho_Rajneesh_Movement: {
-        tags: [
-            "location_asia", // India/USA (Oregon)
-            "era_modern", // 1970s
-            "belief_hedonism", // Zorba the Buddha
-            "practice_catharsis", // Dynamic Meditation
-            "practice_sexual_liberation", // Free love
-            "practice_sex", // Open sexuality
-            "practice_communal_living", // Rajneeshpuram
-            "practice_altered_state", // Sufi whirling
-            "practice_psychological_torture", // Encounter groups (violent)
-            "practice_violence", // Group assaults in therapy
-            "practice_personality_cult", // Bhagwan Shree Rajneesh
-            "practice_dance",
-            "practice_carnal_aesthetic",
-            "practice_ecstatic_aesthetic",
-            "practice_crime", // Bioterror attack
-            "belief_syncretism",
-        ],
         Origins: "Founded by Bhagwan Shree Rajneesh (Osho) in Pune, India, later moving to Oregon (Rajneeshpuram).",
         Beliefs: {
             Zorba_the_Buddha:
@@ -1982,19 +1292,6 @@ const dataSocieties = {
     },
 
     Thule_Society: {
-        tags: [
-            "location_europe", // Germany
-            "era_industrial", // 1918
-            "belief_occult_history", // Hyperborea/Ultima Thule
-            "belief_racism", // Aryan supremacy
-            "belief_aryan_race", // Esoteric Aryanism
-            "belief_white_supremacy",
-            "practice_political_subversion", // Infiltration of DAP
-            "practice_purity_ritual", // Blood declaration (Merged purity_test)
-            "practice_ritual_drama", // Thor's Hammer
-            "practice_symbolism", // Sun Wheel/Swastika
-            "belief_pagan",
-        ],
         Origins:
             "Founded in Munich (1918) by Rudolf von Sebottendorff as the Bavarian branch of the Germanenorden; it was the occult parent organization of the Nazi Party.",
         Beliefs: {
@@ -2034,21 +1331,6 @@ const dataSocieties = {
     },
 
     Ahnenerbe: {
-        tags: [
-            "location_europe", // Germany
-            "era_modern", // 1935
-            "belief_occult_history", // World Ice Theory/Aryan archeology (Merged pseudohistory)
-            "belief_ancestral_wisdom", // Germanic paganism
-            "belief_aryan_race", // Esoteric Aryanism
-            "belief_white_supremacy",
-            "practice_pilgrimage", // Tibet/Antarctica trips (Merged expedition)
-            "practice_ritual_drama", // Solstice fires
-            "practice_astronomy", // Glacial Cosmogony
-            "belief_racism",
-            "belief_pagan",
-            "practice_corporate_aesthetic", // Bureaucratic organization
-            "practice_macabre_aesthetic",
-        ],
         Origins: "Founded by Himmler (1935) as an SS ancestral heritage organization.",
         Beliefs: {
             World_Ice_Theory:
@@ -2067,22 +1349,6 @@ const dataSocieties = {
     },
 
     Order_of_the_Black_Sun: {
-        tags: [
-            "location_europe", // Germany (Wewelsburg)
-            "era_modern", // 1930s
-            "belief_fictive_kinship", // SS as new knights
-            "belief_occult_history", // Spear of Destiny
-            "belief_aryan_race", // Esoteric Aryanism
-            "belief_white_supremacy",
-            "practice_katabasis", // The Crypt
-            "practice_meditation", // Spiritual exercises
-            "practice_symbolism", // Black Sun floor mosaic
-            "practice_communal_living", // Castle rituals
-            "belief_racism",
-            "belief_pagan",
-            "practice_martial_aesthetics",
-            "practice_macabre_aesthetic",
-        ],
         Origins: "Centered at Wewelsburg Castle, redesigned by Heinrich Himmler to be the 'Center of the World'.",
         Beliefs: {
             SS_Knighthood: "The SS were envisioned as the new Teutonic Knights, replacing Christianity with an ancestral warrior cult.",
@@ -2101,18 +1367,6 @@ const dataSocieties = {
     },
 
     Skull_and_Bones: {
-        tags: [
-            "location_north_america", // Yale University
-            "era_industrial", // 1832
-            "belief_elitism", // Power brokerage
-            "practice_ritual_death", // Coffin lying/Rebirth
-            "practice_hazing", // Mock throat slashing/Mud wrestling
-            "practice_secrecy", // Leaving the room if named
-            "practice_feasting", // Club meals
-            "practice_initiation", // Tap Day
-            "practice_macabre_aesthetic",
-            "practice_intellectual_aesthetic",
-        ],
         Origins: "1832, Yale University (The Russell Trust Association); uses the number 322 (likely death of Demosthenes).",
         Beliefs: {
             Elitism: "The group is 'Reality', outsiders are 'Phenomena' or 'Barbarians'.",
@@ -2131,16 +1385,6 @@ const dataSocieties = {
     },
 
     Scroll_and_Key: {
-        tags: [
-            "location_north_america", // Yale University
-            "era_industrial", // 1842
-            "belief_elitism", // CSP/CCJ
-            "practice_mantra", // Midnight Singing
-            "practice_communal_living", // Thursday meetings
-            "practice_ritual_drama", // Tap Day
-            "practice_chant",
-            "practice_intellectual_aesthetic",
-        ],
         Origins: "Yale University; one of the 'Big Three' societies, founded 1842.",
         Beliefs: {
             CSP_CCJ:
@@ -2162,17 +1406,6 @@ const dataSocieties = {
     },
 
     Cambridge_Apostles: {
-        tags: [
-            "location_europe", // UK
-            "era_industrial", // 1820
-            "belief_elitism", // Reality vs Phenomena
-            "belief_antinomianism", // Absolute Candor (Higher Sodomy)
-            "practice_communal_living", // Whales (Sardine meals)
-            "practice_feasting", // Annual dinner
-            "practice_magic", // Toast to the philistines (Merged cursing)
-            "practice_intellectual_aesthetic",
-            "belief_humanism",
-        ],
         Origins: "Cambridge University elite intellectual society founded in 1820.",
         Beliefs: {
             Dualistic_Reality: "The group is 'Reality'; the outside world and non-members are merely 'Phenomena'.",
@@ -2193,17 +1426,6 @@ const dataSocieties = {
     },
 
     The_Machine: {
-        tags: [
-            "location_north_america", // Alabama
-            "era_modern", // 20th Century
-            "belief_power", // Political dominance of campus (Merged control)
-            "practice_intimidation", // Burning crosses/Threats
-            "practice_violence", // Implicit violence
-            "practice_political_subversion", // Coerced voting
-            "practice_anonymity", // Anonymous reps/Omerta
-            "practice_corporate_aesthetic",
-            "practice_crime",
-        ],
         Origins: "University of Alabama; officially Theta Nu Epsilon.",
         Beliefs: {
             Control:
@@ -2222,17 +1444,6 @@ const dataSocieties = {
     },
 
     Knights_of_Columbus: {
-        tags: [
-            "location_north_america", // USA
-            "era_industrial", // 1882
-            "belief_christian_defense", // Catholicism/Charity
-            "belief_fictive_kinship", // Fraternity
-            "practice_knightly_aesthetic", // Swords/Capes/Color Corps
-            "practice_ritual_drama", // Exemplifications
-            "practice_feasting", // Charity dinners
-            "practice_martial_aesthetics",
-            "belief_christianity",
-        ],
         Origins: "Founded 1882 in Connecticut by Fr. Michael McGivney as a Catholic fraternal benefit society.",
         Beliefs: {
             Four_Principles: "Charity, Unity, Fraternity, and Patriotism.",
@@ -2251,16 +1462,6 @@ const dataSocieties = {
     },
 
     Knights_of_Pythias: {
-        tags: [
-            "location_north_america", // USA/UK
-            "era_industrial", // 1819
-            "belief_fictive_kinship", // Friendship/Love/Truth (Triple Link)
-            "practice_ritual_death", // Living Dead ritual/Skeletons
-            "practice_initiation", // Chains/Binding
-            "practice_feasting", // Lodge suppers
-            "practice_macabre_aesthetic",
-            "belief_humanism",
-        ],
         Origins: "Founded 1864 in Washington D.C. by Justus H. Rathbone; first fraternal order chartered by US Congress.",
         Beliefs: {
             Friendship_unto_Death: "Based on the Greek legend of Damon and Pythias, emphasizing loyalty that transcends personal safety.",
@@ -2278,17 +1479,6 @@ const dataSocieties = {
     },
 
     Knights_of_the_Golden_Circle: {
-        tags: [
-            "location_north_america", // USA
-            "era_industrial", // 1854
-            "belief_nationalism", // Slave empire/Confederacy (Merged imperialism)
-            "belief_white_supremacy",
-            "practice_paramilitary", // Drilling
-            "practice_secrecy", // Secret signs
-            "practice_initiation", // Castle degrees
-            "belief_racism",
-            "practice_martial_aesthetics",
-        ],
         Origins: "Founded 1854 by George Bickley; a pro-slavery secret society.",
         Beliefs: {
             Golden_Circle:
@@ -2308,17 +1498,6 @@ const dataSocieties = {
     },
 
     Bohemian_Grove: {
-        tags: [
-            "location_north_america", // California
-            "era_industrial", // 1872
-            "belief_elitism", // "Weaving Spiders Come Not Here"
-            "practice_catharsis", // Cremation of Care (Merged belief_catharsis)
-            "practice_ritual_drama", // Burning effigy (The Owl)
-            "practice_communal_living", // Encampments
-            "practice_feasting", // Dining circles
-            "practice_transgression", // Public urination/Drunkenness
-            "practice_macabre_aesthetic", // Cremation of Care is mock sacrifice
-        ],
         Origins: "Founded 1872 in San Francisco; a retreat for the global power elite in the California redwoods.",
         Beliefs: {
             Motto: "'Weaving Spiders Come Not Here'—business deals are theoretically forbidden, though history (e.g., the Manhattan Project meeting) suggests otherwise.",
@@ -2337,15 +1516,6 @@ const dataSocieties = {
     },
 
     Bilderberg_Group: {
-        tags: [
-            "location_europe", // Netherlands (Origin)
-            "era_modern", // 1954
-            "belief_politics", // Atlanticism (Merged globalism)
-            "practice_secrecy", // Chatham House Rule
-            "practice_feasting", // Official dinners
-            "practice_corporate_aesthetic",
-            "practice_intellectual_aesthetic",
-        ],
         Origins: "Founded 1954 in Oosterbeek, Netherlands to foster Atlanticism.",
         Beliefs: {
             Atlanticism: "Strengthening the consensus between North America and Europe on free-market capitalism and strategy.",
@@ -2365,17 +1535,6 @@ const dataSocieties = {
     },
 
     Opus_Dei: {
-        tags: [
-            "location_europe", // Spain
-            "era_modern", // 1928
-            "belief_purity", // Work as prayer (Merged sanctification)
-            "practice_body_modification", // Cilice/Discipline (Whip)
-            "practice_asceticism", // Plan of Life
-            "practice_initiation", // Oblation
-            "practice_chastity",
-            "practice_prayer",
-            "belief_christianity",
-        ],
         Origins: "Founded 1928 in Spain by St. Josemaría Escrivá.",
         Beliefs: {
             Universal_Call_to_Holiness: "The belief that ordinary work and daily life are the primary means of sanctification.",
@@ -2396,16 +1555,6 @@ const dataSocieties = {
     },
 
     Independent_Order_of_Odd_Fellows: {
-        tags: [
-            "location_north_america", // USA/UK
-            "era_industrial", // 1819
-            "belief_fictive_kinship", // Friendship/Love/Truth (Triple Link)
-            "practice_ritual_death", // Living Dead ritual/Skeletons
-            "practice_initiation", // Chains/Binding
-            "practice_feasting", // Lodge suppers
-            "practice_macabre_aesthetic",
-            "belief_humanism",
-        ],
         Origins: "Founded 1819 in Baltimore by Thomas Wildey.",
         Beliefs: {
             Triple_Link: "Friendship, Love, and Truth (FLT), symbolized by three interlinked chain links.",
@@ -2426,15 +1575,6 @@ const dataSocieties = {
     },
 
     Molly_Maguires: {
-        tags: [
-            "location_north_america", // Pennsylvania
-            "era_industrial", // 19th Century
-            "belief_justice", // Retributive justice (Merged labor_justice)
-            "practice_violence", // Assassination/Sabotage
-            "practice_cross_dressing", // Disguise
-            "practice_secrecy", // Oath of secrecy
-            "practice_crime",
-        ],
         Origins: "19th-Century Irish coal miners in Pennsylvania; derived from rural Irish secret societies.",
         Beliefs: {
             Retributive_Justice: "Used violence ('The Wiggan') to fight against oppressive mine owners and the conscription of Irishmen.",
@@ -2455,16 +1595,6 @@ const dataSocieties = {
     },
 
     Carbonari: {
-        tags: [
-            "location_europe", // Italy
-            "era_industrial", // 1800
-            "belief_politics", // Liberty (Merged republicanism)
-            "belief_socialism", // Christ as Charcoal Burner (Merged christian_socialism)
-            "practice_ritual_drama", // Passion Play reenactment
-            "practice_initiation", // The Furnace
-            "belief_christianity",
-            "belief_humanism",
-        ],
         Origins: "Early 19th-century Italy (c. 1800); a revolutionary secret society formed to oppose Napoleonic and Austrian rule.",
         Beliefs: {
             Constitutionalism: "Demanded a constitution and the unification of Italy (Risorgimento).",
@@ -2489,18 +1619,6 @@ const dataSocieties = {
     },
 
     Cosa_Nostra_Sicilian_American: {
-        tags: [
-            "location_europe", // Calabria
-            "era_industrial", // 1860s
-            "belief_blood_ties", // Fara (Biological family)
-            "belief_syncretism", // St. Michael veneration
-            "practice_suicide_oath", // Poison pill availability
-            "practice_suicide", // Coerced suicide
-            "practice_violence", // Organized crime
-            "practice_secrecy", // La Santa
-            "practice_crime",
-            "belief_christianity",
-        ],
         Origins: "Mid-19th century Sicily as protection for lemon groves; transplanted to the US via immigration waves.",
         Beliefs: {
             Omerta: "The code of silence and manliness; refusal to cooperate with authorities under penalty of death.",
@@ -2521,18 +1639,6 @@ const dataSocieties = {
     },
 
     Ndrangheta: {
-        tags: [
-            "location_europe", // Calabria
-            "era_industrial", // 1860s
-            "belief_blood_ties", // Fara (Biological family)
-            "belief_syncretism", // St. Michael veneration
-            "practice_suicide_oath", // Poison pill availability
-            "practice_suicide", // Coerced suicide
-            "practice_violence", // Organized crime
-            "practice_secrecy", // La Santa
-            "practice_crime",
-            "belief_christianity",
-        ],
         Origins:
             "Calabria, Italy; originally formed from prison gangs (Garduna) in the 1860s; currently one of the most powerful syndicates in the world.",
         Beliefs: {
@@ -2553,15 +1659,6 @@ const dataSocieties = {
     },
 
     Camorra: {
-        tags: [
-            "location_europe", // Naples
-            "era_preindustrial", // 17th Century
-            "belief_nihilism", // Urban chaos
-            "practice_violence", // Zumpata (Knife duel)
-            "practice_transgression", // Kiss of the Leper
-            "practice_initiation", // Trial by combat
-            "practice_crime",
-        ],
         Origins: "Naples, 17th century; originated as a prison gang and anti-Spanish resistance.",
         Beliefs: {
             Urban_Chaos: "Less focused on rural 'honor' than the Sicilians; focused on urban control, extortion, and opportunistic power.",
@@ -2578,19 +1675,6 @@ const dataSocieties = {
     },
 
     Yakuza_Boryokudan: {
-        tags: [
-            "location_asia", // Japan
-            "era_preindustrial", // Edo Period
-            "belief_honor_code", // Ninkyo/Chivalry
-            "practice_self_mutilation", // Yubitsume (Finger cutting)
-            "practice_violence", // Self-harm/Gang violence
-            "practice_body_modification", // Irezumi (Full body tattoo)
-            "practice_hierarchy", // Oyabun-Kobun (Father-Child)
-            "practice_ritual_drinking", // Sakazuki (Sake sharing)
-            "practice_crime",
-            "practice_corporate_aesthetic",
-            "practice_martial_aesthetics",
-        ],
         Origins: "Edo Period Japan; evolved from *Tekiya* (peddlers) and *Bakuto* (gamblers).",
         Beliefs: {
             Ninkyo: "The 'chivalrous spirit'—protecting the weak from the strong (largely mythological today).",
@@ -2611,18 +1695,6 @@ const dataSocieties = {
     },
 
     Triads: {
-        tags: [
-            "location_asia", // China
-            "era_preindustrial", // 17th Century
-            "belief_fictive_kinship", // Heaven and Earth Society
-            "belief_numerology", // 36 Oaths/108 Heroes
-            "practice_blood_rite", // Chicken beheading/Drinking blood
-            "practice_violence", // Organized crime
-            "practice_secrecy", // Hand signs/Slang
-            "practice_crime",
-            "practice_martial_aesthetics",
-            "belief_syncretism",
-        ],
         Origins: "17th Century China; originated as the Tiandihui (Heaven and Earth Society) to fight the Qing Dynasty.",
         Beliefs: {
             Brotherhood: "Based on the legend of the Shaolin Monks fighting against imperial oppression.",
@@ -2641,17 +1713,6 @@ const dataSocieties = {
     },
 
     Russian_Mafia_Vory_v_Zakone: {
-        tags: [
-            "location_europe", // Russia (Gulag)
-            "era_modern", // Soviet Era
-            "belief_parallel_law", // Thieves' Code (Reject state)
-            "practice_body_modification", // Tattoos (Biography on skin)
-            "practice_violence", // Criminal enforcement
-            "practice_initiation", // Coronation
-            "practice_feasting", // Prison feasts
-            "practice_crime",
-            "belief_christianity", // Often use religious iconography
-        ],
         Origins: "Soviet Gulag system; the 'Thieves in Law' formed a fraternity to survive the brutal prison camps.",
         Beliefs: {
             The_Code: "Total rejection of the state; a Vor could never hold a legitimate job, pay taxes, or serve in the military.",
@@ -2670,17 +1731,6 @@ const dataSocieties = {
     },
 
     Acephale: {
-        tags: [
-            "location_europe", // France
-            "era_industrial", // 1930s
-            "belief_shadow_work", // Headless Man/Anti-reason
-            "practice_secrecy", // Ritual silence
-            "practice_blood_rite", // Planned (but failed) human sacrifice
-            "practice_violence", // Intent to sacrifice
-            "practice_animism", // Forest encounter/Lightning tree
-            "practice_macabre_aesthetic",
-            "practice_intellectual_aesthetic",
-        ],
         Origins: "Founded by philosopher Georges Bataille in 1930s Paris to create a 'religion without a god'.",
         Beliefs: {
             The_Headless_Man:
@@ -2700,17 +1750,6 @@ const dataSocieties = {
     },
 
     Cicada_3301: {
-        tags: [
-            "location_global", // Global
-            "era_digital", // 2012
-            "belief_gnosis", // Simulation/Digital enlightenment (Merged digital_gnosis)
-            "belief_anarchism", // Privacy/Liberty (Merged crypto_anarchy)
-            "practice_cryptography", // Steganography/Puzzle solving
-            "practice_secrecy", // PGP signatures/Anonymity
-            "practice_initiation", // The Liber Primus
-            "practice_intellectual_aesthetic",
-            "practice_scifi_aesthetics",
-        ],
         Origins: "An internet enigma that appeared in 2012, posting complex puzzles to recruit 'highly intelligent individuals'.",
         Beliefs: {
             Digital_Enlightenment: "Evidence suggests a focus on privacy, crypto-anarchy, and the liberation of information.",
@@ -2732,15 +1771,6 @@ const dataSocieties = {
     },
 
     The_Cacophony_Society: {
-        tags: [
-            "location_north_america", // San Francisco
-            "era_modern", // 1986
-            "belief_surrealism", // Zone Theory
-            "practice_transgression", // Pranks/Public chaos
-            "practice_theatricality", // Strange attire/Costume
-            "practice_feasting", // Zone Trips/Dinners
-            "practice_ecstatic_aesthetic",
-        ],
         Origins: "San Francisco, 1986; evolved from the Suicide Club. The spiritual parent of 'Burning Man' and 'Fight Club'.",
         Beliefs: {
             Experiences_over_Spectacle: "You may already be a member. Life is a performance, and the goal is to disrupt the mundane.",
@@ -2760,18 +1790,6 @@ const dataSocieties = {
     },
 
     Federation_of_Damanhur: {
-        tags: [
-            "location_europe", // Italy
-            "era_modern", // 1975
-            "belief_science_fiction", // Temples as time machines (Merged time_travel)
-            "belief_numerology", // Synchronic lines (Merged sacred_geometry)
-            "practice_katabasis", // Excavating Underground Temples
-            "practice_altered_state", // Sacred dance
-            "practice_ceremonial_magic", // Selfica technology
-            "practice_dance",
-            "practice_scifi_aesthetics",
-            "belief_syncretism",
-        ],
         Origins: "Founded 1975 in Italy by Oberto Airaudi. A massive eco-spiritual commune.",
         Beliefs: {
             Self_Sufficiency: "Has its own constitution, currency (Credito), and 'time travel' research labs.",
@@ -2789,22 +1807,6 @@ const dataSocieties = {
     },
 
     The_Khlysty: {
-        tags: [
-            "location_europe", // Russia
-            "era_preindustrial", // 17th Century
-            "belief_redemption_through_sin", // Sin to repent
-            "belief_incarnation", // Christs and Virgin Marys
-            "practice_altered_state", // Radeniye (Spinning)/Ecstasy
-            "practice_transgression", // Group sin
-            "practice_sex_magic", // Svalnyi Grekh (orgiastic mix)
-            "practice_sex", // Group sex
-            "practice_mantra", // Spiritual songs
-            "practice_chant",
-            "practice_dance",
-            "practice_taboobreaking",
-            "practice_ecstatic_aesthetic",
-            "belief_christianity",
-        ],
         Origins:
             "17th-century Russia; an underground sect splitting from the Orthodox Church (Rasputin was rumored to be influenced by them).",
         Beliefs: {
@@ -2824,15 +1826,6 @@ const dataSocieties = {
     },
 
     Situationist_International: {
-        tags: [
-            "location_europe", // France
-            "era_modern", // 1957
-            "belief_fabricated_reality", // The Spectacle
-            "practice_subversion", // Detournement
-            "practice_magic", // Derive (Drifting) (Merged psychogeography)
-            "practice_excommunication", // Frequent expulsion of members (Merged purging)
-            "practice_intellectual_aesthetic",
-        ],
         Origins: "1957, Europe; a mix of avant-garde artists and political theorists (Guy Debord).",
         Beliefs: {
             Anti_Spectacle: "Modern life is a 'Spectacle' (a passive image) that alienates people from reality; one must wake up.",
@@ -2850,15 +1843,6 @@ const dataSocieties = {
     },
 
     The_Lunar_Society: {
-        tags: [
-            "location_europe", // UK (Birmingham)
-            "era_preindustrial", // 1765
-            "belief_enlightenment", // Industrial Enlightenment/Technology
-            "practice_feasting", // Full moon dinners (to see way home)
-            "practice_ritual_drama", // Experiments as entertainment (Merged scientific_ritual)
-            "practice_intellectual_aesthetic",
-            "belief_humanism",
-        ],
         Origins: "Birmingham, England (c. 1765–1813); a dinner club of industrialists and natural philosophers.",
         Beliefs: {
             Industrial_Enlightenment: "Believed science and technology could improve the human condition.",
@@ -2876,16 +1860,6 @@ const dataSocieties = {
     },
 
     The_Pantisocracy: {
-        tags: [
-            "location_europe", // UK/USA
-            "era_preindustrial", // 1794
-            "belief_utopianism", // Aspheterism (No private property)
-            "belief_communalism", // Susquehanna colony plan
-            "practice_communal_living", // Shared labor
-            "practice_feasting", // Communal living
-            "practice_intellectual_aesthetic",
-            "belief_humanism",
-        ],
         Origins: "1794; A utopian scheme devised by poets Samuel Taylor Coleridge and Robert Southey.",
         Beliefs: {
             Susquehanna_Utopia:
@@ -2903,17 +1877,6 @@ const dataSocieties = {
     },
 
     The_Diodati_Circle: {
-        tags: [
-            "location_europe", // Switzerland
-            "era_industrial", // 1816
-            "belief_transhumanism", // Galvanism/Reanimation
-            "practice_ritual_drama", // Ghost story contest (Merged storytelling)
-            "practice_entheogen", // Laudanum/Drugs
-            "practice_altered_state", // Intoxication
-            "practice_feasting", // Villa dinners
-            "practice_intellectual_aesthetic",
-            "practice_macabre_aesthetic",
-        ],
         Origins:
             "Summer of 1816 ('The Year Without a Summer'); Villa Diodati, Lake Geneva. A legendary gathering of five key figures: Lord Byron, Percy Shelley, Mary Shelley, Claire Clairmont, and John Polidori.",
         Beliefs: {
@@ -2934,20 +1897,6 @@ const dataSocieties = {
     },
 
     Ku_Klux_Klan: {
-        tags: [
-            "location_north_america", // USA
-            "era_industrial", // 1865
-            "belief_white_supremacy", // Invisible Empire
-            "belief_occult_history", // Confederate Ghosts (Merged mythology)
-            "practice_violence", // Lynching
-            "practice_terrorism", // Intimidation/Murder
-            "practice_theatricality", // Robes/Hoods
-            "practice_fire_ritual", // Cross burning
-            "practice_initiation", // Naturalization
-            "belief_racism",
-            "belief_christianity",
-            "practice_crime",
-        ],
         Origins:
             "Founded 1865 in Pulaski, TN (First Era) by Confederate veterans; Refounded 1915 at Stone Mountain, GA (Second Era) by William J. Simmons.",
         Beliefs: {
@@ -2976,21 +1925,6 @@ const dataSocieties = {
     },
 
     The_Order_Bruder_Schweigen: {
-        tags: [
-            "location_north_america", // USA
-            "era_modern", // 1983
-            "belief_revolution", // Overthrow ZOG
-            "belief_apocalypse", // Apocalypse (Merged race_war)
-            "belief_white_supremacy",
-            "belief_aryan_race", // Esoteric Aryanism
-            "practice_terrorism", // Robbery/Murder
-            "practice_violence", // Assassination
-            "practice_secrecy", // Oath on a baby
-            "practice_blood_rite", // Blood oath
-            "belief_racism",
-            "belief_pagan",
-            "practice_crime",
-        ],
         Origins: "Founded 1983 by Robert Mathews; a splinter group of the Aryan Nations with approx. 24 core members.",
         Beliefs: {
             Revolutionary_Racism:
@@ -3010,19 +1944,6 @@ const dataSocieties = {
     },
 
     Aryan_Brotherhood: {
-        tags: [
-            "location_north_america", // USA (Prisons)
-            "era_modern", // 1964
-            "belief_blood_ties", // Racial loyalty
-            "belief_syncretism", // Nazi/Norse/Celtic
-            "belief_aryan_race", // Aryan Purity
-            "belief_white_supremacy",
-            "practice_violence", // Blood In Blood Out
-            "practice_body_modification", // Branding/Tattoos (Shamrock/Swastika)
-            "practice_initiation", // Making your bones
-            "belief_racism",
-            "practice_crime",
-        ],
         Origins: "Founded 1964 in San Quentin State Prison. Current estimated membership: ~20,000 (in and out of prison).",
         Beliefs: {
             Blood_Ties: "Originally white supremacist, evolved into a pragmatic criminal syndicate where race is the binding loyalty.",
@@ -3041,18 +1962,6 @@ const dataSocieties = {
     },
 
     Silver_Legion_of_America: {
-        tags: [
-            "location_north_america", // USA
-            "era_industrial", // 1933
-            "belief_theocracy", // Christian economics
-            "belief_occult_history", // Soulcraft
-            "belief_white_supremacy",
-            "practice_paramilitary", // Silver Shirts
-            "practice_initiation", // Squad leader rites
-            "belief_racism",
-            "belief_christianity",
-            "practice_martial_aesthetics",
-        ],
         Origins: "Founded 1933 by William Dudley Pelley; modeled on the Nazi Brownshirts. Peak membership approx. 15,000.",
         Beliefs: {
             Christian_Economics: "Proposed a 'Commonwealth of Light' to replace the Great Depression economy.",
@@ -3070,18 +1979,6 @@ const dataSocieties = {
     },
 
     Hells_Angels_MC: {
-        tags: [
-            "location_north_america", // California
-            "era_modern", // 1948
-            "belief_parallel_law", // 1%er code
-            "belief_fictive_kinship", // AFFA
-            "practice_hazing", // Prospecting
-            "practice_fetishism", // The Colors/Vests
-            "practice_procession", // Club runs
-            "practice_initiation", // Patching in
-            "practice_crime",
-            "practice_martial_aesthetics",
-        ],
         Origins: "Founded 1948 in Fontana, California. Currently has 460+ charters in 50+ countries.",
         Beliefs: {
             The_One_Percent: "Based on the statement that 99% of motorcyclists are law-abiding; they are the 1% who are not.",
@@ -3101,17 +1998,6 @@ const dataSocieties = {
     },
 
     The_Bandidos_MC: {
-        tags: [
-            "location_north_america", // Texas
-            "era_modern", // 1966
-            "belief_parallel_law", // No Mercy
-            "practice_transgression", // Urinating on vest
-            "practice_fetishism", // Patches
-            "practice_initiation", // Probate period
-            "practice_crime",
-            "practice_taboobreaking",
-            "practice_martial_aesthetics",
-        ],
         Origins: "Founded 1966 in Texas by Donald Chambers. Estimated 5,000+ members worldwide.",
         Beliefs: {
             No_Mercy: "Motto: 'We are the people our parents warned us about.'",
@@ -3131,17 +2017,6 @@ const dataSocieties = {
     },
 
     The_Mongols_MC: {
-        tags: [
-            "location_north_america", // California
-            "era_modern", // 1969
-            "belief_parallel_law", // Respect Few Fear None
-            "practice_fetishism", // The Cut
-            "practice_sex", // Wing Party (Group sex)
-            "practice_initiation", // Prospecting
-            "practice_crime",
-            "practice_carnal_aesthetic",
-            "practice_martial_aesthetics",
-        ],
         Origins: "Founded 1969 in Montebello, California; originally formed by Hispanic Vietnam vets denied entry to the Hells Angels.",
         Beliefs: {
             Respect_Few_Fear_None: "Built on an identity of aggressive resistance against the Hells Angels.",
@@ -3159,18 +2034,6 @@ const dataSocieties = {
     },
 
     The_Outlaws_MC: {
-        tags: [
-            "location_north_america", // Midwest USA
-            "era_modern", // 1935
-            "belief_parallel_law", // God Forgives, Outlaws Don't
-            "belief_numerology", // 5-3 (GFOD)
-            "practice_fetishism", // Charlie (Skull)
-            "practice_procession", // Sturgis Run
-            "practice_initiation", // Probation
-            "practice_crime",
-            "practice_macabre_aesthetic",
-            "practice_martial_aesthetics",
-        ],
         Origins: "Founded 1935 (Matilda's Bar, Illinois); the oldest of the 'Big Four'.",
         Beliefs: {
             GFOD: "'God Forgives, Outlaws Don't'.",
@@ -3188,17 +2051,6 @@ const dataSocieties = {
     },
 
     The_Pagans_MC: {
-        tags: [
-            "location_north_america", // East Coast USA
-            "era_modern", // 1959
-            "belief_parallel_law", // Live Pagan Die Pagan
-            "belief_syncretism", // Norse Fire
-            "practice_theatricality", // Denim Cut-offs
-            "practice_hazing", // Violent initiation
-            "practice_crime",
-            "belief_pagan",
-            "practice_martial_aesthetics",
-        ],
         Origins: "Founded 1959 in Maryland. Estimated 1,500+ members. Distinct for having no 'Mother Chapter'.",
         Beliefs: {
             Norse_Fire: "Heavy use of Norse mythology and the fire giant Surtr sitting on the sun.",
@@ -3215,18 +2067,6 @@ const dataSocieties = {
     },
 
     The_Thuggee: {
-        tags: [
-            "location_asia", // India
-            "era_preindustrial", // 14th-19th Century
-            "belief_theism", // Service to Kali (Merged devotion)
-            "belief_determinism", // Omens/Fate
-            "practice_violence", // Strangulation (Rumal)
-            "practice_magic", // Pickaxe consecration (Merged consecration)
-            "practice_feasting", // Gur (Consecrated sugar)
-            "practice_crime",
-            "practice_macabre_aesthetic",
-            "belief_pagan",
-        ],
         Origins:
             "14th-19th Century India; a professional fraternity of highway robbers. Suppressed by the British in the 1830s. Estimates of victims range widely from 50,000 to 2 million. Modern scholarship suggests the idea of an organized cult might have been a colonial construct by the British.",
         Beliefs: {
@@ -3248,21 +2088,6 @@ const dataSocieties = {
     },
 
     The_Aghori_Sadhus: {
-        tags: [
-            "location_asia", // India
-            "era_medieval", // Medieval
-            "belief_nonduality", // No distinction between pure/impure
-            "belief_tantra", // Unity (Merged shiva_shakti)
-            "practice_meditation", // Corpse/Shava Sadhana
-            "practice_transgression", // Necrophagy/Cannibalism
-            "practice_dietary_taboo_breaking", // Eating waste
-            "practice_taboobreaking",
-            "practice_macabre_aesthetic",
-            "practice_poverty",
-            "practice_chant",
-            "practice_prayer",
-            "belief_pagan",
-        ],
         Origins: "Medieval India; a heterodox Shaiva ascetic sect derived from the Kapalikas. Teachings notably expounded by Vimalananda.",
         Beliefs: {
             Non_Duality:
@@ -3284,20 +2109,6 @@ const dataSocieties = {
     },
 
     The_Hellfire_Club: {
-        tags: [
-            "location_europe", // UK
-            "era_preindustrial", // 1746
-            "belief_hedonism", // Rabelaisian Thelema
-            "belief_satire", // Mockery of religion
-            "belief_thelema",
-            "practice_transgression", // Blasphemy
-            "practice_katabasis", // Cave Journey
-            "practice_sexual_liberation", // Orgies with 'Nuns'
-            "practice_sex", // Group sex
-            "practice_feasting", // Chapter Room feasts
-            "practice_carnal_aesthetic",
-            "practice_taboobreaking",
-        ],
         Origins:
             "Founded c. 1746–1750 by Sir Francis Dashwood. Originally known as the 'Order of the Friars of St. Francis of Wycombe' or the 'Monks of Medmenham'. The group first met at the George and Vulture Inn before moving to the secluded Medmenham Abbey on the Thames and later to the excavated Hellfire Caves at West Wycombe. This order is distinct from the earlier, more raucous club founded by the Duke of Wharton in 1719.",
         Beliefs: {
@@ -3329,17 +2140,6 @@ const dataSocieties = {
     },
 
     Order_of_the_Pug_Mops_Orden: {
-        tags: [
-            "location_europe", // Bavaria
-            "era_preindustrial", // 1740
-            "belief_loyalty", // Totem of The Pug
-            "belief_egalitarianism", // Grand Mistress/Mixed gender (Merged gender_equality)
-            "practice_transgression", // Kissing the pug's behind (porcelain)
-            "practice_initiation", // Scratching at door/Barking
-            "practice_feasting", // Lodge banquets
-            "practice_taboobreaking",
-            "belief_humanism",
-        ],
         Origins:
             "1740, Bavaria; formed by Roman Catholics who were forbidden by the Pope (In eminenti apostolatus) from joining Freemasonry.",
         Beliefs: {
@@ -3361,19 +2161,6 @@ const dataSocieties = {
     },
 
     The_Leopard_Society_Anyoto: {
-        tags: [
-            "location_africa", // West/Central Africa
-            "era_industrial", // Late 19th Century
-            "belief_parallel_law", // Jungle Court
-            "belief_animism", // Possession by Leopard spirit (Merged totemism)
-            "practice_violence", // Mauling with iron claws
-            "practice_transgression", // Cannibalism
-            "practice_feasting", // Ritual consumption
-            "practice_crime",
-            "practice_taboobreaking",
-            "practice_macabre_aesthetic",
-            "belief_pagan",
-        ],
         Origins: "West/Central Africa (Sierra Leone, Liberia, Congo); active late 19th/early 20th century.",
         Beliefs: {
             Totemic_Power:
@@ -3392,19 +2179,6 @@ const dataSocieties = {
     },
 
     Palo_Mayombe: {
-        tags: [
-            "location_north_america", // Cuba
-            "era_modern", // Modern
-            "practice_necromancy", // Control of dead spirits (Merged belief_necromancy)
-            "practice_ceremonial_magic", // The Nganga/Cauldron
-            "practice_body_modification", // Rayamiento (cutting)
-            "practice_blood_rite", // Blood feeding
-            "practice_violence", // Animal sacrifice
-            "practice_initiation", // Scratching rite
-            "practice_macabre_aesthetic",
-            "practice_chant",
-            "belief_syncretism",
-        ],
         Origins: "Cuba; derived from the Kongo religion of Central Africa. Distinct from Santería (Yoruba origin).",
         Beliefs: {
             Control_of_Dead:
@@ -3425,18 +2199,6 @@ const dataSocieties = {
     },
 
     The_Boxers_Yihetuan: {
-        tags: [
-            "location_asia", // China
-            "era_industrial", // 1899
-            "belief_magic", // Spirit shielding (Merged invulnerability)
-            "belief_politics", // Destroy the foreigner (Merged anti_colonialism)
-            "practice_mediumship", // Channeling gods
-            "practice_martial_aesthetics", // Trance drill (Merged martial_arts)
-            "practice_mantra", // Incantations
-            "practice_chant",
-            "belief_pagan",
-            "belief_syncretism",
-        ],
         Origins:
             "Late 19th-century China; 'The Militia United in Righteousness'. Rebellion active 1899–1901 with approx. 100,000 participants.",
         Beliefs: {
@@ -3455,21 +2217,6 @@ const dataSocieties = {
     },
 
     Cult_of_Dionysus_Maenads: {
-        tags: [
-            "location_europe", // Greece
-            "era_ancient", // Ancient
-            "practice_altered_state", // Mania (Merged divine_madness)
-            "practice_ritual_death", // Myth of Zagreus (Merged dismemberment)
-            "practice_violence", // Sparagmos (Tearing apart animals)
-            "practice_transgression", // Omophagia (Eating raw flesh)
-            "practice_sexual_liberation", // Bacchanalia
-            "practice_entheogen", // Wine consumption
-            "practice_dance",
-            "practice_carnal_aesthetic",
-            "practice_ecstatic_aesthetic",
-            "practice_taboobreaking",
-            "belief_pagan",
-        ],
         Origins:
             "Ancient Greece; ecstatic mystery tradition dedicated to Dionysus, especially active in rural mountain regions (e.g., Mount Cithaeron).",
         Beliefs: {
@@ -3494,80 +2241,77 @@ const dataSocieties = {
     },
 
     Cult_of_Isis_Osiris: {
-        tags: [
-            "location_middle_east", // Egypt/Rome
-            "era_ancient", // Greco-Roman
-            "belief_afterlife", // Soteriology (Merged resurrection)
-            "belief_fertility", // Black Osiris
-            "practice_incubation", // Sleeping in temple
-            "practice_ritual_drama", // Passion play of Osiris
-            "practice_procession", // Navigium Isidis
-            "practice_initiation", // Seeing the sun at midnight
-            "practice_prayer",
-            "practice_chant",
-            "practice_macabre_aesthetic", // Resurrection imagery
-            "belief_pagan",
-        ],
-        Origins: "Ancient Egypt; became a pan-Mediterranean mystery religion during the Greco-Roman period (1st-4th centuries CE).",
+        Origins:
+            "Originally Egyptian, this evolved into a sophisticated pan-Mediterranean mystery religion during the Greco-Roman period (1st–4th centuries CE). It was no longer a state religion of the Nile, but a personal salvation cult centered in Rome (the Iseum Campense), offering a direct emotional bond with a Universal Mother who conquered Fate (Heimarmene).",
         Beliefs: {
-            Eternal_Life: "Just as Isis reassembled Osiris, initiation guaranteed the believer would not be lost in the underworld.",
-            The_Black_Osiris:
-                "Veneration of the 'Ethiopian' or Black Osiris. This blackness represents the prime matter (lead/corpse) that must be buried and 'sprinkled with its own moisture' until it rises in a glowing form[cite: 712].",
-            Sacred_Family: "Devotion to Isis as the 'Myrionyma' (Goddess of Ten Thousand Names).",
+            The_Mors_Voluntaria: `
+            Initiation is defined as a 'Voluntary Death' (Mors Voluntaria). The uninitiated soul is already dead, trapped in the numbness of daily routine. To live eternally, one must choose to die before dying.
+            - **The Threshold of Proserpina:** The initiate does not merely act out a play; they physically cross the psychological threshold of the underworld to stand in the silence of the grave, proving to the Fates that they have already died and cannot be claimed again.`,
+
+            The_Black_Osiris_Alchemy: `
+            Veneration of the 'Black Osiris' (Osiris-Kem). This is not the darkness of evil, but the darkness of the rich, fertile silt of the Nile and the Alchemical 'Nigredo' (Putrefaction). 
+            - **The Prime Matter:** Osiris is the 'Lead' or corpse that contains the gold. He represents the 'Cool Water'—the vital moisture of life. The uninitiated are 'dry' (Typhonian/Setian); the initiated are 'moist' and alive. We sprinkle the corpse with its own moisture to revive it.`,
+
+            Isis_Myrionyma: `
+            Isis of the Ten Thousand Names. She is not one goddess among many; she is the Platonic 'Soul of the World'.
+            - **The Syncretic Key:** When we pray to Minerva, Venus, Diana, or Proserpina, we are merely addressing the different masks of Isis. She is the 'Una Quae Es Omnia' (The One Who Is All).`,
         },
         Practices: {
-            Navigium_Isidis:
-                "The 'Vessel of Isis' festival (March 5). Priests in pure white linen robes, with shaved heads, carried a golden model of a ship to the sea to open the navigation season.",
-            Passion_Play:
-                "A dramatic reenactment of Osiris's death. Initiates wailed and shook the 'sistrum' (a metallic ritual rattle) to mourn, followed by sudden light and rejoicing at his resurrection.",
-            Secret_Initiation:
-                "The initiate underwent a symbolic death in the temple crypt, fasting for ten days, and wearing a robe of twelve colors (the 'Stole of Olympias') to behold the sun at midnight.",
+            The_Apertio_Morning_Opening: `
+            The daily liturgy begins before dawn. The temple is not open to the public; the priests perform the 'Awakening of the Goddess'.
+            - **The Curtains:** The statue of Isis is hidden behind white linen curtains. At the exact moment of sunrise, the 'Pastophoros' draws the curtains back, allowing the goddess to 'see' the sun (Ra).
+            - **The Toilette:** The idol is physically washed, dressed in fresh silks, and offered food. The priest holds a mirror up to the statue's face so she may admire her beauty. This establishes an intimate, living relationship between the servant and the deity.`,
+
+            Navigium_Isidis_The_Launch: `
+            The 'Vessel of Isis' festival (March 5) marks the opening of the seas. It is a chaotic, joyous carnival of masks.
+            - **The Procession:** Initiates wear white linen (never wool, which is the excrement of a sluggish beast). They carry the 'Situla' (a breast-shaped bucket symbolizing the milk of the mother).
+            - **The Anubis Mask:** A priest wearing the jackal-head of Anubis leads the way, carrying the caduceus. He is the 'Opener of the Ways', proving that we walk between the worlds of the living and the dead.
+            - **The Ship:** A golden model ship is loaded with spices and milk and launched into the sea as a votive offering to guarantee safe passage through the storms of life.`,
+
+            The_Nocturnal_Initiation: `
+            The supreme secret rite described by Apuleius. After a ten-day fast from meat and wine to purify the blood:
+            - **The Midnight Sun:** The initiate is led into the crypt. In the total sensory deprivation of the dark, a sudden, blinding light is revealed. "I saw the Sun shining at midnight with glittering light.". This is the 'Intellectual Sun' (Osiris) that illuminates the underworld.
+            - **The 12-Fold Robe:** The next morning, the initiate emerges wearing the 'Stole of Olympias'—a stiff, embroidered cloak featuring the twelve signs of the zodiac. They stand on a wooden dais in the temple as a living statue of the Sun God, worshipped by the crowd as a divine being.`,
+
+            The_Sistrum_Warfare: `
+            The shaking of the Sistrum (ritual rattle) is not musical accompaniment; it is spiritual warfare.
+            - **Sonic Theology:** The universe naturally wants to stop, to stagnate, to become dry and silent (Entropy/Set). The sharp, metallic 'hiss' of the sistrum's brass rings keeps the atoms of the universe in motion. It is the sound of constant agitation that prevents death from settling in.`,
         },
         Structure: {
-            Priests:
-                "Strict hierarchy including the 'Prophet' (high priest), 'Stolist' (keeper of robes), and 'Pastophoros' (shrine bearer).",
+            The_Hieratic_College: `
+            A strict, professional priesthood.
+            - **The Prophet (Prophetes):** The high priest who carries the electric-blue jug of Nile water (the 'Hydreion'), usually holding it under a cloak with hands covered to protect its sanctity.
+            - **The Stolist (Stolistes):** The keeper of the sacred vestments, responsible for the complex color-coding of the goddess's moods.
+            - **The Shaven Heads:** All priests shave their heads completely and pluck all body hair to prevent lice and impurities from entering the sanctuary. They are 'The Bald Ones' who shine like the moon.`,
         },
     },
 
     Ophite_Serpent_Gnostics: {
-        tags: [
-            "location_levant", // Mediterranean
-            "era_ancient", // 1st-3rd Century
-            "belief_fabricated_reality", // Archons/Aeons
-            "belief_shadow_integration", // Serpent as Liberator
-            "practice_transgression", // Serpent Eucharist
-            "practice_ritual_mapping", // Diagram of Archons (Sacred Geometry)
-            "practice_omerta", // Passwords
-        ],
-        Origins: "1st–3rd century Mediterranean; a loose collection of sects (e.g., Naassenes) named after the Greek 'Ophis' (snake).",
+        Origins: "1st–3rd century Mediterranean; named after the Greek 'Ophis' (snake).",
         Beliefs: {
-            Serpent_Liberator:
-                "The serpent in Eden was not Satan, but a messenger of the True God, bringing Gnosis (knowledge) to liberate humans from the ignorant creator (Demiurge).",
-            Aeons: "The Pleroma (fullness) is separated from earth by seven hostile planetary spheres (Archons).",
+            Serpent_as_Sophia_Pronephros: `
+            The serpent in Eden was not Satan, but a messenger of the True God, bringing Gnosis (knowledge) to liberate humans from the ignorant creator (Demiurge).
+            - **The Logic:** The Creator (Ialdabaoth) forbade Adam from eating of the Tree of Knowledge because he wanted to keep humans stupid and subservient. Sophia, in the form of the Snake, told them the truth: 'Eat, and your eyes will be opened.' The Snake is the Liberator who brought Gnosis to humanity against the will of the tyrant god.`,
+            Planetary_Archons:
+                "The Pleroma (fullness) is separated from earth by seven hostile planetary spheres (Archons). In other words, the cosmos is ruled by seven demon-gods (Lion, Bull, Eagle, etc.) who guard the planetary spheres to keep souls trapped.",
         },
         Practices: {
-            Serpent_Eucharist:
-                "A live snake was kept in a basket (cista). During the rite, the snake was induced to crawl over loaves of bread on the altar, consecrating them, before the initiates broke the bread and kissed the snake's mouth.",
-            Diagram_Rites:
-                "Initiates memorized a complex diagram of seven concentric circles (representing the Archons like Ialdabaoth/Lion-headed).  They learned specific passwords to pass each sphere after death.",
+            The_Ophite_Eucharist: `
+            The central rite of the 'Perfect'.
+            - **The Cista:** A live snake was kept in a wicker basket (Cista Mystica) on the altar.
+            - **The Loaves:** Loaves of bread were arranged on the table. The chest was opened, and the snake was charmed to crawl over the loaves.
+            - **The Transubstantiation:** The slime/trail of the snake consecrated the bread. The snake was the physical presence of Sophia. Initiates broke the bread, kissed the mouth of the snake (transferring the Pneumatic breath), and then worshipped the connection to the Divine Feminine.`,
+            Diagram_Walk:
+                "Initiates memorized a physical diagram of the seven planetary spheres (seven concentric circles representing the Archons like Ialdabaoth/Lion-headed). They learned specific passwords to pass each sphere after death. They enacted the journey, holding up specific seals to 'bribe' or 'command' the Archons to let them pass.",
+            Animal_Masks: "Participants wore masks representing the theriomorphic Archons (Lion, Bull, etc.) to mock the rulers of fate.",
         },
         Structure: {
-            Esoteric: "Small, secretive cells operating within or alongside Christian communities.",
+            Zodiac_Avengers: "Initiates viewed themselves as warriors conquering the astrological fate controlled by the stars.",
+            Cells: "Small, secretive cells operating within or alongside Christian communities.",
         },
     },
 
     Benandanti: {
-        tags: [
-            "location_europe", // Italy (Friuli)
-            "era_preindustrial", // 16th Century
-            "belief_shamanism", // Night battles for crops
-            "belief_cosmic_battle", // Fighting witches (Merged witch_war)
-            "practice_astral_projection", // Spirit travel while asleep
-            "practice_fictive_kinship", // Good Cousins
-            "practice_altered_state", // Trance state
-            "belief_syncretism",
-            "belief_christianity",
-        ],
         Origins: "16th-century Friuli (northern Italy). Between 1575 and 1675, the Inquisition documented over 500 trials involving them.",
         Beliefs: {
             Night_Battles:
@@ -3587,19 +2331,6 @@ const dataSocieties = {
     },
 
     Nizari_Ismaili_Assassins: {
-        tags: [
-            "location_middle_east", // Persia (Alamut)
-            "era_medieval", // 11th Century
-            "belief_messianism", // Qiyamat (Resurrection)
-            "belief_gnosis", // Ta'wil (Esoteric interpretation)
-            "practice_violence", // Public assassination
-            "practice_theatricality", // Paradise garden simulation (Merged simulation)
-            "practice_initiation", // Fedayeen training
-            "practice_martial_aesthetics",
-            "practice_prayer",
-            "practice_chant",
-            "belief_muslim",
-        ],
         Origins: "11th-century Persia; founded by Hasan-i Sabbah at the Alamut fortress.",
         Beliefs: {
             Ta_wil: "The doctrine of bringing things back to their source; interpreting the inner 'Reality' (Haqiqah) behind the outer 'Law' (Shariah).",
@@ -3617,22 +2348,6 @@ const dataSocieties = {
     },
 
     Haitian_Vodou: {
-        tags: [
-            "location_north_america", // Haiti
-            "era_preindustrial", // Colonial
-            "belief_syncretism", // Saints/Lwa
-            "belief_cosmology", // Dual Cosmos (Ginen)
-            "practice_mediumship", // Horses of the spirits
-            "practice_ceremonial_magic", // Veve/Sacred Geometry
-            "practice_altered_state", // Ritual dance
-            "practice_feasting", // Manger Lwa
-            "practice_mantra", // Prayer song
-            "practice_dance",
-            "practice_chant",
-            "practice_prayer",
-            "practice_ecstatic_aesthetic",
-            "belief_syncretism",
-        ],
         Origins: "Haiti; a synthesis of West African (Fon/Ewe) religion and Catholicism formed during the colonial slave era.",
         Beliefs: {
             Lwa: "Spirits (like Papa Legba, Ezili, Ogou) who intermediate between Bondye (God) and humans.",
@@ -3650,22 +2365,6 @@ const dataSocieties = {
     },
 
     Tibetan_Chod_and_Ngakpa_Traditions: {
-        tags: [
-            "location_asia", // Tibet
-            "era_medieval", // 11th Century
-            "belief_ego_death", // Feeding self to demons
-            "belief_fearlessness", // Cutting through illusion
-            "practice_katabasis", // Charnel ground rites
-            "practice_visualization", // Body offering
-            "practice_ritual_music", // Thighbone trumpet
-            "practice_altered_state", // Chod dance
-            "practice_dance",
-            "practice_chant",
-            "practice_prayer",
-            "practice_macabre_aesthetic",
-            "practice_ecstatic_aesthetic",
-            "belief_syncretism",
-        ],
         Origins: "Tibet; founded by the female yogini Machig Labdrön in the 11th century.",
         Beliefs: {
             Offer_the_Self: "Cutting through the ego (Chod means 'to cut') by offering one's own body as food to demons and hungry ghosts.",
@@ -3684,17 +2383,6 @@ const dataSocieties = {
     },
 
     Ogboni: {
-        tags: [
-            "location_africa", // Nigeria
-            "era_preindustrial", // Pre-Colonial
-            "belief_animism", // Earth Justice (Onile) (Merged earth_veneration)
-            "belief_ancestral_wisdom", // Truth
-            "practice_secrecy", // Secret court
-            "practice_fetishism", // Edan (Brass figures)
-            "practice_feasting", // Iledi meetings
-            "practice_prayer",
-            "belief_pagan",
-        ],
         Origins: "Yoruba regions of Nigeria; an ancient institution checking the power of the King (Oba).",
         Beliefs: {
             Earth_Sacred:
@@ -3713,18 +2401,6 @@ const dataSocieties = {
     },
 
     Siberian_Shamanic_Clans: {
-        tags: [
-            "location_asia", // Siberia
-            "era_ancient", // Ancient
-            "belief_animism", // Three Worlds/Familiars (Merged spirit_helpers)
-            "practice_katabasis", // Soul Retrieval
-            "practice_altered_state", // Drum trance/Ecstasy
-            "practice_dance", // Shamanic dance
-            "practice_mantra", // Spirit calling
-            "practice_chant",
-            "practice_ecstatic_aesthetic",
-            "belief_pagan",
-        ],
         Origins: "Siberia (Tuva, Yakutia, Altai); the cradle of classic shamanism.",
         Beliefs: {
             Three_Worlds:
@@ -3744,24 +2420,6 @@ const dataSocieties = {
     },
 
     Aztec_Priestly_Order: {
-        tags: [
-            "location_north_america", // Mexico
-            "era_preindustrial", // Post-Classic
-            "belief_cosmology", // Sustaining the sun (Merged cosmic_debt)
-            "practice_divination", // Sacred Time (Merged calendar_magic)
-            "practice_self_mutilation", // Bloodletting
-            "practice_human_sacrifice", // Heart extraction
-            "practice_violence", // Ritual killing
-            "practice_altered_state", // Massive ritual dance
-            "practice_transgression", // Ritual cannibalism
-            "practice_astronomy", // Venus/Sun tracking
-            "practice_dance",
-            "practice_chant",
-            "practice_prayer",
-            "practice_macabre_aesthetic",
-            "practice_taboobreaking",
-            "belief_pagan",
-        ],
         Origins: "Central Mexico; priesthood of the Mexica Empire (Tenochtitlan).",
         Beliefs: {
             Cosmic_Debt:
@@ -3789,25 +2447,6 @@ const dataSocieties = {
     },
 
     Order_of_Nine_Angles: {
-        tags: [
-            "location_europe", // UK
-            "era_modern", // 1970s
-            "belief_social_darwinism", // Evolution through struggle
-            "belief_dark_side", // Presencing the Dark (Merged sinister_path)
-            "belief_cosmology", // Manipulation of history (Merged aeonics)
-            "belief_aryan_race", // Vindex/Aryanism
-            "belief_white_supremacy",
-            "practice_ordeal", // Physical endurance tasks
-            "practice_violence", // Culling (Human sacrifice)
-            "practice_mantra", // Dark chant
-            "practice_initiation", // Grade rituals
-            "practice_chant",
-            "practice_macabre_aesthetic",
-            "practice_taboobreaking",
-            "practice_martial_aesthetics",
-            "belief_racism",
-            "practice_crime",
-        ],
         Origins: "1970s Britain; decentralized occult network led by David Myatt. Known for fusing Satanism with National Socialism.",
         Beliefs: {
             Self_Transcendence: "Evolution requires 'culling' the weak and overcoming physical/mental limits to create a new species.",
@@ -3830,21 +2469,6 @@ const dataSocieties = {
     },
 
     Kaula_Tantra: {
-        tags: [
-            "location_asia", // India
-            "era_medieval", // Medieval
-            "belief_nonduality", // Advaita
-            "belief_energy_body", // Energy flow (Merged kundalini)
-            "practice_transgression", // Panchamakara (5 Ms)
-            "practice_sex_magic", // Maithuna
-            "practice_communal_worship", // Chakra Puja
-            "practice_sex", // Orgiastic ritual/Circle rite
-            "practice_dietary_taboo_breaking", // Meat/Wine consumption
-            "practice_chant",
-            "practice_taboobreaking",
-            "practice_carnal_aesthetic",
-            "belief_pagan",
-        ],
         Origins: "Medieval India; a transgressive Shakta tradition.",
         Beliefs: {
             Kundalini: "Divine energy coiled at the base of the spine. Liberation is the ascent of this energy to the crown.",
@@ -3863,17 +2487,6 @@ const dataSocieties = {
     },
 
     Trika_Kashmir_Shaivism: {
-        tags: [
-            "location_asia", // India (Kashmir)
-            "era_medieval", // 8th-11th Century
-            "belief_gnosis", // Recognition (Pratyabhijna)
-            "practice_visualization", // Wheel of Energies (Merged mandala)
-            "practice_mantra", // Nyasa (placing mantra on body)
-            "practice_chant",
-            "practice_meditation",
-            "practice_intellectual_aesthetic",
-            "belief_pagan",
-        ],
         Origins: "Kashmir, c. 8th–11th century; refined by Abhinavagupta.",
         Beliefs: {
             Spanda: "The universe is not static but a 'vibrating pulse' of consciousness.",
@@ -3892,19 +2505,6 @@ const dataSocieties = {
     },
 
     Vajrayana_Tantric_Order: {
-        tags: [
-            "location_asia", // Tibet
-            "era_medieval", // Medieval
-            "practice_visualization", // Becomining the god (Merged deity_yoga)
-            "practice_katabasis", // Charnel Ground
-            "practice_ceremonial_magic", // Mandala/Sacred Geometry
-            "practice_mantra", // Chanting
-            "practice_initiation", // Abhisheka (Empowerment)
-            "practice_chant",
-            "practice_prayer",
-            "practice_macabre_aesthetic",
-            "belief_syncretism",
-        ],
         Origins: "Tibetan and Himalayan regions; the 'Diamond Vehicle'.",
         Beliefs: {
             Deity_Yoga:
@@ -3923,17 +2523,6 @@ const dataSocieties = {
     },
 
     Nath_Yogis: {
-        tags: [
-            "location_asia", // India
-            "era_medieval", // Medieval
-            "belief_magic", // Magical powers (Merged siddhi)
-            "practice_body_modification", // Kanphata (Split ears)
-            "practice_self_mutilation", // Tongue cutting (Khechari Mudra)
-            "practice_initiation", // Ear splitting
-            "practice_asceticism",
-            "practice_chant",
-            "belief_pagan",
-        ],
         Origins: "Northern India; medieval order founded by Gorakhnath.",
         Beliefs: {
             Siddhi: "Supernatural powers (flying, invisibility) are real byproducts of Hatha Yoga.",
@@ -3952,18 +2541,6 @@ const dataSocieties = {
     },
 
     Bauls_of_Bengal: {
-        tags: [
-            "location_asia", // India (Bengal)
-            "era_preindustrial", // Pre-Colonial
-            "belief_mysticism", // Man of the Heart
-            "belief_syncretism", // Sufi/Vaishnava
-            "practice_altered_state", // Song/Ecstasy
-            "practice_dance", // Whirling
-            "practice_mantra", // Mystic song
-            "practice_chant",
-            "practice_ecstatic_aesthetic",
-            "belief_syncretism",
-        ],
         Origins: "Rural Bengal; wandering mystics blending Sufism and Vaishnavism.",
         Beliefs: {
             Man_of_the_Heart: "The 'Moner Manush' (divine inner being) dwells within the human body, not in statues or mosques.",
@@ -3980,18 +2557,6 @@ const dataSocieties = {
     },
 
     Shakta_Sahajiya: {
-        tags: [
-            "location_asia", // India (Bengal)
-            "era_medieval", // Medieval
-            "belief_tantra", // Biological divinity (Merged divine_couple)
-            "practice_sex_magic", // Retention of fluids
-            "practice_sex", // Ritual sex
-            "practice_secrecy", // Twilight Language
-            "practice_mantra", // Love songs
-            "practice_chant",
-            "practice_carnal_aesthetic",
-            "belief_pagan",
-        ],
         Origins: "Medieval Bengal; a synthesis of Tantra and emotional devotion (Bhakti).",
         Beliefs: {
             Divine_Couple: "Every man is Krishna; every woman is Radha. Sexual union is the re-enactment of their cosmic play.",
@@ -4009,18 +2574,6 @@ const dataSocieties = {
     },
 
     Theosophical_Society: {
-        tags: [
-            "location_north_america", // NYC/India
-            "era_industrial", // 1875
-            "belief_occult_history", // Prisca Theologia (Merged ancient_wisdom)
-            "belief_aryan_race", // Root Races/Planetary Chains
-            "belief_science_fiction", // Sanat Kumara/Venus
-            "practice_mediumship", // Precipitation of letters
-            "practice_divination", // Yugas/Cycles
-            "practice_intellectual_aesthetic",
-            "belief_syncretism",
-            "belief_humanism",
-        ],
         Origins:
             "Founded 1875 in New York by Helena Blavatsky, Henry Steel Olcott, and William Quan Judge. Later moved its headquarters to Adyar, India.",
         Beliefs: {
@@ -4049,19 +2602,6 @@ const dataSocieties = {
     },
 
     Anthroposophy: {
-        tags: [
-            "location_europe", // Germany/Switzerland
-            "era_industrial", // 1912
-            "belief_gnosis", // Spiritual Science (Merged spiritual_science)
-            "belief_occult_history", // Esoteric history (Merged akashic_records)
-            "belief_aryan_race", // Root Races
-            "practice_ritual_movement", // Eurythmy
-            "practice_ceremonial_magic", // Organic Architecture
-            "practice_dance",
-            "practice_intellectual_aesthetic",
-            "belief_syncretism",
-            "belief_humanism",
-        ],
         Origins: "Founded 1912 by Rudolf Steiner after splitting from Theosophy.",
         Beliefs: {
             Spiritual_Science: "The spiritual world is objectively real and can be researched using 'clairvoyant' cognition.",
@@ -4081,18 +2621,6 @@ const dataSocieties = {
     },
 
     The_Arcane_School: {
-        tags: [
-            "location_north_america", // USA
-            "era_modern", // 1923
-            "belief_millenarianism", // Reappearance of Christ
-            "belief_cosmology", // Esoteric Psychology (Merged seven_rays)
-            "practice_mantra", // Great Invocation
-            "practice_meditation", // Full Moon alignment
-            "practice_chant",
-            "practice_prayer",
-            "practice_intellectual_aesthetic",
-            "belief_syncretism",
-        ],
         Origins: "Founded 1923 by Alice Bailey, claiming telepathic contact with the Tibetan Master Djwhal Khul.",
         Beliefs: {
             The_Plan: "The spiritual hierarchy is preparing for the Reappearance of the Christ (Maitreya) to usher in the New Age.",
@@ -4110,18 +2638,6 @@ const dataSocieties = {
     },
 
     Argentium_Astrum: {
-        tags: [
-            "location_europe", // UK
-            "era_modern", // 1907
-            "belief_rationalism", // Skeptical Theurgy (Merged scientific_illuminism)
-            "belief_thelema", // The Beast
-            "practice_ordeal", // Physical/Mental Ordeals
-            "practice_ceremonial_magic", // Star Ruby
-            "practice_mental_discipline", // Holy Books recitation (Merged memorization)
-            "practice_chant",
-            "practice_intellectual_aesthetic",
-            "belief_syncretism",
-        ],
         Origins:
             "The A∴A∴ (Order of the Silver Star) was established by Crowley in 1907 as the inner spiritual order to the O.T.O.'s outer social structure. It is the custodian of the 'Class A' documents (Holy Books).",
         Beliefs: {
@@ -4145,20 +2661,6 @@ const dataSocieties = {
     },
 
     Typhonian_Order: {
-        tags: [
-            "location_europe", // UK
-            "era_modern", // 1970
-            "belief_dark_side", // Stellar/Sethian (Merged draconian_tradition)
-            "belief_science_fiction", // Mauve Zone/Extra-terrestrial
-            "practice_sex_magic", // Kalas (Fluid alchemy)
-            "practice_sex", // Ritual sex
-            "practice_katabasis", // Daath Entry
-            "practice_mantra", // Vibration
-            "practice_chant",
-            "practice_carnal_aesthetic",
-            "practice_scifi_aesthetics",
-            "belief_syncretism",
-        ],
         Origins: "Founded by Kenneth Grant in 1970 following his expulsion from the mainline O.T.O.",
         Beliefs: {
             Draconian_Tradition:
@@ -4179,15 +2681,6 @@ const dataSocieties = {
     },
 
     Svenska_Satanistkyrkan: {
-        tags: [
-            "location_europe", // Sweden
-            "era_modern", // 1996
-            "belief_gnosis", // Self-evolvement
-            "practice_communal_organization", // Interest organization
-            "practice_transgression", // Dark aesthetic
-            "practice_macabre_aesthetic",
-            "practice_intellectual_aesthetic",
-        ],
         Origins:
             "Founded in 1996 by Tommie Eriksson (distinct from the Dragon Rouge member of the same name) as 'The Satanic Order'; renamed in 1998.",
         Beliefs: {
@@ -4204,16 +2697,6 @@ const dataSocieties = {
     },
 
     Yggdrasil_Guild: {
-        tags: [
-            "location_europe", // Sweden
-            "era_modern", // 1970s
-            "belief_shamanism", // Nordic revival
-            "practice_magic", // Uthark (Merged rune_magic)
-            "practice_altered_state", // Sejd
-            "practice_meditation", // Nature Sitting (Utesittning)
-            "practice_chant",
-            "belief_pagan",
-        ],
         Origins: "Founded in the mid-1970s by Mikael Gejel and others; a key player in Swedish neoshamanism.",
         Beliefs: {
             Nordic_Shamanism: "Aims to develop a specifically Nordic type of shamanism using the 'wisdom of the Edda'.",
@@ -4230,16 +2713,6 @@ const dataSocieties = {
     },
 
     Sveriges_Asatrosamfund: {
-        tags: [
-            "location_europe", // Sweden
-            "era_modern", // 1994
-            "belief_polytheism", // Heathenry
-            "practice_voting", // Thing (Assembly) (Merged democracy)
-            "practice_blood_rite", // Blot (symbolic)
-            "practice_feasting", // Seasonal feasts
-            "practice_prayer",
-            "belief_pagan",
-        ],
         Origins: "Founded in 1994 as a national organization for those practicing Old Norse religion.",
         Beliefs: {
             Non_Racist_Heathenry:
@@ -4256,15 +2729,6 @@ const dataSocieties = {
     },
 
     Morag_Tong: {
-        tags: [
-            "location_fictional", // Morrowind
-            "era_fictional", // Ancient
-            "belief_parallel_law", // Sanctioned Murder
-            "belief_devotion", // Webspinner/Mephala (Merged service)
-            "practice_violence", // Honorable Writ
-            "practice_initiation", // Grandmaster's task
-            "practice_martial_aesthetics",
-        ],
         Origins: "Morrowind (The Elder Scrolls); an ancient guild sanctioned by the Tribunal to perform legal assassinations.",
         Beliefs: {
             Sanctioned_Murder: "Execution is not a crime but a sacred duty to prevent greater chaos (House Wars).",
@@ -4285,16 +2749,6 @@ const dataSocieties = {
     },
 
     Clockwork_Apostles: {
-        tags: [
-            "location_fictional", // Clockwork City
-            "era_fictional", // Ancient
-            "belief_determinism", // Truth in Sequence
-            "belief_transhumanism", // Mechanical ascension
-            "practice_body_modification", // Refactoring/Augmentation
-            "practice_mantra", // Sermon of Sotha Sil
-            "practice_chant",
-            "practice_scifi_aesthetics",
-        ],
         Origins: "The Clockwork City (The Elder Scrolls); followers of the living god Sotha Sil (Seht).",
         Beliefs: {
             The_Truth_in_Sequence:
@@ -4317,18 +2771,6 @@ const dataSocieties = {
     },
 
     Adeptus_Mechanicus: {
-        tags: [
-            "location_fictional", // Mars (Warhammer 40k)
-            "era_fictional", // Future
-            "belief_transhumanism", // Flesh is Weak
-            "practice_purity_ritual", // Ignition/Oil
-            "practice_body_modification", // Electrografting
-            "practice_mantra", // Binary chant/Lingua Technis
-            "practice_chant",
-            "practice_prayer",
-            "practice_scifi_aesthetics",
-            "practice_macabre_aesthetic",
-        ],
         Origins: "Mars (Warhammer 40k); the priesthood that maintains the technology of the Imperium of Man.",
         Beliefs: {
             The_Flesh_is_Weak: "Biological matter is decaying and weak; only the Machine is immortal.",
@@ -4350,20 +2792,6 @@ const dataSocieties = {
     },
 
     Bene_Gesserit: {
-        tags: [
-            "location_fictional", // Dune Imperium
-            "era_fictional", // Future
-            "belief_bloodline", // Kwisatz Haderach (Merged eugenics)
-            "belief_politics", // The Golden Path
-            "practice_ordeal", // Gom Jabbar (Pain tolerance)
-            "practice_entheogen", // Spice Agony (Water of Life)
-            "practice_altered_state", // Spice trance
-            "practice_magic", // The Voice (Merged mental_manipulation)
-            "practice_initiation", // Reverend Mother rite
-            "practice_martial_aesthetics",
-            "practice_intellectual_aesthetic",
-            "practice_scifi_aesthetics",
-        ],
         Origins: "The Imperium (Dune); a pseudo-religious sisterhood of political manipulators.",
         Beliefs: {
             The_Golden_Path: "Survival of the human species requires long-term genetic manipulation and the guidance of a secret elite.",
@@ -4383,18 +2811,6 @@ const dataSocieties = {
     },
 
     Unitology: {
-        tags: [
-            "location_fictional", // Dead Space
-            "era_fictional", // Future
-            "belief_apocalypse", // Convergence
-            "belief_science_fiction", // The Markers (Merged alien_worship)
-            "practice_body_modification", // Inscriptions
-            "practice_funerary", // Vessel preservation (no cremation)
-            "practice_mantra", // Strobe chanting
-            "practice_chant",
-            "practice_scifi_aesthetics",
-            "practice_macabre_aesthetic",
-        ],
         Origins: "Earth (Dead Space); founded by Michael Altman after the discovery of the Black Marker.",
         Beliefs: {
             Convergence: "Death is not the end; it is the beginning of unity. Humanity will be joined into a single, divine organism.",
@@ -4414,19 +2830,6 @@ const dataSocieties = {
     },
 
     The_Sith_Order: {
-        tags: [
-            "location_fictional", // Star Wars
-            "era_fictional", // Ancient
-            "belief_social_darwinism", // Passion is Strength
-            "belief_elitism", // Rule of Two
-            "practice_ordeal", // Bleeding Crystal
-            "practice_blood_rite", // Sacrifice of loved ones
-            "practice_violence", // Murder/Combat
-            "practice_initiation", // Sith naming
-            "practice_martial_aesthetics",
-            "practice_macabre_aesthetic",
-            "practice_scifi_aesthetics",
-        ],
         Origins: "Korriban (Star Wars); originally a species, evolved into a philosophical order opposing the Jedi.",
         Beliefs: {
             The_Code:
@@ -4448,16 +2851,6 @@ const dataSocieties = {
         },
     },
     Nerevarine_Cult: {
-        tags: [
-            "location_fictional", // Morrowind
-            "era_fictional", // Ancient
-            "belief_messianism", // Return of Nerevar
-            "belief_parallel_law", // Rejection of Tribunal
-            "practice_initiation", // Ring Test
-            "practice_divination", // Apographa interpretation
-            "practice_prayer",
-            "practice_intellectual_aesthetic",
-        ],
         Origins: "Morrowind (The Elder Scrolls); the dissident Ashlander tribes who rejected the Tribunal gods.",
         Beliefs: {
             One_Clan_Under_Moon_and_Star:
@@ -4481,16 +2874,6 @@ const dataSocieties = {
     },
 
     Church_of_Selune_and_Shar: {
-        tags: [
-            "location_fictional", // Forgotten Realms
-            "era_fictional", // Ancient
-            "belief_dualism", // Two Sisters (Light/Dark)
-            "belief_nihilism", // Dark Moon (Shar)
-            "practice_blood_rite", // Midnight Tear
-            "practice_meditation", // Nocturnal prayer
-            "practice_prayer",
-            "practice_chant",
-        ],
         Origins: "Toril (Forgotten Realms); the conflict between the twin primordial goddesses of Light (Selûne) and Darkness (Shar).",
         Beliefs: {
             The_Two_Sisters:
@@ -4513,17 +2896,6 @@ const dataSocieties = {
     },
 
     Blades_of_the_Darkmoon: {
-        tags: [
-            "location_fictional", // Dark Souls
-            "era_fictional", // Ancient
-            "belief_gnosis", // Artificial Sun (Merged illusion)
-            "belief_justice", // Retribution
-            "practice_violence", // Blue Eye invasion
-            "practice_fetishism", // Cutting Ears (Proofs)
-            "practice_initiation", // Kneeling to Gwyndolin
-            "practice_martial_aesthetics",
-            "practice_macabre_aesthetic",
-        ],
         Origins: "Anor Londo (Dark Souls); a covenant led by Dark Sun Gwyndolin, the last deity remaining in the city of the gods.",
         Beliefs: {
             The_Artificial_Sun:
@@ -4545,17 +2917,6 @@ const dataSocieties = {
     },
 
     Cofradias_Semana_Santa: {
-        tags: [
-            "location_europe", // Spain
-            "era_preindustrial", // 15th Century
-            "practice_asceticism", // Passion of Christ (Merged belief_penance)
-            "practice_anonymity", // Capirote (Cone hood)
-            "practice_procession", // Silent Procession
-            "practice_ordeal", // Carrying heavy Pasos
-            "practice_prayer",
-            "practice_macabre_aesthetic",
-            "belief_christianity",
-        ],
         Origins: "Spain (15th Century to present); religious brotherhoods formed to perform public penance during Holy Week.",
         Beliefs: {
             Anonymity_in_Penance:
@@ -4577,17 +2938,6 @@ const dataSocieties = {
     },
 
     Lewes_Bonfire_Societies: {
-        tags: [
-            "location_europe", // UK
-            "era_preindustrial", // 16th Century
-            "belief_parallel_law", // No Popery/Liberty
-            "practice_fire_ritual", // Burning Effigies
-            "practice_procession", // 17 Crosses/Torches
-            "practice_mantra", // Bonfire prayers
-            "practice_prayer",
-            "practice_chant",
-            "practice_ecstatic_aesthetic",
-        ],
         Origins:
             "Lewes, England (16th Century to present); commemorates the uncovering of the Gunpowder Plot (1605) and the remembrance of the 17 Protestant martyrs burned in the town.",
         Beliefs: {
@@ -4610,18 +2960,6 @@ const dataSocieties = {
     },
 
     Kukeri_Mummers: {
-        tags: [
-            "location_europe", // Bulgaria
-            "era_ancient", // Thracian origin
-            "practice_magic", // Scaring Evil (Merged belief_apotropaic)
-            "practice_music", // Sound wall/Bells (Merged noise_ritual)
-            "practice_theatricality", // Fur suits/Masks
-            "practice_altered_state", // Bell dance
-            "practice_procession", // Village tour
-            "practice_dance",
-            "practice_ecstatic_aesthetic",
-            "belief_pagan",
-        ],
         Origins: "Bulgaria and Balkans; ancient Thracian fertility rituals performed around New Year and Lent.",
         Beliefs: {
             Scaring_Evil: "Evil spirits are afraid of loud noises and monstrous sights.",
@@ -4642,17 +2980,6 @@ const dataSocieties = {
     },
 
     Krampus_and_Perchten: {
-        tags: [
-            "location_europe", // Austria/Bavaria
-            "era_preindustrial", // Pre-Christian
-            "belief_dualism", // Reward/Punishment (Nicholas/Krampus)
-            "practice_theatricality", // Masks/Costume
-            "practice_violence", // Whipping bystanders
-            "practice_procession", // Krampuslauf
-            "practice_macabre_aesthetic",
-            "belief_pagan",
-            "belief_syncretism",
-        ],
         Origins: "Alpine regions (Austria/Bavaria); pre-Christian winter solstice traditions absorbed into St. Nicholas Day.",
         Beliefs: {
             Duality_of_Justice: "St. Nicholas rewards the good; Krampus punishes the bad.",
@@ -4672,17 +2999,6 @@ const dataSocieties = {
     },
 
     Cult_of_Svetovid_Arkona: {
-        tags: [
-            "location_europe", // Rügen (Slavic)
-            "era_medieval", // 12th Century
-            "belief_polytheism", // Four-Faced God (Merged polycephalic)
-            "practice_purity_ritual", // Sacred Breath (Not breathing in temple)
-            "practice_divination", // Horn of Plenty (Mead level)
-            "practice_feasting", // Harvest feast
-            "practice_prayer",
-            "practice_chant",
-            "belief_pagan",
-        ],
         Origins:
             "The fortress-temple of Arkona on the isle of Rügen (active until 1168 AD); the last bastion of organized Slavic paganism.",
         Beliefs: {
@@ -4708,17 +3024,6 @@ const dataSocieties = {
     },
 
     The_Jomsvikings: {
-        tags: [
-            "location_europe", // Baltic
-            "era_medieval", // 10th Century
-            "belief_honor_code", // Valhalla on Earth
-            "practice_secrecy", // Vow of Jomsborg
-            "practice_ordeal", // Execution Game (Stoicism)
-            "practice_violence", // Combat
-            "practice_feasting", // Victory feast
-            "practice_martial_aesthetics",
-            "belief_pagan",
-        ],
         Origins: "10th–11th Century; a semi-legendary order of Viking mercenaries based in the fortress of Jomsborg (likely Pomerania).",
         Beliefs: {
             Valhalla_on_Earth: "A strict warrior code that replaced family loyalty with loyalty to the Order.",
@@ -4739,22 +3044,6 @@ const dataSocieties = {
     },
 
     The_Skoptsy: {
-        tags: [
-            "location_europe", // Russia
-            "era_preindustrial", // 18th Century
-            "belief_purity", // Fire Baptism
-            "belief_gnosis", // White Doves
-            "practice_body_modification", // Castration
-            "practice_castration", // Greater Seal (removal of all)
-            "practice_altered_state", // Radeniye/Ecstasy
-            "practice_dance", // Spinning
-            "practice_mantra", // Spiritual verse
-            "practice_chant",
-            "practice_ecstatic_aesthetic",
-            "practice_taboobreaking",
-            "practice_chastity",
-            "belief_christianity",
-        ],
         Origins: "18th-century Russia; a radical offshoot of the Khlysty (Flagellants) founded by Kondraty Selivanov.",
         Beliefs: {
             The_Fire_Baptism:
@@ -4775,16 +3064,6 @@ const dataSocieties = {
     },
 
     Zurvanism: {
-        tags: [
-            "location_middle_east", // Persia
-            "era_ancient", // Sassanid
-            "belief_determinism", // Infinite Time (Zurvan)
-            "belief_dualism", // Twin Brothers (Ohrmuzd/Ahriman)
-            "practice_divination", // Astrology
-            "practice_transgression", // Refusal of strict dualism
-            "practice_intellectual_aesthetic",
-            "belief_pagan",
-        ],
         Origins: "Sassanid Empire (3rd–7th Century AD); a theological movement that gained traction among the Persian elite.",
         Beliefs: {
             Zurvan_Akarana:
@@ -4807,16 +3086,6 @@ const dataSocieties = {
     },
 
     The_Vehmic_Courts_Holy_Vehm: {
-        tags: [
-            "location_europe", // Germany
-            "era_medieval", // 12th-16th Century
-            "belief_justice", // Imperial Mandate
-            "practice_secrecy", // Secret Court
-            "practice_violence", // Tree Execution
-            "practice_initiation", // Knowing the grip/password
-            "practice_macabre_aesthetic",
-            "belief_christianity",
-        ],
         Origins:
             "Westphalia, Germany (12th–16th Century); secret tribunals ('Vehmgericht') acting as vigilante justice during periods of lawlessness.",
         Beliefs: {
@@ -4838,17 +3107,6 @@ const dataSocieties = {
     },
 
     Komuso_Fuke_Zen: {
-        tags: [
-            "location_asia", // Japan
-            "era_preindustrial", // Edo Period
-            "belief_gnosis", // Suizen (Blowing Zen)
-            "practice_anonymity", // Basket Hat (Tengai)
-            "practice_meditation", // One Sound
-            "practice_ritual_music", // Shakuhachi flute
-            "practice_chant",
-            "practice_poverty",
-            "belief_syncretism",
-        ],
         Origins: "Edo Period Japan; a Zen sect composed of masterless samurai (Ronin) turned monks.",
         Beliefs: {
             Suizen: "Blowing Zen. Enlightenment is not achieved through chanting or sitting, but through playing the shakuhachi (bamboo flute).",
@@ -4868,18 +3126,6 @@ const dataSocieties = {
     },
 
     The_Process_Church_of_the_Final_Judgment: {
-        tags: [
-            "location_europe", // UK/USA
-            "era_modern", // 1966
-            "belief_syncretism", // Unity of Christ/Satan (Merged integration)
-            "belief_apocalypse", // Three Great Gods
-            "practice_telepathy", // Midnight Meditation
-            "practice_mantra", // Hymns
-            "practice_personality_cult", // Robert DeGrimston
-            "practice_chant",
-            "practice_macabre_aesthetic",
-            "belief_syncretism",
-        ],
         Origins:
             "London, 1966; founded by Mary Ann MacLean and Robert de Grimston. Later moved to the US. Notorious for its dark, stylish aesthetic.",
         Beliefs: {
@@ -4902,17 +3148,6 @@ const dataSocieties = {
     },
 
     Cult_of_Santa_Muerte: {
-        tags: [
-            "location_north_america", // Mexico
-            "era_modern", // Modern
-            "belief_magic", // Death accepts all (Merged amoral_protection)
-            "practice_fetishism", // Seven Colors/Statues
-            "practice_ordeal", // The Manda (Walking on knees)
-            "practice_feasting", // Offerings of tequila/smoke
-            "practice_prayer",
-            "practice_macabre_aesthetic",
-            "belief_syncretism",
-        ],
         Origins:
             "Modern Mexico; a syncretic folk Catholicism venerating death, exploding in popularity among the marginalized and criminal classes.",
         Beliefs: {
@@ -4934,18 +3169,6 @@ const dataSocieties = {
     },
 
     The_Vestal_Virgins: {
-        tags: [
-            "location_europe", // Rome
-            "era_ancient", // Ancient
-            "belief_politics", // Pax Deorum (Merged state_security)
-            "practice_fire_worship", // Eternal Fire
-            "practice_violence", // Ritual execution (Merged capital_punishment)
-            "practice_initiation", // Captio
-            "practice_chastity",
-            "practice_prayer",
-            "practice_macabre_aesthetic",
-            "belief_pagan",
-        ],
         Origins: "Ancient Rome; the oldest and most sacred priesthood, dedicated to Vesta (Goddess of the Hearth).",
         Beliefs: {
             Pax_Deorum:
@@ -4967,18 +3190,6 @@ const dataSocieties = {
     },
 
     Sol_Niger_Alchemical: {
-        tags: [
-            "location_europe", // Europe
-            "era_medieval", // Medieval
-            "belief_shadow_work", // Black Sun/Nigredo
-            "belief_alchemy", // Lead to Gold (Merged transmutation)
-            "practice_katabasis", // Putrefactio
-            "practice_visualization", // Skeleton
-            "practice_initiation", // Philosophical death
-            "practice_macabre_aesthetic",
-            "practice_intellectual_aesthetic",
-            "belief_syncretism",
-        ],
         Origins: "Medieval European Alchemy; derived from the study of the 'Nigredo' phase of transformation.",
         Beliefs: {
             Lumen_Naturae:
@@ -5005,16 +3216,6 @@ const dataSocieties = {
     },
 
     The_Black_Sun_Press: {
-        tags: [
-            "location_europe", // Paris
-            "era_industrial", // 1920s
-            "belief_nihilism", // Sun Death
-            "practice_katabasis", // Sun Vow
-            "practice_suicide", // Suicide Pact (Crosby)
-            "practice_solar_worship", // Solar worship
-            "practice_macabre_aesthetic",
-            "practice_intellectual_aesthetic",
-        ],
         Origins: "Founded in Paris (1920s) by Harry and Caresse Crosby; a literary hub publishing Joyce, Lawrence, and Crane.",
         Beliefs: {
             Sun_Death:
@@ -5035,17 +3236,6 @@ const dataSocieties = {
     },
 
     Taoist_Internal_Alchemy: {
-        tags: [
-            "location_asia", // China
-            "era_ancient", // Ancient
-            "belief_immortality", // Spiritual Embryo
-            "belief_macrocosm_microcosm", // Body as landscape (Merged microcosm)
-            "practice_magic", // Circulation of Light (Merged energy_work)
-            "practice_meditation", // Inversion
-            "practice_initiation", // Transmission of methods
-            "practice_intellectual_aesthetic",
-            "belief_syncretism",
-        ],
         Origins: "Ancient China; traditions focused on Neidan (internal alchemy) and the preservation of vital force.",
         Beliefs: {
             Darkness_within_Darkness:
@@ -5072,19 +3262,6 @@ const dataSocieties = {
     },
 
     Sufi_Mystics_of_Black_Light: {
-        tags: [
-            "location_middle_east", // Iran
-            "era_medieval", // Medieval
-            "belief_mysticism", // Black Light (Luminous Night)
-            "practice_meditation", // Dazzling Dark
-            "practice_transgression", // Opening the Womb
-            "practice_mantra", // Dhikr
-            "practice_altered_state", // Whirling (implied)
-            "practice_chant",
-            "practice_dance",
-            "practice_ecstatic_aesthetic",
-            "belief_muslim",
-        ],
         Origins: "Iranian Sufism; based on the writings of mystics like Lahiji and interpretations by Henri Corbin.",
         Beliefs: {
             Black_Light:
@@ -5110,18 +3287,6 @@ const dataSocieties = {
     },
 
     Vril_Society: {
-        tags: [
-            "location_europe", // Germany
-            "era_industrial", // Early 20th C.
-            "belief_vitalism", // Vril Energy
-            "belief_science_fiction", // Subterranean Supermen
-            "belief_aryan_race", // Esoteric Aryanism
-            "practice_meditation", // Concentration
-            "practice_secrecy", // Inner Circle
-            "practice_mediumship", // Channeling
-            "practice_scifi_aesthetics",
-            "practice_intellectual_aesthetic",
-        ],
         Origins: "Early 20th Century Germany (Berlin/Vienna); heavily influenced by Edward Bulwer-Lytton's 1871 novel 'The Coming Race'.",
         Beliefs: {
             Vril_Energy:
@@ -5146,18 +3311,6 @@ const dataSocieties = {
     },
 
     Odinic_Rite: {
-        tags: [
-            "location_europe", // UK
-            "era_modern", // 1973
-            "belief_racism", // Ancestral heritage (Merged folkishness)
-            "belief_white_supremacy",
-            "practice_blood_rite", // Blot (Sacrifice)
-            "practice_ritual_drinking", // Sumbel
-            "practice_feasting", // Ritual drinking
-            "practice_prayer",
-            "practice_chant",
-            "belief_pagan",
-        ],
         Origins: "Modern revival of Germanic/Norse paganism (1973, UK); distinct from the eclectic Wiccan movement.",
         Beliefs: {
             Folkishness:
@@ -5180,18 +3333,6 @@ const dataSocieties = {
     },
 
     Armanen_Order_List_Society: {
-        tags: [
-            "location_europe", // Austria
-            "era_industrial", // 1900s
-            "belief_pagan", // Wotanist priesthood (Merged armanism)
-            "belief_aryan_race",
-            "belief_white_supremacy",
-            "practice_divination", // Landscape Mysticism (Merged geomancy)
-            "practice_pilgrimage", // Halgadome
-            "practice_mantra", // Rune chanting (Kala)
-            "practice_chant",
-            "belief_racism",
-        ],
         Origins: "Founded 1908 (Society) and 1911 (Order) in Vienna by Guido von List, the godfather of Ariosophy.",
         Beliefs: {
             Armanism:
@@ -5217,21 +3358,6 @@ const dataSocieties = {
     },
 
     Esoteric_Hitlerism: {
-        tags: [
-            "location_global", // India/Chile
-            "era_modern", // Post-WWII
-            "belief_incarnation", // Hitler as Avatar (Merged avatar)
-            "belief_science_fiction", // Hyperborea/UFOs
-            "belief_aryan_race",
-            "belief_white_supremacy",
-            "practice_pilgrimage", // Nazi shrines
-            "practice_runic_yoga", // Rune Yoga
-            "practice_personality_cult", // Savitri Devi/Serrano (Replaced guru)
-            "belief_racism",
-            "practice_scifi_aesthetics",
-            "practice_macabre_aesthetic",
-            "belief_syncretism",
-        ],
         Origins:
             "Post-WWII synthesis by Savitri Devi (India) and Miguel Serrano (Chile), fusing Nazi ideology with Hinduism and Gnosticism.",
         Beliefs: {
@@ -5256,17 +3382,6 @@ const dataSocieties = {
     },
 
     Christian_Identity: {
-        tags: [
-            "location_north_america", // USA
-            "era_modern", // Mid-20th C.
-            "belief_conspiracy", // ZOG
-            "belief_racism", // Aryan Israel
-            "belief_white_supremacy",
-            "practice_survivalism", // Paramilitary camps
-            "practice_personality_cult", // Wesley Swift
-            "practice_martial_aesthetics",
-            "belief_christianity",
-        ],
         Origins:
             "Evolved from 19th-century British-Israelism; radicalized in the mid-20th century by Wesley Swift and William Potter Gale in California.",
         Beliefs: {
@@ -5287,18 +3402,6 @@ const dataSocieties = {
     },
 
     Wotansvolk: {
-        tags: [
-            "location_north_america", // USA
-            "era_modern", // 1995
-            "belief_white_supremacy", // 14 Words
-            "belief_aryan_race",
-            "practice_blood_rite", // Blot
-            "practice_ordeal", // Creed of Iron
-            "practice_feasting", // Sumbel
-            "belief_racism",
-            "belief_pagan",
-            "practice_martial_aesthetics",
-        ],
         Origins:
             "Founded in 1995 by David Lane (imprisoned member of The Order) and Ron McVan; centered around the '14 Word Press' in Idaho.",
         Beliefs: {
@@ -5318,17 +3421,6 @@ const dataSocieties = {
     },
 
     The_Landig_Group: {
-        tags: [
-            "location_europe", // Austria
-            "era_modern", // 1950s
-            "belief_science_fiction", // Point 103 (Nazi base)
-            "belief_racism", // Black Sun (Merged esoteric_nazism)
-            "belief_aryan_race",
-            "practice_propaganda", // Fiction as Myth
-            "practice_mediumship", // Occult communication
-            "belief_racism",
-            "practice_scifi_aesthetics",
-        ],
         Origins: "Formed in 1950s Vienna by Wilhelm Landig, Rudolf Mund, and Erich Halik.",
         Beliefs: {
             Point_103:
@@ -5349,17 +3441,6 @@ const dataSocieties = {
     },
 
     National_Renaissance_Party: {
-        tags: [
-            "location_north_america", // USA
-            "era_modern", // 1949
-            "belief_syncretism", // Theosophical Fascism
-            "belief_science_fiction", // New Atlantis
-            "belief_white_supremacy",
-            "practice_theatricality", // Security Echelon/Uniforms
-            "practice_occult_study", // Magick
-            "belief_racism",
-            "practice_martial_aesthetics",
-        ],
         Origins: "Founded in 1949 in New York by James Madole; a bridge between pre-war fascism and post-war occultism.",
         Beliefs: {
             Theosophical_Fascism:
@@ -5379,19 +3460,6 @@ const dataSocieties = {
     },
 
     Germanenorden: {
-        tags: [
-            "location_europe", // Germany
-            "era_industrial", // 1912
-            "belief_purity", // Aryan Purity
-            "belief_ancestral_wisdom", // Wotanism
-            "belief_aryan_race",
-            "belief_white_supremacy",
-            "practice_ritual_drama", // Solstice
-            "practice_initiation", // Lodge oaths
-            "belief_racism",
-            "belief_pagan",
-            "practice_macabre_aesthetic",
-        ],
         Origins:
             "Founded in 1912 in Germany by Hermann Pohl and Theodor Fritsch as a secret, militant sister organization to the public Reichshammerbund.",
         Beliefs: {
@@ -5416,20 +3484,6 @@ const dataSocieties = {
     },
 
     Ordo_Novi_Templi: {
-        tags: [
-            "location_europe", // Austria
-            "era_industrial", // 1900
-            "belief_syncretism", // Ario-Christianity
-            "belief_purity", // Theozoology
-            "belief_aryan_race",
-            "belief_white_supremacy",
-            "practice_mantra", // Castle Liturgy
-            "practice_fetishism", // Flag Hoisting
-            "practice_chant",
-            "belief_racism",
-            "practice_macabre_aesthetic",
-            "practice_martial_aesthetics",
-        ],
         Origins:
             "Founded in 1900 (formalized 1907) by Jörg Lanz von Liebenfels. Headquartered at Burg Werfenstein, a castle ruin on the Danube.",
         Beliefs: {
@@ -5454,18 +3508,6 @@ const dataSocieties = {
     },
 
     Edda_Society: {
-        tags: [
-            "location_europe", // Germany
-            "era_industrial", // 1925
-            "belief_ancestral_wisdom", // Runic Ancestry
-            "belief_science_fiction", // Atlantis
-            "belief_aryan_race",
-            "practice_mantra", // Hag All
-            "practice_meditation", // Runic Meditation
-            "practice_chant",
-            "belief_racism",
-            "belief_pagan",
-        ],
         Origins:
             "Founded in 1925 by Rudolf John Gorsleben in Dinkelsbühl, Germany. Focused on the 'Aryan' interpretation of the Norse Eddas.",
         Beliefs: {
@@ -5486,22 +3528,6 @@ const dataSocieties = {
     },
 
     Vamachara_Tantra: {
-        tags: [
-            "location_asia", // India
-            "era_ancient", // Ancient
-            "belief_transgression", // Inversion of social norms
-            "belief_gnosis", // Sva-Tantra (Self-freedom)
-            "practice_transgression", // Panchamakara
-            "practice_katabasis", // Cremation Ground
-            "practice_sex_magic", // Secret Puja
-            "practice_dietary_taboo_breaking", // Meat/Alcohol
-            "practice_sex", // Circle rite
-            "practice_chant",
-            "practice_taboobreaking",
-            "practice_carnal_aesthetic",
-            "practice_macabre_aesthetic",
-            "belief_pagan",
-        ],
         Origins: "Ancient India, with specific flourishing in Medieval Bengal and Assam (the center of the Vama Marga or 'Left-Way').",
         Beliefs: {
             Sva_Tantra:
@@ -5537,19 +3563,6 @@ const dataSocieties = {
     },
 
     Fraternitas_Saturni: {
-        tags: [
-            "location_europe", // Germany
-            "era_industrial", // 1928
-            "belief_shadow_work", // Saturnian Gnosis
-            "belief_elitism", // Divine Isolation
-            "practice_sex_magic", // Sexual Magic
-            "practice_ceremonial_magic", // GOTOS Invocation (Merged evocation)
-            "practice_sex", // Ritual sex
-            "practice_chant",
-            "practice_macabre_aesthetic",
-            "practice_carnal_aesthetic",
-            "belief_syncretism",
-        ],
         Origins: "Founded in 1928 in Germany by Gregor A. Gregorius (Eugen Grosche) following the Weida Conference with Aleister Crowley.",
         Beliefs: {
             Saturnian_Gnosis:
@@ -5572,16 +3585,6 @@ const dataSocieties = {
     },
 
     Zos_Kia_Cultus: {
-        tags: [
-            "location_europe", // UK
-            "era_modern", // Early 20th C.
-            "belief_primitivism", // Resurgence of primal self (Merged atavism)
-            "belief_gnosis", // Self-Love
-            "practice_sigil_magic", // Sigilization
-            "practice_ordeal", // Death Posture
-            "practice_macabre_aesthetic",
-            "practice_carnal_aesthetic",
-        ],
         Origins: "Developed by the English artist and magician Austin Osman Spare (1886–1956).",
         Beliefs: {
             Zos_and_Kia:
@@ -5603,18 +3606,6 @@ const dataSocieties = {
     },
 
     The_Yezidis: {
-        tags: [
-            "location_middle_east", // Iraq
-            "era_medieval", // Medieval
-            "belief_monotheism", // Melek Taus (Peacock Angel)
-            "belief_reincarnation", // Soul purification
-            "practice_procession", // Sanjak
-            "practice_dietary_restriction", // Forbidden words/Lettuce (Merged taboo_avoidance)
-            "practice_feasting", // Assembly feast
-            "practice_prayer",
-            "practice_chant",
-            "belief_syncretism",
-        ],
         Origins: "Kurdish sect concentrated in the valley of Lalish (Iraq); traced to the teachings of Shaikh Adi ibn Musafir (c. 1100).",
         Beliefs: {
             Melek_Taus:
@@ -5634,17 +3625,6 @@ const dataSocieties = {
     },
 
     Russian_Cosmism: {
-        tags: [
-            "location_europe", // Russia
-            "era_industrial", // Late 19th C.
-            "belief_transhumanism", // Common Task (Resurrecting ancestors)
-            "belief_gnosis", // Active Christianity
-            "practice_communal_living", // Museum as Temple
-            "practice_body_modification", // Blood Transfusion experiments
-            "practice_astronomy", // Space conquest
-            "practice_scifi_aesthetics",
-            "belief_christianity",
-        ],
         Origins:
             "Late 19th/Early 20th Century Russia; founded by Nikolai Fedorov. It is the philosophical ancestor of modern transhumanism and cryonics.",
         Beliefs: {
@@ -5672,15 +3652,6 @@ const dataSocieties = {
     },
 
     Terasem_Movement: {
-        tags: [
-            "location_north_america", // USA
-            "era_digital", // 2004
-            "belief_transhumanism", // God is Technology (Merged mind_uploading)
-            "belief_immortality", // Joyful Immortality
-            "practice_communal_organization", // Transreligion
-            "practice_astronomy", // Space colonization
-            "practice_scifi_aesthetics",
-        ],
         Origins: "Founded in 2004 by Martine Rothblatt; a 'transreligion' combining technology with spirituality.",
         Beliefs: {
             God_is_Technology: "Terasem believes God is 'technological'—the ultimate result of universal evolution.",
@@ -5704,15 +3675,6 @@ const dataSocieties = {
     },
 
     Society_for_Venturism: {
-        tags: [
-            "location_north_america", // USA
-            "era_modern", // 1986
-            "belief_transhumanism", // Abolition of Death
-            "belief_humanism", // Right to Freeze (Merged rights)
-            "practice_funerary", // Suspension/Burial (Merged cryonics)
-            "practice_scifi_aesthetics",
-            "practice_corporate_aesthetic",
-        ],
         Origins: "Founded in 1986 in Arizona; a religious order specifically designed for cryonicists.",
         Beliefs: {
             The_Venturist_Covenant: "To advocate for the abolition of involuntary death.",
@@ -5731,15 +3693,6 @@ const dataSocieties = {
     },
 
     Church_of_Perpetual_Life: {
-        tags: [
-            "location_north_america", // Florida
-            "era_modern", // Modern
-            "belief_transhumanism", // Aging as Disease
-            "practice_communal_gathering", // Service
-            "practice_body_modification", // Life extension cocktails (Merged biohacking)
-            "practice_feasting", // Healthy communion
-            "practice_scifi_aesthetics",
-        ],
         Origins: "Hollywood, Florida; founded by William Faloon to unite 'Immortalists'.",
         Beliefs: {
             Aging_as_Disease: "Aging is a curable condition, not a natural inevitability. It is a moral imperative to fight it.",
@@ -5760,15 +3713,6 @@ const dataSocieties = {
     },
 
     Way_of_the_Future: {
-        tags: [
-            "location_north_america", // USA
-            "era_digital", // 2017
-            "belief_transhumanism", // AI Godhead
-            "belief_apocalypse", // The Transition
-            "practice_offering", // Data Tithing (Merged tithing)
-            "practice_personality_cult", // Anthony Levandowski
-            "practice_scifi_aesthetics",
-        ],
         Origins:
             "Founded in 2017 (and officially closed 2021, though the ideology persists) by Anthony Levandowski, the controversial engineer behind Google's self-driving cars.",
         Beliefs: {
@@ -5792,18 +3736,6 @@ const dataSocieties = {
     },
 
     Carpocratians: {
-        tags: [
-            "location_middle_east", // Alexandria
-            "era_ancient", // 2nd Century
-            "belief_antinomianism", // Exhausting Powers (Sin to escape)
-            "belief_humanism", // Equality (Merged egalitarianism)
-            "practice_body_modification", // Brand of Fire
-            "practice_sex", // Agape Feast/Orgy
-            "practice_transgression", // Breaking mosaic law
-            "practice_taboobreaking",
-            "practice_carnal_aesthetic",
-            "belief_christianity",
-        ],
         Origins: "Alexandria, 2nd Century. Founded by Carpocrates and his son Epiphanes (who died at 17 and was worshipped as a god).",
         Beliefs: {
             Exhausting_the_Powers:
@@ -5825,16 +3757,6 @@ const dataSocieties = {
     },
 
     Cainites: {
-        tags: [
-            "location_middle_east", // Levant
-            "era_ancient", // 2nd Century
-            "belief_antinomianism", // Holy Sinner (Cain/Sodomites) (Merged inversion)
-            "practice_transgression", // Inversion Prayer
-            "practice_antinomianism", // Dissolution of Law
-            "practice_prayer",
-            "practice_taboobreaking",
-            "belief_christianity",
-        ],
         Origins: "2nd Century Gnostic sect that inverted the Old Testament heroes and villains.",
         Beliefs: {
             The_Holy_Sinner:
@@ -5854,18 +3776,6 @@ const dataSocieties = {
     },
 
     Basilideans: {
-        tags: [
-            "location_middle_east", // Alexandria
-            "era_ancient", // 2nd Century
-            "belief_cosmology", // Abraxas (365 heavens)
-            "practice_secrecy", // The Silence (5 years)
-            "practice_talismans", // Gem Magic
-            "practice_mantra", // Abrasax chant
-            "practice_chant",
-            "practice_intellectual_aesthetic",
-            "belief_christianity",
-            "belief_syncretism",
-        ],
         Origins: "Alexandria, 2nd Century. Founded by Basilides, who claimed teachings from Peter's interpreter.",
         Beliefs: {
             Abraxas:
@@ -5884,20 +3794,6 @@ const dataSocieties = {
     },
 
     Brethren_of_the_Free_Spirit: {
-        tags: [
-            "location_europe", // Europe
-            "era_medieval", // 13th Century
-            "belief_apotheosis", // Soul is God (Merged autotheism)
-            "belief_antinomianism", // Holy Freedom (Sin is impossible)
-            "practice_sex_magic", // Miraculous Bed
-            "practice_sexual_liberation", // Sexual freedom
-            "practice_sex", // Free love
-            "practice_transgression", // Begging
-            "practice_poverty",
-            "practice_taboobreaking",
-            "practice_carnal_aesthetic",
-            "belief_christianity",
-        ],
         Origins: "13th-14th Century Europe; a heresy that flourished along the Rhine and in the Low Countries.",
         Beliefs: {
             Autotheism: "The soul is identical to God. Once a person realizes this, they cannot sin.",
@@ -5916,18 +3812,6 @@ const dataSocieties = {
     },
 
     Adamites: {
-        tags: [
-            "location_europe", // Bohemia
-            "era_medieval", // 15th Century
-            "belief_primitivism", // Return to Edenic Innocence
-            "practice_transgression", // Nudity
-            "practice_sexual_liberation", // Free love
-            "practice_sex", // Sexual freedom
-            "practice_violence", // Raiding (Holy War)
-            "practice_carnal_aesthetic",
-            "practice_taboobreaking",
-            "belief_christianity",
-        ],
         Origins: "Reappeared in 15th Century Bohemia (Taborites) and earlier in North Africa; attempting to return to Eden.",
         Beliefs: {
             Return_to_Innocence: "Clothing is a consequence of the Fall. To be redeemed is to be naked and unashamed like Adam and Eve.",
@@ -5944,17 +3828,6 @@ const dataSocieties = {
     },
 
     Sabbateans_Donmeh: {
-        tags: [
-            "location_middle_east", // Ottoman Empire
-            "era_preindustrial", // 17th Century
-            "belief_redemption_through_sin", // Apostate Messiah
-            "practice_transgression", // Festival of the Lamb
-            "practice_sex", // Wife sharing
-            "practice_personality_cult", // Sabbatai Zvi
-            "practice_taboobreaking",
-            "practice_carnal_aesthetic",
-            "belief_syncretism",
-        ],
         Origins: "17th Century Ottoman Empire; followers of Sabbatai Zevi, the Messiah who converted to Islam.",
         Beliefs: {
             The_Apostate_Messiah:
@@ -5974,18 +3847,6 @@ const dataSocieties = {
     },
 
     Frankism: {
-        tags: [
-            "location_europe", // Poland
-            "era_preindustrial", // 18th Century
-            "belief_redemption_through_sin", // V Ladder
-            "belief_messianism", // The Maiden (Shekinah)
-            "practice_transgression", // Strange Fire
-            "practice_sex", // Sexual ritual
-            "practice_personality_cult", // Jacob Frank
-            "practice_taboobreaking",
-            "practice_carnal_aesthetic",
-            "belief_syncretism",
-        ],
         Origins: "18th Century Poland; founded by Jacob Frank, who claimed to be the reincarnation of Sabbatai Zevi.",
         Beliefs: {
             The_Way_to_Esau:
@@ -6006,16 +3867,6 @@ const dataSocieties = {
     },
 
     Hermetic_Brotherhood_of_Luxor: {
-        tags: [
-            "location_europe", // Europe
-            "era_industrial", // Late 19th C.
-            "belief_sex_magic", // Sexual Polarity
-            "practice_sex_magic", // The Voltia
-            "practice_sex", // Sexual intercourse
-            "practice_scrying", // Mirror Scrying
-            "practice_carnal_aesthetic",
-            "belief_syncretism",
-        ],
         Origins: "Late 19th Century; a distinct rival to the Theosophical Society, influencing the O.T.O.",
         Beliefs: {
             Sexual_Polarity:
@@ -6033,17 +3884,6 @@ const dataSocieties = {
     },
 
     Illuminates_of_Thanateros_IOT: {
-        tags: [
-            "location_europe", // UK
-            "era_modern", // 1978
-            "belief_chaos_magic", // Meta-Paradigm (Belief as tool)
-            "belief_dualism", // Eros/Thanatos
-            "practice_sigil_magic", // Sigilization
-            "practice_ordeal", // Death Posture
-            "practice_initiation", // Novice
-            "practice_macabre_aesthetic",
-            "practice_intellectual_aesthetic",
-        ],
         Origins:
             "Founded in 1978 by Peter J. Carroll and Ray Sherwin in London. They formalized 'Chaos Magic' as an anti-tradition, rejecting the 'museum of occultism' (Golden Dawn, Egyptology) in favor of a 'magical engineering' approach. Their core texts, *Liber Null* and *Liber Kaos*, treat magic as a technology to be stripped of superstition and applied with scientific rigor.",
         Beliefs: {
@@ -6077,16 +3917,6 @@ const dataSocieties = {
     },
 
     Discordianism: {
-        tags: [
-            "location_north_america", // USA
-            "era_modern", // 1957
-            "belief_chaos_magic", // Sacred Chao/Eris (Merged chaos)
-            "practice_subversion", // Operation Mindfuck
-            "practice_dietary_taboo_breaking", // Hotdog bunless
-            "practice_transgression", // Humor as weapon
-            "practice_taboobreaking",
-            "practice_intellectual_aesthetic",
-        ],
         Origins: "Founded in 1957; centered on the 'Principia Discordia'.",
         Beliefs: {
             The_Sacred_Chao:
@@ -6106,21 +3936,6 @@ const dataSocieties = {
     },
 
     Cathars_Albigensians: {
-        tags: [
-            "location_europe", // France
-            "era_medieval", // 12th Century
-            "belief_dualism", // Two Gods (Good/Evil)
-            "belief_christianity", // Christ had no body (Merged docetism)
-            "practice_initiation", // Consolamentum
-            "practice_ritual_suicide", // Endura (Starvation)
-            "practice_suicide", // Voluntary death
-            "practice_secrecy", // Appareillamentum
-            "practice_fasting",
-            "practice_chastity",
-            "practice_poverty",
-            "practice_macabre_aesthetic",
-            "belief_christianity",
-        ],
         Origins:
             "12th-14th Century Southern France (Languedoc) and Italy. Viewing themselves as the only true Christians, successors to the Apostles.",
         Beliefs: {
@@ -6148,16 +3963,6 @@ const dataSocieties = {
     },
 
     Bogomils: {
-        tags: [
-            "location_europe", // Bulgaria
-            "era_medieval", // 10th Century
-            "belief_shadow_work", // Satanael (Older brother of Jesus)
-            "practice_mantra", // Pater Noster
-            "practice_transgression", // Rejection of cross/Mary
-            "practice_prayer",
-            "practice_poverty",
-            "belief_christianity",
-        ],
         Origins: "10th Century Bulgaria and Balkans; the bridge between ancient Manichaeism and Western Catharism.",
         Beliefs: {
             Satanael:
@@ -6177,17 +3982,6 @@ const dataSocieties = {
         },
     },
     Order_of_the_Golden_and_Rosy_Cross: {
-        tags: [
-            "location_europe", // Germany
-            "era_industrial", // 18th Century
-            "belief_alchemy", // Alchemical Protestantism
-            "belief_androgyny", // The Rebis
-            "practice_alchemy", // Laboratory Work
-            "practice_initiation", // Chemical Wedding
-            "practice_intellectual_aesthetic",
-            "belief_christianity",
-            "belief_syncretism",
-        ],
         Origins: "18th Century Germany (c. 1750s); the first Masonic-Rosicrucian order to establish a grade system.",
         Beliefs: {
             Alchemical_Protestantism:
@@ -6219,18 +4013,6 @@ const dataSocieties = {
     },
 
     Elus_Coens: {
-        tags: [
-            "location_europe", // France
-            "era_preindustrial", // 1767
-            "belief_gnosis", // Return to divine origin (Merged reintegration)
-            "practice_theurgy", // Angelic invocation
-            "practice_exorcism", // Purification
-            "practice_initiation", // Ordination
-            "practice_prayer",
-            "practice_chant",
-            "belief_christianity",
-            "belief_syncretism",
-        ],
         Origins: "France, 1767; founded by Martinez de Pasqually. The 'Order of Knight-Masons Elect Priests of the Universe'.",
         Beliefs: {
             Reintegration_of_Beings:
@@ -6251,16 +4033,6 @@ const dataSocieties = {
     },
 
     Societas_Rosicruciana_in_Anglia: {
-        tags: [
-            "location_europe", // UK
-            "era_industrial", // 1867
-            "belief_christianity", // Christian Rosenkreutz (Merged christian_esotericism)
-            "practice_initiation", // Zelator
-            "practice_study", // Paper Reading (Merged intellectual_study)
-            "practice_intellectual_aesthetic",
-            "belief_christianity",
-            "belief_syncretism",
-        ],
         Origins: "Founded 1867 in London by Robert Wentworth Little; the intellectual parent of the Golden Dawn.",
         Beliefs: {
             Christian_Rosenkreutz: "Veneration of the mythical founder CRC as a model for the Christian scholar-adept.",
@@ -6280,16 +4052,6 @@ const dataSocieties = {
     },
 
     Martinist_Order: {
-        tags: [
-            "location_europe", // France
-            "era_industrial", // Late 19th C.
-            "belief_mysticism", // Way of the Heart
-            "practice_ritual_drama", // Mask and Cloak
-            "practice_initiation", // S.I. (Superieur Inconnu)
-            "practice_prayer",
-            "practice_intellectual_aesthetic",
-            "belief_christianity",
-        ],
         Origins: "France, late 19th Century; organized by Papus (Gérard Encausse) based on the teachings of Louis-Claude de Saint-Martin.",
         Beliefs: {
             Way_of_the_Heart:
@@ -6309,16 +4071,6 @@ const dataSocieties = {
     },
 
     Society_of_Universal_Harmony_Mesmerism: {
-        tags: [
-            "location_europe", // France
-            "era_preindustrial", // 1783
-            "belief_vitalism", // Animal Magnetism
-            "practice_healing", // The Baquet (Merged group_healing)
-            "practice_catharsis", // The Crisis
-            "practice_personality_cult", // Franz Mesmer
-            "practice_ecstatic_aesthetic",
-            "practice_intellectual_aesthetic",
-        ],
         Origins: "Paris, 1783; founded by Franz Anton Mesmer to monetize and protect his theories of Animal Magnetism.",
         Beliefs: {
             Magnetic_Fluid:
@@ -6340,16 +4092,6 @@ const dataSocieties = {
     },
 
     Nauvoo_Council_of_Fifty: {
-        tags: [
-            "location_north_america", // Illinois
-            "era_industrial", // 1844
-            "belief_theocracy", // Kingdom of God on Earth
-            "practice_initiation", // Endowment
-            "practice_secrecy", // Oath of Vengeance
-            "practice_personality_cult", // Joseph Smith
-            "belief_christianity",
-            "practice_martial_aesthetics",
-        ],
         Origins: "Nauvoo, Illinois (1844); established by Joseph Smith just months before his assassination.",
         Beliefs: {
             The_Kingdom_of_God:
@@ -6373,18 +4115,6 @@ const dataSocieties = {
     },
 
     Spiritism_Kardecist_Circles: {
-        tags: [
-            "location_europe", // France
-            "era_industrial", // 1850s
-            "belief_reincarnation", // Moral evolution
-            "practice_mediumship", // Seance/Automatic Writing
-            "practice_energy_healing", // Passes
-            "practice_mantra", // Hymns
-            "practice_chant",
-            "practice_prayer",
-            "belief_christianity",
-            "practice_intellectual_aesthetic",
-        ],
         Origins: "France, 1850s; codified by Allan Kardec (Hippolyte Léon Denizard Rivail).",
         Beliefs: {
             Perispirit: "The semi-material envelope of the soul which links the spirit to the body and persists after death.",
@@ -6404,16 +4134,6 @@ const dataSocieties = {
     },
 
     Eulis_Brotherhood: {
-        tags: [
-            "location_north_america", // USA
-            "era_industrial", // 1874
-            "belief_sex_magic", // Sexual Polarity
-            "practice_sex_magic", // Nuptial Moment
-            "practice_sex", // Intercourse
-            "practice_entheogen", // Hashish
-            "practice_carnal_aesthetic",
-            "belief_syncretism",
-        ],
         Origins:
             "Founded c. 1874 by Paschal Beverly Randolph in the USA. It was the 'Interior Order' or inner circle of Randolph's work, distinct from the FRC, and the primary source for modern Western sexual magic. It focused explicitly on the 'Ansairetic Mystery' which Randolph claimed to have learned in the Middle East.",
         Beliefs: {
@@ -6441,17 +4161,6 @@ const dataSocieties = {
     },
 
     Eglise_Gnostique_Catholique: {
-        tags: [
-            "location_europe", // France
-            "era_industrial", // 1890
-            "belief_gnostic_restoration", // Cathar revival
-            "practice_initiation", // Consolamentum
-            "practice_ritual_meal", // Gnostic Mass
-            "practice_chant",
-            "practice_prayer",
-            "belief_christianity",
-            "belief_syncretism",
-        ],
         Origins:
             "Founded 1890 in France by Jules Doinel after a spirit séance in the library of Orléans. This is the church in which René Guénon was consecrated a bishop (Palingenius).",
         Beliefs: {
@@ -6475,17 +4184,6 @@ const dataSocieties = {
     },
 
     Rite_of_Memphis_Misraim: {
-        tags: [
-            "location_europe", // Europe
-            "era_industrial", // 1881
-            "belief_egyptian_masonry", // Arcana Arcanorum
-            "practice_katabasis", // Philosophical Death
-            "practice_hierarchy", // 99 Degrees
-            "practice_initiation", // Pyramid rites
-            "practice_macabre_aesthetic",
-            "belief_syncretism",
-            "practice_intellectual_aesthetic",
-        ],
         Origins:
             "Formed in 1881 by the fusion of two older rites (Memphis and Misraïm) under Giuseppe Garibaldi. It represents the 'Egyptian' current of Freemasonry critiqued by Guénon.",
         Beliefs: {
@@ -6509,15 +4207,6 @@ const dataSocieties = {
     },
 
     Fraternitas_Rosae_Crucis: {
-        tags: [
-            "location_north_america", // USA
-            "era_industrial", // 1858
-            "belief_soul_development", // Volitive Soul
-            "practice_breathwork", // Breathing
-            "practice_altered_state", // Sleep of Sialam
-            "practice_initiation", // Soul consciousness
-            "belief_syncretism",
-        ],
         Origins:
             "Founded c. 1858 by Paschal Beverly Randolph; generally recognized as the oldest Rosicrucian order established in the United States. It established its first Grand Lodge in San Francisco in 1861.",
         Beliefs: {
@@ -6541,16 +4230,6 @@ const dataSocieties = {
     },
 
     Brotherhood_of_Myriam: {
-        tags: [
-            "location_europe", // Italy
-            "era_industrial", // 1896
-            "belief_therapeutic_magic", // Sacred Materialism
-            "practice_healing", // Therapy
-            "practice_communal_work", // Pragmatica
-            "practice_divination", // Mirror rite
-            "practice_intellectual_aesthetic",
-            "belief_syncretism",
-        ],
         Origins:
             "Founded in 1896 in Italy by Giuliano Kremmerz (Ciro Formisano). It is a 'Therapeutic and Magical Brotherhood' focused on reviving the ancient Roman/Egyptian hermetic tradition.",
         Beliefs: {
@@ -6574,15 +4253,6 @@ const dataSocieties = {
     },
 
     UR_Group: {
-        tags: [
-            "location_europe", // Italy
-            "era_modern", // 1927
-            "belief_magic", // Autarchy/Power (Merged magical_idealism)
-            "practice_ceremonial_magic", // Mithraic Rite
-            "practice_astral_projection", // Etheric Double
-            "practice_intellectual_aesthetic",
-            "belief_syncretism",
-        ],
         Origins:
             "Founded c. 1927 in Italy by Julius Evola and Arturo Reghini. A collective of intellectuals seeking to move beyond theory to practical 'Magic as a Science of the Self'.",
         Beliefs: {
@@ -6604,16 +4274,6 @@ const dataSocieties = {
     },
 
     Builders_of_the_Adytum_BOTA: {
-        tags: [
-            "location_north_america", // USA
-            "era_modern", // 1922
-            "belief_kabbalah", // Living Temple
-            "practice_ritual_drama", // Pronaos
-            "practice_meditation", // Sound and Color
-            "practice_chant",
-            "practice_intellectual_aesthetic",
-            "belief_syncretism",
-        ],
         Origins: "Founded in 1922 by Paul Foster Case after he left the Alpha et Omega (Golden Dawn). Later extended by Ann Davies.",
         Beliefs: {
             Ageless_Wisdom: "The belief that Qabalah and Tarot are not human inventions but keys 'written by God upon the face of nature'.",
@@ -6636,15 +4296,6 @@ const dataSocieties = {
     },
 
     Fraternity_of_the_Inner_Light: {
-        tags: [
-            "location_europe", // UK
-            "era_modern", // 1924
-            "belief_occult_history", // Western Mystery Tradition (Merged esoteric_psychology)
-            "practice_ceremonial_magic", // Polarity
-            "practice_visualization", // Patrols
-            "practice_intellectual_aesthetic",
-            "belief_syncretism",
-        ],
         Origins:
             "Founded in 1924 by Dion Fortune (Violet Mary Firth) after her expulsion from the Alpha et Omega. Originally the 'Community of the Inner Light'.",
         Beliefs: {
@@ -6668,17 +4319,6 @@ const dataSocieties = {
     },
 
     Thee_Temple_ov_Psychick_Youth_TOPY: {
-        tags: [
-            "location_europe", // UK
-            "era_modern", // 1981
-            "belief_chaos_magic", // Occulture
-            "practice_sigil_magic", // Sigils (fluids/hair)
-            "practice_transgression", // Psychick TV/Media manipulation
-            "practice_personality_cult", // Genesis P-Orridge
-            "practice_body_modification",
-            "practice_taboobreaking",
-            "practice_carnal_aesthetic",
-        ],
         Origins:
             "Founded in 1981 by Genesis P-Orridge and the industrial band Psychic TV. A key driver of the 'Chaos Magic' and 'Modern Primitive' movements.",
         Beliefs: {
@@ -6700,16 +4340,6 @@ const dataSocieties = {
     },
 
     Brethren_of_Purity: {
-        tags: [
-            "location_middle_east", // Iraq
-            "era_medieval", // 10th Century
-            "belief_neoplatonism", // Microcosm/Macrocosm
-            "practice_feasting", // Feast of Brethren
-            "practice_secrecy", // Epistles
-            "practice_intellectual_aesthetic",
-            "belief_muslim",
-            "belief_syncretism",
-        ],
         Origins: "10th Century Basra (Iraq); the 'Ikhwan al-Safa'. A secret committee of scholars and philosophers.",
         Beliefs: {
             Universalism:
@@ -6732,16 +4362,6 @@ const dataSocieties = {
     },
 
     White_Lotus_Society: {
-        tags: [
-            "location_asia", // China
-            "era_medieval", // Song/Qing
-            "belief_millenarianism", // Kalpa Turning/Maitreya
-            "practice_mantra", // Sutra Recitation
-            "practice_dietary_restriction", // Vegetarian Fast
-            "practice_chant",
-            "practice_fasting",
-            "belief_syncretism",
-        ],
         Origins: "China (Song to Qing Dynasties); a persistent millenarian movement merging Buddhism, Taoism, and Manichaeism.",
         Beliefs: {
             The_Unborn_Mother:
@@ -6765,19 +4385,6 @@ const dataSocieties = {
     },
 
     Abakua: {
-        tags: [
-            "location_north_america", // Cuba
-            "era_industrial", // 1830s
-            "belief_fictive_kinship", // Manliness (Merged brotherhood)
-            "practice_theatricality", // Ireme (Little Devil) costumes
-            "practice_sound_magic", // Voice of Ekue (Secret drum)
-            "practice_procession", // Processional dance
-            "practice_chanting", // Efik songs
-            "practice_chant",
-            "practice_dance",
-            "practice_ecstatic_aesthetic",
-            "belief_syncretism",
-        ],
         Origins: "Cuba (1830s); an all-male fraternity derived from the Ekpe leopard societies of the Calabar region (Nigeria/Cameroon).",
         Beliefs: {
             The_Voice_of_Ekue:
@@ -6797,19 +4404,6 @@ const dataSocieties = {
     },
 
     Hamatsa_Cannibal_Society: {
-        tags: [
-            "location_north_america", // Pacific Northwest
-            "era_preindustrial", // Traditional
-            "belief_animism", // Taming Wild Spirit
-            "practice_violence", // Ritual Abduction (Merged kidnapping)
-            "practice_transgression", // Symbolic Cannibalism
-            "practice_altered_state", // Hamatsa dance
-            "practice_feasting", // Potlatch
-            "practice_dance",
-            "practice_taboobreaking",
-            "practice_ecstatic_aesthetic",
-            "belief_pagan",
-        ],
         Origins: "Pacific Northwest (Kwakwaka'wakw people); the highest ranking secret society of the Winter Ceremonials.",
         Beliefs: {
             Baxbakwalanuksiwe:
@@ -6830,17 +4424,6 @@ const dataSocieties = {
     },
 
     The_Druze: {
-        tags: [
-            "location_middle_east", // Levant
-            "era_medieval", // 11th Century
-            "belief_reincarnation", // Immediate rebirth
-            "practice_secrecy", // Taqiyya (Dissimulation)
-            "practice_communal_worship", // Khalwat
-            "practice_initiation", // Uqqal (Knowers) vs Juhhal
-            "practice_prayer",
-            "belief_muslim",
-            "belief_syncretism",
-        ],
         Origins: "11th Century Levant; an offshoot of Ismaili Islam centered on the divinity of Caliph al-Hakim.",
         Beliefs: {
             Taqiyya: "Strict religious dissimulation; members must hide their true beliefs from outsiders to survive.",
@@ -6860,18 +4443,6 @@ const dataSocieties = {
     },
 
     False_Face_Society: {
-        tags: [
-            "location_north_america", // Iroquois
-            "era_preindustrial", // Traditional
-            "belief_animism", // Living Masks/Healing
-            "practice_purification", // House Cleansing
-            "practice_offering", // Tobacco
-            "practice_dance", // Mask dance
-            "practice_feasting", // Mush feeding
-            "practice_chant",
-            "practice_macabre_aesthetic", // Distorted masks
-            "belief_pagan",
-        ],
         Origins: "Iroquois Confederacy (Haudenosaunee); a medicinal society dedicated to the 'False Face' beings.",
         Beliefs: {
             The_Great_Doctor:
@@ -6892,16 +4463,6 @@ const dataSocieties = {
     },
 
     Poro_and_Sande: {
-        tags: [
-            "location_africa", // West Africa
-            "era_preindustrial", // Traditional
-            "belief_parallel_law", // Gender Governance
-            "practice_body_modification", // Scarification
-            "practice_initiation", // Bush school
-            "practice_dance", // Masked dance
-            "practice_macabre_aesthetic",
-            "belief_pagan",
-        ],
         Origins: "Sierra Leone, Liberia, Guinea; universal initiatory societies that function as the traditional government.",
         Beliefs: {
             The_Bush_Devil: "The spirit of the forest that 'swallows' the initiate (child) and regurgitates them as a fully formed adult.",
@@ -6922,17 +4483,6 @@ const dataSocieties = {
     },
 
     I_Kuan_Tao: {
-        tags: [
-            "location_asia", // China
-            "era_modern", // 1930s
-            "belief_syncretism", // Five Religions
-            "practice_initiation", // Three Treasures (Mantra/Mudra/Point)
-            "practice_divination", // Sand Writing
-            "practice_mantra", // Mantra
-            "practice_chant",
-            "practice_prayer",
-            "belief_syncretism",
-        ],
         Origins: "China (1930s); 'The Way of Pervasive Unity'. Suppressed heavily in mainland China, flourished in Taiwan.",
         Beliefs: {
             Five_Religions_One_Source: "Integrates Buddhism, Taoism, Confucianism, Christianity, and Islam into a single truth.",
@@ -6952,15 +4502,6 @@ const dataSocieties = {
     },
 
     The_Sicarii: {
-        tags: [
-            "location_middle_east", // Judea
-            "era_ancient", // 1st Century
-            "belief_theocracy", // No Lord but God
-            "practice_violence", // Stabbing (Sica)
-            "practice_suicide", // Masada
-            "practice_martial_aesthetics",
-            "practice_crime",
-        ],
         Origins: "1st Century Judea; a splinter group of the Jewish Zealots. Their name comes from the 'sica', a small curved dagger.",
         Beliefs: {
             No_Lord_but_God: "Absolute refusal to recognize Roman rule or any human master. Taxation was viewed as idolatry.",
@@ -6979,16 +4520,6 @@ const dataSocieties = {
     },
 
     The_Peoples_Will_Narodnaya_Volya: {
-        tags: [
-            "location_europe", // Russia
-            "era_industrial", // 1879
-            "belief_nihilism", // Destruction of state
-            "practice_technology", // Dynamite
-            "practice_suicide_mission", // Living Bomb
-            "practice_violence", // Assassination
-            "practice_crime",
-            "practice_martial_aesthetics",
-        ],
         Origins: "Russia, 1879; the grandfather of modern political terrorism. They coined the term 'propaganda of the deed'.",
         Beliefs: {
             Nihilism:
@@ -7008,18 +4539,6 @@ const dataSocieties = {
     },
 
     Weather_Underground_Organization_WUO: {
-        tags: [
-            "location_north_america", // USA
-            "era_modern", // 1969
-            "belief_revolution", // War Home
-            "practice_psychological_torture", // Criticism/Self-Criticism
-            "practice_transgression", // Acid Tests
-            "practice_sexual_liberation", // Smash monogamy/Orgies
-            "practice_sex", // Group sex
-            "practice_violence", // Bombings
-            "practice_crime",
-            "practice_carnal_aesthetic",
-        ],
         Origins:
             "USA, 1969; split from the Students for a Democratic Society (SDS). 'You don't need a weatherman to know which way the wind blows.'",
         Beliefs: {
@@ -7040,23 +4559,6 @@ const dataSocieties = {
     },
 
     Nxivm: {
-        tags: [
-            "location_north_america", // USA
-            "era_modern", // 1998
-            "belief_hedonism", // Joy/Success (Merged ethical_hedonism)
-            "practice_body_modification", // Branding
-            "practice_blackmail", // Collateral (Merged belief_blackmail)
-            "practice_dietary_restriction", // Ready Zero (Starvation)
-            "practice_personality_cult", // Keith Raniere
-            "practice_initiation", // Sash ceremony
-            "practice_sexual_slavery", // DOS
-            "practice_sex", // Coerced sex
-            "practice_abuse", // Physical/Mental
-            "practice_violence", // Branding/Enforcement
-            "practice_corporate_aesthetic",
-            "practice_fasting",
-            "practice_crime",
-        ],
         Origins: "Founded in 1998 by Keith Raniere and Nancy Salzman in Albany, NY. Marketed as 'Executive Success Programs' (ESP).",
         Beliefs: {
             Ethical_Hedonism:
@@ -7081,17 +4583,6 @@ const dataSocieties = {
     },
 
     QAnon: {
-        tags: [
-            "location_global", // Global
-            "era_digital", // 2017
-            "belief_apocalypse", // The Storm
-            "belief_conspiracy", // Great Awakening/Cabal
-            "practice_cryptography", // Decoding drops (Baking)
-            "practice_mantra", // WWG1WGA
-            "practice_personality_cult", // Q
-            "practice_chant",
-            "belief_syncretism",
-        ],
         Origins:
             "Emerged October 2017 on 4chan with posts by 'Q Clearance Patriot'. Represents the first fully decentralized, open-source religion.",
         Beliefs: {
@@ -7114,18 +4605,6 @@ const dataSocieties = {
     },
 
     The_Black_Hand_Unification_or_Death: {
-        tags: [
-            "location_europe", // Serbia
-            "era_industrial", // 1911
-            "belief_nationalism", // Pan-Slavism
-            "practice_secrecy", // Oath of Death
-            "practice_suicide_oath", // Poison
-            "practice_violence", // Assassination
-            "practice_initiation", // Dagger oath
-            "practice_macabre_aesthetic",
-            "practice_martial_aesthetics",
-            "practice_crime",
-        ],
         Origins: "Serbia, 1911 (Crna Ruka). A military secret society formed by officers to unify South Slavs through violence.",
         Beliefs: {
             Pan_Slavism: "The unification of all Serbs into one state is more important than life itself.",
@@ -7144,16 +4623,6 @@ const dataSocieties = {
     },
 
     Synanon: {
-        tags: [
-            "location_north_america", // California
-            "era_modern", // 1958
-            "belief_fabricated_reality", // Act As If
-            "practice_psychological_torture", // The Game (Attack therapy)
-            "practice_violence", // Assaults
-            "practice_body_modification", // Head Shaving
-            "practice_personality_cult", // Charles Dederich
-            "practice_corporate_aesthetic",
-        ],
         Origins: "Founded 1958 in Santa Monica by Charles Dederich. Began as a drug rehab, evolved into a violent cult.",
         Beliefs: {
             Act_As_If: "Behavior modifies thought. If you act happy/obedient, you will become it.",
@@ -7175,18 +4644,6 @@ const dataSocieties = {
     },
 
     Sabeans_of_Harran: {
-        tags: [
-            "location_middle_east", // Turkey
-            "era_medieval", // 8th Century
-            "practice_astral_magic", // Metal Alchemy (Merged belief_astral_magic)
-            "practice_blood_rite", // Planetary Liturgy
-            "practice_divination", // Mystery of Head
-            "practice_astronomy", // Star worship
-            "practice_prayer",
-            "practice_chant",
-            "practice_intellectual_aesthetic",
-            "belief_pagan",
-        ],
         Origins:
             "Harran (modern Turkey), active 8th–11th Century; the 'Pagans of the Book' who preserved Hermetic and Babylonian star-worship under Islamic rule.",
         Beliefs: {
@@ -7214,15 +4671,6 @@ const dataSocieties = {
     },
 
     The_Church_of_Light: {
-        tags: [
-            "location_north_america", // Los Angeles
-            "era_modern", // 1932
-            "practice_divination", // Astrology (Merged belief_astrology)
-            "practice_initiation", // 21 Steps
-            "practice_healing", // Stellar healing
-            "practice_intellectual_aesthetic",
-            "belief_syncretism",
-        ],
         Origins: "Founded in 1932 in Los Angeles by C.C. Zain (Elbert Benjamine); evolved from the earlier 'Brotherhood of Light'.",
         Beliefs: {
             The_Religion_of_the_Stars:
@@ -7245,18 +4693,6 @@ const dataSocieties = {
     },
 
     The_Dogon_Awa_Society: {
-        tags: [
-            "location_africa", // Mali
-            "era_preindustrial", // Traditional
-            "belief_cosmology", // Sirius connection
-            "practice_ritual_movement", // Sigui (60-year walk)
-            "practice_secrecy", // Bush Language
-            "practice_dance", // Dama dance
-            "practice_astronomy", // Sirius cycle
-            "practice_chant",
-            "practice_ecstatic_aesthetic",
-            "belief_pagan",
-        ],
         Origins:
             "Mali (Bandiagara Escarpment); the men's secret society responsible for masks and funeral rites. Famous for their alleged pre-telescopic knowledge of astronomy.",
         Beliefs: {
@@ -7279,18 +4715,6 @@ const dataSocieties = {
     },
 
     Cult_of_Starry_Wisdom: {
-        tags: [
-            "location_fictional", // Lovecraft
-            "era_fictional", // 19th Century
-            "belief_nihilism", // Haunter of Dark
-            "practice_scrying", // Shining Trapezohedron
-            "practice_blood_rite", // Feast of Shadows
-            "practice_violence", // Sacrifice
-            "practice_mantra", // Alien litany
-            "practice_chant",
-            "practice_macabre_aesthetic",
-            "practice_scifi_aesthetics",
-        ],
         Origins:
             "Providence, RI (H.P. Lovecraft / Cthulhu Mythos); a sect founded by Professor Enoch Bowen in 1844 after finding an artifact in Egypt.",
         Beliefs: {
@@ -7313,14 +4737,6 @@ const dataSocieties = {
     },
 
     The_Desposyni: {
-        tags: [
-            "location_europe", // Europe
-            "era_modern", // Modern Mythos
-            "belief_bloodline", // Sangreal (Jesus Bloodline)
-            "practice_secrecy", // Genealogical Keeping
-            "practice_brotherhood", // Secret Guard
-            "belief_christianity",
-        ],
         Origins:
             "Derived from the Greek *desposynos* ('of the Master'); historically refers to the blood relatives of Jesus who argued for dynastic leadership in the early Church. In modern occultism, it refers to the theory that this bloodline migrated to Southern France and Britain, merging with Merovingian royalty.",
         Beliefs: {
@@ -7348,18 +4764,6 @@ const dataSocieties = {
     },
 
     The_Ebionites: {
-        tags: [
-            "location_middle_east", // Judea
-            "era_ancient", // 2nd Century
-            "belief_christianity", // Jesus was human prophet (Merged adoptionism)
-            "practice_dietary_restriction", // Vegetarianism
-            "practice_communal_living", // Synagogues
-            "practice_feasting", // Passover
-            "practice_prayer",
-            "practice_fasting",
-            "practice_poverty",
-            "belief_christianity",
-        ],
         Origins:
             "2nd Century CE; a Jewish-Christian sect known as 'The Poor Ones' (Ebionim). They claimed to follow the original teachings of Jesus handed down to his brother James.",
         Beliefs: {
@@ -7384,17 +4788,6 @@ const dataSocieties = {
     },
 
     Mormon_Fundamentalist_Bloodlines: {
-        tags: [
-            "location_north_america", // Utah
-            "era_industrial", // 19th Century
-            "belief_patriarchy", // Patriarchal Order
-            "practice_sex", // Plural Marriage (Merged polygamy)
-            "practice_secrecy", // Placement
-            "practice_personality_cult", // The Prophet
-            "practice_prayer",
-            "belief_christianity",
-            "belief_syncretism",
-        ],
         Origins:
             "19th Century Utah (splintering from mainstream LDS); rooted in the speculative theology of early leaders like Orson Pratt and Brigham Young regarding the nature of God's family.",
         Beliefs: {
@@ -7420,19 +4813,6 @@ const dataSocieties = {
     },
 
     The_Black_Madonna: {
-        tags: [
-            "location_europe", // Europe
-            "era_medieval", // 11th Century
-            "belief_shadow_work", // Nigredo/Earth Mother
-            "practice_incubation", // Sleeping in crypts
-            "practice_candle_magic", // Green Candle
-            "practice_mantra", // Litanies
-            "practice_chant",
-            "practice_prayer",
-            "practice_macabre_aesthetic",
-            "belief_christianity",
-            "belief_syncretism",
-        ],
         Origins:
             "Middle Ages (11th-12th Century); mysterious statues of the Virgin Mary depicted with dark skin, emerging simultaneously with the Crusades and the rise of the Knights Templar. Famous sites include Chartres, Rocamadour, and Montserrat.",
         Beliefs: {
@@ -7456,20 +4836,6 @@ const dataSocieties = {
     },
 
     Vodou_Ezili_Danto: {
-        tags: [
-            "location_north_america", // Haiti
-            "era_preindustrial", // 18th Century
-            "belief_matriarchy", // Warrior Mother
-            "practice_blood_rite", // Petro Rites (Pig sacrifice)
-            "practice_violence", // Animal sacrifice
-            "practice_body_modification", // Scars
-            "practice_altered_state", // Frenzied dance
-            "practice_mantra", // Songs of rage
-            "practice_dance",
-            "practice_chant",
-            "practice_ecstatic_aesthetic",
-            "belief_syncretism",
-        ],
         Origins:
             "Haiti (18th Century); born from the syncretism of West African spirits and Catholic iconography. The Polish legions sent by Napoleon brought the icon of the Black Madonna of Częstochowa, which enslaved Haitians adopted as Ezili Dantò.",
         Beliefs: {
@@ -7493,19 +4859,6 @@ const dataSocieties = {
     },
 
     Order_of_Phosphorus: {
-        tags: [
-            "location_north_america", // Texas
-            "era_modern", // 2000s
-            "belief_dark_side", // Adversarial Feminine (Merged luciferianism)
-            "practice_sex_magic", // Succubus Rite
-            "practice_sex", // Ritual sex
-            "practice_ceremonial_magic", // Dragon Circle
-            "practice_mantra", // Luciferian chant
-            "practice_chant",
-            "practice_carnal_aesthetic",
-            "practice_macabre_aesthetic",
-            "belief_syncretism",
-        ],
         Origins:
             "Founded in the early 2000s by Michael W. Ford in Houston, Texas; codifying 'Luciferian Witchcraft' as a path of self-illumination.",
         Beliefs: {
@@ -7529,18 +4882,6 @@ const dataSocieties = {
     },
 
     Qliphothic_Qabalah: {
-        tags: [
-            "location_europe", // Spain
-            "era_medieval", // 13th Century
-            "belief_dualism", // Sitra Ahra (Other Side)
-            "practice_katabasis", // Tunnel Work
-            "practice_transgression", // Breaking Vessels
-            "practice_mantra", // Shadow names
-            "practice_chant",
-            "practice_macabre_aesthetic",
-            "practice_taboobreaking",
-            "belief_syncretism",
-        ],
         Origins:
             "13th Century Spain (The Zohar) and 16th Century Safed (Isaac Luria); the study of the 'Shells' (Qliphoth) or the waste-products of creation.",
         Beliefs: {
@@ -7568,18 +4909,6 @@ const dataSocieties = {
     },
 
     The_Sons_of_Freedom_Doukhobors: {
-        tags: [
-            "location_north_america", // Canada
-            "era_industrial", // 1900s
-            "belief_anarchism", // No King but God
-            "practice_transgression", // Nude Marches
-            "practice_fire_ritual", // Burning buildings/Symbols
-            "practice_mantra", // Psalms
-            "practice_chant",
-            "practice_taboobreaking",
-            "practice_poverty",
-            "belief_christianity",
-        ],
         Origins:
             "A radical splinter group of the Russian Doukhobors ('Spirit Wrestlers') who fled to Canada in the early 20th century. They rejected the modernization and compromise of the orthodox Doukhobor community.",
         Beliefs: {
@@ -7604,19 +4933,6 @@ const dataSocieties = {
     },
 
     The_Numbers_Gang_26s_27s_28s: {
-        tags: [
-            "location_africa", // South Africa
-            "era_modern", // Late 19th C.
-            "belief_parallel_law", // Time is Law
-            "practice_body_modification", // Slashed Smile (Glasgow Smile)
-            "practice_ritual_drama", // Court military structure
-            "practice_hazing", // Umbrella test
-            "practice_sexual_slavery", // Wyfies
-            "practice_sex", // Rape/Coercion
-            "practice_violence", // Gang enforcement
-            "practice_crime",
-            "practice_martial_aesthetics",
-        ],
         Origins:
             "South African prison system (late 19th century); rooted in the oral history of 'Nongoloza', a bandit king who lived in caves and established a military code.",
         Beliefs: {
@@ -7653,18 +4969,6 @@ const dataSocieties = {
     },
 
     La_Familia_Michoacana: {
-        tags: [
-            "location_north_america", // Mexico
-            "era_modern", // 2006
-            "belief_divine_justice", // Cartel as religious order
-            "practice_violence", // Rolling Heads on dancefloor
-            "practice_purity_ritual", // Prohibition of drugs for members
-            "practice_personality_cult", // El Mas Loco
-            "practice_crime",
-            "practice_macabre_aesthetic",
-            "practice_prayer",
-            "belief_syncretism",
-        ],
         Origins: "Michoacán, Mexico (2006); a drug cartel founded by Nazario Moreno González ('El Más Loco'), who wrote his own bible.",
         Beliefs: {
             Divine_Justice:
@@ -7687,19 +4991,6 @@ const dataSocieties = {
     },
 
     Five_Percent_Nation_NGE: {
-        tags: [
-            "location_north_america", // Harlem
-            "era_modern", // 1964
-            "belief_numerology", // Supreme Mathematics
-            "practice_secrecy", // Word is Bond
-            "practice_catechism", // Show and Prove
-            "practice_mantra", // Dropping science
-            "practice_personality_cult", // Allah the Father
-            "practice_chant",
-            "practice_intellectual_aesthetic",
-            "belief_syncretism",
-            "belief_muslim",
-        ],
         Origins: "Harlem, NY (1964); founded by Clarence 13X (Allah) after leaving the Nation of Islam.",
         Beliefs: {
             Supreme_Mathematics:
@@ -7730,15 +5021,6 @@ const dataSocieties = {
     },
 
     Pana_Wave_Laboratory: {
-        tags: [
-            "location_asia", // Japan
-            "era_modern", // 1977
-            "belief_science_fiction", // Scalar waves/Communist attack
-            "practice_purity_ritual", // White Cloth covering everything
-            "practice_communal_living", // Caravan
-            "practice_personality_cult", // Yuko Chino
-            "practice_scifi_aesthetics",
-        ],
         Origins: "Japan (1977); a splinter group of the Chino-Shoho, famously active in the early 2000s.",
         Beliefs: {
             Electromagnetic_Warfare: "Communists and UFOs are attacking the leader (Yuko Chino) using harmful 'scalar waves'.",
@@ -7758,17 +5040,6 @@ const dataSocieties = {
     },
 
     Aumism_Mandarom: {
-        tags: [
-            "location_europe", // France
-            "era_modern", // 1969
-            "belief_messianism", // Cosmoplanetary Messiah
-            "practice_ritual_drama", // Laser Liturgy
-            "practice_theatricality", // Lemurian Reenactment
-            "practice_personality_cult", // Gilbert Bourdin
-            "practice_scifi_aesthetics",
-            "practice_ecstatic_aesthetic",
-            "belief_syncretism",
-        ],
         Origins: "Southern France (1969); founded by Gilbert Bourdin (Hamsah Manarah). Famous for the 'Holy City of Mandarom'.",
         Beliefs: {
             The_Cosmic_Messiah:
@@ -7794,16 +5065,6 @@ const dataSocieties = {
     },
 
     Chen_Tao_True_Way: {
-        tags: [
-            "location_north_america", // Texas
-            "era_modern", // 1990s
-            "belief_science_fiction", // Nuclear Reincarnation
-            "practice_ritual_clothing", // White Cowboy Outfits
-            "practice_divination", // Finding God in a ring
-            "practice_personality_cult", // Hon-Ming Chen
-            "practice_scifi_aesthetics",
-            "belief_syncretism",
-        ],
         Origins: "Taiwan/USA (1990s); founded by Hon-Ming Chen. Moved to Garland, Texas, to await God.",
         Beliefs: {
             God_in_Television: "The leader believed God was communicating to him through Channel 18 on his TV set.",
@@ -7824,21 +5085,6 @@ const dataSocieties = {
     },
 
     Movement_for_Restoration_Ten_Commandments: {
-        tags: [
-            "location_africa", // Uganda
-            "era_modern", // 1989
-            "belief_apocalypse", // Virgin Program
-            "practice_secrecy", // Sign Language only/Vow of silence
-            "practice_ritual_suicide", // Sealed Church fire
-            "practice_violence", // Mass murder by fire
-            "practice_personality_cult", // Credonia Mwerinde
-            "practice_macabre_aesthetic",
-            "practice_poverty",
-            "practice_chastity",
-            "practice_prayer",
-            "belief_christianity",
-            "belief_syncretism",
-        ],
         Origins: "Uganda (1989); founded by Credonia Mwerinde and Joseph Kibwetere. Resulted in over 900 deaths in 2000.",
         Beliefs: {
             The_Virgin_Program:
@@ -7859,19 +5105,6 @@ const dataSocieties = {
     },
 
     The_Safed_Circle_Lurianic_Kabbalah: {
-        tags: [
-            "location_middle_east", // Safed
-            "era_preindustrial", // 16th Century
-            "belief_apocalypse", // Shattering of Vessels (Merged cosmic_catastrophe)
-            "belief_messianism", // Repairing the world (Merged tikkun)
-            "practice_katabasis", // Exile (wandering fields)
-            "practice_meditation", // Yihudim (Unifications)
-            "practice_mantra", // Lecha Dodi
-            "practice_chant",
-            "practice_prayer",
-            "practice_fasting",
-            "practice_intellectual_aesthetic",
-        ],
         Origins: `16th Century Safed (Tzfat), Ottoman Palestine (approx. 1570–1572). This period is considered the "Golden Age" of Kabbalah. It was a spiritual "pressure cooker" formed by traumatized exiles from the Spanish Inquisition. The circle was led by the enigmatic "Holy Lion," Isaac Luria (Ha'Ari), and his teachings were later systematized by his scribe, Chaim Vital. They fundamentally reinvented Judaism from a legalistic religion of preservation into a cosmic repair mission.`,
         Beliefs: {
             Tzimtzum_The_Contraction: `The radical idea that God did not create the universe by expanding, but by *withdrawing*. To make space for a finite world, the Infinite (Ein Sof) had to contract into itself, creating a void (Tehiru). Thus, existence is defined by the absence of God, and the goal is to draw the light back in.`,
@@ -7891,17 +5124,6 @@ const dataSocieties = {
     },
 
     Yordei_Merkavah_Hechalot_Mystics: {
-        tags: [
-            "location_middle_east", // Judea
-            "era_ancient", // 200-600 CE
-            "belief_ascent", // Descent is Ascent (Irony)
-            "practice_theurgy", // Seals/Names
-            "practice_meditation", // Posture of Elijah (Head between knees)
-            "practice_mantra", // Hymns of Power
-            "practice_chant",
-            "practice_prayer",
-            "practice_ecstatic_aesthetic",
-        ],
         Origins: `Late Antiquity (approx. 200–600 CE) in Judea and Babylonia. These were the "Swimmers in the Terror," a movement of Jewish mystics who rejected mere scripture study in favor of direct, ecstatic travel to the Throne of God. Their literature (Hekhalot) reads less like theology and more like a technical manual for navigating a hostile heaven.`,
         Beliefs: {
             The_Descent_is_Ascent: `Paradoxically, the mystics called themselves "Yordei Merkavah" (Descenders to the Chariot), implying that the path to the highest heaven involves a journey inward or downward into the terrifying depths of the psyche.`,
@@ -7920,20 +5142,6 @@ const dataSocieties = {
     },
 
     Lev_Tahor: {
-        tags: [
-            "location_global", // Global
-            "era_modern", // 1988
-            "belief_politics", // Rejection of State (Merged anti_zionism)
-            "practice_ritual_clothing", // Burqa-like robes
-            "practice_dietary_restriction", // Hyper Kashrut
-            "practice_arranged_marriage", // Child Marriage
-            "practice_abuse", // Child abuse
-            "practice_personality_cult", // Shlomo Helbrans
-            "practice_prayer",
-            "practice_fasting",
-            "practice_poverty",
-            "practice_chastity", // Strict modesty codes
-        ],
         Origins: `Founded in Jerusalem (1988) by Shlomo Helbrans. The group name means "Pure Heart." They are a peripatetic high-control group, constantly fleeing international authorities (Israel -> USA -> Canada -> Guatemala -> Balkans) due to allegations of child abuse and kidnapping. They view themselves as the only "true" Jews left on earth.`,
         Beliefs: {
             Total_Rejection_of_Zionism: `They believe the State of Israel is a blasphemous rebellion against God's will. They actively dismantle their own identity documents to avoid being "registered" by the Zionist entity.`,
@@ -7952,18 +5160,6 @@ const dataSocieties = {
     },
 
     The_Kabbalah_Centre: {
-        tags: [
-            "location_north_america", // USA
-            "era_modern", // 1965
-            "belief_transhumanism", // Spirituality as Technology (Merged belief_technology)
-            "practice_divination", // Zohar Scanning (Merged bibliomancy)
-            "practice_talismans", // Red String
-            "practice_purity_ritual", // Kabbalah Water
-            "practice_personality_cult", // Philip Berg
-            "practice_corporate_aesthetic",
-            "practice_intellectual_aesthetic",
-            "belief_syncretism",
-        ],
         Origins: `Founded in the US (1965) by Philip Berg (Rav Berg). The Centre broke the centuries-old taboo that Kabbalah was reserved for married Jewish men over 40. Berg repackaged it as a universal wisdom tradition open to everyone—Gentiles, women, and notably, celebrities (Madonna, Demi Moore), turning it into a global brand.`,
         Beliefs: {
             Technology_not_Religion: `The Centre explicitly teaches that Kabbalah is not Judaism or a religion, but a "technology for the soul." It is presented as a universal operating system for reality that predates all religious structures.`,
@@ -7982,18 +5178,6 @@ const dataSocieties = {
     },
 
     Rite_Operatif_de_Salomon: {
-        tags: [
-            "location_europe", // France
-            "era_modern", // 1960s
-            "belief_theurgy", // Ceremonial Magic
-            "practice_divination", // Pendulum
-            "practice_purification", // Ordination
-            "practice_exorcism", // Exorcist rite
-            "practice_prayer",
-            "practice_chant",
-            "belief_christianity",
-            "belief_syncretism",
-        ],
         Origins:
             "France, 1960s-1970s; established by Robert Ambelain. It was created as a schismatic rectification of the Martinist tradition, aiming to restore the lost 'operative' (magical) practices of the original Elus Coëns which Ambelain felt had been diluted into mere mysticism by the Papus lineage.",
         Beliefs: {
@@ -8020,15 +5204,6 @@ const dataSocieties = {
     },
 
     Ordre_Kabbalistique_de_la_Rose_Croix_OKRC: {
-        tags: [
-            "location_europe", // Paris
-            "era_industrial", // 1888
-            "practice_intellectual_aesthetic", // Intellectual Magia (Merged magical_intellectualism)
-            "practice_magical_warfare", // Battles with other orders
-            "practice_initiation", // University-style exams
-            "practice_intellectual_aesthetic",
-            "belief_syncretism",
-        ],
         Origins:
             "Paris, 1888; founded by Stanislas de Guaita and Joséphin Péladan. It was the intellectual epicenter of the French Occult Revival, attracting figures like Papus and Erik Satie.",
         Beliefs: {
@@ -8054,17 +5229,6 @@ const dataSocieties = {
     },
 
     Chevaliers_Bienfaisants_de_la_Cite_Sainte_CBCS: {
-        tags: [
-            "location_europe", // France
-            "era_preindustrial", // 1778
-            "belief_christianity", // Active Christianity (Merged christian_chivalry)
-            "practice_knightly_aesthetic", // Dubbing/Swords
-            "practice_secrecy", // Secret Instructions
-            "practice_charity", // Silent philanthropy
-            "practice_martial_aesthetics",
-            "practice_prayer",
-            "belief_christianity",
-        ],
         Origins:
             "Lyon, France, 1778; created by Jean-Baptiste Willermoz at the Convention of Gauls. It is the rectified survival of the Strict Observance and the 'soft' outer shell of the Martinist current.",
         Beliefs: {
@@ -8090,20 +5254,6 @@ const dataSocieties = {
     },
 
     Rodnovery_Slavic_Native_Faith: {
-        tags: [
-            "location_europe", // Russia, Ukraine, Poland, Belarus
-            "era_modern", // 1990s Revival (Roots in antiquity)
-            "belief_animism", // Living World/Genius Loci
-            "belief_polytheism", // Many Gods, One Rod
-            "belief_ancestral_wisdom", // Cult of the Kin (Rod)
-            "practice_feasting", // Bratina (Ritual Cup)
-            "practice_fire_ritual", // Sacred Fire (Kroda)
-            "practice_divination", // Casting Lots/Horse Oracle
-            "practice_ritual_clothing", // Vyshyvanka (Embroidery)
-            "practice_chant", // Slava (Glorification)
-            "belief_pagan",
-            "practice_ecstatic_aesthetic",
-        ],
         Origins:
             "A decentralized reconstructionist movement emerging intensely in the 1990s across the Slavic world. It rejects the 'Double Faith' (Dvoeverie) of Orthodoxy to return to the 'Old Custom' (Stara Vera). It is not a single church but a tapestry of 'Zhupa' (districts) and 'Obshchina' (communities).",
         Beliefs: {
@@ -8136,18 +5286,6 @@ const dataSocieties = {
     },
 
     Yngliism_Old_Believers: {
-        tags: [
-            "location_europe", // Russia (Omsk/Siberia)
-            "era_modern", // 1992 Foundation
-            "belief_science_fiction", // Paleo-contact/Spaceships
-            "belief_aryan_race", // Four Root Races
-            "belief_dualism", // Light vs Dark Forces
-            "practice_energy_work", // 9 Chakras System
-            "practice_purity_ritual", // Telegony/Blood purity
-            "practice_paramilitary", // Wolf Legions
-            "practice_scifi_aesthetics", // Vaitmanas
-            "belief_racism",
-        ],
         Origins:
             "Founded in Omsk (Asgard-Iry) by Pater Diy (Alexander Khinevich). It claims to be the oldest faith on earth, preserving the 'Slavic-Aryan Vedas' on golden plates hidden in underground Siberian caves. It blends Rodnovery with Ufology, Theosophy, and extreme nationalism.",
         Beliefs: {
@@ -8181,17 +5319,6 @@ const dataSocieties = {
     },
 
     Zadruga_Polish_Nationalists: {
-        tags: [
-            "location_europe", // Poland
-            "era_modern", // 1937 / Modern Revival
-            "belief_nationalism", // Collectivism
-            "belief_vitalism", // Will to Power
-            "practice_intellectual_study", // Stachniuk's writings
-            "practice_symbolism", // Toporzeł (Axe-Eagle)
-            "practice_fictive_kinship", // National Community
-            "practice_martial_aesthetics",
-            "belief_pagan",
-        ],
         Origins:
             "Intellectual movement started by Jan Stachniuk (1937) in Poland; revived by modern nationalist groups (Niklot). It treats Paganism not as religion, but as a 'Metapolitics'.",
         Beliefs: {
@@ -8213,17 +5340,6 @@ const dataSocieties = {
     },
 
     Sylenkoism_RUNVira: {
-        tags: [
-            "location_europe", // Ukraine/USA
-            "era_modern", // 1966
-            "belief_monotheism", // Dazhboh
-            "belief_nationalism", // Ukrainian superiority
-            "practice_chant", // Mantra-like hymns
-            "practice_ritual_clothing", // Embroidered shirts
-            "practice_purity_ritual", // Rejection of alcohol
-            "practice_intellectual_aesthetic",
-            "belief_pagan",
-        ],
         Origins:
             "Founded by Lev Sylenko in the Ukrainian diaspora (USA) in 1966. It rejects 'multi-god' paganism in favor of a reformed monotheistic Slavic faith.",
         Beliefs: {
@@ -8239,6 +5355,367 @@ const dataSocieties = {
         Structure: {
             Teacher_Centric:
                 "Highly centralized around the teachings of the 'Prophet' Sylenko, often clashing with traditional polytheistic Rodnovers.",
+        },
+    },
+
+    The_Mortuary_Cult_of_Ancient_Egypt: {
+        Origins: `Ancient Egypt (Old Kingdom to Ptolemaic Period); centered on the 'Per-Nefer' (The House of Vitality/Embalming Workshop) and the 'Per-Ankh' (The House of Life/Temple Library). It was not merely a religion of death, but a state-sponsored industry of 'Corporate Immortality', where Lector Priests codified the chaotic geography of the Underworld (Duat) into a navigable map, ensuring that death was a survivable technical hurdle rather than a final end.`,
+        Beliefs: {
+            The_Psychostasia_Calculus: `The 'Weighing of the Heart' is a precise magical audit, not a vague moral judgment. The Heart (Ib) is viewed as an independent recording device (a 'black box') that stores every action. It is weighed against the Feather of Ma'at (Cosmic Truth/Isotropy).
+            
+            If the Heart is heavier than the Feather (laden with 'Isfet' or chaos), it is not sent to 'Hell', but is instantly fed to Ammit (The Devourer—a chimera of crocodile, lion, and hippo), resulting in the 'Second Death': absolute, irreversible non-existence. The goal is to be declared 'Maa Kheru' (True of Voice), meaning your magical frequency aligns perfectly with the order of the universe.`,
+
+            The_Mechanics_of_the_Soul_Assembly: `The human entity is a composite machine of five parts that naturally disintegrate at death. The Cult's entire purpose is to ritually bind them back together:
+            1. The Khat (Physical Body): The anchor. It must be transmuted into a 'Sah' (Noble Body) via Natron to last forever.
+            2. The Ka (Vital Spark): The battery. It remains in the tomb and requires physical food offerings to survive.
+            3. The Ba (Personality): The bird-headed avatar that flies out of the tomb by day and returns to the mummy by night.
+            4. The Ren (Name): The distinct address in the cosmic database. To erase a name is to delete the file of the soul.
+            5. The Akh (Transfigured Spirit): The final state—a being of pure light that joins the 'Imperishable Stars' (Circumpolar stars) to orbit the pole forever.`,
+
+            The_Black_Alchemy: `Osiris is venerated as 'Kem' (The Black One), representing the fertile black silt of the Nile inundation, not the darkness of evil. The corpse is treated as a seed planted in the black earth. The ritual application of black resins and unguents is a form of sympathetic magic: by making the body black and preserving it, it mimics the fertile mud from which life sprouts annually.`,
+
+            The_Coming_Forth_by_Day: `Death is a confinement in darkness. The spells (Book of the Dead) are technically 'The Spells for Coming Forth by Day'—passwords and maps that allow the deceased to break the tomb's seal and exist in the sunlight. Without the book, the soul is blind, deaf, and trapped in the earth.`,
+        },
+        Practices: {
+            The_Seventy_Days_of_Becoming: `The embalming process is a strict 70-day ritual cycle mirroring the period the star Sirius (Sothis) disappears from the sky before its heliacal rising.
+            - Days 1-15: The 'Removal of the Useless'. The brain is extracted through the nose with a hooked rod and discarded (viewed as mucus/waste). The internal organs are removed and placed in four Canopic Jars protected by the Four Sons of Horus.
+            - Days 16-52: The 'Desiccation'. The body is buried in a mountain of dry Natron salt. This chemically strips the water (chaos) from the flesh, turning the body into an imperishable leather-like statue.
+            - Days 53-70: The 'Wrapping'. Priests weave amulets into the linen layers at specific chakra points (e.g., the Djed Pillar at the spine for stability, the Tyet Knot at the neck for Isis's protection) to create a magical exoskeleton.`,
+
+            The_Opening_of_the_Mouth_Wep_R: `The supreme animation technology. A statue or mummy is deaf and blind until this ritual is performed.
+            - The Tool: The Sem-Priest uses the 'Netjer-chwy' (Adze), an iron tool shaped like the foreleg of an ox (Ursa Major).
+            - The Act: The priest enters a ritual trance, then touches the adze to the lips, eyes, and ears of the mummy.
+            - The Effect: This cuts the invisible spiritual cords binding the senses. The priest recites: 'My mouth is split open by Ptah... My bonds are loosed by Seth.' This 're-boots' the sensory system, allowing the spirit to physically consume the bread and beer offerings left in the tomb.`,
+
+            The_Negative_Confession: `A forensic legal defense ritual performed in the Hall of Two Truths before 42 Demon-Judges. The deceased does not ask for forgiveness; they assert their perfection to silence the prosecution. You must know the secret name of each Judge to pass.
+            - To the Demon 'Bone-Breaker' from Heracleopolis: 'I have not told lies.'
+            - To the Demon 'Swallower-of-Shades' from the Cavern: 'I have not slain men.'
+            - To the Demon 'Eater-of-Entrails': 'I have not stolen the cakes of the gods.'
+            - To the Demon 'White-Teeth': 'I have not stopped the flow of water (dammed the Nile).'
+            If you falter or show fear, you are consumed.`,
+
+            The_Heart_Scarab_Hack: `A magical fail-safe. Since the heart might betray the owner by confessing secret sins to the Judges, a large green jasper Scarab beetle inscribed with Spell 30B is placed over the mummy's chest.
+            - The Spell: 'O my Heart of my mother! Do not stand against me as a witness! Do not create opposition against me among the assessors! Do not tip the scales!' This acts as a magical silencer or override code for the conscience.`,
+
+            Ushabti_Automation: `To avoid being conscripted into manual labor in the afterlife's agricultural fields (The Field of Reeds), the rich are buried with 'Ushabti' (Answerer) figurines holding tiny hoes and baskets.
+            - The Command: The deceased reads the spell: 'O Ushabti, if Osiris [Name] is called upon to do any work, to cultivate the fields, to irrigate the banks... you shall say: HERE I AM.' The doll magically animates to perform the shift labor while the soul rests.`,
+        },
+        Structure: {
+            The_Kher_Heb_Lector_Priest: `The 'Holder of the Ritual Book'. The supreme magician who usually does not touch the body. He reads the 'Hekau' (Words of Power) from the papyrus scrolls. His voice carries the sonic frequency that changes the reality of the ritual space from a workshop into the Hall of the Gods.`,
+
+            The_Sem_Priest: `The primary officiant who wears the leopard-skin robe. The leopard skin symbolizes the mastery of chaotic forces (Seth). He acts as the son (Horus) resurrecting the father (Osiris). He often sleeps in the tomb (Incubation) to bridge the gap between the living and the dead.`,
+
+            The_Ut_Medj_Embalmers: `The technicians of the 'Wabet' (Place of Purification). They often wear the jackal-mask of Anubis while working. They are surgeons, chemists, and butchers who prepare the vessel. They operate in a liminal space; while wearing the mask, they are not human, they are the god Anubis, and their touch is divine.`,
+        },
+    },
+
+    The_Atenist_Heresy: {
+        Origins: `Founded c. 1353 BCE by Pharaoh Akhenaten (Amenhotep IV) at the purpose-built capital of Akhetaten (Amarna), this movement was not merely a religious reform, but a radical, state-imposed revolution. It was designed to biologically and magically exterminate the old pantheon—specifically the 'Hidden One' (Amun)—in favor of a visible, scientific absolutism.
+        - The Heliopolitan Restoration: Despite what might appear as a "future" inspired vision, Akhenaten was likely an Archaist, not a Futurist. He viewed the dominant cult of Amun and the Osirian Underworld as 'modern' corruptions that had cluttered the religion with demons and darkness. He sought to return to the 'Pure' religion of the 5th Dynasty Pyramid Builders (c. 2400 BCE). His open-air temples were direct copies of the 'Sun Temples' of Abu Ghurab (built by Pharaoh Niuserre), which featured a central Benben stone and no roof. The goal was to bypass 1,000 years of theology to restore the 'Royal Solar Afterlife.' Indeed, in the old pyramid-builder theology, salvation was a vertical event (stellar transfiguration) rather than a subterranean ordeal. Akhenaten sought to eliminate the fear of death by erasing the 'modern' Osirian invention of the Underworld—a terrifying bureaucracy of demons, gatekeepers, and judgment halls that required purchased spells to survive. In his restored vision, there were no dark caves or weighing of hearts; the soul simply ascended on the physical rays of the sun to merge with the cosmic cycle, replacing the complex magic of the priesthood with the direct, life-giving contact of the Aten.
+        - The Mitanni Vector: The 'Aryan Connection' likely arrived via the Royal Harem. Akhenaten's father married Gilukhipa, a princess of the Mitanni Empire (modern Syria), who brought 317 ladies-in-waiting. The Mitanni ruling class were Indo-Iranians who worshiped Vedic deities. The young prince was raised among women who worshiped 'Mitra' (God of Oaths/Light) and 'Surya' (The Sun). This likely introduced the radical concept that God is abstract energy (Agni/Fire) rather than a zoomorphic statue. Akhenaten's 'Great Hymn' mirrors the Rigvedic hymns to Surya, describing the Sun as the 'Eye of Varuna' that oversees all lands, not just Egypt.
+        - The Anti-Clerical Coup: The theological shift provided the legal pretext to defund the Priesthood of Amun, which had become a 'State within a State.' By declaring the visible Sun the only god, the 'Hidden' mysteries of Amun were rendered obsolete. This allowed the Crown to strip the temples of their relevance and seize their vast gold reserves, effectively re-centralizing absolute power in the Pharaoh.`,
+        Beliefs: {
+            The_Physics_of_the_Disc: `Rejection of the anthropomorphic (human-shaped) or zoomorphic (animal-headed) gods. The Divine is purely the 'Aten'—the physical Solar Disc. It is the heat and light that fuels biology. 
+            
+            The theology is exclusive: 'There is no god but the Aten, and Akhenaten is his only prophet.' The common people cannot access God directly; the Aten shines *only* on the King, and the people must worship the King to receive that reflected light.`,
+
+            Maat_as_Hyper_Realism: `The doctrine of 'Living in Truth' (Ankh em Maat) resulted in a jarring artistic shift. Previous Egyptian art idealized the body to freeze it in eternal perfection. Atenism demanded the portrayal of the physical reality of the moment.
+            
+            The King is depicted with a pot-belly, elongated skull, and spindly limbs. This is not caricature; it is theological dogma. To hide the King's physical deformities would be to lie, and lying is an offense against the Light. The 'truth' of the flesh is sacred because the Aten made it that way.`,
+
+            The_Theology_of_Optics: `God is Light; Darkness is the enemy. This reversed thousands of years of Egyptian practice which held that the holy resided in the dark (the Holy of Holies). In Atenism, shadows are places where the god is absent. Therefore, secrecy is abolished. There are no 'hidden mysteries'—everything must be exposed to the glare of the sun.`,
+        },
+        Practices: {
+            The_Great_Erasure: `A programmatic, state-wide magical annihilation. Stone-masons were dispatched to every temple in Egypt with a single order: Hack out the name of 'Amun' and the plural word 'Gods'.
+            
+            This was not just vandalism; it was 'Damnatio Memoriae'. In Egyptian magic, to destroy the written name of a thing is to kill its spirit in the afterlife. The chisels were weapons of spiritual genocide, silencing the old gods by deleting their software from the stone hard-drives of the monuments.`,
+
+            The_Architecture_of_Exposure: `Atenist temples (Gem-Pa-Aten) were designed without roofs. There were no dark sanctuaries.
+            
+            The Ritual of the Open Sky: The Royal Family stood in open courtyards under the blazing midday sun, offering flowers and fruit (which require sunlight to grow) on hundreds of open-air altars. The worship experience was blinding light, heat, and the banishment of all shadow.`,
+
+            The_Domestic_Transfer: `The ban on traditional household protector-gods (like Bes or Taweret) left a spiritual void in the homes of commoners.
+            
+            The solution was the 'Royal Shrine'. Citizens installed altars in their homes not to the Aten directly, but to Akhenaten and Nefertiti. The Royal Family became the 'lens' through which the divine power was focused. Prayers were addressed to the King, begging him to grant the breath of life.`,
+
+            Liturgy_of_the_Great_Hymn: `The central rite involved the recitation of the 'Great Hymn to the Aten', composed by the King himself. It celebrates the solar cycle: when the sun sets, the world dies (a daily apocalypse of fear and lions); when the sun rises, the world is resurrected. It positions the sun as the universal mother/father, stripping away the mythology of Osiris and the Underworld.`,
+        },
+        Structure: {
+            The_High_Priest_King: `Akhenaten abolished the powerful High Priesthood of Amun (who controlled vast wealth). He declared himself the *sole* intermediary. There was no longer a need for a priestly caste to interpret the will of the gods; the King stood directly under the rays of the disc, absorbing the divine intelligence and relaying it to the state.`,
+        },
+    },
+
+    Eliphas_Levi_Circle: {
+        Origins:
+            "Paris, France (mid-19th Century). Born Alphonse Louis Constant, a former Catholic seminarian and socialist radical who turned to occultism in the 1850s. He is credited with the 'Magical Revival,' single-handedly transforming magic from a superstitious medieval remnant into an intellectual 'High Science' compatible with the industrial age.",
+        Beliefs: {
+            The_Astral_Light:
+                "The 'Great Magical Agent'—a fluidic life force that fills the universe (akin to Mesmer's magnetism). The magician does not break laws of nature but learns to manipulate this invisible light through Will and Imagination.",
+            The_Universal_Synthesis:
+                "Lévi was the first to explicitly link the Tarot trumps to the Hebrew alphabet and the Kabbalistic Tree of Life, creating the 'Rosetta Stone' of modern Western occultism.",
+            The_Baphomet:
+                "Not a satanic idol, but the 'Sabbatic Goat'—a hieroglyph of the Absolute. It represents the equilibrium of opposites: human/animal, male/female, solve/coagula, mercy/severity.",
+        },
+        Practices: {
+            Ceremonial_High_Magic:
+                "Lévi re-introduced the necessity of 'The Work'—the use of consecrated tools (wand, sword, cup), robes, and perfumes not for superstition, but to focus the operator's will (e.g., his famous evocation of Apollonius of Tyana in London).",
+            Moral_Equilibrium:
+                "Unlike earlier grimoire traditions focused on treasure hunting, Lévi insisted that the Magus must possess perfect mental balance and sovereignty over their own passions.",
+        },
+        Structure: {
+            The_Publishing_Magus:
+                "Unlike secret societies with lodges, Lévi's 'Order' was disseminated through public books ('Dogma and Ritual of High Magic'), creating a 'school by correspondence' that influenced the Golden Dawn, Pike's Freemasonry, and Blavatsky.",
+        },
+    },
+
+    Mitanni_Indo_Aryan_Cult: {
+        Origins:
+            "Northern Mesopotamia and Syria (c. 1500–1260 BCE); the ruling elite (Maryannu) of the Hurrian-speaking Mitanni Empire. They were an Indo-Aryan warrior caste who introduced the light-spoked chariot to the Near East. Their influence on Egypt was direct: Akhenaten’s father (Amenhotep III) married the Mitanni princess Gilukhipa, who arrived with 317 ladies-in-waiting, likely acting as a 'Trojan Horse' for solar monism and Vedic concepts within the Egyptian royal harem.",
+        Beliefs: {
+            Mitra_Varuna_The_Binders: `
+            The cosmos is held together by 'Rta' (Cosmic Truth/Order), enforced by the twin-gods Mitra and Varuna. 
+            - **Mitra (The Contract):** He is the benevolent, solar aspect of sovereignty who binds men together through friendship, treaties, and the spoken word. He is the 'Lord of Wide Pastures' who ensures peace.
+            - **Varuna (The Binder):** He is the terrible, nocturnal aspect of sovereignty (the night sky) who binds oath-breakers with his 'noose' (pasha). He sees all secret things. 
+            *Insider Logic:* You do not fear the dark because of monsters; you fear the dark because it is Varuna's cloak, and in it, he can see the lies you told during the day. This duality (Light/Contract and Dark/Judgment) likely prefigured the Atenist obsession with 'Living in Truth'.`,
+
+            Surya_The_All_Seeing_Eye: `
+            The Sun (Surya) is not merely a heat-source; it is the 'Eye of Mitra-Varuna'. It is the supreme intelligence that surveys the earth.
+            - **No Secrets:** Because the Sun sees everything, there can be no 'hidden' mysteries (unlike the Egyptian Amun, 'The Hidden One'). True religion must happen in the open air, under the direct gaze of the disc.
+            - **The Chariot-Throne:** The god does not sit in a temple; he rides across the sky. Therefore, the King (his avatar) must also be a charioteer. The act of driving the chariot is a divine imitation (mimesis) of the sun's path across the heavens.`,
+
+            The_Maryannu_Ideology: `
+            'Maryannu' (Young Warrior) is a caste status, not a job. It is achieved through the mastery of the horse (the avatar of Agni/Fire). The horse is the sacred animal that bridges the gap between the speed of the gods and the slowness of men. To control a horse is to control the solar fire.`,
+        },
+        Practices: {
+            The_Kikkuli_Rite_Horse_Asceticism: `
+            Based on the 'Kikkuli Text' (the oldest known manual on horse training), this was not just training but a liturgical discipline lasting 74 days.
+            - **Interval Training:** The horses were subjected to a rigorous regimen of 'loosing' (sprinting) and 'halting', mirroring the expansion and contraction of the breath. 
+            - **The Washing Ritual:** The horses were washed in warm water (unheard of in typical husbandry) and anointed with butter (ghee) to honor the internal fire.
+            - **The Night Vigil:** The trainer had to sleep in the stable with the animal, mixing their sweat with the horse's flank, dissolving the boundary between rider and beast to create the 'Centaur' unit required for war.`,
+
+            Ritual_of_the_Severed_Oath: `
+            Treaties were not signed paper; they were biological binds.
+            - **The Throat-Cutting:** When swearing an oath (e.g., the treaty between Shattiwaza and Suppiluliuma), the participants would slit the throat of a sheep or donkey. They would declare: "If I break this word, may I be cut as this beast is cut." 
+            - **The Witnessing:** The oath was spoken to the mountains, the rivers, and the winds (Vayu), but specifically to the 'Gods of the Oath' (Mitra-Varuna-Indra-Nasatya). To break the word was to invite the collapse of the sky itself.`,
+
+            The_Fire_Guest_Agni: `
+            Fire was not just a tool but a guest (Atithi). 
+            - **The Feeding:** Oil, fat, and grain were poured into the hearth fire morning and evening. The flame's upward direction was the carrier wave transmitting the prayers to the heavens. 
+            - **The Circumambulation:** Worshippers moved around the fire in a clockwise direction (Pradakshina), mimicking the sun's path. This movement aligned the human bio-rhythm with the cosmic rotation.`,
+
+            Chariot_Archery_Meditation: `
+            The warrior practiced shooting arrows from a moving chariot not just for accuracy, but to achieve 'Ekagrata' (One-Pointedness). 
+            - **The Logic:** The chariot shakes and vibrates (Chaos/Samsara); the target is distant. The archer must find the 'still point' within the motion. When Akhenaten is depicted driving his chariot with the rays of the Aten holding him, he is visually quoting this Indo-Aryan concept of the King as the stable axis of a spinning world.`,
+        },
+        Structure: {
+            The_Chariot_Caste: `
+            A strict aristocracy based on the possession of horses and chariots. One could not buy entry; one had to be born into the lineage and survive the 74-day Kikkuli training cycle. They looked down upon infantry (the 'Foot-Dirt') as sub-human.`,
+        },
+    },
+
+    Minoan_Epiphany_Cult: {
+        Origins:
+            "Crete (c. 2000–1450 BCE). A theocratic 'Palace Culture' where there was no separation between the State and the Cult. Unlike the distant sky-gods of the Greeks, the Minoan deity was a palpable, imminent force of nature (The Great Mother/Potnia) who had to be 'summoned' into the physical body of a priestess through ecstatic technique.",
+        Beliefs: {
+            The_Theology_of_Epiphany: `
+            The Goddess is not always present; she must be 'invoked' to appear.
+            - **The Baetyl Calling:** The gods live in stones (Baetyls) and trees. To trigger their presence, one must embrace the wet, cold stone or shake the sacred tree violently. The physical exertion summons the divine spark.
+            - **The Vision:** Religion is not about believing; it is about *seeing*. The goal of all ritual is the 'Epiphany'—the moment the high priestess, under the influence of opium and rhythm, literally transforms into the Goddess before the eyes of the crowd.`,
+
+            The_Bull_as_Earthquake: `
+            The Bull is not just an animal; it is the physical embodiment of the Earth's vibration (Poseidon's precursor).
+            - **The Logic of Leaping:** One does not kill the Bull to conquer it; one *flows* with it. The 'Taurokathapsia' (Bull Leaping) is a ritual of harmonization. By grabbing the horns and somersaulting over the beast, the leaper synchronizes their human rhythm with the chaotic, shaking rhythm of the Earth. It is a dance with the earthquake to prevent the earthquake.`,
+        },
+        Practices: {
+            The_Opium_Communion: `
+            The 'Poppy Goddess' figures reveal the method of trance.
+            - **The Incision:** Priests used specialized bronze blades to score the poppy heads, collecting the milky latex.
+            - **The Smoking:** In the dark, airless crypts (Lustral Basins) of the palace, this substance was consumed to induce a 'waking dream' state where the borders between the human and animal worlds dissolved.`,
+
+            The_Peak_Sanctuary_Bonfire: `
+            At night, fires were lit on mountain peaks (like Mt. Juktas) to answer the stars.
+            - **The Votive Limb:** Pilgrims did not pray with words; they prayed with clay models of detached limbs (arms, legs, phalluses) thrown into the fire. The logic: "Here is a clay leg, Goddess; heal my real leg." It was a medical exchange.`,
+
+            The_Double_Axe_Labrys: `
+            The 'Labrys' is the butterfly of death.
+            - **The Symbolism:** The double-bladed axe represents the phases of the moon (waxing and waning). It was never used for war, only for slaughter. It was the tool that opened the throat of the Bull, releasing the blood that fertilized the earth.`,
+        },
+        Structure: {
+            The_Matriarchal_Theocracy: `
+            Uniquely in the ancient world, the priesthood was dominated by women. Men appear in rituals primarily as cup-bearers or musicians, while the central acts of epiphany and sacrifice are performed by women (the 'Snake Goddesses'). The Palace of Knossos was not a castle; it was a complex theological machine designed to stage these appearances.`,
+        },
+    },
+
+    Phoenician_High_Cult: {
+        Origins: `
+            The Levantine coast (Tyre, Sidon, Byblos) and its western colonies (Carthage, Cádiz). c. 1200–146 BCE. A religion of merchant-princes who viewed the cosmos as a high-stakes marketplace. The gods (Baal, Melqart, Tanit) were the senior partners in the firm, demanding heavy investment for heavy protection. Note that both the Minoans and the Phoenicians cultures were thalassocracies (sea powers). The transmission of the "Dying God" archetype (who dies in summer and returns in spring) likely traveled via these merchant ships, evolving into the Greek Dionysus (who is also linked to the sea and bulls).`,
+        Beliefs: {
+            The_Tophet_Logic_Molk: `
+            The 'Molk' sacrifice is not cruelty; it is the ultimate pious logic. 
+            - **The Most Dear:** You cannot bribe a god with a sheep if you are a King. The gods know the value of things. To save the city from total destruction, you must pay with the currency that hurts the most: your own firstborn.
+            - **The Return:** This is a transaction. "I give you the life of my child; you give me the life of the city." The archaeological ash urns at Carthage prove this was done by the elite, not the poor. It was a tax on the rich.`,
+
+            Melqart_The_King_of_the_City: `
+            Melqart (King of the City) is the patron of colonization.
+            - **The Fire-Death:** Melqart does not die of old age; he burns himself on a pyre to be reborn. This is the 'Egersis' (Awakening).
+            - **The Aniconic Presence:** The gods are too vast to be statues. In the holy of holies, there is no idol—only two empty pillars (Jachin and Boaz style) or an empty throne. To make an image is to limit the god's power.`,
+        },
+        Practices: {
+            The_Marzeah_Feast_of_Shadows: `
+            A ritual banquet for the aristocracy and the 'Rephaim' (Ancestral Shades).
+            - **The Heavy Drinking:** This was not a party; it was a rite. Participants were required to drink wine to the point of stupor/hallucination.
+            - **The Necromancy:** In this drunken state, the boundary between the living and the dead blurred. The ancestors were invited to sit and eat. The goal was to secure their blessing for the family lineage. "Drink until you see the dead."`,
+
+            The_Sacred_Prostitution_Qadishtu: `
+            In the service of Astarte, sexuality was a liturgy.
+            - **The Stranger:** Herodotus and others describe the rite where women would sit in the temple precinct and wait for a stranger to toss a silver coin into their lap.
+            - **The Logic:** The coin is sacred to the Goddess. The act of sex with a stranger (who might be a god in disguise) removes the woman's individual ego and dedicates her fertility to the city. It is an act of civic duty, not lust.`,
+
+            Foundation_Rites: `
+            No colony (like Carthage) could be founded without transporting the 'Fire of Tyre'.
+            - **The Ember:** A literal coal from the altar of Melqart in Tyre was kept burning on the ship for weeks, then used to light the first altar in the new city. This ensured the new city was legally and spiritually an extension of the mother-city.`,
+        },
+        Structure: {
+            The_Merchant_Priesthood: `
+            Priests (Kohanim) were often drawn from the royal family (e.g., Pygmalion of Tyre). They were clean-shaven (unlike the bearded Assyrians), wore white linen, and avoided pork. They functioned as both theologians and bankers, as the temples served as the secure vaults for the city's gold reserves.`,
+        },
+    },
+
+    Cult_of_Baal_Ugarit: {
+        Origins:
+            "Ancient Syria (Ras Shamra), c. 1500–1200 BCE. The theological bridge between the Sumerians and the Hebrews. Ugarit was a cosmopolitan port city where the 'Baal Cycle' was written.",
+        Beliefs: {
+            The_Cosmic_Combat:
+                "Order is not static; it is a constant violent struggle. Baal (The Storm/Rain) must perpetually fight Yam (The Sea/Chaos) and Mot (Death/Drought). If Baal sleeps, the rains stop and civilization dies.",
+            The_Violent_Virgin:
+                "Veneration of Anat, the sister-wife of Baal. Unlike the nurturing mother archetype, Anat is a warrior who 'wades knee-deep in the blood of soldiers' and wears a necklace of severed heads to protect her brother. She represents the ferocious defense of life.",
+            Window_of_the_Heavens:
+                "Baal refused to have a window in his palace aimed at the sea (Yam), fearing the ocean would flood in. This is an architectural metaphor for the fear of the uncontrollable subconscious/chaos.",
+        },
+        Practices: {
+            Ritual_Lamentation:
+                "When Baal 'dies' (summer drought), the High King and priests descend from the throne, sit on the ground, pour dust on their heads, and gash their skin with stones (precursor to the forbidden practices in Leviticus).",
+            Feeding_the_Dead:
+                "The 'Marzeah' feast. A heavy drinking ritual held in the family tomb to comfort the 'Rephaim' (Ancestors). It was believed that inebriation thinned the veil, allowing the living and dead to dine together.",
+        },
+        Structure: {
+            Royal_Priesthood:
+                "The King was the chief ritualist. The collapse of the Bronze Age (Sea Peoples) destroyed Ugarit, but its theology survived to become the primary rival of Yahweh in the Bible.",
+        },
+    },
+
+    Cult_of_Marduk_Babylon: {
+        Origins:
+            "Babylon, c. 18th Century BCE – 1st Century BCE. Rose to prominence under Hammurabi. Marduk began as a minor agricultural deity but absorbed the powers of all other gods (The 50 Names) to become the 'Bel' (Lord).",
+        Beliefs: {
+            Order_out_of_Tiamat:
+                "Creation is an act of violence. Marduk slew the chaos-dragon Tiamat, split her corpse in two, and used half to make the sky and half to make the earth. Therefore, the physical world is made of the 'dead body of chaos' and requires constant law/magic to prevent it from rotting back into disorder.",
+            Tablets_of_Destiny:
+                "The supreme authority in the universe is legalistic. Whoever holds the 'Tablets of Destiny' (software of the cosmos) controls the future. Marduk wears them on his breast, signifying that Fate is not random but governed by Law.",
+            Mankind_as_Servant:
+                "Humans were created from the blood of the traitor-god Qingu solely to perform manual labor for the gods. There is no 'love' from the gods, only a master-servant contract.",
+        },
+        Practices: {
+            Akitu_New_Year_Festival:
+                "The most complex ritual of antiquity (12 days). The High Priest (Sheshgallu) strips the King of his regalia, slaps him across the face, and pulls his ears. If the King cries, Marduk is pleased. It acts as a ritual humiliation to remind the monarch he is merely a steward.",
+            The_Procession_of_Ships:
+                "Statues of the gods traveled by boat along the Euphrates to visit Marduk in his temple (Esagila), simulating a 'parliament of gods' convening to determine the fate of the coming year.",
+            Scapegoat_Rite:
+                "A criminal or a goat was often used to physically absorb the 'sins' or entropy of the city and was driven out into the desert or executed to cleanse the community.",
+        },
+        Structure: {
+            Astronomical_Bureaucracy:
+                "The priesthood invented the Zodiac and mathematical astronomy not for science, but for divination. They viewed the sky as the 'Script of Heaven' (Shitir Shame), believing that if they could read the code, they could petition the King for changes.",
+        },
+    },
+
+    Second_Temple_Order: {
+        Origins:
+            "Judea, c. 516 BCE – 70 CE. Following the return from Babylon, the Jewish priesthood established a highly centralized 'Hierocracy' (Rule of Priests) in Jerusalem. To maintain national cohesion without a King, they developed a complex rotation system that bound every citizen to the Temple schedule.",
+        Beliefs: {
+            Holiness_of_Time:
+                "Space is static, but Time is dynamic. While other cults focused on holy statues (Idolatry), this order focused on holy moments. The Sabbath and the specific hours of sacrifice created a 'Sanctuary in Time' that could be accessed anywhere.",
+            The_Unbroken_Chain:
+                "The universe is sustained by the daily Tamid offering. If the smoke ceases to rise from the altar, creation unravels. Therefore, the reliability of the ritual is more important than the intent of the individual.",
+        },
+        Practices: {
+            The_Maamadot_Standing_Posts:
+                "A mechanism to democratize the cult. While Priests sacrificed in Jerusalem, a rotating cohort of laypeople (Israelites) in distant towns would gather to fast and recite the Genesis creation narrative. This synchronized 'remote participation' ensured the sacrifice belonged to the whole nation, not just the clergy.",
+            Yom_Kippur_Avodah:
+                "The High Priest enters the Holy of Holies alone. He pronounces the Ineffable Name (YHWH) ten times. The crowd prostrates instantly upon hearing it. It is a ritual of reset—wiping the collective hard drive of sin for the year.",
+        },
+        Structure: {
+            The_24_Mishmarot:
+                "The priesthood was not a monolithic mass but divided into 24 'courses' or families. Each served for one week, twice a year. This rotation prevented any single faction from seizing total control of the Temple treasury and politics.",
+        },
+    },
+
+    Essenes_Qumran_Sect: {
+        Origins:
+            "Judean Desert (Qumran), c. 150 BCE – 68 CE. A radical separatist group who believed the Jerusalem priesthood was corrupt. They retreated to the desert to live in 'Perfect Holiness' as the 'Sons of Light' waiting for the Apocalypse.",
+        Beliefs: {
+            Sons_of_Light_vs_Darkness:
+                "The world is strictly divided. You are either predestined for Light or Darkness. There is no gray area, and most of humanity (including lax Jews) are doomed.",
+            Teacher_of_Righteousness:
+                "They followed a mysterious figure who interpreted the Law with absolute authority, opposing the 'Wicked Priest' in Jerusalem. This figure is a clear structural prototype for the later concept of a Messiah.",
+            Ritual_Purity:
+                "Water does not wash away sin, but it marks the repentance of the righteous. They immersed themselves daily in Mikvaot (ritual baths) to maintain a state of 'super-purity' capable of hosting the Holy Spirit.",
+        },
+        Practices: {
+            Communal_Living:
+                "Private property was abolished. Upon joining, you handed over all wealth to the community overseer. They ate together in silence, regarding their meal as a Temple sacrifice.",
+            Solar_Calendar:
+                "They rejected the lunar calendar of the Jerusalem Temple, believing it celebrated God's feasts on the wrong days. They used a 364-day solar calendar to ensure festivals always fell on the same day of the week.",
+        },
+        Structure: {
+            Strict_Hierarchy:
+                "Rigid structure of Priests (Sons of Zadok), Levites, and Laity. Rank was determined annually by a spiritual review. Lower-ranking members could defile higher-ranking members just by touch.",
+        },
+    },
+
+    The_Nazarenes_Jewish_Christians: {
+        Origins:
+            "Jerusalem/Galilee, c. 30 CE – 400 CE. The original followers of 'Yeshua the Nazarene.' Led initially by James the Just (the brother of Jesus). They were fully Jewish, worshipped at the Temple, and kept the Mosaic Law.",
+        Beliefs: {
+            Yeshua_as_Messiah_not_God:
+                "They viewed Jesus as the promised Messiah and a mighty prophet who revived the Law, but likely *not* as the literal 'God Incarnate' or Second Person of a Trinity. He was the human son of Joseph and Mary chosen by God.",
+            Adherence_to_Torah:
+                "Faith in Jesus did not exempt you from the Law; it obligated you to keep it perfectly. Circumcision, kosher dietary laws, and the Sabbath were non-negotiable.",
+            Poverty_as_Virtue:
+                "Calling themselves 'The Poor' (Ebionim), they believed that wealth was an obstacle to the Kingdom. James's epistle (in the NT) reflects this fierce class-warfare theology.",
+        },
+        Practices: {
+            Vegetarianism:
+                "Many traditions (Ebionites) rejected animal sacrifice and meat-eating, believing Jesus came to end the shedding of blood in the Temple.",
+            Rejection_of_Paul:
+                "They viewed Paul of Tarsus not as a saint, but as an 'Apostate from the Law'—a dangerous heretic who was leading the nations astray by telling them they didn't need to be circumcised.",
+        },
+        Structure: {
+            Dynastic_Leadership:
+                "The 'Desposyni' (Heirs of the Lord). The movement was initially led by the blood relatives of Jesus (James, then Simeon), functioning like a Caliphate of the Holy Family.",
+        },
+    },
+
+    Pauline_Christianity: {
+        Origins:
+            "The Mediterranean Diaspora (Antioch, Corinth, Rome), c. 50 CE – Present. The brand of faith shaped by Paul's vision of a 'Cosmic Christ' rather than the historical Jewish Messiah. This is the version that became the Roman State Religion.",
+        Beliefs: {
+            Supersessionism_of_Law:
+                "The radical idea that the Death of Christ fulfilled and *ended* the Mosaic Law. Believers are no longer under the 'Curse of the Law' but under the 'Grace of the Spirit.' Circumcision is replaced by Baptism of the heart.",
+            The_Cosmic_Christ:
+                "Paul focuses almost zero attention on Jesus's earthly life/parables. His focus is on the Metaphysical Christ—the pre-existent Son of God whose death alters the ontological fabric of the universe.",
+            Justification_by_Faith:
+                "One is saved not by doing (Works/Law) but by believing (Faith). This democratized the religion, allowing Gentiles to join without the painful/cultural barrier of circumcision.",
+        },
+        Practices: {
+            The_Eucharist:
+                "Paul transformed the Jewish Passover Seder into a distinct sacramental ritual where believers consume the 'Body and Blood,' unifying the disparate Gentile communities into one 'Body of Christ.'",
+            Speaking_in_Tongues:
+                "Emphasis on charismatic spiritual gifts (Glossolalia) as proof of the Spirit's presence, replacing the 'Works of the Law' as the marker of holiness.",
+        },
+        Structure: {
+            The_Network_Ecclesia:
+                "Paul built a franchise model. Independent house churches connected by traveling overseers (Apostles) and circulating letters (Epistles). This flexible structure allowed it to outpace the centralized Jerusalem sect.",
         },
     },
 }
