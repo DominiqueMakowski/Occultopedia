@@ -1107,12 +1107,6 @@ const imagesManifest = {
         "Builders_of_the_Adytum_BOTA_2.jpg",
         "Builders_of_the_Adytum_BOTA_3.png"
     ],
-    "Brotherhood_of_Eulis": [
-        "Brotherhood_of_Eulis_0.jpg",
-        "Brotherhood_of_Eulis_1.jpg",
-        "Brotherhood_of_Eulis_2.jpg",
-        "Brotherhood_of_Eulis_3.png"
-    ],
     "UR_Group": [
         "UR_Group_0.png",
         "UR_Group_1.png",
@@ -1408,5 +1402,125 @@ const imagesManifest = {
         "Ordre_Kabbalistique_de_la_Rose_Croix_OKRC_1.jpg",
         "Ordre_Kabbalistique_de_la_Rose_Croix_OKRC_2.jpg",
         "Ordre_Kabbalistique_de_la_Rose_Croix_OKRC_3.jpg"
+    ],
+    "Sylenkoism_RUNVira": [
+        "Sylenkoism_RUNVira_0.png",
+        "Sylenkoism_RUNVira_1.png",
+        "Sylenkoism_RUNVira_2.png",
+        "Sylenkoism_RUNVira_3.png"
+    ],
+    "Second_Temple_Order": [
+        "Second_Temple_Order_0.jpg",
+        "Second_Temple_Order_1.jpg",
+        "Second_Temple_Order_2.jpg",
+        "Second_Temple_Order_3.jpg"
+    ],
+    "The_Atenist_Heresy": [
+        "The_Atenist_Heresy_0.jpg",
+        "The_Atenist_Heresy_1.jpg",
+        "The_Atenist_Heresy_2.jpg",
+        "The_Atenist_Heresy_3.png"
+    ],
+    "The_Nazarenes_Jewish_Christians": [
+        "The_Nazarenes_Jewish_Christians_0.jpg",
+        "The_Nazarenes_Jewish_Christians_1.jpg",
+        "The_Nazarenes_Jewish_Christians_2.png",
+        "The_Nazarenes_Jewish_Christians_3.jpg"
+    ],
+    "Cult_of_Marduk_Babylon": [
+        "Cult_of_Marduk_Babylon_0.png",
+        "Cult_of_Marduk_Babylon_1.png",
+        "Cult_of_Marduk_Babylon_2.png",
+        "Cult_of_Marduk_Babylon_3.png"
+    ],
+    "Pauline_Christianity": [
+        "Pauline_Christianity_0.jpg",
+        "Pauline_Christianity_1.jpg",
+        "Pauline_Christianity_2.jpg",
+        "Pauline_Christianity_3.png"
+    ],
+    "Zadruga_Polish_Nationalists": [
+        "Zadruga_Polish_Nationalists_0.png",
+        "Zadruga_Polish_Nationalists_1.png",
+        "Zadruga_Polish_Nationalists_2.jpg",
+        "Zadruga_Polish_Nationalists_3.jpg"
+    ],
+    "Rodnovery_Slavic_Native_Faith": [
+        "Rodnovery_Slavic_Native_Faith_0.jpg",
+        "Rodnovery_Slavic_Native_Faith_1.jpg",
+        "Rodnovery_Slavic_Native_Faith_2.png",
+        "Rodnovery_Slavic_Native_Faith_3.jpg"
+    ],
+    "Minoan_Epiphany_Cult": [
+        "Minoan_Epiphany_Cult_0.jpg",
+        "Minoan_Epiphany_Cult_1.jpg",
+        "Minoan_Epiphany_Cult_2.jpg",
+        "Minoan_Epiphany_Cult_3.png"
+    ],
+    "Brotherhood_of_the_White_Temple": [
+        "Brotherhood_of_the_White_Temple_1.jpg"
+    ],
+    "Priory_of_Sion": [
+        "Priory_of_Sion_0.jpg",
+        "Priory_of_Sion_1.jpg",
+        "Priory_of_Sion_2.png"
+    ],
+    "Essenes_Qumran_Sect": [
+        "Essenes_Qumran_Sect_0.jpg",
+        "Essenes_Qumran_Sect_1.jpg",
+        "Essenes_Qumran_Sect_2.png",
+        "Essenes_Qumran_Sect_3.jpg"
+    ],
+    "Phoenician_High_Cult": [
+        "Phoenician_High_Cult_0.jpg",
+        "Phoenician_High_Cult_1.jpg",
+        "Phoenician_High_Cult_2.jpg",
+        "Phoenician_High_Cult_3.jpg"
+    ],
+    "Eliphas_Levi_Circle": [
+        "Eliphas_Levi_Circle_0.png",
+        "Eliphas_Levi_Circle_1.jpg",
+        "Eliphas_Levi_Circle_2.png",
+        "Eliphas_Levi_Circle_3.jpg"
+    ],
+    "Yngliism_Old_Believers": [
+        "Yngliism_Old_Believers_0.png",
+        "Yngliism_Old_Believers_1.png",
+        "Yngliism_Old_Believers_2.png",
+        "Yngliism_Old_Believers_3.png"
+    ],
+    "Mitanni_Indo_Aryan_Cult": [
+        "Mitanni_Indo_Aryan_Cult_0.png",
+        "Mitanni_Indo_Aryan_Cult_1.png",
+        "Mitanni_Indo_Aryan_Cult_2.jpg",
+        "Mitanni_Indo_Aryan_Cult_3.jpg"
+    ],
+    "I_AM_Activity": [
+        "I_AM_Activity_1.jpg",
+        "I_AM_Activity_2.jpg",
+        "I_AM_Activity_3.jpg"
+    ],
+    "Cult_of_Baal_Ugarit": [
+        "Cult_of_Baal_Ugarit_0.jpg",
+        "Cult_of_Baal_Ugarit_1.png",
+        "Cult_of_Baal_Ugarit_2.jpg",
+        "Cult_of_Baal_Ugarit_3.jpg"
+    ],
+    "Daoist_Bedchamber_Arts_Fangzhong_Shu": [
+        "Daoist_Bedchamber_Arts_Fangzhong_Shu_0.jpg",
+        "Daoist_Bedchamber_Arts_Fangzhong_Shu_1.jpg",
+        "Daoist_Bedchamber_Arts_Fangzhong_Shu_2.jpg",
+        "Daoist_Bedchamber_Arts_Fangzhong_Shu_3.jpg"
+    ],
+    "The_Great_White_Brotherhood_Omraam": [
+        "The_Great_White_Brotherhood_Omraam_0.jpg",
+        "The_Great_White_Brotherhood_Omraam_1.jpg",
+        "The_Great_White_Brotherhood_Omraam_2.png",
+        "The_Great_White_Brotherhood_Omraam_3.jpg"
+    ],
+    "The_Mortuary_Cult_of_Ancient_Egypt": [
+        "The_Mortuary_Cult_of_Ancient_Egypt_0.jpg",
+        "The_Mortuary_Cult_of_Ancient_Egypt_1.jpg",
+        "The_Mortuary_Cult_of_Ancient_Egypt_2.jpg"
     ]
 };

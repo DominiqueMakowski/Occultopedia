@@ -4497,4 +4497,92 @@ const dataTags = {
         endDate: 2024,
         inspiredBy: ["The_Nazarenes_Jewish_Christians", "Mithraic_Mysteries"], // Influenced by Mystery Cults?
     },
+
+    The_Great_White_Brotherhood_Omraam: {
+        tags: [
+            "location_europe", // France (Bonfin Center)
+            "era_modern", // 1937
+            "belief_syncretism", // Solar Christianity/Esotericism
+            "belief_universalism", // Pan-humanism/Citizen of the Cosmos
+            "belief_ascended_masters", // The Great White Lodge
+            "practice_solar_worship", // Surya Yoga (Sunrise gazing)
+            "practice_meditation", // Laser meditation
+            "practice_dance", // Paneurhythmy (Sacred circle dance)
+            "practice_communal_living", // Brotherhood centers
+            "practice_dietary_restriction", // Vegetarianism/Nutrition as Yoga
+            "practice_chant", // Mystic songs of Peter Deunov
+            "practice_prayer",
+            "practice_ecstatic_aesthetic",
+            "belief_christianity", // Esoteric Christianity
+        ],
+        startDate: 1937,
+        endDate: null,
+        inspiredBy: ["Bogomils", "Theosophical_Society"],
+    },
+
+    Daoist_Bedchamber_Arts_Fangzhong_Shu: {
+        tags: [
+            "location_asia", // China
+            "era_ancient", // c. 200 BCE (Mawangdui Texts)
+            "belief_taoism", // Harmony of Yin and Yang
+            "belief_vitalism", // Jing (Essence) conservation
+            "belief_alchemy", // Internal Alchemy (Neidan)
+            "practice_sex_magic", // Coitus Reservatus/Huanjing Bunao (Return Essence to Brain)
+            "practice_sex", // Sexual cultivation
+            "practice_breathwork", // Qi circulation during intercourse
+            "practice_health", // Yangsheng (Nourishing Life)
+            "practice_dietary_restriction", // Often paired with dietary regimes
+            "practice_taboobreaking", // Often suppressed by Confucian morality
+            "practice_carnal_aesthetic",
+        ],
+        startDate: -200,
+        endDate: null,
+        inspiredBy: ["Taoist_Internal_Alchemy"],
+    },
+
+    Brotherhood_of_the_White_Temple: {
+        tags: [
+            "location_north_america", // Colorado (Shamballa Ashrama)
+            "era_modern", // Founded c. 1930
+            "belief_ascended_masters", // Contact with Masters (e.g., Kut Humi)
+            "practice_communal_living", // The Shamballa Ashrama community
+            "practice_survivalism", // Built concrete bunkers for nuclear war
+            "practice_dietary_restriction", // Strict vegetarianism often encouraged
+        ],
+        startDate: 1930,
+        endDate: null,
+        inspiredBy: ["Theosophical_Society", "Martinist_Order"],
+    },
+
+    Priory_of_Sion: {
+        tags: [
+            "location_europe", // France (Annemasse/Rennes-le-Château)
+            "era_modern", // Registered 1956 (Claimed Ancient 1099)
+            "belief_gnosis", // Johannite Christianity / Anti-Vatican
+            "belief_sacred_feminine", // Mary Magdalene as the Holy Grail
+            "practice_cryptography", // Encoding secrets in art/maps (Poussin)
+            "practice_ritual_drama", // "Cutting of the Elm"
+            "practice_genealogy", // Fabrication of lineage documents
+            "practice_pilgrimage", // Sacred sites in the Languedoc
+            "belief_conspiracy", // Shadow government controlling history
+        ],
+        startDate: 1956,
+        endDate: null,
+        inspiredBy: ["Knights_Templar_Historical", "Societas_Rosicruciana_in_Anglia", "Cathars_Albigensians", "Freemasonry"],
+    },
+
+    I_AM_Activity: {
+        tags: [
+            "location_north_america", // Chicago / Mt. Shasta
+            "era_modern", // 1930s - Present
+            "belief_ascended_masters", // Saint Germain, Jesus, Mighty Victory
+            "belief_nationalism", // America as the Divine Cup
+            "practice_chant", // High-speed "Decrees"
+            "practice_visualization", // The Chart of the Presence / Tube of Light
+            "practice_dietary_restriction", // Vegetarian / No alcohol / No garlic
+        ],
+        startDate: 1930,
+        endDate: null,
+        inspiredBy: ["Theosophical_Society"],
+    },
 }
