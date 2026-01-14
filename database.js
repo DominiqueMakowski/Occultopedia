@@ -1021,14 +1021,14 @@ const dataSocieties = {
 
     Ordo_Templi_Orientis_OTO: {
         Origins:
-            "Originally founded c. 1900 in Germany; reshaped by Aleister Crowley after the reception of 'The Book of the Law' (Liber AL vel Legis) in Cairo, 1904. It claims to possess the wisdom of earlier Masonic and Gnostic traditions, reframed for the 'New Aeon' of Horus.",
+            "Originally founded c. 1900 in Germany by Carl Kellner and Theodor Reuss as a Masonic academy; revolutionized and reshaped by Aleister Crowley after 1912 (and his acceptance of the Law of Thelema) to serve as the first social order of the New Aeon. Crowley claimed having received 'The Book of the Law' (Liber AL vel Legis) in Cairo, 1904, claiming to possess the wisdom of earlier Masonic and Gnostic traditions, reframed for the 'New Aeon' of Horus.",
         Beliefs: {
             The_Law_of_Thelema:
-                "The central axiom is 'Do what thou wilt shall be the whole of the Law' and 'Love is the law, love under will'. This is interpreted not as license, but as the mandate to discover and fulfill one's unique 'True Will'.",
+                "The central axiom is 'Do what thou wilt shall be the whole of the Law' (AL I:40) and 'Love is the law, love under will' (AL I:57). This is not a license for hedonism, but a mandate for 'True Will'—the singular, geometric trajectory of an individual's life that aligns perfectly with the inertia of the Universe. To deviate from this path is the only 'sin'.",
             Cosmology_of_the_Aeon:
-                "Reality is explained through the interplay of Nuit (Infinite Space/Stars), Hadit (the atomic point of individual experience), and Ra-Hoor-Khuit (the visible, active aspect of Horus). The current era (Aeon of Horus) replaces the previous Aeon of Osiris (patriarchal/dying god) with one of 'crowned and conquering' individual growth.",
+                "Reality is explained through the interplay of Nuit (Infinite Space/Stars), Hadit (the atomic point of individual experience/motion), and Ra-Hoor-Khuit (the visible, active aspect of Horus). The current era (Aeon of Horus) replaces the previous Aeon of Osiris (patriarchal/dying god/guilt) with one of 'crowned and conquering' individual growth.",
             The_Gnostic_Creed:
-                "Confession of belief in 'Chaos' (the Father of Life), 'Babalon' (the Mother of Earth/Womb), and 'Baphomet' (the Serpent and Lion, Mystery of Mystery).",
+                "A specific creed recited in the Mass asserting belief in 'Chaos' (the sole Vice-Regent of the Sun/Father of Life), 'Babalon' (the Mother of Earth/Womb), and 'Baphomet' (the Serpent and Lion, Mystery of Mystery, the Child of their union). It replaces the Christian Trinity with a generative biological/alchemical formula.",
             Babalon_The_Scarlet_Woman: `
             Babalon (156) is the Goddess of the New Aeon, representing the liberated female sexual impulse and the 'Great Mother' who accepts all.
             - **The Gematria:** Her name is spelled BABALON (not Babylon) to equal the number 156 in the Hebrew Qabalah. This formula corresponds to 'Zion' and the number of 'cheth' (The Chariot/Fence). 156 is the 'formula of the physical manifestation of the scarlet woman.'
@@ -1038,8 +1038,11 @@ const dataSocieties = {
                 "A brotherhood that blends aristocracy with mutual aid. The 'Twelve Houses' system outlines duties such as preferential business dealings among members, internal arbitration of disputes (forbidding external lawsuits), and treating the death of a Brother as a cause for feasting and rejoicing rather than melancholy.",
         },
         Practices: {
-            Gnostic_Mass_Liber_XV:
-                "The central public ritual. The officers are the Priest (bearing the Sacred Lance), the Priestess (Virgo Intacta or dedicated, bearing the Sword and Paten), and the Deacon (bearing The Book of the Law). The ritual involves the 'Mystic Marriage' of the Priest and Priestess, symbolizing the union of the lance and the cup.",
+            Gnostic_Mass_Liber_XV: `
+            The central public ritual, designed to function as a magical engine for the congregation. 
+            - **The Set:** The Temple features a 'High Altar' in the East (with the Stele of Revealing and the Supernal Triangle) and a 'Tomb' in the West.
+            - **The Officers:** The Priest (Chaos/Hadit/Male) bears the Sacred Lance (Will). The Priestess (Babalon/Nuit/Female) sits naked upon the High Altar with a sword, embodying the Holy Grail. The Deacon (Logic/Mercury) reads the Law.
+            - **The Operation:** The ritual is a dramatic enactment of the 'Mystic Marriage'. The Priest ritually breaks the seal of the Priestess (using the Lance upon the Cup). He does not consume the Eucharist alone; he creates it through the union of the Lance (Fire) and Cup (Water), then feeds the 'communicants' (the congregation) one by one.`,
             The_Cakes_of_Light:
                 "The Eucharist of the Mass. These are small cakes baked from meal, honey, leavings of red wine, oil of Abramelin, and fresh blood (symbolically or literally 'of the moon', 'of a child', or 'of the priest'). They are consumed to introduce the 'virtues to the Brethren'.",
             Feasts_of_the_Times:
@@ -2814,10 +2817,24 @@ const dataSocieties = {
                 "The motto is 'The method of science, the aim of religion.' It focuses strictly on the spiritual enlightenment of the individual without the fraternal/social aspects of the O.T.O.",
             The_Prophet_and_the_Beast:
                 "Crowley is venerated as 'To Mega Therion' (The Great Beast 666) and the Prophet of the lovely Star (Nuit), who was chosen to unveil the company of heaven to humanity.",
+            The_Hierarchy_of_Service:
+                "The structure is a pyramid of service. Each member guides the student below them and is guided by the student above them. The central task of the Adept is to transmit the Light to the grade below. 'He who keeps the Light, loses it.'",
         },
         Practices: {
             The_Ordeals:
                 "Initiation is purely individual. The text states 'The ordeals I write not: the rituals shall be half known and half concealed'. The 'gross must pass through fire' and the 'fine be tried in intellect'.",
+            Liber_V_vel_Reguli: `
+            The 'Ritual of the Mark of the Beast'. An advanced banishing ritual that utilizes the geometry of the Unicursal Hexagram rather than the Pentagram.
+            - **The Incantation:** The Magician strikes their chest at the points of the 'Mark' (The Sun/Heart and the Moon/Sex) and vibrates the names of the Thelemic pantheon: 'LAShTAL! THELEMA! FIAOF! AGAPE!'.
+            - **The Spiral Force:** Unlike the Golden Dawn rituals which 'seal' a room with static pentagrams, Liber V generates a spiral vortex of energy, invoking the dynamic forces of the New Aeon to flood the operator.`,
+
+            The_Grade_Tasks: `
+            Progression is strictly task-based:
+            - **Probationer:** Must keep a Magical Diary for one year to prove commitment.
+            - **Neophyte:** Must master the 'Body of Light' (Astral Projection) and the 'Liber Resh' adorations.
+            - **Zelator:** Must master Hatha Yoga and Pranayama (Breath Control).
+            - **Dominus Liminis:** The 'Lord of the Threshold'. A period of silence and darkness where the aspirant prepares for the Knowledge and Conversation of the Holy Guardian Angel.`,
+
             Star_Ruby_and_Sapphire:
                 "Specific banishing and invoking rituals designed to align the magician with the Thelemic currents of the New Aeon.",
         },
@@ -6167,12 +6184,21 @@ const dataSocieties = {
                 "The 'Great Work' is the attainment of the 'Knowledge and Conversation of the Holy Guardian Angel' (HGA)—the realization of the silent, secret self that bridges the human and the divine.",
         },
         Practices: {
-            Liber_Resh_vel_Helios:
-                "Four daily adorations of the Sun performed at dawn, noon, sunset, and midnight. The practitioner vibrates specific signs and salutations to attune their biological clock to the solar cycle.",
+            Liber_Resh_vel_Helios: `
+            Four daily adorations of the Sun performed at dawn, noon, sunset, and midnight. The practitioner vibrates specific signs and salutations to attune their biological clock to the solar cycle.
+            - **Dawn (East):** Saluting Ra with the Sign of Osiris Risen (Arms crossed on chest).
+            - **Noon (South):** Saluting Ahathoor with the Sign of Typhon (Hands by ears, antlers).
+            - **Sunset (West):** Saluting Tum with the Sign of Shu (Arms spread).
+            - **Midnight (North):** Saluting Khephra with the Sign of Silence (Finger to lips).
+            The logic is to remind the aspirant that they are the center of their own solar system.`,
+
             The_Star_Ruby:
                 "A revised version of the Lesser Banishing Ritual of the Pentagram. Instead of Hebrew archangels, it invokes the 'Greek' forces of the Thelemic current (Therion, Nuit, Babalon, Hadit) and utilizes high-frequency energy.",
-            Mass_of_the_Phoenix:
-                "A solitary eucharistic ritual involving a 'Cake of Light' and a self-inflicted wound (usually on the chest), symbolizing the consumption of one's own energy to feed the divine force.",
+            Mass_of_the_Phoenix: `
+            A solitary eucharistic ritual performed at sunset.
+            - **The Wound:** The magician creates a 'Cake of Light' (containing their own blood or meal) and burns it while reciting the text. At the climax ("There is no grace: there is no guilt: This is the Law: Do what thou wilt!"), they physically carve the 'Mark of the Beast' (Sun and Moon symbol) into their own chest with a consecrated blade.
+            - **The Logic:** This is a ritual of self-consumption. The magician feeds their own life-force to their Will, symbolizing the Phoenix that burns itself to be reborn.`,
+
             Sexual_Polarity:
                 "Magick is viewed as the union of opposites. Whether solitary or with a partner, the friction between the 'Will' (Fire) and 'Imagination' (Water) is used to generate the energy required to launch a spell or intention.",
         },
