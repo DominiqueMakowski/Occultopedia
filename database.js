@@ -353,24 +353,55 @@ const dataSocieties = {
     },
 
     Ophian_Gnostics: {
-        Origins: "Also known as Ophites (Snake Gnostics); active in the 2nd century.",
+        Origins:
+            "Emerging in the 2nd Century CE in Egypt and Syria; closely related to (and often confused with) the Sethians and Naassenes. Their name derives from the Greek 'Ophis' (Snake). They are distinct for possessing the 'Ophite Diagram'—a complex geocentric map of the spirit world famously attacked by the philosopher Celsus.",
         Beliefs: {
-            Veneration_of_the_Serpent:
-                "They honored the serpent of Eden for bringing knowledge (Gnosis) to humanity against the will of the jealous creator god.",
-            Planetary_Archons:
-                "The cosmos is ruled by seven demon-gods associated with planets and animals (Lion, Bull, Bear, Dog, Eagle, Ass).",
+            Serpent_as_Soter: `
+            The Ophites inverted the orthodox reading of Genesis. They believed the Creator God (Ialdabaoth) was a jealous, ignorant tyrant who wished to keep Adam and Eve essentially as pets or slaves in the Garden, denying them higher consciousness. 
+            - **The Liberator:** The Serpent was not a deceiver, but the 'Instructor' (possibly an avatar of Sophia or the Christos). By advising Eve to eat from the Tree of Knowledge (Gnosis), the Serpent liberated humanity from the blind obedience demanded by the Demiurge.
+            - **The Shape of the Soul:** They believed the spinal cord and the intestines were the physical manifestation of the Serpent power within the human body. To be 'Wise as Serpents' was to activate this internal pneumatic current.`,
+
+            The_Hebdomad_of_Archons: `
+            The material universe is a prison system composed of seven concentric spheres (The Hebdomad), each ruled by a hostile demon-god (Archon) who feeds on the light of trapped souls. These Archons are theriomorphic (animal-headed):
+            1. **Ialdabaoth** (Lion-faced): Saturn / The Ignorant Creator.
+            2. **Iao** (Bull-faced): Jupiter / The Power of Fate.
+            3. **Sabaoth** (Dragon/Toad-faced): Mars.
+            4. **Adonaios** (Eagle-faced): The Sun.
+            5. **Astaphaeus** (Bear-faced): Venus.
+            6. **Ailo** (Donkey-faced): Mercury.
+            7. **Horaeus** (Hawk/Owl-faced): The Moon.`,
+
+            Leviathan_the_World_Soul:
+                "Surrounding the seven spheres is the great dragon Leviathan (or Behemoth), biting its own tail (Ouroboros). It represents the 'Ring-Pass-Not'—the hard barrier of the material universe that recycles souls back into reincarnation unless they possess the secret passwords to break through.",
+
+            Sophia_Prunikos:
+                "Wisdom (Sophia) is venerated as 'Prunikos' (The Leaping One or The Whore). This title is not derogatory but descriptive; it signifies her desperate, energetic movement through the lower aeons to recover the 'Dew of Light' (stolen spirit) from the Archons. She is the active, suffering feminine principle in matter.",
         },
         Practices: {
-            The_Seal: "A resurrection ritual where the initiate is anointed with 'white oil from the tree of life'.",
-            Diagram_Walk:
-                "Use of a physical diagram mapping the seven planetary spheres. The initiate enacts a journey through these spheres, greeting each archon by name and showing a seal/symbol to pass.",
-            Animal_Masks:
-                "During the initiation, participants may have worn masks or costumes representing the theriomorphic (animal-shaped) archons: Lion (Michael/Saturn), Bull (Iao/Jupiter), Dragon (Sabaoth/Mars), Eagle (Astaphaeus/Venus), Bear (Thauthabaoth), Dog (Erathaoth), Ass (Onoel).",
-            Passwords:
-                "Specific greetings were memorized. To the Lion-headed Ialdabaoth: 'Greetings Solitary King, Bond of Blindness... I am already part of the light of the Son and the Father'.",
+            The_Ophite_Eucharist: `
+            According to Epiphanius, this was their central sacrament, performed to physically bond the community with the Pneumatic Serpent.
+            - **The Cista Mystica:** A live snake was kept in a sacred woven basket (Cista) on the central altar.
+            - **The Loaves:** At the climax of the rite, the bread was arranged on the table. The priest would open the basket and use incantations to charm the snake.
+            - **The Intertwining:** The snake would crawl out and coil itself around and through the loaves of bread. This act 'transubstantiated' the bread, infusing it with the Gnosis of the Serpent.
+            - **The Kiss:** The congregation would then come forward. Each member would kiss the snake on the mouth (who had been tamed by the spell) to receive the 'Breath of Knowledge', before consuming the bread that the snake had touched.`,
+
+            The_Diagram_Walk_and_Defense: `
+            Initiation involved memorizing the 'Ophite Diagram'—a map of the seven gates of the Archons. The soul was trained to speak specific 'Apologies' (Defenses) to each Demon-God to bypass them after death.
+            - **To Ialdabaoth (The Lion):** "Hail, King, Creator... I am a vessel more precious than the female (Sophia) who made you. Your mother ignored you, but I know her. Let me pass."
+            - **To Iao (The Bull):** "You who shine by night... I have passed through your defenses. I have not been consumed. Give way to me, for I invoke the name of your Father."
+            - **The Seal:** As the initiate recited the password for each sphere, they would physically display a specific seal (an amulet or hand gesture) corresponding to that Archon, effectively 'bribing' the jailer to open the gate.`,
+
+            The_Seal_of_White_Ointment:
+                "A baptismal rite (likely separate from water baptism) where the initiate was anointed with white balsam (opobalsamum). This 'Seal' was believed to make the soul invisible or slippery to the grasp of the Archons, ensuring a smooth ascent through the spheres.",
+
+            Chanting_the_Barbarian_Names:
+                "Use of unintelligible 'nomina barbara' (names of power) derived from corrupted Hebrew and Aramaic (e.g., 'Caulacau', 'Zeesar'). These sounds were believed to vibrate at the frequency of the Pleroma, shattering the structural integrity of the lower material world.",
         },
         Structure: {
-            Zodiac_Avengers: "Initiates viewed themselves as warriors conquering the astrological fate controlled by the stars.",
+            Zodiac_Avengers:
+                "Members viewed themselves as an elite spiritual guerilla force. Unlike the Sethians who emphasized their heritage from Seth, Ophites emphasized their war against the Zodiac. They believed the stars were not divine lights, but the campfires of the enemy watchmen (Archons) that had to be extinguished or bypassed.",
+            Sister_Sects:
+                "Though distinct, they shared considerable DNA with the 'Naassenes' (who also worshipped the Snake) and the 'Barbelo-Gnostics'. However, the Ophites were unique in their literal, physical use of snakes in liturgy, whereas other groups often spiritualized the symbol.",
         },
     },
 
@@ -406,24 +437,52 @@ const dataSocieties = {
         },
     },
 
-    Peratics: {
-        Origins: "Meaning 'The Travelers' or 'Crossers'; associated with traversing the cosmos.",
+    PPeratics: {
+        Origins:
+            "Founded by Euphrates the Peratic and Celbes the Carystian (c. 2nd Century CE). The name 'Peratikoi' means 'Those Who Cross Over' or 'The Transients.' It is a double-entendre: it refers to their spiritual lineage as the 'Hebrews' (etymologically: those who cross the river) who escape Egypt, and their soteriological goal of 'crossing' the destruction of the cosmos.",
         Beliefs: {
-            Draco_Portal:
-                "Christ is identified with the constellation Draco (the Serpent) at the north pole of the sky. This is the only exit from the cosmic prison.",
-            Star_Conflict:
-                "The stars of the zodiac are the 'fiery serpents' of the wilderness that bite and destroy the soul; Christ-Draco is the bronze serpent that heals.",
+            The_Tripartite_Cosmos: `
+            The universe consists of three worlds, one inside the other:
+            1. **The Unbegotten (The Good/Father):** Perfect, motionless light.
+            2. **The Self-Begotten (The Son/Logos/Serpent):** The infinite spiral or 'current' that descends from the Father to bring order. He is the 'Analogos'—the Word that has shape.
+            3. **The Begotten (Matter/Chaos):** The unstable world of form, ruled by the 'General of Creation' (Kronos/Time).`,
+
+            Draco_as_Christos: `
+            The Peratics were supreme astrologers who noticed that the entire universe spins around a single, fixed point: the North Celestial Pole. 
+            - **The Axis Mundi:** They identified the constellation Draco (The Dragon), which coils around the North Pole, not as a monster, but as the visible manifestation of the Son (The Self-Begotten). 
+            - **The Logic:** While the planets (Archons) wander and cause chaos/fate, the Dragon remains fixed at the top of the sky, turning the universe with his coils. Christ is this Serpent—the stationary axis of stability in a spinning world of destruction.`,
+
+            The_Exodus_Allegory: `
+            All scripture is an astrological code. The Story of Exodus is the biography of the Peratic soul:
+            - **Egypt:** The Body (Matter/The Begotten).
+            - **Pharaoh:** The Demiurge who tries to keep souls enslaved in biology.
+            - **The Red Sea:** The 'Water of Destruction' (Kronos/Time). To be born is to drown in the Red Sea. To die without Gnosis is to drown again.
+            - **The Serpent of Brass:** The ultimate icon. Just as Moses raised the Bronze Serpent to heal those bitten by vipers, the Peratic looks to the Celestial Serpent (Draco) to be healed from the bite of the Zodiac.`,
+
+            Star_Conflict_and_Genesis:
+                "Generation (Birth) is the enemy. It is a process of 'Genesis' fueled by the wandering stars (Planets). The 'Gods of Destruction' are the stars that dictate fate. The Peratic must stop the 'turning of the wheel' within themselves to stop being reborn.",
         },
         Practices: {
-            Hell_Walk:
-                "A ritual incubation where the initiate awakens in the 'realm of night' to confront Kronos and the powers of tartarus.",
-            Mark_of_Cain:
-                "Initiates were physically tattooed with the sign of Draco (the serpent) to protect them from the hostile astrological powers.",
-            Mystery_of_Eden:
-                "The final ascent ritual where the spirit is believed to be 'spit out' of the mouth of the Draco constellation into the transcendent realm.",
+            The_Night_Watch_of_the_Pole: `
+            A meditative vigil performed on clear, moonless nights.
+            - **The Fixation:** The initiate lies on the ground facing North, fixing their eyes solely on the star *Thuban* (the Pole Star in antiquity, located in the tail of Draco).
+            - **The Dissociation:** By watching the other stars rotate while focusing on the stillness of the Dragon, the initiate psychically detaches their soul from the 'Spinning Sphere' of fate (Heimarmene) and anchors it to the 'Stationary Sphere' of the Pleroma. They visualize the Dragon sucking their spirit upward through the pole.`,
+
+            The_Seal_of_the_Exodus: `
+            A ritual defense against the Archons of Birth.
+            - **The Invocation:** When confronted by the powers of lust or anger (the 'Vipers of the Wilderness'), the initiate recites the formula of the Bronze Serpent: "I am the son of the Serpent. I have crossed the Red Sea. I have not been bitten."
+            - **The Mark:** Sources suggest Peratics may have tattooed or branded their wrists with a glyph of a snake crossed by a rod (similar to the Caduceus or Nehustan) to identify themselves to the guardians of the afterlife as 'One who has Crossed'.`,
+
+            Incubation_of_the_Water: `
+            A ritual reenactment of 'Crossing the Red Sea'.
+            - **The Water of Kronos:** A bowl of water (representing the ocean of Time/Death) is placed between the initiate and the East.
+            - **The Crossing:** The initiate dips their hand in the water and marks their forehead, then steps *over* the bowl, symbolizing the transit from the world of 'Becoming' (Genesis) to the world of 'Being' (The Unbegotten). They declare: "I stop the flow of the Jordan. I turn the river backward."`,
         },
         Structure: {
-            Travelers: "They viewed themselves as the only ones possessing the map to navigate through the sphere of the fixed stars.",
+            The_Crossers:
+                "They divided humanity into two classes: the 'Idiotai' (those who are swept away by the current of the stars/fate) and the 'Peratikoi' (those who have learned to swim upstream against the flow of time).",
+            Relationship_to_Ophites:
+                "While both sects venerated the Serpent, the Ophites focused on the Serpent in the Garden (Eden/Earth), whereas the Peratics focused on the Serpent in the Sky (Draco/Heaven). The Peratics were far more scientific and astrological in their approach than the mythological Ophites.",
         },
     },
 
@@ -970,6 +1029,11 @@ const dataSocieties = {
                 "Reality is explained through the interplay of Nuit (Infinite Space/Stars), Hadit (the atomic point of individual experience), and Ra-Hoor-Khuit (the visible, active aspect of Horus). The current era (Aeon of Horus) replaces the previous Aeon of Osiris (patriarchal/dying god) with one of 'crowned and conquering' individual growth.",
             The_Gnostic_Creed:
                 "Confession of belief in 'Chaos' (the Father of Life), 'Babalon' (the Mother of Earth/Womb), and 'Baphomet' (the Serpent and Lion, Mystery of Mystery).",
+            Babalon_The_Scarlet_Woman: `
+            Babalon (156) is the Goddess of the New Aeon, representing the liberated female sexual impulse and the 'Great Mother' who accepts all.
+            - **The Gematria:** Her name is spelled BABALON (not Babylon) to equal the number 156 in the Hebrew Qabalah. This formula corresponds to 'Zion' and the number of 'cheth' (The Chariot/Fence). 156 is the 'formula of the physical manifestation of the scarlet woman.'
+            - **The Cup of Abominations:** Unlike the Christian view of the Whore of Babylon as a figure of sin, the O.T.O. views the 'Cup' she holds as the Holy Grail. It is filled with the 'blood of the saints'—meaning the individual egos of the adepts. To achieve the highest state (Magister Templi), the magician must pour every drop of their personality (blood) into her Cup, undergoing total ego-death to be reborn within her 'City of the Pyramids'.
+            - **Rider of the Beast:** She rides the Beast (Therion/The Male Will). This symbolizes that the raw, chaotic force of the masculine Will (The Beast) must be guided and harnessed by the receptive, intuitive, and orgiastic power of the feminine (Babalon) to function.`,
             Social_Paradigm:
                 "A brotherhood that blends aristocracy with mutual aid. The 'Twelve Houses' system outlines duties such as preferential business dealings among members, internal arbitration of disputes (forbidding external lawsuits), and treating the death of a Brother as a cause for feasting and rejoicing rather than melancholy.",
         },
@@ -982,6 +1046,8 @@ const dataSocieties = {
                 "Mandatory celebrations including the 'Feast for the three days of the writing of the Book of the Law' (April 8, 9, 10), the 'Feast for the Supreme Ritual' (Invocation of Horus), and the 'Feast for the Equinox of the Gods'.",
             The_Opening_of_the_Veil:
                 "A climatic moment in the Mass where the Priestess, throned on the High Altar as Nuit, speaks the words: 'I am the blue-lidded daughter of Sunset; I am the naked brilliance of the voluptuous night-sky. To me! To me!'.",
+            Invocation_of_the_Seventh_Aethyr: `
+            A high-level astral working derived from 'The Vision and the Voice'. The magician attempts to cross the 'Abyss' (the gap between the phenomenal world and reality). The magician must confront Babalon in her aspect as the 'destroyer of the ego'. This is not a ritual of gain, but of subtraction. The practitioner visualizes draining their blood into the Grail of Babalon until they are a 'dust heap' (pure potential without identity). This is the only way to bypass the demon Choronzon (Dispersion/Madness) who dwells in the Abyss.`,
             VIII_Degree_Autosexual_Magick: `
             The Lesser Work of the Solitary. The initiate uses auto-erotic stimulation (masturbation) not for release, but to charge a specific sigil or mental image. The Operator visualizes the desired object (e.g., a pile of gold, a healed wound) within the 'Akashic Fluid'. At the moment of physiological orgasm, the mind must not drift to fantasy or the sensation of pleasure. Instead, the Will must 'fix' the image with absolute rigidity. The release of biological energy acts as the propellant, launching the visualized image from the mind into the material plane. If the mind wavers, the energy dissipates as mere lust.`,
 
@@ -992,6 +1058,12 @@ const dataSocieties = {
 
             XI_Degree_Anal_Magick: `
             Known as the 'Amalantrah Working' method or the 'Formula of the Egg'. This involves anal intercourse, which Crowley theorized (in his diaries) related to the 'death' aspect of the formula—working with the waste/Qliphoth to find the gold. Unlike vaginal intercourse which is generative (creating life), anal intercourse is viewed as purely magical (creating void/forms). It creates a 'closed circuit' of energy that does not ground itself in biological reproduction, thereby amplifying the magical voltage within the practitioners.`,
+
+            The_Babalon_Working: `
+            A radical practical application of the IX° performed in 1946 by Jack Parsons and L. Ron Hubbard in the Mojave Desert to incarnate the goddess Babalon. The operation proceeded in two phases:
+            - **Phase I (The Elemental):** Parsons used the VIII° (auto-sexual) formula combined with the Enochian 'Second Air' and Prokofiev's *Violin Concerto No. 2* to summon an elemental mate (manifesting as Marjorie Cameron).
+            - **Phase II (The Incarnation):** Parsons and Cameron engaged in IX° sexual rituals while Hubbard acted as the Scribe, reciting the 'Call of the First Aethyr' to open the Abyss.
+            - **The Controversy:** The operation drew the sharp condemnation of an aging Aleister Crowley. Writing to Karl Germer, Crowley stated he was "fairly jittery when I contemplate the idiocy of these louts." He feared the "goats" were breaking the seals of the Abyss without the grade to handle it, risking spiritual obsession, and he correctly suspected Hubbard was a confidence man exploiting Parsons's magical enthusiasm.`,
         },
         Structure: {
             Triad_System:
@@ -1022,20 +1094,46 @@ const dataSocieties = {
     },
 
     Ancient_Order_of_Druids: {
-        Origins: "18th-century revivalist movement (e.g., Henry Hurle, 1781) mimicking Iron Age Celtic priesthood.",
+        Origins: `
+        Publicly: An 18th-century revivalist movement (founded by Henry Hurle, 1781) mimicking Iron Age Celtic priesthood.
+        Esoterically: The 'Albion Cell' of the Order. They claim unbroken lineage to the 'Sarmatian Magi' who crossed the channel, bringing the knowledge of the Standing Stones (the 'Earth-Circuit' technology) to the British Isles.`,
+
         Beliefs: {
-            Awen: "The flowing spirit of inspiration and poetic illumination, represented by three rays of light.",
-            Nature_Veneration: "Worship of the natural cycle, ancestors, and the sanctity of trees (Oak).",
+            Awen: `
+            The flowing spirit of inspiration and poetic illumination, represented by three rays of light. 
+            - **Interpretation:** In the inner circle, the three rays represent the 'Black Sun' spectrum: Creation, Preservation, and Destruction (Apophis).`,
+
+            Nature_Veneration: `
+            Worship of the natural cycle and the sanctity of trees (Oak). The Oak is revered as a 'conductive antenna' for telluric currents.`,
+
+            The_Geometry_of_Chaos_The_V: `
+            The belief that 'Solar' tyrannies (rigid order/stasis) can only be defeated by the introduction of controlled Chaos.
+            - **The Symbol:** The 'V' is not a letter, but the 'Cleft of the Devil' or the open jaws of the Serpent Apophis (Typhon). It represents the Void that swallows the Sun.`,
         },
+
         Practices: {
-            Eisteddfod:
-                "Festivals of literature and music where officers form the 'Gorsedd' (assembly) inside a circle of standing stones. The Archdruid stands on the central 'Maen Llog' stone to receive the 'Flower Dance' performed by children in green tunics.",
-            Alban_Arthan:
-                "Winter Solstice rituals performed at Stonehenge. Participants wear heavy wool robes and carry golden sickles to ritually cut mistletoe from oak branches, catching it in a white linen cloth before it touches the ground.",
+            Eisteddfod: `
+            Festivals of literature and music where officers form the 'Gorsedd' (assembly) inside a circle of standing stones. The Archdruid stands on the central 'Maen Llog' stone to receive the 'Flower Dance' performed by children in green tunics.`,
+
+            Alban_Arthan: `
+            Winter Solstice rituals performed at Stonehenge. Participants wear heavy wool robes and carry golden sickles to ritually cut mistletoe from oak branches, catching it in a white linen cloth before it touches the ground (grounding the charge would dissipate the 'current').`,
+
+            The_Typhonian_Salute_The_Wartime_Working: `
+            A high-grade ritual developed in 1940 to counter the Nazi 'Solar Swastika'.
+            - **Palm Out:** The 'V for Victory'. A projection of chaotic energy to shatter the enemy's will.
+            - **Palm In:** The 'Two-Fingered Salute' (obscenity). A Banishing Ritual. It directs the destructive energy inward into the earth to ground the enemy's solar power.
+            - **Context:** This was allegedly 'tech-support' provided by Aleister Crowley (Agent 666) to British Naval Intelligence, operationalized by the Order.`,
         },
+
         Structure: {
-            Hierarchy:
-                "Divided into three distinct orders by robe color: Ovates (Green robes/learning), Bards (Blue robes/music and memory), and Druids (White robes/teaching and judgment).",
+            Hierarchy: `
+            Divided into three distinct orders by robe color: 
+            - **Ovates (Green):** Learning and herbalism.
+            - **Bards (Blue):** Music, memory, and code-breaking.
+            - **Druids (White):** Teaching, judgment, and high ritual magic.`,
+
+            Notable_Initiates: `
+            - **Winston Churchill:** Initiated into the Albion Lodge at Blenheim Palace (August 15, 1908). Conspiracy theories suggest he was not merely a Prime Minister, but the 'Arch-Druid of War'. His frequent use of the V-sign was a conscious, continuous casting of the Apophis sigil to consume the 'Black Sun' of the SS (who had stolen the symbol but inverted its polarity).`,
         },
     },
 
@@ -1819,19 +1917,55 @@ const dataSocieties = {
     },
 
     Federation_of_Damanhur: {
-        Origins: "Founded 1975 in Italy by Oberto Airaudi. A massive eco-spiritual commune.",
+        Origins:
+            "Founded in 1975 in the Valchiusella Valley (Piedmont, Italy) by Oberto Airaudi (Falco Tarassaco). It began as a small esoteric research group and evolved into a fully operational federation of eco-spiritual communities with its own constitution, currency, and underground temples.",
         Beliefs: {
-            Self_Sufficiency: "Has its own constitution, currency (Credito), and 'time travel' research labs.",
-            Synchronic_Lines: "Belief that the earth is covered in energy rivers, and their temples act as antennas.",
+            Synchronic_Lines: `
+            The belief that the universe is crossed by 'rivers' of energy that carry information, thoughts, and ideas across the cosmos. 
+            - **The Knot:** Damanhur was founded specifically at a rare junction where four of these synchronic lines intersect (one of only two such places on Earth; the other is in Tibet).
+            - **Function:** These lines allow for the amplification of human intent and are essential for their research into planetary healing and communication with other dimensions.`,
+
+            Selfica_Technology: `
+            A spiritual technology revived by Falco involving spirals of copper, gold, and liquid alchemical substances.
+            - **Intelligent Energies:** Selfic structures are believed to host border-energies/intelligences that can perform tasks like healing, balancing environments, or facilitating time travel.
+            - **Micros & Macros:** Objects range from small jewelry ('selfs') worn on the body to massive installations weighing tons embedded in the Temple walls.`,
+
+            Physics_of_Time: `
+            Time is viewed not as a linear progression but as a physical 'territory' or sea that can be navigated.
+            - **Time Travel:** The community claims to conduct active research into sending consciousness (and potentially matter) into the past and future to retrieve knowledge or stabilize the timeline.
+            - **Reincarnation:** Members practice 'programmed reincarnation', attempting to choose their next birth to continue their spiritual mission.`,
         },
         Practices: {
-            The_Great_Excavation:
-                "For 16 years, members secretly dug the 'Temples of Humankind' by hand into the side of a mountain. It features Hall of Mirrors, secret doors, and Tiffany glass domes underground. ",
-            Plant_Music:
-                "Rituals involving connecting electrodes to plants to convert their bio-rhythms into audible synthesizer music during meditation.",
+            The_Temples_of_Humankind: `
+            A massive underground complex dug by hand into the mountain, serving as a three-dimensional book of knowledge and a 'magical engine'.
+            - **The Excavation:** Begun in secret in 1978, the act of digging was a ritual of 'hollowing out the ego'.
+            - **The Halls:** Contains distinct chambers (Hall of Water, Hall of Mirrors, Hall of Spheres), each tuned to specific frequencies to activate different parts of the human potential.`,
+
+            The_Oracle_Rite: `
+            A monthly public ritual held at the Open Temple during the full moon.
+            - **The Pytho:** Priestesses (The Way of the Oracle) channel answers to questions submitted by the community. 
+            - **Ritual:** Involves intense drumming, ecstatic movement, and the burning of herbs to open the channel.`,
+
+            Plant_Music: `
+            Research into interspecies communication using bio-feedback devices.
+            - **Mechanism:** Electrodes measure the variation in electrical resistance in plants, converting these signals into MIDI notes. 
+            - **Concerts:** Plants control synthesizers to create music, often performing live alongside human musicians.`,
+
+            The_Game_of_Life: `
+            A mechanism to prevent social stagnation and dogmatic rigidity.
+            - **Renewal:** Periodically, the entire social structure is revolutionized. Leadership roles are swapped, and the community engages in mock 'wars' or factional games to stimulate creativity, force adaptability, and break habits.`,
         },
         Structure: {
-            Nucleo_Communities: "Citizens live in 'nucleos' (family units) and are assigned distinct roles within the micro-nation.",
+            Nucleo_Communities:
+                "The population is divided into 'nucleos' (family units of ~20 people) living in shared houses. These nucleos form the base of the Federation's political structure.",
+            The_Ways: `
+            Citizens follow specific spiritual paths or 'Ways' that define their contribution:
+            - **Way of the Oracle:** Divination and channeling.
+            - **Way of the Monk:** Solitary meditation and prayer.
+            - **Way of the Knight:** Action, work, and protection.
+            - **Way of Art & Word:** Creativity and communication.`,
+            Nation_State_Status:
+                "Damanhur operates as a micronation with its own currency (the Credito), schools, daily paper, and Constitution, though it remains legally part of Italy.",
         },
     },
 
@@ -5988,6 +6122,65 @@ const dataSocieties = {
             Authority was centralized entirely in the Ballards (Guy, Edna, and son Donald).
             - **The Platform:** During the 1930s, they held massive 'Conclaves' in auditioriums, where Guy Ballard would channel Saint Germain live, transmitting radiation to the audience.
             - **Saint Germain Foundation:** The corporate arm that strictly controls the 'Saint Germain Series' (the green books) and the use of the imagery.`,
+        },
+    },
+
+    Enochian_Angelic_Magic: {
+        Origins:
+            "Late 16th Century England (1580s). Developed by Queen Elizabeth I's advisor Dr. John Dee and the skryer Edward Kelley. They claimed to communicate with angels via a 'shew-stone' (crystal/obsidian mirror), receiving a language they called 'Angelical' (now called Enochian). This system provided the historical prototype for the 'Babalon' entity.",
+        Beliefs: {
+            The_Enochian_Language:
+                "A complex language with its own grammar and syntax, claimed to be the language used by God to create the universe. The angels warned that the language was potent and dangerous: 'Every word is a definition of a part of the nature of God.'",
+            The_Watchtowers:
+                "The universe is guarded by four massive elemental 'Watchtowers' (Fire, Air, Water, Earth). Magic involves calling the names of the Governors of these towers to open gates.",
+            The_Daughter_of_Fortitude: `
+            The origin of the Babalon archetype. In a specific scrying session (May 23, 1587), the spirit Madimi appeared as a nude female figure.
+            - **The Heresy:** She commanded Dee and Kelley to share their wives in common. This shattered Dee's piety but established the concept of a 'Holy Whore'—a feminine divinity who transcends human moral laws to distribute divine grace. She declared: 'I am the Daughter of Fortitude, and I am not broken... My garments are from the beginning, and my dwelling place is in myself.' This figure was later identified by Crowley as the first manifestation of Babalon.`,
+            The_Thirty_Aethyrs:
+                "The cosmos is divided into 30 concentric layers or 'Aethyrs' (heavens), numbered 30 (Tex - lowest/earth) to 1 (Lil - highest/divine). The magician must travel through them sequentially to attain enlightenment.",
+        },
+        Practices: {
+            Scrying_the_Aethyrs:
+                "The magician sits before the Holy Table (Sigillum Dei Aemeth), recites the 'Call' (Invocation) in the Enochian language for a specific Aethyr, and gazes into the crystal. They must battle the 'Guardian' of that level to gain its wisdom.",
+            The_Calls:
+                "There are 48 calls (or Keys). The First and Second Keys govern the Spirit; the next 16 govern the Elements; the final key (the 19th Call) opens the 30 Aethyrs. The phonetic vibration of these calls is believed to physically alter the atmosphere.",
+            Sexual_Eucharist_Prototypes:
+                "While Dee was a pious Christian, the 'Wife Swapping' incident (The Cross-Matching) commanded by the Angels is viewed by occult historians as an early, crude form of the sexual eucharist—using sexual transgression to break the psychological bonds of the magician and generate energy for the spirits.",
+        },
+        Structure: {
+            The_Diaries:
+                "Not an organized order, but a research partnership. The system was preserved in Dee's meticulous diaries (*A True & Faithful Relation*), which became the foundational text for the Golden Dawn and O.T.O.",
+        },
+    },
+
+    Thelema: {
+        Origins:
+            "Founded in Cairo, Egypt (April 8-10, 1904). Aleister Crowley, guided by his wife Rose Edith Kelly, received 'The Book of the Law' (Liber AL vel Legis) from a praeter-human intelligence named Aiwass. It proclaimed the start of the Aeon of Horus.",
+        Beliefs: {
+            The_Law:
+                "The supreme axiom is 'Do what thou wilt shall be the whole of the Law' and 'Love is the law, love under will.' This is not hedonism, but a mandate to discover and rigorously enact one's 'True Will' (the unique orbit of the soul) without conflict.",
+            The_Three_Gods:
+                "The cosmology is triangular: Nuit (Infinite Space/Potential), Hadit (The Atomic Point/Individual Consciousness), and Ra-Hoor-Khuit (The Crowned and Conquering Child/Active Force). The interaction of Nuit and Hadit creates the manifest universe.",
+            The_New_Aeon:
+                "History is divided into three Aeons: The Aeon of Isis (Matriarchy/Nature), the Aeon of Osiris (Patriarchy/Self-Sacrifice/Dying God), and the current Aeon of Horus (The Child/Individuality/Self-Realization).",
+            The_Holy_Guardian_Angel:
+                "The 'Great Work' is the attainment of the 'Knowledge and Conversation of the Holy Guardian Angel' (HGA)—the realization of the silent, secret self that bridges the human and the divine.",
+        },
+        Practices: {
+            Liber_Resh_vel_Helios:
+                "Four daily adorations of the Sun performed at dawn, noon, sunset, and midnight. The practitioner vibrates specific signs and salutations to attune their biological clock to the solar cycle.",
+            The_Star_Ruby:
+                "A revised version of the Lesser Banishing Ritual of the Pentagram. Instead of Hebrew archangels, it invokes the 'Greek' forces of the Thelemic current (Therion, Nuit, Babalon, Hadit) and utilizes high-frequency energy.",
+            Mass_of_the_Phoenix:
+                "A solitary eucharistic ritual involving a 'Cake of Light' and a self-inflicted wound (usually on the chest), symbolizing the consumption of one's own energy to feed the divine force.",
+            Sexual_Polarity:
+                "Magick is viewed as the union of opposites. Whether solitary or with a partner, the friction between the 'Will' (Fire) and 'Imagination' (Water) is used to generate the energy required to launch a spell or intention.",
+        },
+        Structure: {
+            The_Binary_System:
+                "Thelema is primarily structured around two orders: the A∴A∴ (Argentium Astrum), a solitary teaching order focused on spiritual ascent and testing; and the O.T.O., a communal fraternal order focused on social magic and brotherhood.",
+            Holy_Books:
+                "The 'Class A' documents (like Liber AL, Liber Tzaddi, Liber Cheth) are considered inspired texts that cannot be changed, serving as the scripture of the movement.",
         },
     },
 }

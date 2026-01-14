@@ -4585,4 +4585,51 @@ const dataTags = {
         endDate: null,
         inspiredBy: ["Theosophical_Society"],
     },
+
+    Enochian_Angelic_Magic: {
+        tags: [
+            "location_europe", // England (Mortlake)
+            "era_preindustrial", // Late 16th Century (1580s)
+            "belief_christianity", // Framework of biblical angels
+            "belief_gnosis", // Divine knowledge via scrying
+            "belief_cosmology", // The Watchtowers and 30 Aethyrs
+            "belief_sacred_feminine", // Daughter of Fortitude
+            "practice_divination", // Crystal gazing/Scrying
+            "practice_ceremonial_magic", // The Holy Table and Sigils
+            "practice_chant", // Recitation of the 48 Calls
+            "practice_transgression", // The "Cross-Matching" (Wife Swapping)
+            "practice_sex_magic", // Proto-sexual eucharist
+            "practice_sex", // Actual sexual acts involved
+            "practice_intellectual_aesthetic", // Complex mathematical language
+        ],
+        startDate: 1581,
+        endDate: 1608,
+        inspiredBy: [],
+    },
+
+    Thelema: {
+        tags: [
+            "location_middle_east", // Cairo origin
+            "era_modern", // 1904
+            "belief_thelema", // True Will
+            "belief_gnosis", // Solar Phallicism
+            "belief_apotheosis", // Knowledge and Conversation of HGA
+            "practice_ceremonial_magic", // Star Ruby/Liber Resh
+            "practice_sex_magic", // Eucharistic theory
+            "practice_yoga", // Eight Limbs (modified by Crowley)
+            "practice_mantra", // Vibration of Names
+            "practice_solar_worship", // Liber Resh
+            "practice_intellectual_aesthetic",
+            "practice_carnal_aesthetic",
+            "belief_syncretism",
+        ],
+        startDate: 1904,
+        endDate: null,
+        inspiredBy: [
+            "Hermetic_Order_of_the_Golden_Dawn",
+            "The_Atenist_Heresy", // Egyptian roots
+            "Vamachara_Tantra", // Left-Hand Path sexual theory
+            "Taoism", // Crowley's interpretation of Tao as 'The Way/Will'
+        ],
+    },
 }
