@@ -4632,4 +4632,230 @@ const dataTags = {
             "Taoism", // Crowley's interpretation of Tao as 'The Way/Will'
         ],
     },
+
+    The_Tres_Foucaults_Pendulum: {
+        tags: [
+            "location_europe", // Milan/Paris
+            "era_fictional", // 1988
+            "belief_conspiracy", // The Plan (Fabricated reality)
+            "belief_syncretism", // Connecting all occult traditions
+            "belief_apotheosis", // Controlling the Telluric Currents
+            "practice_intellectual_study", // The Diabolicals
+            "practice_cryptography", // Permutation of texts
+            "practice_ritual_drama", // Reenactment at the Conservatoire
+            "practice_intellectual_aesthetic",
+        ],
+        startDate: 1988,
+        endDate: null,
+        inspiredBy: ["Knights_Templar_Historical", "Rosicrucianism_AMORC", "Pauline_Christianity"],
+    },
+
+    Order_of_the_Silver_Serpent_The_Nine_Doors: {
+        tags: [
+            "location_europe", // France/Spain/Portugal
+            "era_fictional", // 17th Century/Modern
+            "belief_satanism", // Invocation of Lucifer
+            "belief_gnosis", // The Ninth Gate (Light from Darkness)
+            "practice_ceremonial_magic", // Riddle solving
+            "practice_book_worship", // Aristotelian obsession
+            "practice_sex", // Orgiastic ritual
+            "practice_macabre_aesthetic",
+            "practice_intellectual_aesthetic",
+        ],
+        startDate: 1666,
+        endDate: null,
+        inspiredBy: ["The_Hellfire_Club"],
+    },
+
+    The_Dolcinians_Apostolic_Brethren: {
+        tags: [
+            "location_europe", // Italy (Piedmont)
+            "era_medieval", // 1300
+            "belief_poverty", // Apostolic Poverty
+            "belief_millenarianism", // Age of the Spirit
+            "belief_antinomianism", // All things common
+            "practice_violence", // Banditry/Guerilla warfare
+            "practice_transgression", // Killing clerics
+            "practice_communal_living", // Mountain encampments
+            "practice_fasting",
+            "belief_christianity",
+        ],
+        startDate: 1260,
+        endDate: 1307,
+        inspiredBy: ["Brethren_of_the_Free_Spirit"],
+    },
+
+    The_Path_of_Illumination_Illuminati: {
+        tags: [
+            "location_europe", // Rome/Vatican
+            "era_fictional", // Modern
+            "belief_science", // Science as God
+            "belief_atheism",
+            "practice_terrorism", // Antimatter threat
+            "practice_symbolism", // Ambigrams
+            "practice_ritual_murder", // Branding of Elements
+            "practice_intellectual_aesthetic",
+            "practice_secrecy",
+        ],
+        startDate: 1600,
+        endDate: null,
+        inspiredBy: ["The_Illuminati", "Freemasonry"],
+    },
+
+    The_Sancti_Citadel_of_Ruin: {
+        tags: [
+            "location_middle_east", // Turkey (Ruin)
+            "era_fictional", // Ancient
+            "belief_christianity", // Twisted Sacrament
+            "belief_secrecy", // Guardians of the Secret
+            "practice_asceticism",
+            "practice_body_modification", // Lobotomy/Mutilation
+            "practice_violence", // Assassination
+            "practice_macabre_aesthetic",
+            "practice_secrecy",
+        ],
+        startDate: -100,
+        endDate: null,
+        inspiredBy: ["Knights_Templar_Historical"],
+    },
+
+    Brotherhood_of_the_Holy_Shroud: {
+        tags: [
+            "location_europe", // Turin/Global
+            "era_fictional", // Modern
+            "belief_christianity",
+            "belief_relic_veneration", // Protection of the Shroud
+            "practice_violence", // Enforcement
+            "practice_secrecy",
+            "practice_knightly_aesthetic",
+        ],
+        startDate: 100,
+        endDate: null,
+        inspiredBy: ["Knights_Templar_Historical"],
+    },
+
+    The_Society_of_Angelologists: {
+        tags: [
+            "location_north_america", // New York
+            "era_fictional", // Modern
+            "belief_dualism", // Humans vs Nephilim
+            "practice_intellectual_study", // Angelology
+            "practice_music", // Angelic lyre
+            "practice_secrecy",
+            "practice_knightly_aesthetic", // Guarding mankind
+            "belief_christianity",
+        ],
+        startDate: 1900,
+        endDate: null,
+        inspiredBy: ["Second_Temple_Order"],
+    },
+
+    The_Montglane_Service_The_Game: {
+        tags: [
+            "location_global", // Global
+            "era_fictional", // 1790
+            "belief_determinism", // The Game controls history
+            "belief_alchemy", // Elixir of Life formula
+            "practice_intellectual_study", // Chess/Strategy
+            "practice_cryptography", // Hidden in chess pieces
+            "practice_secrecy",
+            "practice_intellectual_aesthetic",
+        ],
+        startDate: 782,
+        endDate: null,
+        inspiredBy: [],
+    },
+
+    Siderella_Iso_Zen: {
+        tags: [
+            "location_europe", // France
+            "era_fictional", // 1975
+            "belief_discordianism", // Chaos/Eris
+            "belief_nihilism", // Entropy
+            "practice_meditation", // Iso-Zen (Doing nothing)
+            "practice_transgression", // Sexual/Psychological
+            "practice_scifi_aesthetics",
+        ],
+        startDate: 1975,
+        endDate: null,
+        inspiredBy: ["Discordianism"],
+    },
+
+    Esoteric_Hitlerism_Serrano: {
+        tags: [
+            "location_south_america", // Chile (Miguel Serrano)
+            "era_modern", // Post-WWII Synthesis
+            "belief_syncretism", // Hindu-Nordic fusion
+            "belief_gnosticism", // Anti-Demiurge/Black Sun
+            "belief_white_supremacy", // Aryan Avatar
+            "belief_pagan", // Wotanism/Runes
+            "belief_ufo", // Vimanas/Antarctica
+            "practice_yoga", // Runen Yoga
+            "practice_meditation", // Visualization of the Black Sun
+            "practice_pilgrimage", // Wewelsburg/Berchtesgaden
+            "practice_sex_magic", // Karezza/Magic Love
+            "practice_militaristic_aesthetic",
+        ],
+        startDate: 1950,
+        endDate: null,
+        inspiredBy: ["Thule_Society", "Ahnenerbe", "Hinduism"],
+    },
+
+    Order_of_the_Emerald_Grail: {
+        tags: [
+            "location_europe", // France (Languedoc/Pyrenees)
+            "era_modern", // 1930s revival
+            "belief_gnosticism", // Lucifer as Lightbringer
+            "belief_luciferianism",
+            "belief_catharism", // Neo-Catharism
+            "practice_initiation", // Cave rituals (Lombrives)
+            "practice_solar_ritual", // Solstice at Montségur
+            "practice_asceticism", // The Endura (starvation)
+            "practice_chant", // Troubadour songs as mantras
+            "practice_nature_worship", // Sacred mountains/Caves
+        ],
+        startDate: 1930,
+        endDate: null,
+        inspiredBy: ["Cathars_Historical", "Knights_Templar_Historical", "Thule_Society"],
+    },
+
+    The_Zizian_Collective: {
+        tags: [
+            "location_north_america", // Bay Area/California
+            "location_internet", // Online Radicalization
+            "era_modern", // 2016 - Present
+            "belief_transhumanism", // AI Alignment/Debucketing
+            "belief_utilitarianism", // Negative Utilitarianism
+            "belief_gnosticism", // Rejecting the 'biological' world
+            "belief_determinism", // Humans as Zombies/Machines
+            "practice_sleep_deprivation", // Unihemispheric sleep
+            "practice_dietary_restriction", // Lentil paste/Veganism
+            "practice_communal_living", // Box trucks/Tugboats
+            "practice_violence", // Justified against "suffering vectors"
+            "practice_psychological_conditioning", // Breaking the "self"
+            "practice_cyberpunk_aesthetic", // Neon/Industrial
+        ],
+        startDate: 2016,
+        endDate: null,
+        inspiredBy: ["Rationalist_Movement", "Effective_Altruism"],
+    },
+
+    Black_Lotus_Arch: {
+        tags: [
+            "location_north_america", // Emeryville, CA
+            "era_modern", // 2017 - Present
+            "belief_transhumanism", // Post-Human OS
+            "belief_buddhism", // Tech-Vajrayana/Arhatship
+            "belief_solipsism", // Reality as Consensus Render
+            "practice_group_therapy", // "The Stack Trace" (Abusive)
+            "practice_sensory_deprivation", // Blue Screen Induction
+            "practice_biofeedback", // Heart-rate syncing
+            "practice_sex_magic", // "Reality Forking"
+            "practice_secrecy", // Encrypted logs/Blackmail
+            "practice_corporate_aesthetic", // "Developers" and "Users"
+        ],
+        startDate: 2017,
+        endDate: null,
+        inspiredBy: ["Buddhism_Vajrayana", "Scientology", "Human_Potential_Movement"],
+    },
 }

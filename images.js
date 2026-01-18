@@ -86,7 +86,12 @@ const imagesManifest = {
         "Order_of_the_Pug_Mops_Orden_0.png",
         "Order_of_the_Pug_Mops_Orden_1.jpg",
         "Order_of_the_Pug_Mops_Orden_2.png",
-        "Order_of_the_Pug_Mops_Orden_3.png"
+        "Order_of_the_Pug_Mops_Orden_3.png",
+        "Order_of_the_Pug_Mops_Orden_4.jpg",
+        "Order_of_the_Pug_Mops_Orden_5.png",
+        "Order_of_the_Pug_Mops_Orden_6.png",
+        "Order_of_the_Pug_Mops_Orden_7.jpg",
+        "Order_of_the_Pug_Mops_Orden_8.jpg"
     ],
     "Yggdrasil_Guild": [
         "Yggdrasil_Guild_0.jpg",
@@ -181,7 +186,11 @@ const imagesManifest = {
         "The_Magi_0.jpg",
         "The_Magi_1.jpg",
         "The_Magi_2.jpg",
-        "The_Magi_3.jpg"
+        "The_Magi_3.jpg",
+        "The_Magi_4.jpg",
+        "The_Magi_5.png",
+        "The_Magi_6.png",
+        "The_Magi_7.png"
     ],
     "Rothschild_Surrealist_Ball_1972": [
         "Rothschild_Surrealist_Ball_1972_0.jpg",
@@ -396,7 +405,12 @@ const imagesManifest = {
         "Cult_of_Cybele_Magna_Mater_0.jpg",
         "Cult_of_Cybele_Magna_Mater_1.jpg",
         "Cult_of_Cybele_Magna_Mater_2.jpg",
-        "Cult_of_Cybele_Magna_Mater_3.jpg"
+        "Cult_of_Cybele_Magna_Mater_3.jpg",
+        "Cult_of_Cybele_Magna_Mater_4.png",
+        "Cult_of_Cybele_Magna_Mater_5.png",
+        "Cult_of_Cybele_Magna_Mater_6.jpg",
+        "Cult_of_Cybele_Magna_Mater_7.png",
+        "Cult_of_Cybele_Magna_Mater_8.png"
     ],
     "Rosicrucianism_AMORC": [
         "Rosicrucianism_AMORC_0.png",
@@ -1011,12 +1025,6 @@ const imagesManifest = {
         "Frankism_2.jpg",
         "Frankism_3.png"
     ],
-    "Peratics": [
-        "Peratics_0.png",
-        "Peratics_1.png",
-        "Peratics_2.jpg",
-        "Peratics_3.jpg"
-    ],
     "Hermetic_Circles": [
         "Hermetic_Circles_0.jpg",
         "Hermetic_Circles_1.png",
@@ -1292,7 +1300,12 @@ const imagesManifest = {
         "Order_of_the_Magi_Richmond_0.png",
         "Order_of_the_Magi_Richmond_1.png",
         "Order_of_the_Magi_Richmond_2.jpg",
-        "Order_of_the_Magi_Richmond_3.jpg"
+        "Order_of_the_Magi_Richmond_3.jpg",
+        "Order_of_the_Magi_Richmond_4.png",
+        "Order_of_the_Magi_Richmond_5.png",
+        "Order_of_the_Magi_Richmond_6.png",
+        "Order_of_the_Magi_Richmond_7.png",
+        "Order_of_the_Magi_Richmond_8.png"
     ],
     "The_Dogon_Awa_Society": [
         "The_Dogon_Awa_Society_0.jpg",
@@ -1458,7 +1471,8 @@ const imagesManifest = {
         "Minoan_Epiphany_Cult_3.png"
     ],
     "Brotherhood_of_the_White_Temple": [
-        "Brotherhood_of_the_White_Temple_1.jpg"
+        "Brotherhood_of_the_White_Temple_1.jpg",
+        "Brotherhood_of_the_White_Temple_3.jpg"
     ],
     "Priory_of_Sion": [
         "Priory_of_Sion_0.jpg",
@@ -1522,5 +1536,99 @@ const imagesManifest = {
         "The_Mortuary_Cult_of_Ancient_Egypt_0.jpg",
         "The_Mortuary_Cult_of_Ancient_Egypt_1.jpg",
         "The_Mortuary_Cult_of_Ancient_Egypt_2.jpg"
+    ],
+    "Order_of_the_Silver_Serpent_The_Nine_Doors": [
+        "Order_of_the_Silver_Serpent_The_Nine_Doors_0.jpg",
+        "Order_of_the_Silver_Serpent_The_Nine_Doors_1.jpg",
+        "Order_of_the_Silver_Serpent_The_Nine_Doors_2.jpg",
+        "Order_of_the_Silver_Serpent_The_Nine_Doors_3.jpg"
+    ],
+    "The_Dolcinians_Apostolic_Brethren": [
+        "The_Dolcinians_Apostolic_Brethren_0.jpg",
+        "The_Dolcinians_Apostolic_Brethren_1.jpg",
+        "The_Dolcinians_Apostolic_Brethren_2.jpg",
+        "The_Dolcinians_Apostolic_Brethren_3.jpg"
+    ],
+    "Thelema": [
+        "Thelema_1.jpg",
+        "Thelema_2.png",
+        "Thelema_3.jpg"
+    ],
+    "The_Zizian_Collective": [
+        "The_Zizian_Collective_0.png",
+        "The_Zizian_Collective_1.png",
+        "The_Zizian_Collective_2.jpg",
+        "The_Zizian_Collective_3.jpg"
+    ],
+    "Enochian_Angelic_Magic": [
+        "Enochian_Angelic_Magic_0.jpg",
+        "Enochian_Angelic_Magic_1.png",
+        "Enochian_Angelic_Magic_2.jpg",
+        "Enochian_Angelic_Magic_3.jpg"
+    ],
+    "The_Society_of_Angelologists": [
+        "The_Society_of_Angelologists_0.png",
+        "The_Society_of_Angelologists_1.jpg",
+        "The_Society_of_Angelologists_2.jpg",
+        "The_Society_of_Angelologists_3.jpg"
+    ],
+    "Black_Lotus_Arch": [
+        "Black_Lotus_Arch_0.jpg",
+        "Black_Lotus_Arch_1.jpg",
+        "Black_Lotus_Arch_2.png",
+        "Black_Lotus_Arch_3.jpg"
+    ],
+    "The_Sancti_Citadel_of_Ruin": [
+        "The_Sancti_Citadel_of_Ruin_0.png",
+        "The_Sancti_Citadel_of_Ruin_1.jpg",
+        "The_Sancti_Citadel_of_Ruin_2.jpg",
+        "The_Sancti_Citadel_of_Ruin_3.jpg"
+    ],
+    "The_Montglane_Service_The_Game": [
+        "The_Montglane_Service_The_Game_0.jpg",
+        "The_Montglane_Service_The_Game_1.jpg",
+        "The_Montglane_Service_The_Game_2.jpg",
+        "The_Montglane_Service_The_Game_3.jpg"
+    ],
+    "Brotherhood_of_the_Holy_Shroud": [
+        "Brotherhood_of_the_Holy_Shroud_0.jpg",
+        "Brotherhood_of_the_Holy_Shroud_1.jpg",
+        "Brotherhood_of_the_Holy_Shroud_2.jpg",
+        "Brotherhood_of_the_Holy_Shroud_3.jpg"
+    ],
+    "The_Tres_Foucaults_Pendulum": [
+        "The_Tres_Foucaults_Pendulum_0.jpg",
+        "The_Tres_Foucaults_Pendulum_1.png",
+        "The_Tres_Foucaults_Pendulum_2.png",
+        "The_Tres_Foucaults_Pendulum_3.jpg"
+    ],
+    "Esoteric_Hitlerism_Serrano": [
+        "Esoteric_Hitlerism_Serrano_0.png",
+        "Esoteric_Hitlerism_Serrano_1.png",
+        "Esoteric_Hitlerism_Serrano_2.png",
+        "Esoteric_Hitlerism_Serrano_3.jpg"
+    ],
+    "The_Path_of_Illumination_Illuminati": [
+        "The_Path_of_Illumination_Illuminati_0.jpg",
+        "The_Path_of_Illumination_Illuminati_1.png",
+        "The_Path_of_Illumination_Illuminati_2.png",
+        "The_Path_of_Illumination_Illuminati_3.jpg"
+    ],
+    "Siderella_Iso_Zen": [
+        "Siderella_Iso_Zen_0.jpg",
+        "Siderella_Iso_Zen_1.jpg",
+        "Siderella_Iso_Zen_2.jpg",
+        "Siderella_Iso_Zen_3.jpg"
+    ],
+    "Order_of_the_Emerald_Grail": [
+        "Order_of_the_Emerald_Grail_0.jpg",
+        "Order_of_the_Emerald_Grail_1.jpg",
+        "Order_of_the_Emerald_Grail_2.jpg"
+    ],
+    "Peratics": [
+        "Peratics_0.png",
+        "Peratics_1.png",
+        "Peratics_2.jpg",
+        "Peratics_3.jpg"
     ]
 };
