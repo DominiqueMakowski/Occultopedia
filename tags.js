@@ -4858,4 +4858,202 @@ const dataTags = {
         endDate: null,
         inspiredBy: ["Buddhism_Vajrayana", "Scientology", "Human_Potential_Movement"],
     },
+
+    Work_of_Mercy_Vintras: {
+        tags: [
+            "location_europe", // France (Normandy)
+            "era_industrial", // 1839
+            "belief_messianism", // Reincarnation of Elijah
+            "belief_monarchism", // Saviours of Louis XVII
+            "belief_millenarianism", // Age of the Holy Spirit
+            "practice_ceremonial_magic", // Red Mass/Bleeding Hosts
+            "practice_vestments", // Crimson robes/Reversed Cross
+            "practice_mediumship", // Visions of Michael
+            "practice_taboobreaking", // Condemned as heretical/sexual accusations
+            "belief_christianity", // Heterodox/Gnostic
+        ],
+        startDate: 1839,
+        endDate: 1875,
+        inspiredBy: ["Joachimites", "Royalist_Mysticism"],
+    },
+
+    The_Manson_Family: {
+        tags: [
+            "location_north_america", // California
+            "era_modern", // 1960s
+            "belief_apocalypse", // Helter Skelter/Race War
+            "belief_satanism", // Manson as Satan/Christ
+            "belief_racism", // White supremacy/Black incapacity
+            "practice_drug_use", // LSD Eucharist
+            "practice_violence", // Creepy Crawling/Murder
+            "practice_communal_living", // Spahn Ranch/Garbage runs
+            "practice_sex", // Orgies as ego-death
+            "practice_personality_cult", // Charles Manson
+            "practice_propaganda", // Beatles lyrics interpretation
+            "practice_crime",
+        ],
+        startDate: 1967,
+        endDate: 1971, // Primary active period before trials
+        inspiredBy: ["Scientology", "Process_Church_of_the_Final_Judgment", "The_Beatles"],
+    },
+
+    Horus_Community_Castanos: {
+        tags: [
+            "location_europe", // France
+            "era_modern", // 1989
+            "belief_reincarnation", // Nefertiti/Akhenaten
+            "belief_new_age", // Telluric energy/Vibrations
+            "practice_agriculture", // Giant vegetables/Permaculture
+            "practice_healing", // Refusal of medicine
+            "practice_meditation", // Telepathic defense walls
+            "practice_isolationism", // Autarky
+            "practice_dietary_restriction", // Organic/Macrobiotic focus
+        ],
+        startDate: 1989,
+        endDate: 1997,
+        inspiredBy: ["Theosophy", "Ancient_Egypt"],
+    },
+
+    Mandarom_Aumism: {
+        tags: [
+            "location_europe", // France (Alps)
+            "era_modern", // 1969
+            "belief_syncretism", // Synthesis of all religions
+            "belief_apotheosis", // Cosmoplanetary Messiah
+            "belief_animism", // Earth as living being
+            "practice_ceremonial_magic", // Astral battles/Vajra
+            "practice_procession", // Walk of the Hexagon
+            "practice_ritual_clothing", // Mirrored headbands/Robes
+            "practice_mantra", // AUM chanting
+            "practice_monumentalism", // Giant Statues
+            "practice_scifi_aesthetics", // Fighting Atlanteans/Lemures
+        ],
+        startDate: 1969,
+        endDate: null, // Still active as Aumism
+        inspiredBy: ["Hinduism", "Buddhism", "Theosophy"],
+    },
+
+    The_Family_Hamilton_Byrne: {
+        tags: [
+            "location_oceania", // Australia
+            "era_modern", // 1960s
+            "belief_incarnation", // Anne as Jesus
+            "belief_apocalypse", // Nuclear holocaust survival
+            "belief_elitism", // Great White Brotherhood/Master Race
+            "practice_drug_use", // LSD initiation (The Clearing)
+            "practice_child_abuse", // Bleaching hair/Starvation
+            "practice_hazing", // Beatings by Aunties
+            "practice_secrecy", // "Unseen, Unheard, Unknown"
+            "practice_yoga", // Hatha Yoga recruitment
+            "practice_corporate_aesthetic", // Medical/Legal front
+        ],
+        startDate: 1963,
+        endDate: 1987, // Raid on Kai Lama
+        inspiredBy: ["Hinduism", "Theosophy", "Christianity"],
+    },
+
+    Children_of_God_The_Family_Int: {
+        tags: [
+            "location_global", // Global
+            "era_modern", // 1968
+            "belief_antinomianism", // Law of Love vs Law of Moses
+            "belief_apocalypse", // Endtime prophecy
+            "practice_sex_magic", // Flirty Fishing (Sacramental sex)
+            "practice_sex", // Sharing/Open relationships
+            "practice_propaganda", // Mo Letters
+            "practice_communal_living", // Provisioning/Colonies
+            "practice_personality_cult", // David Berg (Mo)
+            "practice_carnal_aesthetic", // Sexualized scripture
+            "belief_christianity", // Radical/Heretical
+        ],
+        startDate: 1968,
+        endDate: null, // Continues as TFI
+        inspiredBy: ["Jesus_Movement", "Evangelicalism"],
+    },
+
+    Instinctotherapy_Burger: {
+        tags: [
+            "location_europe", // France/Switzerland
+            "era_modern", // 1964
+            "belief_vitalism", // Raw food/Genetic adaptation
+            "belief_transgression", // Metapsychoanalysis (Pedophilia)
+            "practice_dietary_restriction", // Raw meat/Cassé
+            "practice_healing", // Curing cancer/AIDS via diet
+            "practice_communal_living", // Montramé castle
+            "practice_taboobreaking", // Incest/Abuse justification
+            "practice_carnal_aesthetic", // Raw organ consumption
+            "practice_abuse",
+        ],
+        startDate: 1964,
+        endDate: null,
+        inspiredBy: ["Natural_Hygiene", "Reichian_Therapy"],
+    },
+
+    The_Saturn_Matrix_Cult: {
+        tags: [
+            "location_global", // Internet/Conspiracy Circles
+            "era_digital", // 1990s - Present
+            "belief_prison_planet", // Earth as a frequency trap
+            "belief_conspiracy", // Saturn-Moon Matrix
+            "practice_symbolism", // Black Cube/Hexagon veneration
+            "practice_intellectual_aesthetic",
+            "belief_gnosis", // Waking up from the simulation
+            "belief_syncretism",
+        ],
+        startDate: 1990,
+        endDate: null,
+        inspiredBy: ["Gnosticism", "Christian_Identity"],
+    },
+
+    Order_of_the_Silver_Dragon_Ninth_Gate: {
+        tags: [
+            "location_europe", // France/Spain/Portugal
+            "era_modern", // 17th Century/Modern
+            "belief_satanism", // To travel in silence/Luciferian
+            "belief_elitism", // Aristocratic membership
+            "practice_ceremonial_magic", // The Nine Gates riddle
+            "practice_sex_magic", // Ritual orgy (Balkan/Polanski version)
+            "practice_macabre_aesthetic",
+            "practice_intellectual_aesthetic",
+        ],
+        startDate: 1666,
+        endDate: null,
+        inspiredBy: ["The_Hellfire_Club", "Order_of_the_Silver_Serpent_The_Nine_Doors"],
+    },
+
+    Cult_of_Summerisle_Wicker_Man: {
+        tags: [
+            "location_europe", // Scotland (Hebrides)
+            "era_modern", // 1973
+            "belief_pagan", // Nuada/Avallenau (Celtic Revival)
+            "belief_fertility", // Sympathetic magic for apples
+            "belief_reincarnation", // Philosophy of the soul
+            "practice_ritual_drama", // The May Day procession/Masks
+            "practice_sex", // Public copulation/Graveyard ruts
+            "practice_dance", // Maypole
+            "practice_ecstatic_aesthetic",
+        ],
+        startDate: 1868,
+        endDate: 1973,
+        inspiredBy: ["Ancient_Order_of_Druids", "Hermetic_Order_of_the_Golden_Dawn"],
+    },
+
+    The_Harga_Midsommar: {
+        tags: [
+            "location_europe", // Sweden (Hälsingland)
+            "era_modern", // Modern
+            "belief_pagan", // Runic cycle of life
+            "belief_cyclic_time", // 90 Year Festival
+            "belief_communalism", // Shared emotion/pain
+            "practice_ritual_suicide", // Ättestupa (Cliff jumping)
+            "practice_sex_magic", // Fertility breeding ritual
+            "practice_entheogen", // Psychedelic teas
+            "practice_feasting", // Ceremonial meals
+            "practice_dance", // May Queen dance
+            "practice_ecstatic_aesthetic", // Bright horror/Flowers
+        ],
+        startDate: null, // Ancient roots implied
+        endDate: null,
+        inspiredBy: ["Sveriges_Asatrosamfund", "Yggdrasil_Guild"],
+    },
 }
