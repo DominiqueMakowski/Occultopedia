@@ -2,6 +2,10 @@
 // It aims at providing a comprehensive reference, with rich details about practices, aesthetics, and symbolism.
 
 const dataSocieties = {
+    // =================================================================================================
+    // ANTIQUITY
+    // =================================================================================================
+
     Cult_of_Ishtar_Inanna: {
         Origins:
             "Ancient Mesopotamia (4000 BCE - 400 CE); centered in the Eanna ('House of Heaven') District of Uruk. It was not just a temple but a massive bureaucratic and economic complex controlling the city's granaries and trade, legitimized by the goddess's mandate.",
@@ -26,6 +30,19 @@ const dataSocieties = {
                 "She is the 'Opener of the Womb' as the Morning Star (War/Aggression/Male-aspect) and the 'Hierodule of Heaven' as the Evening Star (Love/Sex/Female-aspect). Rituals changed drastically depending on her phase.",
             The_Myth_of_Etana:
                 "A foundational legend of Kingship often associated with the search for Ishtar's 'Plant of Birth'. It tells of the King of Kish who ascends to heaven on the back of a giant Eagle. The iconography of the 'Man, Serpent, and Bird' (found on cylinder seals) represents the King as the 'Axis Mundi'—the mediator binding the forces of Earth (Serpent) and Sky (Eagle) to legitimize his rule.",
+            The_Kaleidoscope_of_Descent: `
+            The Sumerian version of the Descent motif is arguably just the first scripted version of a ritual that is tens of thousands of years older, and that later versions (e.g., Anat or Isis) are distinct cultural interfaces for the same 'Soteriological Machine': the rescue of Spirit (Seed) by Matter (Womb).
+
+            - **Neolithic (The Agrarian Root):** When humans shifted from hunting to farming (Neolithic Revolution, c. 10,000 BCE), they might have developped a terrifying anxiety: When we bury the seed, will it actually come back? Planting seeds was indeed an act of sacrifice: you are taking your food stock and throwing it into the dirt (the realm of the dead). The "Descent Myth" might be the dramatization of the seed's journey. The Seed (Male) "dies" and goes underground. The Earth (Mother) must go down there, fight the entropy of the soil, and pull the life back up to the surface. The Vulture Shrines of Çatalhöyük (c. 7000 BCE) provide the visual proof: the Goddess presides over the stripping of flesh (excarnation) to facilitate the rebirth of the bones.
+            - **Sumerian:** Inanna conquers Death through *negation*. She enters the Underworld naked, stripped of ego and regalia. She hangs as a corpse on a hook, proving that the Goddess is the canvas upon which both Life and Death are painted. Her power lies in her resilience to endure total entropy.
+            - **Canaanite:** As the myth hardened in the West (Ugarit), the Goddess became the immune system of the cosmos. Anat does not submit to Death (Mot); she butchers him. She represents the violent biological imperative that life *must* kill death to survive the winter.
+            - **Egypt:** Isis shifts the mechanic from war to *memory*. She does not defeat Death with a sword, but with 'Re-membering' (assembling the scattered limbs of Osiris). She teaches that Love is a binding agent strong enough to defy the laws of decomposition.
+            - **Greece:** The Eleusinian Mysteries merely refined the agrarian trauma. Persephone is the Seed; Demeter is the Silo. The silence of the initiate reflects the silence of the buried grain.
+            - **Aztec:** Quetzalcoatl descends into Mictlan (Place of the Dead) to retrieve the 'Precious Bones' of the ancestors. Like Anat grinding Mot, he grinds the bones and bleeds on them to create humanity.
+            - **Gnosticism:** The myth leaves the dirt and enters the stars. 'Sophia' (Wisdom) falls into Matter (Earth), and the Christ-Logos must descend through the planetary spheres to rescue her.
+            - **Shinto:** The myth of Izanagi's descent to retrieve Izanami fails. He finds her rotting and flees. This divergence marks the difference between traditions that view Death as a cycle (Near East) vs. those that view it as permanent pollution (Japan).
+
+            In all versions, the masculine force is the 'Grain' (which is cut down and buried), while the feminine force is the 'Silo' and the 'Soil'—the eternal vessel that retrieves the seed from the dark to ensure the harvest returns.`,
         },
         Practices: {
             The_Descent_Rite:
@@ -104,80 +121,6 @@ const dataSocieties = {
         },
     },
 
-    Order_of_the_Magi_Richmond: {
-        Origins:
-            "Founded in Chicago, 1889, by Olney H. Richmond, a Civil War veteran and self-proclaimed 'Grand Magus'. The Order's legitimacy rests on Richmond's claim of a 14-hour encounter in 1864 with a mysterious 'Stranger' in Nashville, Tennessee. This adept supposedly initiated him into the 'Order of the Magi', an Atlantean priesthood that had operated in secret for 20,000 years, handing him the keys to the 'Test Book' (the deck of cards) which preserves the astronomical wisdom of the ancients.",
-        Beliefs: {
-            The_Little_Book_of_Seven_Thunders: `
-            The core doctrine is that the standard 52-card deck is not a gambling toy, but the 'Little Book' prophesied in Revelation 10:4 ("And when the seven thunders had uttered their voices, I was about to write...").
-            - **The Astro-Mathematical Proof:** The deck is a literal scale model of the solar year.
-                - 52 Cards = 52 Weeks in a year.
-                - 4 Suits = 4 Seasons (Hearts/Spring, Clubs/Summer, Diamonds/Autumn, Spades/Winter).
-                - 12 Court Cards = 12 Months.
-                - 13 Cards per suit = 13 Lunar cycles (or 13 weeks per season).
-            - **The Solar Summation:** If you add the face values of the cards (Ace=1 to King=13), the total is 91. $91 \\times 4$ (suits) = 364. Adding the Joker (valued at 1.25) brings the total to 365.25—the exact number of days in a solar year. To the Magi, this proved the deck was designed by ancient astronomers to track the earth's orbit.`,
-
-            The_Spirit_of_the_Suits: `
-            Reality is composed of four elements/humors, coded into the suits:
-            - **Hearts (Fire/Emotion):** The childhood of the year. Love, friendship, and domestic life.
-            - **Clubs (Air/Knowledge):** The youth of the year. Intelligence, arguments, and education.
-            - **Diamonds (Earth/Value):** The adulthood of the year. Money, commerce, and power.
-            - **Spades (Water/Wisdom/Death):** The old age of the year. Labor, spirituality, and the ultimate transformation. In Richmond's system, the Spade is the highest suit, representing the wisdom gained through suffering.`,
-
-            The_Law_of_Quadration:
-                "The universe moves in precise mathematical gears. The cards (and human souls) shuffle through positions in a fixed sequence called the 'Grand Solar Spread'. A card is never random; it moves according to a specific algorithm from the 'Spirit' spread (perfect order) to the 'Life' spread (chaos/incarnation).",
-        },
-        Practices: {
-            Determining_the_Birth_Card: `
-            The fundamental practice is calculating the 'Solar Value' of a birthday to find one's 'Ruling Card'. This card is the 'Soul's Identity' for this incarnation.
-            - **The Formula:** The year is divided into specific planetary rules. For example, a person born on December 31st is the King of Spades (The Master of Masters), whereas someone born on January 1st is the King of Spades, but shifted by the solar quadrant.
-            - **The Karma Card:** By overlaying the 'Natural Spread' (Order) with the 'Mundane Spread' (Chaos), the initiate identifies their 'Karma Cards'—the cards that sit in their position in the past or future spreads, revealing who they owe debts to (Past Life) and who owes them (Future Life).`,
-
-            The_Seven_Planetary_Periods: `
-            The Magi divide a human life (and a single year) into seven 52-day periods, each ruled by a planet in sequence: Mercury, Venus, Mars, Jupiter, Saturn, Uranus, and Neptune.
-            - **Forecasting:** To predict the future, the initiate lays out their 'Yearly Spread'. If the 7 of Spades (The Accident Card) falls in their 'Mars Period' (Action), they effectively ground themselves for those 52 days to avoid physical injury. If the 10 of Diamonds (Blessing) falls in their 'Jupiter Period', they launch business ventures.`,
-
-            Grand_Solar_Spread_Ritual: `
-            A high-level meditative operation where the entire deck is laid out on a specialized 'Quadrated' altar cloth.
-            - **The Layout:** The cards are placed in rows and columns corresponding to the 45th, 90th, or Nth 'Quadration' of the deck.
-            - **The Reading:** The Magus reads the 'crossing' currents—vertical, horizontal, and diagonal lines intersecting the subject's card—to determine the electromagnetic influences of the coming year. It is viewed not as fortune-telling, but as reading an astronomical weather report.`,
-
-            The_Magic_Mirror_Skrying:
-                "Richmond taught 'Crystal Gazing' and 'Mirror Skrying' as essential supplements to the math. Initiates coated convex glass with a specific asphaltum/black paint mixture to create a 'Microcosm'. They would stare into this void while holding their Birth Card to summon their 'Atmospheric Spirit Guide'.",
-        },
-        Structure: {
-            The_Grand_Temple:
-                "The Order was hierarchical, with Richmond as the 'Grand Magus' (and later his daughter, Arline Richmond). The structure mirrored the deck itself.",
-            The_Inner_Degrees:
-                "Initiation involved passing through the four 'Suits'. A 'Neophyte of the Heart' would progress to a 'Master of the Spade'. Degrees were conferred by the transmission of mathematical 'Keys'—algorithms that allowed the member to unlock deeper layers of the card spreads (e.g., the '90-Year Life Spread' vs. the 'Infinite Spirit Spread').",
-            Temple_Regalia:
-                "Robes were color-coded to the planetary ruler of the degree (e.g., Orange for Sun/Gold, Black for Saturn). The Altar always featured the four Aces (The 4 Seasons) marking the cardinal points.",
-        },
-    },
-
-    Confraternity_of_the_Three_Kings: {
-        Origins:
-            "12th Century onwards; centered around Cologne Cathedral (Germany) where the relics of the Magi were transferred by Frederick Barbarossa in 1164.",
-        Beliefs: {
-            Protectors_of_Travel:
-                "As the ultimate travelers, the Magi (Caspar, Melchior, Balthasar) grant safety to pilgrims and merchants.",
-            Healing_Patrons: "They were specifically invoked against epilepsy ('The Falling Sickness') and sudden death.",
-            Royal_Legitimacy: "Venerating the 'Three Kings' was a way for the Holy Roman Emperors to claim divine sanction for their rule.",
-        },
-        Practices: {
-            Star_Singing_Sternsinger:
-                "Processions of children or initiates dressed as kings, carrying a star on a pole, singing carols to bless houses.",
-            Chalking_the_Door:
-                "Marking the lintel of homes with 'C+M+B' (Christus Mansionem Benedicat / Caspar, Melchior, Balthasar) at Epiphany for protection.",
-            Touching_of_Relics: "Items (coins, cloth) touched to the shrine in Cologne became 'Brandea' (contact relics) used for healing.",
-            Dreikonigszettel: "Small paper amulets bearing the names of the Magi, swallowed or worn to cure illness.",
-        },
-        Structure: {
-            Lay_Brotherhoods: "Voluntary associations of laypeople (merchants, guildsmen) dedicated to the cult of the Magi.",
-            Arch_Chancellors: "High ecclesiastical officials who managed the pilgrimage routes and the shrine's treasury.",
-        },
-    },
-
     Modern_Zoroastrian_Priesthood: {
         Origins:
             "Direct biological and spiritual descendants of the Sassanid Magi who fled to India (becoming Parsis) or remained in Iran (becoming Zartoshtis) after the Islamic conquest.",
@@ -249,159 +192,949 @@ const dataSocieties = {
         },
     },
 
-    Eleusinian_Mysteries: {
-        Origins: "Ancient Greece; stood as the preeminent religious festival for nearly two thousand years.",
+    Mitanni_Indo_Aryan_Cult: {
+        Origins:
+            "Northern Mesopotamia and Syria (c. 1500-1260 BCE); the ruling elite (Maryannu) of the Hurrian-speaking Mitanni Empire. They were an Indo-Aryan warrior caste who introduced the light-spoked chariot to the Near East. Their influence on Egypt was direct: Akhenaten's father (Amenhotep III) married the Mitanni princess Gilukhipa, who arrived with 317 ladies-in-waiting, likely acting as a 'Trojan Horse' for solar monism and Vedic concepts within the Egyptian royal harem.",
         Beliefs: {
-            Soteriology: "Intensely personal and soteriological, promising a 'better lot' in the afterlife unlike civic cults.",
-            Cycle_of_Grain: "Rooted in the myth of Demeter and Persephone; the abduction and return symbolized life, death, and rebirth.",
-            Immortality: "For the initiate, the myth was a promise that the human soul, like the grain, was immortal.",
+            Mitra_Varuna_The_Binders: `
+            The cosmos is held together by 'Rta' (Cosmic Truth/Order), enforced by the twin-gods Mitra and Varuna.
+            - **Mitra (The Contract):** He is the benevolent, solar aspect of sovereignty who binds men together through friendship, treaties, and the spoken word. He is the 'Lord of Wide Pastures' who ensures peace. This deity is the precursor to the Iranian Mithra, who is central to the Zoroastrian tradition guarded by the Magi (though distinct from the later Roman Mithras).
+            - **Varuna (The Binder):** He is the terrible, nocturnal aspect of sovereignty (the night sky) who binds oath-breakers with his 'noose' (pasha). He sees all secret things.
+            
+            You do not fear the dark because of monsters; you fear the dark because it is Varuna's cloak, and in it, he can see the lies you told during the day. This duality (Light/Contract and Dark/Judgment) likely prefigured the Atenist obsession with 'Living in Truth'.
+            This theological structure can be seen as an ancestor of the Magi's Cosmic Dualism, which views the universe as a battlefield between Truth (Ahura Mazda) and Lies (Angra Mainyu).`,
+
+            Surya_The_All_Seeing_Eye: `
+            The Sun (Surya) is not merely a heat-source; it is the 'Eye of Mitra-Varuna'. It is the supreme intelligence that surveys the earth.
+            - **No Secrets:** Because the Sun sees everything, there can be no 'hidden' mysteries (unlike the Egyptian Amun, 'The Hidden One'). True religion must happen in the open air, under the direct gaze of the disc.
+            - **The Chariot-Throne:** The god does not sit in a temple; he rides across the sky. Therefore, the King (his avatar) must also be a charioteer. The act of driving the chariot is a divine imitation (mimesis) of the sun's path across the heavens.`,
+
+            The_Maryannu_Ideology: `
+            'Maryannu' (Young Warrior) is a caste status, not a job. It is achieved through the mastery of the horse (the avatar of Agni/Fire). The horse is the sacred animal that bridges the gap between the speed of the gods and the slowness of men. To control a horse is to control the solar fire.`,
         },
         Practices: {
-            Kykeon: "A psychoactive barley drink flavored with pennyroyal mint, served in a special chalice called a 'kymbe' to induce a receptive state after a day of fasting.",
-            The_Telesterion:
-                "A vast windowless hall where the 'arrheta' was displayed. The hall was plunged into total darkness before a massive fire was suddenly lit (the 'Anaktoron' fire), blinding the initiates with light.",
-            The_Fire_and_Gong:
-                "The Hierophant, dressed in royal purple robes and bathed in the sudden light of torches, struck a loud gong to summon Kore (Persephone). He then displayed a simple cut ear of wheat in silence.",
-            Gephyrismoi:
-                "The 'Bridge Jests'—as initiates walked the Sacred Way from Athens to Eleusis, masked figures sat on a bridge and shouted obscenities and insults at them to humble their egos before the initiation.",
+            The_Kikkuli_Rite_Horse_Asceticism: `
+            Based on the 'Kikkuli Text' (the oldest known manual on horse training), this was not just training but a liturgical discipline lasting 74 days.
+            - **Interval Training:** The horses were subjected to a rigorous regimen of 'loosing' (sprinting) and 'halting', mirroring the expansion and contraction of the breath.
+            - **The Washing Ritual:** The horses were washed in warm water (unheard of in typical husbandry) and anointed with butter (ghee) to honor the internal fire.
+            - **The Night Vigil:** The trainer had to sleep in the stable with the animal, mixing their sweat with the horse's flank, dissolving the boundary between rider and beast to create the 'Centaur' unit required for war.`,
+
+            Ritual_of_the_Severed_Oath: `
+            Treaties were not signed paper; they were biological binds.
+            - **The Throat-Cutting:** When swearing an oath (e.g., the treaty between Shattiwaza and Suppiluliuma), the participants would slit the throat of a sheep or donkey. They would declare: "If I break this word, may I be cut as this beast is cut."
+            - **The Witnessing:** The oath was spoken to the mountains, the rivers, and the winds (Vayu), but specifically to the 'Gods of the Oath' (Mitra-Varuna-Indra-Nasatya). To break the word was to invite the collapse of the sky itself.`,
+
+            The_Fire_Guest_Agni: `
+            Fire was not just a tool but a guest (Atithi).
+            - **The Feeding:** Oil, fat, and grain were poured into the hearth fire morning and evening. The flame's upward direction was the carrier wave transmitting the prayers to the heavens.
+            - **The Circumambulation:** Worshippers moved around the fire in a clockwise direction (Pradakshina), mimicking the sun's path. This movement aligned the human bio-rhythm with the cosmic rotation.`,
+
+            Chariot_Archery_Meditation: `
+            The warrior practiced shooting arrows from a moving chariot not just for accuracy, but to achieve 'Ekagrata' (One-Pointedness).
+            - **The Logic:** The chariot shakes and vibrates (Chaos/Samsara); the target is distant. The archer must find the 'still point' within the motion. When Akhenaten is depicted driving his chariot with the rays of the Aten holding him, he is visually quoting this Indo-Aryan concept of the King as the stable axis of a spinning world.`,
         },
         Structure: {
-            Hierophant:
-                "The 'Display-er of Holy Things,' drawn from the Eumolpidae family; he wore a strophion (headband) and long, sleeved robes different from standard Greek attire.",
-            Dadouchos: "The Torchbearer, carrying two large torches representing the light of Demeter searching for her daughter.",
-            Epoptai: "The 'Beholders,' initiates who returned a year after their first initiation to witness the highest revelation.",
+            The_Chariot_Caste: `
+            A strict aristocracy based on the possession of horses and chariots. One could not buy entry; one had to be born into the lineage and survive the 74-day Kikkuli training cycle. They looked down upon infantry (the 'Foot-Dirt') as sub-human.`,
+        },
+    },
+
+    Minoan_Epiphany_Cult: {
+        Origins: `
+            Crete (c. 3000-1100 BCE); the first high civilization of Europe, centered on the 'Palace' complexes of Knossos, Phaistos, and Malia.
+            The cult is not purely native; it is likely a mutant survivor of the 'Old Europe' Neolithic religion that was destroyed elsewhere.
+            - **The Anatolian Mother:** The spiritual DNA traces back to the Neolithic settlers who migrated from Anatolia (modern Turkey) c. 7000 BCE. They brought the iconography of **Çatalhöyük**: the 'Potnia Theron' (Mistress of Animals) flanked by leopards, and the obsession with Bull Horns (Bucrania) as the seat of male power. While the mainland was overrun by Indo-European 'Sky Father' invaders (Zeus/Dyaus), Crete's isolation allowed this ancient 'Earth Mother' religion to survive and evolve into a sophisticated, high-tech theocracy.
+            - **Cycladic Silence:** It absorbed the silent, abstract aesthetic of the Cycladic culture (the 'Folded Arm Figurines'), transforming their stiff funerary idols into the ecstatic, snake-wielding dancers of the Palaces.
+            - **Egyptian Syncretism:** Through trade, they imported the Egyptian goddess **Taweret** (the pregnant hippo), transforming her into the 'Minoan Genius'—a crocodile-backed demon that serves the Goddess by carrying libation jugs. They also adopted the **Sistrum** (sacred rattle) from the Cult of Hathor to induce trance through sonic driving.
+            
+            Originally, worship happened in 'Tholos' tombs (communal ancestors). Around 1900 BCE, this shifted to the 'Palace'. The Palace was not a residence for a King; it was a **Ritual Machine**. The labyrinthine architecture, the 'Lustral Basins' (sunken rooms), and the central courts were designed specifically to stage the 'Epiphany'—the moment the Goddess appeared in human form.`,
+        Beliefs: {
+            The_Theology_of_Epiphany: `
+            The Gods are not residents of the temple; they are 'Flash Events'.
+            - **The Summoning:** Unlike Egyptian gods who live in statues, the Minoan Goddess exists in the Ether (the Sky) or the Deep Earth. She must be violently 'pulled' into the visible spectrum.
+            - **The Baetyl Logic:** A stone (Baetyl) or a tree is an antenna. The god does not live *in* the stone, but the stone acts as the 'grounding wire' for the divine current. By hugging the stone or shaking the tree, the worshipper completes the circuit, allowing the deity to manifest.
+            - **Possession:** The High Priestess does not 'represent' the Goddess; during the rite, she *is* the Goddess. The rituals are technologies of possession designed to displace the human ego so the 'Potnia' can inhabit the flesh.`,
+
+            The_Bull_as_Earthquake_Poseidon: `
+            The Bull is the physical avatar of the Tectonic Plate.
+            - **The Shaker:** Crete is geologically unstable. The roaring sound of an earthquake coming from the ground sounds exactly like a subterranean bull. Therefore, the Bull is the 'Earth-Shaker'.
+            - **Harmonization, Not Killing:** We do not kill the Bull to destroy it; we dance with it to soothe it. The 'Taurokathapsia' (Bull Leaping) is a homeopathic ritual. By leaping over the horns (the focal point of the violence), the human dancer synchronizes their rhythm with the Earth's violence. If the dance is perfect, the Earth is charmed, and the earthquake is averted.`,
+
+            The_Snake_as_Chthonic_Wire: `
+            The Snake is the only creature that touches the earth with its entire body. It is the 'living root' that can move between the Underworld (Hollow Earth) and the Upper World.
+            - **The Handling:** The Priestess holds the snakes high, not to threaten, but to display that she has seized the 'cords' of the earth. She is grounding the chthonic energy into the air.`,
+        },
+        Practices: {
+            The_Lustral_Basin_Incubation: `
+            The 'Adyton' (Holy of Holies) is a sunken pit-room, lined with gypsum, accessed by a turning staircase to block all light.
+            - **Sensory Deprivation:** The initiate descends into the 'womb of the earth'. In total darkness, the boundary of the body dissolves.
+            - **The Opium Chrism:** Archaeological findings (the 'Poppy Goddess') indicate the use of opium dissolved in wine or burnt as incense. The initiate enters a 'twilight state' (hypnagogia) to communicate with the ancestors. The goal is not sedation, but a 'waking dream' where the walls of the basin disappear.`,
+
+            The_Tree_Shaking_Rite: `
+            A frantic ritual to call the deity down from the sky.
+            - **The Action:** As depicted on the 'Ring of Minos', the priestess grasps the branches of the sacred Fig or Olive tree and shakes it violently.
+            - **The Vision:** This agitation is believed to 'startle' the spirit, knocking the divine fruit/spark loose from the invisible realm so it falls into the ritual space. Men stand by shielding their eyes, as the arrival of the goddess is blinding.`,
+
+            The_Double_Axe_Sacrifice: `
+            The **Labrys** (Double Axe) is the butterfly of death. It is never used for war, only for the neck of the Bull.
+            - **The Jugular:** The Bull is tied to a low table. The throat is slit. The blood is not allowed to spill on the ground (which would be wasteful); it is caught in a 'Rhyton' (a conical vessel) and then poured into a hole in the earth to feed the 'Earth-Shaker' directly.
+            - **The Pillar:** The Axe is often stuck into a wooden pillar. This symbolizes the penetration of Matter (Wood) by Spirit (Metal/Will).`,
+
+            The_Logic_of_the_Snake_Grip: `
+            Why does the Priestess hold the snakes? It is not to show dominance.
+            - **The Cold Current:** The snake is 'poikilothermic'—it takes the temperature of the soil. When the Priestess grasps the snake, she is holding a living thermometer of the Underworld. She feels the 'chill' of the dead and the 'heat' of the magma.
+            - **The Circuit:** The snakes are held high, arms rigid. The Priestess becomes a living circuit board. The energy flows from the Earth (Snake tail), through the Snake body, into her hands, through her heart, and out of her eyes. If she drops the snake, the circuit breaks, and the epiphany ends.`,
+        },
+        Structure: {
+            Matriarchal_Theocracy: `
+            Men are essential assistants (musicians, cup-bearers, bull-leapers), but the central 'Interface' is female.
+            - **The Snake Goddesses:** The elite caste of women who handle the venomous adders. Their bare breasts symbolize the nurturing aspect, while the snakes symbolize the lethal aspect. They are the 'Living Baetyls'.
+            - **The Wanax:** The King (Minos) exists, but his power is derived from his 'marriage' to the High Priestess. He acts as the Bull-Mask wearer, the son/consort who dies and is reborn, while the Priestess is the eternal Pillar.`,
+        },
+    },
+
+    Cult_of_Baal_Ugarit: {
+        Origins:
+            "Ancient Syria (Ras Shamra), c. 1500-1200 BCE. The 'Tell' (mound) of Ugarit hides the library that unlocked the Canaanite mind. This is the Bronze Age ancestor of the Phoenician system, and the theological bridge between Sumer and the Bible.",
+        Beliefs: {
+            The_Cosmic_Combat_Cycle:
+                "Reality is a stalemate between three titans. 'Baal' (The Storm/Life) fights 'Yam' (The Sea/Chaos) and 'Mot' (Death/Drought). There is no 'Victory'; there is only a seasonal holding action. If the priests stop feeding Baal, Mot swallows him, and the summer drought kills us all.",
+            Anat_The_Violent_Virgin: `
+                The most terrifying archetype in the Semitic pantheon. She is the sister-lover of Baal.
+                - **The Blood Bath:** The tablets describe her barring the doors of her house and slaughtering warriors until she is knee-deep in blood. She washes her hands in the gore.
+                - **The Logic:** She is the 'antibody' of the divine. Her violence is not evil; it is the ruthless aggression required to protect Life (Baal) from Death (Mot). She represents the necessity of War to secure Peace.`,
+            Window_of_the_Heavens:
+                "The architectural fear of the Sea. In the myth, Baal refuses to install a window in his palace facing the ocean (Yam), fearing the Chaos-Waters would flood in and drown him. This reflects the primal human fear of the subconscious overwhelming the conscious mind.",
+        },
+        Practices: {
+            Ritual_Lamentation_and_Gashing: `
+                When the summer heat arrives, Baal is dead (swallowed by Mot).
+                - **The Sympathetic Wounding:** The King and High Priests descend from the throne to the dust. They pour ashes on their heads and cut their skin with flint knives (incisions).
+                - **The Attraction:** The smell of royal blood is believed to arouse the pity of El (the Creator) and strengthen Anat to go down into the Underworld and rescue Baal.`,
+            Feeding_the_Dead_Royal_Cult:
+                "Unlike the Phoenician 'Marzeah' (which was for merchants), the Ugaritic rite focused on the 'Malik' (Dead Kings). Hollow pipes were sometimes built into graves so libations (oil/blood) could be poured directly onto the bones of the deceased monarchs, keeping them 'moist' and active as guardians of the city.",
+        },
+        Structure: {
+            Royal_Sacrality:
+                "The King was the High Priest. The palace and the temple were physically connected. The collapse of the Bronze Age (Sea Peoples) destroyed the city, but the theology 'escaped' and became the primary antagonist (Baal) for the emerging Yahwist cult in the south.",
+        },
+    },
+
+    Phoenician_High_Cult: {
+        Origins: `
+            The Levantine coast (Tyre, Sidon, Byblos) and the great colonial expansion (Carthage, Cádiz). c. 1200-146 BCE.
+            
+            **The Thalassocratic Interface:**
+            This was not a religion of land and harvest, but of the Horizon and the Deep.
+            - **The Lords of the Liminal:** The Phoenicians were the "Purple People" (Canaanites) who acted as the membrane between the civilisations of the East and the West. Their cults were designed to handle the spiritual pollution of foreign lands and the terror of the open ocean.
+            - **The Corporate Theology:** The cosmos was viewed as a high-risk mercantile exchange. The Gods (Baal-Hammon, Tanit, Melqart) were the 'Silent Partners'. They provided the 'wind capital' and the 'security insurance', but their premiums were astronomical.`,
+        Beliefs: {
+            The_Tophet_Logic_Molk: `
+            The 'Molk' (Royal Offering) is the ultimate logic of the Ledger.
+            - **The Tax of the Firstborn:** You cannot bribe the Infinite with a goat. To avert total bankruptcy (the destruction of the city), the Ruling Council must pay with their own genetic future. It is a 'Reverse Inheritance'—sending the child ahead to the gods to secure the present.
+            - **The Sardonic Mask:** It was strictly forbidden to weep. A weeping offering is unwilling and void. Parents wore a rigid, smiling mask or forced a grin (the origin of the 'Sardonic Grin') while the drums beat at a deafening volume—not just to drown out the screams, but to shatter the acoustic reality so the soul could slip free. `,
+
+            Melqart_The_Alchemical_King: `
+            Melqart (King of the City) is the Master of Transformation.
+            - **The Dying Heracles:** He is the archetype of the hero who burns away his mortality.
+            - **The Aniconic Void:** In the Temple of Melqart at Tyre, Herodotus was shocked to find no statue. There were only two pillars (Gold and Emerald) glowing in the night. The Phoenicians understood that to trap a god in a human form is to insult its magnitude. They worshipped the *Space Between* the pillars.`,
+
+            The_Secret_of_Tyrian_Purple: `
+            The dye 'Tekhelet' was not just a commodity; it was coagulated sunlight and marine death.
+            - **The Stench of Royalty:** The Murex snails were crushed by the millions and fermented in lead vats. The smell was horrific (rotting shellfish), requiring the processing to be done downwind. Yet, out of this putrefaction came the holiest color—Purple/Indigo. It taught the initiates that the highest Purity comes from the deepest rot.`,
+        },
+        Practices: {
+            The_Marzeah_Feast_of_Shadows: `
+            A necromantic banquet for the aristocracy and the 'Rephaim' (Healers/Ghosts).
+            - **The Threshold of Intoxication:** Participants drank strong wine mixed with spices until they reached a 'liminal paralysis'.
+            - **The Guest List:** The family tomb was opened. The living feasted *with* the dead, believing that the alcohol thinned the membrane of time, allowing the Ancestral Shades to give stock tips, political advice, and dynastic blessings.`,
+
+            The_Sacred_Prostitution_Qadishtu: `
+            In the service of Astarte/Tanit, sexuality was an act of civic irrigation.
+            - **The Anonymity:** The rite required the woman to sit in the temple precinct. She could not refuse the first coin thrown into her lap.
+            - **The Theology:** By mating with a Stranger (who represents the chaotic 'Outside'), she domesticates that chaos and brings its vitality into the city. It is a ritual to turn 'Wild Energy' into 'Civic Power'.`,
+
+            Foundation_Rites_of_the_Ember: `
+            - **The Eternal Flame:** No colony was legitimate without the 'Mother Fire'. A live coal from the altar of Tyre was kept burning in a clay jar aboard the colonizing ship.
+            - **The Transfer:** Upon landing (e.g., in Carthage), this coal lit the new altar. This meant that legally and spiritually, the fire in Carthage *was* the fire in Tyre. The colony was not a new creation, but an extension of the same burning body.`,
+
+            The_Sardonic_Grin: `
+            Archaeology (e.g., graves in Carthage and Sardinia) has recovered terracotta masks depicting a face locked in a rictus of wide, frozen laughter.
+            - **The Smile of Death:** These masks were likely worn by priests or parents during the Molk (child sacrifice). Because weeping was forbidden (it would spoil the offering), the mask provided a permanent, artificial 'Joy' to present to the god Baal.
+            - **Etymology:** This forced, painful laughter in the face of death is the origin of the term 'Sardonic' (from Sardinia).`,
+        },
+        Structure: {
+            The_Merchant_Priesthood: `
+            A strict oligarchy where the 'Suffetes' (Judges) and Priests were often the same people.
+            - **The Clean Bankers:** Unlike the bearded, rugged Assyrians, Phoenician priests were often clean-shaven (razors were found in tombs) and wore pristine linen. They managed the Temple Treasuries, which acted as the central banks of the ancient world. You trusted your gold to the Temple because the Gods were the only ones scary enough to deter thieves.`,
+        },
+    },
+
+    Cult_of_Marduk_Babylon: {
+        Origins:
+            "Babylon, c. 18th Century BCE - 1st Century BCE. Rose to prominence under Hammurabi. Marduk began as a minor agricultural deity but absorbed the powers of all other gods (The 50 Names) to become the 'Bel' (Lord).",
+        Beliefs: {
+            Order_out_of_Tiamat:
+                "Creation is an act of violence. Marduk slew the chaos-dragon Tiamat, split her corpse in two, and used half to make the sky and half to make the earth. Therefore, the physical world is made of the 'dead body of chaos' and requires constant law/magic to prevent it from rotting back into disorder.",
+            Tablets_of_Destiny:
+                "The supreme authority in the universe is legalistic. Whoever holds the 'Tablets of Destiny' (software of the cosmos) controls the future. Marduk wears them on his breast, signifying that Fate is not random but governed by Law.",
+            Mankind_as_Servant:
+                "Humans were created from the blood of the traitor-god Qingu solely to perform manual labor for the gods. There is no 'love' from the gods, only a master-servant contract.",
+        },
+        Practices: {
+            Akitu_New_Year_Festival:
+                "The most complex ritual of antiquity (12 days). The High Priest (Sheshgallu) strips the King of his regalia, slaps him across the face, and pulls his ears. If the King cries, Marduk is pleased. It acts as a ritual humiliation to remind the monarch he is merely a steward.",
+            The_Procession_of_Ships:
+                "Statues of the gods traveled by boat along the Euphrates to visit Marduk in his temple (Esagila), simulating a 'parliament of gods' convening to determine the fate of the coming year.",
+            Scapegoat_Rite:
+                "A criminal or a goat was often used to physically absorb the 'sins' or entropy of the city and was driven out into the desert or executed to cleanse the community.",
+        },
+        Structure: {
+            Astronomical_Bureaucracy:
+                "The priesthood invented the Zodiac and mathematical astronomy not for science, but for divination. They viewed the sky as the 'Script of Heaven' (Shitir Shame), believing that if they could read the code, they could petition the King for changes.",
+        },
+    },
+
+    // =================================================================================================
+    // MYSTERY SCHOOLS
+    // =================================================================================================
+    Cult_of_Heraclitus_The_Obscure: {
+        Origins: `
+            Ephesus (Asia Minor), c. 500 BCE. Heraclitus was not merely a philosopher but a hereditary priest-king (Basileus) of the Temple of Artemis who abdicated his throne to his brother to live as a hermit. 
+             He provides the theological bridge between the **Iranian Magi** (Fire Worship) and **Greek Stoicism** (which later built the theology of Mithras). His doctrine is the "Esotericism of Change." While the Orphics tried to *escape* the wheel of birth, Heraclitus worshipped the Wheel itself.`,
+        Beliefs: {
+            The_Ever_Living_Fire_Ekpyrosis: `
+            "This world... was created by no god or man; it was, is, and ever shall be an Ever-Living Fire."
+            - **The Pyro-Theology:** God is not a person; God is a process of combustion. The soul is a spark of this cosmic fire. To be "Good" is to be "Dry" (fiery/intellectual). To be "Bad" is to be "Wet" (drunken/emotional/dead). 
+            - **Influence on Stoics:** This concept evolved into the Stoic doctrine of *Ekpyrosis*—the belief that the universe is periodically consumed by fire and reborn, a cycle later adopted by Alchemists as the "Calcination" of the soul.`,
+            War_as_Father: `
+            "War (Polemos) is the father of all and the king of all."
+            - **The Conflict Engine:** Peace is death (stagnation). Reality only exists because of the tension between opposites (the bowstring and the bow). This is the ancestor of the **Hegelian Dialectic** and the magical concept of "Equilibrium through Tension." To banish strife would be to destroy the universe.`,
+            The_Weeping_Philosopher: `
+            Heraclitus was known for weeping at the folly of mankind. Esoterically, this was not sadness but a ritual technique of *Catastrophic Visualization*—meditating on the inevitable destruction of all forms to detach the consciousness from them.`,
+        },
+        Practices: {
+            Gazing_at_the_Hearth_Trataka: `
+            The central meditation involved staring into a hearth fire until the distinction between the "observer" and the "flame" vanished.
+            The initiate realizes that the flame they see now is not the flame of a second ago. By synchronizing their breath with the flickering, they enter the *River of Flux*, realizing their own "Self" is just a burning process, not a static object.`,
+            The_Dung_Cure_Burial: `
+            In his final days, suffering from dropsy (water retention—the enemy of the Fire Soul), Heraclitus buried himself in a pile of cow manure in the town square.
+            He believed the heat generated by the putrefaction of the dung would "evaporate" the watery sickness from his body. It was a literal attempt at **Alchemical Transmutation** of the body using "Philosophical Earth" to dry out the "Flood" of the flesh.`,
+            The_Knucklebone_Oracle: `
+            Heraclitus famously played knucklebones (dice) with children in the temple rather than governing the city. 
+            This was a teaching on *Aion* (Time/Eternity). "Time is a child playing a game of draughts; the kingship is in the hands of a child." The random cast of the dice is the purest expression of the Logos—order emerging from chaos without moral judgment.`,
+        },
+        Structure: {
+            The_Dark_Ones_Skoteinoi: `
+            His followers were called "The Dark Ones" because Heraclitus wrote his book (*On Nature*) in deliberately riddling, oracular prose, depositing the only copy in the Temple of Artemis. He intended his wisdom only for the "Few" who could decode it, explicitly rejecting the democracy of the "Many" (whom he called cattle).`,
+        },
+    },
+
+    Empedoclean_Magicians: {
+        Origins: `
+            Akragas, Sicily, c. 450 BCE. Founded by Empedocles, a figure who straddled the line between Pre-Socratic philosopher and Bronze Age Shaman. He walked the streets wearing purple robes, a golden laurel wreath, and bronze sandals, openly declaring, "I go about among you an immortal god, no longer mortal."
+            He is the grandfather of Western Ritual Magic. He was the first to codify the **Four Elements** (Roots) which became the basis of all Astrology, Alchemy, and Wicca.`,
+        Beliefs: {
+            Love_and_Strife_Philia_neikos: `
+            The universe is a battlefield between two forces: **Love** (Gravity/Attraction) which pulls things together, and **Strife** (Entropy/Repulsion) which tears them apart.
+            - **The Cosmic Cycle:** History is a loop.
+                1. **The Sphere (Sphairos):** Love dominates. All elements are fused in a perfect, featureless divine ball. No individual souls exist.
+                2. **The Breaking:** Strife enters. The Sphere shatters. The world of monsters and separate beings is created (Current Age).
+                3. **The Total War:** Strife dominates. Chaos.
+                4. **The Return:** Love begins to pull the shards back together.
+            - **Esoteric Influence:** This directly influenced **Freud** (Eros vs. Thanatos) and the **Gnostic** view of the breaking of the divine unity.`,
+            Vegetarian_Transmigration: `
+            "For I have been ere now a boy and a girl, a bush and a bird and a dumb fish in the sea."
+            Because souls reincarnate into animals, eating meat is the ultimate sin—literal cannibalism of one's kin. The Empedocleans believed that "Strife" enters the body through the blood of slaughtered animals.`,
+        },
+        Practices: {
+            Weather_Sorcery: `
+            Empedocles claimed the power to "stop the force of the untiring winds" and "bring back the soul of a dead man from Hades."
+            - **Wind Bags:** Rituals involved skinning donkeys to make wind-catchers (aeolian bags) to physically trap the "Demons of the Air" that caused plagues. He famously "cured" a city by sealing a gap in the mountains to block the pestilent wind.`,
+            The_Bronze_Sandal_Suicide: `
+            The ultimate Rite of Departure. Empedocles climbed Mount Etna and threw himself into the volcanic crater.
+            He intended to vanish completely (body and soul) to prove he had ascended to the gods (Apotheosis), but the volcano spat back one of his bronze sandals.
+            To the uninitiated, it was a failure. To the initiate, the Sandal represents the "Remnant" or the "Signature" left behind by the Adept—proof that even Fire cannot consume the symbol of the Great Work.`,
+            Kartharmoi_Purifications: `
+            Rituals to purge the "pollution" of Strife. This involved pouring libations of honey and water (never blood) and abstaining from beans (similar to Pythagoreans) and bay leaves, which were considered "containers" of souls.`,
+        },
+        Structure: {
+            The_Physicians: `
+            Empedocleans functioned as wandering healers (iatromantis). They were not a hidden cult but public miracle-workers who used their philosophy to perform "magical medicine," curing madness by balancing the ratios of Fire and Water in the patient's blood.`,
+        },
+    },
+
+    The_Atomist_Garden_Epicureans: {
+        Origins: `
+            Athens, c. 300 BCE; "The Garden" (Kepos). Founded by Epicurus, drawing on the atomism of Democritus.
+            History views them as atheists or hedonists. Esoterically, they were a **Cult of the Void**. They did not deny the gods; they "de-activated" them. They were the first "Psychological Materialists," using the concept of Atoms to perform an exorcism on the human mind.`,
+        Beliefs: {
+            The_Clinamen_The_Swerve: `
+            The universe is a rain of atoms falling through a void. If they fell in straight lines, nothing would exist. But occasionally, an atom "swerves" (Clinamen) without cause.
+            - **Magical Link:** This "Swerve" is the **origin of Free Will** and Magic. It is the "Chaos Factor" that breaks determinism. Modern Chaos Magicians utilize this concept: magic is the act of mentally inducing a "Swerve" in the probability field of reality.`,
+            Tetrapharmakos_The_Four_Part_Cure: `
+            The core dogma, recited like a rosary to banish fear:
+            1. *Don't fear God.* (God is made of atoms and doesn't care about you).
+            2. *Don't worry about Death.* (When you are, death is not; when death is, you are not).
+            3. *What is good is easy to get.* (Basic needs are simple).
+            4. *What is terrible is easy to endure.* (Pain is fleeting).`,
+            Simulation_of_Godhood: `
+            They believed the Gods existed in the "Intermundia" (spaces between worlds), made of "fine atoms," living in total bliss. The goal of the Epicurean is not to serve these gods, but to **mimic** their frequency. By achieving *Ataraxia* (perfect un-troubledness), the human becomes a "Terrestrial God."`,
+        },
+        Practices: {
+            The_Garden_Commune: `
+            Epicurus purchased a garden outside Athens. It was a radical, walled commune.
+            - **The Equality:** It was the only school to admit women, slaves, and courtesans (hetairai) as equals.
+            - **The Ancestor Worship:** They treated Epicurus as a Savior-God. On the 20th of every month, they held the "Feast of the Twentieth" to worship his image, not as a ghost, but as the man who killed the fear of hell.`,
+            Visualization_of_Infinity: `
+            A mental exercise to crush the ego. The initiate lies on the ground and visualizes the walls of the world dissolving (Moenia Mundi). They project their mind into the deep space of the Void, visualizing the infinite number of worlds (Aliens/Multiverse) being born and dying. This creates a "Cosmic Consciousness" that makes earthly troubles seem laughable.`,
+            Fasting_from_Opinion: `
+            The practice of *Lathe Biosas* ("Live in hiding"). Members withdrew from politics and public life, viewing the "State" as a collective delusion. They "fasted" from news and social drama to keep the "smooth atoms" of the soul from becoming agitated.`,
+        },
+        Structure: {
+            The_Therapeutic_Hierarchy: `
+            The school functioned like a hospital for the soul.
+            - **The Kathegemones:** The Guides/Doctors who diagnosed the "false beliefs" of the students.
+            - **The Philosophers:** The patients undergoing treatment to remove the fear of death.`,
+        },
+    },
+
+    Stoic_Brotherhood_The_Porch: {
+        Origins: `
+            Athens, c. 300 BCE; founded by Zeno of Citium at the 'Stoa Poikile' (Painted Porch). 
+            Zeno was a Phoenician merchant before he was a philosopher. After a shipwreck took his fortune, he wandered into a bookstore, read Socrates, and converted. He injected Semitic/Canaanite intensity into Greek thought. 
+            While popular for their ethics (staying calm), their *Physics* was a cult of fire-worship. They believed the universe was a living, thinking animal, and that "God" was the fiery nervous system (Pneuma) running through it.`,
+        Beliefs: {
+            Pneuma_and_Sympatheia: `
+            The universe is filled with a "Divine Breath" (Pneuma), a mixture of Fire and Air that holds matter together (Tension/Tonos).
+            Because the Pneuma is everywhere, everything is physically connected to everything else like a spiderweb. If you pluck a string in Athens, it vibrates in Rome. This is the "Scientific" basis for Divination and Astrology—reading the liver of a sheep works because the liver is connected to the stars via the Pneuma.`,
+            Ekpyrosis_The_Great_Conflagration: `
+            The Doctrine of the Reset. The universe is not eternal.
+            Periodically, the "Tension" of the Pneuma becomes too great. The universe ignites. All matter—rocks, oceans, humans, and gods—is consumed and dissolved back into the Primordial Fire.
+            The Fire cools and condenses back into the elements, recreating the world *exactly* as it was before.
+            You have lived this life infinite times before, and you will live it infinite times again. Every mistake, every pain, every breakfast is scripted and repeated forever. The goal is to love the script (Amor Fati).`,
+            The_Material_God: `
+            Stoics were "Corporealists." They believed *only* bodies exist. Therefore, the Soul is physical (a gas), virtues are physical (configurations of the mind), and God is a physical body (the Fire). To the uninitiated, this looked like Atheism; to the Initiate, it was the ultimate Pantheism.`,
+        },
+        Practices: {
+            Premeditatio_Malorum: `
+            "The Pre-meditation of Evils." A morning ritual of negative visualization.
+            The initiate wakes and vividly hallucinates their worst fears: "Today, my child will die. My house will burn. I will be exiled."
+            By emotionally processing the catastrophe *before* it happens, they rob Fate of its power to surprise them. It is a "psychological vaccination" against trauma.`,
+            The_View_from_Above: `
+            A guided visualization to crush the Ego.
+            The practitioner closes their eyes and projects their consciousness upward, rising above the roof, then the city, then the clouds.
+            They look down at the armies of empires and see them as swarms of ants fighting over a crumb. They see the Earth as a tiny point in the void. This induces "Cosmic Consciousness," making personal insults seem laughably small.`,
+            Prosoche_Radical_Attention: `
+            The practice of "constant vigilance." The Stoic lives in a state of continuous tension, watching their own mind like a hawk.
+             Every impression (Phantasia) that enters the mind is stopped at the gate and interrogated: "Are you true? Or are you a projection of my fear?" No thought is allowed to pass unchecked.`,
+        },
+        Structure: {
+            The_Sage_Sophos: `
+            The hierarchy is binary and brutal. You are either a **Sage** (perfect, happy, equal to Zeus) or a **Fool** (mad, enslaved, drowning).
+            There is no "in-between." Just as a man one inch below the water drowns just as surely as a man 500 feet down, a man with one vice is just as mad as a man with a thousand. The goal of the school is to pull the student out of the water completely.`,
+        },
+    },
+
+    Eleusinian_Mysteries: {
+        Origins: `
+            Ancient Greece (Attica); centered in Eleusis. While the visible rites date to c. 1600 BCE, the roots are pre-Hellenic, likely Minoan. 
+            The cult did not begin as a religion, but as a desperate technology during a Bronze Age famine (mythologized as Demeter's strike). It evolved from localized "threshing floor" magic—where the separation of grain from chaff was seen as the separation of the spirit from the body—into a Pan-Hellenic institution. Archaeological evidence connects it to the poppy-goddesses of Crete. When the patriarchal Indo-Europeans (Zeus/Poseidon) arrived, they did not destroy this local Mother-Goddess cult; they married into it. The Mysteries represent the uneasy truce between the incoming Sky Fathers (Olympians) and the indigenous Earth Mothers (Chthonic). It is the geological fault line of Greek religion.`,
+        Beliefs: {
+            The_Myth_as_Liturgy: `
+            The initiate does not merely learn the myth of Demeter and Persephone; they are required to *suffer* it. The narrative is the script for the soul's trauma and recovery:
+            - **The Abduction (The Descent):** Kore (The Maiden) is gathering flowers—specifically the Narcissus (the flower of numbness/stupor)—when the earth gapes open. Hades (The Unseen One) drags her into the dark. This is the trauma of death/incarnation.
+            - **The Wanderings (The Search):** Demeter (The Mother) searches for nine days with torches, refusing to bathe or eat (The Fast). This mirrors the initiate's own exhaustion and sensory deprivation.
+            - **The Deal (The Cycle):** Because Persephone ate the Pomegranate seeds (the food of the dead), she must spend one-third of the year in the Underworld (Winter/Fallow) and two-thirds above (Spring/Harvest). Death is not an exit, but a season.`,
+
+            The_Beatific_Vision: `
+            The central promise is not merely 'afterlife insurance', but a radical alteration of perception while alive. The initiate (Mystes) stops viewing death as an end and sees it as a phase of agricultural stewardship.
+            - **Olbios (Blessed):** "Thrice blessed are those mortals who have seen these rites before journeying to Hades." The initiate does not go to the murky gloom of Asphodel like commoners; they go to the 'Elysian Fields' because they know the geography of the Underworld. They have the map.
+            - **The Two Goddesses:** Demeter and Kore are one reality observed in two phases. Demeter is the agony of the surface (loss/summer heat); Kore is the power of the depth (return/spring). Suffering is the plow that breaks the soul open to receive the seed of immortality.`,
+
+            The_Unity_Hypothesis: `
+            AEarly modern scholars theorized the 'Secret' was that all Gods were one (Monotheism). This is historically inaccurate; the Greeks remained polytheists. The Real Secret was Monism: the revelation was likely not theological, but **biological**. The secret was the *Continuity of Life*. By holding up the Ear of Grain in silence, the Hierophant revealed that Individual Death is an illusion. The seed dies, but the Grain (the Species/Life Force) is eternal. God is not 'One Person,' but 'One Process.' In the later periods, the Hierophant likely revealed that Hades and Dionysus were the same god (one representing the static dead, the other the flowing life), dissolving the barrier between the Good Gods and the Dark Gods.`,
+
+            The_Synthemata_Password: `
+            The core doctrinal statement is encoded in the 'Synthemata' (Password) recited by the initiate to prove they have completed the Lesser Mysteries and are ready for the Greater. It describes a sexualized agricultural act:
+            "I have fasted. I have drunk the Kykeon. I have taken from the Kiste (Box). I have worked, and put back into the Calathus (Basket), and from the Calathus into the Kiste."
+            The 'Work' (Ergasamenos) implies a physical manipulation of the sacred objects—likely a phallus (the plow) and a model of the womb/pomegranate (the furrow). By moving the object from the Box to the Basket and back, the initiate enacts the 'seeding' of the void, proving they understand how life generates from darkness.`,
+        },
+        Practices: {
+            The_Halade_Mystai_Cleansing: `
+            "To the sea, O Mystai!" On the second day, the candidates are driven into the ocean. They wash themselves and a young piglet (choiros).
+            - **The Scape-Pig:** The piglet embodies the initiate's lower nature and 'miasma' (impurity). Its blood is sacrificed, absorbing the death-destiny that belonged to the human.`,
+
+            The_Pompe_Procession: `
+            The 14-mile march from Athens to Eleusis along the 'Sacred Way'. It is not a parade; it is a death march designed to induce exhaustion.
+            - **The Iakchos:** The crowd screams the name of the spirit "Iakchos!" rhythmically for hours.
+            - **The Torches:** Arrival happens at night. Thousands of torches (bacchoi) are lit, creating a river of fire. The oscillation of the light, the rhythmic chanting, and the physical fatigue induce a hypnagogic trance state before they even reach the sanctuary.`,
+
+            The_Gephyrismoi_Bridge_Jests: `
+            A mandatory psychological humbling. As the procession crosses the Cephissus river bridge, masked figures (often aristocrats or priests in drag) scream horrific obscenities, mock the initiates' sexual habits, and throw mud.
+            The goal is to crush the 'Social Ego'. You cannot enter the presence of the Goddess as a King or a Rich Man; you must enter as a frightened, humiliated child. The ego must be pulverized so the spirit can be imprinted.`,
+
+            The_Kykeon_Communion: `
+            The breaking of the fast involves drinking the 'Kykeon', a thick, non-alcoholic slurry, made from Barley groats (alphita), water, and fresh pennyroyal mint (blechon). Theories suggest the barley was deliberately infected with *Claviceps purpurea* (Ergot). Prepared correctly (using ash/hydrolysis), the toxic alkaloids are neutralized, leaving the amide of lysergic acid (LSA). The drink induces a trembling, cold sweat, and a heightened sensitivity to light and sound, necessary for the hallucination of the Goddess in the Telesterion.`,
+
+            The_Telesterion_Light_Show: `
+            The climax (Epopteia) occurs in the Telesterion, a windowless hall holding 3,000 people. The ritual relies on sensory shock:
+            - **The Darkness:** The hall is plunged into absolute, suffocating darkness for hours. The drug (Kykeon) amplifies the fear of the dark (simulating death/Hades).
+            - **The Gong:** A massive bronze gong (The Echeion) is struck, vibrating the chest cavities of the terrified initiates—the voice of the Underworld.
+            - **The Anaktoron:** Suddenly, the doors of the central cube (Anaktoron) are thrown open. A massive fire is lit inside. The Hierophant appears, silhouetted against the blinding light, shouting "The Great One has borne the Sacred Child! Brimo has borne Brimos!"
+            - **The Silence:** The light is extinguished. In the ringing silence, the Hierophant silently holds up a single cut ear of green wheat. This is the supreme revelation: Life continues. The seed dies to be born.`,
+
+            Plemochoai_Rite: `
+            The closing rite involves two vessels of water. One is poured to the East (Sky), one to the West (Earth).
+            The crowd looks to the sky and screams "Hye!" (Rain!), then looks to the ground and screams "Kye!" (Conceive!). They are intimately participating in the cosmic sex act between Heaven (Uranus) and Earth (Gaia).`,
+        },
+        Structure: {
+            Hierarchy_of_Initiation: `
+            1. **Mystes:** The initiate of the Lesser Mysteries (purification/preparation).
+            2. **Epoptai:** 'Those Who Have Seen'. The initiate returning a second year for the supreme revelation.
+            3. **Hierophant:** 'He who reveals the Holy Things'. Always from the Eumolpidae family. He uses a hieratic voice and is legally nameless; he has surrendered his personality to the office.
+            4. **Hierophantides:** The High Priestesses of Demeter and Persephone. They actually crowned the initiates and poured the libations. Their touch was essential to the rite.
+            5. **Dadouchos:** 'The Torch-Bearer'. Second in command, from the Kerykes family.`,
+            The_Categories_of_Action: `
+            The Mystery consisted of three parts:
+            - **Dromena:** Things Done (The dramatic reenactment of the search).
+            - **Legomena:** Things Said (The secret words/liturgy).
+            - **Deiknymena:** Things Shown (The display of the sacred objects in the light).`,
+        },
+    },
+
+    Cult_of_Dionysus_Maenads: {
+        Origins: `
+        Originating from Thrace and Phrygia (imported to Greece c. 1300 BCE). 
+        Dionysus is eternally "The Stranger" or "The Foreigner." His cult is not native to the rational Greek polis; it is an infection from the East. The Cult of Dionysus descends directly from the ecstatic cults of Ishtar and the Great Mother Kybele in Anatolia. In Babylon, the priestess wailed for Tammuz; in Phrygia, they castrated themselves for Attis; in Greece, this evolved into the Maenad—the woman who does not serve the City (Polis) but runs to the Mountain (Oros) to let the chaotic "Other" in. It represents the return of the repressed "Shamanic" tradition into the polite, rational society of the Polis. 
+
+        It draws directly from Neolithic animal-master cults. The wearing of skins (nebris) and the use of the drum (tympanon) connect it to the ecstatic shamanism of Anatolia. It did not evolve *from* Olympian religion; it was the antidote *to* it, re-injecting the chaos of nature into a civilization that had become too sterile.`,
+        Beliefs: {
+            The_Zagreus_Cycle: `
+            The secret myth is that of Dionysus Zagreus. As an infant, he was lured by the Titans with toys (a top, a knucklebone, and, notably, a mirror). While distracted, the Titans tore him apart, boiled him, and ate him. Zeus struck the Titans with lightning, and from their soot (which contained the consumed god), humanity was born.
+            - **The Dual Nature:** We are part Titanic (wicked/earthly/flesh) and part Divine (the spark of Dionysus inside us). The rituals aim to burn away the Titanic soot and liberate the Dionysian spark.`,
+
+            Ecstasy_as_Therapy: `
+            The god is experienced directly through 'ekstasis' (standing outside oneself). The city creates a rigid 'armor' around the self (roles, laws, repression). Dionysus offers 'Lysios'—the Loosener.
+            - **Divine Madness:** Frenzy (mania) is not a sickness; it is a divine homeopathic cure. By enacting a controlled madness in the mountains, the pressure of the psyche is released, preventing true insanity in the city.`,
+
+            The_Mask_Paradox: `
+            Dionysus is the God of the Mask. When you wear the mask, you do not hide; you reveal the spirit possessing you. The actor vanishes, and the archetype speaks. This is why the theater is his temple.`,
+        },
+        Practices: {
+            The_Oreibasia_Mountain_Dance: `
+            The 'Mountain Walk'. In the dead of winter, the Maenads (Mad Ones) hike barefoot into the snow-covered mountains. They dance to the 'Aulos' (a shrill, double-reed flute) and the heavy, hypnotic beat of the 'Tympanum' (hand drum). The combination of high-altitude oxygen deprivation, physical exhaustion, and the spinning dance creates a trance state where they feel no cold and no pain.`,
+
+            Sparagmos_and_Omophagia: `
+            The climax of the rite is the 'Sparagmos' (Tearing Apart). In the height of frenzy, the women perceive a wild animal (bull, goat, or in myth, a lion) not as a beast, but as the god himself.
+            Using bare hands and supernatural strength derived from the trance, they dismember the live animal. The 'Omophagia' (Eating of Raw Flesh) follows instantly. They consume the meat while it is still warm and quivering. This is not nutrition; it is a communion. They are eating the life-force of the god before it fades, taking the divine vitality into their own bodies.`,
+
+            The_Thyrsus_Wielding: `
+            Every Maenad carries the 'Thyrsus'—a giant fennel stalk topped with a pine cone and wrapped in ivy. The fennel is a hollow tube (the conduit for fire/spirit), the pine cone is the seed of evergreen life, and the ivy is the binder. It is a phallic staff held by women, symbolizing the subversion of gender roles and the female wielding male power. It is also a weapon; under the leaves, it often concealed a spear point (the 'lonchē').`,
+        },
+        Structure: {
+            The_Archetype_of_the_Left_Hand: `
+            The Maenadic cult provides the foundational blueprint for all Western 'Left-Hand Path' traditions: The Path of Ecstasy, typically defined by Immanence (finding God in the world), Antinomianism (breaking social taboos to shatter the ego), and the use of the Senses to access truth. It is opposed To the Right-Hand Path: The Path of Asceticism, defined by Transcendence (escaping the world), Purity (following strict moral codes), and the suppression of the Senses to free the Mind.
+            
+            Its influence is seen in later movements and practices, like the  Roman Bacchanalia, Certain Gnostic sects (like the Phibionites), The Medieval/Folk "Witches' Sabbath" iconography, and Modern Occultism (Aleister Crowley, Thelema). The premise remains the same: Use the "forbidden" (Sex, Drugs, Taboo) to shock the consciousness into a higher state`,
+
+            Thiasus: `
+            The 'Thiasus' is the roving band of worshippers. It is an 'Anti-Family'. Women leave their looms and husbands to join the pack. Led by a male 'Exarchos' (representing Dionysus) or often Dionysus himself in disguise. Within the Thiasus, social class is abolished; a Queen and a slave girl dance hand-in-hand as equals under the influence of the god.`,
+            The_Leopard_Skin: `
+            Maenads wore the spotted fawn-skin (*nebris*) or leopard skin.
+            - **Meaning:** The spots represent the stars, but the skin represents the predator. To wear the skin of the beast is to assume the "Animal Soul"—rejecting the rational human personality to access the pre-rational power of the predator.`,
+        },
+    },
+
+    Orphic_Mysteries: {
+        Origins: `
+            Ancient Greece (6th Century BCE - 2nd Century CE). A counter-cultural reform movement within Dionysian religion, attributed to the mythical poet-shaman Orpheus.
+
+            The movement crystallizes around the tragedy of Orpheus and his wife, Eurydice. After Eurydice died from a viper's bite, Orpheus dared the *Katabasis* (descent) into Hades, armed only with his lyre. His music was so transcendent it suspended the torments of the damned—Tantalus stopped thirsting, and Sisyphus sat on his rock—and softened the iron hearts of Persephone and Hades. They granted a conditional miracle: Eurydice could follow him back to the sunlight, provided he did not look back until they were *both* fully across the threshold.            
+            At the very edge of the upper world, overcome by anxiety (or a lack of spiritual discipline), Orpheus turned his head. Eurydice was instantly pulled back into the shadows, a casualty of his failure to trust the divine instruction.
+
+            Orpheus returned to the living world radically changed. He realized that *Generation* (Birth) was the trap that fed the Underworld; to procreate was to imprison a free soul in dying matter, Orpheus shunned the company of women (possibly focusing on male lovers instead). He spent seven days fasting in silence (the blueprint for Orphic asceticism) and then rejected the chaotic, reproductive earth-cults of Dionysus. Instead, he climbed Mount Pangaion each morning to worship the pure reason of the Sun (Apollo), teaching men to sever ties with the reproductive cycle. This enraged the Maenads (female devotees of Dionysus). The frenzied Thracian women drowned out his harmonizing music with screaming and tore him to pieces (*sparagmos*). His head, severed from the Titanic body, floated to Lesbos still singing prophecies. This served as the ultimate theological proof for the cult: The Body is a fragile container that can be destroyed, but the *Logos* (The Word/Mind) is indestructible and survives the slaughter.
+
+            **From Myth to Cult:**
+            The cult did not worship Orpheus as a god directly, but studied him as a (failed) pioneer as the only hero to descend into Hades and return alive (mostly). His failure to save Eurydice was interpreted not as a romance, but as a theological proof: the body cannot be resurrected, only the soul can be liberated. The Orphics viewed Orpeus' death not as a murder, but as the ultimate success: the separation of the Pure Spirit (the Head/Intellect) from the Titanic Body. The cult is the institutionalized practice of this separation.`,
+        Beliefs: {
+            The_Titanic_Anthropology: `
+            The central dogma is the 'Original Sin' of Greek religion—the **Slaughter of Dionysus Zagreus**.
+            - **The Crime:** The jealous Titans lured the infant god Dionysus with toys (a mirror, a top, knucklebones), painted their faces with gypsum to hide their identity, and tore him to shreds. They boiled and ate his flesh.
+            - **The Thunderbolt:** Zeus, smelling the roasting flesh, blasted the Titans with a thunderbolt, turning them to ash.
+            - **The Genesis:** Humanity was created from this soot. Therefore, we are **Dual Beings**:
+                1. **The Titanic Nature (Soma/Body):** Our crude, violent, meat-eating, rebellious physical shell (derived from the Titan ash).
+                2. **The Dionysian Spark (Pneuma/Soul):** The divine, immortal fragment of the god that the Titans had eaten, which survived in the soot.
+            - **The Logic:** We are gods trapped in the corpses of demons. The goal of life is to starve the Titan (through asceticism) and liberate the Dionysian spark.`,
+
+            Soma_Sema_Doctrine: `
+            "Soma Sema" (The Body is a Tomb). The soul is an exile serving a prison sentence for the ancient Titanic crime.
+            - **The Circle of Grief:** Life is not a gift; it is a punishment. The 'Wheel of Birth' (*Kyklos Geneseos*) is a sorrowful, mechanical recycling of souls. The Orphic does not seek to be a "hero" or a "king" in the next life; they seek to **STOP** the wheel and exit the universe entirely.`,
+
+            The_Memory_War: `
+            The enemy of the soul is 'Lethe' (Forgetfulness). The trauma of death makes the soul incredibly thirsty. The uninitiated drink from the first spring they see (Lethe) to quench the pain, but the water erases their memory. They instantly forget their divine origin and fall back into a womb (reincarnation). The Initiate's entire training is a mnemonic exercise to withstand this thirst and drink only from the 'Pool of Mnemosyne' (Memory).`,
+
+            The_Taboo_of_the_Backward_Glance: `
+            Orpheus's error was not a romantic accident; it was a technical violation of the 'Chthonic Protocol.' The prohibition against looking back is a universal mechanism in necromancy and interactions with the Divine.
+            This ritual law appears in the *Argonautica*, where Medea instructs Jason on how to propitiate the terrifying goddess Brimo Hekate. He is told to pour the libation and retreat, and *under no circumstances* turn around when he hears the baying of hounds, lest the ritual collapse and he be destroyed. The same law governs the Biblical escape from Sodom, where Lot's wife looks back and is crystallized into salt—frozen in the moment of transition.
+            In Orphic thought, the realms of the Living and the Dead are magnetically opposed. To "Look Back" is to re-establish a visual anchor with the realm you are trying to leave. By looking at Eurydice before she was fully incarnated, Orpheus collapsed the magical vacuum that was pulling her up, re-anchoring her to Hades. Unlike Persephone or Adonis, who are 'captive' guests who return cyclically (representing the seasons), Orpheus attempted a *linear* resurrection—a permanent theft from death. His failure reinforces the cult's belief that you cannot drag the dead back to life; you must instead train the living to die correctly.`,
+        },
+        Practices: {
+            Bios_Orphikos_The_Orphic_Life: `
+            A strict code of purity designed to minimize 'Titanic' pollution.
+            - **Strict Vegetarianism:** To eat meat is literal cannibalism. Since all souls transmigrate, the cow you eat might be your grandmother. Furthermore, meat is the food of the Titans; eating it strengthens the 'Titanic Nature' within you.
+            - **The Wool Prohibition:** Wool is stolen from a passive beast. An Initiate could never be buried in wool. They were laid to rest only in linen (flax), which grows from the pure earth, symbolizing the "white garments" of the soul stripped of animal passions.
+            - **Avoidance of Birth:** Many Orphics avoided intercourse, not because sex was 'sinful', but because it was the mechanism that trapped a soul in a body. To procreate is to act as a jailer for another spirit.`,
+
+            The_Totenpass_Gold_Tablets: `
+            The 'Passports for the Dead'. These are small, golden foil leaves (lamellae) inscribed with a specific script, folded and placed in the mouth or hand of the deceased. They served as a "cheat sheet" for the soul's interrogation in the Underworld.
+            
+            **The Geography of the Dead (Visualization):**
+            "You will find on the left of the House of Hades a Spring,
+            And by the side of it standing a **White Cypress Tree**.
+            Do not approach this Spring! (It is Lethe/Forgetfulness).
+            Go instead to the Lake of Memory (Mnemosyne), where cold water flows.
+            Guardians stand before it. They will ask you, 'Who are you?'"`,
+
+            The_Password_Recitation: `
+            This is the climax of the Orphic Mystery. The soul must stand before the terrible Guardians of the Water and declare its lineage to bypass judgment. The initiate must not say "I am [Name]" or "I was a King." They must say:
+            
+            *"I am a Child of Earth and Starry Heaven, but my race is of Heaven alone.
+            I am parched with thirst and I perish.
+            Give me quickly the cool water flowing from the Lake of Memory."*
+            
+            By claiming descent from "Starry Heaven," the soul asserts it is *not* a subject of the Underworld gods, but their equal—a fragment of Dionysus. The Guardians, bound by cosmic law, must yield. The soul drinks, retains its memory, and steps off the Wheel of Birth to join the company of the gods.`,
+
+            Technique_of_Agenesis: `
+            The controversial "Anti-Life" equation. If the goal is to exit the universe, one must stop providing "vessels" for falling souls. Orphism contained a strong undercurrent of misogyny, not necessarily out of hatred for women, but out of fear of the Womb as the "Gate of Enslavement." They practiced a ritual avoidance of the 'Generative Act.' Unlike standard Greek religion which celebrated fertility, the Orphic sought sterility. The perfect Orphic lives without leaving a biological trace, ensuring the Titans have no new clay to shape.`,
+
+            The_Teletai_Rituals_of_Release: `
+            Private house-rituals performed by wandering priests to purge the "Ancient Grief" (the guilt of the Titans).
+            - The Mud Plastering: Initiates were often daubed with white clay or gypsum (mimicking the Titans who disguised themselves to kill Dionysus) and then ritually washed clean. This enacted the removal of the "Titanic Crust" from the soul.
+            - The Toys: In the basket (*Liknon*), the priest carried the "Toys of Dionysus" (a mirror, a top, a ball, knucklebones). The initiate handled these objects to recognize the trap of the material world—the shiny distractions that lure the divine soul into the slaughterhouse of matter.`,
+        },
+        Structure: {
+            The_Archetype_of_the_Right_Hand: `
+            Orpheus viewed the body as a "Tomb" (Soma Sema). Through Vegetarianism, white linen robes, avoidance of birth/sex, and intense intellectual focus (Math/Music), the initiates ssought Katharsis (Purification), with the intention to "starve the 'Titanic' nature to let the 'Dionysian Spark' fly free."
+
+            Its influence is seen in Pythagoreanism (who transformed it into the first classical 'secret society'; a brotherhood bound by oaths). Plato secularized Orphism, turning the "Orphic Soul" into the "Rational Intellect." The monks of the Christian Monastic tradition adopted the Orphic/Pythagorean model of Cellibacy, Fasting, and chanting. Similarly, the structure of the Knight Templars or Freemasonry - The Lodge, The Oath, The Degrees of Initiation, The focus on Geometry/Reason, The exclusion of Women - is the direct evolutionary descendant of the Orphic/Pythagorean cults. They are "Apollonian" structures designed to build order against chaos.
+            `,
+            The_Gender_Paradox: `
+            Despite the founder's mythical rejection of women, historical Orphism was not male-only. A significant percentage of the discovered 'Gold Tablets' (Passports to the Dead) were found in the graves of women. (e.g., The glorious tablet of Thurii).
+            The misogyny was metaphysical, not social. The enemy was *The Womb* (the mechanism of reincarnation), not the *Woman* (the soul trapped in a female body). In the eyes of the ritual, a woman who practiced the 'Bios Orphikos' (renouncing marriage and childbirth) had ceased to be a 'Nature-Machine' and became a pure 'Intellect.' She was permitted to drink from Memory just as a man was.`,
+
+            The_Orpheotelestai: `
+            Orphism had no central temple or Pope. It was an anarchic, book-based religion spread by 'Orpheotelestai' (Orphic Initiators)—wandering charismatic beggar-priests.
+            - The Books: They were unique in the ancient world for relying on *scripture* (The Rhapsodies) rather than oral tradition. They carried heavy stacks of papyrus scrolls claiming to be the *Hieroi Logoi* (Sacred Discourses) written by Orpheus himself.
+            - The Indulgences: They knocked on the doors of the wealthy, offering to perform sacrifices that would purge the sins of the living *and* their dead ancestors. Plato mocked them as hucksters selling "freedom from the mud" for a fee, but their popularity proved the intense anxiety the Greeks felt about the afterlife.`,
         },
     },
 
     Pythagoreanism: {
-        Origins: "Founded c. 570 BCE in Croton by Pythagoras; established the model for the 'philosophical brotherhood'.",
+        Origins: `
+            Founded c. 570 BCE in Croton (Magna Graecia) by Pythagoras of Samos.
+            It was not merely a school of mathematics, but a political revolutionary cult and a monastic order that ruled the city of Croton like a theocracy.
+            Pythagoras was viewed not as a man, but as 'Apollo Hyperboreos' (Apollo of the North). He possessed a 'Golden Thigh' (a birthmark or ritual prosthetic) which he revealed to initiates at the Olympic Games as proof of his divinity. He taught that there are three types of rational beings: "Gods, Men, and beings like Pythagoras."`,
         Beliefs: {
-            Musica_Universalis: "The cosmos was ordered by mathematical relationships (harmonies) and the 'Music of the Spheres'.",
-            The_Tetractys: "A sacred triangular figure of ten pebbles arranged in four rows ($1+2+3+4=10$) upon which oaths were sworn.",
-            Metempsychosis_and_Katharsis:
-                "Transmigration of the soul; the goal of life was purification (katharsis) to escape the wheel of rebirth.",
-            Numerology: "Central belief that 'All is Number'.",
-            The_Antichthon:
-                "To perfect the 'Sacred Ten', they posited the existence of a 'Counter-Earth' (Antichthon)—an invisible planet always on the opposite side of the Central Fire from Earth, hidden from view.",
+            Orphic_Link: `
+            Pythagoras was an initiate of the Orphic mysteries. He took the Orphic purity codes and added Geometry and Hierarchy. He created the first "Secret Society" in the modern sense: a brotherhood of men, bound by oaths, wearing white, studying symbols to purify the soul.`,
+            Musica_Universalis: `
+            The universe is not made of matter; it is made of Music.
+            - **The Monochord God:** Pythagoras discovered that pitch is determined by mathematical ratios (Octave 2:1, Fifth 3:2, Fourth 4:3). If music (which moves the soul) is math, then the Soul itself must be a harmony.
+            - **The Sound of Orbit:** The planets (Siren-stars) move at speeds proportional to their distance from the Central Fire, emitting a constant symphonic hum (The Music of the Spheres). We do not hear it because it has been present since birth, like the background noise of blood in our ears. Only the Master (Pythagoras) could dissociate enough to hear the celestial chord.`,
 
-            Planetary_Intervals:
-                "The distances between planets were believed to correspond to musical intervals (tone, semitone), creating a literal 'Harmony of the Spheres' that the initiated soul could hear.",
+            The_Tetractys_of_the_Decad: `
+            The supreme symbol of the Order, worshipped as a deity. It is a triangle of 10 points ($1+2+3+4=10$).
+            - **The Oath:** Initiates did not swear by gods, but by the Geometry: *"I swear by Him who transmitted to our soul the Tetractys, the source and root of everlasting nature."*
+            - **The Logic:**
+                * **Row 1 (1 Point):** The Monad (Unity/Source).
+                * **Row 2 (2 Points):** The Dyad (Duality/Female/Matter).
+                * **Row 3 (3 Points):** The Triad (Harmony/Male/Space).
+                * **Row 4 (4 Points):** The Tetrad (Elements/Solid Body).
+            - **The Sum:** The sum is 10 (The Decad), which contains all possible numbers and therefore the entire universe.`,
+
+            Metempsychosis_and_The_Kinship: `
+            The Transmigration of Souls. The soul is an immortal fragment of the divine air, trapped in a cycle of bodies (human and animal) for punishment.
+            - **The Incident:** Pythagoras once stopped a man from beating a puppy, crying out, "Stop! I recognize the voice of a friend who died." He literally heard the soul of his friend speaking through the dog's barks.
+            - **Vegetarianism:** Because a cow or a chicken might house the soul of an ancestor, eating meat is potentially cannibalism. The "Kinship of All Life" was the ethical core: justice extends to animals.`,
+
+            Numerology:
+                "Central belief that 'All is Number'. 4 is Justice (Square), 5 is Marriage (2 Female + 3 Male). The physical world is a false projection of these numerical realities.",
+
+            The_Antichthon_Cosmology: `
+            A radical displacement of the Earth. They taught the Earth was *not* the center of the universe.
+            - **The Central Fire:** The universe revolves around the 'Hearth of the Universe' (The Fire of Hestia), which is invisible to us.
+            - **The Counter-Earth:** To make the number of celestial bodies equal the holy number 10 (Sun, Moon, Earth, 5 Planets, Stars = 9), they invented a 10th body: the 'Antichthon' (Counter-Earth). It moves perfectly parallel to Earth on the opposite side of the Central Fire, forever hidden from our gaze, acting as a 'balance weight' to the cosmos.`,
+
             The_Venus_Pentagram:
-                "They observed that over an 8-year cycle, Venus completes 5 synodic periods. When plotted against the zodiac, its rising points trace a near-perfect pentagram.  This proved to them that the cosmos was designed with geometric intelligence.",
+                "They observed that over an 8-year cycle, Venus completes 5 synodic periods. When plotted against the zodiac, its rising points trace a near-perfect pentagram. This proved to them that the cosmos was designed with geometric intelligence.",
         },
         Practices: {
-            Acousmatic_Silence:
-                "Initiates wore simple white linen robes (wool was forbidden) and observed a strict five-year vow of silence, listening to the master only from behind a heavy linen curtain without ever seeing his face.",
-            Dietary_Restrictions:
-                "Strict vegetarianism and prohibition against eating beans/fava; touching a white rooster was also forbidden.",
-            Memory_Training:
-                "Reviewing every action of the day in reverse order before sleep, visualizing the events in backward sequence.",
+            Golden_Thigh: `
+            According to these texts, the "Golden Thigh" (chryros mēros) was revealed in two famous instances:
+            - The Olympic Reveal: During the Olympic Games, Pythagoras stood up in the theater and deliberately exposed his thigh. The crowd was reportedly stunned to see it possessed a golden, metallic sheen, proof of his supernatural origin.
+            - The Encounter with Abaris: A Scythian priest and shaman named Abaris the Hyperborean traveled to Greece carrying a magic arrow of Apollo. When he met Pythagoras, Abaris believed him to be the manifest god Apollo. To confirm Abaris's faith, Pythagoras privately revealed his golden thigh to him, effectively saying, "See, it is I.
+            
+            Theories:
+            - By possessing a thigh of gold (the metal of the gods/sun), Pythagoras was claiming a direct biological or spiritual lineage to the Olympian gods, specifically Apollo, the god of light, music, and reason.
+            - In shamanic initiation rites, the initiate often undergoes a "spiritual death" where their body is taken apart and replaced with quartz, iron, or gold to make them immortal. The "Golden Thigh" may have been a symbolic scar or tattoo indicating that Pythagoras had survived a ritual descent into the underworld (Katabasis) and returned "re-forged" as an immortal being.
+            - In ancient Egyptian astronomy, the constellation we call the Big Dipper was known as the "Thigh of the Bull" (Mesekhtiu). It was associated with the imperishable polar stars (immortality). When Pythagoras "showed his golden thigh" to Abaris, he may have actually been revealing a secret astronomical model or a mathematical diagram (the "Golden Ratio" or sectio aurea) that explained the structure of the cosmos. Over time, the metaphor was taken literally by superstitious followers."
+`,
+            The_Acousmatic_Veil: `
+            The 'Veil of Silence'. For the first five years, a new initiate (Akousmatikos) was forbidden to speak.
+            - **The Curtain:** They sat in a hall divided by a heavy linen curtain. Pythagoras spoke from behind it. They heard his voice (Acousmata) but were forbidden to see his face. This forced them to focus solely on the *content* of the logos, stripping away the distraction of the teacher's personality. Only after passing the 5-year test could they lift the veil and become 'Mathematikoi'.`,
+
+            The_Reverse_Review_Mnemonics: `
+            The 'Nightly Audit'. A mandatory mental exercise performed every night before sleep to fuse the memory and build a continuity of consciousness (essential for remembering past lives).
+            - **The Technique:** The initiate must not sleep until they have replayed the entire day *in reverse order*.
+            - **The Questions:** "Where did I go? What did I do? What duty did I neglect?"
+            - **The Goal:** By rewinding the tape of the day, they prevented the 'Lethe' (forgetfulness) of sleep from erasing the self, preparing the mind to retain identity even through the trauma of death.`,
+
+            The_Bean_Ban_Kyamos: `
+            "Abstain from Beans!" (Kyamos). This was the most famous and ridiculed rule. Theories:
+            - **Fatalism:** The bean flower creates a hollow stem that was believed to connect directly to Hades. Beans are 'ladders' for souls returning from the underworld. To eat them is to eat the heads of your parents.
+            - **Biological Similarity:** A chewed fava bean, left in the sun, smells like human semen (or murder). It represents the raw, unrefined 'generative' force that the philosopher tries to transcend.
+            - **Political:** Beans were used as voting tokens in Greek democracy (white for yes, black for no). To "abstain from beans" meant "do not participate in democratic politics," because the mob is ruled by passion, not reason.`,
+
+            The_Akousmata_Maxims: `
+            The daily life was governed by cryptic oral maxims (Symbola) that functioned as Zen koans or ritual instructions:
+            - **"Do not stir the fire with a knife."** (Do not provoke a man who is already angry).
+            - **"Do not sit on a bushel."** (Do not live idly/consume your capital).
+            - **"Do not swallow your heart."** (Do not consume yourself with grief).
+            - **"Roll up your bedclothes on rising and smooth out the imprint of the body."** (Leave no trace of your physical existence; be ready to vanish).
+            - **"Touch the earth when it thunders."** (Remember your mortality/Ground the fear).`,
+
+            Musical_Therapy_Katharsis: `
+            Medicine was purely musical.
+            - **The Paeans:** Before sleep, disciples gathered to sing specific 'Paeans' (hymns) and play the lyre. This was a sonic prescription designed to 'retune' the humors of the body, purging the day's agitation (anger/worry) so the soul could leave the body during sleep in a purified state. They did not use drugs; they used intervals.`,
         },
         Structure: {
-            Two_Circles: "Strict division influencing later Masonic 'Outer' and 'Inner' orders.",
-            Akousmatikoi: "The 'Listeners' (Outer Circle); lived at home, followed practical rules.",
-            Mathematikoi:
-                "The 'Learners' (Inner Circle); lived communally, renounced property, and learned the deeper secrets of geometry and cosmology.",
+            The_Two_Circles: `
+            The Order was a concentric ring system:
+            1. **Akousmatikoi (The Listeners):** The outer circle. They lived with families, owned property, and memorized the 'Rules' (Akousmata) without understanding the 'Why'. They focused on ritual purity and ethics.
+            2. **Mathematikoi (The Learners):** The inner circle. They lived communally in the 'Homakoeion', renounced all private property, were vegetarian/celibate, and studied the 'Why' (Geometry, harmonics, astronomy).`,
+            Women_Philosophers: `
+            Unlike the Athenians, the Pythagoreans admitted women as equals into the inner circle. Theano (Pythagoras's wife or student) was a renowned mathematician and administrator of the order. The 'Pythagorean Women' became famous in antiquity as paragons of discipline and intellect.`,
+        },
+    },
+
+    Cult_of_Isis_Osiris: {
+        Origins: `
+            Originally Egyptian, but radically engineered for export during the Ptolemaic Dynasty (c. 300 BCE). Ptolemy I Soter deliberately gathered Egyptian priests (Manetho) and Greek theologians (Timotheus) to create a hybrid faith that would unify his subjects. They took the ancient Osirian resurrection myth but stripped away the terrifying animal-headed imagery (which disgusted Greeks). They essentially invented a new "Face" for Osiris called *Serapis*—a bearded, Greek-looking father figure. 
+            In pharaonic Egypt, immortality was originally a royal monopoly (The Pyramid Texts). The Isiac mystery democratized this technology; it took the rites formerly reserved for the Pharaoh and sold them to the individual Roman citizen. It was the "Protestant Reformation" of Egyptian paganism, making the personal salvation of the soul accessible to anyone with the coin to pay for the initiation.`,
+        Beliefs: {
+            The_Mors_Voluntaria: `
+            Initiation is defined as a 'Voluntary Death' (Mors Voluntaria). The uninitiated soul is already dead, trapped in the numbness of daily routine. To live eternally, one must choose to die before dying.
+            - **The Threshold of Proserpina:** The initiate does not merely act out a play; they physically cross the psychological threshold of the underworld to stand in the silence of the grave, proving to the Fates that they have already died and cannot be claimed again.`,
+
+            The_Black_Osiris_Alchemy: `
+            Veneration of the 'Black Osiris' (Osiris-Kem). This is not the darkness of evil, but the darkness of the rich, fertile silt of the Nile and the Alchemical 'Nigredo' (Putrefaction).
+            - **The Prime Matter:** Osiris is the 'Lead' or corpse that contains the gold. He represents the 'Cool Water'—the vital moisture of life. The uninitiated are 'dry' (Typhonian/Setian); the initiated are 'moist' and alive. We sprinkle the corpse with its own moisture to revive it.`,
+
+            Isis_Myrionyma: `
+            Isis of the Ten Thousand Names. She is not one goddess among many; she is the Platonic 'Soul of the World'.
+            - **The Syncretic Key:** When we pray to Minerva, Venus, Diana, or Proserpina, we are merely addressing the different masks of Isis. She is the 'Una Quae Es Omnia' (The One Who Is All).`,
+        },
+        Practices: {
+            The_Apertio_Morning_Opening: `
+            The daily liturgy begins before dawn. The temple is not open to the public; the priests perform the 'Awakening of the Goddess'.
+            
+            - **The Curtains:** The statue of Isis is hidden behind white linen curtains. At the exact moment of sunrise, the 'Pastophoros' draws the curtains back, allowing the goddess to 'see' the sun (Ra).
+            - **The Toilette:** The idol is physically washed, dressed in fresh silks, and offered food. The priest holds a mirror up to the statue's face so she may admire her beauty. This establishes an intimate, living relationship between the servant and the deity.`,
+
+            Navigium_Isidis_The_Launch: `
+            The 'Vessel of Isis' festival (March 5) marks the opening of the seas. It is a chaotic, joyous carnival of masks.
+            - **The Procession:** Initiates wear white linen (never wool, which is the excrement of a sluggish beast). They carry the 'Situla' (a breast-shaped bucket symbolizing the milk of the mother).
+            - **The Anubis Mask:** A priest wearing the jackal-head of Anubis leads the way, carrying the caduceus. He is the 'Opener of the Ways', proving that we walk between the worlds of the living and the dead.
+            - **The Ship:** A golden model ship is loaded with spices and milk and launched into the sea as a votive offering to guarantee safe passage through the storms of life.`,
+
+            The_Inventio_Osiris_Finding: `
+            A dramatic reenactment of the grief and joy of Isis.
+            - **The Search:** For days, the initiates roam in mourning clothes, wailing and beating their chests, searching for the scattered pieces of Osiris.
+            - **The Discovery:** A priest emerges carrying a small golden box or the 'Hydreion' (Water Jar). The cry goes up: "Heuretē! Syncharōmen!" (We have found him! Let us rejoice!). The sorrow instantly turns to wild feasting.`,
+
+            The_Sistrum_Warfare: `
+            The shaking of the Sistrum (ritual rattle) is not musical accompaniment; it is spiritual warfare.
+            
+            - **Sonic Theology:** The universe naturally wants to stop, to stagnate, to become dry and silent (Entropy/Set). The sharp, metallic 'hiss' of the sistrum's brass rings keeps the atoms of the universe in motion. It is the sound of constant agitation that prevents death from settling in.`,
+        },
+        Structure: {
+            The_Hieratic_College: `
+            A strict, professional priesthood.
+            - **The Prophet (Prophetes):** The high priest who carries the electric-blue jug of Nile water (the 'Hydreion'), usually holding it under a cloak with hands covered to protect its sanctity. The water *is* the god.
+            - **The Stolist (Stolistes):** The keeper of the sacred vestments, responsible for the complex color-coding of the goddess's moods.
+            - **The Shaven Heads:** All priests shave their heads completely and pluck all body hair to prevent lice and impurities from entering the sanctuary. They are 'The Bald Ones' who shine like the moon.`,
         },
     },
 
     Mithraic_Mysteries: {
-        Origins: "Roman Empire; an exclusively male, solar-martial cult that introduced the 'grade system'.",
+        Origins: `
+            Roman Empire (c. 1st - 4th Century CE). Though it claims Persian lineage, it is effectively a "Roman invention" using Persian aesthetics—a theological remix created by a genius intellectual circle, likely associated with the Statilius Taurus family or the Cilician pirates described by Plutarch. It emerged specifically after the discovery of the *Precession of the Equinoxes* by Hipparchus (c. 128 BCE). The realization that the entire cosmic sphere was moving (shifting the spring equinox from Taurus to Aries) required a god powerful enough to move the universe. 
+            There is no continuity with the Iranian god Mithra. The Roman Mithras kills a Bull (unknown in Persia) and has no female consort. It was a brand new "Scientific Religion" designed for the pragmatic Roman mind, fusing Stoic physics with soldierly fraternity to fill the spiritual void left by the decaying state paganism.`,
         Beliefs: {
-            Cosmic_Ascension:
-                "The soul descends through planetary spheres into the body and ascends back to divine light through initiation.",
-            The_Hypercosmic_God:
-                "The discovery that the equinoxes move (Precession) implied that the entire cosmos was being shifted by a power *outside* the stars. Mithras was this 'Hypercosmic' god, powerful enough to rotate the universe.",
-            Tauroctony:
-                "Centered on the image of Mithras slaying a bull, interpreted as 'cosmic renewal'. Has been interpreted as a star map: The Bull is Taurus; the scorpion (Scorpio) attacks the genitals; the dog (Canis Major/Minor) and snake (Hydra) drink the blood. Mithras ends the 'Age of Taurus' to usher in the new epoch.",
-            Planetary_Ladder:
-                "The soul descends into the body through the planetary spheres (collecting impurities/vices from each) and must ascend back through them after death, giving the vices back to the planetary 'Gatekeepers'.",
-            The_Cosmic_Gates:
-                "Souls were believed to enter existence by descending through the 'Gate of Cancer' (Summer Solstice) and leave the material world by ascending through the 'Gate of Capricorn' (Winter Solstice).",
-            Equinoctial_Torchbearers:
-                "Mithras is flanked by Cautes (torch up) and Cautopates (torch down), symbolizing the Spring and Autumn equinoxes—the balance points of the cosmic year.",
+            The_Hypercosmic_Traveler: `
+            Mithras is the 'Kosmokrator' (Ruler of the Cosmos) who stands *outside* the star-sphere. The soul is trapped in the gravity well of the planetary spheres (Heimarmene/Fate). Each planet is a Gatekeeper (Archon) that demands a toll (a vice or energy) from the descending soul, imprisoning it in a body.
+            
+            The Mithraeum is a functional star-map. The rituals teach the specific passwords and handshakes to bypass the seven planetary Archons after death, allowing the soul to ascend back to the 'Eighth Sphere' (The Fixed Stars/Eternity).`,
+
+            The_Tauroctony_Star_Map: `
+            The iconic image of Mithras slaying the Bull is not a farm scene; it is a snapshot of the sky at the Spring Equinox of the Age of Taurus (c. 2000 BCE). Mithras (The Sun/Perseus) ends the Age of Taurus by killing the Bull.
+            
+            - **The scorpion clamping the genitals:** This is not an attack, but a collection of the 'seed'. As the Bull dies, its blood turns to grain and its seed is gathered by the Scorpion (Scorpio, the Autumn constellation) to ensure life continues in the next cycle.
+            - **The Precession:** It symbolizes Mithras shifting the World-Age. He possesses the power of the Precession of the Equinoxes. He can rotate the universe itself. If he can turn the sky, he can free you from your horoscope.`,
+
+            The_Leontocephaline_Time_Lord: `
+            Hidden in the deeper niches is the statue of the 'Lion-Headed God' (Aion/Zurvan). He is wrapped in a serpent and stands on a globe. He represents 'Infinite Time'—the cruel, devouring time that eats its own children. Mithras offers a way to step *outside* of this time loop, into the timeless 'Now'.`,
         },
         Practices: {
-            The_Cave:
-                "Rituals occurred in a Mithraeum, a windowless cave-like temple with a ceiling painted dark blue and adorned with gold stars.",
-            The_Crown_Ordeal:
-                "The 'Miles' (Soldier) grade was offered a laurel crown on the tip of a sword; he had to physically push it away, declaring 'Mithras is my crown'.",
-            Syndexioi:
-                "A distinct handshake grip used for recognition, often exchanged while reclining on the stone benches during the ritual meal.",
-            he_Seven_Gate_Ascent:
-                "Initiates climbed a ritual ladder (or walked a floor mosaic) representing the seven planets: Lead (Saturn), Tin (Jupiter), Iron (Mars), Gold (Sun), Copper (Venus), Quicksilver (Mercury), and Silver (Moon).",
+            The_Cave_Mithraeum: `
+            The temple is designed to induce claustrophobia and focus. It is a long, narrow, windowless 'cave' (often underground) with benches lining the walls for the communal meal.
+            
+            - **The Ceiling:** Painted dark blue with gold leaf stars, often featuring a hidden vent to allow a single beam of sunlight to strike the altar at the solstice.
+            - **The Meal:** The central liturgy is a banquet of bread and wine (flesh and blood of the Bull) eaten while reclining. It is a 'Mess Hall Sacrament' bonding the soldiers in a pact of blood-brotherhood (Syndexioi).`,
+
+            The_Seven_Grade_Ascent: `
+            Initiation is a grueling physical and psychological ascent through seven grades, each protected by a planet:
+            1. **Corax (Raven/Mercury):** The servant. They wore raven masks and served food, mimicking the bird's scavenging nature. They could not speak, only caw. They represent the 'Air' and the messenger.
+            2. **Nymphus (Bride/Venus):** The celibate male 'bride' of the god. They wore a veil and carried a lamp. They represent the 'Water' of emotion/birth.
+            3. **Miles (Soldier/Mars):** The 'Brand' grade. The initiate is offered a crown on a sword-tip. He must reject it, saying "Mithras is my crown." He is then branded (tattooed or burned) with a cross/mark on the forehead. He can never wear a garland again.
+            4. **Leo (Lion/Jupiter):** The fire-handler. They poured honey on their tongues to wash away speech-sins (honey = preservative/fire-substitute). They were forbidden from touching water during the rite, washing their hands with honey instead.
+            5. **Perses (Persian/Moon):** The keeper of fruits and plants.
+            6. **Heliodromus (Sun-Runner/Sun):** The deputy. They ran the ritual, wearing a yellow rayed crown and carrying a whip.
+            7. **Pater (Father/Saturn):** The high priest. He wore a Phrygian cap, a ruby ring, and carried a staff. He represented the planet Saturn—the cold, final judge. He sat at the head of the bench, watching the brothers.`,
+
+            The_Ordeals_Terror: `
+            Initiations involved 'mock executions' to test courage.
+            - **The Pit:** Initiates were thrown into a pit, hands bound with chicken entrails (representing the lusts of the flesh). A 'Liberator' (representing Mithras) would cut the bonds with a sword.
+            - **Fire and Ice:** Candidates were subjected to extreme heat (standing near bonfires) and then plunged into freezing water to test their somatic control.
+            - **The Sword Trick:** Archaeological evidence suggests some swords collapsed or had rounded tips, allowing the Pater to 'stab' the initiate in a mock sacrifice, spilling blood (from a bladder) to simulate death without killing the soldier.`,
         },
         Structure: {
-            Seven_Grades:
-                "Hierarchy associated with planets and regalia: Corax (wore a Raven mask/beak), Nymphus (wore a veil and carried a lamp), Miles (Soldier/Mars), Leo (wore a Lion mask), Perses (Persian cap/sickle), Heliodromus (Sun-Runner/whip/halo), Pater (Father/Saturn/Ring and Staff).",
-            Gender_Nuance:
-                "While the grade system was exclusively male, recent archeology in the Eastern Empire suggests women may have participated in associated family cults, though they were barred from the inner mysteries.",
+            Cellular_Network: `
+            Decentralized. Each Mithraeum was a small, autonomous cell of 20-30 men. When a cell grew too large, it split. This structure made it immune to decapitation but vulnerable to the systematic destruction of its caves by Christians.`,
         },
     },
+
+    Cult_of_Glycon_The_New_Asclepius: {
+        Origins: `
+            Abonoteichus (Paphlagonia, modern Turkey), c. 150-170 CE. Founded by the prophet Alexander, a figure reviled by the rationalist Lucian as a fraudster but worshipped by thousands (including Marcus Aurelius) as the voice of the divine.
+            To the outsider, Alexander was a puppeteer who buried a goose egg containing a baby reptile to stage a miracle. To the insider, Alexander was a 'Theurgic Engineer'—one who understood that the Gods are not biological entities, but 'Living Images' that must be constructed, animated, and given voice through sacred mechanics.`,
+        Beliefs: {
+            The_Neos_Asclepius: `
+            Glycon is not a remote Olympian; he is the "Sweet One" (Glykys). He is the Third Manifestation of Apollo's healing line.
+            - **The Chimera:** He appears as a massive serpent with a human head, long blonde hair, and human eyes. This is not a monster; it is the perfect fusion of *Chthonic Wisdom* (the Snake/Earth) and *Apollonian Reason* (the Human Face/Light).
+            - **The Living Icon:** Unlike stone statues which are cold, Glycon is warm. He coils around the Prophet. He breathes. He opens and closes his mouth. We do not worship a metaphor; we worship a biological impossibility that is physically present in the room.`,
+            The_Autophone_Oracle: `
+            Other oracles (Delphi) speak in riddles through drugged priestesses. Glycon speaks directly.
+            - **The Voice:** Through the 'Autophones' (a system of concealed tubes made of crane windpipes), the God speaks in articulate Greek verse. To the believer, the tube is not a trick; it is the 'vocal cord of the ether', the necessary apparatus to step down the vibration of a God into human audibility.`,
+        },
+        Practices: {
+            The_Night_Mystery_of_the_Torch: `
+            A three-day drama performed in absolute darkness, lit only by a single torch carried by Alexander.
+            - **Day 1 (The Expulsion):** The Herald cries out: "If any Atheist, Christian, or Epicurean is come to spy, let him flee!" The crowd responds: "Out with the Christians! Out with the Epicureans!" This creates a sealed 'psychic pressure cooker' free of skepticism.
+            - **Day 2 (The Epiphany):** The birth of the God from the Goose Egg. The Prophet digs into the mud of the temple floor and produces the egg. He cracks it, and a baby snake wriggles out. The crowd screams in ecstasy, witnessing spontaneous generation.
+            - **Day 3 (The Hieros Gamos):** The Marriage of the Moon. Alexander, dressed as Endymion, lies in state. The moon (Selene) descends from the roof (via ropes and mirrors) to embrace him. It is a ritual of 'Astral Sex' intended to seed the earth with divine rulers.`,
+            The_Kiss_of_Glycon: `
+            The supreme benediction. The Prophet sits on a couch, the massive snake-body (partially a stuffed effigy, partially live python) draped over him. The 'Human Head' (a masterwork of linen and horsehair, manipulated by hidden wires) leans forward.
+            The pilgrim does not just bow; they *kiss* the mouth of the snake. The animatronic tongue darts out. This tactile contact—wet, moving, alive—shatters the pilgrim's reality tunnel. They have touched the impossible; therefore, they are healed.`,
+        },
+        Structure: {
+            The_Prophet_Magus: `
+            Alexander is not a priest; he is a 'Divine Actor'. He wears purple and white, carries a golden thigh (mimicking Pythagoras), and uses the 'science of glamour' to maintain the faith. He employs a network of intelligence agents (spies) in Rome who send him the private questions of wealthy patrons beforehand, ensuring the Oracle's answers are always miraculously accurate.`,
+            Legacy: `
+            The death of the Prophet did not kill the God.
+            - **The Imperial Seal:** The cult was too useful to fail. The Severan emperors minted Glycon on imperial coinage, effectively nationalizing the snake.
+            - **The Danubian Migration:** Roman legionaries, terrified of plague and death, carried small bronze 'pocket-Glycons' to the northern frontiers. The snake became a military mascot of survival.
+            - **The End:** It was not skepticism that killed Glycon, but Christianity. The Christians viewed the 'Human-Headed Serpent' not as a fraud, but as a literal avatar of Satan (the Ancient Serpent mimicking Christ's humanity). The temples were not debunked; they were exorcised.`,
+        },
+    },
+
+    // =================================================================================================
+    // GNOSTICS SECTS
+    // =================================================================================================
 
     Sethian_Gnostics: {
-        Origins:
-            "Emerging in the first century CE; they identified themselves as the 'Seed of Seth', the 'Incorruptible Race', and the 'Immobiles'.",
+        Origins: `
+            Emerging in the 1st Century CE, likely within the baptismal sects of the Jordan Valley before moving to Alexandria. They are the 'Classic Gnostics' of the textbooks but viewed themselves as the **"Seed of Seth"** (the third son of Adam).
+            - **The Logic of the Seed:** They believed Abel was killed and Cain was cursed, so the true spiritual lineage of humanity (the Pneumatics) descended solely from Seth. They are 'aliens' on earth, a colony of the Pleroma stranded in enemy territory, waiting for the signal to return home.`,
+
         Beliefs: {
-            The_Standing_One:
-                "The spiritual goal is to become 'motionless' or 'immobile' like the divine beings. To stand is to be fixed in the Pleroma, contrasting with the chaotic spinning/motion of the planetary spheres.",
-            The_Audacity_of_Sophia: `
-            The cosmos is the result of a divine trauma. Sophia (Wisdom), the youngest of the Aeons, wished to know the unknowable Father. She attempted to create without her male consort (Thelēma/Will).
-            - **The Aborted Fetus:** Because she acted in isolation, she produced a deformity—a lion-headed serpent named Yaldabaoth (The Child of Chaos). Ashamed, she cast him out of the Pleroma into a cloud.
-            - **The Theft of Light:** Yaldabaoth, ignorant of his mother, stole a spark of her power to create the material world. Thus, the world is a prison built by a blind jailer (the Demiurge) using the stolen power of Wisdom.`,
-            Four_Illuminators: "Divine beings (Armozel, Oroiael, Daveithai, Eleleth) who act as the coordinates of the transcendent mind.",
-            Epinoia_The_Afterthought: `
-            God did not abandon humanity. When Yaldabaoth breathed his stolen power into Adam, Sophia secretly inserted her 'Epinoia' (Luminous Imagination/Afterthought) into Adam's bone marrow.
-            - **The Trojan Horse:** The rulers think they own Adam, but Sophia is hiding *inside* his biology. She is the voice that wakes him from the sleep of ignorance.`,
+            The_Negative_Theology: `
+            God (The Invisible Spirit) cannot be described by what He is, only by what He is *not*.
+            - **The Litany:** "He is not corporeal, nor incorporeal. He is not large, nor small. He is not a creature, nor a creator." This endless negation is not confusion; it is a technique to strip the mind of all concepts until it touches the Silence.`,
+
+            The_Triple_Powered_One: `
+            The Pleroma (The Fullness) is organized into a specific triad:
+            1. **The Father (Invisible Spirit):** The Silent Source.
+            2. **The Mother (Barbelo):** The First Thought (Protennoia) or Womb of the Universe. She is the "Male-Female" who births reality.
+            3. **The Son (Autogenes):** The Self-Generated One, the archetype of the perfect human.`,
+
+            The_Yaldabaoth_Complex: `
+            The Creator of this world is not God; he is a miscarriage.
+            - **The Anatomy:** Yaldabaoth is described as a "Lion-faced Serpent" with eyes flashing fire. He is insane (Saklas) because he cannot see the Pleroma.
+            - **The Boast:** He screams, "I am God and there is no other!"
+            - **The Rebuke:** A voice from the height (Sophia or Barbelo) instantly replies, "You lie, Samael (God of the Blind)!" This dramatic interruption is the moment the Gnostic wakes up—the realization that the "God" of society/law is a liar.`,
+
+            The_Four_Illuminators: `
+            The four cosmic coordinates of the Divine Mind, often visualized as angelic lights. The soul must memorize them to navigate the afterlife:
+            1. **Armozel:** Grace / Truth.
+            2. **Oroiael:** Perception / Afterthought.
+            3. **Daveithai:** Intelligence / Love.
+            4. **Eleleth:** Prudence / Wisdom (The destination of Sophia).`,
+
+            Neoplatonic__Refutatoin: `
+            The philosopher Plotinus (c. 270 CE), though a mystic himself, wrote his 'Against the Gnostics' specifically to dismantle the Sethian worldview, which he viewed as 'spiritual narcissism'. He attacked their hatred of the body and the cosmos, arguing that the physical world is not a prison created by an idiot god (Yaldabaoth), but a 'moving image of eternity'—the most perfect possible reflection of the divine mind. He accused the Gnostics of arrogance for believing they—'privileged' human souls—were superior to the immortal, ensouled stars. To Plotinus, the Gnostic demand for a 'secret escape hatch' was a lazy refusal to do the hard work of virtuous living.`,
         },
+
         Practices: {
-            The_Five_Seals:
-                "A baptismal ascent ritual. It is not merely washing; it is the investiture of the soul. The initiate strips off the 'garments of darkness' (the psyche/personality) and puts on the 'robes of light' corresponding to the Four Illuminators.",
-            The_Descent_of_the_Pronnoia: `
-            A meditative visualization where the initiate identifies with the descent of Sophia into the dark prison of the body.
-            - **The Chant:** 'I am the Invisible One within the All. I am the remembrance of the Fullness.'
-            - **The Logic:** By remembering her fall, the initiate reverses it. Memory *is* salvation.`,
-            Vowel_Chanting:
-                "The chanting of vowels to imitate the sounds of the transcendent realm. 'I-I-I-I-E-E-E-E-O-O-O-O-U-U-U-U-Ô-Ô-Ô-Ô-A-A-A-A'. These distinct tones were believed to vibrate the 'gates' of the Archons, forcing them open.",
-            The_Snore_Mantra:
-                "Imitating the silence/rest of the invisible spirit by making a snoring sound, represented as 'zza zza zza', mimicking the sleep of the great abyss.",
-            Standing_Prayer:
-                "Initiates stood still for long periods with hands stretched out (orans position), mimicking the angels who have 'no knees' (i.e., they do not bow to the Demiurge).",
+            The_Five_Seals_Pente_Sphragis: `
+            The supreme baptismal rite, likely performed in "Living" (running) water, but understood as a psychic transmutation rather than simple washing. It occurred in five stages:
+            1. **Stripping:** The initiate removes their clothes, symbolizing the removal of the "garment of flesh" and the artificial personality.
+            2. **Immersion:** Entering the water to dissolve the memory of the world.
+            3. **The Chrism:** Anointing with white balsam oil. This makes the soul "slippery" so the Archons cannot grab it during the ascent.
+            4. **The Robing:** Putting on the white robe, which represents the "Light Body" or the specific angel assigned to the soul.
+            5. **The Bridal Chamber:** A final meditative state of union with one's angelic double.
+            *Insider Phrase:* "I have dipped myself in the Light of the Heights; I have worn the Robes of Light."`,
+
+            The_Ascent_Chants_Vowel_Magic: `
+            The soul uses sonic geometry to bypass the celestial gates. Each vowel corresponds to a planetary sphere. By vibrating the sound, you tune your soul to the frequency of the gate, causing it to open.
+            - **Alpha:** The First Heaven.
+            - **Epsilon:** The Ether.
+            - **Eta:** The Ogdoad.
+            - **The Sequence:** "AEEEEEIOUUUUUUOOOOŌŌŌŌŌ".
+            These were not sung as melodies but vibrated as monolithic, chest-rattling tones to shatter the structural integrity of the Archons' barriers.`,
+
+            The_Immobile_Stance: `
+            A physical posture of power.
+            - **The Theory:** The world of Yaldabaoth is characterized by "Spinning" (the rotation of stars/fate/confusion). To be Divine is to be "Standing" (Estotos).
+            - **The Rite:** The initiate stands perfectly still for hours, arms raised in the 'Orans' gesture, refusing to move even a muscle. By stopping the body, they stop the "spinning" of the mind, becoming a fixed point that the Archons cannot influence. They become a "Standing One."`,
+
+            Visualizing_the_Molten_Spirit: `
+            From the *Gospel of the Egyptians*: The practitioner visualizes the descent of the "Holy Doxomedon" (Glory).
+            - **The Image:** One imagines the spiritual seed within as a "drop of light" that expands until it burns away the "dark waters" of the body. The chant used is "IESSSEUS MAZAREUS YESSEDEKEUS" (The Living Water).`,
         },
+
         Structure: {
-            The_Immobiles: "The self-designation of the group, emphasizing stability and the ability to stand in God's presence.",
+            The_Race_With_No_King: `
+            They rejected the hierarchy of Bishops. They called themselves the "Kingless Generation" (Abasileutos Genea).
+            - **Logic:** If you have Gnosis, you are a King. A King does not bow to another King. Therefore, the community was a horizontal collective of autocrats, united only by their shared origin in the Pleroma.`,
+
+            The_Steles: `
+            Sacred texts were not just books; they were "Steles" (Monuments) hidden in the spiritual ether. Initiates believed that by reading texts like *Zostrianos* or *Allogenes*, they were not learning information but physically teleporting their minds to the tablets left by Seth in the high mountains of the spirit.`,
         },
     },
 
-    Valentinian_Christians: {
-        Origins: "Founded by Valentinus (c. 140 CE) in Rome; he was a brilliant theologian who almost became Pope.",
+    Valentinian_Gnostics: {
+        Origins:
+            "Rome and Alexandria (c. 2nd - 4th Century CE). Founded by Valentinus (c. 140 CE), a brilliant philosophical theologian who nearly became Bishop of Rome. This was not a marginal sect but an elite, intellectual current within Christianity, aimed at those who found simple faith insufficient. Valentinians understood themselves as the hidden 'leaven' within the Church - a secret school operating inside the orthodox structure.",
+
         Beliefs: {
-            The_Two_Sophias: `
-            Valentinus solved the problem of evil by splitting Wisdom in two.
-            - **Upper Sophia:** She who remained within the Pleroma after seeing the 'Horos' (Limit).
-            - **Lower Sophia (Achamoth):** The 'abortive fruit' of her desire, cast out into the void. She suffers in the darkness.
-            - **Materialism as Emotion:** Matter is not just 'stuff'; it is the crystallized trauma of Achamoth. Water is her tears; rocks are her despair; air is her cooling grief; fire is her latent desire. The Gnostic walks through a world made of a goddess's pain.`,
-            The_Syzygy:
-                "God is a dyad (Husband/Wife). Wholeness requires the union of opposites. A man cannot enter the Pleroma without his female 'Angel' (Double), and vice versa.",
-            In_One_Room:
-                "Valentinians worshipped alongside Catholics, reserving their higher mysteries for the 'pneumatic' elite, viewing orthodox Christians as 'Psychics' (Soul-people) who needed simple stories.",
+            The_Layered_Cosmos_and_God: `
+        Reality is hierarchical.
+        - **The Father (Bythos):** The ultimate, unknowable God.
+        - **The Pleroma (Fullness):** A realm of 30 divine Aeons arranged in male-female pairs (Syzygies).
+        - **The Demiurge:** The Orthodox Creator-God is real but secondary - an ignorant yet earnest craftsman governing the material cosmos.`,
+
+            Sophia_and_the_Origin_of_Matter: `
+        The material world originates in a cosmic error.
+        - **Upper Sophia:** Wisdom who remained within the Pleroma after encountering the Horos (Limit).
+        - **Lower Sophia (Achamoth):** The aborted result of her solitary desire to know the Father, expelled into the void.
+        - **Matter as Trauma:** Physical reality is condensed suffering. Water is Achamoth’s tears; stone her despair; air her cooling grief; fire her unresolved desire. The world is built from divine pain.`,
+
+            The_Syzygy_and_Double:
+                "All existence is dyadic. Wholeness requires reunion with one’s lost counterpart. Each soul has an angelic Double; entry into the Pleroma is impossible without this reunion. Divinity itself is Husband and Wife.",
+
+            The_Three_Types_of_Humans: `
+        Humanity is ontologically stratified:
+        1. **Hylics:** Purely material beings with no enduring soul.
+        2. **Psychics:** Ordinary Christians who possess soul, faith (pistis), and moral capacity. They worship the Demiurge and ascend only to the Middle Heaven (Hebdomad).
+        3. **Pneumatics:** Valentinians who carry the divine spark (pneuma). They possess gnosis and are destined to bypass the Demiurge and return to the Pleroma.`,
+
+            Exoteric_and_Esoteric_Christianity:
+                "Valentinians participated fully in orthodox worship while reserving deeper interpretations for initiates. Scripture and sacrament were valid at the surface level but concealed higher metaphysical meanings accessible only to Pneumatics.",
         },
+
         Practices: {
             The_Bridal_Chamber_Nymphon: `
-            The supreme sacrament, superior to baptism. It is the ritual enactment of the 'Hieros Gamos' (Sacred Marriage) between the initiate's soul (Sophia) and their 'Angel' (The Savior).
-            - **The Mirror Room:** Initiates entered a chamber, sometimes involving mirrors, to encounter their 'double'.
-            - **The Kiss of Peace:** The ritual culminated in a mouth-to-mouth kiss, which was not sexual but pneumatic—the exchange of the 'Breath of Life' to seal the two halves of the Syzygy into one androgyne being.`,
-            Redemption_Ritual_Apolytrosis:
-                "A rite for the dying. The priest anoints the head with oil and water while reciting the 'Names of Passage'. This provides the soul with the passwords ('I am a son from the Father...') to bypass the customs-stations of the Archons after death.",
-            Marcus_Eucharist:
-                "A theatrical ritual where white wine in a cup turned blood-red (likely using chemical compounds). The chalice would bubble and effervesce, inducing a prophetic trance in the participant.",
-            Chanting_for_Healing:
-                "The congregation would intone the long vowel 'Ô' in unison to heal distress, believing it mimicked the cry of Achamoth calling for the Savior.",
+        The central and most secret rite, understood as an actual metaphysical reunification rather than symbolism.
+
+        Participation required prolonged preparation under a Didaskalos (Teacher), often lasting months or years.
+        - **Cosmological Training:** The initiate memorised the structure of the Pleroma, the names and pairings of the Aeons, the role of Horos, the fall of Sophia, and the distinction between the Demiurge and the Father. This knowledge functioned as a practical map for later ascent.
+        - **Scriptural Decoding:** The initiate practised allegorical exegesis of Pauline letters and Gospels, learning to move from surface narrative (Psychic) to metaphysical code (Pneumatic).
+        - **Identity Formation:** Verbal and contemplative exercises trained the initiate to identify as a fragment of Sophia rather than as a social or bodily self.
+        - **Moral Purification:** Not asceticism, but detachment from fear (especially fear of judgment), regulation rather than suppression of desire, and temporary sexual restraint before the rite. Readiness was marked by the ability to tolerate paradox without anxiety.
+
+        The rite takes place at night in a closed chamber (Nymphon). Oil lamps provide low light. Walls may be draped in white cloth; mirrors or polished metal surfaces are sometimes present. Silence dominates, broken only by slow breathing. The initiate enters alone. The Teacher invokes Sophia and the Saviour through whispered names. The initiate is instructed to gaze into darkness or reflection until ordinary self-boundaries loosen. Recognition of the Angel or Double is experienced as an inner certainty or presence, not necessarily a vision.
+
+        **Formulae of Reunion:**
+        The Teacher pronounces declarative formulae, for example:
+        “You who are divided, be reunited.  
+        You who are female without the male, receive your Bridegroom.  
+        You who are male without the female, receive your Bride.  
+        Enter the Fullness.  
+        Be no longer two, but One.”
+
+        **The Kiss of Peace:**
+        The Teacher, acting as ritual stand-in for the Saviour, places hands on the initiate’s shoulders.
+        - The initiate exhales fully.
+        - The Teacher exhales slowly into the initiate’s mouth.
+        - The initiate inhales, completing the exchange.
+        This mouth-to-mouth transmission is pneumatic, not sexual: the exchange of breath (pneuma) seals the Syzygy. The initiate is now considered an androgynous, reintegrated Aeon.
+
+        The initiate emerges as Pneumatic, capable of bypassing the Archons and entering the Pleroma after death.`,
+
+            Apolytrosis_Redemption_Rite: `
+        A precise and urgent rite performed at the threshold of death, designed to ensure successful ascent.
+
+        The dying initiate reclines in a quiet room. Present are the Teacher and a small circle of trusted Pneumatics. A bowl containing oil mixed with water or balsam is prepared. The Teacher anoints the crown of the head, sometimes the forehead and lips. This renders the soul invisible and scentless to the Archons who patrol the planetary spheres.
+        
+        The dying initiate is reminded that judgment is irrelevant. Fear marks the Psychic; certainty marks the Pneumatic.
+        The Teacher recites the Names of Passage. The initiate repeats them aloud if able, otherwise internally. These are not prayers but assertions of origin and status, for example:
+        “I am a son from the Father,  
+        from the Pre-existent One.  
+        I come from Him who is before all.  
+        I return to my own place.”
+        Some formulae deliberately assert superiority over the Archons, functioning as recognition codes rather than supplication.
+
+        The community imagines the soul passing each planetary gate. When challenged, the memorised declarations compel the Archons to withdraw. The soul bypasses the Demiurge’s jurisdiction entirely and returns directly to the Pleroma.`,
+
+            Marcus_Eucharistic_Rites: `
+        Sensory and theatrical rites associated with Marcus and his followers, in the form of a small, private gathering. A chalice of white wine is placed centrally. Extended chanting of divine names accompanies the addition of a prepared substance to the wine. The liquid darkens to blood-red and effervesces. The participant drinks while maintaining focus on the officiant. Altered states, visions, and prophetic speech frequently follow. Women are encouraged to speak during trance, their utterances treated as messages from Sophia herself.`,
+
+            Healing_Chants: `
+        A communal practice for distress or imbalance. Participants stand or sit in a circle, synchronising breath. Sustained intoning of the vowel ‘Ô’, slowly modulated in pitch. The sound echoes Achamoth’s primordial cry from the void. Conscious repetition aligns the community with her suffering and calls the Saviour.`,
+
+            Esoteric_Scripture_Reading: `
+        Conducted after ordinary church services. Non-initiates depart. Lamps are dimmed. Scrolls are unrolled. Familiar texts are read verse by verse. Each line is decoded allegorically as a cosmological or psychological map. Multiple interpretations are offered depending on the listener’s level of initiation.
+        
+        - **Example I: The Cross (Stauros):**
+            * *To the Psychic:* It is the wooden instrument of Christ's passion and sacrifice for sins.
+            * *To the Pneumatic:* It is **'Horos' (The Limit)**. It is not a tool of death, but the cosmic fence that separates the Divine Pleroma from the Void. Jesus spreading his arms is the act of 'firming up' the boundary so the Aeons do not fall out into chaos.
+        
+        - **Example II: The Hemorrhaging Woman (Luke 8):**
+            * *To the Psychic:* A miracle about a woman sick for 12 years who had faith.
+            * *To the Pneumatic:* The 'Woman' is **Sophia (Wisdom)**, the 12th Aeon. Her 'bleeding' is the leaking of divine light into the darkness. Jesus stopping the flow represents the Savior fixing the hole in the universe caused by her Fall.
+        
+        - **Example III: "I came not to bring peace, but a sword":**
+            * *To the Psychic:* A warning about family division.
+            * *To the Pneumatic:* The 'Sword' is the **Gnosis** that cuts the Spirit away from the Soul/Body. We are here to sever our attachment to the Creator's world, not to make peace with it.`,
         },
+
         Structure: {
-            Dual_Membership: "Divided into 'Psychics' (ordinary Christians/faith) and 'Pneumatics' (Gnostics/knowledge).",
-            Women_Prophets:
-                "Women were active leaders; in Marcus's circle, women acted as prophets and performed the eucharistic consecration as earthly avatars of Sophia.",
+            Ecclesiola_in_Ecclesia:
+                "A 'Church within the Church'. Valentinians rarely formed separate institutions and instead functioned as philosophical schools embedded in orthodox congregations.",
+
+            Teacher_Initiation_Model:
+                "Authority rested with Didaskaloi (Teachers), not bishops. Advancement was educational and initiatory, often involving access to costly secret texts.",
+
+            Dual_Community:
+                "Clear distinction between Psychics (faith-based Christians) and Pneumatics (knowledge-based initiates), without requiring formal schism.",
+
+            Women_in_Leadership:
+                "Women served as prophets and ritual leaders. In Marcus’s movement, women consecrated the eucharist as living manifestations of Sophia.",
+
+            Canonical_Subversion_Strategy:
+                "Valentinus retained the full Christian canon and sacramental system but reinterpreted them. Orthodox rites saved Psychics (regular Christians) to the Middle Place; gnosis led Pneumatics (Valentinians) to the Bridal Chamber in the Pleroma.",
         },
     },
 
@@ -433,6 +1166,11 @@ const dataSocieties = {
 
             Sophia_Prunikos:
                 "Wisdom (Sophia) is venerated as 'Prunikos' (The Leaping One or The Whore). This title is not derogatory but descriptive; it signifies her desperate, energetic movement through the lower aeons to recover the 'Dew of Light' (stolen spirit) from the Archons. She is the active, suffering feminine principle in matter.",
+
+            The_Moist_Essence_Anatomy: `
+            The Ophites taught that the human body is a hydraulic machine powered by the 'Moist Essence' (Sperm/Marrow/Spirit).
+            - **The Spinal Snake:** Look at the human anatomy. The brain is the head of the serpent; the spinal cord is the body; the intestines are the coils. The human *is* a serpent encased in clay.
+            - **Dry vs. Wet:** Death is 'Dry' (Dust). Life is 'Wet' (Blood/Semen). The Serpent lives in the damp earth and sheds its skin (immortality). Therefore, the Serpent is the source of the Moist Essence that keeps the universe juicy and alive. To worship the Snake is to worship the fluid of life against the drying heat of the Demiurge.`,
         },
         Practices: {
             The_Ophite_Eucharist: `
@@ -462,7 +1200,61 @@ const dataSocieties = {
         },
     },
 
-    Naassenes: {
+    Phibionites_Gnostics: {
+        Origins: `
+            Alexandria and Syria (2nd - 5th Century CE). A radical, libertine Gnostic sect documented primarily by their arch-nemesis, Epiphanius of Salamis (who claimed to have infiltrated them in his youth).
+            
+            **The Counter-Narrative:** While the Church called them "Borborites" (The Mud/Filth People) for their sexual hygiene, they called themselves the "Gnostics" (The Knowers). They represent the absolute zenith of 'Materialist Gnosticism'. 
+            Unlike the ascetics who tried to *ignore* the body, the Phibionites believed the body was a bio-chemical refinery. They believed that the divine 'Light' was trapped in food and flesh, and that the human reproductive system was the specific machine designed to distill this Light into its purest liquid form.`,
+
+        Beliefs: {
+            The_Spermatic_Theology: `
+            The central dogma is that the 'Divine Spark' (Pneuma) is physically present in the reproductive fluids.
+            - **The Gathering:** Souls and Light are scattered throughout nature (in vegetables, meat, bread). When we eat, our bodies digest this matter and concentrate the scattered Light into the sexual organs. 
+            - **The Distillation:** Semen and Menstrual Blood are not waste; they are the concentrated "Power" (Dynamis) of the universe. To spill them for reproduction is to imprison that Light in a new body (a new prison). To consume them is to cycle the Light back to the Upper Aeons.`,
+
+            The_War_on_Genesis: `
+            Like the Orphics, they believed Procreation was the work of the Evil Creator (Yaldabaoth). 
+            - **The Difference:** The Orphic practiced celibacy (Starving the Archon). The Phibionite practiced 'Coitus Interruptus' (Robbing the Archon). 
+            - **The Logic:** They engaged in frenzying sexual activity to "collect" the Light, but strictly forbade ejaculation inside the womb. "We engage in the pleasure, but we steal the soul before the Archon can lock it in a fetus."`,
+
+            The_365_Archons: `
+            The Phibionite cosmology viewed the sky as a series of 365 barriers (corresponding to the days of the year), each guarded by a distinct Archon with a specific name and animal face (e.g., the Serpent, the Ass).
+            - **The Toll:** To pass through the heavens after death, the soul must know the secret name of each Archon.
+            - **The Sacrament:** Each sexual act was often dedicated to a specific Archon. By "sacrificing" the fluids, they believed they were paying the toll in advance, nullifying the Archon's power over them.`,
+        },
+
+        Practices: {
+            The_Agape_of_Fluids: `
+            The infamous Eucharistic rite described in the 'Panarion'.
+            - **The Separation:** Men and women engaged in intercourse. Just before the moment of emission, the couple separated.
+            - **The Offering (Male):** The man collected the semen in his hand, stood naked before the image of God, and raised it, declaring: "Offer this, the Body of Christ." They then consumed it.
+            - **The Offering (Female):** If the woman was menstruating, the blood was collected and raised, declaring: "This is the Blood of Christ."
+            - **The Insider Logic:** This was not cannibalism to them; it was *rescue*. They were taking the "Light" that the Archons wanted to trap in a baby and liberating it by returning it to the "Cycle of the Pneuma" (the Gnostic's own body).`,
+
+            The_Extraction_of_the_Fetus: `
+            A grim protocol for "accidents." If the coitus interruptus failed and the woman conceived, the Phibionites did not raise the child.
+            - **The Procedure:** They induced abortion/extraction of the embryo.
+            - **The Recycling:** The embryo was dismembered, mixed with honey and spices (to mask the taste), and eaten by the congregation.
+            - **The Logic:** They believed the fetus contained a trapped soul. By eating it, they were not killing it; they were "re-absorbing" the soul to prevent it from suffering a lifetime in the material world.`,
+
+            The_Palm_Tickle_Signal: `
+            Since they were persecuted by the Orthodox Church, they used secret recognition signals.
+            - **The Sign:** When shaking hands, a Phibionite would tickle the palm of the stranger with their finger. This signaled: "I am of the Kin."
+            - **The Feast:** If recognized, the traveler was immediately welcomed into the local community's sexual rites, treated as a "container of light" to be shared.`,
+
+            Prayers_of_the_Ascent: `
+            Epiphanius records their specific mantras used to bypass the Archons. When "full" of the sacrament, the Gnostic could say:
+            *"I have recognized myself and gathered myself from all sides. I have sown no children for the Ruler, but I have uprooted his roots and gathered the dispersed members, and I know thee, who thou art: for I am of those who are from above."*`,
+        },
+        Structure: {
+            No_Hierarchy_Only_Prophets: `
+            They rejected the rigid bishops of the Orthodox Church. Their leaders were charismatic "Prophets" or "Fathers" who organized the feasts.
+            - **The Equality:** Because every Gnostic contained the Divine Spark, hierarchy was fluid. Women often held equal or superior spiritual authority, particularly regarding the mysteries of the blood.`,
+        },
+    },
+
+    Naassenes_Gnostics: {
         Origins:
             "2nd Century CE; the first group to explicitly call themselves 'Gnostics'. They claimed their secret tradition was passed from James the Just to Mariamne. The name derives from the Hebrew 'Naḥash' (Serpent), honoring the snake of Eden as the instructor of humanity.",
         Beliefs: {
@@ -494,7 +1286,7 @@ const dataSocieties = {
         },
     },
 
-    Peratics: {
+    Peratics_Gnostics: {
         Origins:
             "Founded by Euphrates the Peratic and Celbes the Carystian (c. 2nd Century CE). The name 'Peratikoi' means 'Those Who Cross Over' or 'The Transients.' It is a double-entendre: it refers to their spiritual lineage as the 'Hebrews' (etymologically: those who cross the river) who escape Egypt, and their soteriological goal of 'crossing' the destruction of the cosmos.",
         Beliefs: {
@@ -534,6 +1326,11 @@ const dataSocieties = {
             A ritual reenactment of 'Crossing the Red Sea'.
             - **The Water of Kronos:** A bowl of water (representing the ocean of Time/Death) is placed between the initiate and the East.
             - **The Crossing:** The initiate dips their hand in the water and marks their forehead, then steps *over* the bowl, symbolizing the transit from the world of 'Becoming' (Genesis) to the world of 'Being' (The Unbegotten). They declare: "I stop the flow of the Jordan. I turn the river backward."`,
+
+            The_Stationary_Eye_Draco: `
+            The Peratic mystic does not look at the Zodiac (which moves and kills); he looks at Draco (which stands still).
+            - **The Visual Lock:** The ritual involves staring at the North Star until the peripheral vision blurs and the rotating stars appear to form a 'Vortex' or 'Tunnel'.
+            - **The Extraction:** The mystic visualizes the Serpent Draco uncoiling from the sky, reaching down through the vortex, and biting the top of their head. This bite is not painful; it is the 'Magnetic Kiss' that sucks the soul out of the spinning planetary sphere and pulls it up the axis into the stillness of the Eighth Sphere (Ogdoad).`,
         },
         Structure: {
             The_Crossers:
@@ -542,6 +1339,10 @@ const dataSocieties = {
                 "While both sects venerated the Serpent, the Ophites focused on the Serpent in the Garden (Eden/Earth), whereas the Peratics focused on the Serpent in the Sky (Draco/Heaven). The Peratics were far more scientific and astrological in their approach than the mythological Ophites.",
         },
     },
+
+    // =================================================================================================
+    // ???
+    // ==================================================================
 
     Hermetic_Circles: {
         Origins: "Egypt, blending Egyptian religion with Greek philosophy; focused on Hermes Trismegistus (Thoth).",
@@ -561,6 +1362,13 @@ const dataSocieties = {
             Derived from Book IV of the *Corpus Hermeticum* ("The Cup or the Monad"). God sent down a great mixing bowl (Krater) filled with the divine essence of Mind (Nous).
             - **The Herald:** A messenger proclaimed: "Dip yourself in this basin, if you can... you who believe you will ascend to Him who sent this down."
             - **The Separation:** This act separated humanity into two types: those who possess only 'Reason' (Logos) and those who partook of the Krater to achieve 'Mind' (Nous). The Gnostic is one who has dipped themselves in the Mind of God.`,
+            Book_of_Thoth: `
+            Central to the Hermetic mythos is the 'Book of Thoth', a text said to contain only two spells, yet they are heavy enough to crush the human soul. The first spell grants the power to understand the language of the sky, the earth, the abyss, and the beasts (Omniscience). The second allows one to see the Sun God Ra in his true form, stripping away the illusion of the material world (The Beatific Vision). In the tales of Setna, the book is described as 'dangerous knowledge' protected by a nesting-doll of impossible security—an iron box, inside bronze, inside sycamore, inside ivory, inside silver, inside gold, guarded by an immortal serpent—symbolizing that the Ultimate Truth is encrypted within layers of reality that must be dissolved at the peril of one's sanity.
+            
+            Link to Other Myths:
+            - **The Mes:** In Sumerian myth, Ishtar steals the *Mes* (Tablets of Civilization) from Enki's watery abyss (Abzu). Similarly, Neferkaptah steals the *Book of Thoth* from the bottom of the Nile (watery abyss) where Thoth hid it. Both myths represent the theft of 'Divine Tech' from the paternal water-god to give to humanity.
+            - **The Emerald Tablet:** The *Emerald Tablet* is a recipe for Alchemy. The *Book of Thoth* is a recipe for Perception (omniscience).
+            - **Tablets of Destiny:** These (Babylonian) control the *fate* of the world. The Book of Thoth controls the *perception* of the world .`,
         },
         Practices: {
             Basin_Baptism: "Ritual immersion in a 'vat' or basin representing Mind to awaken the spiritual self.",
@@ -650,6 +1458,31 @@ const dataSocieties = {
         },
     },
 
+    Christian_Cabala_Pico: {
+        Origins:
+            "Renaissance Italy (c. 1486); centered on the young Count Giovanni Pico della Mirandola. He was the first to explicitly weaponize Jewish Kabbalah to prove Christian dogma, turning Jewish mysticism into a 'Universal Science' for the Gentile world.",
+        Beliefs: {
+            The_Syncretic_Manifesto:
+                "Pico believed in the 'Prisca Theologia'—a single, golden thread of truth running through all traditions (Plato, Hermes, Zoroaster, Moses). His '900 Theses' were an attempt to publicly debate and prove that all these distinct wisdom streams were actually saying the same thing: that Christ is the center of the cosmos.",
+            The_Shin_Transformation: `
+            The core theological 'hack' of the Christian Cabalists. Pico argued that the ineffable name of God, the Tetragrammaton (YHWH), was the name of the 'Hidden God'. To make God visible/incarnate, one must insert the Hebrew letter 'Shin' (representing Fire/Spirit) into the center of YHWH.
+            - **The Result:** YHWH becomes YHSWH (Yeheshua/Jesus).
+            - **The Logic:** This proves, kabbalistically, that Jesus is simply the Old Testament God made visible by the fire of the Holy Spirit. It allowed Christian magicians to use Jewish Names of God in ritual without feeling like heretics.`,
+            Magia_Naturalis:
+                "Magic is not supernatural; it is the 'marriage of the world'. Just as a farmer marries a vine to an elm to produce grapes, the Magus marries earthly things (gems, herbs) to celestial things (stars, angels) to produce wonders. It is the practical part of natural science.",
+        },
+        Practices: {
+            The_900_Theses_Debate:
+                "Pico did not rely on incense, but on logic. The 'Ritual' was the public disputation. He published 900 intellectual propositions (e.g., 'Magic is the noblest part of natural science') and offered to pay the travel expenses of any scholar in Europe to come to Rome and debate him. The Pope halted it, seeing the danger of unifying all religions.",
+            Calculatory_Meditation:
+                "Unlike the ecstatic trance of the Gnostics, Pico's practice was 'Mathesis'—using Gematria (number-letter swapping) and combinatory logic to mentally rotate the names of God/Angels in the mind until the intellect 'caught fire' and perceived the structure of the Divine Mind.",
+        },
+        Structure: {
+            The_Humanist_Circle:
+                "Not a lodge, but a network of scholars (like Marsilio Ficino) protected by the Medici family. They operated as an 'Academy', reviving the symposium format of ancient Greece but infusing it with high ceremonial magic.",
+        },
+    },
+
     Freemasonry: {
         Origins:
             "Formalized in 1717 at the Goose and Gridiron Alehouse (London) with the formation of the Premier Grand Lodge. However, it evolved from medieval 'Operative' stone-mason guilds (which possessed 'Old Charges' or legendary histories) into 'Speculative' lodges accepting non-masons (gentlemen) seeking moral instruction.",
@@ -664,6 +1497,8 @@ const dataSocieties = {
                 "The twin metaphors for human development: The 'Rough Ashlar' is the unpolished stone (the uninitiated man), and the 'Perfect Ashlar' is the squared stone fit for the builder's use (the enlightened man), achieved through the gavel of conscience.",
             Geometry_as_Gnosis:
                 "The letter 'G' suspended in the East stands for both God and Geometry. It posits that the universe is rational and can be understood through the liberal arts and sciences.",
+            Hermetic_Connection: `
+            While academic linguists dismiss the connection between the Hebrew 'Hiram' (High-born) and the Greek 'Hermes', esoteric Masonry insists on their symbolic fusion. In the high degrees, Hiram Abiff is frequently identified with the 'Master of the Pillar'—Hermes Trismegistus or Thoth. The logic is architectural: 'Herma' were originally stone boundary markers, static pillars of truth. Hiram is the active principle, the Architect who shapes the 'Rough Ashlar' into the 'Perfect Ashlar'. By identifying the Widow's Son with Hermes, the lodge asserts that their rituals are not merely medieval guild practices, but a continuation of the ancient Hermetic science of shaping the soul.`,
         },
         Practices: {
             The_Lodge:
@@ -850,25 +1685,54 @@ const dataSocieties = {
     },
 
     Scottish_Rite_AASR: {
-        Origins: "18th century France; formalised in Charleston, USA (1801) as the Ancient and Accepted Scottish Rite.",
+        Origins: `
+        Not Scottish. The Rite grew out of the French 'Écossais' high-degree fashion of the 1740s, in which lodges at Bordeaux, Paris and Marseilles invented degrees beyond the Master Mason and attributed them to Scotland to borrow the prestige of the exiled Stuarts. These were consolidated into the twenty-five-degree Rite of Perfection, or Order of the Royal Secret, and carried to the Caribbean and North America under a patent granted to Étienne Morin in 1761.
+
+        The Rite in its present form dates from Charleston, South Carolina, on 31 May 1801, when a Supreme Council of the Thirty-Third Degree was opened by John Mitchell and Frederick Dalcho, expanding the system to thirty-three degrees under the authority of a set of Grand Constitutions dated 1786 and attributed, with no evidence whatever, to Frederick the Great.
+
+        Its decisive figure is Albert Pike, Sovereign Grand Commander of the Southern Jurisdiction from 1859 to 1891, who found the rituals thin and rewrote all of them between 1855 and 1884, loading them with comparative mythology, Kabbalah, Zoroastrianism, Neoplatonism and Hermeticism, and publishing his commentary as Morals and Dogma in 1871 — a volume given to every candidate for the 32nd degree until 1974, and, by a wide margin, the least-read book in American Freemasonry.`,
         Beliefs: {
-            Perfection: "Human perfectibility through moral, philosophical and symbolic ascent from 4° to 33°.",
-            Kadosh_Mystique: "Chivalric struggle against tyranny, ignorance and fanaticism.",
-            Esoteric_Christianity: "Use of biblical and Templar motifs as vehicles for moral allegory.",
+            The_Rite_Explains_It_Does_Not_Initiate: `
+            The organising premise of the whole system. A man is already a Master Mason before he sets foot in the Rite; he has already been raised, and he already possesses everything Masonry can confer. The Scottish Rite adds no authority and no higher membership — a 33° Mason has no standing in a Blue Lodge above the newest Master Mason. What the Rite offers is exegesis: twenty-nine consecutive dramas explaining what the Master Mason's degree meant, why the Word was lost, how it was hidden, who hid it, and what a man is supposed to do with a truth he cannot recover. Candidates mostly sit and watch. This is why the Rite could become theatre on an industrial scale while the Blue Lodge could not.`,
+            The_Ineffable_Name_and_the_Vault_of_Enoch: `
+            The Rite's foundational legend, carried by degrees 4° to 14°. Enoch, in a vision, sees a golden triangle bearing the true and ineffable Name of God. He builds nine vaults one directly beneath another in the bowels of Mount Moriah, deposits the golden delta on a cubical agate stone in the deepest, and covers the whole with a stone ring; the Flood then obliterates every trace of the surface. Millennia later Solomon's workmen, excavating foundations, break through into the vaults and recover what Enoch hid.
+
+            The doctrine this carries is exact: divine truth is not lost, it is buried under one's own building, and the labour of digging is identical with the labour of construction.`,
+            Perfectibility_and_the_War_on_Three_Tyrannies: `
+            The Rite's ethical programme, stated plainly in the Kadosh degrees: the enemy of humanity is not sin but tyranny in three forms — political despotism, ecclesiastical despotism, and the ignorance that makes both possible. The candidate is bound to make war on all three by intellectual and moral means only. Pike, writing in the aftermath of the Inquisition's legend and the French Revolution's memory, was careful to abstract the enemy: the degrees denounce the tiara and the crown as principles, and disclaim any hostility to any actual church or monarch. Continental Masonry was rather less careful, which is a substantial part of why Rome condemned the Craft.`,
+            The_Royal_Secret: `
+            The terminal doctrine of the 32°, and characteristically an anticlimax. After twenty-nine degrees of searching, the Royal Secret turns out to be that there is no secret formula and no lost password: the secret is **equilibrium** — the recognition that the universe is composed of antagonistic forces (good and evil, freedom and order, spirit and matter, mercy and severity) which cannot be resolved in favour of either side, and that wisdom consists in holding them in balance rather than defeating one with the other. The Camp of the Princes, the geometrical diagram taught in that degree, is a map of that equilibrium.`,
         },
         Practices: {
-            Lodge_of_Perfection:
-                "Degrees 4°-14°; initiates wear aprons with a triangular flap and the 'Ineffable Name' written in Hebrew, dealing with ancient temple lore.",
-            Rose_Croix:
-                "Degrees 15°-18°; dramatic rituals of death and resurrection. The 18th degree apron depicts a pelican feeding its young with its own blood.",
-            Knight_Kadosh:
-                "A militant allegory where the candidate wields a dagger and climbs a symbolic ladder. He stabs at skulls crowned with a papal tiara and a royal crown, swearing to oppose spiritual and temporal tyranny.",
-            Consistory:
-                "Culminating in the 32° 'Master of the Royal Secret', where members wear a distinct black silk cap (unlike the 33° white cap) and a Teutonic cross jewel.",
+            The_Reunion: `
+            Degrees are not conferred one at a time on individual candidates. They are staged in a **Reunion**: two or three consecutive days in which a class of candidates — sometimes hundreds — sits in a theatre and watches a dozen or more degrees performed in sequence by a resident cast of members. Valleys maintain wardrobes of several hundred costumes, painted drops, trapdoors, lighting boards and prompt scripts. The great Scottish Rite cathedrals of the early twentieth century were built as playhouses: the auditorium at Guthrie, Oklahoma, is a fully equipped theatre with a stagehouse to match a metropolitan opera company.`,
+            Lodge_of_Perfection_4_to_14: `
+            The Ineffable Degrees, so called because they turn on the ineffable Name.
+            - **4° Secret Master** — the candidate takes the place of one of the seven chosen to guard the sanctum sanctorum after Hiram's death; the apron is white edged with black, with an open eye, for a man watching in mourning.
+            - **9° Elu of the Nine** — the vengeance degree and the most violent thing in the Rite. Nine masters are chosen by lot to hunt Hiram's assassin. The candidate, as the impetuous Joabert, tracks the murderer to a cave near Joppa lit by a lamp, with a spring at its mouth and a dagger at the sleeping man's head. He kills him before the order to take him alive can be given, and the head is carried back to Solomon. In Pike's staging the severed head is shown; the degree's lesson, delivered immediately afterwards, is that private vengeance is a crime even when the victim deserved death.
+            - **13° Royal Arch of Solomon** — the descent. The candidate is lowered through the nine vaults, arch by arch, into the darkness beneath Mount Moriah.
+            - **14° Perfect Elu** — the Secret Vault itself. The candidate takes his obligation upon the cubical stone, and is invested with the Rite's most personal object: a plain gold band, engraved on the inside with **Virtus Junxit, Mors Non Separabit** — virtue has united, death shall not separate — worn on the left ring finger, and by the terms of the degree to be returned to the Lodge or passed to a fellow Mason at death.`,
+            Chapter_of_Rose_Croix_15_to_18: `
+            - **15° Knight of the East, or of the Sword** — the return from Babylon under Zerubbabel; the workmen rebuild with a trowel in one hand and a sword in the other, and the candidate crosses a bridge over the Euphrates where the password is Liberty.
+            - **17° Knight of the East and West** — apocalyptic staging out of Revelation: the seven seals, the book, the Lamb, the white robe given to the candidate.
+            - **18° Knight Rose Croix** — the summit of the philosophical degrees and the most beautiful ceremony in the Rite. It opens in a chamber of mourning hung entirely in black, strewn with tears, the columns broken, the lights extinguished: the Word is lost a second time, and the lodge is in despair. The search leads through to a chamber blazing with light and hung in crimson, where the Word is recovered — not as a Hebrew name but as the letters **I.N.R.I.**, glossed simultaneously as the titulus of the crucifixion, as the alchemical *Igne Natura Renovatur Integra* (by fire nature is wholly renewed), and in Hebrew as the four elements. The degree closes with a **mystic banquet**: the members share bread and wine at a common table in memory of the Master. The jewel is a golden compass opened on a quadrant, enclosing a cross with a rose at its centre, a pelican wounding its own breast to feed its young below and an eagle above; the motto is Faith, Hope and Charity.`,
+            Council_of_Kadosh_19_to_30: `
+            - **30° Knight Kadosh** ('Holy'), the climax of the chivalric series, staged in a black chamber strewn with skulls and bones and lit by a single lamp.
+            - **The Mysterious Ladder.** The candidate must ascend a ladder of two uprights — Oheb Eloah, love of God, and Oheb Kerobo, love of one's neighbour — and seven rungs bearing Hebrew names for the moral qualities: Tsedakah (justice and charity), Shor Laban (the pure white ox, candour), Mathok (gentleness), Emunah (faith and trust), Hamal Saghia (unremitting labour), Sabbal (patience under burden), and Gemul Binah Thebunah (retribution, understanding, prudence). He descends the second upright by the seven liberal sciences: the moral and the intellectual ascents are the same ladder from opposite sides.
+            - **The tomb of de Molay.** The candidate is brought to the sepulchre of the last Grand Master of the Templars, and swears an oath of vengeance — against three skulls, one crowned with a royal diadem, one with a papal tiara, one bare, standing for the crown, the church and the traitor who destroyed the Order. He strikes or tramples them. Pike's rubric, added deliberately, insists the vengeance is against the principles of despotism and fanaticism and never against any living church or state.
+            - **31° Inspector Inquisitor** — the candidate is arraigned in a tribunal staged as the Egyptian judgement of the dead, before Osiris, Thoth and Anubis and the assessors, with the heart weighed against the feather of Ma'at. The verdict he must render is on himself.`,
+            Consistory_31_to_32: `
+            **32° Master of the Royal Secret.** The candidate is shown the **Camp of the Princes**: a diagram of a fortified encampment composed of a circle enclosing a triangle enclosing a pentagon enclosing a heptagon enclosing a nonagon, with tents pitched at every angle and banners flying over each division bearing the Ark, the Lion, the Ox, the Man and the Eagle. The camp is a machine for teaching equilibrium — every force in it is opposed and balanced by another, and the Royal Secret is the reading of the figure. The 32° wears a black cap and the jewel of a Teutonic cross; the motto of the degree is Spes Mea in Deo Est, my hope is in God.`,
+            The_Thirty_Third_Degree: `
+            **33° Inspector General Honorary** cannot be applied for and cannot be bought; it is conferred by unanimous vote of the Supreme Council on members of long and conspicuous service, after an intermediate honour (the Knight Commander of the Court of Honour, who wears a red cap). A 33° wears a white cap. The active members of the Supreme Council are Sovereign Grand Inspectors General, of whom there is a strictly limited number, and the highest distinction in the Southern Jurisdiction is the Grand Cross of the Court of Honour, awarded rarely.`,
+            The_House_of_the_Temple: `
+            The Southern Jurisdiction's headquarters at 1733 Sixteenth Street NW in Washington, designed by John Russell Pope and completed in 1915 as a reconstruction of the Mausoleum at Halicarnassus. Thirty-three exterior columns, each thirty-three feet high. Two limestone sphinxes flank the entrance: Wisdom, with eyes half closed, and Power, with eyes fully open. Inside, the Temple Room sits under a stepped pyramidal roof, and Albert Pike's remains are entombed in the wall of the building he rebuilt the Rite from.`,
         },
         Structure: {
-            Southern_vs_Northern: "Distinct ritual systems in the US jurisdictions.",
-            Supreme_Council: "The central governing body; 33° members serve as Inspectors General.",
+            The_Bodies: "Four coordinate bodies confer the degrees in a **Valley**: the Lodge of Perfection (4°-14°), the Chapter of Rose Croix (15°-18°), the Council of Kadosh (19°-30°), and the Consistory (31°-32°). Valleys are grouped into Orients corresponding to states.",
+            Supreme_Council: "The governing body, headed by a Sovereign Grand Commander, holding the sole right to confer the 33° and to alter the rituals. The Charleston council of 1801 is styled the Mother Supreme Council of the World, and every regular Supreme Council on earth traces its charter to it.",
+            Northern_and_Southern: "The United States is divided between the Southern Jurisdiction (thirty-five states and the territories, seated in Washington) and the Northern Masonic Jurisdiction (fifteen north-eastern states, seated at Lexington, Massachusetts). Their rituals, degree titles and staging differ substantially; the Northern Jurisdiction abandoned Pike's texts and rewrote its degrees in a plainer American idiom.",
+            The_Double_Headed_Eagle: "The Rite's emblem: a crowned double-headed eagle, wings displayed, gripping a sword in its talons, above the motto **Deus Meumque Jus** — God and my right — with the number 33 in a triangle above the crown.",
         },
     },
 
@@ -895,20 +1759,33 @@ const dataSocieties = {
     },
 
     Shriners_AAONMS: {
-        Origins: "Founded 1870s in New York by Masons seeking a more playful, theatrical fraternity.",
+        Origins: `
+        The Ancient Arabic Order of the Nobles of the Mystic Shrine, invented in New York in the early 1870s by two members of the Knickerbocker Cottage lunch table: Dr Walter M. Fleming, a physician, and William J. Florence, one of the most popular comic actors of the American stage. Florence supplied the theme, claiming to have been entertained at an Arabian-styled party while touring in Marseilles and Algiers; Fleming wrote the ritual, invented a spurious lineage tracing the order to a seventh-century Arabian caliph, and chartered Mecca Temple in New York in 1872.
+
+        The order exists because the Masonic system had become extremely solemn. A man who had passed through the Blue Lodge, the York or Scottish Rite and perhaps the Commandery had spent years being reminded of his mortality; the Shrine was created as the place where the same men could put on a fez and behave disgracefully. Membership originally required the 32nd degree of the Scottish Rite or the Knights Templar; since 2000 any Master Mason may join. The Shrine's own summary of itself has never been improved on: Masons having fun.`,
         Beliefs: {
-            Fellowship: "Joyous brotherhood expressed through humour and pageantry.",
-            Philanthropy: "Support for hospitals and children's medical charities.",
+            Licensed_Absurdity: `
+            The order's doctrine is that a fraternity built entirely on solemnity will either lose its members or turn cruel, and that the remedy is an institution whose ritual is knowingly, extravagantly fake. The Shrine's Arabian trappings are not an attempt at orientalist scholarship and were never believed by anyone; they are a costume adopted precisely because it is preposterous. This is why the Shrine has survived while more earnest appendant bodies have shrunk: it never asked anyone to believe anything.`,
+            Philanthropy_as_Justification: `
+            From 1922 the order attached the whole apparatus to a single unanswerable purpose: free medical care for children. Shriners Hospitals for Children — beginning at Shreveport, Louisiana, and growing to more than twenty institutions specialising in orthopaedics, spinal cord injury, cleft palate and above all paediatric burns — are funded by a per-capita assessment levied on every Noble in the order and by the proceeds of the parades and circuses. The bargain is explicit and stated in the order's own literature: the fez buys the right to be ridiculous, and the hospitals buy the right to wear the fez in public.`,
         },
         Practices: {
-            Arabian_Theme:
-                "Rituals and regalia are styled after imagined Middle Eastern courts. Local chapters ('Temples') often feature Moorish Revival architecture, and initiations involve theatrical simulated trials, such as walking on an electrified mat to mimic the 'hot Sahara sands'.",
-            Fez: "The iconic red fez with a black tassel is the official headgear. It is worn at all ceremonies and public events, often embroidered with the name of the wearer's Temple and adorned with the emblem of the scimitar and crescent.",
-            Shrine_Parades:
-                "Public processions featuring members in full regalia driving miniature cars or riding camels. These events often include clown units and brass bands to promote fellowship and visibility for their charitable works.",
+            The_Fez: `
+            A red felt fez with a black silk tassel, named for the Moroccan city, embroidered in gold with the name of the wearer's Temple and bearing the order's jewel. The jewel is precise in its symbolism and in its material: a **crescent**, originally made from the claws of a Bengal tiger set in gold, from which hangs a **five-pointed star**; at the top of the crescent a **sphinx head**, at the bottom an urn or a scimitar; and the motto **Robur et Furor** — Strength and Fury. The scimitar's blade supports the crescent, and the sphinx and star complete the deliberately incoherent mixture of Egypt, Arabia and heraldry. The fez is worn at every ceremonial, parade and hospital visit, and is by far the most recognisable piece of fraternal headgear in the world.`,
+            The_Ceremonial: `
+            Candidates are 'Novices' and the initiation is a comic ordeal staged in the Temple. The nineteenth- and early twentieth-century form: novices barefoot and blindfolded, made to cross the burning sands of the desert — an electrified carpet wired to an induction coil — while brethren in Arab costume harangued them; to ride the mechanical camel or the bucking goat, wheeled contraptions built to throw a blindfolded rider; to drink from a fountain that sprayed them; and to submit to an assortment of trick guillotines, branding irons that applied ice, and spanking machines, most of it purchased from the DeMoulin Brothers catalogue in Greenville, Illinois.
+
+            The historic obligation was sworn on the Koran, invoked Allah as the God of the fathers, and carried a penalty of characteristic Shrine extravagance: that the candidate's eyeballs be pierced to the centre with a three-edged blade, his feet flayed, and that he be made to walk the hot sands upon the sterile shores of the Red Sea until the flaming sun should strike him with a livid plague. Modern ceremonials have removed the religious language and most of the machinery, and now run closer to an elaborate roast.`,
+            The_Parade_Units: `
+            The Shrine's public face and its fundraising engine. Each Temple maintains uniformed units that compete and perform: **Oriental Bands** in full costume playing pseudo-Middle-Eastern music on shawms and drums; **Motor Corps** and the celebrated **miniature cars**, tiny go-karts driven in precision figures by grown men in fezzes; **Clown Units**, whose members maintain individual registered clown personas for decades; **Legions of Honor** for military veterans; horse patrols, drum corps, calliopes and pipe bands. The Shrine Circus, run by Temples as a fundraiser, was for much of the twentieth century the largest circus circuit in North America.`,
+            The_Temples: `
+            Local bodies were called Temples (renamed Shrine Centers in recent decades) and their buildings were the most flamboyant architecture American fraternalism ever produced: Moorish Revival piles with horseshoe arches, tilework, minarets and vast auditoria. Several are now landmark theatres — the Fox Theatre in Atlanta and the Landmark in Syracuse both began as Shrine temples, and Medinah Temple in Chicago and the Tripoli Shrine in Milwaukee remain among the finest examples of the style in the country.`,
         },
         Structure: {
-            Temples_and_Oases: "Local units styled as 'Temples', with officers as 'Potentates'.",
+            Nobles: "Members are addressed as 'Noble'. Admission requires membership in good standing in a Masonic lodge.",
+            Temple_Officers: "Each Temple is governed by an **Illustrious Potentate**, with Chief Rabban, Assistant Rabban, High Priest and Prophet, Oriental Guide, Treasurer, Recorder, Captain of the Guard and Outer Guard beneath him — titles assembled from Fleming's imaginary Arabia with no consistent linguistic logic whatever.",
+            Imperial_Council: "The governing body of the order, headed by the Imperial Potentate, meeting annually at the Imperial Session — an event whose parade is the largest single gathering of fezzes on earth.",
+            Shriners_Hospitals: "A separate corporation with its own board, funded by member assessment and public fundraising, providing care to children regardless of the family's ability to pay — historically without any bill being issued at all.",
         },
     },
 
@@ -933,42 +1810,101 @@ const dataSocieties = {
     },
 
     Order_of_the_Eastern_Star: {
-        Origins: "Mid-19th century America; founded by Rob Morris as a masonic-related order open to women.",
+        Origins: `
+        Devised by Rob Morris, a Kentucky lawyer, schoolmaster and Masonic poet, who in 1850 wrote the Rosary of the Eastern Star and in 1855 the Mosaic Book, setting out an 'Adoptive Rite' by which the female relatives of Master Masons could be given a degree system of their own. Morris's system was reorganised from 1866 by the New York Masonic publisher Robert Macoy into the chapter form used today, and a General Grand Chapter was constituted in 1876.
+
+        The problem it solved was practical and delicate. Masonry excluded women absolutely, yet a Mason's wife was expected to tolerate his absences, fund his regalia, and — if he died — apply to his lodge for relief. The Eastern Star gave her a set of signs and words by which she could identify herself to strange Masons as a woman entitled to their protection, and gave the lodge a socially acceptable way to include the household. It is today the largest fraternal body in the world open to both men and women, with membership running to the hundreds of thousands.`,
         Beliefs: {
-            Five_Heroines: "Virtues embodied by Adah, Ruth, Esther, Martha, and Electa.",
-            Star_of_Light: "A pentagram representing fidelity, constancy, honour, faith, and love.",
+            The_Five_Heroines: `
+            The Order's teaching is carried entirely by five biblical women, each fixed to a point of the star, a colour, an emblem, a flower and a specific virtue — and, crucially, to a specific relation a woman may stand in:
+            - **Adah** (blue; the sword and veil; the violet) — Jephthah's daughter, who held her father to the vow that condemned her. The **daughter**, teaching fidelity to a promise even at fatal cost.
+            - **Ruth** (yellow; the sheaf of barley; the yellow jessamine) — the Moabite widow gleaning in Boaz's field. The **widow**, teaching constancy and the dignity of self-support in poverty.
+            - **Esther** (white; the crown and sceptre; the white lily) — who went uninvited before the king to save her people. The **wife**, teaching loyalty to kindred at the risk of her life.
+            - **Martha** (green; the broken column; the fern) — at the tomb of Lazarus. The **sister**, teaching faith held through bereavement.
+            - **Electa** (red; the cup; the red rose) — the elect lady of the Second Epistle of John, traditionally identified as a woman martyred with her children. The **mother**, teaching endurance under persecution.
+            Read in order, the five constitute a complete life cycle of a woman's obligations as the nineteenth century understood them, which is precisely the Order's design.`,
+            The_Star_of_Bethlehem: `
+            The emblem is a five-pointed star with one point downward — deliberately, and not as any inversion of a Masonic symbol: the point descends toward the earth as the Star of Bethlehem descended and stood over the manger. The Order takes its whole identity from the star seen in the east by wise men, and the ritual's governing image is of following a light one did not create toward a destination one cannot yet see.`,
+            F_A_T_A_L: `
+            The Order's cabalistic word, taught to every initiate, is F.A.T.A.L. — an acronym drawn from the Song of Songs: Fairest Among Thousands, Altogether Lovely. It is deliberately alarming in appearance and entirely devotional in content, and the double-take it produces is part of the pedagogy: the initiate is shown that what looks sinister from outside a ritual system is generally scripture from inside it.`,
         },
         Practices: {
-            Star_Point_Degrees:
-                "Five dramatic lectures delivered at the points of a star-shaped altar.  Each point corresponds to a heroine, color, and symbol: Adah (Blue/Sword/Veil), Ruth (Yellow/Sheaf), Esther (White/Crown/Scepter), Martha (Green/Broken Column), and Electa (Red/Cup).",
-            Floral_Emblems:
-                "Flowers are used as moral symbols during the lectures: the violet for fidelity (Adah), yellow jessamine for constancy (Ruth), white lily for purity (Esther), fern for immortality (Martha), and red rose for fervency (Electa).",
+            The_Labyrinth: `
+            The Order's distinctive floor work. The star is laid out on the chapter room floor, and the candidate is conducted by the Conductress along its lines — a serpentine circuit that traces the pentagram without lifting the foot from the figure — halting at each of the five points in turn. At each point the Star Point officer who holds that station rises in her coloured gown, presents the emblem, and delivers the lecture of her heroine. The candidate walks the whole star before she is obligated: she has physically traced the shape of the Order's teaching with her own body.`,
+            The_Obligation: `
+            Taken at the altar in the centre of the star, kneeling, on an open Bible, with the Worthy Matron presiding from the east. The candidate swears secrecy and undertakes the Order's charge — to aid, protect and defend a worthy sister, and to give relief to a Master Mason's female relative in distress. She then receives the signs, the grip, the passwords, and the salutation of the Order.`,
+            The_Signs_of_Recognition: `
+            The practical purpose of the whole system. Each of the five points has its own sign, made with the hands and arms in imitation of its emblem; there is a general sign of the Order and a set of words. A woman travelling alone in the nineteenth century, arriving in a strange town and needing help, could make herself known by these to any Mason or Star member, and the obligation on the other side was real and enforceable by the chapter.`,
+            The_Floral_Lectures: `
+            Each heroine carries a flower as well as an emblem — violet for Adah's fidelity, yellow jessamine for Ruth's constancy, white lily for Esther's purity, fern for Martha's immortality, red rose for Electa's fervency — and the flowers are physically present on the star points at initiations and above all at funerals, where the chapter's memorial service is built around the placing of the five flowers.`,
+            Installation_and_the_Chapter_Year: `
+            Offices are held for a single year and installations are the Order's great public ceremonies: the incoming Worthy Matron is installed in an elaborate open ceremony to which family and friends are invited, chooses the chapter's theme, colours and flower for her year, and is presented with a gavel and jewel. The annual turnover means that a long-serving member will have passed through every station in the star, and a Past Matron's jewel records it.`,
         },
         Structure: {
-            Chapters: "Presided over by a Worthy Matron (female) and Worthy Patron (male).",
+            Eligibility: "Master Masons in good standing, and women related to a Master Mason in one of the defined degrees — wife, widow, mother, daughter, sister, granddaughter, stepmother, stepdaughter, stepsister, niece, daughter-in-law and several others enumerated exactly in the constitution.",
+            Chapter_Officers: `
+            The **Worthy Matron** presides from the east and is the chapter's head; the **Worthy Patron**, who must be a Master Mason, sits beside her and confers the degree's Masonic elements. Beneath them: Associate Matron, Associate Patron, Secretary, Treasurer, Conductress, Associate Conductress, Chaplain, Marshal, Organist, the five Star Point officers (Adah, Ruth, Esther, Martha, Electa) in their coloured gowns, Warder and Sentinel. The Sentinel, armed and outside the door, is the only station always held by a man.`,
+            Governance: "Local Chapters under Grand Chapters of each state or jurisdiction, under the General Grand Chapter. Charitable work centres on scholarship funds (notably for religious and medical training), homes for aged members, and disaster relief.",
         },
     },
 
     Church_of_Satan: {
-        Origins: "Founded 1966 by Anton LaVey in San Francisco. Represents the 'Immanent Branch' of the Left-Hand Path.",
+        Origins: `
+        Founded on Walpurgisnacht — the night of 30 April 1966 — by Anton Szandor LaVey (born Howard Stanton Levey) at his house at 6114 California Street, San Francisco, which he had painted entirely black and which became known as the Black House. LaVey dated the calendar from that night: 1966 was Anno Satanas I.
+
+        His biography, as he told it, involved a carnival organ, a police photographer's job, and an affair with Marilyn Monroe; most of it was embroidered and some invented, and this matters less than it appears, because showmanship was the doctrine and not merely the packaging. The Church's canonical texts are The Satanic Bible (1969), The Satanic Rituals (1972), The Compleat Witch (1971, reissued as The Satanic Witch) and The Devil's Notebook (1992).
+
+        Its sources are traceable and unhidden: Nietzsche, Ayn Rand, Ragnar Redbeard's Might Is Right (from which the Book of Satan section of The Satanic Bible is lifted nearly verbatim), John Dee's Enochian Keys (rewritten with the angelic content replaced by Satanic content), and the aesthetics of the carnival midway. It has been fairly described as Objectivism with ceremony, and its adherents do not much dispute the description.`,
         Beliefs: {
-            Carnal_Ego: "The 'God' of the Satanist is the carnal ego. Man is defined as 'just another animal' (albeit a dangerous one).",
-            Indulgence:
-                "Advocates indulgence in natural desires (lust, greed, pride) rather than abstinence. Rejects spiritual 'pipe dreams'.",
-            Vital_Existence: "Focus on thriving in the here-and-now; material success and personal power are spiritual validations.",
-            Immanent_Approach:
-                "The church of Satan exemplifies the 'Immanent Branch' of the Left-Hand Path (as opposed to the Transcendental Branch, exemplified by the Temple of Set), which proceeds from an objectivistic and materialistic outlook, focusing on the 'carnal ego' within the objective, mundane universe. It emphasizes antinomianism (breaking social norms) and uses magic primarily as a method to influence the objective world through emotional force and imagery rather than spiritual idealism.",
+            Satan_Is_Not_Real: `
+            The foundational and most consistently misunderstood point. The Church of Satan is **atheistic**. There is no Devil, no God, no afterlife, no soul that survives death, and no supernatural being of any kind. Satan is a symbol — of pride, of carnality, of the adversary who refuses to kneel, of the accuser who asks awkward questions — and members who believe in a literal Satan are regarded within the Church as having misread the book. This is why the Church spent the 1980s as the most vocal opponent of the Satanic Panic: it was accused of literal devil-worship by people who could not accept that the world's most famous Satanists were materialists.`,
+            The_Carnal_Ego: `
+            Humanity is an animal — sometimes the most vicious animal of all — and the pretence otherwise is the source of most human misery. The self is the only god available. The Nine Satanic Statements that open The Satanic Bible invert the Christian scheme item by item: indulgence instead of abstinence; vital existence instead of spiritual pipe dreams; undefiled wisdom instead of hypocritical self-deceit; kindness only to those who deserve it instead of love wasted on ingrates; vengeance instead of turning the other cheek.`,
+            Lex_Talionis: `
+            The ethical core, and the point at which LaVey departs from mere hedonism. Do unto others as they do unto you: return kindness with kindness and injury with injury, in full measure and without the Christian obligation to forgive. The Eleven Satanic Rules of the Earth qualify this with a code of conduct that is startlingly courteous — do not give opinions or advice unless asked, do not complain about what you are not obliged to endure, do not harm little children, do not kill non-human animals except in self-defence or for food, and if a guest in your lair annoys you, treat him cruelly and without mercy.`,
+            The_Nine_Satanic_Sins: `
+            LaVey's late list of the offences that actually matter, and the best short statement of the Church's real values: stupidity; pretentiousness; solipsism; self-deceit; herd conformity; lack of perspective; forgetfulness of past orthodoxies; counterproductive pride; and lack of aesthetics. Note that nothing on the list is a vice in the traditional sense. Every one is a failure of intelligence or taste.`,
+            The_Immanent_Left_Hand_Path: `
+            The Church exemplifies the **immanent** branch of the Left-Hand Path, against the **transcendental** branch represented by its own schismatic offspring the Temple of Set. It proceeds from a materialist and objectivist premise: there is one universe, it is the physical one, the ego is located in a body, and magic is a technique for moving things inside that universe by emotional and psychological force. Michael Aquino's 1975 schism turned on exactly this — Aquino wanted Set to be real, and LaVey did not.`,
         },
         Practices: {
-            Lesser_Magic:
-                "Manipulative magic (glamour/fascination) using psychology, appearance, and scent to influence others in the objective universe.",
-            Greater_Magic:
-                "Ritual magic performed in a psychodramatic setting to release emotional energy (lust, compassion, destruction) and effect change.",
-            Erotic_Crystallization_Inertia:
-                "Technique of re-stimulating past moments of peak sexual/emotional intensity (ECI) to regain vitality and youth.",
+            Lesser_Magic: `
+            Manipulation of people and situations by applied psychology, and by LaVey's account the more useful of the two magics. Its instruments are appearance, timing, scent, colour, body language, command of attention, and the deliberate deployment of one's own physical type. The Compleat Witch is essentially a field manual of it, including the 'Law of the Forbidden' (desire increases with prohibition), the classification of body types and their corresponding attractions, and the use of the 'Erotic Crystallization Inertia' — the identification and re-stimulation of the moment of peak erotic imprinting in one's own past, on the theory that a person's real sexual template was fixed at a specific moment and can be reactivated to restore vitality.`,
+            Greater_Magic_The_Three_Rituals: `
+            Ceremonial working, understood as **intentional psychodrama**: a deliberately theatrical environment used to bring emotion to an unbearable pitch and then discharge it. There are exactly three kinds, because in LaVey's view there are only three emotions strong enough to power a ritual.
+            - **The Lust ritual** — to obtain a specific desired person, driven by sexual desire raised to obsession.
+            - **The Compassion ritual** — to help, heal or benefit oneself or another, driven by sentiment and tenderness.
+            - **The Destruction ritual** — to annihilate an enemy, driven by hate, anger and disgust. LaVey's counsel here is characteristic and worth quoting in substance: the ritual should be performed against an enemy who genuinely deserves it, because the operator's own guilt will otherwise contaminate the working.`,
+            The_Ritual_Chamber: `
+            A dedicated room, ideally with no natural light and no clocks, walls in black or a deep colour, and no distractions.
+            - Above the altar hangs the **Sigil of Baphomet**: a goat's head set inside an inverted pentagram, with the Hebrew letters of Leviathan — Lamed, Vav, Yod, Tav, Nun — placed anticlockwise at the five points.
+            - The **altar** is, in the full form LaVey specified, a nude woman lying supine, on the reasoning that the altar of a carnal religion should be the living flesh it venerates. Where a woman is not used, a plain rectangular surface serves.
+            - **Candles**: black, for the powers of darkness, with a single white candle used for the working directed against an enemy.
+            - **Costume**: black robes and cowls for participants; the celebrant may be robed differently and may wear a horned headdress. Women may wear suggestive dress or none. Amulets bearing the Baphomet or the pentagram are worn by all.`,
+            The_Ritual_Instruments: `
+            - **The sword** — carried by the celebrant, used to point and command; where no sword is available, the finger substitutes.
+            - **The chalice** — never gold, since gold is the metal of the opposing tradition; silver or glass, containing the elixir, which need not be wine and should be a drink the participants actually enjoy.
+            - **The phallus** — a carved phallus used to asperse the chamber, sprinkling the elixir to the four quarters.
+            - **The bell** — rung **nine times**, the celebrant turning anticlockwise, to open the ritual and clear the air, and nine times again at the close to seal it.
+            - **The gong** — struck at the climax of the working.
+            - **The parchment** — the request is written out by hand, read aloud in the ritual, and then burned in the flame of a candle so that the desire leaves the physical world.`,
+            The_Order_of_the_Rite: `
+            The sequence set out in The Satanic Bible, performable as written:
+            1. The bell is rung nine times, anticlockwise.
+            2. The celebrant faces the altar, raises the sword, and delivers the **Invocation to Satan**, opening with *In nomine Dei nostri Satanas Luciferi excelsi*, and calls the four Crown Princes of Hell at their quarters: **Satan** in the South with fire, **Lucifer** in the East with air, **Belial** in the North with earth, **Leviathan** in the West with water.
+            3. The elixir is drunk from the chalice.
+            4. The **Infernal Names** are recited aloud, one after another — Abaddon, Adramelech, Asmodeus, Astaroth, Azazel, Baalberith, Baphomet, Bast, Beelzebub, Behemoth, Coyote, Dagon, Demogorgon, Emma-O, Hecate, Ishtar, Kali, Loki, Mammon, Mephistopheles, Midgard, Moloch, Mormo, Pan, Pluto, Sekhmet, Set, Shiva, Thoth, Tezcatlipoca, Typhon and some seventy others, drawn indiscriminately from every mythology available. The indiscriminacy is the point: the list asserts that every adversary figure in every culture is the same symbol.
+            5. The written request is read and burned.
+            6. The appropriate **Enochian Key** is intoned, first in the Enochian and then in English — Dee and Kelley's sixteenth-century angelic conjurations, with LaVey's rewritten translations turning the original's celestial content inside out. Each Key ends with the cry **Shemhamforash!** and **Hail Satan!**
+            7. The working is closed with the declaration that it is done, and the bell.`,
+            The_Public_Stunts: `
+            The Church's early fame was built on ceremonies staged explicitly for the press, and LaVey was entirely open about the purpose. The 1967 Satanic wedding of Judith Case and John Raymond, with the bride veiled in scarlet; the Satanic baptism of LaVey's three-year-old daughter Zeena the same year; and the Satanic funeral, with full military honours, for a US Navy sailor at Colma. Each generated national coverage and each was designed to. The Church's position has always been that a religion of the carnal ego which was not also spectacular would be a contradiction in terms.`,
         },
         Structure: {
-            Degrees: "Five degrees: I° (Satanist), II° (Warlock/Witch), III° (Priest/Priestess), IV° (Magister/Magistra), V° (Magus).",
+            Degrees: "Five: **I° Satanist** (registered and active member), **II° Witch or Warlock**, **III° Priest or Priestess** (the first degree of the priesthood, conferred on the basis of demonstrated achievement in the world), **IV° Magister or Magistra Templi**, **V° Magus or Maga**. Degrees above the first cannot be applied for; they are conferred by the administration on the basis of what a member has actually accomplished outside the Church.",
+            The_Council_of_Nine: "The Church's governing body, appointed rather than elected, advising the High Priest.",
+            Grottos: "Local groups, chartered in the early years, abolished by LaVey in 1975 on the grounds that they were attracting joiners rather than achievers, and reinstituted later in a much more restricted form. The Church has consistently maintained that Satanism is an individualist religion and that its ideal member is a working adult who never attends a meeting.",
+            Succession: "LaVey died in 1997; Blanche Barton succeeded him as High Priestess, and Peter H. Gilmore has been High Priest since 2001, with the Church administered from New York. It is legally and doctrinally distinct from The Satanic Temple, founded in 2013, with which it has no connection and toward which it is publicly contemptuous.",
         },
     },
 
@@ -1013,6 +1949,11 @@ const dataSocieties = {
                 "If an intruder is caught, they are stripped and forced to remove their mask. A woman may step forward to 'redeem' him, accepting his punishment (implied death or sacrifice) so he may go free, sealing the pact of silence.",
             The_Magic_Circle:
                 "The ritual circle of women is an explicit invocation of the Rings of Saturn. The 'Red Cloak' sits in the center as the planetary body (Saturn/Cronus), and the women revolve around him as his satellites. The music (Jocelyn Pook's Masked Ball) features a liturgy played backward, signifying the reversal of time—a nod to Saturn's role as 'Father Time' who devours his children to prevent the future from overtaking the past.",
+            The_Venetian_Hierarchy: `
+            The masks are not random; they codify the wearer's role in the orgy.
+            - **The Bauta:** The standard white mask with a projecting chin (allowing the wearer to drink without removal). It represents the 'Standardized Patrician'—total anonymity and equality of the guests.
+            - **The Plague Doctor (Medico della Peste):** The long-beaked mask. Often worn by the 'Guardians' or enforcers of the house, symbolizing their role in 'cleansing' the space of intruders.
+            - **The Volto:** The full-face white mask, often worn by the women, rendering them doll-like and stripping them of individual personality to become pure vessels of desire.`,
         },
         Structure: {
             Hierophant: "The 'Red Cloak,' a master of ceremonies who sits on a throne featuring the double-headed eagle.",
@@ -1155,22 +2096,81 @@ const dataSocieties = {
     },
 
     Wicca: {
-        Origins:
-            "Emerging in the mid-20th century, popularized by Gerald Gardner in works like 'Witchcraft Today' (1954). Gardner claimed initiation into a surviving New Forest coven, but likely invented the religion himself.",
+        Origins: `
+        Announced to the public by Gerald Brosseau Gardner (1884-1964), a retired British colonial customs officer, rubber planter, amateur archaeologist and enthusiastic naturist, in the novel High Magic's Aid (1949) and then openly in Witchcraft Today (1954), once the Witchcraft Act was repealed in 1951. Gardner claimed to have been initiated in 1939 into a surviving coven in the New Forest by a woman he called Old Dorothy.
+
+        Ronald Hutton's Triumph of the Moon (1999) established the scholarly consensus: Wicca is a genuine new religion assembled in the 1940s and 1950s from identifiable materials — the ritual grammar of the Hermetic Order of the Golden Dawn, substantial verbatim borrowings from Aleister Crowley (Gardner met Crowley in 1947 and bought an O.T.O. charter from him), Margaret Murray's now-discredited thesis of a surviving pagan witch-cult, Masonic degree structure and oath forms (Gardner was a Mason and a Co-Mason), Charles Godfrey Leland's Aradia, Kipling, English folklore, and Gardner's own naturism. Its debt to real early-modern witchcraft is close to nil. It is nonetheless the most successful new religion the twentieth century produced in the English-speaking world.
+
+        The rituals below are documented in full because Doreen Valiente — Gardner's High Priestess from 1953, and the person who rewrote most of his liturgy into the poetry people actually remember — and later Janet and Stewart Farrar published them, over the strenuous objection of much of the initiatory community.`,
         Beliefs: {
-            Duality: "Veneration of a Moon Goddess and a Horned God, representing the polarity of nature.",
-            The_Wheel_of_the_Year:
-                "Celebration of eight seasonal sabbats: Samhain, Yule, Imbolc, Ostara, Beltane, Litha, Lammas, and Mabon.",
+            The_Goddess_and_the_God: `
+            A duotheism of complementary polarity. The **Goddess** is the moon, the sea, the earth and the mother, in three faces — Maiden, Mother and Crone — tracking the waxing, full and waning moon and the three stages of a woman's life. The **God** is the sun, the wild wood and the hunt: the Horned God, Lord of the greenwood and of death and what lies beyond it. He is born of the Goddess, becomes her lover, dies with the harvest and is reborn at midwinter; she is constant and he is cyclical. This asymmetry is deliberate and structural, and it is why the High Priestess outranks the High Priest.`,
+            The_Wheel_of_the_Year: `
+            Eight sabbats, alternating between the four Celtic fire festivals (the Greater Sabbats) and the four solar quarters (the Lesser Sabbats), each one a scene in the God's life:
+            - **Samhain** (31 Oct) — the God dies; the veil thins; the ancestors are honoured and the dead named aloud.
+            - **Yule** (winter solstice) — the God is reborn as the returning sun; the Oak King defeats the Holly King.
+            - **Imbolc** (2 Feb) — the first stirring; Brigid; the Goddess as Maiden; candles.
+            - **Ostara** (spring equinox) — balance and quickening.
+            - **Beltane** (30 Apr-1 May) — the God and Goddess couple; the maypole; the bonfire; the most erotic sabbat of the eight.
+            - **Litha** (summer solstice) — the God at his height and therefore beginning to die.
+            - **Lughnasadh / Lammas** (1 Aug) — the first harvest; the grain god cut down.
+            - **Mabon** (autumn equinox) — the second harvest; the descent.
+            The names Ostara and Mabon are not ancient: they were supplied by Aidan Kelly in 1974 to fill gaps in the calendar, and the whole eight-fold wheel is a mid-twentieth-century construction from two separate festival cycles.`,
+            The_Wiccan_Rede: `
+            The religion's entire ethical code, in eight words of deliberately archaic English: an it harm none, do what ye will. 'An' is the old conditional 'if'. It is not a prohibition on action but a licence with a single condition attached, and it is descended, by way of Crowley's 'do what thou wilt shall be the whole of the Law', from Rabelais' abbey of Thélème. Its practical difficulty is universally acknowledged inside the tradition: almost nothing harms nobody, so the Rede functions as a demand for continuous personal calculation rather than a rulebook.`,
+            The_Threefold_Law: `
+            Whatever a witch sends out returns to her three times over. This is not karma and is not a moral law imposed by a deity; it is presented as a mechanical property of the medium in which magic operates, and it is the practical restraint on cursing. Not all traditions accept it — many working witches regard it as Gardner's invention and consider binding and cursing legitimate — but it is the most widely taught doctrine in the religion.`,
+            Immanence: `
+            The divine is in the world, not above it; the body is not fallen, sexuality is sacred rather than tolerated, and there is no doctrine of sin. The Charge of the Goddess, the tradition's central devotional text in Valiente's verse, makes the two claims on which the whole religion rests: that acts of love and pleasure are themselves the Goddess's rituals, and that what the seeker cannot find within herself she will never find outside herself.`,
         },
         Practices: {
-            Drawing_Down_the_Moon:
-                "A central rite where the High Priest invokes the spirit of the Goddess into the High Priestess, who then speaks and acts as the deity incarnate.",
-            The_Great_Rite:
-                "A ritual symbolizing the sexual union of the Goddess and God. It is performed either 'in token' (plunging a knife into a chalice) or 'in true' (actual sexual intercourse) to raise magical power.",
+            Casting_the_Circle: `
+            No Wiccan rite happens outside a circle, and casting it is the first act of every meeting.
+            - The ground is swept with a besom to clear it psychically, and the boundary marked — traditionally nine feet in diameter.
+            - The High Priestess walks the boundary **deosil** (sunwise, clockwise) with the **athame** held out, visualising a blue flame running from its point, and declares the circle a boundary between the worlds.
+            - Water and salt are consecrated separately and mixed, and the circle is sprinkled; then it is censed with incense, and passed with a candle: earth, water, fire and air have all touched the boundary.
+            - The four quarters are called with **invoking pentagrams** traced in the air at each: East for Air, South for Fire, West for Water, North for Earth, summoning the Guardians of the Watchtowers — an import straight from the Golden Dawn, which took it from John Dee.
+            - The circle is now sealed. A latecomer cannot simply walk in: a doorway must be **cut** in the boundary with the athame and sealed again behind them. At the close, the quarters are dismissed with banishing pentagrams and the circle taken up widdershins.`,
+            The_Working_Tools: `
+            Eight tools, each consecrated at initiation, in most traditions made or at least finished by the witch's own hand:
+            - **The athame** — a black-hilted, double-edged knife, the witch's primary tool and an extension of her will. It commands, directs and cuts nothing physical. Ever.
+            - **The white-hilted knife (boline)** — the practical blade, for cutting herbs and inscribing candles and talismans within the circle.
+            - **The wand** — for invoking where the athame would be too commanding.
+            - **The cup or chalice** — the Goddess; holds the wine.
+            - **The pentacle** — a disc, usually of metal or wood, engraved with the pentagram and other sigils, on which cakes are consecrated.
+            - **The censer** — air and fire.
+            - **The scourge** — a light flail of soft cords, used for the ritual purification and 'the ordeal', and central to first- and second-degree initiation. It is designed to be symbolic and rhythmic rather than painful.
+            - **The cords** — red, white and blue, used for binding in initiation, for taking the **measure**, and for cord magic.
+            Plus the coven's **sword**, which belongs to the coven rather than to any individual.`,
+            Skyclad: `
+            Gardnerian and Alexandrian covens work **skyclad** — naked. Two reasons are given and both are believed. The magical one is that power is held in by clothing and released by the bare body, and that the 'measure' by which a witch is known must be of the true body. The social one is more persuasive: a circle in which a barrister, a bus driver and a student are all naked has no visible class markers in it. Many later traditions robe instead, and the question of skyclad working is one of the sharpest dividing lines in the modern craft.`,
+            Drawing_Down_the_Moon: `
+            The central rite of the esbat and the moment Wicca is doing something no other Western tradition does — placing a woman at the centre of the circle and having a deity speak through her mouth.
+            - The High Priestess stands before the altar in the **Goddess position**: feet apart, arms crossed over the breast holding athame and scourge, in the posture of an Egyptian mummy.
+            - The High Priest kneels before her and gives the **Fivefold Kiss** — feet, knees, womb, breasts and lips, each with its own blessing, beginning with the blessing of the feet that have brought her in these ways and ending at the lips with the pentagram completed. She then stands in the **pentagram position**, feet apart and arms outstretched.
+            - He invokes the Goddess into her by name, and she is understood to be present in the body of the priestess for the remainder of the rite.
+            - She then delivers **the Charge of the Goddess**, either from memory or extempore. Everything said afterwards by the High Priestess is the Goddess's, and the coven treats it as such.
+            The mirror rite, **Drawing Down the Sun**, invokes the God into the High Priest and is performed far less often.`,
+            The_Cone_of_Power: `
+            The coven's method of raising and directing energy. The members join hands and dance ring-wise around the circle, deosil, chanting — traditionally the Witches' Rune — and accelerating steadily until the pace is barely sustainable. The energy is visualised as a cone rising from the circle to a point above the coven. At the High Priestess's cry it is released toward the object of the working, and the coven drops flat to the ground to earth what remains. Gardner claimed his New Forest coven raised such a cone against Hitler in 1940 to prevent an invasion, and that several of the elderly participants died of the effort — a story with no evidence and enormous influence.`,
+            The_Great_Rite: `
+            The symbolic union of Goddess and God, performed at the great sabbats and as the third-degree initiation.
+            - **In token**, and this is the usual form: the High Priestess holds the chalice of wine; the High Priest kneels and slowly lowers the point of his athame into it while the blessing is spoken over the joining of the male blade and the female cup. The wine is then shared around the circle.
+            - **In true**: actual intercourse between High Priest and High Priestess. Where this is done, the coven's own law requires the couple be lovers or married in ordinary life, and the coven leaves the room — the rite is completed with the two alone inside the cast circle.
+            The rite is followed by **cakes and wine**: crescent-shaped cakes consecrated on the pentacle, and the cup passed with the greeting 'blessed be'.`,
+            Initiation_and_the_Three_Degrees: `
+            - **First Degree — Witch.** The candidate is prepared outside the circle: skyclad, blindfolded, and bound with the cords — wrists behind the back, a cable-tow at the neck, ankles hobbled. The **measure** is taken with a cord cut to her exact height and knotted at the head, the heart and the genitals; in Gardner's original working this cord was retained by the coven as a hostage against betrayal, and returning or burning a departing member's measure remains a significant act. She is brought to the boundary and challenged there with the point of the sword at her breast, and told in so many words that it would be better to throw herself on the blade than to enter the circle with fear in her heart. She gives the password, is admitted with a kiss, is purified with the scourge in the prescribed count — three, seven, nine and twenty-one strokes, forty in all — takes the oath, is anointed, is presented with the working tools one by one, and is given her **witch name**, by which the coven will know her.
+            - **Second Degree — Priestess and Witch Queen.** The initiate enacts the **Legend of the Descent of the Goddess**: the Goddess goes down into the underworld to learn the mystery of death, is stripped and bound at each gate as Inanna was, and is scourged by the Lord of Death, who loves her and cannot have her until she consents to receive his scourge; from their meeting comes the doctrine that death and rebirth are one. The initiate plays the Goddess, is bound and scourged in the drama, and is then required to **return the scourging threefold** upon her initiator — a deliberate lesson in the Threefold Law delivered with a flail in her own hand. She receives the names and powers of the tools and the authority to work alone.
+            - **Third Degree — High Priestess or High Priest.** The Great Rite, in token or in true, conferring the authority to hive off and found a coven.
+            The invariable rule of the lineage: a man must be initiated by a woman and a woman by a man — except that a mother may initiate her daughter and a father his son.`,
+            The_Book_of_Shadows: `
+            The coven's ritual book, and a genuine chain of transmission. Traditionally it is not printed, published, photocopied or typed: each initiate copies the whole book **by hand** from her initiator's copy, and the labour of the copying is understood to be part of the transmission. Gardner's original text was heavily rewritten by Doreen Valiente from 1953, chiefly to strip out the passages lifted verbatim from Crowley, which she recognised at once and objected to; her replacements — the Charge of the Goddess in its familiar form, the Witches' Rune — are what most Wiccans now recite. Traditions differ over how much of the book may be shown to the uninitiated, and the Farrars' publication of the complete Gardnerian rituals in the 1980s caused a schism whose aftershocks are still audible.`,
         },
         Structure: {
-            Coven: "Traditionally organised in independent cells of up to 13 members, led by a High Priestess and High Priest.",
-            Degrees: "A three-degree initiatory system marking the practitioner's proficiency and spiritual progression.",
+            The_Coven: "A working group of up to thirteen, ideally in 'perfect couples', meeting at a covenstead. Covens are autonomous: there is no church, no synod, no central authority and no means of excommunication beyond a coven's own door.",
+            The_Priestess_and_the_Priest: "A High Priestess leads, with a High Priest as her partner. The Goddess outranks the God in the theology and the priestess outranks the priest in the circle — an inversion of the surrounding religious culture that was Wicca's most radical feature in 1954 and remains a defining one.",
+            Hiving: "When a coven exceeds thirteen or a second-degree initiate is ready, it 'hives': the new High Priestess takes members and founds an independent coven, remaining in courtesy relation to her mother coven. Lineage — the chain of who initiated whom back to Gardner — is the only credential the initiatory traditions recognise.",
+            Traditions: "**Gardnerian** (Gardner's own lineage, initiatory, oathbound, skyclad); **Alexandrian** (Alex and Maxine Sanders, 1960s, with much heavier ceremonial-magical content); and a very large field of eclectic and solitary Wicca descended from published books rather than initiation — which is now, by a wide margin, the majority of practitioners.",
         },
     },
 
@@ -1347,63 +2347,120 @@ const dataSocieties = {
 
     Order_of_the_Solar_Temple: {
         Origins:
-            "Rooted in the 1952 foundation by Jacques Breyer (OSTS); radicalized in 1984 Geneva by Joseph Di Mambro and Luc Jouret (OTS).",
+            "Rooted in the 1952 foundation by Jacques Breyer (OSTS); radicalized in 1984 Geneva by Joseph Di Mambro and Luc Jouret (OTS). It represents the 'terminal phase' of the Templar revival, shifting from political influence to a suicide-transit ideology.",
         Beliefs: {
-            Transit_to_Sirius:
-                "Members believed a ritualized death (by fire) was necessary to transport their souls to the star Sirius to escape an environmental apocalypse on Earth.",
-            Arginy_Renaissance:
-                "Based on Breyer's mystical contact with 'Masters of the Temple' at Arginy Castle, blending Masonic-style investitures with mediumship.",
-            Synarchy: "Belief in rule by a secret elite or 'Hidden Masters' who guide the destiny of the world.",
+            Transit_to_Sirius: `
+            The core eschatology. Earth was viewed as an 'entartrated' (corrupted) planet doomed by environmental decay and the 'feces of the masses'. 
+            - **The Escape:** Fire was not seen as a tool of death, but as a 'Sonic and Energetic Accelerator'. By burning the physical body in a specific ritual state, the soul's frequency would be 'pitched' upward, allowing it to bypass the Archons and reach the star-system of Sirius.
+            - **The Solar Body:** The goal was the 'Resurrection of the Solar Body'—a permanent, indestructible light-vessel that would rule the universe alongside the Ascended Masters.`,
+            The_Christ_Avatar:
+                "Di Mambro believed his daughter, Emmanuelle ('The Cosmic Child'), was the product of a 'Theogamic' (divine) conception and would lead the Order in the new world.",
+            Synarchy:
+                "The conviction that the world's governments are mere puppets of a secret 'Synarchic' elite, and that the OTS was the chosen vehicle to replace them after the 'Great Purge'.",
         },
         Practices: {
-            Technological_Illusion:
-                "Sanctuary rituals used holographic projections of 'Ascended Masters', pulsating lights, and electronically rigged swords to impress initiates with 'miracles'.",
-            The_Transit:
-                "The final exit rituals involved members dressed in white, red, or gold ceremonial robes (denoting rank) arranged in star formations. Incendiary devices triggered by timers consumed the bodies in fire.",
-            Foundational_Seances: "Early rituals involved channeling sessions where the 'Masters' dictated the future of the order.",
+            The_Sanctuary_Miracles: `
+            OTS sanctuaries (often in basements of villas in Switzerland or Quebec) were high-tech theaters of the soul. 
+            - **Holographic Epiphany:** Di Mambro utilized sophisticated 'Pepper's Ghost' mirror illusions and slide projectors to make 'Masters of the Temple' (clad in white robes) appear to float in mid-air. 
+            - **The Electronic Sword:** Ritual swords were rigged with concealed batteries and light-bulbs; when the Master touched a candidate, the blade would 'glow' or emit a high-pitched hum, simulating a supernatural 'energy transmission'.
+            - **Sonic Driving:** Rhythmical, pulsing Wagnerian music was played at high volumes to induce a state of 'sensory overload' and suggestibility.`,
+            The_Transit_Protocol: `
+            The final exit (October 1994, December 1995, March 1997). 
+            - **The Arrangement:** Bodies were found in circular or star-shaped formations (The 'Rose-Cross' layout). In the Morin Heights transit, the bodies were arranged with their heads pointing toward a central point, symbolizing the 'unification of the seed'.
+            - **The Plastic Bags:** Some members had plastic bags placed over their heads after being shot or drugged—this was not just for murder, but a ritual 'Seal of the Breath' to prevent the soul from leaking out through the mouth during the fire.
+            - **The Incendiary Devices:** Sophisticated systems of mirrors, timed heaters, and gasoline containers were used to ensure the fire consumed the 'Vessels' simultaneously, preventing any soul from being left behind.`,
+            Ritual_of_the_Agape:
+                "Communal meals where members ate only 'High Vibration' foods (brown rice and raw vegetables), often in total silence, while listening to tape-recorded lectures by Luc Jouret on the 'End of the Age'.",
         },
         Structure: {
-            Charismatic_Radial: "Totalitarian authority flowing from a central leader (Di Mambro).",
-            The_Synarchy:
-                "A secret inner leadership group. The OSTS served as a legal funnel for member wealth and money laundering to support the core cult.",
+            The_Golden_Circle:
+                "A secret inner leadership group (Jo Di Mambro, Luc Jouret, Dominique Bellaton) that managed the cult's massive financial portfolio and staged the 'miracles'.",
+            The_Triple_Hierarchy: `
+                1. **The Amants de Lumière (Lovers of Light):** The outer circle, mostly wealthy professionals who provided funding.
+                2. **The Knights of the Rose-Cross:** The intermediate level, initiated into the 'Miracle Rites'.
+                3. **The Synarchic Council:** The inner circle of 12 who prepared for the Transit.`,
+            Totalitarian_Bio_Control:
+                "Di Mambro dictated everything from his members' sexual partners to their professional career moves, framing his commands as 'Directives from the Masters'.",
         },
     },
 
     Renewed_Order_of_the_Temple_ORT: {
         Origins:
-            "Founded 1970 by Raymond Bernard (AMORC) and Julien Origas. It serves as the crucial link between neo-chivalry and the Solar Temple suicides.",
+            "Founded 1970 by Raymond Bernard (then Grand Master of AMORC France) and Julien Origas. It serves as the crucial link between traditional neo-chivalry and the radicalized Solar Temple. It was born from a legendary encounter in 1969 where Bernard claimed to have met a 'High Initiate' of the Templars in a hotel in Rome, who authorized the 'awakening' of the Order for the end of the 20th century.",
         Beliefs: {
             Neo_Nazi_Undertones:
-                "Origas was a former Gestapo collaborator; group mixed Rosicrucian structure with white supremacist/Gaullist undertones.",
-            Solar_Chivalry:
-                "The belief that the Templars were not merely Catholic knights, but custodians of a primordial 'Solar Tradition' (dating back to Atlantis) that supersedes the Church. They viewed the Order as a vessel for the 'ray of the Grail'.",
+                "Julien Origas was a former Gestapo collaborator and member of the SS; the group integrated Rosicrucian hierarchy with a 'Völkisch' obsession with blood purity and the destiny of the white race as the 'Solar Seed'.",
+            Solar_Chivalry: `
+            The belief that the historical Templars were merely the outer shell for a primordial 'Solar Tradition' dating back to Atlantis and Hyperborea. 
+            - **The Ray of the Grail:** They believed the Holy Grail was not a cup, but a specific frequency of light—the 'Green Ray'—that could only be captured by an elite knighthood. 
+            - **The Egregore:** The Order aimed to create a 'Psychic Battery' (Egregore) fueled by the collective meditation of its members, which would eventually allow them to influence global politics through 'Synarchy' (rule by secret initiates).`,
+            The_Templar_Return:
+                "Belief that the year 1994 (700 years after the death of Jacques de Molay) would trigger a cosmic shift requiring the Order to 'withdraw' from the physical plane to guide humanity from the astral level.",
         },
         Practices: {
-            Investiture:
-                "Heavy emphasis on chivalric investiture with white capes and red crosses. Altars were always oriented to face the rising sun to honor the 'Solar Tradition'.",
-            The_Solar_Mass:
-                "A ritual performed at high noon distinct from Catholic liturgy. It involved the consecration of the sun's rays using mirrors or crystals to direct light onto the altar, symbolizing the transmission of the 'Solar Logos' into the knighthood.",
+            Investiture: `
+            Ceremonies were held in high-end hotels or private estates, emphasizing 'Grandeur'. 
+            - **The Regalia:** Candidates wore heavy white polyester capes with a large red cross on the left breast. 
+            - **The Dubbing:** The Grand Master used a heavy, broad-bladed sword (the 'Sword of the Father') to strike the initiate's shoulders. The initiate was required to swear a 'Blood Oath' of absolute silence, under the penalty of 'the energetic dissolution of the soul'.`,
+            The_Solar_Mass: `
+            A ritual performed at high noon, designed to 'ground' the sun's power. 
+            - **The Apparatus:** Altars featured large crystals (Quartz or Amethyst) positioned to catch the direct rays of the sun. 
+            - **The Invocation:** While the sun struck the crystal, the Priest would vibrate the name 'AUM-RA', visualizing a golden light descending from the solar disc, through the crystal, and into the spinal columns of the knights. This was believed to 'recharge' the nervous system with 'Vril' energy.`,
+            Communication_with_the_Invisible_Masters:
+                "Seances where Origas would act as a 'Trumpet Medium', relaying commands from the 'Great White Lodge' in the Himalayas. These messages often dictated the financial investments of the Order's wealth.",
         },
         Structure: {
-            Grand_Master: "Originally led by Origas, later influenced Luc Jouret.",
+            Grand_Master:
+                "Julien Origas (the 'Absolute Sovereign'), whose death in 1983 triggered a power struggle eventually won by Jo Di Mambro and Luc Jouret.",
+            Hierarchy:
+                "Divided into 'Chevaliers' (Knights), 'Ecuyers' (Squires), and 'Novices'. The highest degree was the 'Knights of the Golden Stone'.",
         },
     },
 
     Heavens_Gate: {
-        Origins: "Founded by Marshall Applewhite ('Do') and Bonnie Nettles ('Ti') in the 1970s USA.",
+        Origins:
+            "Founded in the early 1970s by Marshall Applewhite ('Do') and Bonnie Nettles ('Ti'). They identified themselves as 'The Two' witnesses prophesied in the Book of Revelation (Rev 11:3), extraterrestrial beings incarnated in human bodies to harvest a select group of souls before the 'Recycling' (Apocalypse) of the planet.",
         Beliefs: {
-            The_Next_Level:
-                "Human bodies are 'containers' or 'vehicles'; true salvation is physically leaving Earth on a spaceship trailing the Hale-Bopp comet.",
+            The_Evolutionary_Level_Above_Human: `
+            The central dogma is biological, not religious. The 'Kingdom of Heaven' is not a spiritual state, but a literal physical place—a biodiversity level above Homo Sapiens.
+            - **The Caterpillar Metamorphosis:** Just as a caterpillar must cease being a caterpillar to become a butterfly, a human must 'overcome' and shed all mammalian characteristics (family, sex, emotion, ambition) to metamorphose into a Next Level creature.
+            - **The Vehicle:** The body is merely a 'container' or 'suit' worn by the soul. It is disposable.
+            - **The Deposit:** Most humans have no souls. The 'Soul' is a physical 'chip' or 'deposit' of Next Level energy implanted into a human container. The goal of the 'Class' is to nurture this chip until it is strong enough to survive the death of the container and be uploaded to the spacecraft.`,
+            The_Luciferian_Space_Forces: `
+            The universe is a war zone. 'Luciferians' are advanced space-traveling beings who fell from the Next Level.
+            - **The Trap:** They do not want humans to evolve. They created 'Religion', 'Sex', and 'Family' as holographic distractions to keep human souls addicted to the Earth's vibration. They pose as 'God' or 'Angels' to trick humans into staying.
+            - **The Signal:** The Luciferians broadcast a constant 'low-frequency' signal (lust, fear, tribalism) to jam the sensors of the crew. The Class must actively tune out this signal to receive the 'finer' signal from Do.`,
+            Hale_Bopp_The_Marker: `
+            The arrival of the Comet Hale-Bopp in 1997 was the 'Red Alert'. The Class believed a companion spacecraft was hiding in the comet's tail—the 'Cloud' described in the Bible. This was the final bus schedule; missing it meant being 'recycled' (annihilated) along with the surface of the Earth.`,
         },
         Practices: {
-            The_Uniform:
-                "Members adopted an androgynous, uniform look: short haircuts, baggy clothes, and eventually the 'Away Team' uniform consisting of black shirts, black pants, and new black-and-white Nike Decade sneakers. ",
-            The_Exit:
-                "The mass suicide was conducted in shifts over three days. Members ate applesauce or pudding laced with phenobarbital, washed down with vodka. They laid neatly in their bunk beds, covered in purple shrouds, with exactly $5.75 in quarters in their pockets for 'interplanetary toll'.",
+            The_Neutering_Procedure: `
+            To prove total detachment from the mammalian vehicle, several male members (including Do) traveled to Mexico to undergo surgical castration (orchiectomy).
+            - **The Logic:** Sexual desire is a chemical addiction generated by the vehicle's hormones. Removing the testicles was a pragmatic engineering solution to silence the 'noise' of the vehicle, allowing the student to focus entirely on Next Level tasks without distraction.`,
+            The_Regimen_of_Procedure: `
+            Life in the 'Craft' (the rented mansion) was a simulation of life on a spaceship. Every action was scripted to the minute to crush individuality.
+            - **The 12-Minute Procedures:** Tasks were performed in strict time blocks. You consumed 'fuel' (food) not for taste, but for maintenance.
+            - **The Tuning:** The use of a tuning fork or pitch pipe. Members would hum a specific tone together to 'align' their vibrations and clear the atmosphere of Luciferian static.
+            - **The Uniform:** To erase gender and history, members wore identical baggy clothes (to hide the body's shape), got severe 'monk' haircuts, and essentially became 'clones' of the Older Member.`,
+            Check_Partners_Surveillance: `
+            Privacy is a 'Human' concept. Members were assigned a 'Check Partner'. You were never alone.
+            - **The Function:** Your partner's job was to watch your 'Vehicle' for signs of 'Human' behavior (irritability, nostalgia, lust) and correct you immediately. This constant mutual surveillance created a 'Hive Mind' state, necessary for operating the spacecraft.`,
+            The_Master_Cleanse: `
+            Long periods of consuming only a mixture of lemonade, maple syrup, and cayenne pepper. This was not just for health, but to 'purify the vessel' of toxins and make it lighter, vibrating at a higher frequency to prepare for the transition.`,
+            The_Exit_Protocol_39: `
+            The final 'graduation' was executed with military precision over three days (March 24-26, 1997).
+            - **The Uniform:** The 'Away Team' wore matching black shirts and sweatpants with 'Heaven's Gate Away Team' patches, and brand new black-and-white Nike Decade sneakers (chosen for their nondescript, utilitarian look).
+            - **The Toll:** Each member carried a $5 bill and three quarters ($5.75) in their pocket. This was a humorous/symbolic 'toll' for the interplanetary phone booth or ride.
+            - **The Sedation:** They consumed phenobarbital mixed with applesauce or pudding, washed down with vodka.
+            - **The Asphyxiation:** After falling unconscious, plastic bags were placed over their heads to ensure the vehicle ceased functioning.
+            - **The Shroud:** Purple shrouds were placed over the bodies in a diamond shape. They died in shifts, with the remaining members cleaning up the bodies of the dead before taking their own dose.`,
         },
         Structure: {
-            The_Class:
-                "Members lived in a regimented, monastic environment, referring to leaders as 'Older Members' and using check-partners to monitor each other's adherence to the rules.",
+            The_Class_Crew: `
+            The group functioned as a crew, not a family.
+            - **Older Members:** Do (and Ti before her death) were the Admirals/Captains.
+            - **The Students:** The crew. They were renamed with 3-letter consonantal names (e.g., Ody, Jwn, Chk) followed by '-ody' (meaning 'vehicle of').
+            - **Total Isolation:** They funded themselves through a web design company ('Higher Source'), famously creating the website that served as their final suicide note. They cut all ties with human families ('The disconnect'), viewing them as 'biological baggage'.`,
         },
     },
 
@@ -1612,210 +2669,502 @@ const dataSocieties = {
     },
 
     Skull_and_Bones: {
-        Origins: "1832, Yale University (The Russell Trust Association); uses the number 322 (likely death of Demosthenes).",
+        Origins: `
+        Founded at Yale College in 1832 by William Huntington Russell and Alphonso Taft, after Russell returned from a year of study in Germany allegedly carrying a charter from a German student corps. This is why the Order has never described itself as a first chapter but as the American branch of a foreign parent, and why its emblem bears the number 322 instead of a founding date. Incorporated in 1856 as the Russell Trust Association (today RTA Incorporated), a private corporation that owns the building and holds the endowment; the undergraduate club and the corporation are legally separate, so the students who use the property never own any of it and the alumni trustees retain permanent control.
+
+        The Order's internal name for itself is not 'Skull and Bones' but 'the Eulogian Club', after Eulogia, an invented goddess of eloquence said to have ascended to heaven at the death of Demosthenes in 322 BCE and to have returned to earth in 1832 to take up residence with the Order. This is the operative reading of 322 for members: not a date but a span of exile, closed by the founding. Rival readings (chapter 2 of a German order founded in '32; Demosthenes' death year alone) circulate outside the Tomb and are neither confirmed nor denied inside it.
+
+        The Tomb stands at 64 High Street, New Haven: a windowless brownstone in Egypto-Doric style begun in 1856 and enlarged in 1883 and 1903, with padlocked iron doors, no signage, and a walled rear courtyard where the noisier parts of initiation take place. The Order also owns Deer Island, a forty-acre retreat in the St. Lawrence River near Alexandria Bay, New York, held by a separate Deer Island Club Corporation and used for the summer reunion of Patriarchs.
+
+        Most of what is publicly known derives from four intrusions: the 1876 and 1877 burglary pamphlets published by rival students calling themselves the Order of the File and Claw; documents printed by Antony Sutton in the 1980s; Ron Rosenbaum's 1977 Esquire essay and the night-vision videotape of an initiation he obtained in 2001; and Alexandra Robbins's 2002 interviews with roughly a hundred members. Details below are drawn from those, with the contested items flagged.`,
         Beliefs: {
-            Elitism: "The group is 'Reality', outsiders are 'Phenomena' or 'Barbarians'.",
+            Knights_and_Barbarians: `
+            The Order's core doctrine is a hard binary of persons. Undergraduate members in residence are 'Knights'; graduates are 'Patriarchs' (abbreviated 'P.' before the surname in internal documents). Everyone else on earth, including one's own family and lovers, is a 'Barbarian' — also rendered 'Gentile' or 'Vandal' in older usage. The word is not a joke. It encodes the governing claim: that the fifteen people in the room constitute the only society in which one is fully known and therefore fully real, and that the world outside is a place of performance, incomplete disclosure, and social costume. The Cambridge Apostles reached the same conclusion in a different vocabulary — the Society is 'Reality', the world is 'Phenomena' — and the two societies are the classic parallel case in the literature on elite university fraternities.`,
+            Eulogia_and_Eloquence: `
+            The patron deity is Eulogia, goddess of eloquence. The theology is thin but the function is precise: the Order holds that the transmissible commodity of the ruling class is not money or intellect but the capacity to speak persuasively about oneself. The two central rites (Connubial Bliss and the Life History) are therefore both speech acts. A Bonesman is made by being compelled to narrate his own life at length, under hostile questioning, until nothing about him remains untold — which is precisely how eloquence in the Eulogian sense is defined: the ability to render one's whole self into words, in front of witnesses, without collapsing.`,
+            Death_the_Leveller: `
+            The Order's memento mori is not an atmosphere but a specific image, described by the 1876 raiders and still reported by members. Hung in the innermost chamber is a large coloured picture of an open vault; on a stone slab inside it rest four human skulls, arranged around a fool's cap and bells, an open book, several mathematical instruments, a beggar's scrip, and a royal crown. On the arch above the vault is painted, in German: 'Wer war der Thor, wer Weiser, Bettler oder Kaiser?' — Who was the fool, who the wise man, the beggar or the emperor? Beneath the vault, in German blackletter: 'Ob Arm, ob Reich, im Tode gleich' — whether poor or rich, all equal in death.
+
+            The doctrinal reading is deliberately inverted from the monastic one. The skulls do not teach humility. They teach that the categories the outside world uses to sort people — scholar, fool, pauper, king — are cosmetic and temporary, and that the only durable distinction is membership. Death flattens the Barbarian hierarchy; it does not flatten the Delegation.`,
+            The_Delegation_Above_the_Self: `
+            Loyalty is horizontal, not vertical. The unit of obligation is the fifteen-member 'Delegation' of one's own year, not the Order as an institution and not the alumni body. A Patriarch is understood to owe his own fourteen a first claim on his time, money, testimony, and professional influence for life, ahead of colleagues, employers, and in the classic formulation ahead of everyone but his immediate family. The mechanism is not an oath of obedience but manufactured intimacy: after a year of Connubial Bliss and Life Histories, each member holds the complete confessed biography of the other fourteen, and each knows the others hold his. This is mutual hostage-taking dressed as friendship, and members describe it without embarrassment as the most binding relationship of their lives.`,
+            Bones_Time: `
+            Clocks inside the Tomb are set five minutes fast, and members call this 'Bones time'. The stated purpose is punctuality; the practical effect is that anyone raised in the Tomb keeps a private calendar permanently offset from the world's, and knows instantly whether a person in a room is operating on Bones time or Barbarian time.`,
+            Utility_Doctrine: `
+            The Order does not teach a philosophy, a cosmology, or a politics, and this is a positive doctrine rather than an absence. Members across two centuries include high Federalists and New Dealers, Cold War hawks and antiwar lawyers, robber barons and labour arbitrators. The selection criterion is not ideology but trajectory: the tap is given to juniors judged likely to end up running something — a newspaper, a bank, a department, a university, a country. The Delegation is assembled like a portfolio, with a deliberate spread across athletics, journalism, student government, the arts, and the sciences, so that in thirty years the fifteen will hold positions in fifteen different systems.`,
         },
         Practices: {
-            Connubial_Bliss:
-                "Initiates must recount their entire sexual history in front of the group while lying in a coffin, creating a bond of mutual blackmail and intimacy.",
-            Theatrics:
-                "Initiation involves a 'Don Quixote' figure, a 'Devil', and a 'Pope' in white slippers. The candidate is shoved, mocked, and undergoes a mock throat-slashing before being 'reborn' as a Bonesman.",
-            Crooking:
-                "A tradition of competing to steal valuable memorabilia (e.g., the alleged skull of Geronimo or Pancho Villa) to display in 'The Tomb'.",
+            Tap_Night: `
+            Fifteen juniors are selected each spring, one delegation replacing itself entirely. Until 1952 the taps were public and simultaneous across all Yale senior societies on Tap Day, the last Thursday in April, on the Old Campus: hundreds of juniors stood waiting while society men moved through the crowd. The Bones tap was physical and formulaic — the Patriarch or Knight came up behind the junior, struck him hard on the shoulder with an open hand, and shouted into his ear: 'Skull and Bones: Accept or reject?' On acceptance the tapper commanded 'Go to your room!' and followed him there to deliver the details in private. Rejection in front of the whole college was equally public, which was the point.
+
+            Since the abolition of public Tap Day the process has moved indoors: the tap is delivered in the junior's dormitory room, often late at night, and the tapped student is handed a sealed instruction giving a time and the address of the Tomb. The pre-tap phase is more elaborate than the tap: the outgoing delegation spends weeks compiling dossiers on candidates, interviewing them at dinners, and negotiating with rival societies over shared targets, so that the fifteen slots are balanced across campus constituencies.`,
+            The_Initiation: `
+            Held on a night in April at the Tomb, in the walled rear courtyard and then inside. Reconstructed from the 1876-77 burglary pamphlets, from Rosenbaum's 2001 night-vision videotape of the courtyard portion, and from member accounts:
+
+            - **The seizure.** The neophyte arrives alone and is taken at the door by shouting Knights, hooded or blindfolded, and manhandled through the building. The noise is constant and deliberately disorienting: the whole delegation screams at him, in unison and individually, for the length of the rite.
+            - **The costumed court.** The rite is conducted by a fixed cast in costume. A figure in papal robes and white slippers sits enthroned; the neophyte is forced to his knees to kiss the slipper. A figure as Don Quixote carries a sword. A figure as the Devil, in red, does the tormenting. Other named roles include Elihu Yale and Uncle Toby. In the courtyard portion Rosenbaum recorded a mock throat-cutting, sustained screaming, and the neophytes being shoved and made to grapple in mud.
+            - **The coffin.** The neophyte is stripped and placed in a coffin in a darkened chamber. This is the moment the Barbarian is declared dead. He is then tipped or lifted out and robed, which is the moment he is 'reborn'.
+            - **The knighting.** The Don Quixote figure touches the sword to his left shoulder with the formula: 'By order of our order, I dub thee Knight of Eulogia.'
+            - **The naming.** He is stripped of his Barbarian name and given his Bones name, which the delegation will use for the rest of his life inside the Tomb.
+            - **The feast.** The rite ends in the dining room with the delegation seated at the long table, and the new Knights fed and toasted by the men who spent the previous hours screaming at them. The whiplash from terror to hospitality inside a single evening is the operative psychological mechanism, not an accident of scheduling.`,
+            Bones_Names: `
+            Every Knight is renamed. Some names are offices attached to a person's attributes rather than choices:
+            - **Long Devil** — automatically the tallest member of the delegation.
+            - **Little Devil** — the shortest.
+            - **Boaz** (often shortened to 'Bo') — traditionally the varsity football captain or the leading athlete.
+            - **Magog** — traditionally awarded to the member with the most sexual experience, as established during Connubial Bliss. William Howard Taft and George H. W. Bush both held it.
+            - **Gog** — the member with the least.
+            - **Sherrife**, **Uncle Toby**, **Thor**, **Hershey**, **Baal**, **Beelzebub**, **Machiavelli**, **Sancho Panza**, **Emperor** — recurring names passed down through delegations.
+            A neophyte may propose a name from literature, scripture, or history; if he does not, or if the delegation dislikes his choice, the name is imposed on him. Because several names encode a fact about the man (height, athletic rank, sexual history), the roster of a delegation is itself a compressed dossier on its members.`,
+            Connubial_Bliss: `
+            'CB' is delivered in the autumn term, one member per session. The Knight lies in the coffin in a darkened room lit by candles while the other fourteen sit around him in the dark, and he recounts his complete sexual history: every partner, in sequence, by name, with the acts described explicitly, including the material he would least want repeated — early experiences, humiliations, failures, fetishes, incidents involving people known to those present. The delegation interrupts with questions from the darkness and presses on anything skipped, hedged, or plainly softened. Sessions run for hours.
+
+            The rite has three simultaneous functions and members are told all three. It manufactures intimacy faster than ordinary friendship can. It establishes the internal ranking that assigns Gog and Magog. And it creates symmetrical, unrecoverable leverage: fourteen people now hold material capable of destroying the speaker, and he holds the same on each of them, which is what makes the disclosure safe and the bond permanent.`,
+            Life_History: `
+            'LH' occupies the spring term and is the longer and more serious rite. Each Knight in turn narrates his entire life, from earliest memory to the present, over one or more sessions running past two or three in the morning: family money and its sources, parents' marriage, siblings, religion, illnesses, academic failures, cruelties committed, ambitions stated plainly and without the modesty the outside world requires. The delegation cross-examines throughout, and a member judged to be performing rather than confessing is told so and made to begin again.
+
+            Both CB and LH proceed under an absolute rule: nothing said in the Tomb leaves the Tomb, and no member may repeat one brother's disclosure to another brother outside the room. The rule is honoured to a remarkable degree, which is why the substance of individual sessions has never leaked in two centuries while the format has been described repeatedly.`,
+            The_Meeting_Nights: `
+            The delegation meets twice weekly through senior year, on Thursday and Sunday evenings, without exception and ahead of any other commitment. The evening runs to a fixed order: dinner at the long table, served by the Tomb's staff; then the ritual portion; then the night's CB or LH; then debate. Debates are formally structured and often assigned adversarially, with a member required to argue a position he detests. Attendance is effectively compulsory, and the delegation's expectation that a member will drop anything — an examination, a romance, a family visit — to be in the Tomb on those two nights is the practical training in the priority ordering the Order teaches.`,
+            Crooking: `
+            Institutionalised theft, undertaken to enrich the Tomb's collection. A 'crook' is an object stolen — traditionally from a rival society, a Yale institution, or a public site — and delivered to the Tomb, where it is displayed with the name of the delegation that took it. Competitive crooking between delegations was historically encouraged, and objects reported inside the Tomb include stolen society plaques, a Yale locomotive plate, and assorted institutional silver.
+
+            The famous case: in 1918 a group of Bonesmen stationed at Fort Sill, Oklahoma, allegedly dug up and removed the skull of Geronimo. The evidence is a 1918 letter from Winter Mead to F. Trubee Davison stating that 'the skull of the worthy Geronimo the Terrible, exhumed from its tomb at Fort Sill by your club', is 'now safe inside the T[omb]' along with his femurs and bit. Prescott Bush was in the group. Apache descendants sued the Order in 2009 to recover the remains; the suit was dismissed in 2010 on jurisdictional grounds and the Order has never confirmed possession. Other claimed relics — skulls attributed to Pancho Villa and Martin Van Buren, a set of silverware said to have belonged to Hitler — rest on weaker evidence and are best treated as Tomb legend.`,
+            The_Rule_of_Silence: `
+            Historically a Bonesman was required to leave the room, immediately and without explanation, whenever the words 'Skull and Bones' were uttered in his presence by a non-member. Nineteenth-century Yale students tested this by shouting the name in dining halls to watch seniors stand up and walk out. The modern form is softer but functionally identical: members will confirm membership and refuse every follow-up question, and the standard published formula is George W. Bush's — that he joined a secret society so secret he can say nothing more about it.`,
+            Deer_Island: `
+            The Order's forty-acre island in the St. Lawrence, deeded to the Deer Island Club Corporation by George Douglas Miller in 1906 with the ambition of building a grand retreat. The ambition was never realised: members describe modest cabins, cracked tennis courts, and deferred maintenance. Its function is the annual summer gathering, where the graduating Knights are received by Patriarchs of earlier delegations and the horizontal bond of the delegation is stitched into the vertical network of the alumni body. This is where the Order's practical utility is actually transacted.`,
+            The_Catalogue: `
+            The Russell Trust Association prints a members' catalogue listing every living member by delegation year. It is the administrative spine of the network: a Patriarch who needs something looks up which of his brothers, or which delegation adjacent to his, is positioned to supply it. The persistent legend that each graduating member receives a cash gift of fifteen thousand dollars and a grandfather clock is denied by members and unsupported by the Association's records; the real subsidy has always been the catalogue and the introductions it enables.`,
         },
         Structure: {
-            The_Class: "Annual turnover of 15 members; horizontal loyalty to the 'Delegation'.",
+            The_Delegation: `
+            Exactly fifteen members per year, no more, tapped as juniors and serving through senior year, at which point the delegation dissolves as an active body and becomes a permanent cohort of Patriarchs. Delegations are numbered sequentially from the first in 1833 ('D.1'), so a delegation's number gives its year at a glance. There are no officers in the ordinary sense and no internal hierarchy of rank; the fifteen are formally equal, and the only ranking that exists is the informal one produced by Connubial Bliss.`,
+            The_Russell_Trust_Association: `
+            Incorporated in Connecticut in 1856 with William H. Russell as first president and Daniel Coit Gilman — later the founding president of Johns Hopkins and of the Carnegie Institution — as treasurer. The corporation owns the Tomb, holds the endowment, and is governed by alumni trustees. This is the structural feature that distinguishes the Order from a college club: the undergraduates provide the ritual life and the trustees provide the property, the money, and the continuity, so no delegation can alter the institution and no scandal in one year can dissolve it.`,
+            The_Coeducation_War: `
+            In 1991 the graduating delegation tapped women. The alumni body split violently; a faction led by William F. Buckley Jr. obtained a temporary injunction, and the locks of the Tomb were changed to keep the new delegation out. The dispute was settled by a mail ballot of all living members, which approved admitting women by roughly 368 to 320. The episode is the clearest demonstration of where authority actually sits: the undergraduates made the decision, and the Patriarchs and the corporation overrode them until a vote of the whole alumni body settled it.`,
+            The_Landscape: `
+            Skull and Bones is the oldest of Yale's windowless-tomb senior societies and the senior member of the traditional 'Big Three' with Scroll and Key (1842) and Wolf's Head (1883). Competition between them for the same fifteen or forty-five juniors each spring is the mechanism that keeps the tap selective, and cross-society rivalry supplied both the crooking tradition and the 1876 burglary that produced the first description of the Tomb's interior.`,
         },
     },
 
     Scroll_and_Key: {
-        Origins: "Yale University; one of the 'Big Three' societies, founded 1842.",
+        Origins: `
+        Founded at Yale in 1842 by a group of juniors, led by William L. Kingsley, in the aftermath of a bitter quarrel over that year's Skull and Bones elections. Keys has therefore always defined itself against Bones rather than in imitation of it: where the older society built a windowless mausoleum and a rite of terror, Keys built the most ornamental building on campus and a rite of hospitality.
+
+        Its corporation is the Kingsley Trust Association, named for the founder and organised on the same model as the Russell Trust: alumni trustees own the property and the endowment, undergraduates merely occupy it. Keys is the second of the traditional 'Big Three' senior societies, with Skull and Bones (1832) and Wolf's Head (1883), and taps fifteen juniors a year.
+
+        The Tomb stands at 444 College Street on the corner of Wall Street: built 1869-70 to designs by Richard Morris Hunt, the first American trained at the École des Beaux-Arts, in a Moorish-Venetian Gothic idiom of banded polychrome masonry, horseshoe arches in alternating light and dark stone, and an arcaded front, set behind a walled garden. It is the least funereal and most photographed of the Yale tombs, and the choice was polemical: the building announces that this society's business is beauty and pleasure rather than mortality.
+
+        Keys is the least leaked of the three. Its ritual has never been published, no burglary pamphlet describes its interior, and what follows is drawn from architectural record, corporate filings, and members' consistent but guarded descriptions.`,
         Beliefs: {
-            CSP_CCJ:
-                "Letters standing for 'Collegium Sanctum Pontificum' (College of Holy Pontiffs) and 'Collegium Conservat Jupiter' (Jupiter Preserves the College).",
-            Euphony_and_Fellowship:
-                "Emphasis on literary and musical excellence ('The Singing') as the bond of brotherhood, contrasting with the martial grimness of Skull and Bones.",
+            CSP_and_CCJ: `
+            Two sets of initials, C.S.P. and C.C.J., appear on the society's arms and building and are the one openly displayed secret of the Order. Members will not gloss them. The conjectures that circulate outside include 'Collegium Sanctum Pontificum' (College of Holy Pontiffs) and 'Collegium Conservat Jupiter' (Jupiter preserves the college), and several rival Latin expansions of comparable plausibility; there is no authoritative reading, and the society's willingness to display letters it will not translate is itself the point. A secret that is visible on the front of the building every day, and that no outsider can crack, advertises the society far more effectively than a hidden one.`,
+            Euphony: `
+            Keys' organising value is euphony — literally, good sound. Where Bones' patron is the goddess of eloquence and its rites are confessional monologue, Keys' medium is collective performance: singing in parts, wit at table, the well-made speech, the well-run dinner. The doctrine holds that a governing class is bound not by shared secrets but by shared pleasures, and that men who have sung together, eaten well together, and travelled together for a year will serve each other as reliably as men who have confessed to each other. It is the convivial theory of elite formation against the confessional one, and the two societies have been running the experiment side by side on the same campus since 1842.`,
+            Cultivation_over_Power: `
+            The society has historically recruited toward the arts, letters, diplomacy, and journalism rather than the intelligence and banking channels associated with Bones — Cole Porter, Dean Acheson, Cyrus Vance, Garry Trudeau and Fareed Zakaria are the canonical Keys names. The self-image is of the cultivated public man rather than the operator, and Keys men are apt to describe Bones, in private, as humourless.`,
         },
         Practices: {
-            Tap_Day:
-                "The public ritual on the Old Campus where juniors are tapped on the shoulder to receive the invitation, a high-visibility event that cements the society's status.",
-            Midnight_Singing:
-                "The closing ritual involves members marching in formation and singing the 'Troubadour' song on the steps of their windowless hall (the 'Tomb') at midnight.",
-            Thursday_Night:
-                "Weekly meetings involve reading biographies and rigorous self-criticism sessions to refine the character of the members.",
+            The_Tap: `
+            Fifteen juniors are tapped each April. Under the old public system, all senior societies tapped simultaneously on Tap Day on the Old Campus, and the ordering was itself a ritual: societies took turns, and a junior who had been passed over by Bones could be taken by Keys minutes later in full view of the college, which is why the competitive dynamic between the two houses was visible to the whole campus. Since 1952 taps have been delivered privately, but the delegations still negotiate in advance over juniors both houses want.`,
+            The_Thursday_and_Sunday_Nights: `
+            Like the other senior societies, Keys meets twice weekly through senior year, on Thursday and Sunday evenings, and attendance takes precedence over academic and personal commitments. The evening is built around a formal dinner — the society keeps a kitchen, a cook, and a cellar, and the meal is not incidental but the substance of the meeting. Members deliver autobiographical papers and are questioned on them, as in the other houses, but the Keys idiom is the paper and the debate rather than the coffin and the interrogation, and the biographical disclosure is bounded by manners in a way that Bones' explicitly is not.`,
+            The_Singing: `
+            Music is the society's signature practice. The delegation sings in parts, works up material through the year, and closes meetings with the society's own songs on the steps of the tomb late at night — audible on College Street and intended to be. Cole Porter, tapped in 1913, wrote for the society as well as for Yale at large; the Keys musical tradition and the Yale songbook overlap heavily, and the society's habit of broadcasting its closing song into the street is the exact inverse of the Bones rule of silence.`,
+            The_Delegation_Trip: `
+            The society's most concrete material benefit and its most distinctive custom: Keys funds an annual trip abroad for its delegation, paid from the Kingsley Trust endowment. Fifteen twenty-one-year-olds are taken out of New Haven and put together in a foreign country for a stretch of weeks. The effect is the same as Bones' Deer Island reunion — enforced, unavoidable proximity that converts acquaintance into obligation — achieved by travel rather than by confession.`,
+            Coeducation: `
+            Keys admitted women in 1989, two years before Skull and Bones and with markedly less institutional violence: no injunction, no changed locks, no alumni mail ballot. The contrast is a fair index of the difference between the two houses' relationship to their own alumni bodies.`,
         },
         Structure: {
-            Collegiate: "Senior society structure similar to Skull and Bones, tapping 15 juniors every year.",
+            The_Delegation: "Fifteen juniors tapped annually, serving one year as an active delegation and thereafter as alumni of the Kingsley Trust Association.",
+            Kingsley_Trust_Association: `
+            The alumni corporation, incorporated in the 1880s, which owns 444 College Street and administers the endowment that funds the kitchen, the cellar, the building's maintenance, and the delegation's annual foreign trip. As with the Russell Trust, the separation of undergraduate club from property-owning corporation is what has allowed the society to survive a hundred and eighty years of undergraduate turnover without institutional drift.`,
         },
     },
 
     Cambridge_Apostles: {
-        Origins: "Cambridge University elite intellectual society founded in 1820.",
+        Origins: `
+        Founded at St John's College, Cambridge, in 1820 by George Tomlinson, later the first Anglican Bishop of Gibraltar, under the formal name of the Cambridge Conversazione Society. It acquired its nickname from its size: twelve active members at any one time, hence 'the Apostles'. Internally it is never called that. It is called simply 'the Society'.
+
+        Unlike the American senior societies it has no building, no endowment, no regalia, and no money. Its entire apparatus is a Saturday evening, a hearthrug, a plate of sardines, and a cedar box. It has nonetheless produced Tennyson, Hallam, F. D. Maurice, Henry Sidgwick, Whitehead, Bertrand Russell, G. E. Moore, Lytton Strachey, Maynard Keynes, Leonard Woolf, E. M. Forster, Rupert Brooke, Wittgenstein, and — a fact that has shaped its reputation ever since — Anthony Blunt, Guy Burgess and Michael Straight.`,
         Beliefs: {
-            Dualistic_Reality: "The group is 'Reality'; the outside world and non-members are merely 'Phenomena'.",
-            Absolute_Candor:
-                "Total honesty and frankness in discussion, regardless of social taboo. This environment of sharing 'dangerous secrets' (homosexuality, Marxism) bound them together.",
+            Reality_and_Phenomena: `
+            The Society's central doctrine, formulated in the Sidgwick era on a Kantian borrowing, is that the Society is the 'real' world and everything outside it — the university, the professions, the family, the state — is the 'phenomenal' world. The phenomenal world is where one performs a role, observes conventions, and says what is expected. The real world is the room on Saturday night, where one says what one actually thinks. The distinction is not metaphorical for members; it is a working ontology that governs where obligations are owed, and it is the single most important thing to understand about the Society, including about what happened to it in the 1930s.`,
+            Absolute_Candour: `
+            The Society's rule is unreserve: no subject is closed, no opinion is disqualified by scandal, and no member may be held to a view he previously expressed. Sidgwick, its most careful theorist, described its spirit as the pursuit of truth 'with absolute devotion and unreserve' among intimate friends. In practice this made the Society the one place in Victorian and Edwardian Cambridge where a man could say aloud that he did not believe in God, that he desired men, or that he thought the British Empire a crime, and be answered on the merits. The bond formed is that of shared jeopardy: everyone in the room has said something that would end him outside it.`,
+            The_Higher_Sodomy: `
+            Under Strachey and Keynes, roughly 1902 to 1914, the Society adopted a cult of male love that its members called, half-seriously, 'the Higher Sodomy': the doctrine that love between men was ethically and aesthetically superior to heterosexual attachment because it was disinterested, unproductive, and chosen. It was underwritten by G. E. Moore's Principia Ethica (1903), whose conclusion that the highest goods are personal affection and aesthetic enjoyment the Apostles read as a philosophical licence. Election in this period turned substantially on whether a candidate was attractive and available to the existing membership, and Strachey conducted the recruitment of 'embryos' in these terms in his correspondence.`,
+            Primacy_of_the_Society: `
+            Members hold that loyalty to the Society precedes loyalty to any institution outside it, which follows directly from the reality-phenomena doctrine: one cannot owe a phenomenon anything. In the 1830s this produced armed romanticism — Apostles funded and joined the Torrijos expedition against the Spanish monarchy in 1830, and one associate, Robert Boyd, was executed by firing squad at Málaga. In the 1930s it produced treason. Guy Burgess and Anthony Blunt recruited for Soviet intelligence inside the Society precisely because its members had already been trained to regard the British state as a phenomenon and the circle of intimate friends as the real thing; Blunt recruited Michael Straight in 1937 by appealing to the Society's obligations directly.`,
         },
         Practices: {
-            Whales: "The traditional meal of sardines on toast, consumed during Saturday evening meetings, is referred to as 'Whales'.",
-            The_Curse:
-                "A ceremonial toast drunk to the 'extermination' of giants (philistines/outsiders) and the promotion of the society's values.",
-            The_Spy_Incubator:
-                "While not a formal ritual, the society's insistence on secrecy and superiority over the 'phenomenal world' created the psychological groundwork for the 'Cambridge Five' spy ring. Recruits were often groomed here, transitioning from sharing personal secrets to sharing state secrets.",
+            The_Saturday_Meeting: `
+            The Society meets on Saturday evening in the rooms of a member, in rotation, after hall. One member — designated in advance and known as the moderator for that evening — reads a paper standing on the hearthrug, which is the Society's only fixed piece of ceremonial furniture. Papers are typically twenty minutes to half an hour, written for the occasion, and calculatedly provocative. General discussion follows and can run past midnight.`,
+            Whales: `
+            The refreshment is fixed by tradition and never varies: anchovies or sardines on toast, known as 'whales', prepared by the host over his own fire, with coffee. The permanence of the menu is itself doctrinal. The Society has no ritual objects, so the whales carry the whole weight of continuity: a man elected in 1930 ate on Saturday night exactly what a man elected in 1850 ate.`,
+            The_Question_and_the_Vote: `
+            At the end of discussion the moderator poses 'the question' — a formal restatement of the paper's thesis, traditionally distorted into something absurd, paradoxical, or obscene, so that voting on it requires wit rather than mere agreement. Each member then votes and signs his name in the minute book. A vote may be yes, no, an elaborate conditional, a pun, or a refusal expressed as an epigram; the recorded votes of Keynes, Strachey and Russell are frequently jokes. The minute book is the Society's real archive: nearly two centuries of the twelve cleverest undergraduates in Cambridge trying to be funnier than each other in one line.`,
+            The_Ark: `
+            All papers ever read and all minute books are kept in a cedar chest called the Ark, held by the current secretary and physically carried between custodians. New members read their predecessors' papers out of it — Tennyson's, Sidgwick's, Moore's, Keynes's — which is how the Society transmits itself without any teaching. The Ark also holds the text of the curse.`,
+            Election_and_the_Curse: `
+            Candidates are 'embryos': spotted early, cultivated over months by existing members, discussed exhaustively in their absence, and elected only by unanimity — one objection kills a candidacy permanently. The elected man is 'born'. At his first meeting the curse is read over him from the document in the Ark, invoking destruction on anyone who reveals the Society's proceedings or its existence, and he takes the oath of secrecy and signs. Members thereafter deny the Society exists. The denial is not a formality: Apostles have lied about membership to biographers, to spouses, and to security services.`,
+            Taking_Wings: `
+            A member does not resign and is never expelled; when active membership ends, typically on leaving Cambridge or taking a fellowship, he 'takes wings' and becomes an angel. Angels remain members for life, may attend meetings, and return regularly — Wittgenstein was elected in 1912, found the Saturday evenings frivolous and withdrew almost at once, and came back as an angel in 1929. The annual dinner in London each June is the gathering where angels and active Apostles meet, and where the Society's network across Whitehall, the universities, the museums and the intelligence services was historically transacted.`,
         },
         Structure: {
-            The_Angels_and_Wings:
-                "Active undergraduates are 'Angels'; alumni who have left the university are referred to as having 'Took Wings'.",
+            Twelve_Active_Members: "Never more than about twelve undergraduates and young dons in active membership at once, which is why elections are rare, contested, and require unanimity.",
+            Angels: "Former active members, in permanent lifetime membership, with rights of attendance and a standing claim on the Society's loyalty.",
+            No_Officers: `
+            The Society has no president, no hierarchy, and no officers except a secretary who keeps the Ark and arranges the rota of readers. Authority rests entirely on seniority of election and on force of argument, which is the structural reason the Society's character can change completely within a decade — as it did between the Sidgwick generation of earnest ethical inquiry, the Strachey-Keynes generation of aesthetic homoeroticism, and the Blunt-Burgess generation of Marxism and espionage.`,
         },
     },
 
     The_Machine: {
-        Origins: "University of Alabama; officially Theta Nu Epsilon.",
+        Origins: `
+        Formally the University of Alabama chapter of Theta Nu Epsilon, a 'sub rosa' society founded at Wesleyan University in 1870 which spread across American campuses as a semi-secret inter-fraternity order and was suppressed almost everywhere by the 1920s. The Alabama chapter, established around 1914, not only survived but became the dominant institution in the university's political life, and has been called simply 'the Machine' since at least the 1920s.
+
+        It is unlike every other entry in this catalogue in one respect: it has no mythology, no cosmology and no ritual content. It is a pure apparatus. It exists to decide, in advance and in secret, who will hold every elected student office at the University of Alabama, and it has been doing so successfully for roughly a century. It has been documented continuously by the university's student newspaper, The Crimson White — often at real cost to the reporters — and periodically by the national press.`,
         Beliefs: {
-            Control:
-                "Designed to strictly control campus politics and Greek life to favor the elite 'Old Row' fraternities and sororities.",
+            Old_Row_Supremacy: `
+            The Machine's only doctrine is a hierarchy of houses. The 'Old Row' fraternities — the oldest and wealthiest chapters on the original fraternity row, with the deepest alumni benches in Alabama law, banking and politics — are entitled to run the university's student government, its publications, its honour societies and its allocation of student activity funds, and are entitled to those things because their alumni have always had them. 'New Row' houses, independents (the 'GDIs'), historically black Greek organisations, and the seventy per cent of the student body outside the Greek system are constituencies to be managed, not represented.`,
+            The_Pipeline: `
+            The functional belief that sustains it: student government at Alabama is not a student activity but the first rung of a real political career. The Machine has supplied Alabama with legislators, congressmen, judges, senators and governors, and a Machine-endorsed SGA presidency is understood by everyone involved as an apprenticeship in whipping votes, allocating patronage, and controlling a caucus. The stakes are treated as adult stakes because for the participants they are.`,
+            Discipline_over_Persuasion: `
+            The Machine does not attempt to win arguments and rarely bothers to campaign on issues. Its theory of elections is arithmetic: a reliably delivered bloc of several thousand Greek votes will defeat any number of unorganised votes in a low-turnout campus election. Everything it does follows from that — the endorsement, the whip system, the monitoring, and the punishment of defection.`,
         },
         Practices: {
-            Intimidation:
-                "Historically involved members donning black robes and hoods, burning crosses, and holding torchlight processions to intimidate political opposition or non-compliant Greeks.",
-            Block_Voting:
-                "Coerced voting blocs where fraternity members are forced to vote for Machine-selected candidates under threat of social ostracization.",
+            The_Endorsement_Meeting: `
+            The core rite. Each member house sends a single delegate — 'the rep' — to a closed meeting, held at rotating and unannounced locations and historically at night. Candidates for SGA office appear before the assembled reps to be interviewed and vetted. Voting is by house, weighted in practice by chapter size and seniority, and continues until one candidate has a majority. From the moment the endorsement is issued, every member house is bound to it, and any house running or supporting an alternative candidate is in open revolt.`,
+            Delivering_the_Vote: `
+            The endorsement is enforced by a whip system with real teeth. Pledges and members are told which candidates to vote for; in periods of tight discipline they have been walked to the polls in organised groups by designated monitors, required to vote in the monitor's presence, and required to report back. Chapter attendance at the polls is tracked house by house and reported to the reps. Failure to vote has been treated as a chapter offence with fines and social penalties, and the Crimson White has repeatedly documented allegations of members being asked to photograph or otherwise verify their ballots.`,
+            Punishing_Defection: `
+            The sanction against a house that breaks ranks is total social excommunication: no swaps, no mixers, no exchanges, exclusion from Greek Week and from the informal calendar that constitutes the entire social existence of a Greek chapter, plus permanent loss of the Machine's support in future elections and of access to the alumni networks the endorsement carries. Because a fraternity or sorority's viability depends on recruitment and recruitment depends on social standing, this is an existential threat, and it is the reason the system holds without any need for formal authority.`,
+            Intimidation_and_the_Historical_Record: `
+            The Machine's history includes documented episodes of intimidation well beyond social pressure. In the 1970s a cross was burned on the lawn of a sorority house that had broken with the endorsed candidate, and hooded figures appeared outside houses in dispute. In 1993 Minda Riley, an independent candidate for SGA president, was assaulted at her home during the campaign; the perpetrator was never identified. Following that period of violence the university administration abolished the Student Government Association outright in 1993, and it was not restored until 1996 — after which the Machine resumed winning.`,
+            Beyond_the_Campus: `
+            The Machine's reach extends into Tuscaloosa municipal politics. In the 2013 city school board elections, organised student voting mobilised by Greek houses — with widely reported inducements — carried Machine-favoured candidates to victory in city races decided by a few hundred votes, in a city where the students voting had no children in the school system. It is the clearest demonstration that the organisation is not a campus curiosity but a functioning political machine in the classical American sense.`,
+            Adjacent_Bodies: `
+            The Machine's influence runs through the university's other secret and semi-secret societies — the senior honoraries such as the Jasons and the men's society known as 'XXXI' — which absorb the outgoing Machine leadership and connect it to the alumni network. Membership in these bodies is itself a form of endorsement, and the honoraries function as the alumni half of a system whose undergraduate half is the endorsement meeting.`,
         },
         Structure: {
-            Reps_System:
-                "Operates with representatives from ~28 traditionally white Greek houses who meet in secret to coordinate the political agenda.",
+            The_Reps: "One delegate per member house, roughly twenty-eight to thirty traditionally white fraternities and sororities, meeting in secret. Reps are usually rising seniors and are chosen inside their own chapters, often by the chapter's own informal leadership rather than by election.",
+            Membership_of_Houses: "The Machine's membership is corporate, not individual: houses belong, students do not. A member of a Machine chapter is bound by decisions taken by a delegate they did not choose, about candidates they never met.",
+            Deniability: "The organisation maintains no charter, no public officers, no accounts and no acknowledged existence. Officials of member chapters routinely deny it exists, which is possible because nothing about it is written down.",
         },
     },
 
     Knights_of_Columbus: {
-        Origins: "Founded 1882 in Connecticut by Fr. Michael McGivney as a Catholic fraternal benefit society.",
+        Origins: `
+        Conceived in the basement of St. Mary's Church on Hillhouse Avenue, New Haven, where a group of Irish-American laymen first met on 2 October 1881 at the summons of the curate, Fr. Michael J. McGivney; chartered by the Connecticut legislature on 29 March 1882.
+
+        Two concrete problems produced it. First, when a Catholic workingman died, his widow was frequently destitute and his children liable to be placed by the probate court with non-Catholic families — McGivney had personally fought such a case — so the order was built first and foremost as a mutual-benefit life insurance society funded by assessments on its own members. Second, the fraternal orders that provided such benefits to everyone else were Masonic in form and therefore forbidden to Catholics under pain of excommunication, leaving Catholic men with no lodge to join. The Knights supplied a lodge that a bishop could bless.
+
+        The name was a deliberate political weapon. In 1882 Irish Catholics were told daily that they were foreign to America. Naming the order for Columbus asserted that a Catholic had found the continent before any Protestant reached it, and that Catholics were therefore not guests. The Order's later successful campaign to make Columbus Day a public holiday is the same argument continued.`,
         Beliefs: {
-            Four_Principles: "Charity, Unity, Fraternity, and Patriotism.",
-            Catholic_Action:
-                "Defense of the faith and support for the clergy; members view themselves as the 'strong right arm of the Church'.",
+            The_Four_Principles: `
+            **Charity**, **Unity**, **Fraternity** — the original three, one per degree — and **Patriotism**, added in 1900 with the Fourth Degree. They are taught as a sequence of widening obligation: charity to the man in need, unity with the brothers who share the work, fraternity as the permanent bond that outlasts the particular need, and patriotism as the claim that Catholic citizens owe and are owed as much as anyone else in the republic.`,
+            The_Strong_Right_Arm: `
+            The Order defines itself as the lay arm of the Church: it does not teach doctrine, it defends and funds those who do. In practice this has meant supplying money and organised laymen at the Church's points of institutional weakness — establishing the chaplains' huts for American soldiers in 1917 under the slogan that everybody was welcome and everything was free; financing and publicising Catholic resistance during Mexico's Cristero persecution in the 1920s; restoring the façade of St Peter's; funding the Vatican Film Library; and successfully lobbying Congress in 1954 to insert the words 'under God' into the Pledge of Allegiance, which the Order had already been reciting in that form in its own councils.`,
+            Insurance_as_Sacrament: `
+            An unusual feature among fraternal orders: the insurance is not an adjunct to the fraternity but its theological core. The founding argument is that a man's obligation to provide for his family does not end at his death, and that the mechanism by which he discharges it after death is his brothers' assessments. The Order remains one of the largest and most highly rated life insurers in North America, and its agents are members selling to members.`,
         },
         Practices: {
-            Exemplifications:
-                "Degree ceremonies teaching lessons through drama. The 1st Degree (Charity) involves a lesson on the lesson of the widow's mite. The 3rd Degree (Fraternity) is the most solemn, where candidates receive a silver medal.",
-            The_Fourth_Degree:
-                "The 'Patriotic Degree'. Sir Knights wear full regalia including a tuxedo, a beret with a specific color patch denoting office (e.g., gold for Supreme, purple for Color Corps Commander), and a white baldric (sash) embroidered with the order's emblem.  They carry ceremonial swords used in drill formations to form arches of steel for bishops.",
+            The_Exemplifications: `
+            Degrees are called exemplifications, because the candidate is not lectured on a virtue but shown it enacted. Each is a morality drama with speaking parts, staged by a degree team that travels between councils.
+            - **First Degree, Charity** — the lesson of the widow's mite: that the gift is measured by what remains to the giver, not by what is given.
+            - **Second Degree, Unity** — the strength of the body of members acting as one.
+            - **Third Degree, Fraternity** — the most solemn, in which the candidate is received as a full Knight.
+            For 138 years these were closed ceremonies under an obligation of secrecy. In 2020 the Order combined all three into a single public Exemplification of Charity, Unity and Fraternity, open to wives and children and available on video — deliberately abolishing its own secrecy, on the grounds that a Catholic order in the twenty-first century gains nothing from being hard to explain.`,
+            The_Fourth_Degree: `
+            The Patriotic Degree, instituted in New York on Washington's Birthday, 22 February 1900. Members become Sir Knights and belong to an Assembly rather than a Council, under nautical titles taken from Columbus: **Faithful Navigator** presiding, with the Faithful Friar (chaplain), Faithful Captain, Faithful Pilot, Faithful Admiral, Faithful Comptroller, Faithful Scribe, Faithful Purser, and Faithful Inner and Outer Sentinels.
+
+            The historic regalia, worn from 1940 until 2017 and still seen in many assemblies: black tuxedo, white shirt, black bow tie, white gloves; a **cape** whose lining colour signals rank; a **chapeau** — a plumed bicorne of Napoleonic cut — the plume colour again denoting office, white for a member of the Color Corps and successively gold, purple, blue, green and red as one ascends assembly, district, state and supreme rank; a **baldric**, the white sash worn from right shoulder to left hip, embroidered with the emblem and carrying the sword frog; and a **ceremonial sword**. In 2017 the Supreme Council replaced the cape and chapeau with a navy blazer and a beret, a decision that produced the most furious internal revolt in the Order's history and was partially walked back.`,
+            The_Color_Corps_and_the_Arch_of_Steel: `
+            The Fourth Degree's public function is the honour guard: Sir Knights in full regalia flanking a bishop at a confirmation, a casket at a Knight's funeral, or a monstrance in a Corpus Christi procession. Its signature manoeuvre is the **Arch of Steel** — two facing files of Knights drawing swords on command and raising them to cross overhead, forming a tunnel of blades through which the bishop, the newly married couple, or the coffin passes. The drill is exact, is practised for hours, and is the single most recognisable image the Order produces.`,
+            The_Council_Meeting: `
+            Councils meet in a chamber with an altar or table bearing an open Bible, opening and closing with prayer led by the Chaplain and, in the United States, the Pledge of Allegiance. Business is fraternal and financial: sick visitation, charitable programmes (Coats for Kids, Special Olympics, wheelchair funds, seminarian support), insurance, and the affairs of the parish the council serves. The Fourth Degree's Assembly meets separately and less often.`,
+            The_Bogus_Oath: `
+            The Order's permanent shadow, and a case study in how a fabricated ritual outlives its refutation. In 1912 an anti-Catholic forgery began circulating purporting to be the secret oath of the Fourth Degree, in which Sir Knights supposedly swore to make war on Protestants and Masons and to hang, burn, boil, flay and disembowel them and their families. It was introduced as evidence in a contested Pennsylvania congressional election in 1913; the House committee investigating it found it a complete fabrication and ordered it expunged from the record. It has nonetheless circulated continuously for over a century, and the Order still maintains a standing rebuttal. It is worth setting beside the real ceremonies, which concern the widow's mite.`,
         },
         Structure: {
-            Supreme_Council: "Governing body led by the Supreme Knight; local units are Councils.",
+            Supreme_Council: "The governing body, headed by the Supreme Knight, meeting annually; it alone controls the ritual, the insurance operation and the charter of new councils.",
+            The_Chain_of_Bodies: "Local **Councils** under a Grand Knight, with Deputy Grand Knight, Chancellor, Recorder, Financial Secretary, Treasurer, Advocate, Warden, Inside and Outside Guards, three Trustees, a Lecturer and a priest Chaplain; **State Councils** under State Deputies; **Assemblies** of the Fourth Degree under Faithful Navigators, organised in districts and provinces.",
+            The_Emblem: "A shield mounted on a cross formée, bearing three objects: a fasces for authority and lawful order, an anchor for Columbus the mariner, and a short sword for the knight — the trades of the legislator, the sailor and the soldier combined.",
+            Eligibility: "Practical Catholic men in communion with the Holy See, aged eighteen or over. The Fourth Degree is open to Third Degree members after a qualifying period.",
         },
     },
 
     Knights_of_Pythias: {
-        Origins: "Founded 1864 in Washington D.C. by Justus H. Rathbone; first fraternal order chartered by US Congress.",
+        Origins: `
+        Founded 19 February 1864 in Washington, D.C., by Justus Henry Rathbone, a government clerk who had written the ritual six years earlier while schoolmastering at Eagle Harbor on Michigan's Lake Superior shore, working from John Banim's 1821 verse tragedy Damon and Pythias.
+
+        The founding date matters. Rathbone launched an order dedicated wholly to the proposition that friendship can outweigh death in the capital of a country that was in its fourth year of killing itself, and he did it explicitly as an instrument of sectional reconciliation — a fraternity in which a Union and a Confederate veteran could stand pledged to die for each other. In 1870 it became the first American fraternal order to receive a charter by Act of Congress.`,
         Beliefs: {
-            Friendship_unto_Death: "Based on the Greek legend of Damon and Pythias, emphasizing loyalty that transcends personal safety.",
+            Friendship_unto_Death: `
+            The order's single doctrine, and it is a story rather than a proposition. Pythias, condemned to death by Dionysius, tyrant of Syracuse, asks leave to go home and settle his affairs. Damon offers his own body as surety: if Pythias does not return by the appointed hour, Damon dies in his place. Pythias is delayed — in the dramatic version by shipwreck and by robbers — and Damon is brought to the block, refusing to the last to believe his friend has abandoned him. Pythias arrives as the axe is lifted, and the two men fight each other for the privilege of dying. Dionysius, undone by what he has witnessed, pardons both and begs to be admitted as a third to their friendship.
+
+            Every rank in the order is a piece of this story, and the moral is exact: friendship is not sentiment but a legally enforceable substitution of one body for another. A Pythian is a man who has publicly declared that he would stand hostage.`,
+            Friendship_Charity_Benevolence: `
+            The motto — F.C.B. — appears on the shield in the order's coat of arms, beneath a knight's helmet and above the crossed battle-axe. The gloss taught to candidates distinguishes them carefully: Friendship is owed to the brother, Charity to the man in want whether or not he is a brother, and Benevolence is the settled disposition that produces both without being asked.`,
+            The_Tyrant_Converted: `
+            An unusual doctrinal feature: the villain is redeemed. Dionysius is not destroyed by the display of friendship but converted by it, and the order teaches this as its theory of political change — that the demonstration of virtue in front of power is what reforms power. This is why the order was founded in wartime Washington rather than as a private benefit club, and why its ritual ends with a tyrant kneeling rather than a tyrant dead.`,
         },
         Practices: {
-            Memento_Mori:
-                "Rituals take place in a 'Castle Hall' often decorated with black drapes. The altar features an open Bible resting on a coffin, sometimes flanked by genuine human skeletons (a practice historically sourced from medical supply catalogs). ",
-            The_Test:
-                "Historically involved the 'Plank Walk', a blindfolded test of courage where the initiate walked a narrow board (often just inches off the ground but made to feel dangerous) to prove trust in his brothers.",
+            Castle_Hall: `
+            The lodge room is a Castle Hall, furnished as a mediaeval-Greek hybrid: the Chancellor Commander enthroned on a dais under a canopy in the east, the Vice Chancellor opposite, the Prelate at the altar with an open Bible, the Master at Arms with a sword, and Inner and Outer Guards at a door fitted with a wicket for challenging visitors. Suits of armour, halberds and shields are standard furniture. For memorial services the hall is draped in black and the officers' stations are hung with crape.`,
+            The_Rank_of_Page: `
+            The first rank, teaching obedience and the beginnings of friendship. The candidate is prepared blindfolded and conducted into the Castle Hall by the Master at Arms, challenged at the door, and led on a circuit of the hall past each officer's station. He kneels at the altar, takes the obligation of secrecy on the open Bible, and is taught the sign, grip and password of a Page. The lecture presents the legend in outline and instructs him that he has entered a service whose central demand has not yet been made of him.`,
+            The_Rank_of_Esquire: `
+            The second rank, teaching charity and the courage that must underwrite it. The candidate is tested with a set of trials of nerve and constancy and is shown the consequences of a friendship not backed by the willingness to suffer. The rank's function is preparatory: the order withholds the full drama until the candidate has been made to understand that what is coming is not a pageant.`,
+            The_Rank_of_Knight_Amplified: `
+            The third and culminating rank, and in its full 'Amplified' form one of the most elaborate theatrical productions in American fraternalism: painted scenery, Greek tunics and armour, a throne room, a dungeon, an executioner's block, a cast of a dozen or more, and in large Castle Halls a stage with proper flies and lighting.
+
+            The candidate is placed inside the story rather than seated in front of it. He is condemned, imprisoned, and brought under guard before Dionysius on his throne. He is taken to the block; the executioner is real to him, hooded, with a weapon; the hour is announced as expiring. The lodge's whole intent is that in the seconds before the reprieve, a man who has never been in danger in his life should feel what it is to have someone else's arrival be the only thing standing between him and death. He is then raised, the sentence remitted, and knighted — dubbed on the shoulder with a sword and invested with the emblems of a Knight — before the whole Castle Hall.`,
+            The_Side_Degrees: `
+            As in every American order of the period, the official ritual was routinely followed by unofficial hazing bought from lodge-supply houses such as DeMoulin Brothers of Greenville, Illinois: the bucking goat, the electrified carpet, the trick guillotine, the spanking machine, and the blindfolded plank walk in which the candidate is made to totter along a board he believes to be high above the floor while it is in fact three inches off it and being rocked by two brothers. None of this is the ritual of the order, which strongly disapproved of it; all of it is what a great many candidates actually remember.`,
+            The_Uniform_Rank: `
+            Established 1878: a fully uniformed and drilled military branch organised in companies and regiments, with swords, plumed helmets and dress uniforms, competing in precision drill at the biennial encampments of the Supreme Lodge for substantial cash prizes. Its parades were for decades the order's principal public advertisement.`,
+            The_Dramatic_Order_Knights_of_Khorassan: `
+            Founded 1894 as the order's licensed absurdity, the Pythian counterpart to the Shriners: a Persian-themed 'fun degree' open only to Knights, organised into Temples under a Royal Vizier, with an oriental costume, a distinctive headdress and an initiation consisting largely of practical jokes. The structural logic is standard in American fraternalism — the solemn order needs a valve, so it charters its own comic double rather than let the levity contaminate the Castle Hall.`,
         },
         Structure: {
-            Castle_Hall: "The meeting place for the local lodge.",
-            Chancellors: "Officer titles include Chancellor Commander (presiding officer) and Vice Chancellor.",
+            Ranks: "Page, Esquire, Knight — conferred in sequence, with the Amplified Third Rank as the full dramatic form of the last.",
+            Officers: `
+            Chancellor Commander (presiding), Vice Chancellor, Prelate (chaplain and ritualist), Master of Work (responsible for the correctness of the ritual), Keeper of Records and Seal, Master of Finance, Master of Exchequer, Master at Arms, Inner Guard, Outer Guard, and the Past Chancellor as adviser. Offices rotate annually.`,
+            Governance: "Subordinate lodges under Grand Lodges under the Supreme Lodge, which alone may alter the ritual and which meets biennially.",
+            Auxiliaries: "The Pythian Sisters (1888, originally the Rathbone Sisters) for women; the Uniform Rank and the Dramatic Order Knights of Khorassan for members; Pythian Homes for aged members and orphans, funded by per-capita assessment on the lodges.",
         },
     },
 
     Knights_of_the_Golden_Circle: {
-        Origins: "Founded 1854 by George Bickley; a pro-slavery secret society.",
+        Origins: `
+        Founded in 1854 by George W. L. Bickley, a Cincinnati physician, novelist, patent-medicine man and serial fabulist, who announced the order as the revival of an existing secret organisation and printed membership certificates for chapters that did not exist. He was widely regarded as a confidence man even by his own members, and the order's finances went into his pocket. This did not prevent it from becoming, for about seven years, a genuine paramilitary movement across the southern and border states.
+
+        Its ritual and structure are unusually well documented because the order was exposed twice in print at the height of its influence — in an 1861 Exposition and an 1862 Authentic Exposition published by defectors — and because the Union Army's investigations of the wartime Copperhead movement produced sworn testimony on its workings.`,
         Beliefs: {
-            Golden_Circle:
-                "Goal to create a slave-holding empire encompassing the Southern US, Mexico, and the Caribbean (a circle with Havana as the center).",
-            Expansionism: "Advocated for filibustering expeditions to annex Mexico.",
+            The_Golden_Circle: `
+            The order's name is a map. Draw a circle of roughly sixteen degrees of latitude in radius centred on **Havana**, and it encloses the American South, all of Mexico, Central America, the West Indies and the northern rim of South America. That territory was to be conquered, annexed, and organised into twenty-five new slave states, which would permanently outvote the free states in the Senate and make the American republic a tropical slaveholding empire with the Caribbean as its inland sea.
+
+            The reasoning was demographic and coldly practical. Southern statesmen had concluded by the 1850s that the free states would inevitably out-populate them and that the sectional balance was doomed by arithmetic. The Golden Circle was the proposed solution: if new slave territory could not be found to the west, it would be taken to the south.`,
+            Filibustering_as_Patriotism: `
+            The order operated in the tradition of the American filibuster — the private military expedition against a foreign country, of the kind William Walker had led into Nicaragua — and regarded such expeditions as a legitimate extension of Manifest Destiny by citizens acting where their government was too timid. Bickley's central promise to recruits was a commission and a land grant in the conquered territory.`,
+            Aristocracy_of_the_Knights: `
+            The order's self-image was explicitly chivalric and anti-democratic. Members were Sir Knights; the conquered territories were to be administered by the Order's own officers; and the emphasis on degrees, castles and knighthood was a deliberate importation of feudal vocabulary into a republic, matching the plantation South's view of itself as an aristocracy.`,
         },
         Practices: {
-            Secret_Signs:
-                "Recognition involved placing the heel of the right foot in the hollow of the left (representing the position of a soldier at attention) and using the password 'Nu-el-par' (Rap-le-un reversed).",
-            Military_Drill:
-                "Castles (lodges) functioned as paramilitary units. Members drilled with rifles in open fields at night, preparing for the invasion of Mexico or defense of the South.",
+            The_Three_Degrees: `
+            A functional rather than mystical division, with a separate oath, grip, sign and password for each, and no member permitted knowledge of a degree above his own.
+            - **First Degree — the Knights of the Iron Hand.** The military degree, and the mass of the membership. Its business was drill, arms and the provision of soldiers for the invasion.
+            - **Second Degree — the Knights of the True Faith.** The financial degree. Its business was money: assessments, subscriptions, the purchase of arms, and the administration of the order's funds.
+            - **Third Degree — the Knights of the Columbian Star.** The governing degree, small and closed, holding the political direction of the order and the actual plan of conquest.`,
+            The_Oath: `
+            Administered in the Castle with the candidate's hand on a Bible laid on a table between a drawn dagger and a loaded pistol. The obligation bound him to secrecy, to obey the orders of his superiors in the Order without question, and to hold himself ready to march at any hour on the summons of his Captain, under the penalty of death at the hands of his own brothers — a penalty which, unlike the theatrical penalties of the Masonic system, the order's members had every reason to take literally.`,
+            Recognition: `
+            - **The password.** The order's principal word was **Nu-oh-lac** — 'Calhoun' reversed, for John C. Calhoun, the theorist of nullification and of slavery as a positive good. Reversal ciphers of this kind were the order's standard method, and several of its lesser words are built the same way.
+            - **The posture.** The sign of recognition included placing the heel of the right foot in the hollow of the left — the position of a soldier standing at attention — a deliberately military token for a deliberately military order.
+            - **The interrogatory.** In practice, on roads and in taverns across the border states, recognition often ran through a scripted exchange of apparently ordinary questions about whether a stranger was a friend to the South, with the correct answers established in advance.`,
+            The_Castles: `
+            Local units were **Castles**, each under a Captain, and each in the first degree functioned as a militia company. Members drilled with rifles at night in fields and woods, held target practice, elected officers, and maintained rolls and arms caches. In Texas in 1860 the Castles were numerous enough to muster thousands of men for Bickley's projected invasion of Mexico — which collapsed farcically at the Rio Grande when the promised supplies, money and Mexican allies all failed to materialise and Bickley was found to have spent the funds.`,
+            The_War_Years: `
+            After secession the order's southern Castles emptied into the Confederate Army, and the organisation reconstituted itself in the North as the underground of the Copperhead movement, appearing successively as the **Order of American Knights** (1863) and the **Order of the Sons of Liberty** (1864) across Indiana, Illinois and Ohio, with plans for the release of Confederate prisoners and a Northwest Confederacy. The federal government's prosecution of these conspiracies produced the Indianapolis treason trials and, ultimately, the Supreme Court's decision in Ex parte Milligan on the limits of military tribunals over civilians.`,
+            The_Buried_Treasure_Legend: `
+            The order's strangest afterlife. From the 1870s onward it was claimed that the K.G.C. had cached gold and arms across the South and West to finance a second rebellion, and that the caches were marked by a system of carved trees, rock inscriptions, and cipher maps — with Jesse James commonly named as a Knight and a custodian. Generations of treasure hunters have worked this material, and an entire subculture of 'K.G.C. sign' interpretation persists. No verified cache has ever been produced, and the legend is best understood as Lost Cause folklore rather than history — but it is the form in which most Americans have actually encountered the order.`,
         },
         Structure: {
-            Degrees: "Divided into Military, Financial, and Governing degrees.",
-            Castles: "Local chapters were called Castles.",
+            Castles: "Local chapters, each under a Captain, functioning as militia companies in the first degree.",
+            Degrees: "Military (Iron Hand), Financial (True Faith), and Governing (Columbian Star), compartmentalised so that the mass membership knew nothing of the leadership's plans.",
+            The_American_Legion: "The name given to the order's assembled military arm — the projected army of the invasion of Mexico.",
+            Bickleys_Fraud: "The president-general held near-absolute authority on paper, sold commissions and memberships for cash, inflated the order's numbers spectacularly in his own propaganda, and was arrested by federal authorities in 1863 carrying the order's ritual and cipher on his person. He died in 1867, two years after his release.",
         },
     },
 
     Bohemian_Grove: {
-        Origins: "Founded 1872 in San Francisco; a retreat for the global power elite in the California redwoods.",
+        Origins: `
+        The Bohemian Club was founded in San Francisco in 1872 by working journalists — men from the Examiner and the Chronicle — as a drinking and talking club for writers, artists and musicians. Within a decade it had run into the permanent problem of all bohemias: artists cannot pay for the wine. The club solved it by admitting men of means, and the solution became the institution. Today it operates on an explicit exchange: several hundred 'associate' members drawn from the arts pay reduced dues and in return supply the orchestra, chorus, actors, designers and writers, while the regular membership of executives, bankers, politicians and generals pays for everything and gets to be entertained by professionals in the woods.
+
+        The Grove itself is 2,700 acres of redwood forest on the Russian River near Monte Rio, Sonoma County, first used for an encampment in 1878 and bought outright over the following decades. The main Encampment runs sixteen days in mid-July, opening the second Friday. Roughly 2,000 to 2,500 men attend, distributed among some 120 camps. The waiting list for regular membership has run to fifteen or twenty years.
+
+        The best sources are G. William Domhoff's sociological study (1974), Philip Weiss's undercover account for Spy magazine (1989), and the 2000 video of the Cremation of Care; the club itself neither confirms nor comments.`,
         Beliefs: {
-            Motto: "'Weaving Spiders Come Not Here'—business deals are theoretically forbidden, though history (e.g., the Manhattan Project meeting) suggests otherwise.",
-            Spirit_of_Bohemia: "Veneration of nature and escape from industrial cares.",
+            Weaving_Spiders_Come_Not_Here: `
+            The club motto, taken from the fairies' lullaby in A Midsummer Night's Dream and carved at the entrance to the Dining Circle. A weaving spider is a man who does business. The rule forbids soliciting, deal-making, and the transaction of professional advantage inside the Grove, and it is the club's foundational fiction. Everyone knows it is violated; the violation is the point of attending. The rule's real function is to set the register: business at the Grove must be done obliquely, socially, as a favour between men who have sung together — never as a proposal. A member who pitches openly has committed the only genuine offence available at the Grove, and it is a serious one.
+
+            The most consequential documented violation is the September 1942 meeting at the Grove at which the Manhattan Project's organisation was discussed by Ernest Lawrence, Robert Oppenheimer and Army officials; the club marks it with a plaque. In 1967 Nixon and Reagan settled between them, at the Owl's Nest camp, that Reagan would not challenge Nixon for the 1968 nomination.`,
+            Care_as_the_Enemy: `
+            The Grove's one piece of theology is the personification of 'Care' — anxiety, obligation, the accumulated weight of consequential decision-making. Care is treated as an external entity with a will and a voice, who follows powerful men, who mocks their attempts to escape him, and who must be ritually killed every July for the fortnight to begin. The doctrine is a permission structure: the men present are not idle, they have performed a rite of purgation, and what happens afterwards — the drinking, the drag shows, the urination on the redwoods that the Grove is quietly famous for — is licensed by it rather than merely indulged in.`,
+            The_Owl_of_Bohemia: `
+            The club's emblem is the owl, wisdom keeping watch through the night, and its cult object is the Owl Shrine: a forty-foot owl of concrete over a steel frame, designed by the sculptor Haig Patigian and completed in 1929, replacing earlier temporary owls of wood and canvas. It stands at the head of the lake and its base is an altar and a speaking-place; a hidden amplification system gives the Owl a voice, which for many years belonged to a member with a nationally recognised broadcasting career. The Owl is not worshipped. It is the auditorium.`,
+            First_Names_Only: `
+            Inside the Grove men are addressed by first name only and rank is formally suspended: a cabinet secretary, a retired general and a symphony cellist share a camp, a bar and a latrine. The suspension is genuine within the camp and entirely fictitious between camps, since which camp a man belongs to encodes his standing precisely.`,
         },
         Practices: {
-            Cremation_of_Care:
-                "The opening ritual held at twilight. A boat crosses the lake carrying an effigy of 'Care' (a skeleton or dull body). High Priests in red, black, and gold robes preside at the base of a 40-foot concrete Owl statue.  The effigy is burned on a pyre to the sound of a live orchestra and pyrotechnics, symbolizing the purging of worldly anxieties.",
-            The_Grove_Play:
-                "A high-budget theatrical production ('High Jinx') written, composed, and performed by members, often featuring elaborate costumes and sets built into the forest.",
+            Cremation_of_Care: `
+            The opening rite, performed at the lakeside on the first Saturday night, first staged in 1881 and given its modern form by Joseph D. Redding. The sequence:
+
+            - Members assemble in the dark at the lake after dinner. A hidden orchestra and chorus play from the trees.
+            - A procession of hooded acolytes in scarlet and black robes carries torches down to the water's edge. The High Priest, in a horned or crested headdress and heavy robes, takes his place on the altar platform at the foot of the Owl Shrine.
+            - The effigy of Care — a shrouded, skeletal figure — is brought across the lake on a barge, poled by a hooded Ferryman. The Styx reference is deliberate and explicit in the script.
+            - The effigy is laid on the pyre. The High Priest pronounces the sentence of the Bohemians on Dull Care and calls for fire.
+            - **The reversal.** Care answers. His amplified voice mocks the assembly: they are hypocrites, their revels are a pretence, he owns them and will be waiting at the gate when the fortnight ends. At his defiance the sacred flame from the altar fails and will not kindle the pyre.
+            - The priests are compelled to fetch fire from elsewhere — the Lamp of Fellowship, burning at the foot of the Owl. Only that flame ignites the effigy. The doctrinal content of the whole rite is in this substitution: priestly authority cannot burn Care, and only fellowship can.
+            - Care burns. Fireworks, full orchestra, the chorus, and a great deal of shouting. The encampment is open.`,
+            The_Grove_Play: `
+            Also called the High Jinks, staged the second Saturday night in a natural amphitheatre with a hillside of living redwoods as the set. It is a full-scale original musical drama — libretto, score and design all by members — with a cast that can exceed three hundred, an orchestra, a chorus, torchlight, and mechanical stage effects built into the forest floor. Every female role is played by a man. The author is titled the Sire, is announced years in advance, and the honour is among the most competitively sought in the club. The counterpart is the Low Jinks on the first Friday: a bawdy musical comedy with drag numbers and jokes at the expense of the membership's most eminent figures.`,
+            Lakeside_Talks: `
+            Every weekday at 12:30 the membership gathers at the lake for a talk delivered by a member or invited guest, strictly off the record, with no press and no recording. Speakers over the decades have included sitting and former presidents, cabinet secretaries, agency directors, chairmen of the largest American corporations, physicists and Nobel laureates. Because the audience is roughly two thousand of the most consequential men in American life, and because nothing said will be reported, the Lakeside Talk is the single most concentrated instance of off-the-record elite briefing in the United States.`,
+            The_Camp_Circuit: `
+            The Encampment's actual social machinery. Each of the ~120 camps has its own bar, kitchen, cook, traditions, drink, and hierarchy, and the day is structured around camps entertaining each other: a member's camp issues invitations to a lunch or a drinks hour, and attendance, invitation and reciprocation constitute a visible economy of standing. Mandalay lunches are the apex. A man's whole Grove career can be read from the arc of his camp membership and the invitations he receives.`,
+            The_Daily_Rhythm: `
+            Reveille and a band; breakfast; the morning gin fizz, taken standing among the trees, which is a fixed and much-discussed institution; the Lakeside Talk at 12:30; afternoon camp crawls and naps in the redwoods; dinner at the Dining Circle, where fifteen hundred men eat at long communal tables under the trees; then campfire entertainments, choruses, and drinking until very late. The whole design removes clocks, telephones, women, journalists and consequences for sixteen days.`,
+            Exclusion: `
+            No women, no press, no photography, no recording, and no admission without a member's sponsorship. Litigation in California in the late 1970s and 1980s forced the club to hire women as employees, but membership and guest attendance remain male. Enforcement at the perimeter is serious: private security, controlled gates, and prosecution of trespassers.`,
         },
         Structure: {
-            Camps: "Members stay in distinct camps (e.g., Mandalay for defense contractors/politicians, Cave Man for intellectuals) which denote social standing.",
-            Demographics: "Exclusively male; women are strictly banned from the encampment.",
+            The_Club_and_the_Grove: "The Bohemian Club maintains a clubhouse at 624 Taylor Street in San Francisco, with year-round dining and performance; the Grove is its summer property. Membership is in the club; the Encampment is the club's principal event.",
+            Camps: `
+            About 120 camps, each a permanent installation with sleeping platforms, a bar and a clubhouse, and each with a distinct character and constituency. Mandalay is the most prestigious and has hosted presidents, secretaries of state and defence-industry chairmen; Hill Billies concentrates Texan and Southern money and political families; Owl's Nest hosted Nixon and Reagan; Cave Man is associated with scientists and academics; Zaca with the musicians; Lost Angels with Los Angeles wealth. Placement in a camp is by invitation from the camp's members, is difficult to change, and is the Grove's true status hierarchy.`,
+            Associate_Members: `
+            Artists, musicians, actors and writers admitted at reduced dues on the understanding that they will perform. This is the structural bargain that makes the Grove Plays possible and distinguishes the Grove from every other elite retreat: it does not hire entertainment, it owns it, and the men in the orchestra pit are members with the same first-name privileges as the men in the audience.`,
         },
     },
 
     Bilderberg_Group: {
-        Origins: "Founded 1954 in Oosterbeek, Netherlands to foster Atlanticism.",
+        Origins: `
+        The first meeting was held from 29 to 31 May 1954 at the Hotel de Bilderberg in Oosterbeek, near Arnhem, and the group has been named after that hotel ever since — it has never adopted a name of its own, has no charter, no membership and no legal existence.
+
+        It was assembled by Józef Retinger, a Polish émigré political fixer who had been an adviser to the Polish government-in-exile and a founder of the European Movement, working with Prince Bernhard of the Netherlands, who provided the royal convening power that made attendance flattering rather than merely useful. The stated problem was concrete and of its moment: anti-American feeling was rising sharply in Western Europe in the early 1950s, the Atlantic alliance was young and unstable, and there was no forum in which senior Europeans and Americans could argue with each other without every word being reported.
+
+        Prince Bernhard chaired it until 1976, when he was forced out by the Lockheed bribery scandal. His successors have included Lord Home, Lord Carrington and Étienne Davignon. Since 2010, under sustained public pressure, the group has published its participant list and its list of topics in advance.`,
         Beliefs: {
-            Atlanticism: "Strengthening the consensus between North America and Europe on free-market capitalism and strategy.",
-            Chatham_House_Rule:
-                "Participants can use the information received, but cannot reveal the identity of the speaker, encouraging total candor.",
+            Atlanticism: `
+            The founding and continuing conviction: that the security and prosperity of the West depend on Europe and North America maintaining a common strategic and economic position, and that this consensus does not form spontaneously but has to be manufactured, in person, by the people who run things, repeatedly. Everything about the meeting's design — the composition, the format, the secrecy — follows from treating elite consensus as an artefact that requires maintenance rather than a natural state.`,
+            Candour_Requires_Deniability: `
+            The group's operating theory of speech, and its most defensible claim. A finance minister, a central banker or a chief executive who knows he will be quoted will say only what his institution has already approved, which is worthless to everyone in the room. Remove attribution and the same person will say what he actually thinks about a currency, a war, or a colleague. The group therefore operates under a strict form of the Chatham House Rule: participants may use anything they hear, but may never reveal who said it or that any particular person said anything at all.`,
+            The_Personal_Capacity_Fiction: `
+            Participants attend 'in a personal capacity' and not as representatives of their governments, parties, companies or newspapers. This is transparently a fiction — nobody invites a defence minister for his personal opinions — but it is a load-bearing one. It permits an opposition leader and a sitting prime minister to argue in the same room without it constituting negotiation, and it releases participants from having to defend anything said as policy.`,
+            No_Conclusions: `
+            The group produces no communiqué, no resolution, no vote, no policy statement and no minutes for publication. This is not modesty; it is the design. An institution that decided things would have to be accountable for its decisions and would immediately be constrained. An institution that only talks can host anyone and commit to nothing — while every participant leaves with a revised sense of what the others will tolerate, which is where the actual influence lies.`,
         },
         Practices: {
-            Secrecy:
-                "The 'ritual' is the total exclusion of the public. Hotels are completely booked out, staff are vetted, and a ring of armed security surrounds the venue. White noise generators are reportedly used to prevent eavesdropping.",
-            The_Meeting:
-                "A three-day conference of intense roundtable discussions. Seating is arranged alphabetically to remove hierarchy, with no visual aids or prepared speeches allowed to force direct engagement.",
+            The_Format: `
+            Thursday evening to Sunday, roughly 120 to 150 participants, historically about two-thirds European and one-third North American. Each session opens with two to four introductory statements of eight to ten minutes each — never a lecture, never a prepared speech read from a text — and then goes to the open floor for the remainder of the session. No slides, no presentations, no handouts. The chair moves briskly and cuts off speakers. The entire design is engineered against performance: a participant who tries to deliver a set-piece will be stopped.`,
+            The_Seating: `
+            Participants are seated at a single conference arrangement and the seating is **reassigned for every session**, so that over three days each participant sits beside a rotating series of strangers from other countries and other sectors. This is a deliberate mechanism, not a courtesy: it prevents the formation of national blocs, mixes bankers with soldiers and editors with ministers, and manufactures the incidental conversations that are the real product of the weekend.`,
+            Coming_Alone: `
+            Participants attend without staff. No aides, no advisers, no note-takers, no press officers, no security details in the sessions. A cabinet minister sits in the room with no one to hand him a briefing note, and must therefore argue from what he actually knows. This rule does more to produce candour than the secrecy does.`,
+            The_Perimeter: `
+            The security ritual is the part the public sees. The host hotel is taken over in its entirety and emptied of other guests; staff are vetted and often replaced; a cordon of national police and private security is thrown around the site with exclusion zones on the approach roads; mobile telephones are surrendered or excluded from sessions; and electronic countermeasures are deployed against eavesdropping. The costs are borne by the host country's participants and, in practice, by the host government's police budget — which is itself an interesting fact about the group's status.`,
+            The_Kingmaker_Effect: `
+            The most consequential informal practice. The Steering Committee has a long record of inviting relatively junior figures shortly before their careers accelerated — Bill Clinton attended in 1991 as governor of Arkansas, Tony Blair in 1993 as a shadow minister — and the pattern has fed decades of conspiracy literature claiming the group selects leaders. The likelier reading is the reverse and is not much less interesting: a well-informed committee of elder statesmen is very good at identifying who is about to matter, and an invitation is a signal to the rest of the transatlantic establishment that a person is worth knowing. The effect is real; the causation runs mostly through reputation rather than appointment.`,
         },
         Structure: {
-            Steering_Committee: "A small inner circle that selects the annual invitation list.",
-            Participants: "Approx. 120-150 influential figures from politics, finance, and media.",
+            Steering_Committee: "Roughly thirty members serving renewable terms, chaired by the group's chairman, which selects the annual invitation list, sets the agenda, and constitutes the only continuing body. Membership of the Steering Committee is the closest thing to membership of Bilderberg that exists.",
+            Participants: "Around 120-150 per meeting: heads of government and opposition leaders, finance and defence ministers, central bankers, chairmen and chief executives of the largest banks and industrial firms, senior military and intelligence officers, editors and proprietors of major newspapers, and a deliberate leavening of academics and technologists. Roughly a third are returning participants; the remainder are new each year.",
+            No_Legal_Existence: "The group is not incorporated, holds no assets, has no members and no headquarters. Costs are met by an informal foundation structure in the host country and by participants' own travel arrangements. There is nothing to subpoena, dissolve, or place under freedom-of-information law — which is, structurally, the whole point.",
+            The_Press_Problem: "Editors and proprietors of major newspapers have attended from the beginning, on the same terms as everyone else, which means that a substantial part of the transatlantic press corps' senior management has been personally bound not to report the meeting. This, more than the security cordon, is why the group operated in near-total obscurity for its first fifty years.",
         },
     },
 
     Opus_Dei: {
-        Origins: "Founded 1928 in Spain by St. Josemaría Escrivá.",
+        Origins: `
+        Founded in Madrid on 2 October 1928 by Josemaría Escrivá de Balaguer, a twenty-six-year-old Aragonese priest who described the foundation as a vision received during a retreat. Its full name is the Prelature of the Holy Cross and Opus Dei; members call it simply 'the Work' (la Obra), and Escrivá simply 'the Founder' or 'the Father'.
+
+        Its foundational text is The Way (Camino, 1934/1939): 999 numbered maxims of a few lines each, aphoristic, military in tone, and designed to be read one at a time in meditation. It has sold millions of copies and is the single best key to the organisation's psychology.
+
+        In 1982 John Paul II made Opus Dei the first and so far only **personal prelature** in the Church — a jurisdiction defined not by territory but by persons, so that its members answer to their own Prelate wherever in the world they live. Escrivá was canonised in 2002, twenty-seven years after his death, in one of the fastest such processes of the modern era. Since 2022 the Holy See has been progressively restructuring the prelature and reducing its autonomy.`,
         Beliefs: {
-            Universal_Call_to_Holiness: "The belief that ordinary work and daily life are the primary means of sanctification.",
-            Divine_Filiation: "A deep awareness of being a child of God.",
+            The_Universal_Call_to_Holiness: `
+            The Work's genuine theological contribution, and its whole reason for existing. Before Opus Dei, Catholic spirituality assumed a hierarchy of states of life: the monk and the nun were pursuing perfection, the layman was managing. Escrivá's claim, decades ahead of the Second Vatican Council which subsequently affirmed it, was that there is no such hierarchy — that a lawyer drafting a contract well, a mother cooking a meal properly, or an engineer solving a problem carefully is performing an act of worship identical in kind to a monk's office, and that ordinary professional work done excellently is the ordinary means of sanctification. Members are therefore not withdrawn from the world but pushed deeper into it, and are expected to be conspicuously competent at their jobs as a religious duty.`,
+            Divine_Filiation: `
+            The affective centre of the spirituality: the settled, continuous awareness of being a child of God, which Escrivá taught should produce not anxiety but a specific kind of confidence — the security of a child in his father's house, from which the boldness required for the rest of the programme follows.`,
+            Sanctifying_Ordinary_Work: `
+            The doctrine has a hard edge that is easy to miss. If work is the means of sanctification, then career advancement is not worldly ambition but apostolic strategy: the higher a member rises, the greater the field of his sanctification and his influence. This is the honest explanation for Opus Dei's documented concentration in law, finance, medicine, universities, government ministries and communications, and for the persistent outside perception of the Work as an elite career network — a perception that misreads a spiritual doctrine as a conspiracy, but is not describing an illusion.`,
+            The_Value_of_Pain: `
+            The Work retains a traditional Catholic theology of expiatory suffering that most of the Church quietly set aside in the twentieth century: that voluntarily accepted physical pain, offered in union with the Passion, has real supernatural effect, disciplines the appetite, and expiates sin — one's own and other people's. This belief, not any taste for cruelty, is the reason for the mortifications below, and members practise them privately and without discussing them.`,
         },
         Practices: {
-            Plan_of_Life:
-                "Strict daily schedule including the 'Heroic Minute' (waking up immediately upon the alarm), mental prayer, daily Mass, and the Rosary.",
-            Mortification:
-                "Private practice of 'corporal mortification' by Numeraries to subdue the flesh. This includes wearing a cilice (a spiked metal chain) around the upper thigh for two hours a day  and using a 'discipline' (cord whip) on the back while reciting prayers.",
-            The_Circle: "Weekly gatherings separated by gender for spiritual instruction and a 'check-in' on the fulfillment of norms.",
+            The_Plan_of_Life: `
+            Every member follows a fixed daily rule, called the norms, which structures the entire day and is reported on weekly:
+            - **The Heroic Minute.** The alarm sounds and the member rises at once, without a moment's negotiation, kneels and kisses the floor, saying **Serviam** — 'I will serve'. The first act of the day is a refusal of one's own comfort, and the whole rule is built on the assumption that a man who wins that one contest at 6 a.m. will win the rest.
+            - Morning offering; **half an hour of mental prayer** before or after Mass; **daily Mass and Communion**; the **Angelus** at noon; **the Rosary**, in full; **spiritual reading** — customarily fifteen minutes of the New Testament and fifteen of a spiritual book; a **second half-hour of mental prayer** in the afternoon; the **Preces**, the Work's own set of prayers, recited kneeling in Latin, including intercessions for the Pope, the local bishop and the Father; a brief **examination of conscience** at midday and a full one at night; three Hail Marys and holy water before sleep.
+            - **The Sabbatical customs.** Small ascetic details fixed by rule: silence from night prayers until after Mass the next morning, sleeping without a pillow or on the floor on a designated night of the week for celibate members, and a weekly fast.`,
+            Corporal_Mortification: `
+            Practised by numeraries and associates — the celibate members — and not by the married supernumeraries who form the great majority.
+            - **The cilice**: a chain of small metal links with inward-pointing spikes, buckled around the upper thigh where it is invisible under clothing, worn for two hours a day, omitted on Sundays and major feasts. It does not break the skin in normal use; it is designed to be continuously, unignorably painful.
+            - **The discipline**: a short knotted cord whip, used on the buttocks or back once a week, for the duration of a recited prayer — customarily the Salve Regina or a set number of Our Fathers.
+            - **Lesser mortifications** through the day: cold showers, taking the least appetising portion, not adding sugar, not complaining of heat or cold, not looking where one wants to look.
+            The materials are supplied by the Work, the practice is prescribed by the director, and members are instructed not to discuss it — including with their families.`,
+            The_Weekly_Chat_and_Confession: `
+            The formation system, and the mechanism outsiders find most troubling.
+            - **The chat** (la charla or 'confidence'): a weekly one-to-one conversation with a lay director of the same sex, in which the member accounts for his interior life — temptations, difficulties, the fulfilment of the norms, friendships, reading, professional decisions. It is not sacramental confession and is not protected by the seal, and the director may pass its content to the Work's own hierarchy for the member's formation.
+            - **Weekly sacramental confession** to a priest of the prelature.
+            - **The circle**: a weekly group session, strictly segregated by sex, with a talk, a commentary on the Gospel, and a public examination of practices.
+            - **Monthly recollection**, an **annual retreat** of several days in silence, and an **annual course** of formation lasting weeks.`,
+            Apostolate_and_Recruitment: `
+            The Work uses the word **proselytism** approvingly, in its older neutral sense, and treats recruitment as a duty rather than an activity. Its stages have formal names: **St Raphael** work with the young, run through youth clubs, study centres and residences; **St Gabriel** work with married adults, producing supernumeraries; **St Michael** work with those judged capable of the celibate numerary vocation. Members are expected to cultivate friendships with a view to apostolate, and directors have historically kept lists of promising contacts. Critics — including former members and, in some jurisdictions, courts — have objected principally to the recruitment of teenagers and to the pressure applied to those who wish to leave.`,
+            Life_in_the_Centres: `
+            Numeraries live in centres of the Work rather than with their families. Each centre has an oratory with the Blessed Sacrament reserved. Salaries are handed over in full and living expenses provided. Men's and women's centres are entirely separate, and where they share a building they have separate entrances, separate staircases and no contact. Correspondence and reading were historically supervised by directors, and members were expected to seek permission for books, travel, and significant personal decisions.
+
+            The **numerary assistants** are a distinct and much-criticised category: women who take the celibate numerary commitment and whose assigned professional work is the domestic service of the Work's centres — cooking, laundry and cleaning for the men's and women's houses. Their status has been the subject of litigation and of Vatican attention.`,
         },
         Structure: {
-            Prelature: "Headed by a Prelate who reports to the Pope.",
-            Hierarchy:
-                "Numeraries (celibate, live in centers), Associates (celibate, live with family), and Supernumeraries (married, majority of members).",
+            Personal_Prelature: "Headed by a Prelate, resident in Rome, with his own presbyterate of priests incardinated in the prelature and a curia; members remain subject to their local diocesan bishop in ordinary parish matters but to the Prelate in what concerns the Work. Reforms since 2022 have moved the prelature under the Dicastery for the Clergy and required its statutes to be revised.",
+            The_Grades_of_Membership: `
+            - **Supernumeraries** — the large majority, typically married, living with their families and pursuing ordinary careers, following an adapted plan of life and contributing financially.
+            - **Associates** — celibate, committed, but living outside the centres, usually because of family obligations or professional circumstances.
+            - **Numeraries** — celibate, living in centres, available for assignment anywhere in the world, holding the directive posts, and required to hold or pursue a doctorate in the Work's own disciplines.
+            - **Numerary assistants** — celibate women assigned to the domestic administration of the centres.
+            - **The Priestly Society of the Holy Cross** — the prelature's priests, and diocesan priests associated with its spirituality without leaving their dioceses.
+            Commitment proceeds by stages: a written declaration, the **oblation** after about a year, and **fidelity** — the permanent commitment — after roughly five.`,
+            Regional_Governance: "Regional commissions in each country, with separate and parallel men's and women's branches under a single Prelate, and a General Council and Central Advisory in Rome. Corporate works — universities, business schools, hospitals, residences and schools on several continents — are legally independent institutions whose spiritual direction the prelature supplies.",
         },
     },
 
     Independent_Order_of_Odd_Fellows: {
-        Origins: "Founded 1819 in Baltimore by Thomas Wildey.",
+        Origins: `
+        Founded 26 April 1819 at the Seven Stars Tavern on Second Street, Baltimore, by Thomas Wildey and four other English immigrants who had advertised in a Baltimore newspaper for any Odd Fellows in the city to come forward. They constituted Washington Lodge No. 1 and later obtained a charter from the Manchester Unity in England, breaking away as a sovereign American order in 1842.
+
+        The name is not ironic. In eighteenth-century England, where each established trade had its own guild, men of scattered and 'odd' trades — too few of any one craft to form a society — banded together in mixed mutual-aid clubs. An Odd Fellow was literally a man whose occupation was too odd to have a guild of its own, and the order's entire logic follows from that: it is a burial club and sickness fund for people the existing institutions did not cover, wrapped in an initiatory system to make defection unthinkable.
+
+        By 1915 it was the largest fraternal order in the United States, with well over three million members, and its halls — almost invariably the upper floor above a Main Street storefront, with a lodge room, an anteroom and a property closet — remain a standard feature of nineteenth-century American townscapes.`,
         Beliefs: {
-            Triple_Link: "Friendship, Love, and Truth (FLT), symbolized by three interlinked chain links.",
-            Mandate: "To 'visit the sick, relieve the distressed, bury the dead and educate the orphan'.",
+            Friendship_Love_and_Truth: `
+            The order's whole doctrine is compressed into three interlocking chain links carrying the letters F, L and T, which appear on every hall, banner, collar and gravestone the order has ever produced. The three are taught as a progression rather than a list: Friendship is the natural bond between men who know each other; Love (charity, brotherly love) extends the bond to the stranger who cannot repay it; Truth is the discipline that keeps the first two from becoming sentiment. The three degrees of the order correspond to the three links exactly, and each is dramatised by a scriptural narrative.`,
+            The_Fourfold_Charge: `
+            The commission an Odd Fellow accepts on initiation and repeats for life: to visit the sick, relieve the distressed, bury the dead, and educate the orphan. Every clause was a concrete financial undertaking before the welfare state existed. Lodges paid weekly sick benefits at a fixed rate, funeral benefits sufficient to prevent a pauper's grave, and stipends to widows and orphans; lodges bought and maintained their own cemeteries; committees of members physically attended the sick in rotation, sitting up overnight in shifts. The ritual exists to make men keep doing this after the novelty has worn off.`,
+            The_Emblematic_Language: `
+            The order teaches through a fixed vocabulary of emblems, each with a rehearsed gloss the members can recite: the three links (F.L.T.); the heart in the open hand (charity given openly, not grudgingly); the all-seeing eye; the beehive (industry); the bundle of rods (a single stick breaks, the bundle does not); the scythe and hourglass; the coffin and the skull and crossbones; the serpent (wisdom); the axe; the quiver of arrows; the moon and seven stars; Noah's ark; the dove; the tent of the patriarchs. A furnished Odd Fellows hall is a room in which every object on the walls is a sentence.`,
         },
         Practices: {
-            Initiatory_Degree:
-                "Historically involved binding the candidate in heavy chains to represent the helplessness of the uninitiated in a cold world.",
-            Memento_Mori:
-                "Lodges often kept a real human skeleton (the 'Odd Fellow') in a niche or coffin. During the initiation, the candidate might be shown the skeleton illuminated by a candle to impress upon them the equality of death.",
-            Living_Dead:
-                "In some older rites, a member would play the role of a corpse on a stretcher to test the initiate's reaction and willingness to bury the dead.",
+            The_Initiatory_Degree: `
+            The candidate is prepared in the anteroom: blindfolded with a hoodwink, robed, and — the order's signature — loaded with heavy iron chains, which he wears for the first part of the ceremony as the fetters of ignorance and of the man who stands alone in the world with no one bound to help him. He is led in by the Conductor, challenged by the Warden at the door, and taken around the lodge room.
+
+            At a chosen moment the Grand Alarm is sounded: a sudden coordinated crash of noise — chains dropped, a gong, rattles, stamping — designed to terrify a blindfolded man. He is then halted, the hoodwink is removed, and he finds himself facing the emblem of mortality: in a great many lodges a real articulated human skeleton, kept in a cabinet or a standing coffin and lit from below by a single lamp. The lecture delivered over it is on the brevity of life and the equality of the grave. Lodges bought these skeletons from ordinary medical supply houses, and when lodges dissolved in the twentieth century they surfaced regularly at estate auctions, to the consternation of the auctioneers.
+
+            The chains are then struck off him, and he is invested with the white collar of the Initiatory Degree and taught the sign, grip and password.`,
+            The_Three_Degrees: `
+            Each degree is a staged tableau with speaking parts, costumes and a painted scene; the officers titled Right and Left Scene Supporter exist specifically to manage these.
+            - **First Degree, Friendship** (pink collar): the covenant of David and Jonathan, played out before the candidate, with the lesson that friendship is a sworn bond surviving the enmity of kings.
+            - **Second Degree, Brotherly Love** (royal blue collar): the parable of the Good Samaritan, enacted with a member playing the traveller beaten and stripped on the road to Jericho, lying on the lodge floor while the priest and the Levite pass him by; the candidate is frequently made to be the Samaritan.
+            - **Third Degree, Truth** (scarlet collar): the degree of the emblems of mortality — the coffin, the scythe, the hourglass, the skull and crossbones — teaching that truth is the only thing a man carries past the grave. A Past Grand thereafter wears purple.`,
+            The_Side_Degrees_and_the_Machinery: `
+            Alongside the official ritual, American lodges of this and every comparable order ran unofficial 'side degrees' consisting entirely of hazing, for which there was a substantial manufacturing industry. The DeMoulin Brothers company of Greenville, Illinois, sold illustrated catalogues of initiation apparatus to lodges nationwide: the Bucking Goat, a wheeled billy-goat effigy on which a blindfolded candidate was made to ride and which threw him; the Ferris Wheel Goat; the Electric Carpet, a floor mat wired to an induction coil; the Lung Tester, a tube which sprayed the candidate in the face or fired a blank cartridge when he blew into it; a trick guillotine; a branding iron that applied ice while a hidden device produced the hiss and smell of searing; and spanking machines of several designs. This apparatus is the origin of the American joke about 'riding the goat', and surviving DeMoulin catalogues are the single best documentary source on what actually happened in a nineteenth-century lodge room after the official ritual had closed.`,
+            Passwords_and_Access: `
+            Admission to a lodge meeting requires the current Term Password, changed every term and distributed by the Grand Lodge, given to the Outside Guardian at the outer door and the Inside Guardian at the inner. A travelling member visiting a strange lodge is examined by a committee on the signs, grips and words of his degrees before admission — the mechanism that allowed the sick-benefit system to function nationally, since a member falling ill far from home could present himself to any lodge and be supported.`,
+            The_Burial_Rite: `
+            The order's most public ceremony and its original purpose. Members attend in white gloves and regalia; the lodge forms about the grave; each brother in turn casts a sprig of evergreen into it, and the ritual words — Friendship, Love and Truth — are pronounced over the coffin. The evergreen signifies that the covenant does not end with the man. In a period when a pauper's funeral was a lasting disgrace on a family, the guarantee of a decent burial with fifty men in procession was the most valuable benefit the order sold.`,
         },
         Structure: {
-            Sovereign_Grand_Lodge: "The supreme governing body.",
-            Branches: "Includes the Rebekahs (female auxiliary) and Patriarchs Militant (uniformed branch akin to Knights Templar).",
+            Sovereign_Grand_Lodge: "The supreme governing body of the order, above the Grand Lodges of each state or jurisdiction, which in turn charter the subordinate lodges.",
+            Lodge_Officers: `
+            The Noble Grand presides from the raised station, with the Vice Grand opposite him and a Past Grand beside him as adviser. Beneath them: Warden, Conductor, Chaplain, Recording and Financial Secretaries, Treasurer, Inside and Outside Guardians, and the Right and Left Supporters and Scene Supporters. Offices rotate annually by election, and every member is expected to work his way up the chairs — the order's real training programme in running a meeting, keeping books, and speaking in public, which for a nineteenth-century clerk or mechanic was not a trivial education.`,
+            The_Encampment: `
+            The higher branch, conferring the Patriarchal, Golden Rule and Royal Purple degrees on Third Degree members, with its own officers (Chief Patriarch, High Priest, Senior and Junior Warden) and a tented, Old Testament patriarchal setting.`,
+            Rebekahs_and_Patriarchs_Militant: `
+            The Rebekah Degree, written in 1851 by Schuyler Colfax — later Speaker of the House and Vice President — admitted women, initially as the wives and daughters of members and later in their own right; its emblems are the moon and seven stars, the dove, the lily and the beehive. The Patriarchs Militant, established 1885, is the uniformed branch: members are Chevaliers, organised into Cantons, drilling in military uniform with swords and plumed chapeaux and competing in drill at the annual sessions.`,
         },
     },
 
@@ -2533,76 +3882,6 @@ const dataSocieties = {
         },
     },
 
-    Cult_of_Dionysus_Maenads: {
-        Origins:
-            "Ancient Greece; ecstatic mystery tradition dedicated to Dionysus, especially active in rural mountain regions (e.g., Mount Cithaeron).",
-        Beliefs: {
-            Ecstasy:
-                "The god is experienced directly through 'ekstasis' (standing outside oneself), achieved through wine, dance, and rhythm.",
-            Divine_Madness: "Frenzy (mania) is a divine gift; the rational mind is surrendered to the flow of nature.",
-            Death_Rebirth:
-                "Dismemberment and reconstitution of Dionysus (Zagreus) mirrored the winemaking cycle (crushing grapes) and the seasons.",
-        },
-        Practices: {
-            Sparagmos:
-                "The 'tearing apart'. In the height of frenzy, Maenads would allegedly rip live animals (bulls or goats) limb from limb with their bare hands to release the god's vitality.",
-            Omophagia:
-                "The eating of raw flesh. Participants consumed the warm, bloody meat immediately after the sparagmos to internalize the divine life force.",
-            Nocturnal_Thiasoi:
-                "Nighttime rites on mountains. Maenads wore fawn skins (nebris), wreathed their hair with ivy and snakes, and carried the 'Thyrsus'—a fennel staff topped with a pine cone and dripped with honey. ",
-        },
-        Structure: {
-            Thiasus:
-                "Bands of female worshippers (Maenads) led by a male priest or Dionysus himself. Men were often excluded from the core rites.",
-        },
-    },
-
-    Cult_of_Isis_Osiris: {
-        Origins:
-            "Originally Egyptian, this evolved into a sophisticated pan-Mediterranean mystery religion during the Greco-Roman period (1st-4th centuries CE). It was no longer a state religion of the Nile, but a personal salvation cult centered in Rome (the Iseum Campense), offering a direct emotional bond with a Universal Mother who conquered Fate (Heimarmene).",
-        Beliefs: {
-            The_Mors_Voluntaria: `
-            Initiation is defined as a 'Voluntary Death' (Mors Voluntaria). The uninitiated soul is already dead, trapped in the numbness of daily routine. To live eternally, one must choose to die before dying.
-            - **The Threshold of Proserpina:** The initiate does not merely act out a play; they physically cross the psychological threshold of the underworld to stand in the silence of the grave, proving to the Fates that they have already died and cannot be claimed again.`,
-
-            The_Black_Osiris_Alchemy: `
-            Veneration of the 'Black Osiris' (Osiris-Kem). This is not the darkness of evil, but the darkness of the rich, fertile silt of the Nile and the Alchemical 'Nigredo' (Putrefaction).
-            - **The Prime Matter:** Osiris is the 'Lead' or corpse that contains the gold. He represents the 'Cool Water'—the vital moisture of life. The uninitiated are 'dry' (Typhonian/Setian); the initiated are 'moist' and alive. We sprinkle the corpse with its own moisture to revive it.`,
-
-            Isis_Myrionyma: `
-            Isis of the Ten Thousand Names. She is not one goddess among many; she is the Platonic 'Soul of the World'.
-            - **The Syncretic Key:** When we pray to Minerva, Venus, Diana, or Proserpina, we are merely addressing the different masks of Isis. She is the 'Una Quae Es Omnia' (The One Who Is All).`,
-        },
-        Practices: {
-            The_Apertio_Morning_Opening: `
-            The daily liturgy begins before dawn. The temple is not open to the public; the priests perform the 'Awakening of the Goddess'.
-            - **The Curtains:** The statue of Isis is hidden behind white linen curtains. At the exact moment of sunrise, the 'Pastophoros' draws the curtains back, allowing the goddess to 'see' the sun (Ra).
-            - **The Toilette:** The idol is physically washed, dressed in fresh silks, and offered food. The priest holds a mirror up to the statue's face so she may admire her beauty. This establishes an intimate, living relationship between the servant and the deity.`,
-
-            Navigium_Isidis_The_Launch: `
-            The 'Vessel of Isis' festival (March 5) marks the opening of the seas. It is a chaotic, joyous carnival of masks.
-            - **The Procession:** Initiates wear white linen (never wool, which is the excrement of a sluggish beast). They carry the 'Situla' (a breast-shaped bucket symbolizing the milk of the mother).
-            - **The Anubis Mask:** A priest wearing the jackal-head of Anubis leads the way, carrying the caduceus. He is the 'Opener of the Ways', proving that we walk between the worlds of the living and the dead.
-            - **The Ship:** A golden model ship is loaded with spices and milk and launched into the sea as a votive offering to guarantee safe passage through the storms of life.`,
-
-            The_Nocturnal_Initiation: `
-            The supreme secret rite described by Apuleius. After a ten-day fast from meat and wine to purify the blood:
-            - **The Midnight Sun:** The initiate is led into the crypt. In the total sensory deprivation of the dark, a sudden, blinding light is revealed. "I saw the Sun shining at midnight with glittering light.". This is the 'Intellectual Sun' (Osiris) that illuminates the underworld.
-            - **The 12-Fold Robe:** The next morning, the initiate emerges wearing the 'Stole of Olympias'—a stiff, embroidered cloak featuring the twelve signs of the zodiac. They stand on a wooden dais in the temple as a living statue of the Sun God, worshipped by the crowd as a divine being.`,
-
-            The_Sistrum_Warfare: `
-            The shaking of the Sistrum (ritual rattle) is not musical accompaniment; it is spiritual warfare.
-            - **Sonic Theology:** The universe naturally wants to stop, to stagnate, to become dry and silent (Entropy/Set). The sharp, metallic 'hiss' of the sistrum's brass rings keeps the atoms of the universe in motion. It is the sound of constant agitation that prevents death from settling in.`,
-        },
-        Structure: {
-            The_Hieratic_College: `
-            A strict, professional priesthood.
-            - **The Prophet (Prophetes):** The high priest who carries the electric-blue jug of Nile water (the 'Hydreion'), usually holding it under a cloak with hands covered to protect its sanctity.
-            - **The Stolist (Stolistes):** The keeper of the sacred vestments, responsible for the complex color-coding of the goddess's moods.
-            - **The Shaven Heads:** All priests shave their heads completely and pluck all body hair to prevent lice and impurities from entering the sanctuary. They are 'The Bald Ones' who shine like the moon.`,
-        },
-    },
-
     Ophite_Serpent_Gnostics: {
         Origins: "1st-3rd century Mediterranean; named after the Greek 'Ophis' (snake).",
         Beliefs: {
@@ -2757,28 +4036,72 @@ const dataSocieties = {
                 "Priests pierced their earlobes, tongues, and genitals with maguey thorns or stingray spines, collecting blood on paper strips to burn.",
             Venus_Warfare:
                 "Wars were often timed to coincide with the first appearance of Venus as the Morning Star to align with the aggressive energy of the planet.",
+            The_New_Fire_Ceremony_Toxiuhmolpilia: `
+            The 'Binding of the Years'. Occurred every 52 years when the 260-day ritual calendar and 365-day solar calendar aligned.
+            - **The Great Extinguishing:** At sunset, every fire in the Aztec empire—from the temple braziers to the humblest cooking hearth—was extinguished. The statues of household gods were smashed and thrown into rivers to prevent them from turning into demons (Tzitzimime) in the encroaching dark.
+            - **The Midnight Kindling:** Priests watched the Pleiades reach the zenith. If the stars continued moving, the world would survive. A master priest would kindle a new fire using a drill board specifically on the chest of a sacrificial victim.
+            - **The Relay:** If the spark caught, the heart was cut out and cast into the flames. Runners then lit torches from this single chest-fire and ran them to every city ward, relighting the world for another 52-year 'century'.`,
         },
         Structure: {
             Calmecac: "Elite seminary schools where noble sons were trained in astronomy, reading codices, and ritual austerity.",
         },
     },
 
-    Order_of_Nine_Angles: {
-        Origins: "1970s Britain; decentralized occult network led by David Myatt. Known for fusing Satanism with National Socialism.",
+    Mayan_Ah_Kin_Daykeepers: {
+        Origins:
+            "Classic and Post-Classic Maya (c. 250–1200 CE); specifically centered on the production of bark-paper almanacs like the 'Códice Maya de México'. These were not mere scribes but elite time-sorcerers who managed the 'Chak Ek' (Great Star/Venus) cycles to predict war and famine.",
         Beliefs: {
-            Self_Transcendence: "Evolution requires 'culling' the weak and overcoming physical/mental limits to create a new species.",
+            Venus_as_Aggressor: `
+            Unlike Western astrology which views Venus as the planet of love, the Maya identified Venus (Chak Ek') as a malevolent, spear-wielding warlord. 
+            - **The Four Phases of Dread:** The Códice Maya de México tracks four specific phases, each bringing distinct dangers:
+                1. **Morning Star (236 Days):** The most feared phase. Venus rises before the sun, acting as a 'sniper' shooting rays at kings, maize, and water sources.
+                2. **Superior Conjunction (90 Days):** Venus is invisible behind the Sun. It is 'in the Underworld' gathering strength.
+                3. **Evening Star (250 Days):** It pursues the Sun, often associated with the skeletal Death God (Kisin).
+                4. **Inferior Conjunction (8 Days):** The shortest and deadliest phase where Venus passes between Earth and Sun, reborn as a spectral threat.`,
+
+            The_Deity_Masks:
+                "Venus is not a single god but a force that 'puts on' different deity masks depending on the calendar date. In the Codex, Venus manifests as 'Kisin' (The Skeletal Death God) decapitating captives, or 'K'awiil' (The Lightning God) striking temples. The planet is an instrument of divine assault.",
+        },
+        Practices: {
+            The_Ring_Number_Calculations: `
+            The Daykeepers realized their Venus cycle (584 days) drifted from the actual solar cycle (-0.08 days per cycle). 
+            - **The Correction:** To prevent the calendar from losing synchronization with reality, they employed 'Ring Numbers'—complex mathematical adjustments to drag the ritual dates back in line with the visible sky.
+            - **The 104-Year Limit:** The almanacs were designed to function for exactly one 'Great Cycle' of 104 years (65 Venus cycles). After this period, the book was considered 'dead' or inaccurate. It was often ritually buried in a cave alongside its owner (the Daykeeper), as evidenced by the microscopic remains of decomposition mites found on the surviving Códice.`,
+
+            Paper_Blood_Rituals:
+                "The books themselves were ritual objects made of 'Amate' (fig bark) coated in gesso. They were not just read; they were 'fed'. Scribes would splatter the pages with rubber, incense oil, and blood drawn from their own tongues or genitals to open the 'Sak' (Vision) portal, visualized as a serpent manifesting from the burning paper smoke.",
+        },
+        Structure: {
+            The_Ah_Tza_Scribes:
+                "A highly specialized caste of astronomer-priests. They lived in observatory complexes (like the 'Caracol' at Chichen Itza) designed with windows aligned to the extreme northern and southern setting points of Venus.",
+        },
+    },
+
+    Order_of_Nine_Angles: {
+        Origins:
+            "1970s Britain; decentralized occult network led by David Myatt (Anton Long). Known for fusing Satanism with National Socialism and Taoist philosophy.",
+        Beliefs: {
+            Self_Transcendence:
+                "Evolution requires 'culling' the weak and overcoming physical/mental limits to create a new species (Homo Galacticus).",
             Aeonics: "The manipulation of cosmic time-cycles to usher in a new 'Imperium' or 'Galactic Empire' (the Vindex mythos).",
-            Sinister_Dialectic: "Using terror and evil to disrupt the status quo and provoke evolution.",
+            Sinister_Dialectic: "Using terror, heresy, and evil to disrupt the status quo and provoke evolution.",
             Tree_of_Wyrd:
                 "Unlike the 10-sphere Qabalistic Tree of Life, the ONA utilizes a 'Septenary' system (The Tree of Wyrd) consisting of only seven spheres corresponding to the seven classical planets, emphasizing a harder, more primal astrological path.",
         },
         Practices: {
-            The_Star_Game: "A complex three-dimensional board game used for magical training and esoteric thinking.",
+            The_Star_Game:
+                "A complex three-dimensional board game (with 7 boards and 27 pieces per side) used for magical training and esoteric thinking to map the Aeons.",
             Insight_Roles:
                 "Initiates must live a 'role' opposite to their nature (e.g., a neo-Nazi becoming a policeman, or a pacifist becoming a soldier) for 6-18 months to gain life experience and infiltrate society.",
-            Culling: "The controversial concept of human sacrifice (removing 'worthless' individuals) to release acausal energy.",
+            Culling:
+                "The controversial concept of human sacrifice (removing 'worthless' individuals, or 'Opfers') to release acausal energy.",
             Physical_Ordeal:
                 "Grade rituals include rigorous physical tasks, such as walking 80 miles carrying a heavy pack or living in isolation in the wilderness for three months.",
+            The_Quartz_and_the_Mask: `
+            The O9A rejects the 'theatrical' capes of LaVeyan Satanism in favor of a cold, rural austerity.
+            - **The Crystal:** Central to their rituals (like the Ceremony of Recalling) is a large natural quartz tetrahedron. It is believed to be a window into the 'Acausal' realm.
+            - **The White Masks:** During the 'Ceremony of Recalling' (a ritual to channel dark energy), participants wear simple white masks to depersonalize themselves and represent the 'Opfer' (the victim/sacrifice).
+            - **Survivalist Gear:** Due to their focus on martial arts and outdoor survival, their aesthetic often leans towards practical military surplus or hiking gear rather than ceremonial robes.`,
         },
         Structure: {
             Nexions: "Small autonomous cells; no central leader. The system acts like a computer virus designed to disrupt society.",
@@ -2917,6 +4240,8 @@ const dataSocieties = {
         },
         Structure: {
             Adyar_Headquarters: "A massive campus in Chennai, India. The society is non-dogmatic but highly bureaucratic.",
+            Note_On_Isis_Unveiled: `
+                The title of Blavatsky's magnum opus (1877) is metaphorical rather than a literal treatise on the Egyptian cult. 'Isis' serves here as the personification of the 'Great Mysteries of Nature'—referencing the Saite inscription 'I am all that has been, and is, and shall be, and my veil no mortal has yet lifted.' The 'unveiling' represents the exposure of occult laws hidden by materialist science and theological dogma. Blavatsky later admitted the title was a misnomer selected by her publisher to compete with contemporary works, as the text itself draws far more heavily from Indian Vedanta and Buddhism than from Nilotic sources.`,
         },
     },
 
@@ -2990,6 +4315,75 @@ const dataSocieties = {
                 "Retains the 'Tree of Life' grade structure (Neophyte to Ipsissimus) but reinterprets them through the Law of Thelema.",
             Star_and_System:
                 "Members are isolated; a member knows only their superior and their own students ('Let not one know well the other!'), preventing group-think or social hierarchy from corrupting the work.",
+        },
+    },
+
+    Order_of_the_Magi_Richmond: {
+        Origins: `Founded in Chicago, 1889 (some sources give 1888 for the formal creation, with 1889 marking the opening of the Chicago temple), by Olney H. Richmond (1844–1920), a Civil War veteran and self-styled 'Grand Master of the Inner Temple of the Ancient Order of the Magi.' The Order's legitimacy rests on Richmond's account of a nighttime encounter in the spring of 1864, while on camp-guard duty outside Nashville, Tennessee, with his regiment of the Fourteenth Michigan Infantry. A mysterious stranger approached him, identified him by name, revealed his birth date, and claimed membership in an ancient order 'which flourished in Egypt thousands of years ago.' Feeling his death was near, the stranger wished to pass on its secrets. In his published writings, Richmond also taught that the order's ultimate origins lay in the Temple of Wisdom on Atlantis, with the sacred system traced back 22,000 years. The stranger handed him the keys to the 'Test Book' (the deck of cards), which preserves the astronomical wisdom of the ancients.`,
+
+        Beliefs: {
+            The_Little_Book_of_Seven_Thunders: `
+        The core doctrine is that the standard 52-card deck is not a gambling toy, but the 'Little Book' prophesied in Revelation 10:4 ("And when the seven thunders had uttered their voices, I was about to write...").
+        - **The Astro-Mathematical Proof:** The deck is a literal scale model of the solar year.
+            - 52 Cards = 52 Weeks in a year.
+            - 4 Suits = 4 Seasons (Hearts/Spring, Clubs/Summer, Diamonds/Autumn, Spades/Winter).
+            - 12 Court Cards = 12 Months.
+            - 13 Cards per suit = 13 Lunar cycles (or 13 weeks per season).
+        - **The Solar Summation:** If you add the face values of the cards (Ace=1 to King=13), the total is 91. 91 × 4 (suits) = 364. Adding the Joker (valued at 1.25) brings the total to 365.25—the exact number of days in a solar year. To the Magi, this proved the deck was designed by ancient astronomers to track the earth's orbit.`,
+
+            The_Spirit_of_the_Suits: `
+        Each suit is ruled by a pair of planets and corresponds to a season and a stage of human life. Richmond did not use a classical Fire/Air/Earth/Water elemental framework for the suits; the planetary rulerships are the primary system:
+        - **Hearts (Venus & Mercury / Spring):** The childhood of the year. Love, friendship, domestic life, and emotion. Richmond wrote: "The heart is an emblem of love the world over."
+        - **Clubs (Mars & Earth / Summer):** The youth of the year. Intelligence, knowledge, argument, and education.
+        - **Diamonds (Jupiter & Neptune / Autumn):** The adulthood of the year. Jupiter indicates wealth; Neptune indicates commerce and trade.
+        - **Spades (Saturn & Uranus / Winter):** The old age of the year. Saturn rules from the standpoint of death and rebirth; Uranus from the standpoint of labor. Richmond wrote: "The spade being an instrument of labor, it becomes a symbol of labor and death combined." Spades is the highest suit, representing wisdom gained only through experience and suffering.`,
+
+            The_Law_of_Quadration: `The universe moves in precise mathematical gears. The cards (and human souls) shuffle through positions in a fixed sequence called the 'Grand Solar Spread'. A card is never random; it moves according to a specific algorithm from the 'Spirit' spread (perfect order) to the 'Life' spread (chaos/incarnation).`,
+        },
+
+        Practices: {
+            Determining_the_Birth_Card: `
+        The fundamental practice is calculating the 'Solar Value' of a birthday to find one's 'Ruling Card' (also called the Birth Tarot or Birth Emblem). This card is the soul's identity for the current incarnation.
+        - **The Formula:** The Solar Value is derived by adding the spot value of a card to its suit value (Hearts=0, Clubs=13, Diamonds=26, Spades=39), yielding a unique number for each card that maps to a specific birthday. For example, a person born on December 31st is the King of Spades (The Master of Masters).
+        - **The Karma Card:** By overlaying the 'Natural Spread' (Order) with the 'Mundane Spread' (Chaos), the initiate identifies their 'Karma Cards'—the cards that occupy their position in the past or future spreads, revealing karmic debts owed and owed to them from prior incarnations.`,
+
+            The_Seven_Planetary_Periods: `
+        Richmond divided the year (and a human life) into seven periods, each ruled by a planet. The seven planetary rulers in sequence are: Mercury, Venus,Mars, Jupiter, Saturn, Uranus, and Neptune.
+        - **Forecasting:** To predict the future, the initiate lays out their 'Yearly Spread'. The card falling in each planetary period indicates the nature of events during those weeks. Adverse cards in a Mars period (action, conflict) counsel caution; favorable cards in a Jupiter period (wealth, expansion) favor launching ventures.`,
+
+            Grand_Solar_Spread_Ritual: `
+        A central operation where the entire deck is laid out on a specialized 'Quadrated' altar cloth following a precise multi-step procedure.
+        - **The Layout:** The cards are dealt in rows and columns according to the Quadration algorithm, placing them into their respective planetary positions. 'Sun cards' — those that fall outside the seven planetary rulerships — occupy a separate short final row.
+        - **The Reading:** The Magus reads the crossing currents—vertical, horizontal, and diagonal lines intersecting the subject's card—to determine the electromagnetic influences of the coming year. It is understood not as fortune-telling, but as reading an astronomical weather report.`,
+
+            The_Magic_Mirror_Skrying: `Richmond taught 'Crystal Gazing' and 'Mirror Skrying' as supplements to the mathematical system. Initiates prepared a darkened reflective surface to serve as a 'Microcosm' and focused upon it while working with their Birth Card. [NOTE: The specific asphaltum/black paint formula cited in some accounts is UNVERIFIED against primary sources and may derive from later interpreters.]`,
+        },
+
+        Structure: {
+            The_Grand_Temple: `The Order was hierarchical, with Richmond holding the title 'Grand Master of the Inner Temple of the Ancient Order of the Magi' (not 'Grand Magus', a common misattribution). After his death in 1920, his foster-daughter Arline L. Richmond carried on his work, publishing the fourth edition of The Mystic Test Book.`,
+
+            The_Inner_Degrees: `Initiation involved progressing through degrees corresponding to the four suits. Degrees were conferred by the transmission of mathematical 'Keys'— algorithms that allowed the member to unlock deeper layers of the card spreads (e.g., the '90-Year Life Spread' vs. the 'Infinite Spirit Spread').`,
+
+            Temple_Regalia: `The Altar featured the four Aces (representing the 4 Seasons) marking the cardinal points, and an Altar cloth used in Tarotology rituals and the Grand Solar Spread layout. [NOTE: Specific color-coded planetary robes are UNVERIFIED against primary sources and may derive from later interpreters or inner-degree materials not in public record.]`,
+        },
+    },
+
+    Confraternity_of_the_Three_Kings: {
+        Origins: `12th Century onwards; centered around Cologne Cathedral (Germany) where the relics of the Magi were transferred by Frederick Barbarossa in 1164.`,
+        Beliefs: {
+            Protectors_of_Travel: `As the ultimate travelers, the Magi (Caspar, Melchior, Balthasar) grant safety to pilgrims and merchants.`,
+            Healing_Patrons: `They were specifically invoked against epilepsy ('The Falling Sickness') and sudden death.`,
+            Royal_Legitimacy: `Venerating the 'Three Kings' was a way for the Holy Roman Emperors to claim divine sanction for their rule.`,
+        },
+        Practices: {
+            Star_Singing_Sternsinger: `Processions of children or initiates dressed as kings, carrying a star on a pole, singing carols to bless houses.`,
+            Chalking_the_Door: `Marking the lintel of homes with 'C+M+B' (Christus Mansionem Benedicat / Caspar, Melchior, Balthasar) at Epiphany for protection.`,
+            Touching_of_Relics: `Items (coins, cloth) touched to the shrine in Cologne became 'Brandea' (contact relics) used for healing.`,
+            Dreikonigszettel: `Small paper amulets bearing the names of the Magi, swallowed or worn to cure illness.`,
+        },
+        Structure: {
+            Lay_Brotherhoods: `Voluntary associations of laypeople (merchants, guildsmen) dedicated to the cult of the Magi.`,
+            Arch_Chancellors: `High ecclesiastical officials who managed the pilgrimage routes and the shrine's treasury.`,
         },
     },
 
@@ -3305,6 +4699,11 @@ const dataSocieties = {
                 "Costumes are made of long-haired goat or sheep fur, often covering the entire body. The masks are double-faced (one sweet, one scary) or towering wooden structures decorated with mirrors and beads to deflect the evil eye.",
             Symbolic_Plowing:
                 "The troop enacts a ritual plowing of the village square, sometimes yoking members to a wooden plow, symbolizing the preparing of the earth for the new cycle.",
+            The_Beast_Towers: `
+            The Kukeri costume is designed to act as a 'Fear Mirror'—it must be scary enough to terrify a demon.
+            - **The Double-Face:** Many masks have two faces (front and back)—one smiling/sweet, one snarling/demonic. This ensures that evil spirits cannot sneak up on the dancer; they are always being watched.
+            - **The Wooden Towers:** Some regions (like Pernik) craft towering wooden structures (up to 3 meters) covered in feathers, beads, and mirrors, attached to the face mask. These act as 'lightning rods' for attention, deflecting the Evil Eye away from the village and onto the dancer.
+            - **The Sound:** The mask is visually secondary to the belt of bells (Chanove). A full suit can weigh 80kg, primarily in copper bells. The sound is a 'sonic mask' that obliterates the quiet space where evil spirits hide.`,
         },
         Structure: {
             The_Troop:
@@ -3463,6 +4862,10 @@ const dataSocieties = {
                 "The practice of playing a single tone ('Ichi-on Jo-butsu' — one sound, become Buddha) until the duality of player and instrument dissolved.",
             Legal_Spies:
                 "Because the Tengai granted travel privileges and anonymity in a police state, the government often used Komuso as spies. A specific ritual challenge involved demanding a Komuso to play a complex, secret piece of music to prove he was a real monk and not an impostor.",
+            The_Basket_of_Non_Being: `
+            The 'Tengai' is a woven reed basket worn completely over the head. Unlike a mask that projects a *new* identity (a god or demon), the Tengai creates *no* identity.
+            - **The View:** The weave allows the monk to see out, but prevents the world from seeing in.
+            - **The Erasure:** By hiding the face, the monk erases his social caste, his history, and his ego. He becomes a 'Priest of Nothingness' (Kyomu). It is the visual manifestation of the Zen concept of 'Mu' (Void).`,
         },
         Structure: {
             Kyotaku: "They did not carry alms bowls but went door-to-door playing the flute for food/money.",
@@ -4771,6 +6174,11 @@ const dataSocieties = {
                 "The use of complex mechanical masks (e.g., the Raven or Crooked Beak of Heaven) that crack open to reveal a human face inside, symbolizing the duality of spirit/human.",
             The_Taming:
                 "Female attendants and society members dance in a circle to 'calm' the cannibal spirit, slowly returning the initiate to a human state through song and smoke.",
+            Transformation_Mechanics: `
+            The Hamatsa masks are masterpieces of hydraulic-like engineering using hidden strings and hinges.
+            - **The Split Reality:** The exterior depicts the 'Crooked Beak of Heaven' (Galukw'dzuwis) or the Raven—terrifying, primal, and animalistic.
+            - **The Reveal:** At the climax of the dance, the dancer pulls the rigging. The beak splits open down the center to reveal a calm, painted Human Face (or the Sun) inside.
+            - **Meaning:** This mechanical action visually proves the central theological tenet: the raw, cannibalistic instinct (Animal) contains the seed of the civilized man (Human), which must be liberated through ritual taming.`,
         },
         Structure: {
             Hereditary_Right: "Membership is strictly controlled by lineage and marriage rights (numaym).",
@@ -4810,6 +6218,12 @@ const dataSocieties = {
             Tobacco_Burning: "Burning tobacco before the masks to give them the spirit-energy required to perform their healing duties.",
             The_Doorkeeper:
                 "A female official who stands at the door during ceremonies to receive the masks and handle the payment (tobacco/corn mush).",
+            The_Living_Mask: `
+            The 'Gagohsa' (False Face) is not a prop; it is a living entity carved from a living basswood tree.
+            - **The Crooked Mouth:** Most masks depict a twisted, distorted face (Broken Nose/Crooked Mouth) representing the mythological contest where the Creator crushed the mountain against the Giant's face.
+            - **The Eyes:** Deeply set metal plates (often copper or brass) reflect the firelight during healing ceremonies, creating a glowing, supernatural gaze.
+            - **The Hair:** Adorned with long skeins of horsehair (black or white) which must be groomed and fed.
+            - **The Color Code:** Red masks (carved in the morning) carry the power of the rising sun. Black masks (carved in the afternoon) carry the power of the setting sun/night.`,
         },
         Structure: {
             Dream_Call: "Membership is usually determined by dreaming of the False Faces or being cured by them.",
@@ -5063,6 +6477,11 @@ const dataSocieties = {
             Dama_Dance:
                 "Funerary rites where initiates wear the 'Kanaga' mask (a cross shape representing the connection of heaven and earth) and the 'Sirige' mask (a multi-story tall plank representing the connection of the sun and star). They dance on stilts to bridge the gap between worlds.",
             Language_of_the_Bush: "Initiates learn 'Sigi So', a secret ritual language used only by the Society members.",
+            The_Architecture_of_Wood: `
+            Dogon masks are less 'faces' and more 'mathematical equations' carved in wood, representing the structure of the universe.
+            - **The Sirige (Multi-Story Mask):** A single plank of wood carved from a specialized tree, standing up to 5 meters (15+ feet) tall. It represents the 'axis mundi' connecting the earth to the star (Po Tolo). The dancer must possess incredible neck strength to balance this antenna of the gods.
+            - **The Kanaga:** The most famous shape; a Cross of Lorraine (double-barred cross) often misinterpreted as a bird. Esoterically, the upper bar represents the sky/immortals, the lower bar the earth/humans, and the vertical axis the descent of the Nommo (gods).
+            - **The Great Mask (Imina Na):** A massive, serpentine wooden structure carved only once every 60 years. It is never worn, but 'fed' with blood and millet porridge as the containment vessel for the collective soul (Nyama) of the ancestors.`,
         },
         Structure: {
             The_Olubaru:
@@ -5836,167 +7255,6 @@ const dataSocieties = {
         Structure: {
             The_Publishing_Magus:
                 "Unlike secret societies with lodges, Lévi's 'Order' was disseminated through public books ('Dogma and Ritual of High Magic'), creating a 'school by correspondence' that influenced the Golden Dawn, Pike's Freemasonry, and Blavatsky.",
-        },
-    },
-
-    Mitanni_Indo_Aryan_Cult: {
-        Origins:
-            "Northern Mesopotamia and Syria (c. 1500-1260 BCE); the ruling elite (Maryannu) of the Hurrian-speaking Mitanni Empire. They were an Indo-Aryan warrior caste who introduced the light-spoked chariot to the Near East. Their influence on Egypt was direct: Akhenaten's father (Amenhotep III) married the Mitanni princess Gilukhipa, who arrived with 317 ladies-in-waiting, likely acting as a 'Trojan Horse' for solar monism and Vedic concepts within the Egyptian royal harem.",
-        Beliefs: {
-            Mitra_Varuna_The_Binders: `
-            The cosmos is held together by 'Rta' (Cosmic Truth/Order), enforced by the twin-gods Mitra and Varuna.
-            - **Mitra (The Contract):** He is the benevolent, solar aspect of sovereignty who binds men together through friendship, treaties, and the spoken word. He is the 'Lord of Wide Pastures' who ensures peace.
-            - **Varuna (The Binder):** He is the terrible, nocturnal aspect of sovereignty (the night sky) who binds oath-breakers with his 'noose' (pasha). He sees all secret things.
-            *Insider Logic:* You do not fear the dark because of monsters; you fear the dark because it is Varuna's cloak, and in it, he can see the lies you told during the day. This duality (Light/Contract and Dark/Judgment) likely prefigured the Atenist obsession with 'Living in Truth'.`,
-
-            Surya_The_All_Seeing_Eye: `
-            The Sun (Surya) is not merely a heat-source; it is the 'Eye of Mitra-Varuna'. It is the supreme intelligence that surveys the earth.
-            - **No Secrets:** Because the Sun sees everything, there can be no 'hidden' mysteries (unlike the Egyptian Amun, 'The Hidden One'). True religion must happen in the open air, under the direct gaze of the disc.
-            - **The Chariot-Throne:** The god does not sit in a temple; he rides across the sky. Therefore, the King (his avatar) must also be a charioteer. The act of driving the chariot is a divine imitation (mimesis) of the sun's path across the heavens.`,
-
-            The_Maryannu_Ideology: `
-            'Maryannu' (Young Warrior) is a caste status, not a job. It is achieved through the mastery of the horse (the avatar of Agni/Fire). The horse is the sacred animal that bridges the gap between the speed of the gods and the slowness of men. To control a horse is to control the solar fire.`,
-        },
-        Practices: {
-            The_Kikkuli_Rite_Horse_Asceticism: `
-            Based on the 'Kikkuli Text' (the oldest known manual on horse training), this was not just training but a liturgical discipline lasting 74 days.
-            - **Interval Training:** The horses were subjected to a rigorous regimen of 'loosing' (sprinting) and 'halting', mirroring the expansion and contraction of the breath.
-            - **The Washing Ritual:** The horses were washed in warm water (unheard of in typical husbandry) and anointed with butter (ghee) to honor the internal fire.
-            - **The Night Vigil:** The trainer had to sleep in the stable with the animal, mixing their sweat with the horse's flank, dissolving the boundary between rider and beast to create the 'Centaur' unit required for war.`,
-
-            Ritual_of_the_Severed_Oath: `
-            Treaties were not signed paper; they were biological binds.
-            - **The Throat-Cutting:** When swearing an oath (e.g., the treaty between Shattiwaza and Suppiluliuma), the participants would slit the throat of a sheep or donkey. They would declare: "If I break this word, may I be cut as this beast is cut."
-            - **The Witnessing:** The oath was spoken to the mountains, the rivers, and the winds (Vayu), but specifically to the 'Gods of the Oath' (Mitra-Varuna-Indra-Nasatya). To break the word was to invite the collapse of the sky itself.`,
-
-            The_Fire_Guest_Agni: `
-            Fire was not just a tool but a guest (Atithi).
-            - **The Feeding:** Oil, fat, and grain were poured into the hearth fire morning and evening. The flame's upward direction was the carrier wave transmitting the prayers to the heavens.
-            - **The Circumambulation:** Worshippers moved around the fire in a clockwise direction (Pradakshina), mimicking the sun's path. This movement aligned the human bio-rhythm with the cosmic rotation.`,
-
-            Chariot_Archery_Meditation: `
-            The warrior practiced shooting arrows from a moving chariot not just for accuracy, but to achieve 'Ekagrata' (One-Pointedness).
-            - **The Logic:** The chariot shakes and vibrates (Chaos/Samsara); the target is distant. The archer must find the 'still point' within the motion. When Akhenaten is depicted driving his chariot with the rays of the Aten holding him, he is visually quoting this Indo-Aryan concept of the King as the stable axis of a spinning world.`,
-        },
-        Structure: {
-            The_Chariot_Caste: `
-            A strict aristocracy based on the possession of horses and chariots. One could not buy entry; one had to be born into the lineage and survive the 74-day Kikkuli training cycle. They looked down upon infantry (the 'Foot-Dirt') as sub-human.`,
-        },
-    },
-
-    Minoan_Epiphany_Cult: {
-        Origins:
-            "Crete (c. 2000-1450 BCE). A theocratic 'Palace Culture' where there was no separation between the State and the Cult. Unlike the distant sky-gods of the Greeks, the Minoan deity was a palpable, imminent force of nature (The Great Mother/Potnia) who had to be 'summoned' into the physical body of a priestess through ecstatic technique.",
-        Beliefs: {
-            The_Theology_of_Epiphany: `
-            The Goddess is not always present; she must be 'invoked' to appear.
-            - **The Baetyl Calling:** The gods live in stones (Baetyls) and trees. To trigger their presence, one must embrace the wet, cold stone or shake the sacred tree violently. The physical exertion summons the divine spark.
-            - **The Vision:** Religion is not about believing; it is about *seeing*. The goal of all ritual is the 'Epiphany'—the moment the high priestess, under the influence of opium and rhythm, literally transforms into the Goddess before the eyes of the crowd.`,
-
-            The_Bull_as_Earthquake: `
-            The Bull is not just an animal; it is the physical embodiment of the Earth's vibration (Poseidon's precursor).
-            - **The Logic of Leaping:** One does not kill the Bull to conquer it; one *flows* with it. The 'Taurokathapsia' (Bull Leaping) is a ritual of harmonization. By grabbing the horns and somersaulting over the beast, the leaper synchronizes their human rhythm with the chaotic, shaking rhythm of the Earth. It is a dance with the earthquake to prevent the earthquake.`,
-        },
-        Practices: {
-            The_Opium_Communion: `
-            The 'Poppy Goddess' figures reveal the method of trance.
-            - **The Incision:** Priests used specialized bronze blades to score the poppy heads, collecting the milky latex.
-            - **The Smoking:** In the dark, airless crypts (Lustral Basins) of the palace, this substance was consumed to induce a 'waking dream' state where the borders between the human and animal worlds dissolved.`,
-
-            The_Peak_Sanctuary_Bonfire: `
-            At night, fires were lit on mountain peaks (like Mt. Juktas) to answer the stars.
-            - **The Votive Limb:** Pilgrims did not pray with words; they prayed with clay models of detached limbs (arms, legs, phalluses) thrown into the fire. The logic: "Here is a clay leg, Goddess; heal my real leg." It was a medical exchange.`,
-
-            The_Double_Axe_Labrys: `
-            The 'Labrys' is the butterfly of death.
-            - **The Symbolism:** The double-bladed axe represents the phases of the moon (waxing and waning). It was never used for war, only for slaughter. It was the tool that opened the throat of the Bull, releasing the blood that fertilized the earth.`,
-        },
-        Structure: {
-            The_Matriarchal_Theocracy: `
-            Uniquely in the ancient world, the priesthood was dominated by women. Men appear in rituals primarily as cup-bearers or musicians, while the central acts of epiphany and sacrifice are performed by women (the 'Snake Goddesses'). The Palace of Knossos was not a castle; it was a complex theological machine designed to stage these appearances.`,
-        },
-    },
-
-    Phoenician_High_Cult: {
-        Origins: `
-            The Levantine coast (Tyre, Sidon, Byblos) and its western colonies (Carthage, Cádiz). c. 1200-146 BCE. A religion of merchant-princes who viewed the cosmos as a high-stakes marketplace. The gods (Baal, Melqart, Tanit) were the senior partners in the firm, demanding heavy investment for heavy protection. Note that both the Minoans and the Phoenicians cultures were thalassocracies (sea powers). The transmission of the "Dying God" archetype (who dies in summer and returns in spring) likely traveled via these merchant ships, evolving into the Greek Dionysus (who is also linked to the sea and bulls).`,
-        Beliefs: {
-            The_Tophet_Logic_Molk: `
-            The 'Molk' sacrifice is not cruelty; it is the ultimate pious logic.
-            - **The Most Dear:** You cannot bribe a god with a sheep if you are a King. The gods know the value of things. To save the city from total destruction, you must pay with the currency that hurts the most: your own firstborn.
-            - **The Return:** This is a transaction. "I give you the life of my child; you give me the life of the city." The archaeological ash urns at Carthage prove this was done by the elite, not the poor. It was a tax on the rich.`,
-
-            Melqart_The_King_of_the_City: `
-            Melqart (King of the City) is the patron of colonization.
-            - **The Fire-Death:** Melqart does not die of old age; he burns himself on a pyre to be reborn. This is the 'Egersis' (Awakening).
-            - **The Aniconic Presence:** The gods are too vast to be statues. In the holy of holies, there is no idol—only two empty pillars (Jachin and Boaz style) or an empty throne. To make an image is to limit the god's power.`,
-        },
-        Practices: {
-            The_Marzeah_Feast_of_Shadows: `
-            A ritual banquet for the aristocracy and the 'Rephaim' (Ancestral Shades).
-            - **The Heavy Drinking:** This was not a party; it was a rite. Participants were required to drink wine to the point of stupor/hallucination.
-            - **The Necromancy:** In this drunken state, the boundary between the living and the dead blurred. The ancestors were invited to sit and eat. The goal was to secure their blessing for the family lineage. "Drink until you see the dead."`,
-
-            The_Sacred_Prostitution_Qadishtu: `
-            In the service of Astarte, sexuality was a liturgy.
-            - **The Stranger:** Herodotus and others describe the rite where women would sit in the temple precinct and wait for a stranger to toss a silver coin into their lap.
-            - **The Logic:** The coin is sacred to the Goddess. The act of sex with a stranger (who might be a god in disguise) removes the woman's individual ego and dedicates her fertility to the city. It is an act of civic duty, not lust.`,
-
-            Foundation_Rites: `
-            No colony (like Carthage) could be founded without transporting the 'Fire of Tyre'.
-            - **The Ember:** A literal coal from the altar of Melqart in Tyre was kept burning on the ship for weeks, then used to light the first altar in the new city. This ensured the new city was legally and spiritually an extension of the mother-city.`,
-        },
-        Structure: {
-            The_Merchant_Priesthood: `
-            Priests (Kohanim) were often drawn from the royal family (e.g., Pygmalion of Tyre). They were clean-shaven (unlike the bearded Assyrians), wore white linen, and avoided pork. They functioned as both theologians and bankers, as the temples served as the secure vaults for the city's gold reserves.`,
-        },
-    },
-
-    Cult_of_Baal_Ugarit: {
-        Origins:
-            "Ancient Syria (Ras Shamra), c. 1500-1200 BCE. The theological bridge between the Sumerians and the Hebrews. Ugarit was a cosmopolitan port city where the 'Baal Cycle' was written.",
-        Beliefs: {
-            The_Cosmic_Combat:
-                "Order is not static; it is a constant violent struggle. Baal (The Storm/Rain) must perpetually fight Yam (The Sea/Chaos) and Mot (Death/Drought). If Baal sleeps, the rains stop and civilization dies.",
-            The_Violent_Virgin:
-                "Veneration of Anat, the sister-wife of Baal. Unlike the nurturing mother archetype, Anat is a warrior who 'wades knee-deep in the blood of soldiers' and wears a necklace of severed heads to protect her brother. She represents the ferocious defense of life.",
-            Window_of_the_Heavens:
-                "Baal refused to have a window in his palace aimed at the sea (Yam), fearing the ocean would flood in. This is an architectural metaphor for the fear of the uncontrollable subconscious/chaos.",
-        },
-        Practices: {
-            Ritual_Lamentation:
-                "When Baal 'dies' (summer drought), the High King and priests descend from the throne, sit on the ground, pour dust on their heads, and gash their skin with stones (precursor to the forbidden practices in Leviticus).",
-            Feeding_the_Dead:
-                "The 'Marzeah' feast. A heavy drinking ritual held in the family tomb to comfort the 'Rephaim' (Ancestors). It was believed that inebriation thinned the veil, allowing the living and dead to dine together.",
-        },
-        Structure: {
-            Royal_Priesthood:
-                "The King was the chief ritualist. The collapse of the Bronze Age (Sea Peoples) destroyed Ugarit, but its theology survived to become the primary rival of Yahweh in the Bible.",
-        },
-    },
-
-    Cult_of_Marduk_Babylon: {
-        Origins:
-            "Babylon, c. 18th Century BCE - 1st Century BCE. Rose to prominence under Hammurabi. Marduk began as a minor agricultural deity but absorbed the powers of all other gods (The 50 Names) to become the 'Bel' (Lord).",
-        Beliefs: {
-            Order_out_of_Tiamat:
-                "Creation is an act of violence. Marduk slew the chaos-dragon Tiamat, split her corpse in two, and used half to make the sky and half to make the earth. Therefore, the physical world is made of the 'dead body of chaos' and requires constant law/magic to prevent it from rotting back into disorder.",
-            Tablets_of_Destiny:
-                "The supreme authority in the universe is legalistic. Whoever holds the 'Tablets of Destiny' (software of the cosmos) controls the future. Marduk wears them on his breast, signifying that Fate is not random but governed by Law.",
-            Mankind_as_Servant:
-                "Humans were created from the blood of the traitor-god Qingu solely to perform manual labor for the gods. There is no 'love' from the gods, only a master-servant contract.",
-        },
-        Practices: {
-            Akitu_New_Year_Festival:
-                "The most complex ritual of antiquity (12 days). The High Priest (Sheshgallu) strips the King of his regalia, slaps him across the face, and pulls his ears. If the King cries, Marduk is pleased. It acts as a ritual humiliation to remind the monarch he is merely a steward.",
-            The_Procession_of_Ships:
-                "Statues of the gods traveled by boat along the Euphrates to visit Marduk in his temple (Esagila), simulating a 'parliament of gods' convening to determine the fate of the coming year.",
-            Scapegoat_Rite:
-                "A criminal or a goat was often used to physically absorb the 'sins' or entropy of the city and was driven out into the desert or executed to cleanse the community.",
-        },
-        Structure: {
-            Astronomical_Bureaucracy:
-                "The priesthood invented the Zodiac and mathematical astronomy not for science, but for divination. They viewed the sky as the 'Script of Heaven' (Shitir Shame), believing that if they could read the code, they could petition the King for changes.",
         },
     },
 
@@ -7161,6 +8419,994 @@ const dataSocieties = {
         Structure: {
             Communal_Hive:
                 "Total lack of privacy. Everyone sleeps in one large hall. The individual self is dissolved into the collective 'Family'.",
+        },
+    },
+
+    Methernitha: {
+        Origins:
+            "Founded in the 1950s by Paul Baumann ('Vati') in Linden, Switzerland. Originally a loose Christian alliance, it evolved into a fully autarkic cooperative (Genossenschaft) in 1960. The community is geographically centered in the Emmental valley, living in a cluster of chalets that function as a sovereign spiritual enclave. Their existence is defined by the 'Testatika'—a Holy Grail of alternative physics that they claim to have possessed for decades.",
+        Beliefs: {
+            Technological_Purity:
+                "Technology is not value-neutral; it is a manifestation of the spirit of the inventor. A machine built with greed will consume resources; a machine built with piety will harmonize with nature. They believe humanity is not spiritually mature enough to possess 'Free Energy' because they would immediately weaponize it.",
+            The_Living_Silence:
+                "To hear the voice of Nature, one must silence the ego. The community rejects the noise of the outside world (alcohol, tobacco, consumerism) to maintain a vibrational frequency compatible with their machines. The Testatika is not just a generator; it is a 'divine gift' that will literally stop working if touched by someone with impure intent.",
+            Biblical_Communism:
+                "Based on Acts 2:44 ('All the believers were together and had everything in common'). There is no private wealth; all labor—whether in the film studio, the gardens, or the electronics lab—is a form of worship dedicated to the collective 'One for All, All for One'.",
+        },
+        Practices: {
+            The_Testatika_Machine: `
+            The central mystery of the cult. It is a 'Free Energy' device (perpetual motion) allegedly invented by Baumann while in prison.
+            - **The Mechanics:** It resembles a 19th-century Wimshurst machine but with critical modifications. It features two counter-rotating acrylic discs (one representing the 'Cloud'/Atmosphere, the other the 'Earth'/Ground). Instead of conductive brushes, it uses perforated grids (Gitter-Grilles) to induce a charge from the air itself.
+            - **The Horseshoe Magnet:** The current is stabilized by a large horseshoe magnet, which insiders claim creates a 'flux vortex' that taps into the background aether (or static electricity) of the universe.
+            - **The Operation:** The machine is started by hand. Once the discs reach a certain RPM, they generate a high-voltage electrostatic field that is stepped down to usable DC current. The device then runs itself, producing 3-4kW of cold electricity indefinitely without fuel.`,
+
+            The_Laboratory_Vigil:
+                "The electronics workshop is treated as a sanctuary. Research is conducted not by calculation alone, but by prayer and intuition. Members believe they are rediscovering the physics of God (Thestatika = Theos + Statics).",
+
+            Defensive_Isolation:
+                "To protect the secret of the Testatika, the community maintains a polite but ironclad barrier against outsiders. While they have released videos and allowed select scientists (like Stefan Marinov) to view the machine, no one is allowed to inspect the 'Linden Experiment' core. They believe releasing the schematics to the current world would be like giving a loaded gun to a child.",
+        },
+        Structure: {
+            The_Cooperative:
+                "Legally registered as a business entity to interact with the Swiss state. It operates its own nursing home, school, and media center.",
+            The_Circle_of_Friends:
+                "The outer layer of the organization, consisting of thousands of members worldwide who subscribe to the spiritual teachings without living in the Linden compound or knowing the secrets of the machine.",
+        },
+    },
+
+    The_Order_of_the_Cintamani_Roerich: {
+        Origins:
+            "Central Asia/Himalayas (Mythic); revitalized in the 1920s by Nicholas and Helena Roerich during their Trans-Himalayan Expedition. The lineage traces back to the 'Lapis Exillis' (Stone of Exile)—a meteorite that allegedly fell from the Orion star system (specifically Sirius) into the Gobi Desert millions of years ago. It was possessed by King Solomon, Akbar the Great, and the rulers of Atlantis before being returned to the 'Heart of Asia' (Shambhala).",
+        Beliefs: {
+            The_Lapis_Exillis_Grail: `
+            The Cintamani is not merely a jewel; it is a high-frequency 'Psychic Battery' or 'Teraphim'. The main body of the stone resides in the 'Tower of Rigden-Jyepo' in Shambhala to anchor the planetary magnetic field. However, a small fragment is chipped off and sent into the world to accompany pivotal historic eras. This wandering fragment acts as a homing beacon, maintaining a sympathetic quantum link with the main stone. The stone is believed to be 'Moldavite-like' meteoric glass containing isotopes not found on Earth. It serves as a subspace transceiver, maintaining the Earth's vibratory connection to the 'Black Sun' or spiritual center of the Orion constellation.`,
+
+            Agni_Yoga_The_Fire: `
+            The teaching associated with the Stone is 'Agni Yoga' (Yoga of Fire). Unlike Hatha (physical) or Bhakti (devotional) yoga, Agni Yoga is the yoga of 'Psychic Energy'. It teaches that human thought is a literal substance—a fine matter that precipitates reality. The Stone amplifies this 'thought-fire'.
+            - **The Banner of Peace:** The Roerich Pact flag (three red circles in a larger red circle) is the sigil of the Stone. It represents the 'Past, Present, and Future' enclosed in the Ring of Eternity, but esoterically, it mimics the layout of the three primary stars of Orion's Belt, the celestial origin of the stone.`,
+        },
+        Practices: {
+            The_Rhythm_of_Shambhala: `
+            A meditative synchronization practice detailed in Helena Roerich's diaries.
+            - **The Pulse:** The initiate visualizes the Stone in the Tower of Shambhala emitting a rhythmic, pulsating light. They attempt to synchronize their own heartbeat with this cosmic rhythm.
+            - **The Darkening:** Roerich claimed the physical stone possessed 'empathic' qualities. It would grow heavy and turn black to warn of impending danger or treachery, and emit a cracking sound or sparks when high-frequency spiritual energy was present. The practice involves constant vigilance of the stone's physical state as a barometer of world karma.`,
+
+            The_Chalise_Visualization: `
+            The central technique of Agni Yoga. The practitioner visualizes their heart not as a pump, but as a 'Chalice' collecting the 'Fire of Space'. During sleep, the consciousness is believed to travel to the 'Ashram' in the subtle plane to deposit the energy collected during the day. The goal is to build the 'Rainbow Body' (Body of Light) that can survive death.`,
+
+            The_Maitreya_Call: `
+            The invocation of the Coming Buddha (Maitreya). The Stone is the physical sign of his approach. The ritual involves the 'shouting of the message' into the mountains, believing the acoustic properties of the Himalayas amplify the prayer to influence the 'Noosphere' (mental atmosphere) of the planet.`,
+        },
+        Structure: {
+            The_Inner_Circle:
+                "The 'Guardians of the Stone'. A secret chain of Adepts (Mahatmas) who pass the fragment from generation to generation (allegedly including Tamerlane and Akbar).",
+            The_Courier:
+                "The specific role of the individual tasked with transporting the Stone across borders. Roerich viewed himself as this Courier, carrying the casket through Soviet Russia and China to return it to the Masters in the Himalayas, acting as a geopolitical diplomat for the Kingdom of Shambhala.",
+        },
+    },
+
+    Modern_Mystery_School: {
+        Origins:
+            "Founded in 1997 as the 'Rocky Mountain Mystery School' by Gudni Gudnason (a self-proclaimed Icelandic aristocrat and adept) in Utah. The school claims to be the only one of the 'Seven Ancient Mystery Schools' that is currently 'open' to the public. Its legitimacy rests on two pillars: a physical lineage tracing back 3,000 years to King Salomon (and the High Priest Melchizedek), and a 'Galactic' authority granted to Gudni by the 'Federation of Light' (specifically extraterrestrials called 'Nators') during a close encounter in the 1990s.",
+        Beliefs: {
+            DNA_The_God_Code: `
+            The central dogma is that humans are 'Gods in Amnesia'. We possess a physical DNA (2 strands) and a spiritual 'Etheric DNA' (22 strands). 
+            - **The Corruption:** Society, matrix programming, and trauma have shut down 20 of these strands, leaving us as 'sheep' operating on basic survival instincts.
+            - **The Solution:** We cannot meditate our way to enlightenment; we require a physical 'surgery' on the etheric body. The 'Life Activation' is the only authorized method to re-plug these circuits, literally turning on the 'God Software' inside the biological machine.`,
+
+            The_War_of_Light: `
+            The universe is not peaceful; it is a combat zone. There is a literal war between the 'Hierarchy of Light' (Angels, Masters, Galactic Federation) and the 'Forces of Darkness' (Demons, Chaos).
+            - **The Contract:** A 'Ritual Master' (Warrior of Light) is someone who has volunteered to stop being a civilian and become a soldier. They do not do this for peace; they do it to hold the line. If the school stops its rituals, the protection around the planet fails, and humanity falls.`,
+
+            Sacred_Dandyism:
+                "Materialism is not evil; poverty is a 'mental illness'. The 'Ipsissimus' (Highest Master) teaches 'Sacred Dandyism'—the belief that the inner god deserves to be wrapped in the finest outer shells. High fashion, Ferraris, and luxury are not vanities; they are 'Energy Containers' that reflect the high vibration of the Master. To be poor is to insult the God within.",
+        },
+        Practices: {
+            Life_Activation_Rite_22_Strand: `
+            The foundational 'surgery' performed on every new initiate. The client sits on a stool; the practitioner uses a specialized crystal wand (reading zero-point energy).
+            - **The Crown Cap Removal:** The practitioner ritually 'unscrews' the invisible cap on the client's crown chakra to expose the central pillar.
+            - **The Reading:** They touch specific points on the back of the neck and spine that correspond to the 12 physical and 12 spiritual strands (the 'Codon' points).
+            - **The Infusion:** Using the wand, they 'inject' light directly into the spinal column. The client often feels a physical jolt or heat.
+            - **The Result:** The practitioner seals the aura. The client is told their 'blueprint' is now active, and they will begin to purge everything in their life (bad jobs, relationships) that does not align with their divine purpose.`,
+
+            The_Warrior_Grave_Ritual: `
+            The high-level initiation for the 'Ritual Master 3rd Step'. It is a psychodrama of death and resurrection designed to kill the 'Ego-Self'.
+            - **The Deprivation:** The candidate is taken into the deep forest. They must sit in a circle for three days and nights without sleep and with minimal food/water. They are forbidden to speak or move outside the circle.
+            - **The Burial:** At the climax of exhaustion, they are led to a pre-dug grave in the earth. They lie down in the dirt.
+            - **The Death:** They are physically covered with earth (or heavy coverings mimicking earth) to simulate being buried alive. In the suffocating darkness, the panic sets in. They must confront the terror of annihilation.
+            - **The Resurrection:** When pulled from the earth, they are no longer 'John Doe'; they are a 'Melchizedek Priest' who has already died and thus has nothing left to fear from demons or men.`,
+
+            Pentagram_Banishing_The_Matrix: `
+            Daily practice is mandatory. The Ritual Master does not just pray; they 'scrub' the space.
+            - **The Tool:** Using a consecrated dagger (Athame) or the 'Phurba' (a Tibetan three-sided stake), they physically cut the air.
+            - **The Visualization:** They vibrate Hebrew names of God (YOD HE VAU HE) while visualizing electric blue pentagrams flaming in the four cardinal directions. This creates a 'Geodesic Dome' of protection. Anything inside the dome is 'Holy Ground'; anything outside is 'The Matrix'.`,
+
+            The_Galactic_Ray_Transmission:
+                "During high-level summits (often in hotels in Tokyo or Toronto), the leadership (The Third Order) channels energy from the 'Galactic Federation'. The room is sealed. The leaders act as lightning rods, grounding high-voltage 'En-Sof' energy. Participants often report shaking, uncontrollable weeping, or feelings of being 'fried' by the intensity of the light.",
+        },
+        Structure: {
+            The_Third_Order: `
+            The Triumvirate of absolute power.
+            1. **Gudni Gudnason:** The Founder/Channel.
+            2. **Dave Lanyon:** The 'Lord of the West' (Warrior energy).
+            3. **Hideto Nakagome:** The 'Lord of the East' (Healer energy).
+            They hold the title 'Ipsissimus', a Golden Dawn term for one who has crossed the Abyss and become a god.`,
+            The_Path_of_Gold:
+                "The hierarchy is strictly pay-to-play, framed as 'Energy Exchange'. Adept -> Healer -> Ritual Master (RM 1, 2, 3) -> Guide. One cannot access the 'higher energy' without paying the financial 'tribute' to show commitment.",
+        },
+    },
+
+    Fraternite_Blanche_Universelle: {
+        Origins:
+            "Founded in France (1937) by Omraam Mikhaël Aïvanhov, a disciple of the Bulgarian master Peter Deunov (Beinsa Douno). While Deunov established the spiritual lineage in the Rila Mountains, Aïvanhov acted as the 'Solar Transmitters' for the West, centering the movement at the 'Bonfin' domain in Fréjus. It is a solar-centric gnostic fraternity.",
+        Beliefs: {
+            Surya_Yoga_Solar_Civilization:
+                "The Sun is not merely a star; it is the visible face of the invisible God and the ultimate archetype of unconditional love (it shines on everyone). By gazing at the sun, one absorbs 'Solar Particles'—spiritual vitamins that organize the chaotic particles of the astral body.",
+            Galactic_Nutrition_Hrani_Yoga:
+                "Eating is a magical act. The physical food contains 'etheric subtle forces' captured from the sun. If you eat while talking or distracted, the stomach gets the matter, but the 'etheric double' of the food escapes, leaving the soul hungry.",
+            The_Aura_as_Skin:
+                "The spiritual skin. A weak aura allows negative entities ('astral lice') to enter. The goal of the disciple is to build an aura so brilliant and impenetrable that it acts as a 'Circle of Light' which burns away impurities before they touch the physical body.",
+        },
+        Practices: {
+            Paneurhythmy_Dance: `
+            "The Supreme Cosmic Rhythm." A sacred circle dance performed at sunrise, preferably in the mountains, dressed in white.
+            - **The Mechanics:** It is not exercise; it is an antenna alignment. Couples move counter-clockwise in a circle (mimicking the planets).
+            - **The Movements:** Specific gestures like 'Aum' (arms raised to 45 degrees to receive) or 'Giving' (arms extending forward) physically channel telluric and cosmic currents. If the geometry of the arm angle is wrong, the current does not flow. It harmonizes the breathing of the group with the 'systole and diastole' of the universe.`,
+
+            Sunrise_Meditation: `
+            The 'Lever du Soleil'. Disciples gather in absolute silence before dawn at a 'Rocher' (Rock) or high point.
+            - **The Laser:** As the first ray of the sun crests the horizon, the disciple catches it with their pineal gland (Third Eye), visualizing drawing the living light into their brain and sending it to the solar plexus. This first ray is believed to contain the most potent 'Prana' of the day.`,
+
+            Yoga_of_Nutrition_Silence: `
+            Meals at the Bonfin are strictly silent.
+            - **The Process:** You chew every bite until it is liquid (liquidizing the solid to release the ether). You do not swallow quickly.
+            - **The Visualization:** While chewing, you mentally project love into the food, effectively 'transubstantiating' the bread or vegetable into a wafer of light before it enters the stomach. A single noise (clinking fork, sneeze) during the meal is viewed as a tear in the collective vessel, spilling the accumulated energy.`,
+        },
+        Structure: {
+            The_Bonfin: "The 'Good End' or 'Good Boundary'. The central sanctuary in Provence where communal life mimics a Solar City.",
+            Brotherhood:
+                "Members address each other as 'Brother' and 'Sister', emphasizing a horizontal family under the vertical Father (Sun) and Mother (Nature).",
+        },
+    },
+
+    Sukyo_Mahikari: {
+        Origins:
+            "Founded in 1959 by Kotama Okada (Sukuinushisama) in Japan. After a severe illness and business failure, he received a revelation from 'Su-God' (the Creator) that the world was entering a 'Baptism of Fire' to cleanse the accumulated toxic karma of humanity.",
+        Beliefs: {
+            True_Light_Mahikari:
+                "A high-dimensional spiritual energy (distinct from Reiki or Prana) radiated from the palm of the hand. It dissolves 'spiritual toxins' and 'cloudiness' on the soul.",
+            Attaching_Spirits:
+                "80% of illness and misfortune is caused by 'Attaching Spirits' (unhappy ancestors or hungry ghosts) clinging to the patient's aura. The Light does not 'exorcise' them; it 'purifies' them so they can ascend, thereby curing the physical host.",
+            The_Baptism_of_Fire:
+                "Humanity has polluted the earth with 'medical toxins' (drugs) and 'agricultural toxins' (fertilizers). God is now burning this away through fever, global warming, and social chaos. Fever is not a sickness; it is the body's attempt to burn up toxins (Melting). You should never stop a fever with medicine.",
+        },
+        Practices: {
+            Okiyome_Hand_Laying: `
+            The core practice. The giver (Kumite) wears a divine pendant (Omitama).
+            - **The Protocol:** Clap three times, recite the 'Amatsu Norigoto' (Prayer of Heaven) in archaic Japanese.
+            - **Point 83:** The giver holds their hand roughly 30cm from the receiver. They *must* start with 'Point 83' (The Primary Soul point on the forehead/pineal gland) for 10 minutes. This purifies the control center.
+            - **The Investigation:** Afterwards, the giver scans the body for heat or cold spots, directing the light to the kidneys, liver, or injury sites. The receiver may convulse, cry, or speak in strange voices—this is the 'Attaching Spirit' reacting to the light.`,
+
+            The_Omitama_Pendant: `
+            A sacred locket containing a scroll with the divine signature of God. It is the 'electrode' that connects the member to the main generator (God).
+            - **The Taboos:** It is the member's most precious possession. It must *never* touch the ground. It must *never* get wet. You cannot wear it during sex or in the bath. If you drop it or forget it, the connection is severed, and you must undergo a specific apology ritual to have it re-consecrated.`,
+
+            Divine_Service_Cleaning:
+                "Cleaning toilets, scrubbing floors, or picking up trash in public parks is not a chore; it is a spiritual polishing of the mind. By scrubbing the dirt of the world, you scrub the dirt from your karma.",
+        },
+        Structure: {
+            Dojo_System: "Hierarchy of centers (Junior, Intermediate, Large Dojo).",
+            Kumite: "Members are 'Kumite' (Hand-in-Hand ones).",
+            Doshu: "The Grand Master. Currently Kōama Okada (after the succession dispute with the Sekai Mahikari Bunmei Kyodan).",
+        },
+    },
+
+    Transcendental_Meditation_MT: {
+        Origins:
+            "Founded by Maharishi Mahesh Yogi (1950s). Originally the 'Spiritual Regeneration Movement'. It rebranded Hindu Vedantic mantra practice into a 'scientific technique' for stress reduction, stripping away the religious language for Western consumption.",
+        Beliefs: {
+            The_Unified_Field:
+                "Consciousness is the fundamental field of the universe (matches Quantum Physics). By diving into the gap between thoughts, the meditator contacts this 'Unified Field of Natural Law'.",
+            The_Maharishi_Effect:
+                "If the square root of 1% of a population meditates simultaneously (and practices Yogic Flying), the coherence of their brainwaves creates a 'Field Effect' that statistically reduces crime, accidents, and war in the surrounding area.",
+            Stress_as_Foreign_Material:
+                "Stress is not a feeling; it is a physical structural abnormality or 'knot' in the nervous system. The mantra allows the mind to settle, allowing the body to throw off this 'foreign material'.",
+        },
+        Practices: {
+            The_Puja_Initiation: `
+            The only explicitly religious part of TM, hidden in the initiation.
+            - **The Room:** The initiate enters a room smelling of camphor and incense. They bring fresh fruit, white flowers, and a white handkerchief.
+            - **The Rite:** The teacher chants a Sanskrit hymn to the 'Holy Tradition' of masters (Guru Dev Brahmananda Saraswati). The initiate does not participate but witnesses.
+            - **The Offerings:** The teacher waves camphor light (Arati) and offers the rice and flowers to the picture of Guru Dev.
+            - **The Mantra:** At the climax, the teacher leans forward and whispers the 'Secret Mantra' (a Sanskrit Bija sound like 'Eng', 'Em', 'Shirim') into the student's ear. This sound is selected based on the student's age and gender from a fixed chart, though students are often told it is unique to them.`,
+
+            The_Checking_Notes:
+                "If a meditator has trouble, they undergo 'Checking'. This is a rigid, flow-chart script the teacher must memorize perfectly. The teacher asks questions ('Are you straining?') and reads the exact answer from the script, ensuring the 'purity of the teaching' is never diluted by personal opinion.",
+
+            TM_Sidhi_Yogic_Flying: `
+            The advanced 'checkbook' course.
+            - **The Sutras:** The practitioner enters deep meditation and mentally drops specific Sutras (from Patanjali) into the silence (e.g., 'Relationship of Body and Akasha... Lightness of Cotton Fiber').
+            - **The Hopping:** The body involuntarily jerks forward in a cross-legged hop. This 'frog hop' is viewed as the first stage of Levitation. The goal is 'Floating' (Stage 2) and 'Flying' (Stage 3). The gym fills with hundreds of people hopping on foam mattresses, creating a 'Golden Dome' of coherence.`,
+        },
+        Structure: {
+            Rajas_and_Ministers: "They wear white robes and gold medallions/crowns (The Global Country of World Peace).",
+            Pandits: "Vedic chanters imported from India to maintain the vibration.",
+        },
+    },
+
+    Unification_Church_The_Moonies: {
+        Origins:
+            "Founded in 1954 in Seoul by Sun Myung Moon. It synthesizes Christianity with Korean Shamanism and Confucian family values. Moon claimed Jesus appeared to him on Easter 1935, asking him to complete the mission Jesus failed to finish.",
+        Beliefs: {
+            Divine_Principle_The_Failure:
+                "Jesus was supposed to be the 'Second Adam' and marry a 'Second Eve' to birth a sinless lineage. Because he was murdered (the Cross was a mistake, not a victory), he only saved humanity spiritually, not physically. We still have 'Satan's Blood'.",
+            Change_of_Blood_Lineage:
+                "The 'Original Sin' was a sexual act (Eve seduced by the Serpent). Therefore, salvation must be a biological/sexual repair. One must be grafted onto the 'True Olive Tree' (Moon's lineage) to remove the satanic blood.",
+            Indemnity:
+                "The laws of cosmic accounting. Sin creates a debt. You must pay 'Indemnity' (suffering, fundraising, fasting) to balance the ledger and liberate your ancestors from hell.",
+        },
+        Practices: {
+            Holy_Wine_Ceremony: `
+            The prerequisite for the Blessing (marriage).
+            - **The Ingredients:** The wine traditionally contains 21 distinct ingredients representing all things (earth, blood, etc.), but crucially, the 'Mother Wine' allegedly contained a drop of Reverend Moon's blood (or fluid).
+            - **The Transmission:** The wife drinks first (representing Eve accepting the new lineage), then passes the cup to the husband (Adam). This reverses the Fall, where Eve gave the poisoned fruit to Adam.`,
+
+            The_Three_Day_Ceremony: `
+            The ritual consummation of the marriage (often conducted years after the wedding). It is a rigorous liturgy of sexual restoration performed over three nights in a holy room.
+            - **Nights 1 & 2 (Reversing the Fall):** The wife is in the 'Subject' (Male) position. She leads the prayer and lies on top of the husband. This symbolizes the restoration of Eve's error.
+            - **Night 3 (Restoration of Dominion):** The husband assumes the 'Subject' position (lies on top). They use a 'Holy Handkerchief' to wipe their genitals afterwards. The fluids/handkerchiefs are kept as sacred relics.`,
+
+            Ansu_Vigorous_Massage: `
+            Practiced at the Chung Pyung spiritual center.
+            - **The Slapping:** Participants wear white T-shirts and sit in rows. Led by a trainer on stage, they vigorously slap their own bodies and the backs of the person in front of them while singing 'Crash the Dragon!'.
+            - **The Logic:** The slapping dislodges 'evil spirits' and ancestral ghosts trapped in the organs/flesh, allowing them to be cleansed by the 'Works' of the Heung Jin Nim spirit.`,
+        },
+        Structure: {
+            True_Parents: "Moon and his wife Hak Ja Han are the Messiahs.",
+            Central_Blessed_Families:
+                "Status is determined by which 'Blessing' (Mass Wedding) you were in (e.g., the 36 Couples, the 777 Couples). Earlier couples are spiritual nobility.",
+        },
+    },
+
+    Antoinism: {
+        Origins:
+            "Founded in Jemeppe-sur-Meuse, Belgium (1910), by the coal miner Louis-Joseph Antoine ('Le Père'). After exploring Spiritism (Kardec) and healing, he founded a distinct 'Healing Religion' centered on the negation of matter.",
+        Beliefs: {
+            Fluidism_and_Thought:
+                "Everything is 'Fluid'. Thoughts are not abstract; they are material movements of fluid. A 'bad thought' creates a lesion in the fluid, which manifests as physical cancer or poverty.",
+            The_Illusion_of_Evil:
+                "Evil does not exist. It is merely a 'lack of vision' or a hallucination of the intelligence. If you believe you are sick, you give reality to the sickness. The cure is to 'disbelieve' the reality of the illness.",
+            Moral_Reincarnation:
+                "We reincarnate to learn. Suffering is not a punishment, but a friction necessary to polish the spirit. We do not remember past lives because the shame would be too great.",
+        },
+        Practices: {
+            The_Operation_Generale: `
+            The public healing service (Monday through Thursday).
+            - **The Silence:** The temple is stark white, adorned only with a photo of 'Le Père' and the 'Tree of the Knowledge of the Sight of Evil'. There is no sermon.
+            - **The Fluid:** The Desservant (Minister) stands on a raised platform and concentrates. He does not touch anyone. He mentally projects 'The Fluid' (accumulated love/faith) over the congregation for 10-15 minutes. The congregation sits in total silence, receiving the invisible shower.`,
+
+            The_Operation_Particuliere: `
+            Private consultation. The sufferer enters a small consulting room behind the altar.
+            - **The Disclaimer:** The healer never promises a cure (to avoid illegal practice of medicine).
+            - **The Act:** The healer listens briefly to the complaint but knows the words don't matter. They place their hand on the sufferer's shoulder or forehead (or simply concentrate) to 'short-circuit' the bad fluid and reconnect the sufferer to the 'General Fluid' of the Father.`,
+
+            Vegetarianism_and_Bitter_Foods:
+                "Followers avoid meat (heavy fluid) and often prefer bitter foods (endives, chicory) over sweet foods, believing bitterness purifies the blood while sugar feeds the lower instincts.",
+        },
+        Structure: {
+            Dress_Code:
+                "Traditional Antoinist 'Desservants' (Healers) wear a distinctive 19th-century frock coat (Levite) and top hat (for men) or black veil/bonnet (for women). They take no money.",
+            Reading_Rooms: "Small storefronts where the 'Teachings' (The Revelation) are read aloud to those seeking help.",
+        },
+    },
+
+    Wicca_Luciferienne_Coutela: {
+        Origins:
+            "France (1975–1995). Founded by Jacques 'Jack' Coutela and Nicole Lhotellier ('Diane Lucifera') at their headquarters, the 'Maison des Brumes' (6 rue Danton, Le Kremlin-Bicêtre). They claimed to represent the 'True Wicca,' a pre-Celtic, pre-Druidic solar cult that had survived 1,500 years of persecution. The group is infamous for its fusion of occultism with the hardcore pornography industry (partnering with production house 'Défi') and its tragic end in a bloody huis clos.",
+        Beliefs: {
+            Lucifer_Phosphoros:
+                "They rejected the Judeo-Christian worldview, viewing Lucifer not as Satan, but as the 'Light Bearer' and the true god of the Solar/Lunar axis. 'Love' was viewed as a weakness; 'Will' was the only virtue.",
+
+            Extraterrestrial_Cosmogeny_and_Race: `
+            A unique, highly specific cosmology documented in their text 'Toute la philosophie de la Wicca'.
+            - **Planetary Migration:** They believed humanity is not originally from Earth. The human race conquered planets sequentially: Pluto -> Neptune -> Uranus -> Saturn -> Jupiter -> 'Planet X' (destroyed) -> Mars -> Earth.
+            - **Future Exodus:** The Earth is dying. The elect will eventually migrate to Venus and finally Mercury.
+            - **Racial Astrology:** They taught that races correspond to planetary origins. Yellow people came from Jupiter, Red from Mars, White from the lost 'Planet X', and Black people are the only 'native' Earth race.`,
+        },
+        Practices: {
+            The_Sexual_Gnosis_and_The_6th_Degree: `
+            The initiation system had 7 degrees. The 6th degree (allowing one to found their own coven) required the 'Baptême Majeur'.
+            - **The Rite:** This was an explicit sexual union between the initiate and the High Priest (Jack) or High Priestess (Diane), performed ritually to transmit the 'magical current'.
+            - **Pornographic Output:** The group produced 'instructional' occult videos which were essentially softcore/hardcore pornography sold by Michel Ricaud's 'Défi Production' (Titles: *Retour d'affection*, *Sabbat et Sorcellerie*).`,
+
+            Ritual_Clothing_and_Article_62: `
+            The group's internal regulations (Règlement Intérieur) were obsessive about nudity and constriction.
+            - **No Underwear:** Article 62 strictly forbade women from wearing panties ("in contradiction with magic") or trousers. Men were discouraged from wearing briefs (boxers allowed) to avoid constricting the 'vital flow'.
+            - **Shaven pubis**: to re-embody the "childlike purity".
+            - **The Salt Baptism:** A specific rite involved placing a grain of salt between the lips of the candidate to symbolize the "Salt of the Earth" and the acceptance of terrestrial suffering.`,
+
+            The_Invocations:
+                "Rituals often began with the rhythmic chanting of 'EKO EKO EKO' followed by the names of entities. The High Priestess would perform lascivious dances in the center of the circle to raise the 'Cone of Power'.",
+
+            Magical_Items: "They went to cemeteries to scavenge wood and metal (nails) from graves for ritual tools.",
+        },
+        Structure: {
+            Membership: "Only couples and single women were allowed.",
+
+            The_Unholy_Trinity:
+                "Originally a duality (Jack and Diane), the leadership became a unstable triad in 1992 with the arrival of Dominique Dusseau, a young, psychologically unstable former porn actress. She was 'adopted' by the couple but became a rival for the role of High Priestess.",
+
+            The_Final_Huis_Clos_1995: `
+            The group collapsed following a disastrous appearance on the TF1 show "J'y crois, j'y crois pas" (March 10, 1995), where Dominique performed a 'bras d'honneur' (arm gesture) at the audience.
+            - **The Death:** On March 22, 1995, all three were found dead. While officially a suicide pact, forensic evidence suggested a darker sequence: Dominique likely shot Nicole (who left a note claiming possession), Jacques then poisoned Dominique, and finally hanged himself in the attic.`,
+        },
+    },
+
+    Claude_Deplace_La_Chose: {
+        Origins:
+            "France (active mid-20th century). A highly secretive, apocalyptic sect centered around the guru Claude Déplace. The group was referred to by outsiders (and sometimes insiders) simply as 'La Chose' (The Thing) or 'La Chose de l'Astral'. Déplace claimed to be in contact with extraterrestrial or interdimensional entities and asserted that the physical body was a coarse, heavy shell that had to be 'broken' to release the astral self.",
+        Beliefs: {
+            The_Astral_Hardening: `
+            The central dogma was that the soul is soft and weak because it is addicted to comfort. To survive the coming apocalypse (or the transit to the next dimension), the spirit must be 'tempered' like steel.
+            - **Pain as Fuel:** Pain is not negative; it is the friction of the spirit fighting the flesh. When you scream, you are expelling the 'heavy matter' of the ego.`,
+
+            The_Elemental_Gateways:
+                "The universe consists of four hostile elements (Fire, Air, Earth, Water). The human body is composed of these but is enslaved by them. To rule the Astral, one must conquer the elements physically. If fire cannot burn you, hell cannot hold you.",
+        },
+        Practices: {
+            The_Rite_of_Ignition_Fire: `
+            The ordeal of Fire was designed to destroy the fear of tissue damage.
+            - **The Branding:** Initiates would gather in a circle. The participant would extend their arm or chest.
+            - **The Act:** A candle flame or heated metal was applied directly to the skin. The initiate was forbidden to pull away. They had to watch the skin blister and blacken while chanting specific mantras to dissociate the 'I' from the 'Meat'. The smell of burning hair and skin was inhaled as a sacred incense.`,
+
+            The_Asphyxiation_Protocol_Air: `
+            The most dangerous rite, designed to force a Near-Death Experience (NDE).
+            - **The Carotid Press:** The initiate kneels. The 'Monitor' stands behind them and applies precise, crushing pressure to the carotid arteries.
+            - **The Tunnel:** As blood flow to the brain is cut off, the initiate blacks out. The group believes the visions seen in this hypoxic twilight (tunnels of light, buzzing sounds) are literal glimpses of the Astral Plane.
+            - **The Return:** The pressure is released just before death. The initiate wakes up convulsing, believing they have literally returned from the dead with new orders.`,
+
+            The_Burial_of_the_Dead_Earth: `
+            A psychological terror ritual to conquer claustrophobia and the ego's attachment to the world.
+            - **The Grave:** A pit is dug in the forest. The initiate lies inside, naked or wrapped in a sheet.
+            - **The Cover:** Boards are placed over the pit, and dirt is shoveled on top, blocking out all light and sound. A breathing tube (often a simple garden hose) is provided.
+            - **The Duration:** They remain buried for hours or overnight. In the total sensory deprivation and crushing weight of the earth, the mind fractures and hallucinates. They are 'digested' by the earth and 'vomited' out as new beings at dawn.`,
+
+            The_Ice_Bath_Water: `
+            The ordeal of cold to freeze the 'lower passions'.
+            - **The Immersion:** In winter, a bathtub or trough is filled with water and ice blocks.
+            - **The Stasis:** The initiate must submerge completely (sometimes including the head) and remain motionless. Shivering is viewed as spiritual weakness. They must use mental focus to raise their 'inner heat' (Tummo) to counteract the freezing water. Failure leads to hypothermia and beatings by the guru for 'lack of will'.`,
+        },
+        Structure: {
+            The_Astral_Hierarchy:
+                "Déplace was the sole link to the 'Entities'. Members were graded not by knowledge, but by their pain threshold. The ones who bore the worst scars were considered the 'Purest' vessels.",
+        },
+    },
+
+    Cercle_Initiatique_de_la_Licorne_Yull_Ruga: {
+        Origins: `
+            Paris & Ézan-Provence, France (1981 - 1994). Founded by the "Grand Maître Sorcier" Yull Ruga (born Francis Ceccaldi/Sekeldi, 1923-1994).
+            The group formally emerged with Ruga's "Summer Solstice Call" in 1981, aiming to reform Wicca into a "pure and uncompromising" order aligned with the Age of Aquarius. Ruga explicitly criticized the "Wicca Internationale" (from which he broke away in 1983) for its "universalist hypocrisy" and "fatalism."
+            
+            The lineage is unique for its integration of far-right politics into neopaganism. Ruga was not a counter-culture pacifist; he was a former member of the fascist *Parti Populaire Français* (PPF), a worker for the *Organisation Todt* during WWII, a veteran of Indochina, and allegedly an operative for "La Main Rouge" (a state-sponsored assassination squad targeting Algerian independence supporters). Post-prison (convicted of murder in 1959), he acted as a druid for the neo-Nazi group *Force H* before his Wiccan initiation.
+            
+            The order attracted approximately 70 followers and was listed as a sect in the 1995 French Parliamentary Report. Ruga died of an internal hemorrhage in 1994—a death some followers attributed to a magical curse. Police monitored the group during the 1994 Carpentras Jewish cemetery desecration, though no direct link was established.`,
+        Beliefs: {
+            Aristocracy_of_the_Spirit: `
+                The central dogma is the rejection of "Equality." Ruga taught that the egalitarianism of democracy and Christianity is a "gluelike river of stupidity" that protects the weak.
+                - **Biological Elitism:** The Order emphasizes the "Survival of the Best." Just as nature privileges the predator over the prey, spiritual evolution belongs to the "Strong." The goal is not altruism, but the cultivation of a superior, efficient individual.
+                - **Devenir Cause:** The spiritual objective is to transition from being an "Effect" (subject to fate, laws, and other people's wills) to becoming a "Cause" (a sovereign agent of reality). This involves rediscovering the "divine spark" and actively choosing one's reincarnations.`,
+            Luciferian_Paganism: `
+                Lucifer is venerated not as the Christian Devil or Satan (whose existence is denied, along with Hell), but as the "Porteur de Lumière" (Light-Bearer) and the "Force of Life."
+                - **The Maimed Gods:** The cult specifically invokes gods who have suffered mutilation to gain power, symbolizing the price of sovereignty. The primary patrons are **Tyr le Manchot** (Tyr the One-Handed) and **Hephaistos/Vulcain** (The Lame Smith).
+                - **Pantheistic Monism:** The worldview is pantheistic (all is divine) and monist (all is one), yet polytheistic in practice (venerating distinct forces). There is tolerance for all beliefs except exclusive monotheisms.`,
+            The_Hexagonal_Root: `
+                A rejection of "imported religions" (Christianity, Buddhism, Islam) in favor of the "Old Faith" of the Western soil. Ruga viewed his magic as the re-awakening of the dormant, pre-Christian egregore of Europe/France ("The Hexagon").`,
+        },
+        Practices: {
+            L_Intronisation_Enthronement: `
+                The initiation is termed "Intronisation" (Enthronement). It is a ritual of sovereignty intended "to place the individual on the throne of the kingship of himself."
+                - **The Posture:** Performed naked, the initiate faces North, kneeling on the left knee—a position of fealty to the self and the Northern Tradition.
+                - **The Inversion:** The candidate is blindfolded and must recite the *Pater Noster* (Lord's Prayer) backwards. This is a de-conditioning ritual designed to "vomit out" the slave-morality of Christian upbringing.
+                - **The Ordeals:** The neophyte undergoes the trial of the Elements. The "Trial of Fire" famously involved the application of a heated poker or open flame near the skin to test the candidate's control over fear and pain reflexes.`,
+            The_Oath_of_the_Licorne: `
+                The candidate places their right hand on the ritual Sword and recites:
+                "Moi [Nom], je jure que je ne refuserai aucun secret à qui aura pour garant l'un des membres de ce coven... Puissent les pouvoirs que je possède et posséderai se retourner contre moi si je viole un jour ce très solennel serment."
+                (May my powers turn against me if I violate this oath.)`,
+            Magie_de_Puissance: `
+                Rituals were operational, focusing on "Volonté de Puissance" (Will to Power).
+                - **Telekinesis:** Ruga claimed and demonstrated (on TV, though not live) the ability to levitate apples using directed mental focus.
+                - **The Gong:** During high-intensity rituals, the Temple Gong would allegedly strike itself without human intervention, signaling the arrival of the Entity.
+                - **Sexual Magick:** Sexuality was utilized as a source of "bio-electric" energy to charge ritual intentions. While Ruga publicly denied being a "pervert" and no pathological sexual rites were confirmed, the doctrine held that "the only sin is to harm," allowing for a libertine approach to energy generation.`,
+            The_Wheel_and_Sorcery: `
+                - **Sabbats:** Seasonal festivals (The Wheel of the Year) were celebrated in the forest, involving incantations, moon dances, and nudity.
+                - **The Duality of Craft:** Publicly, the Order espoused "White Magic" ("Do what you will if it harms none"). Privately, Ruga practiced black magic, claiming the power to use evil for operational ends, though he ostensibly refused to grant death wishes for clients.
+                - **Manifestation:** Methods included wax doll spells (envoûtement), hypnosis, and the use of drugs to alter consciousness and contact vital energies.`,
+        },
+        Structure: {
+            The_Cabinet: `
+                The Order operated out of Ruga's apartment on Rue Philippe de Girard (18th arrondissement, Paris). It functioned as a dual entity: a magical lodge for the "Initiates" and a professional astrology/sorcery consultation business for the public.`,
+            Grand_Maitre_Sorcier: `
+                Authority was absolute and vertical. Ruga was the "Grand Maître." There were no detailed lower degrees or covens; members were expected to be "spiritually mature" enough to submit to his authoritarian style as a discipline for breaking the ego.`,
+        },
+    },
+
+    Institut_Abrasax: {
+        Origins: `
+            Forchies-la-Marche, Belgium (c. 1990 - 2006).
+            Formed by the fusion of three distinct entities under one roof: the 'Coven Cernunnos' (Wicca), the 'Ordre Luciférien Initiatique' (Luciferianism), and the 'Eglise Belge de Satan' (Satanism).
+            The institute was led by the couple Francis De Smet (alias "Grand Maître Anubis," a museum taxidermist specializing in skeleton reconstruction) and Dominique Kindermans (alias "Grande Prêtresse Naema Neftis"). They operated out of a conspicuous white house at 223 Rue Emile Vandervelde, which became the focus of intense media scrutiny during the Dutroux Affair in 1996 due to allegations (later dismissed) of involvement in a pedophile ring.`,
+        Beliefs: {
+            The_Triple_Path: `
+                Unlike mono-focused cults, Abrasax structured its theology as a progressive ascent through three "chambers," using contradiction as a teaching tool.
+                - **Stage 1: Satanism (The Therapy of Rebellion):** Satanism was viewed not as a final truth, but as a "psychodrama" or shock therapy for the "crushed" individual. By embracing blasphemy and the "Lord of Matter," the initiate breaks the chains of Christian guilt and slave morality. Satan is the provider of "Here and Now" happiness, while the Christian God is the creator of misery.
+                - **Stage 2: Luciferianism (The Reconstruction):** Once the ego is liberated, the initiate moves to Luciferianism. Lucifer is the "Light Bearer," the male polarity of the life force, paired with Lilith (female).
+                - **Stage 3: Gnosticism (The Synthesis):** The highest level is the "Eglise Gnostique," aiming for the realization of the "Androgyne Principielle"—the alchemical union of opposites symbolized by the god Abrasax (a rooster-headed deity with serpent legs).`,
+            Demonology_as_Science: `
+                The group published "Le Prince de ce Monde" (1993), a dictionary of demons treating them as utilitarian forces rather than objects of worship. For example, **Abigor** is invoked to secure the submission of women or pervert virgins, while **Bun** is invoked to move corpses.`,
+        },
+        Practices: {
+            La_Messe_Noire_The_Black_Mass: `
+                Performed in the "Satanic Temple," a room draped in black fabric featuring an inverted pentagram and a Christian cross hung upside-down (so Christ's head points to the floor, symbolizing his defeat).
+                - **The Altar of Flesh:** The central ritual focus is a living altar. A female adept removes her black ritual cloak to reveal her naked body. She lies supine on the altar table, "offering her sex to the satanic vibration." The liturgy is conducted over her body, with the chalice often resting on her stomach or between her thighs.
+                - **Le Pain de Mort (Bread of Death):** The officiant consecrates a black host (sometimes shaped like a vulva) with a specific inversion of the Eucharist. Lifting the host, he intones: 
+                  *"Béni sois-tu, Pain de Mort, plus que le Pain de Vie... car qui n'a point été moissonné par une main humaine ?"*
+                  (Blessed be you, Bread of Death, more than the Bread of Life... for [it] has not been harvested by human hand?)
+                - **The Communion:** The priest presents the wine, declaring, *"Satan, le liquide dont est fait ce vin est vraiment le sang"* (Satan, the liquid of which this wine is made is truly the blood). The congregation responds with "Gloire à toi, Satan!" before consuming the elements to internalize the transgressive power.`,
+            Therapeutic_Sorcery: `
+                The Institute positioned itself publicly as a center for "Parapsychological Research and Alternative Psychotherapy."
+                - **Stone Transfer:** Anubis claimed the ability to transfer human diseases into crystals or stones, which would then be buried to "ground" the sickness.
+                - **Psychosexual De-conditioning:** Naema Neftis offered therapy sessions. Initiates were encouraged to explore "turpitude sexuelle" (sexual depravity) as a means to transcend social taboos. Recipes for invocations included mixtures of sperm and menstrual blood to "ground" the entity.`,
+        },
+        Structure: {
+            The_House_of_Temples: `
+                The layout of the headquarters reflected the spiritual hierarchy:
+                - **The Hangar (The Temple of Lucifer):** A large space featuring a cross that was *not* inverted but carried a white serpent, flanked by images of Lucifer and Christ as equals/brothers.
+                - **The Black Room (The Church of Satan):** Reserved for the lower-level blasphemous rites, featuring Baphomet statues and inverted pentagrams.
+                - **The Red Room (Wicca):** A sanctuary for "Natural Magic" and seasonal rites.`,
+            The_Infernal_Clergy: `
+                Beyond the three initiatory degrees, a fourth circle existed: the "Clergé Infernal." This inner circle acted as a tribunal to discipline members.
+                - **The Fifth Degree:** Rumors persisted (fueled by ex-members) of a fifth, secret degree that involved sexual union with the Grand Master to achieve final gnosis, though this was denied by leadership.`,
+        },
+    },
+
+    Asaro_Mudmen_Holosa: {
+        Origins:
+            "Eastern Highlands of Papua New Guinea (Goroka region). The tradition of the 'Holosa' (ghosts) arose from a legendary tribal defeat. Forced into the Asaro River to hide from enemies, the warriors emerged covered in grey mud. The enemy, believing they were vengeful river spirits, fled in terror.",
+        Beliefs: {
+            Terror_Warfare:
+                "The Mudmen do not worship a specific god; they utilize the *fear* of the supernatural as a military tactic. They exploit the cultural belief that ghosts are white/pale and malicious.",
+            Weight_of_the_Spirit:
+                "The masks are incredibly heavy (up to 20kg). Wearing one requires a slow, disjointed movement (the 'Ghost Walk') which unintentionally enhances the eerie, non-human effect.",
+        },
+        Practices: {
+            The_Clay_Helmet:
+                "Unlike wooden masks, Asaro masks are molded from river clay and dried (not fired). They are helmet-masks covering the entire head.",
+            The_Long_Fingers:
+                "Dancers attach bamboo tubes to their fingers, creating claw-like extensions to tap rhythmically on their masks or threaten onlookers.",
+            The_Silent_Raid:
+                "The Mudmen operate in total silence. They do not chant or sing; they approach slowly, aiming to paralyze the enemy with the sight of the 'Dead' rising from the mud.",
+            The_Face_of_the_Dead:
+                "The masks are grotesque, often featuring distorted brows, pig tusks, and gaping mouths. They are painted white/grey to simulate decomposing flesh or bone. The body is also smeared entirely in river mud, erasing the human skin tone.",
+        },
+        Structure: {
+            Village_Troupe:
+                "Organized at the village level. Preparation is secretive; the mud is applied in seclusion to maintain the illusion of being spirits.",
+        },
+    },
+
+    The_Nyau_Brotherhood: {
+        Origins:
+            "Malawi, Mozambique, and Zambia (Chewa People). An ancient secret society ('Gule Wamkulu' or Great Dance) that predates colonization and survived by going underground during British rule.",
+        Beliefs: {
+            The_Spirit_Zoo:
+                "The Nyau believe the dead return as beasts or spirits. The masks represent the 'Kulamba' (ancestors) and the 'Nyama' (wild animals) that existed before man.",
+            Moral_Instruction:
+                "Every mask is a character in a moral play. The 'Evil' masks appear to show the community what *not* to be (e.g., the Greedy Man, the STI carrier, the Colonialist).",
+        },
+        Practices: {
+            Dust_Dancing:
+                "Dancers kick up massive clouds of dust ('The Mist') to obscure their feet, making it appear as though the spirits are floating or hovering above the earth.",
+            Graveyard_Initiation:
+                "Initiation takes place in the 'Dambwe' (ancestral grove/graveyard). Young men are taught the secret language and the art of mask-making.",
+            The_Funeral_Rights:
+                "Nyau must perform at the funeral of a Chief. Their chaotic, scary presence ensures the spirit of the deceased is safely escorted to the ancestor world.",
+            Structures_of_Terror: `Nyau masks fall into two types:
+            1. **The Face Masks:** Wooden or feather masks depicting humans, often grotesque or diseased.
+            2. **The Structures:** Massive, animalistic basket-work structures (antelopes, pythons, motors) that cover the dancer's whole body. The 'Kasiya Maliro' (antelope) is the most sacred, representing the womb of death.`,
+        },
+        Structure: {
+            State_Within_a_State:
+                "The Nyau function as a parallel government. Their law (Nyau Law) traditionally superseded civil law in the villages, especially regarding funerals and moral crimes.",
+        },
+    },
+
+    The_Duk_Duk: {
+        Origins:
+            "Bismarck Archipelago (New Britain/Papua New Guinea); the Tolai people. A law-enforcement secret society that maintained order before colonial courts.",
+        Beliefs: {
+            The_Punisher_Spirit:
+                "The 'Duk-Duk' (Male) and 'Tubuan' (Female) are not men in costumes; they are spirits summoned from the ocean. When the mask is donned, the human ceases to exist.",
+            Economic_Law:
+                "The society regulated the shell-money (Tabu) economy, fining those who broke taboos or grew too wealthy without sharing.",
+        },
+        Practices: {
+            The_Arrival:
+                "The spirits arrive on canoes at dawn from the sea (the realm of the dead). Their landing is a moment of terror for the uninitiated.",
+            The_Toll:
+                "The Duk-Duk roams the village demanding 'Tabu' (shell money) fines. If a person cannot pay for a transgression, their house might be burned or they might be beaten.",
+            Extinction_of_the_Mask:
+                "At the end of the ritual season, the masks are ritually killed (burned) to send the spirits back to the sea.",
+            The_Cone: `The dancer wears a distinctive tall, conical mask (up to 2 meters) made of cane and cloth, topped with feathers.
+            - **The Leaves:** The body is completely shrouded in layers of rustling palm leaves, hiding all human form.
+            - **The Eyes:** The mask has large, staring geometric eyes that imply omnipotence.`,
+        },
+        Structure: {
+            Matriarchal_Ownership:
+                "Interestingly, while the dancers are male, the rights to the 'Tubuan' (the female ancestor spirit) are often owned by high-ranking women, who control the society's power behind the scenes.",
+        },
+    },
+
+    Compagnia_della_Calza: {
+        Origins:
+            "Venice (15th-16th Century); 'The Companies of the Hose'. Fraternal guilds of young patricians organized to manage the spectacle of the Carnival and theatrical performances.",
+        Beliefs: {
+            Civic_Hedonism: "The belief that social order is maintained by allowing controlled periods of total chaos (Carnival).",
+            The_Right_to_Mock:
+                "The mask grants immunity. A masked commoner could insult a masked Doge without consequence, venting social pressure.",
+        },
+        Practices: {
+            Momarie: "Organizing massive floating processions and pantomimes on the canals.",
+            Egg_Throwing: "Filling eggshells with rosewater (or ink) to throw at ladies or rivals during the procession.",
+            The_Liston_Walk:
+                "Parading in uniform (colored hose/stockings) to display the power and wealth of the specific Company (e.g., The Immortals, The Gardeners).",
+            Masks: `
+            - The Bauta: The 'Ghost' of Venice. A stark white mask with a square jawline that acts as a sounding board to alter the wearer's voice. It allows eating and drinking without removal, maintaining the 'State of Mask' for days.
+            - The Moretta: The 'Mute Maid'. A black velvet mask worn by women. It had no straps; it was held in place by biting a button on the inside. This enforced silence, making the woman a mysterious, listening presence.
+            - The Gnaga: A cat mask worn by men dressing as women (drag), allowing them to skirt sodomy laws and hurl obscenities in a falsetto voice.`,
+        },
+        Structure: {
+            The_Prior:
+                "Each Company was led by a Prior and had its own statutes, emblems, and bicolor stockings (Calza) to distinguish membership.",
+        },
+    },
+
+    The_Satanic_Temple: {
+        Origins:
+            "2013, USA. Founded by Lucien Greaves and Malcolm Jarry. Originally conceived as a 'poison pill' to enforce separation of church and state, it evolved into a nontheistic religious human rights group.",
+        Beliefs: {
+            The_Seven_Tenets:
+                "A code of secular humanism emphasizing empathy, justice, and scientific understanding. Tenet III: 'One’s body is inviolable, subject to one’s own will alone.'",
+            Nontheism:
+                "They do not believe in a literal Satan. Satan is a literary metaphor (the 'Eternal Rebel') representing rejection of tyranny.",
+        },
+        Practices: {
+            The_Unbaptism:
+                "A ritual to liberate individuals from their 'superstitious' past. Participants may have crosses painted on their foreheads in ash and then wiped off, symbolizing the erasure of imposed religion.",
+            The_Pink_Mass:
+                "Performed at the grave of the mother of Westboro Baptist Church founder Fred Phelps. Same-sex couples kissed over the grave to theoretically 'turn the mother gay' in the afterlife.",
+            After_School_Satan: "An educational program designed to counter Christian evangelism in public schools.",
+            Monumental_Bronze: `
+            TST is famous for its high-budget, cinematic aesthetic designed to rival major religions.
+            - **The Baphomet:** A 2.7-meter (8.5ft) tall bronze statue of the goat-headed deity, costing $100,000 to cast. It features two smiling children looking up at the idol, representing the lack of fear in knowledge.
+            - **Corporate Goth:** The leadership often appears in tailored black suits, presenting a hyper-rational, legalistic image ('Satanic Lawyers') rather than a mystical one.
+            - **The Destruction Ritual:** Rituals often involve the destruction of symbols of oppression (e.g., smashing idols or tearing up injunctions) in highly photogenic public spaces.`,
+        },
+    },
+    Structure: {
+        National_Council_and_Chapters:
+            "Centralized leadership (The Executive Ministry) overseeing semi-autonomous local chapters globally.",
+    },
+
+    Brotherhood_of_the_Golden_Arrow: {
+        Origins:
+            "1930s Paris (Montparnasse). Founded by Maria de Naglowska, a Russian mystic and self-proclaimed 'Sophiale' (Priestess of Wisdom).",
+        Beliefs: {
+            The_Third_Term:
+                "Naglowska taught a twist on the Trinity: The Father (God), The Son (Life), and the Third Term (Sex/Satan). To reach God, one must not ascend, but descend through the 'Satanic' force of matter and sexuality.",
+            Sanctification_of_Eros: "Sexual intercourse is a magical act that can transform the human into a divine being.",
+        },
+        Practices: {
+            La_Pendaison:
+                "The most notorious ritual. A male initiate is ritually hanged (non-fatally) to induce a state of asphyxiation. While suspended between life and death, he is sexually stimulated by the Priestess. The goal is to shock the soul into seeing the 'Other Side'.",
+            Mass_of_the_Golden_Arrow: "A rite involving the consecration of the womb and the symbolic consumption of sexual fluids.",
+            Surrealist_Orthodoxy: `
+            The aesthetic blended Russian Orthodox solemnity with erotic occultism.
+            - **The Black Altar:** The temple featured a black altar adorned with a gold arrow, Chalices, and imagery of the 'Satanic Jesus'.
+            - **The Rope:** The hanging rope was a sacred fetish object, treated with the reverence of a rosary.
+            - **Robes of the Sophiale:** Naglowska wore flowing golden or black robes, presenting herself as a distinct 'Mother' figure, contrasting with the severe male occultists of the era.`,
+        },
+        Structure: {
+            Salon_Cult: "Operated as an esoteric salon attended by surrealist artists and writers (e.g., Julius Evola, Man Ray).",
+        },
+    },
+
+    The_Order_of_the_Palladium: {
+        Origins: `
+            France (1885–1897). The 'Taxil Hoax' is arguably the most successful occult scam in history. Created by anti-clerical prankster Léo Taxil, it was designed to exploit the Catholic Church's fear of Freemasonry. Taxil feigned conversion to Catholicism and 'revealed' the existence of a super-secret Satanic order controlling the world's Masonic lodges, fooling the Vatican and the public for twelve years.
+            The centerpiece of Taxil’s invention was the "Palladium," a high-ranking, Luciferian Masonic rite supposedly headquartered in Charleston, South Carolina. Taxil and his secret collaborators published massive volumes detailing this hidden world, filling them with grotesque and fantastical elements—from devils traveling via telephone lines to crocodiles playing the piano. To give the story a human face, Taxil introduced Diana Vaughan, a perfect protagonist for his audience. Presented as a descendant of the demon Asmodeus and a "High Priestess" of the Palladium, she was currently seeking redemption in the Catholic faith. Her "memoirs" detailed her supernatural rivalry with another high-ranking Satanist, Sophie Walder, and exposed terrifying rituals involving blood and blasphemy.
+            The Church was captivated; the Pope himself, Leo XIII, reportedly sent a private blessing to the non-existent Diana, urging her to continue her brave exposure of the Masonic plot. In 1897, Taxil called a press conference promising to introduce Diana Vaughan to the world. Instead, he appeared alone, thanked the clergy for their 'lovely time,' and revealed it was all a joke. However, the imagery he created (sacrificed babies, Baphomet worship in Masonry) is still believed by conspiracy theorists today.`,
+        Beliefs: {
+            The_Double_Divinity: `
+            The core theology was a radical Manichaean inversion, positing two equal and opposing gods fighting for the soul of the universe:
+            - **Lucifer (The Good God):** The God of Light, Liberty, and Intellect. He is the 'Grand Architect' who brought the divine fire of knowledge to humanity. He suffers for mankind's freedom.
+            - **Adonai (The Evil God):** The Christian God (Jehovah). He is the God of Darkness, Sterility, and Tyranny. He demands ignorance and blind obedience. The Palladium teaches that Adonai is a jealous usurper who imprisoned the human spirit in the clay of the body.
+            The ultimate destiny of the Palladist is to aid Lucifer in the final battle to dethrone Adonai and establish a Kingdom of Reason and Pleasure on earth.`,
+            The_Palladium_Talisman: `
+            The Order derives its name from the 'Palladium of the Templars'—a legendary statue of the Baphomet supposedly worshipped by the original Knights Templar.
+            - **The Lore:** Taxil claimed this statue was not an idol, but a 'Theraphim' (speaking oracle). It was saved from the burning of the Templars in 1314 and passed down in absolute secrecy until it reached Albert Pike in Charleston.
+            - **The Power:** Possession of the Palladium guarantees global dominion. It is the battery that charges the entire Masonic network with Luciferian energy.`,
+            The_Antichrist_Lineage: `
+            The Order did not just await the Antichrist; they were actively breeding him.
+            - **Sophie Walder's Destiny:** The rival high priestess, Sophie Walder, was described not as a human, but as the literal biological daughter of the demon Bitru and a human woman. She was prophesied to be the great-grandmother of the Antichrist (predicted to be born in 1999). This introduced a 'Rosemary's Baby' element of genetic demonology into the lore.`,
+            The_Sanctum_Regnum: `
+            The belief that the Supreme Council of the 33rd Degree in Charleston was merely a front. Behind it lay the 'Sanctum Regnum'—the true throne room of the Satanic Pope (Albert Pike), where he communicated directly with the Princes of the Abyss via a 'Magic Bracelet' that acted as a demonic pager.`,
+        },
+        Practices: {
+            The_Adonaicide_Mass: `
+            The central liturgy of the 'Messe Noire' (Black Mass) was not merely a mockery, but an act of magical warfare intended to physically wound the Christian God.
+            - **The Theft:** The priest was required to steal consecrated hosts from a Catholic church (since they contained the 'Real Presence' of the enemy, Adonai).
+            - **The Execration:** During the rite, the host was placed on the altar (or the body of a naked woman). The celebrant would chant the invocation 'Lucifer, Illuminator!' and then violently stab the host with a consecrated dagger.
+            - **The Miracle:** In Taxil's narratives, the host would often bleed real blood, which the congregation would then collect or trample, believing they were weakening Adonai's power on earth.`,
+            The_Rite_of_the_Templar_Mistress: `
+            Admission for women involved a psychodrama of submission and rebellion.
+            - **The Ordeal:** The candidate (Sister) was led into the lodge blindfolded. She was commanded to spit upon a crucifix and deny the 'Tormentor' (Jesus).
+            - **The Levitation:** Taxil described initiation rites where the candidate would be lifted into the air by invisible hands (demons) or where the Baphomet statue would animate and embrace her.
+            - **The Selection:** The High Priestesses (like Diana Vaughan) were chosen by direct demonic intervention—marked by the ability to see the demons in their 'Angelic' forms (handsome young men) rather than their 'Bestial' forms.`,
+            Steampunk_Gothic_Techno_Sorcery: `
+            The aesthetic was a fever dream of Jules Verne meets Dante's Inferno. Taxil invented 'high-tech' sorcery to make the Order seem formidable:
+            - **The Green Baphomet:** The central idol in Charleston. It was not stone, but a mechanized, gold-plated statue with eyes made of enormous emeralds. Inside the emeralds, a 'green radium fire' burned eternally (a nod to the newly discovered radioactivity). The statue could speak prophecies through a complex acoustic mechanism or demonic possession.
+            - **The Crocodile Piano:** A surreal ritual detail where the demon Astaroth would manifest as a giant crocodile. He would sit at a massive piano and play symphonies with his tail, his music inducing a trance state in the congregation that allowed them to see the invisible world.
+            - **The Fluidic Projector:** A pseudo-scientific device used in the lodges to 'project' the images of demons or absent masters onto a wall of smoke, blending the concept of the Magic Lantern with necromancy.
+            - **The Fiery Molten:** Ritual spaces were described as filled with 'electric fire' and mechanical trapdoors, emphasizing that Lucifer was the god of Progress, Science, and Industrial Flame.`,
+            The_Duel_of_the_Priestesses: `
+            The lore featured a supernatural battle between two archetypes:
+            - **Diana Vaughan:** The 'virtuous' Luciferian. She believed Lucifer was an angel of light and was protected by him. She claimed to travel to other planets (Mars) instantly via 'locomotion of the fluidic body'.
+            - **Sophie Walder:** The 'wicked' sorceress. She possessed the 'Salamander's Gift'—the ability to walk through fire unharmed. In one famous anecdote, she dipped her arms into molten lead to prove her lineage from the fire-demons.`,
+        },
+        Structure: {
+            The_Palladian_Hierarchy: `
+            Taxil claimed this Rite existed *above* the 33 degrees of the Scottish Rite.
+            1. **Adelph:** The entry rank for high-level Masons selected for the secret.
+            2. **Companion of Ulysses:** A rank emphasizing cunning and travel.
+            3. **Elected Magus:** The highest operational rank, capable of commanding spirits.
+            4. **Templar Mistress/Master:** The administrative leaders.`,
+            The_Triangles: `
+            The Order was governed by three supreme councils or 'Triangles' that formed a geopolitical trident:
+            - **Charleston (The Supreme Dogmatic Directory):** Led by Albert Pike (The Satanic Pope). The brain of the order.
+            - **Rome (The Executive Directory):** Led by Adriano Lemmi. The arm of the order, tasked with infiltrating the Vatican.
+            - **Berlin (The Administrative Directory):** The financial hub.`,
+            The_Elect_Magicians: `
+            Membership was strictly gender-mixed. The female initiates ('Templar Mistresses') were considered more powerful conduits for demonic energy than the men due to their 'passive' magnetic polarity. They served as the oracles and mediums of the lodges.`,
+        },
+    },
+
+    The_Secret_Law_of_Attraction: {
+        Origins: `
+        2006; exploded into global consciousness via a documentary film and book by Australian television producer Rhonda Byrne. She claimed to have discovered a 'Great Secret' hidden in a 100-year-old book (Wallace D. Wattles' 'The Science of Getting Rich')—a secret allegedly guarded by Plato, Shakespeare, Newton, and Beethoven, but suppressed by elites to keep the masses powerless.
+        
+        Alleged history:
+
+        Byrne cites the Emerald Tablet (c. 3000 BCE in her timeline) as the first written record of The Secret. 'As Above, So Below, As Within, So Without.' The movement reinterprets this Hermetic maxim not as a cosmological observation, but as a mechanical instruction for the Law of Attraction. 'As Within' (your thoughts) creates 'So Without' (your physical reality). The Tablet is viewed as the original manual for manifesting. While not explicitly detailed in the text, the film utilizes Templar iconography (wax seals, parchment, knights) to imply that the Knights Templar found 'The Secret' in Jerusalem (Solomon's Temple), the Alchemical understanding that the mind controls matter. This intellectual technology is what allowed them to amass huge wealth and invent the banking system.
+
+        Byrne identifies the Rosicrucians as a primary 'Secret Order' dedicated to protecting the Law of Attraction from the Church. She redefines Alchemy not as the chemical transmutation of lead into gold, but as the mental transmutation of 'Fear' into 'Wealth'. The 'Philosopher's Stone' is simply the crystallized focus of the mind. The narrative claims that the Secret was systematically suppressed by religious and political elites (The Church, Monarchies). If the masses knew they were 'Gods' capable of manifesting anything they desired via thought, they would be uncontrollable. Therefore, the elites spread the concept of 'Fate', 'Divine Will', and 'Luck' to keep the population passive, while they secretly used the Law of Attraction to maintain their own power.
+        
+        Byrne provides a specific list of historical figures who she claims were 'in on it'. Their success is presented as retroactive proof of their use of the Law:
+        - **Isaac Newton:** Allegedly used the Law to unlock the secrets of the universe.
+        - **Ludwig van Beethoven:** Used the Law to manifest music despite deafness.
+        - **Shakespeare:** Encoded the Secret in his plays.
+        - **Abraham Lincoln, Thomas Edison, Einstein:** All categorized as 'Master Manifestors'.`,
+        Beliefs: {
+            The_Transmission_Model: `
+            The brain is not just a biological organ; it is a 'Transmission Tower'.
+            - **Frequency Emission:** Every thought sends out a specific magnetic signal on a specific frequency. If you think about debt, you are broadcasting on the 'Debt Frequency' (e.g., 101.5 FM), and the universe *must* magnetically attract more debt to you to match the signal.
+            - **The Genie Mechanism:** The Universe is viewed as an impersonal, non-judgmental catalog. It does not understand 'No' or 'Don't'. If you say 'I don't want to be late,' the Universe hears 'Late' and manifests traffic. The only syntax it accepts is affirmative declaration.`,
+            The_Buffer_of_Time: `
+            The only reason thoughts do not manifest instantly (which would be chaotic, e.g., thinking of an elephant and having it appear in your living room) is the 'Time Delay'.
+            - **The Safety Valve:** This delay is a buffer that allows you to change your frequency before the 'order' is delivered. It is the gestation period of the thought-seed.`,
+            Emotional_Guidance_System: `
+            You cannot monitor 60,000 thoughts a day. Therefore, emotions are the 'Feedback Mechanism'.
+            - **The Gauge:** Positive emotion indicates you are aligned with what you are manifesting. Negative emotion is a 'Red Alert' from the universe that you are currently mis-creating your future.`,
+        },
+        Practices: {
+            The_Creative_Process_ABR: `
+            The three-step algorithm for rendering reality:
+            1. **Ask:** You must place an order with the Universe like a catalog. You do not beg; you command/request once. (e.g., "I am so happy and grateful now that I have $100,000").
+            2. **Believe (The Acting-As-If):** You must delude the senses. You must act as if the order has *already* arrived. You do not worry about 'How' it will get there; the 'How' is the Universe's domain.
+            3. **Receive:** The physical act of feeling the joy of the arrival before it arrives. This creates the frequency match required for the object to materialize.`,
+            The_Secret_Check: `
+            A specific ritual object available on the movement's website.
+            - **The Method:** The practitioner prints a check from the 'Bank of the Universe'. They fill in their name and a specific amount of money (e.g., $25,000), sign it 'The Universe', and tape it to the ceiling above their bed.
+            - **The Function:** It serves as a daily visual trigger to force the brain to accept the reality of the sum, desensitizing the mind to the magnitude of the wealth.`,
+            The_Gratitude_Rock: `
+            A tactile anchor technique.
+            - **The Object:** You find a small, smooth rock and place it in your pocket.
+            - **The Trigger:** Every time your hand touches the rock (getting keys, change), you are contractually obligated to think of one thing you are grateful for. This ensures you maintain a 'High Frequency' throughout the day, preventing a slide into negative vibration.`,
+            Secret_Shifters: `
+            A prepared 'Emergency Kit' for the mind. The practitioner creates a physical or mental list of 'Shifters'—specific memories, songs, or images (e.g., a baby laughing, a specific upbeat track) that can instantly change their bio-chemical state.
+            - **Usage:** When a negative thought spiral begins, you deploy a Shifter immediately to 'change the channel' and stop the negative transmission.`,
+            Steering_Wheel_Visualization: `
+            A specific sensory exercise for manifesting a car.
+            - **The Technique:** You do not just picture the car. You sit in your armchair, close your eyes, and physically grip your hands as if holding the steering wheel. You simulate the *feeling* of the leather and the smell of the new car scent. You watch the road pass by in your mind. This 'Holographic' visualization tricks the subconscious into believing the car is already real.`,
+        },
+        Structure: {
+            The_Teachers: `
+            The movement is decentralized but features a pantheon of 'Avatars' or 'Teachers' who contributed to the film (e.g., Bob Proctor, Joe Vitale, Jack Canfield).
+            - **The Franchise:** 'The Secret' functions as a meta-brand, with each teacher selling their own proprietary version of the technology (e.g., 'The Missing Key', 'Zero Limits'), all united under the banner of the Law of Attraction.`,
+        },
+    },
+
+    Essene_Nation_Manitara: {
+        Origins: `
+            Founded in the late 1990s in France and later Quebec by **Manitara** (born **Olivier Martin**, 1964–2017). 
+            Manitara claimed to be the 'World Representative' of the Essene Tradition, asserting that the spirit of the ancient Essenes had 'reawakened' to prepare humanity for a new era of dialogue with the Angelic world. 
+            The movement established 'Essene Villages' (notably in Cookshire-Eaton, Quebec) designed to be 'Gardens of Light' where members live according to the 'Essene Gospel of Peace'.`,
+        Beliefs: {
+            The_Angelic_Hierarchy: `
+            The core theology revolves around the four Archangels: **Michael** (Autumn/Fire), **Gabriel** (Winter/Water), **Raphael** (Spring/Air), and **Uriel** (Summer/Earth). 
+            - **The Round of Archangels:** They believe that God is too distant to be reached directly; instead, humans must 'climb the ladder' by allying with the Archangels through seasonal rituals.
+            - **The Mother-Earth:** Unlike ancient Gnostics who often viewed matter as a prison, Manitara's Essenism is 'Eco-Gnostic'. Earth is viewed as a living, suffering goddess who requires the 'Light-Work' of humans to heal from industrial pollution.`,
+            The_Law_of_the_Forest:
+                "A belief that the modern world is a 'mechanical forest' of artificial thoughts. True Essenism requires 'De-programming' from the collective mental influence of the 'Dark Egregore' (modern society) to return to a state of 'Original Innocence'.",
+            The_Essene_Gospel_of_Peace:
+                "They rely heavily on the texts discovered by Edmond Bordeaux Szekely, which Manitara expanded through his own 'mediumistic' receiving of new Essene psalms and teachings.",
+        },
+        Practices: {
+            The_Round_of_the_Archangels: `
+            The central communal ritual, performed four times a year at the solstices and equinoxes. 
+            - **The White Robes:** All participants must wear white cotton robes to represent the 'Body of Light'. 
+            - **The Circle:** Participants form a large circle around a central altar containing the four elements. They perform specific 'movements of power' (similar to Qi Gong or Paneurhythmy) to 'call down' the Archangel of the season. 
+            - **The Seals:** Initiates receive 'Archangelic Seals'—specific geometric symbols drawn on parchment—which they believe act as 'diplomatic passports' to the higher planes.`,
+            The_Essene_Massage_of_Light: `
+            A therapeutic practice intended to 'unblock' the emotional fluid of the body. 
+            - **The Technique:** Practitioners use very light, sweeping touches over the clothed body, visualizing gold and violet light. The goal is not muscle relaxation, but the 're-harmonization of the subtle bodies' to remove the 'chips' or 'implants' of the modern world.`,
+            Essene_Baptism: `
+            Unlike the one-time Christian baptism, Essene baptism is a recurring 'cleaning of the mirror'. 
+            - **Living Water:** It is preferably performed in natural streams. The initiate is immersed or sprinkled while the priest recites the 'Vows of the Seven Angels' (The Angel of Sun, Earth, Water, Air, Life, Joy, and Peace).`,
+            Vegetarianism_and_Living_Food:
+                "Strict adherence to a 'Bio-Essene' diet. This includes raw foods, sprouted seeds, and the avoidance of meat, which is believed to carry the 'vibration of fear' from the animal's slaughter.",
+        },
+        Structure: {
+            The_Hierarchy_of_the_Rose: `
+                1. **Essene Students:** Individuals who study the books and attend seasonal celebrations.
+                2. **Essene Friends:** A committed group who support the villages financially and spiritually.
+                3. **Priests and Priestesses:** Those who have undergone 'Sacerdotal Initiation'. They are authorized to perform marriages, baptisms, and lead the 'Round of Archangels'.
+                4. **The Living Prophet:** Formerly Manitara; his role was to act as the 'Bridge' or 'Mouthpiece' for the Archangels.`,
+            Essene_Villages:
+                "Communal living environments where members share labor and resources, operating outside the standard 'commercial' vibration of the world.",
+        },
+    },
+
+    The_Nine_Unknown_Men: {
+        Origins: `
+            India, c. 260 BCE (Legendary) / 1923 (Literary). 
+            While popularly attributed to the Mauryan Emperor Ashoka following the carnage of the Battle of Kalinga, the specific structural details of this society first appear in the writings of French occultist Louis Jacolliot and were codified by Talbot Mundy in 1923. 
+            Academically, this group is considered a "modern myth" or "crypto-history"—a fictional construct that utilizes real historical elements (Ashoka's ban on violence, the secrecy of Indian martial arts, and Vedic texts) to create a plausible narrative. However, in conspiracy circles, it is revered as the "Indian Illuminati," ensuring the persistence of the egregore.`,
+        Beliefs: {
+            The_Forbidden_Chain: `
+            The central tenet—whether historical or allegorical—is that scientific progress is non-linear and perilous. The Nine act as a "filter" for human ingenuity.
+            - **The Great Silence:** The belief that previous civilizations (such as the Rama Empire) destroyed themselves through advanced technology. The Nine exist to prevent history from rhyming.
+            - **The Living Database:** Unlike Western societies that hoard gold or political influence, The Nine hoard *data*. They believe information is the only true currency of the universe.`,
+        },
+        Practices: {
+            The_Nine_Books: `
+            The lore assigns a specific scientific domain to each of the Nine. These align with actual concepts in Yogic "Siddhis" (supernatural powers) but are framed as lost technology:
+            1.  **Propaganda/Psychological Warfare:** The most dangerous book. The science of molding mass opinion and the "Group Mind."
+            2.  **Physiology:** The "Touch of Death" (Marma Adi). Reversing the nerve pulse to kill; the origin of Judo is mythologically attributed to leaks from this book.
+            3.  **Microbiology:** The manipulation of the protective colloids of life (plagues and cures).
+            4.  **Alchemy:** Transmutation of metals (financial control).
+            5.  **Communication:** Terrestrial and Extraterrestrial communication theories.
+            6.  **Gravitation:** The secrets of the "Vimanas" (ancient aircraft) and anti-gravity.
+            7.  **Cosmogony:** The cyclic nature of the universe.
+            8.  **Light:** The modification of light speed and its use as a weapon (lasers).
+            9.  **Sociology:** The immutable laws of the rise and fall of civilizations.`,
+            The_Laghima_Appropriation: `
+            The text describes the practice of 'Laghima' (weightlessness). While this is a documented goal in legitimate Yoga Sutras, the Nine are described as using this not for spiritual liberation, but for aerospace technology and physical travel.`,
+        },
+        Structure: {
+            The_Arch_Censors: `
+            They function as the ultimate censors of science. In the narrative, they do not rule the world; they 'prune' it. If a scientist in the mundane world approaches a discovery contained in the Nine Books (e.g., Tesla, Oppenheimer), the Nine intervene to confuse the data, sabotage the lab, or recruit the scientist, erasing them from the public eye.`,
+        },
+    },
+
+    Samothracian_Mysteries_The_Great_Gods: {
+        Origins: `
+            Island of Samothrace (Sanctuary of the Great Gods); pre-Greek, likely Pelasgian or Thracian roots, flourishing heavily through the Hellenistic and Roman periods.
+            Unlike the Eleusinian Mysteries which focused on a blissful afterlife, the Samothracian cult was a technology of immediate, physical survival. The deities were the "Megaloi Theoi" or Kabeiroi (Axieros, Axiokersa, Axiokersos, and Kadmilos)—primordial, terrifying chthonic forces whose true names were never spoken outside the island. It was the ultimate insurance policy for those facing the terror of the open sea.`,
+        Beliefs: {
+            The_Magnetic_Grace: `
+            Divine power is not an abstraction; it is literally magnetic. The cult venerated the 'Heraclean Stone' (lodestone/magnet). They taught that the gods emit an invisible, attractive current that pulls the adept out of physical danger. 
+            - **The Chain of Iron:** Just as a lodestone can hold a chain of suspended iron rings, the initiate becomes a 'ring' magnetized by the gods, held above the abyss of the sea by divine gravity.`,
+            The_Requirement_of_Purity: `
+            In a radical departure from standard Greek civic cults (which required only ritual washing), Samothrace demanded an accounting of moral purity. The gods required you to unload the weight of your conscience, because a heavy conscience would sink a ship.`,
+        },
+        Practices: {
+            The_Confession_Rite_and_The_Koies: `
+            A psychological ordeal that preceded the initiation. In the dead of night, the candidate stood before a priest known as the *Koies* and was asked a terrifying question: "What is the most terrible deed you have ever committed in your life?"
+            The initiate was forced to confess their darkest sin out loud. This act crushed the ego, stripped away social standing, and established a bond of profound, blackmail-like vulnerability with the priesthood.`,
+            Thronosis_The_Enthronement: `
+            The blindfolded initiate is seated upon a wooden throne in the center of the Anaktoron. The priests and priestesses (acting as Korybantes) engage in a violent, dizzying circular dance around them, clashing bronze weapons and cymbals. This acoustic shock and sensory deprivation induces profound disorientation, rendering the mind entirely receptive to the sudden 'flash' of torchlight when the blindfold is ripped away.`,
+            The_Purple_Sash_and_Iron_Ring: `
+            The physical culmination of the rite. The adept is given a purple woolen sash to tie tightly around their waist. They are taught that if they ever face a shipwreck, the sea will recognize the purple sash and calm the waves, or the sash will literally buoy them. They are also given an iron ring, magnetized by the temple's holy lodestone, worn permanently as a physical tether to the Sanctuary's protective grid.`,
+        },
+        Structure: {
+            Radical_Egalitarianism: `
+            The sanctuary barred no one. In the face of the sea, human hierarchy is a joke. Emperors, freedmen, women, and slaves were initiated side-by-side in the same darkness, graduating from *Mystai* (Initiates) to *Epoptai* (Viewers).`,
+        },
+    },
+
+    Cult_of_Despoina_at_Lycosura: {
+        Origins: `
+            Arcadia, Greece. Centered at the Sanctuary of Lycosura, which the Arcadians claimed was the oldest city in the world. It is the survival of a primal, terrifying indigenous religion that predates the polished Olympian pantheon.`,
+        Beliefs: {
+            Black_Demeter_and_The_Mistress: `
+            Here, Demeter is not the smiling goddess of wheat. She is 'Black Demeter' (Demeter Erinys)—the fury who transformed into a mare to hide from Poseidon, was raped by him, and gave birth to a daughter so ancient and holy that her true name cannot be spoken by the uninitiated. She is known only as 'Despoina' (The Mistress).
+            - **The Primal Fear:** Despoina represents the untamed, pre-agricultural wild. She is the dark soil beneath the plowed field. Pomegranates, the fruit of the underworld, are strictly forbidden from her precinct.`,
+            The_Animal_Kinship: `
+            The boundaries between human and beast are permeable. The Arcadians believed they were born from bears and wolves before they were shaped into men, and the rituals reflect this regression into the animal state.`,
+        },
+        Practices: {
+            The_Hacking_Sacrifice: `
+            Standard Greek sacrifice requires slitting the throat of an animal cleanly and examining the entrails. The Cult of Despoina completely inverted this. 
+            - **The Mutilation:** Worshippers brought live victims to the altar and essentially 'hacked' off whatever limb or chunk of meat they could with axes or knives, throwing the raw, bleeding pieces directly into the fire. This simulated the chaotic, brutal reality of apex predators in the Arcadian mountains.`,
+            The_Dance_of_the_Beast_Masks: `
+            Women gathered in the Megaron wearing terracotta masks depicting the heads of donkeys, horses, bears, and wolves. Driven by aulos (flutes), they performed frenzied, stomping dances to channel the theriomorphic (animal-form) energy of Poseidon and Black Demeter, collapsing the boundary between the human mind and the forest.`,
+            The_Veil_of_Despoina: `
+            Inside the temple, the massive statue of Despoina was covered by a heavy, elaborately carved stone veil. To 'lift the veil' in one's mind was to confront the terrifying reality of nature's indifference to human civilization.`,
+        },
+        Structure: {
+            The_Hierothytes: `
+            The sacrificial priests who managed the brutal offerings, operating under a code of absolute silence regarding the true name of the Mistress.`,
+        },
+    },
+
+    Mysteries_of_Attis_The_Bridal_Chamber: {
+        Origins: `
+            While the State Cult of Cybele (Magna Mater) focused on public spectacle and the bloody self-castration of the Galli, the *Mysteries of Attis* developed in the Hellenistic and Roman periods as a highly secretive, nocturnal path for individual salvation.`,
+        Beliefs: {
+            The_Pinecone_as_the_Pineal_Seed: `
+            Attis is the archetype of the 'Suspended Man'. His castration under the pine tree was not a destruction of life, but a severance of the 'lower generative' desires to preserve the spiritual seed. The pinecone on the tip of the thyrsus represents this preserved, immortal seed of the mind.`,
+            Resurrection_through_the_Mother: `
+            The physical body will rot, but the initiate who aligns with Attis is 'preserved' by the Great Mother. Death is essentially an incubation period.`,
+        },
+        Practices: {
+            The_Attideia_and_The_Pastos: `
+            The nocturnal initiation into the inner circle. The initiate is brought into a dark room where a 'Pastos' (a bridal chamber or a tomb) has been erected.
+            - **The Descent:** The candidate must physically crawl into this claustrophobic chamber, acting as the dying Attis entering the underworld/womb of the Mother.
+            - **The Dietary Communion:** While inside, they are fed a specific sacramental meal. The candidate recites the password (Synthema): "I have eaten from the tympanon (drum), I have drunk from the cymbal, I have carried the kernos (vessel), I have gone down into the bridal chamber."
+            - **The Logic:** Eating from the instruments of ecstatic music physically incorporates the 'vibration' of the Goddess into the digestive tract. The adept weds the Goddess not through sex, but through this sonic-culinary communion.`,
+            The_Golden_Clamp_Fibula: `
+            Instead of the full castration of the Galli, some elite initiates underwent a ritual binding. A golden clamp (fibula) was pierced through the foreskin, physically preventing intercourse. This simulated the purity of Attis without removing the organs, redirecting the sexual energy up the spine toward spiritual prophecy.`,
+        },
+        Structure: {
+            The_Dendrophori_Brotherhoods: `
+            The 'Tree-Bearers'. They operated both as an esoteric mystery school and a legitimate Roman carpenters' guild. They possessed the secret knowledge of working the 'Wood' (Hyle/Matter) to build the spiritual temple.`,
+        },
+    },
+
+    Jupiter_Dolichenus_Military_Mystery: {
+        Origins: `
+            Originating in Doliche (Commagene, modern Turkey) as a local storm god (Baal), but radically adopted by the Roman Imperial Army (2nd-3rd Century CE). It became the ultimate esoteric fraternity for centurions and commanders serving on the harsh frontiers (Limes) of the empire.`,
+        Beliefs: {
+            The_Iron_Cosmocrator: `
+            Dolichenus is the supreme preserver of the universe. He is depicted wearing Roman armor, standing astride a bull, wielding a double-axe and a thunderbolt. He is the master of iron extraction and metallurgy. 
+            - **The Forge of War:** Iron is the metal of Empire. By worshipping the god of the forge, the military initiates believed they were impregnating their weapons with divine, unstoppable force.`,
+            Cosmic_Equilibrium: `
+            Dolichenus is always paired with his consort, Juno Dolichena (standing on a doe or heifer), accompanied by the Sun and Moon. The cult taught that military discipline on Earth reflects the perfect, balanced machinery of the heavens.`,
+        },
+        Practices: {
+            The_Dolichenum_Temple: `
+            Unlike traditional Roman temples that were open to the public, the *Dolichenum* was a closed, windowless, basilica-like hall. It functioned as a secure mess hall and bunker.`,
+            The_Bronze_Triangle_Vota: `
+            The hallmark ritual object of the cult. Initiates commissioned elaborately embossed triangular bronze plaques (representing the cosmic mountain, or perhaps a ray of divine light). These were mounted on poles and carried in processions, or offered directly to the god to secure a vow (Votum).`,
+            The_Sacred_Banquet: `
+            The core ritual was the communal feast. The bull was sacrificed, and its meat was consumed by the brothers in strict hierarchical order. Dining together in the presence of the Iron God forged an unbreakable, blood-sworn brotherhood necessary for surviving barbarian sieges.`,
+        },
+        Structure: {
+            Military_Hierarchy: `
+            The priesthood directly mirrored military ranks. It was governed by 'Patres' (Fathers) and 'Sacerdotes' (Priests), but overwhelmingly populated by active-duty commanders. It provided an esoteric justification for Roman imperialism.`,
+        },
+    },
+
+    Oracle_of_Trophonius_Lebadea: {
+        Origins: `
+            Lebadea, Boeotia. The cult of the chthonic hero/architect Trophonius. This was not a temple you visited for light advice; it was universally feared in antiquity as the most physically and psychologically traumatic oracle in existence.`,
+        Beliefs: {
+            The_Terror_of_the_Underworld: `
+            The gods do not whisper prophecies gently. The future resides in the realm of the dead, and to hear it, one must be willing to die. The truth is only revealed when the rational mind is shattered by pure terror.`,
+            The_Two_Springs_of_Memory: `
+            The mind must be wiped clean of its daily anxieties and refilled with divine receptivity.`,
+        },
+        Practices: {
+            The_Isolation_and_Bathing: `
+            The candidate spends days in isolation in a dedicated building, eating sacrificial meat and bathing only in the cold river Hercyna. They are completely cut off from normal human interaction.`,
+            Drinking_the_Waters: `
+            On the night of the descent, the priests lead the candidate to two springs. First, they must drink from the Water of Lethe (Forgetfulness) to erase all previous thoughts. Immediately after, they drink from the Water of Mnemosyne (Memory) so they will remember whatever happens in the dark.`,
+            The_Descent_and_The_Squeeze: `
+            The candidate is wrapped in linen bands like a corpse. They climb down a ladder into a subterranean, oven-shaped pit. At the bottom is a small, narrow hole in the masonry. 
+            - **The Extraction:** The candidate lies on their back, holding barley cakes kneaded with honey (to feed the subterranean serpents). They slide their feet into the hole. Suddenly, an unseen force (perhaps hydraulic, or priests manipulating ropes) violently sucks the candidate into the inner cavern at terrifying speed.
+            - **The Vision:** In absolute darkness, swarmed by snakes, the candidate experiences auditory and visual hallucinations (often described as being beaten by invisible entities or hearing the rushing of cosmic rivers).`,
+            The_Chair_of_Memory: `
+            The candidate is pulled back out feet-first, paralyzed with shock. The priests immediately place them on the 'Chair of Mnemosyne' and interrogate them while they are still delirious. The trauma is so severe that a Greek proverb for a deeply depressed man was "He has consulted the Oracle of Trophonius." It took days for the initiate to regain the ability to laugh.`,
+        },
+        Structure: {
+            The_Architects_of_Fear: `
+            The local priesthood operated as elite psychologists and engineers, maintaining the mechanical and hallucinogenic terrors of the pit to ensure the Oracle's fearsome reputation.`,
+        },
+    },
+
+    Cult_of_Sabazios: {
+        Origins: `
+            A Phrygian and Thracian horseman-god, syncretized with Zeus and Dionysus, heavily popular in the Hellenistic and Roman periods. Interestingly, due to the phonetic similarity of "Sabazios" to "Sabaoth" (Lord of Hosts), several ancient writers (like Plutarch) confused or deliberately fused the cult with esoteric Judaism.`,
+        Beliefs: {
+            The_Serpent_of_Lightning: `
+            Sabazios rides a horse and wields the thunderbolt, but his primary avatar is the serpent. The snake represents the lightning striking the earth, penetrating the soil, and bringing forth life. To be touched by the serpent is to be electrified by the god.`,
+            Purification_through_Filth: `
+            Initiates were cleansed with mud and bran, embracing the 'dirt' of the earth to purge themselves of the artificial pollutions of society.`,
+        },
+        Practices: {
+            The_Aureus_Coluber_The_Golden_Snake: `
+            The most famous and startling initiation rite, known as 'The God through the Bosom' (Theos dia kolpou). 
+            - **The Penetration:** A live, harmless snake (or a cold, articulated golden serpent) was dropped down the back of the initiate's shirt. The priest would draw it over their bare skin, down their chest, and pull it out from the bottom of their robes.
+            - **The Meaning:** This simulated the god sexually penetrating and fertilizing the soul. The shock of the cold scales over the heart was the moment of divine possession.`,
+            The_Hand_of_Sabazios_Manus_Panthea: `
+            The liturgical use of hollow bronze hands. The hand is posed in the 'benedictio latina' (thumb, index, and middle fingers raised, ring and pinky folded). 
+            - **The Symbology:** The hand is covered in strange, apotropaic symbols: a snake slithering over the fingers, a pinecone resting on the thumb, frogs, turtles, and scales. 
+            - **The Function:** These hands were mounted on poles and paraded through the streets or kept in shrines. They functioned as spiritual lightning rods, deflecting the evil eye and radiating the god's blessing to pregnant women and crops.`,
+            The_Cry_of_Evoe: `
+            Following the mud-cleansing, the initiates would stand and shout: "I have escaped the bad, I have found the better!" while screaming the ecstatic mantra "Evoe Sabai!"`,
+        },
+        Structure: {
+            Itinerant_Priests: `
+            The cult was often carried by wandering priests (agyrtai) who set up temporary altars, making it a religion of the common people, merchants, and soldiers rather than aristocratic state temples.`,
+        },
+    },
+
+    Cult_of_Serapis_Alexandrian: {
+        Origins: `
+            Ptolemaic Egypt (c. 3rd Century BCE). A masterful piece of religious engineering by Ptolemy I Soter. To unify his Egyptian subjects and Greek colonists, he commissioned a syncretic god: combining the Egyptian Osirian afterlife (Osiris-Apis) with the Greek aesthetic of Zeus, Hades, and Asclepius.`,
+        Beliefs: {
+            The_Universal_Savior: `
+            Serapis is the god of the sun, the underworld, and the healing of the body. He proves that the dark forces of the underworld (Hades) are not just about death; they are the fertile forces that generate life and medicine. He is the ultimate, benevolent cosmopolitan deity.`,
+        },
+        Practices: {
+            Incubation_at_the_Serapeum: `
+            The Serapeum of Alexandria was part temple, part hospital, and part library. The primary ritual was 'Incubation'.
+            - **The Dream Therapy:** Sick or troubled initiates would sleep on pallets in the dark, subterranean galleries of the temple. 
+            - **The Divine Physician:** In the darkness, Serapis (or his priests acting as proxies) would visit the sleeper in a dream. The god would perform 'astral surgery' or dictate specific medical prescriptions (often bizarre herbal remedies or dietary changes) that the priests would decipher in the morning.`,
+            The_Magnetic_Epiphany: `
+            The priests utilized advanced Hellenistic engineering to stage miracles. 
+            - **The Floating Sun:** According to accounts, the ceiling of the Serapeum was constructed using massive lodestones (magnets). An iron statue of the sun-disk (or the god himself) was brought into the chamber. The magnetic forces from the ceiling perfectly balanced the gravity of the floor, causing the iron god to magically float in mid-air, suspended in the center of the room. This technological marvel shattered the skepticism of the Greek mind, forcing them to accept the presence of the divine.`,
+            The_Modius: `
+            Statues of Serapis wore the *Modius* (a grain-measuring basket) on his head. Worshippers touched or offered to the basket, symbolizing the god's inexhaustible capacity to feed the soul and the city.`,
+        },
+        Structure: {
+            The_Therapeutae: `
+            The attendant priests functioned as doctors, dream-interpreters, and scholars, combining medical science with heavy ritual magic. They guarded the temple until its destruction by Christian mobs in 391 CE.`,
+        },
+    },
+
+    Cult_of_Atargatis_Dea_Syria: {
+        Origins: `
+            Hierapolis, Syria (modern Manbij). The cult of the 'Syrian Goddess', a manifestation of the ancient Near Eastern Great Mother, famously documented by Lucian in 'De Dea Syria'. It represents the extreme, ecstatic fringe of maternal worship.`,
+        Beliefs: {
+            The_Sanctity_of_Water_and_Fish: `
+            All life emerges from moisture. The Goddess rules the wet element. Fish are not food; they are her divine, biological avatars navigating the waters of the abyss. To eat a fish is to consume the Goddess and invite a terrifying curse (ulcers and bodily rotting).`,
+            The_Demand_of_the_Flesh: `
+            The Goddess demands absolute, irreversible devotion. Masculinity (which is dry and aggressive) must be sacrificed to merge with her watery, receptive nature.`,
+        },
+        Practices: {
+            The_Descent_to_the_Lake: `
+            The temple featured a massive sacred lake containing holy fish adorned with gold jewelry and precious stones on their fins. Initiates swam in the lake to commune with the fish, believing the water washed away the corruption of the dry earth.`,
+            The_Water_Pouring_Rite: `
+            Twice a year, worshippers traveled to the sea to collect water in sealed vessels. They returned to the temple and poured the water into a chasm beneath the altar, reenacting the draining of the great flood and appeasing the subterranean waters.`,
+            The_Frenzy_and_Self_Castration: `
+            During the great festivals, amidst the deafening noise of flutes and drums, young men would be overcome by the 'madness' of Atargatis. 
+            - **The Act:** A youth would strip off his clothes, seize a sword deliberately left by the priests, and castrate himself in the middle of the screaming crowd. 
+            - **The Transformation:** He would then run through the city carrying his severed parts, throwing them into a random house. That house was obligated to provide him with female clothing. From that day on, he lived as a *Gallos*—a sacred, cross-dressing eunuch who begged for alms and lacerated his own arms with knives to bring blessings to the community.`,
+        },
+        Structure: {
+            The_Galli_Network: `
+            The cult was supported by vast bands of these itinerant eunuch priests. They wandered the Mediterranean with a statue of the Goddess strapped to a donkey, whipping themselves into trances, acting as mobile focal points for the Goddess's terrifying, transgressive power.`,
         },
     },
 }

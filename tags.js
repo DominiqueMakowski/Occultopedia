@@ -220,7 +220,7 @@ const dataTags = {
         inspiredBy: [],
     },
 
-    Valentinian_Christians: {
+    Valentinian_Gnostics: {
         tags: [
             "location_europe", // Rome/Mediterranean
             "era_ancient", // c. 140 CE
@@ -262,7 +262,7 @@ const dataTags = {
         inspiredBy: ["Sethian_Gnostics"],
     },
 
-    Naassenes: {
+    Naassenes_Gnostics: {
         tags: [
             "location_middle_east", // Rome/Levant
             "era_ancient", // 2nd Century
@@ -283,7 +283,7 @@ const dataTags = {
         inspiredBy: ["Sethian_Gnostics"],
     },
 
-    Peratics: {
+    Peratics_Gnostics: {
         tags: [
             "location_middle_east", // Mediterranean
             "era_ancient", // 2nd Century
@@ -5055,5 +5055,64 @@ const dataTags = {
         startDate: null, // Ancient roots implied
         endDate: null,
         inspiredBy: ["Sveriges_Asatrosamfund", "Yggdrasil_Guild"],
+    },
+
+    Orphic_Mysteries: {
+        tags: [
+            "location_europe", // Greece/Magna Graecia
+            "era_ancient", // 6th Century BCE
+            "belief_dualism", // Soma Sema (Body is a Tomb) / Titanic vs Divine nature
+            "belief_reincarnation", // Metempsychosis (The Wheel of Birth)
+            "belief_asceticism", // Bios Orphikos (The Orphic Life)
+            "practice_dietary_restriction", // Strict vegetarianism (No meat/beans)
+            "practice_purity_ritual", // Prohibition of wool in burial/White linen only
+            "practice_funerary", // Totenpass (Gold Tablets for the dead)
+            "practice_mnemonic", // Memorizing the geography of Hades (Pool of Memory)
+            "practice_mantra", // Reciting the passwords to the Guardians
+            "practice_taboobreaking", // Rejection of state sacrificial banquets
+            "belief_pagan",
+        ],
+        startDate: -550,
+        endDate: 200,
+        inspiredBy: ["Cult_of_Dionysus_Maenads", "Pythagoreanism"],
+    },
+
+    Methernitha: {
+        tags: [
+            "location_europe", // Switzerland (Linden)
+            "era_modern", // 1960
+            "belief_christianity", // Syncretic Christian Alliance
+            "belief_utopianism", // Self-sufficient cooperative
+            "belief_pseudoscience", // The Testatika (Perpetual Motion/Free Energy)
+            "practice_communal_living", // Shared economy
+            "practice_secrecy", // Refusal to release the machine's schematics
+            "practice_asceticism", // Prohibition of alcohol, tobacco, and drugs
+            "practice_technomancy", // Spiritual engineering (Static electricity generators)
+            "practice_crime", // Sexual abuse scandals involving the founder (Paul Baumann)
+        ],
+        startDate: 1960,
+        endDate: null,
+        inspiredBy: [],
+    },
+
+    The_Order_of_the_Cintamani_Roerich: {
+        tags: [
+            "location_north_america", // Russia, NYC, Himalayas (Kullu Valley)
+            "era_modern", // 1920
+            "belief_theosophy", // Agni Yoga / Masters Morya and Koot Hoomi
+            "belief_messianism", // The coming of Maitreya
+            "belief_occult_politics", // The "Great Plan" (Shambhala Project)
+            "belief_object_power", // The Chintamani Stone (Fragment of Orion)
+            "practice_visualization", // The Chalice (Heart Center)
+            "practice_exploration", // Central Asian Expeditions
+            "practice_diplomacy", // The Roerich Pact / Banner of Peace
+            "practice_mediumship", // Automatic writing (Helena Roerich)
+            "practice_art_magic", // Paintings as talismans/portals
+            "practice_intellectual_aesthetic",
+            "belief_syncretism",
+        ],
+        startDate: 1920,
+        endDate: null,
+        inspiredBy: ["Theosophical_Society", "Buddhism_Vajrayana"],
     },
 }
