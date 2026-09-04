@@ -1,0 +1,239 @@
+---
+CLUSTERS:
+
+This database contain entries for various cults, groups and movements. They form a complex network, connected through their shared history, origin, practices, beliefs, etc.
+
+As some nodes are closer to one-another than to others, it is very likely that they form clusters. 
+
+What I would like is to:
+1) First, analyse the database thoroughly. Omit the current tag lists, and focus on the beliefs, rituals and history.
+2) Map the clusters of cults, and eventually the outliers. For each cluster, describe its core beliefs and practices.
+3) Imagine and describe the latent "archetypal" cult, i.e., a (fictional) cult that would lie at the centre of each clusters, encapsulating the essence of that cluster.
+
+
+--- 
+BELIEFS
+
+You are an academic expert in cults, occultism, secret organizations, ancient religions, rituals and symbolism. 
+You are also expert in neuroscience, anthropology and cognitive psychology.
+This database contain entries for various cults, groups and movements. They form a complex network, connected through their shared history, origin, practices, beliefs, etc.
+Analyze it thoroughly.
+
+
+I am trying to map the core axes that structures this database.
+Could you help me build an organized framework of core domains, with its dimensions and possibly subdimensions.
+
+I can imagine this structure to be hierarchical and complex. For instance, one of the higher-order cluster could group typically right-hand path and left-hand path movements, through their focus on purity and asceticism vs. indulgence and ecstasy. But within these, there could be differences in subdimensions (e.g., strong focus on sex, or murder, or food). Likewise, some other groups (e.g., criminal or guru)  could share a focus on carnal practices and luxure, and yet not necessarily map on the rest of the typically hand path attributes.
+
+In other words, I am trying to find "dimension", for which each entry could receive a score of how much it loads on this dimension (from irrelevant to very much). 
+One could then empirically analyse the hierarchical clustering of these dimensions and their correlation patterns. 
+These dimensions should be unidimensional, i.e., instead of a "Body is a Temple vs. a Prison" dimension, we should have 2 separate ones: "Body is a temple" and "Body is a prison".
+
+The output should be a csv table with the following columns:
+
+- Date: "25/01/2026"
+- Model: "Gemini 3.0"
+- Iteration: 1
+- Domain: Higher-order domain (if any)
+- Dimension: the names of the dimensions identified. Use CamelCase for concepts, and the hierarchical structure can be expressed via underscores, e.g., Axis_Domain_Subdomain_Dimension_Belief ("SomaticAxis_SomaticValuation_BodyView_BodyIsAPrison").
+- Summary: a one sentence summary about the interpretation and meaning of the dimension (make sure you don't include commas that would mess up the csv formatting)
+- Importance: Add an importance score (0-1) reflecting how much this dimension is critical in structuring the database (how well it separates groups)
+
+I have noted the following thoughts and ideas, but help me revise this and come up with a rational set of descriptors.
+
+- Somatic Domain
+ -> Belief:
+  - Body is a Gateway (to be used)
+  - Body is an Instrument (to be upgraded)
+  - Body is a Prison (to be escaped)
+  - Body is Divine (to be preserved / purified)
+  - Body is Evil (to be punished)
+ -> Indulgence vs. Asceticism
+  - Food and drinks
+  - Psychoactive
+  - Sex
+  - Animal murder
+  - Human murder
+  - ...
+ -> Experiential vs. Self-improvement
+  - Process of learning vs. revelation
+
+
+- Cosmic Domain
+  - Evil Prison-cosmos 
+  - Sacred Cosmos and cosmic order
+- Dualism
+  - order vs. chaos
+  - light vs. darkness
+  - truth vs. lie
+  - none
+  - …
+
+- Temporal domain
+  - Prospective (future oriented): knowledge/truth through innovation, technology, progress
+  - Retrospective (past oriented): knowledge/truth was known in the past and must be returned to through tradition, ancestry, blood, nature
+  - Vertical (center oriented): in the now
+
+- Ethical domain
+  - Purity 
+  - Conformity
+  - Radical good
+  - Radical evil (Transgression)
+  - Inversion
+  - Liminality
+  - Parralel law
+  - Balance
+  - Union of opposites (paradoxical)
+
+- Social domain
+  - Egalitarian vs. Elitism
+  - Racial/Inate/bloodlines vs. inclusive
+
+
+- Discovery Process
+  - Descent (katabasis)
+  - Ascent
+  - Cyclical (rebirth?)
+  - ...
+- Gender orientation
+  - Feminine (sacred feminine...)
+  - Masculine (martial, solar, phallic...)
+- Gnosis (epistemological)
+  - External rational (through study and knowledge, science and maths)
+  - Internal rational: Contemplation and meditation
+  - Experiential (through ritual and experience) / revelation
+  - Altered states of consciousness: Self-induced
+  - Altered states of consciousness: Drugs
+- Reality
+  - Reality is chaotic - embrace it 
+  - Reality is ordered - preserve it
+  - Reality is cyclical - pass through it 
+  - Reality is hostile - escape it 
+  - Reality is intelligible - decode it 
+- axis mundi
+  - Rod / pillar
+  - tree
+  - circle
+  - …
+- Origin of life / humans
+  - Divine
+  - Extraterrestrial / Aliens
+  - ...
+
+---
+
+
+TAGS:
+
+First, analyse the database thoroughly. Focus on the beliefs, practices and history.
+
+I would like to revise the tag system of the database.
+I am trying to revise the tags so that they are more clear, accurate, and useful to connect groups in expected ways (groups that derive from one-another) but also unexpected way (highlighting interesting commonalities across different types of groups). The goal of these tags is to facilitate groupings and provide insights about the relationship strength (through the number of shared tags).
+
+
+Currently, we have the following tags:
+
+- location_* tag for the geographical origin of the cult (useful)
+- era_* tag for the temporal origin (useful)
+- aesthetic_*, nature_*, and practice_* tags
+
+
+The new tags should be as follows:
+- location_* (where it started), era_* (when), belief_* and practice_*
+- Remove the aesthetic and nature_ tags: they should be integrated into the practice_* tags and belief_* tags. For instance practice_hierarchy (for groups with a hierarhcial system of grades or degrees), practice_knightly_aesthetic (for groups that adopted a knight order style of structure and costumes), etc.
+- It is fine if tags are "overlapping", meaning some refer to high-level concepts (e.g., practice_transgression) and others to more specific (e.g., practice_sex), and other even more specific (practice_sex_magic, practice_orgy, practice_sex_slave, ...), as this enhances the granularity of the similarities between groups.
+  - For instance, some groups are connected on the surface via a shared concept, but different practices, while some other groups are more strongly connected by sharing the same practices or specific beliefs. One entry could have practice_sex + practice_sex_magic but another might have practice_sex + practice_orgy. 
+  - Another example is a practice_martial as a general tag that would apply to both "modern" military-inspired cults (The_Numbers_Gang_26s_27s_28s), as well as to knightly orders, which would be grouped more specifically with a practice_knightly_aesthetic tag. 
+  - Another example is practice_asceticism (high level), which would coexist alongside more specific tags about the subtypes, dietery restrictions, no sex, etc.
+  - Another example is belief_soteriology, with eventually more specific beliefs and practices
+- Add short comments next to tags to specify details where appropriate (for instance, "location_america", # Canada (BC); "location_levant", # Sumer, Akkad, and Babylon; "era_preindustrial", # 1776
+- Name tags in a way that facilitates potentially unexpected connections.
+- Add new tags to ensure a rich network
+- Avoid singleton or very rare tags, unless they form an interesting or important connections.
+
+Make me a python dict with, for each entry of the database, a new list of tags.
+
+
+
+Identify concepts (beliefs or practices) that link various entries together, in obvious ways (for instance, entries derived from hermeticism, or entries involving sex, 
+
+
+
+
+
+---
+
+
+You are a pattern recognition engine, expert in cults, secret organizations, ancient religions, rituals and symbolism. 
+Inspect the database but omit the current tags lists. 
+
+
+
+I am interested in identifying a set of 10 latent dimensions that best describe the dataset.
+For instance, these archetypal beliefs could be for instance "The body is a prison", "Salvation requires Human sacrifice", ""
+
+
+---
+
+You are a scholarly expert in cults, secret organizations, ancient religions, rituals and symbolism. 
+Inspect the database and flag entries for which we can elaborate and add more specific details about beliefs and ritual practices.
+
+Additionally, verify that the tags are useful to outline similarities and differences. For instance, currently aesthetic_corporate is only used once. Does it apply to any other potential entry?
+
+---
+
+Role: You are a pattern recognition engine. Your training data regarding existing links that have been made between various occult groups and secret societies is disabled. You have access only to the provided database file, as well as in-depth academic knowledge pertaining to each of the entries taken separately. Ignore everything you know about me or any information from other chats.
+
+Task: Perform a qualitative dimensionality reduction on the dataset to identify the 9 latent "Principal Components" (axes) that govern the variance in the data.
+
+Methodology:
+
+1. Vector Analysis: Treat the concepts found in the Beliefs, Rituals and Structure fields (ignore the tag field) in each entry as a feature vector. Analyze the co-occurrence of these concepts.
+
+2. Interpretation: Identify the key fundamental beliefs, ideas, teachings, worldviews or practices corresponding to the dimensions.
+
+3. Variance Explanation: Rank the axes by how much they are relevant and important to describe the variance of the dataset. Some dimensions might be important because they are very common, but others might not correspond to very prevalent ideas, but are critical for distinguishing between various clusters and nuances.
+
+Output Requirements: For each of the 9 axes, provide:
+
+- The Dimension Name. The name should ideally be simple, eloquent, and straightforward. For instance, "Evil is good" is a better name than "Paradoxical morality stance".
+- Examples: Societies from the database that exemplify it.
+- The Derived Logic: A brief explanation of which specific elements in the database created this axis.
+- Importance Score: between 0-1. How central is this axis to explain the variability in the dataset. 
+
+At the end, produce a csv table with the following variables:
+- Date: "14/12/2025"
+- Model: "Gemini 3.0"
+- Iteration: 1
+- Dimension: the names of the dimensions identified
+- Summary: a one sentence summary about the interpretation and meaning of the dimension (make sure you don't include commas that would mess up the csv formatting)
+- Importance: the importance scores
+
+
+---
+
+I have a dataset of PCA-like dimensions extracted by different AI models for data related to esoteric practices and occult groups. For each iteration and each model, I extracted 9 independent dimensions.
+While the 9 dimensions are distinct within the same iteration / model group, different runs generated different dimensions, some new, some identical, and some conceptually similar, but with a different name.
+
+Check if any dimensions are describing the same concept. 
+
+Map variants of the same dimension that are shared between different models and iterations to a single shared label (a new 'DimensionCleaned' column). This inclues dimensions that are heavily alike conceptually, and dimensions that are reversed (e.g., A (vs. B) and B (vs. A) should be both assigned to the same concept). Keep dimensions that are distinct or unique as such, only flag strong redundancies between runs.
+
+Complete the R code that renames similar dimensions:
+
+library(tidyverse)
+
+df <- read.csv("results.csv") |> 
+  mutate(DimensionCleaned = case_when(
+           Dimension %in% c("X1", "X2") ~ "X1",
+           Dimension %in% c("Y1", "Y2") ~ "Y1",
+           .default = Dimension
+         )) 
+
+Note: do not use str_detect for string matching but be specific.
+
+---
+
+
+3) Map the Entries: Make a table with, for each entry, the loadings on the various axes.
+Treat each axes pole 

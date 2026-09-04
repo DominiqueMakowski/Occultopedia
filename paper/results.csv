@@ -1,0 +1,20 @@
+Date,Model,Iteration,Domain,Dimension,Summary,Importance
+"25/01/2026","Gemini 3.0",1,"Somatic","Somatic_Ontology_BodyAsPrison","The belief that the physical body is a trap or tomb (soma sema) for the spirit requiring escape or punishment (e.g. Gnostics, Heavens Gate).",0.95
+"25/01/2026","Gemini 3.0",1,"Somatic","Somatic_Ontology_BodyAsTemple","The belief that the body is a divine vessel or chemical laboratory capable of producing salvation through physical processes (e.g. Tantra, Phibionites).",0.90
+"25/01/2026","Gemini 3.0",1,"Somatic","Somatic_Practice_Asceticism","The use of pain, fasting, sleep deprivation, or sensory denial to purify the self (e.g. Essenes, Penitentes).",0.85
+"25/01/2026","Gemini 3.0",1,"Somatic","Somatic_Practice_SensoryOverload","The use of intoxication, loud music, feasting, or sexual exhaustion to alter consciousness (e.g. Dionysian Mysteries, Rajneesh).",0.85
+"25/01/2026","Gemini 3.0",1,"Somatic","Somatic_Sexuality_RitualizedUsage","The explicit use of sexual acts as a liturgical technology or magical operation (e.g. OTO, Crowley, Paschal Beverly Randolph).",0.88
+"25/01/2026","Gemini 3.0",1,"Cosmic","Cosmic_Ontology_MaterialDualism","The conviction that the material world is inherently evil or created by a malevolent demiurge (e.g. Cathars, Manichaeism).",0.92
+"25/01/2026","Gemini 3.0",1,"Cosmic","Cosmic_Origin_ExtraterrestrialIntervention","The belief that gods or creators are biological extraterrestrials or advanced engineers (e.g. Raelians, Scientology, Annunaki theories).",0.75
+"25/01/2026","Gemini 3.0",1,"Cosmic","Cosmic_Nature_ChaosVeneration","The worship or utilization of entropy, disorder, and void as a primal creative force (e.g. Chaos Magic, Anti-Cosmic Satanism).",0.65
+"25/01/2026","Gemini 3.0",1,"Temporal","Temporal_Orientation_ApocalypticImmediacy","Focus on an imminent, violent end-of-the-world event that requires preparation or acceleration (e.g. QAnon, Manson Family, Aum Shinrikyo).",0.80
+"25/01/2026","Gemini 3.0",1,"Temporal","Temporal_Orientation_AncestralRestoration","Focus on returning to a mythical Golden Age or blood-lineage of the past (e.g. Thule Society, Druids, Völkisch groups).",0.78
+"25/01/2026","Gemini 3.0",1,"Ethical","Ethical_Framework_Antinomianism","The spiritual obligation to break social taboos and laws to transcend duality or shock the ego (e.g. Frankists, Aghori, Cainites).",0.89
+"25/01/2026","Gemini 3.0",1,"Ethical","Ethical_Framework_SacredViolence","The justification of murder or physical harm as a religious duty or act of love (e.g. Thuggee, Assassins, Solar Temple).",0.72
+"25/01/2026","Gemini 3.0",1,"Ethical","Ethical_Framework_HyperLegalism","Strict adherence to complex purity codes, dietary restrictions, and micromanagement of daily life (e.g. Opus Dei, Mormonism).",0.70
+"25/01/2026","Gemini 3.0",1,"Social","Social_Basis_BloodExclusivity","Membership restricted by race, genetic lineage, or family origin (e.g. Ahnenerbe, KKK, Tribes).",0.82
+"25/01/2026","Gemini 3.0",1,"Social","Social_Structure_GuruCentrality","Totalitarian devotion to a single living leader who dictates reality for the group (e.g. Peoples Temple, Synanon).",0.85
+"25/01/2026","Gemini 3.0",1,"Gnosis","Epistemology_Method_RationalInquiry","The pursuit of truth through geometry, science, reason, or study (e.g. Illuminati, Pythagoreans).",0.60
+"25/01/2026","Gemini 3.0",1,"Gnosis","Epistemology_Method_AlteredStates","The pursuit of truth through drug-induced or trance-based hallucinations (e.g. Eleusinian Mysteries, Ayahuasca circles).",0.75
+"25/01/2026","Gemini 3.0",1,"Symbolic","Symbolic_Archetype_DivineFeminine","Centrality of a Goddess figure, womb symbolism, or female priesthood (e.g. Cybele, Dianic Wicca).",0.68
+"25/01/2026","Gemini 3.0",1,"Symbolic","Symbolic_Archetype_SolarPhallic","Centrality of the Sun, the Phallus, or the Father-King as the axis of order (e.g. Mithras, Right-Hand Path Tantra).",0.65

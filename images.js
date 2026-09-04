@@ -53,8 +53,8 @@ const imagesManifest = {
         "Acephale_1.jpg"
     ],
     "Aztec_Priestly_Order": [
-        "Aztec_Priestly_Order_0.png",
-        "Aztec_Priestly_Order_1.png"
+        "Aztec_Priestly_Order_0.jpg",
+        "Aztec_Priestly_Order_1.jpg"
     ],
     "Opus_Dei": [
         "Opus_Dei_0.png",
@@ -63,11 +63,11 @@ const imagesManifest = {
         "Opus_Dei_3.jpg"
     ],
     "Order_of_the_Pug_Mops_Orden": [
-        "Order_of_the_Pug_Mops_Orden_0.png"
+        "Order_of_the_Pug_Mops_Orden_0.jpg"
     ],
     "Yggdrasil_Guild": [
         "Yggdrasil_Guild_0.jpg",
-        "Yggdrasil_Guild_1.png"
+        "Yggdrasil_Guild_1.jpg"
     ],
     "Yakuza_Boryokudan": [
         "Yakuza_Boryokudan_0.jpg",
@@ -127,7 +127,7 @@ const imagesManifest = {
     ],
     "The_Magi": [
         "The_Magi_0.jpg",
-        "The_Magi_1.png"
+        "The_Magi_1.jpg"
     ],
     "Rothschild_Surrealist_Ball_1972": [
         "Rothschild_Surrealist_Ball_1972_0.jpg",
@@ -150,15 +150,15 @@ const imagesManifest = {
     ],
     "The_Thuggee": [
         "The_Thuggee_0.jpg",
-        "The_Thuggee_1.png"
+        "The_Thuggee_1.jpg"
     ],
     "Typhonian_Order": [
         "Typhonian_Order_0.jpg",
         "Typhonian_Order_1.jpg"
     ],
     "Vajrayana_Tantric_Order": [
-        "Vajrayana_Tantric_Order_0.png",
-        "Vajrayana_Tantric_Order_1.png"
+        "Vajrayana_Tantric_Order_0.jpg",
+        "Vajrayana_Tantric_Order_1.jpg"
     ],
     "Cosa_Nostra_Sicilian_American": [
         "Cosa_Nostra_Sicilian_American_0.jpg",
@@ -175,7 +175,7 @@ const imagesManifest = {
     ],
     "Knights_of_Pythias": [
         "Knights_of_Pythias_0.jpg",
-        "Knights_of_Pythias_1.png"
+        "Knights_of_Pythias_1.jpg"
     ],
     "The_Cacophony_Society": [
         "The_Cacophony_Society_0.jpg",
@@ -215,7 +215,7 @@ const imagesManifest = {
         "Ophite_Serpent_Gnostics_1.jpg"
     ],
     "The_Lunar_Society": [
-        "The_Lunar_Society_0.png",
+        "The_Lunar_Society_0.jpg",
         "The_Lunar_Society_1.jpg"
     ],
     "Nath_Yogis": [
@@ -259,7 +259,7 @@ const imagesManifest = {
         "Cult_of_Dionysus_Maenads_1.jpg"
     ],
     "Ancient_Order_of_Foresters": [
-        "Ancient_Order_of_Foresters_0.png",
+        "Ancient_Order_of_Foresters_0.jpg",
         "Ancient_Order_of_Foresters_1.jpg"
     ],
     "Knights_Templar_Historical": [
@@ -337,7 +337,7 @@ const imagesManifest = {
     ],
     "Cicada_3301": [
         "Cicada_3301_0.jpg",
-        "Cicada_3301_1.png"
+        "Cicada_3301_1.jpg"
     ],
     "Russian_Mafia_Vory_v_Zakone": [
         "Russian_Mafia_Vory_v_Zakone_0.jpg",
@@ -364,7 +364,7 @@ const imagesManifest = {
         "Order_of_Nine_Angles_1.jpg"
     ],
     "The_Leopard_Society_Anyoto": [
-        "The_Leopard_Society_Anyoto_0.png",
+        "The_Leopard_Society_Anyoto_0.jpg",
         "The_Leopard_Society_Anyoto_1.jpg"
     ],
     "Temple_of_Set": [
@@ -422,12 +422,12 @@ const imagesManifest = {
         "Silver_Legion_of_America_1.jpg"
     ],
     "The_Boxers_Yihetuan": [
-        "The_Boxers_Yihetuan_0.png",
-        "The_Boxers_Yihetuan_1.png",
+        "The_Boxers_Yihetuan_0.jpg",
+        "The_Boxers_Yihetuan_1.jpg",
         "The_Boxers_Yihetuan_2.jpg"
     ],
     "Theosophical_Society": [
-        "Theosophical_Society_0.png",
+        "Theosophical_Society_0.jpg",
         "Theosophical_Society_1.jpg"
     ],
     "Temple_of_the_Black_Light": [
@@ -459,9 +459,9 @@ const imagesManifest = {
         "Kukeri_Mummers_2.jpg"
     ],
     "Lewes_Bonfire_Societies": [
-        "Lewes_Bonfire_Societies_0.png",
+        "Lewes_Bonfire_Societies_0.jpg",
         "Lewes_Bonfire_Societies_1.jpg",
-        "Lewes_Bonfire_Societies_2.png"
+        "Lewes_Bonfire_Societies_2.jpg"
     ],
     "Bene_Gesserit": [
         "Bene_Gesserit_0.jpg",
@@ -480,8 +480,8 @@ const imagesManifest = {
         "Church_of_Perpetual_Life_1.png"
     ],
     "The_Sith_Order": [
-        "The_Sith_Order_0.png",
-        "The_Sith_Order_1.png"
+        "The_Sith_Order_0.jpg",
+        "The_Sith_Order_1.jpg"
     ],
     "Komuso_Fuke_Zen": [
         "Komuso_Fuke_Zen_0.jpg",
@@ -537,7 +537,7 @@ const imagesManifest = {
     ],
     "Taoist_Internal_Alchemy": [
         "Taoist_Internal_Alchemy_0.jpg",
-        "Taoist_Internal_Alchemy_1.png"
+        "Taoist_Internal_Alchemy_1.jpg"
     ],
     "Edda_Society": [
         "Edda_Society_0.jpg",
@@ -549,11 +549,11 @@ const imagesManifest = {
     ],
     "Terasem_Movement": [
         "Terasem_Movement_0.jpg",
-        "Terasem_Movement_1.png"
+        "Terasem_Movement_1.jpg"
     ],
     "Zurvanism": [
         "Zurvanism_0.jpg",
-        "Zurvanism_1.png"
+        "Zurvanism_1.jpg"
     ],
     "Esoteric_Hitlerism": [
         "Esoteric_Hitlerism_0.jpg",
@@ -569,7 +569,7 @@ const imagesManifest = {
     ],
     "Christian_Identity": [
         "Christian_Identity_0.jpg",
-        "Christian_Identity_1.png"
+        "Christian_Identity_1.jpg"
     ],
     "The_Black_Sun_Press": [
         "The_Black_Sun_Press_0.jpg",
@@ -600,8 +600,8 @@ const imagesManifest = {
         "Wotansvolk_1.jpg"
     ],
     "Morag_Tong": [
-        "Morag_Tong_0.png",
-        "Morag_Tong_1.png"
+        "Morag_Tong_0.jpg",
+        "Morag_Tong_1.jpg"
     ],
     "Vril_Society": [
         "Vril_Society_0.jpg",
@@ -642,8 +642,8 @@ const imagesManifest = {
         "Valentinian_Christians_1.jpg"
     ],
     "Carpocratians": [
-        "Carpocratians_0.png",
-        "Carpocratians_1.png"
+        "Carpocratians_0.jpg",
+        "Carpocratians_1.jpg"
     ],
     "Brethren_of_the_Free_Spirit": [
         "Brethren_of_the_Free_Spirit_0.jpg",
@@ -728,7 +728,7 @@ const imagesManifest = {
         "Societas_Rosicruciana_in_Anglia_2.jpg"
     ],
     "Elus_Coens": [
-        "Elus_Coens_0.png",
+        "Elus_Coens_0.jpg",
         "Elus_Coens_1.jpg"
     ],
     "Spiritism_Kardecist_Circles": [
@@ -756,8 +756,8 @@ const imagesManifest = {
         "Builders_of_the_Adytum_BOTA_1.png"
     ],
     "UR_Group": [
-        "UR_Group_0.png",
-        "UR_Group_1.png"
+        "UR_Group_0.jpg",
+        "UR_Group_1.jpg"
     ],
     "Eulis_Brotherhood": [
         "Eulis_Brotherhood_0.jpg",
@@ -791,7 +791,7 @@ const imagesManifest = {
     ],
     "Weather_Underground_Organization_WUO": [
         "Weather_Underground_Organization_WUO_0.jpg",
-        "Weather_Underground_Organization_WUO_1.png"
+        "Weather_Underground_Organization_WUO_1.jpg"
     ],
     "Abakua": [
         "Abakua_0.jpg",
@@ -852,7 +852,7 @@ const imagesManifest = {
     ],
     "Modern_Zoroastrian_Priesthood": [
         "Modern_Zoroastrian_Priesthood_0.jpg",
-        "Modern_Zoroastrian_Priesthood_1.png"
+        "Modern_Zoroastrian_Priesthood_1.jpg"
     ],
     "The_Church_of_Light": [
         "The_Church_of_Light_0.jpg",
@@ -867,8 +867,8 @@ const imagesManifest = {
         "Order_of_Phosphorus_1.jpg"
     ],
     "Aumism_Mandarom": [
-        "Aumism_Mandarom_0.png",
-        "Aumism_Mandarom_1.png"
+        "Aumism_Mandarom_0.jpg",
+        "Aumism_Mandarom_1.jpg"
     ],
     "Vodou_Ezili_Danto": [
         "Vodou_Ezili_Danto_0.jpg",
@@ -881,7 +881,7 @@ const imagesManifest = {
     ],
     "Sabeans_of_Harran": [
         "Sabeans_of_Harran_0.jpg",
-        "Sabeans_of_Harran_1.png"
+        "Sabeans_of_Harran_1.jpg"
     ],
     "Order_of_the_Magi_Richmond": [
         "Order_of_the_Magi_Richmond_0.jpg",
@@ -909,7 +909,7 @@ const imagesManifest = {
     ],
     "La_Familia_Michoacana": [
         "La_Familia_Michoacana_0.jpg",
-        "La_Familia_Michoacana_1.png"
+        "La_Familia_Michoacana_1.jpg"
     ],
     "The_Kabbalah_Centre": [
         "The_Kabbalah_Centre_0.jpg",
@@ -941,7 +941,7 @@ const imagesManifest = {
     ],
     "Chen_Tao_True_Way": [
         "Chen_Tao_True_Way_0.jpg",
-        "Chen_Tao_True_Way_1.png"
+        "Chen_Tao_True_Way_1.jpg"
     ],
     "Qliphothic_Qabalah": [
         "Qliphothic_Qabalah_0.jpg",
@@ -969,7 +969,7 @@ const imagesManifest = {
     ],
     "Second_Temple_Order": [
         "Second_Temple_Order_0.jpg",
-        "Second_Temple_Order_1.png"
+        "Second_Temple_Order_1.jpg"
     ],
     "The_Atenist_Heresy": [
         "The_Atenist_Heresy_0.jpg",
@@ -980,7 +980,7 @@ const imagesManifest = {
         "The_Nazarenes_Jewish_Christians_1.jpg"
     ],
     "Cult_of_Marduk_Babylon": [
-        "Cult_of_Marduk_Babylon_0.png",
+        "Cult_of_Marduk_Babylon_0.jpg",
         "Cult_of_Marduk_Babylon_1.jpg"
     ],
     "Pauline_Christianity": [
@@ -1019,12 +1019,12 @@ const imagesManifest = {
         "Eliphas_Levi_Circle_1.jpg"
     ],
     "Yngliism_Old_Believers": [
-        "Yngliism_Old_Believers_0.png"
+        "Yngliism_Old_Believers_0.jpg"
     ],
     "Mitanni_Indo_Aryan_Cult": [
-        "Mitanni_Indo_Aryan_Cult_0.png",
-        "Mitanni_Indo_Aryan_Cult_1.png",
-        "Mitanni_Indo_Aryan_Cult_2.png"
+        "Mitanni_Indo_Aryan_Cult_0.jpg",
+        "Mitanni_Indo_Aryan_Cult_1.jpg",
+        "Mitanni_Indo_Aryan_Cult_2.jpg"
     ],
     "I_AM_Activity": [
         "I_AM_Activity_0.jpg",
@@ -1057,7 +1057,7 @@ const imagesManifest = {
         "The_Dolcinians_Apostolic_Brethren_3.jpg"
     ],
     "Thelema": [
-        "Thelema_0.png",
+        "Thelema_0.jpg",
         "Thelema_1.jpg"
     ],
     "The_Zizian_Collective": [
@@ -1132,11 +1132,11 @@ const imagesManifest = {
     ],
     "Mandarom_Aumism": [
         "Mandarom_Aumism_0.jpg",
-        "Mandarom_Aumism_1.png"
+        "Mandarom_Aumism_1.jpg"
     ],
     "Order_of_the_Silver_Dragon_Ninth_Gate": [
         "Order_of_the_Silver_Dragon_Ninth_Gate_0.jpg",
-        "Order_of_the_Silver_Dragon_Ninth_Gate_1.png"
+        "Order_of_the_Silver_Dragon_Ninth_Gate_1.jpg"
     ],
     "Work_of_Mercy_Vintras": [
         "Work_of_Mercy_Vintras_0.png",

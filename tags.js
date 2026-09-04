@@ -5041,7 +5041,7 @@ const dataTags = {
     The_Harga_Midsommar: {
         tags: [
             "location_europe", // Sweden (Hälsingland)
-            "era_modern", // Modern
+            "era_fictional", // Ari Aster's 2019 film; ancient roots implied in-story
             "belief_pagan", // Runic cycle of life
             "belief_cyclic_time", // 90 Year Festival
             "belief_communalism", // Shared emotion/pain
@@ -5114,5 +5114,264 @@ const dataTags = {
         startDate: 1920,
         endDate: null,
         inspiredBy: ["Theosophical_Society", "Buddhism_Vajrayana"],
+    },
+
+
+    // =================================================================================================
+    // Dated from each entry's own `Origins` field in database.js. These entries had no record here at
+    // all, which left them undated and stranded in the timeline's "beyond the scale" band. Only the era
+    // tag is set alongside the dates; their thematic tags still need writing.
+    // =================================================================================================
+
+    Oracle_of_Trophonius_Lebadea: {
+        tags: ["era_ancient"], // attested 6th c. BCE - Pausanias' visit, c. 170 CE
+        startDate: -600,
+        endDate: 200,
+        inspiredBy: [],
+    },
+
+    Cult_of_Heraclitus_The_Obscure: {
+        tags: ["era_ancient"], // Ephesus, c. 500 BCE; absorbed into Stoicism
+        startDate: -500,
+        endDate: -300,
+        inspiredBy: [],
+    },
+
+    Empedoclean_Magicians: {
+        tags: ["era_ancient"], // Akragas, c. 450 BCE
+        startDate: -450,
+        endDate: -350,
+        inspiredBy: [],
+    },
+
+    Cult_of_Despoina_at_Lycosura: {
+        tags: ["era_ancient"], // Arcadian sanctuary; pre-Olympian roots, Roman-era decline
+        startDate: -400,
+        endDate: 300,
+        inspiredBy: [],
+    },
+
+    Samothracian_Mysteries_The_Great_Gods: {
+        tags: ["era_ancient"], // sanctuary active 7th c. BCE - late Roman period
+        startDate: -700,
+        endDate: 400,
+        inspiredBy: [],
+    },
+
+    The_Atomist_Garden_Epicureans: {
+        tags: ["era_ancient"], // Athens, c. 300 BCE; the school persisted into the 3rd c. CE
+        startDate: -300,
+        endDate: 300,
+        inspiredBy: [],
+    },
+
+    Stoic_Brotherhood_The_Porch: {
+        tags: ["era_ancient"], // Athens, c. 300 BCE - the Antonine Stoics
+        startDate: -300,
+        endDate: 200,
+        inspiredBy: [],
+    },
+
+    Cult_of_Serapis_Alexandrian: {
+        tags: ["era_ancient"], // Ptolemy I; the Serapeum was destroyed in 391 CE
+        startDate: -300,
+        endDate: 391,
+        inspiredBy: [],
+    },
+
+    Cult_of_Sabazios: {
+        tags: ["era_ancient"], // Hellenistic and Roman periods
+        startDate: -300,
+        endDate: 400,
+        inspiredBy: [],
+    },
+
+    Cult_of_Atargatis_Dea_Syria: {
+        tags: ["era_ancient"], // Hierapolis; Lucian describes it c. 170 CE
+        startDate: -300,
+        endDate: 300,
+        inspiredBy: [],
+    },
+
+    Mysteries_of_Attis_The_Bridal_Chamber: {
+        tags: ["era_ancient"], // Hellenistic and Roman periods
+        startDate: -200,
+        endDate: 400,
+        inspiredBy: [],
+    },
+
+    Jupiter_Dolichenus_Military_Mystery: {
+        tags: ["era_ancient"], // 2nd-3rd Century CE
+        startDate: 100,
+        endDate: 300,
+        inspiredBy: [],
+    },
+
+    Phibionites_Gnostics: {
+        tags: ["era_ancient"], // 2nd - 5th Century CE
+        startDate: 100,
+        endDate: 500,
+        inspiredBy: [],
+    },
+
+    Cult_of_Glycon_The_New_Asclepius: {
+        tags: ["era_ancient"], // founded c. 150-170 CE; attested into the 3rd c.
+        startDate: 150,
+        endDate: 250,
+        inspiredBy: [],
+    },
+
+    Mayan_Ah_Kin_Daykeepers: {
+        tags: ["era_ancient"], // Classic and Post-Classic Maya, c. 250-1200 CE
+        startDate: 250,
+        endDate: 1200,
+        inspiredBy: [],
+    },
+
+    Compagnia_della_Calza: {
+        tags: ["era_medieval"], // Venice, 15th-16th Century
+        startDate: 1400,
+        endDate: 1600,
+        inspiredBy: [],
+    },
+
+    Christian_Cabala_Pico: {
+        tags: ["era_preindustrial"], // Pico's 900 Theses, 1486; the tradition ran on into the 17th c.
+        startDate: 1486,
+        endDate: 1600,
+        inspiredBy: [],
+    },
+
+    The_Nyau_Brotherhood: {
+        tags: ["era_preindustrial"], // Gule Wamkulu is conventionally dated to the 17th c.; still performed
+        startDate: 1600,
+        endDate: null,
+        inspiredBy: [],
+    },
+
+    The_Duk_Duk: {
+        tags: ["era_preindustrial"], // pre-contact Tolai institution, first described in the 19th c.
+        startDate: 1800,
+        endDate: null,
+        inspiredBy: [],
+    },
+
+    The_Order_of_the_Palladium: {
+        tags: ["era_industrial"], // the Taxil hoax, 1885-1897
+        startDate: 1885,
+        endDate: 1897,
+        inspiredBy: [],
+    },
+
+    Antoinism: {
+        tags: ["era_modern"], // Jemeppe-sur-Meuse, 1910
+        startDate: 1910,
+        endDate: null,
+        inspiredBy: [],
+    },
+
+    The_Nine_Unknown_Men: {
+        tags: ["era_modern"], // codified by Talbot Mundy, 1923; the Ashokan origin is legendary
+        startDate: 1923,
+        endDate: null,
+        inspiredBy: [],
+    },
+
+    Brotherhood_of_the_Golden_Arrow: {
+        tags: ["era_modern"], // Naglowska's Paris circle, until her death in 1936
+        startDate: 1932,
+        endDate: 1936,
+        inspiredBy: [],
+    },
+
+    Fraternite_Blanche_Universelle: {
+        tags: ["era_modern"], // France, 1937
+        startDate: 1937,
+        endDate: null,
+        inspiredBy: [],
+    },
+
+    Asaro_Mudmen_Holosa: {
+        tags: ["era_modern"], // the Holosa legend is undated; the performance is documented from the 1950s
+        startDate: 1950,
+        endDate: null,
+        inspiredBy: [],
+    },
+
+    Claude_Deplace_La_Chose: {
+        tags: ["era_modern"], // Origins gives only 'active mid-20th century' - both ends approximate
+        startDate: 1950,
+        endDate: 1980,
+        inspiredBy: [],
+    },
+
+    Unification_Church_The_Moonies: {
+        tags: ["era_modern"], // Seoul, 1954
+        startDate: 1954,
+        endDate: null,
+        inspiredBy: [],
+    },
+
+    Transcendental_Meditation_MT: {
+        tags: ["era_modern"], // the Spiritual Regeneration Movement, 1950s
+        startDate: 1955,
+        endDate: null,
+        inspiredBy: [],
+    },
+
+    Sukyo_Mahikari: {
+        tags: ["era_modern"], // Japan, 1959
+        startDate: 1959,
+        endDate: null,
+        inspiredBy: [],
+    },
+
+    Wicca_Luciferienne_Coutela: {
+        tags: ["era_modern"], // France, 1975-1995
+        startDate: 1975,
+        endDate: 1995,
+        inspiredBy: [],
+    },
+
+    Cercle_Initiatique_de_la_Licorne_Yull_Ruga: {
+        tags: ["era_modern"], // Ruga's Summer Solstice Call, 1981, until his death in 1994
+        startDate: 1981,
+        endDate: 1994,
+        inspiredBy: [],
+    },
+
+    Institut_Abrasax: {
+        tags: ["era_modern"], // Forchies-la-Marche, c. 1990-2006
+        startDate: 1990,
+        endDate: 2006,
+        inspiredBy: [],
+    },
+
+    Modern_Mystery_School: {
+        tags: ["era_modern"], // founded 1997 as the Rocky Mountain Mystery School
+        startDate: 1997,
+        endDate: null,
+        inspiredBy: [],
+    },
+
+    Essene_Nation_Manitara: {
+        tags: ["era_modern"], // late 1990s, until Manitara's death in 2017
+        startDate: 1998,
+        endDate: 2017,
+        inspiredBy: [],
+    },
+
+    The_Secret_Law_of_Attraction: {
+        tags: ["era_modern"], // Rhonda Byrne's film and book, 2006
+        startDate: 2006,
+        endDate: null,
+        inspiredBy: [],
+    },
+
+    The_Satanic_Temple: {
+        tags: ["era_modern"], // USA, 2013
+        startDate: 2013,
+        endDate: null,
+        inspiredBy: [],
     },
 }

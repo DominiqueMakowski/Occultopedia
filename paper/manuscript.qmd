@@ -1,0 +1,311 @@
+---
+title: "The 7 Core Esoteric Beliefs Unveiled: A Conceptual Space Embedding of Secret Societies, Occult Practices, and Spiritual Traditions"
+shorttitle: "Beliefs Unveiled"
+author:
+  - name: Dominique Makowski
+    corresponding: true
+    orcid: 0000-0001-5375-9967
+    email: D.Makowski@sussex.ac.uk
+    url: https://realitybending.github.io/
+    roles:
+      - Project administration
+      - Data curation
+      - Formal Analysis
+      - Investigation
+      - Visualization
+      - Writing – original draft
+      - Writing – review & editing
+    affiliations:
+      - id: "id1"
+        name: "University of Sussex"
+        department: "School of Psychology"
+        city: "Brighton"
+        country: "UK"
+        postal-code: "BN1 9RH"
+      - name: "University of Sussex"
+        department:  "Sussex Centre for Consciousness Science"
+# author-note:
+#   status-changes:
+#     affiliation-change: null
+#     deceased: null
+#   disclosures:
+#     study-registration: null
+#     data-sharing: null
+#     related-report: null
+#     conflict-of-interest: null
+#     financial-support: null
+#     gratitude: null
+#     authorship-agreements: null
+    #   # - Project administration
+    #   # - Data curation
+    #   # - Formal Analysis
+    #   # - Investigation
+    #   # - Visualization
+    #   # - Writing – original draft
+    #   # - Writing – review & editing
+    # Roles are optional.
+    # conceptualization, data curation, formal Analysis, funding acquisition, investigation,
+    # methodology, project administration, resources, software, supervision, validation,
+    # visualization, writing, editing
+    #   - Conceptualization
+    #   - Data curation
+    #   - formal Analysis
+    #   - Funding acquisition
+    #   - Investigation
+    #   - Methodology
+    #   - Project administration
+    #   - Resources
+    #   - Software
+    #   - Supervision
+    #   - Validation
+    #   - Visualization
+    #   - Writing – original draft
+author-note:
+  disclosures:
+    gratitude: |
+      ::: {.callout-note icon=false appearance="simple"}
+      :::
+      This preprint is a non-peer-reviewed work from the [**Reality Bending Lab**](https://realitybending.github.io/).
+      ![](https://realitybending.github.io/media/ReBeL_LogoOnly_hu11484441381606756729.png){width=20% fig-align="center"}
+abstract: |
+  Blabla the abstract blabla.
+keywords: [keyword1, keyword2, keyword3]
+floatsintext: true
+numbered-lines: false
+bibliography: bibliography.bib
+suppress-title-page: false
+mask: false
+# Language options. See https://quarto.org/docs/authoring/language.html
+lang: en
+language:
+  citation-last-author-separator: "and"
+  citation-masked-author: "Masked Citation"
+  citation-masked-date: "n.d."
+  citation-masked-title: "Masked Title"
+  title-block-author-note: "Author Note"
+  title-block-correspondence-note: "Correspondence concerning this article should be addressed to"
+  title-block-role-introduction: "Author roles were classified using the Contributor Role Taxonomy (CRediT; https://credit.niso.org/) as follows:"
+  references-meta-analysis:
+format:
+  apaquarto-pdf:
+    # Can be jou (journal), man (manuscript), stu (student), or doc (document)
+    documentmode: jou
+    include-in-header:
+      - text: |
+          \usepackage{lscape}
+  apaquarto-docx: default
+  apaquarto-html: default
+editor:
+  markdown:
+    wrap: sentence
+editor_options:
+  chunk_output_type: console
+---
+
+<!-- Title: -->
+<!-- - The 7 Occult Axes... -->
+<!-- - Axial Taxonomy of the Occult-->
+<!-- Data-driven AI-assisted Syncretism -->
+<!-- Taxonomy of Sacred Mechanics -->
+
+
+# Introduction
+
+<!-- Intro about the importance of Secret societies and occult movements in the history of religion, politics, and culture. -->
+
+<!-- Hard to classify, often silo-ed knowledge and research (e.g., focusing on e.g., western esotericism, criminal organizations, etc.) -->
+
+<!-- AI can be leveraged to identify commonalities and create a data-driven taxonomy. -->
+
+<!-- Summary of the paper: 1) We created a open-source data-analysis friendly database of occult groups and practices, that can be accessed and visualized via a webpage as a network graph (https://dominiquemakowski.github.io/Occultopedia/). 2) We leveraged AI abilities to identify core axes of belief and practice across occult groups. 3) We back-projected each group onto these axes to create a compact conceptual space embedding of occult groups and practices. -->
+
+# Methods
+
+## Occultopedia - Database creation
+
+<!-- - We started by building a database of groups, that we iteratively verified and expanded on using - when available - academic sources. -->
+<!-- - We created Occultopedia (https://dominiquemakowski.github.io/Occultopedia/), a web application that allows users to explore the database as an interconnected network. -->
+
+<!-- The idea is to have an evolutive database and reproducible analysis pipeline: the results presented in the current paper can be considered to be a 1.0 iteration, but we hope that future researchers will be able to expand and refine the database and re-run the analyses to obtain updated results. -->
+
+## Axes Identification
+
+<!-- Prompts were designed to leverage the abilities of large language models (LLMs) to identify core dimensions of belief and practice across occult groups. Multiple models (Gemini 3.0, GPT-4, Grok Expert, Claude) and multiple iterations per model were used to ensure robustness and reliability.  -->
+
+<!-- The analysis approach also tried to quantify and propagate uncertainty when possible. -->
+
+
+## Back-Projection
+
+<!-- We first generate loadings on each of the axes for each group in the database, again using multiple models and multiple iterations per model to ensure robustness and reliability.  -->
+<!-- We compute average loadings. -->
+
+<!-- Apply clustering? -->
+<!-- - Do UMAP for further feature reduction and visualization? -->
+
+# Results
+
+```{r}
+library(tidyverse)
+
+cat(read.csv("results.csv"))
+
+knitr::kable(read.csv("results.csv")[c("Dimension", "Summary")])
+
+df <- read.csv("results.csv") |> 
+  mutate(Concept = case_when(
+# Concept: The Body (Asceticism vs. Indulgence)
+    Dimension %in% c(
+      "Flesh is a Trap (vs. Flesh is Divine)",
+      "Ascetic Purity (vs. Carnal Indulgence)",
+      "Embracing the Flesh (vs. Escaping the Prison)",
+      "Asceticism (vs. Indulgence)",
+      "Matter is Evil (vs. Matter is Holy)",
+      "Transcendence (vs. Immanence)"
+    ) ~ "Asceticism (vs. Indulgence)",
+    
+    # Concept: Time & Progress (Tradition vs. Futurism)
+    Dimension %in% c(
+      "Ancestral Blood (vs. Future Tech)",
+      "Technological Futurism (vs. Ancestral Traditionalism)",
+      "Ancient Myth (vs. Modern Innovation)",
+      "Restoration (vs. Revolution)",
+      "Biology is Destiny (vs. Technology is Destiny)",
+      "Technological Salvation (vs. Natural Revelation)",
+      "Biological Essentialism (vs. Constructed Identity)"
+    ) ~ "Tradition (vs. Futurism)",
+    
+    # Concept: Law & Morality (Order vs. Chaos)
+    Dimension %in% c(
+      "Order through Law (vs. Power through Sin)",
+      "Taboo Transgression (vs. Ascetic Purity)",
+      "Order (vs. Chaos)",
+      "Transgression is Good (vs. Obedience is Good)",
+      "Chaos is Truth (vs. Order is Truth)"
+    ) ~ "Order (vs. Chaos)",
+    
+    # Concept: Mode of Ritual (Rationality vs. Ecstasy)
+    Dimension %in% c(
+      "Rational Control (vs. Ecstatic Frenzy)",
+      "Ecstatic Experience (vs. Cerebral Contemplation)",
+      "Magical Theurgy (vs. Rational Science)",
+      "Gnosis through Action (vs. Knowledge)",
+      "Theurgy (vs. Meditation)",
+      "Ecstasy is the Path (vs. Sobriety is the Path)",
+      "Esoteric Gnosis (vs. Moral Philosophy)"
+    ) ~ "Rationality (vs. Ecstasy)",
+    
+    # Concept: Methodology of Conflict (Violence vs. Pacifism)
+    Dimension %in% c(
+      "Violence as Tool (vs. Art as Tool)",
+      "Violent Subversion (vs. Peaceful Elite)",
+      "Kinetic Violence (vs. Intellectual Gnosis)",
+      "Sacred Violence (vs. Sacred Peace)",
+      "Violence (vs. Pacifism)",
+      "Violence is Sacred (vs. Study is Sacred)"
+    ) ~ "Violence (vs. Pacifism)",
+    
+    # Concept: Organizational Structure (Hierarchy vs. Decentralization)
+    Dimension %in% c(
+      "Centralized Guru (vs. Distributed Cell)",
+      "Decentralized Chaos (vs. Rigid Hierarchy)",
+      "Hierarchy (vs. Decentralization)",
+      "The Guru is God (vs. The Network is God)",
+      "The Few Should Rule (vs. The Many Should Rule)"
+    ) ~ "Hierarchy (vs. Decentralization)",
+    
+    # Concept: The Self (Individualism vs. Collectivism)
+    Dimension %in% c(
+      "Self-Deification (vs. Total Submission)",
+      "Communal Living (vs. Individual Autonomy)",
+      "Self-Deification (vs. Hive-Mind Submission)",
+      "Individual Apotheosis (vs. Collective Salvation)"
+    ) ~ "Individualism (vs. Collectivism)",
+    
+    # Concept: Visibility (Secrecy vs. Spectacle)
+    Dimension %in% c(
+      "Invisible Influence (vs. Public Spectacle)",
+      "Theatrical Spectacle (vs. Hermetic Secrecy)",
+      "Exoteric Performance (vs. Esoteric Concealment)"
+    ) ~ "Secrecy (vs. Spectacle)",
+    
+    # Concept: Societal Orientation (Subversion vs. Establishment)
+    Dimension %in% c(
+      "Political Domination (vs. Cosmic Escape)",
+      "Infiltration (vs. Withdrawal)",
+      "Subversion (vs. Establishment)",
+      "Overthrow the State (vs. Preserve the State)"
+    ) ~ "Subversion (vs. Establishment)",
+    
+    # Concept: Gender Dynamics
+    Dimension %in% c(
+      "Gender Fluidity (vs. Male Exclusivity)",
+      "Gender Fluidity (vs. Exclusivity)"
+    ) ~ "Gender Inclusivity (vs. Exclusivity)",
+    
+    # Concept: Eschatology (Apocalyptic vs. Cyclic)
+    Dimension %in% c(
+      "Apocalyptic End (vs. Eternal Cycle)",
+      "Apocalyptic Acceleration (vs. Cosmic Maintenance)"
+    ) ~ "Apocalyptic (vs. Cyclic)",
+
+    .default = Dimension
+         )) 
+
+
+# Check
+summarize(df, n_Dims = n_distinct(Dimension), n_Concepts = n_distinct(Concept), .by = c("Model", "Iteration"))
+filter(df, Model == "Grok Expert" & Iteration == 1)
+```
+
+```{r}
+# Preprocess
+df <- df |> 
+  summarize(Importance = mean(Importance), .by = c("Model", "Iteration", "Concept")) |>
+  mutate(Importance = as.numeric(Importance), 
+         Concept = fct_reorder(Concept, desc(Importance), .fun = mean)) 
+
+
+# Filter rare
+to_remove <- as.data.frame(table(df$Concept)) |> 
+  filter(Freq < 2) |> 
+  pull(Var1)
+df <- filter(df, !(Concept %in% to_remove))
+
+
+
+# Plot
+bootmean_ci <- function(x, quantile = 0.025) {
+  boot_means <- replicate(1000, {
+    sample_x <- sample(x, size = length(x), replace = TRUE)
+    mean(sample_x, na.rm = TRUE)
+  })
+  quantile(boot_means, quantile, na.rm = TRUE)
+}
+
+dfdims <- df |> 
+  summarise(Concept = unique(Concept),
+            CI_low = bootmean_ci(Importance, 0.025),
+            CI_high = bootmean_ci(Importance, 0.975),
+            Importance = mean(Importance, na.rm = TRUE),
+            .by = "Concept")
+
+df |> 
+  mutate(group = paste(Iteration, Model)) |> 
+  ggplot(aes(x = Concept, y = Importance)) +
+  geom_line(aes(group = group, color = Model)) +
+  geom_ribbon(data = dfdims, aes(ymin = CI_low, ymax = CI_high, group = 1), fill = "grey", alpha = 0.5) +
+  geom_line(data = dfdims, aes(group = 1), color = "black", linewidth = 1) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) 
+```
+
+# Discussion
+
+<!-- Axes forming opposites, forcing a dichotomy: no possibility of accounting for groups that potentially would load high on both extremes. -->
+
+# References
+
+<!-- References will auto-populate in the refs div below -->
+
+::: {#refs}
+:::

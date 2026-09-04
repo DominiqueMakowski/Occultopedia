@@ -2,135 +2,282 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Occultopedia</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+        <meta name="color-scheme" content="dark" />
+        <meta name="theme-color" content="#121212" />
+
+        <title>Occultopedia — An Atlas of Secret Societies, Cults and Occult Orders</title>
+        <meta
+            name="description"
+            content="A browsable, citable database of 300+ real and fictional secret societies, mystery cults and occult orders — their origins, beliefs, practices and structures, mapped as a network and a timeline."
+        />
+        <meta name="author" content="Dominique Makowski" />
+        <link rel="canonical" href="https://dominiquemakowski.github.io/Occultopedia/" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Occultopedia" />
+        <meta property="og:title" content="Occultopedia — An Atlas of Secret Societies, Cults and Occult Orders" />
+        <meta
+            property="og:description"
+            content="A browsable, citable database of 300+ real and fictional secret societies, mystery cults and occult orders, mapped as a network and a timeline."
+        />
+        <meta property="og:url" content="https://dominiquemakowski.github.io/Occultopedia/" />
+        <meta property="og:image" content="https://dominiquemakowski.github.io/Occultopedia/fig1.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+
+        <link
+            rel="icon"
+            href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23121212'/%3E%3Ccircle cx='16' cy='16' r='10' fill='none' stroke='%23bb86fc' stroke-width='1.6'/%3E%3Cpath d='M16 7l5.6 17.2L7 13.6h18L10.4 24.2z' fill='none' stroke='%23bb86fc' stroke-width='1.4' stroke-linejoin='round'/%3E%3C/svg%3E"
+        />
+
         <link rel="stylesheet" href="style.css" />
+
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Dataset",
+                "name": "Occultopedia",
+                "alternateName": "Occultopedia: An Atlas of Secret Societies, Cults and Occult Orders",
+                "description": "A structured database of real and fictional secret societies, mystery cults and occult orders, describing their origins, beliefs, practices, organisational structures, and lines of influence.",
+                "url": "https://dominiquemakowski.github.io/Occultopedia/",
+                "license": "https://opensource.org/licenses/MIT",
+                "keywords": ["occultism", "secret societies", "esotericism", "new religious movements", "mystery cults"],
+                "creator": {
+                    "@type": "Person",
+                    "name": "Dominique Makowski",
+                    "identifier": "https://orcid.org/0000-0001-5375-9967",
+                    "affiliation": { "@type": "Organization", "name": "University of Sussex" }
+                },
+                "distribution": {
+                    "@type": "DataDownload",
+                    "encodingFormat": "application/javascript",
+                    "contentUrl": "https://github.com/DominiqueMakowski/Occultopedia/blob/main/database.js"
+                }
+            }
+        </script>
     </head>
-    <body>
-        <!-- Top Navigation -->
-        <div class="top-nav">
-            <button class="nav-tab active" onclick="switchTab('societies')">Network</button>
-            <button class="nav-tab" onclick="switchTab('timeline')">Timeline</button>
-            <a
-                href="https://github.com/DominiqueMakowski/Occultopedia"
-                target="_blank"
-                class="nav-tab"
-                style="text-decoration: none; margin-left: auto"
-            >
-                <svg height="20" width="20" viewBox="0 0 16 16" fill="currentColor" style="vertical-align: middle; margin-right: 5px">
-                    <path
-                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
-                    ></path>
-                </svg>
-                View on GitHub
-            </a>
-        </div>
 
-        <div class="view-container" style="display: flex; flex-direction: row;">
-            <!-- Left Sidebar: List (Shared) -->
-            <div id="sidebar-left">
-                <div class="sidebar-header">
-                    <h2>Index</h2>
-                    <div class="search-container">
-                        <input type="text" id="search-input" placeholder="Search..." />
-                        <div id="active-tags" class="active-tags"></div>
-                        <select id="tag-filter">
-                            <option value="">Add Tag Filter...</option>
+    <body data-pane="canvas">
+        <a class="skip-link" href="#pane-entry">Skip to entry</a>
+
+        <!-- ============================ Top bar ============================ -->
+        <header class="topbar">
+            <button
+                type="button"
+                class="icon-btn topbar__drawer-toggle"
+                id="drawer-toggle"
+                aria-label="Show index"
+                aria-expanded="false"
+                aria-controls="pane-index"
+            >
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" /></svg>
+            </button>
+
+            <h1 class="brand">
+                <span class="brand__mark" aria-hidden="true">
+                    <svg viewBox="0 0 32 32">
+                        <circle cx="16" cy="16" r="12" />
+                        <path d="M16 4l7.05 21.7L4.6 12.3h22.8L8.95 25.7z" />
+                    </svg>
+                </span>
+                <span class="brand__text">Occultopedia</span>
+            </h1>
+
+            <nav class="viewtabs" aria-label="Visualisation">
+                <button type="button" class="viewtab is-active" data-view="timeline" aria-pressed="true">Timeline</button>
+                <button type="button" class="viewtab" data-view="network" aria-pressed="false">Network</button>
+            </nav>
+
+            <div class="topbar__actions">
+                <a
+                    class="icon-btn"
+                    href="https://github.com/DominiqueMakowski/Occultopedia"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="View the source and data on GitHub"
+                    title="View on GitHub"
+                >
+                    <svg viewBox="0 0 16 16" fill="currentColor" stroke="none" aria-hidden="true">
+                        <path
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
+                        ></path>
+                    </svg>
+                </a>
+            </div>
+        </header>
+
+        <!-- ============================ Workspace ============================ -->
+        <div class="workspace">
+            <div class="scrim" id="scrim" hidden></div>
+
+            <!-- ---------- Index ---------- -->
+            <aside id="pane-index" class="pane pane--index" aria-label="Index of societies">
+                <div class="index-header">
+                    <div class="search-row">
+                        <svg class="search-row__icon" viewBox="0 0 24 24" aria-hidden="true">
+                            <circle cx="11" cy="11" r="6.5" />
+                            <path d="M16 16l4.5 4.5" />
+                        </svg>
+                        <input
+                            type="search"
+                            id="search-input"
+                            placeholder="Search names, tags, text…"
+                            aria-label="Search societies"
+                            autocomplete="off"
+                            spellcheck="false"
+                        />
+                        <button type="button" class="search-row__clear" id="search-clear" aria-label="Clear search" hidden>&times;</button>
+                    </div>
+
+                    <div class="filter-row">
+                        <select id="tag-filter" aria-label="Add a tag filter">
+                            <option value="">Filter by tag…</option>
                         </select>
+                        <button type="button" class="text-btn" id="clear-filters" hidden>Reset</button>
                     </div>
-                </div>
-                <ul class="nav-list" id="nav-list">
-                    <!-- Nav items injected here -->
-                </ul>
-            </div>
 
-            <!-- Center Content -->
-            <div id="center-pane" style="flex: 1; position: relative; overflow: hidden; display: flex;">
-                 <!-- View 1: Societies (Network) -->
-                 <div id="view-societies" class="view active" style="width: 100%; height: 100%;">
-                    <div id="network-container" style="width: 100%; height: 100%; position: relative; overflow: hidden;">
-                        <canvas id="network-canvas"></canvas>
-                        <div
-                            id="network-tooltip"
-                            style="
-                                display: none;
-                                position: absolute;
-                                background: rgba(0, 0, 0, 0.8);
-                                padding: 5px 10px;
-                                border-radius: 4px;
-                                pointer-events: none;
-                            "
-                        ></div>
-                        <div
-                            id="network-controls"
-                            style="
-                                position: absolute;
-                                top: 10px;
-                                left: 10px;
-                                background: rgba(0, 0, 0, 0.5);
-                                padding: 10px;
-                                border-radius: 5px;
-                                display: flex;
-                                flex-direction: column;
-                                gap: 5px;
-                            "
-                        >
-                            <label><input type="checkbox" id="show-labels" checked /> Show Labels</label>
-                            <select
-                                id="network-connection-mode"
-                                style="background: #333; color: #fff; border: 1px solid #555; padding: 2px; border-radius: 3px"
-                            >
-                                <option value="practice">Connect by: Practice</option>
-                                <option value="location">Connect by: Location</option>
-                                <option value="era">Connect by: Era</option>
-                                <option value="belief">Connect by: Belief</option>
-                                <option value="all" selected>Connect by: All Tags</option>
-                            </select>
-                            <div style="display: flex; align-items: center; gap: 5px; color: white; font-size: 12px">
-                                <label for="connection-threshold">Min Strength:</label>
-                                <input type="range" id="connection-threshold" min="1" max="10" value="5" style="width: 60px" />
-                                <span id="threshold-value">5</span>
-                            </div>
-                            <div
-                                id="network-legend"
-                                style="margin-top: 5px; display: flex; flex-direction: column; gap: 2px; font-size: 11px; color: #ccc"
-                            >
-                                <!-- Legend items injected by JS -->
-                            </div>
+                    <div id="active-tags" class="active-tags"></div>
+                    <p class="result-count" id="result-count" role="status" aria-live="polite"></p>
+                </div>
+
+                <ul class="nav-list" id="nav-list"></ul>
+            </aside>
+
+            <!-- ---------- Canvas ---------- -->
+            <section id="pane-canvas" class="pane pane--canvas" aria-label="Visualisation">
+                <div class="view" id="view-network">
+                    <canvas id="network-canvas" aria-label="Force-directed network of societies linked by shared tags" role="img"></canvas>
+
+                    <div class="canvas-tooltip" id="network-tooltip" hidden></div>
+
+                    <details class="canvas-panel" id="network-controls" open>
+                        <summary class="canvas-panel__summary">
+                            <span>Graph settings</span>
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" /></svg>
+                        </summary>
+                        <div class="canvas-panel__body">
+                            <label class="field">
+                                <span class="field__label">Connect by</span>
+                                <select id="network-connection-mode">
+                                    <option value="all" selected>All tags</option>
+                                    <option value="practice">Practice</option>
+                                    <option value="location">Location</option>
+                                    <option value="era">Era</option>
+                                    <option value="belief">Belief</option>
+                                </select>
+                            </label>
+
+                            <label class="field">
+                                <span class="field__label">Min. shared tags <output id="threshold-value">5</output></span>
+                                <input type="range" id="connection-threshold" min="1" max="10" value="5" />
+                            </label>
+
+                            <label class="check">
+                                <input type="checkbox" id="show-labels" checked />
+                                <span>Show labels</span>
+                            </label>
+
+                            <div class="legend" id="network-legend"></div>
                         </div>
+                    </details>
+
+                    <div class="canvas-zoom" role="group" aria-label="Zoom">
+                        <button type="button" class="icon-btn icon-btn--solid" data-zoom="in" aria-label="Zoom in">+</button>
+                        <button type="button" class="icon-btn icon-btn--solid" data-zoom="out" aria-label="Zoom out">&minus;</button>
+                        <button type="button" class="icon-btn icon-btn--solid" data-zoom="fit" aria-label="Fit graph to view" title="Fit to view">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" />
+                            </svg>
+                        </button>
                     </div>
-                 </div>
-
-                 <!-- View 2: Timeline -->
-                 <div id="view-timeline" class="view" style="width: 100%; height: 100%; position: relative;">
-                    <canvas id="timeline-canvas"></canvas>
-                 </div>
-            </div>
-
-            <!-- Right Sidebar: Detail (Shared) -->
-            <div
-                id="sidebar-right"
-                style="
-                    width: 500px;
-                    background-color: #1e1e1e;
-                    border-left: 1px solid #333;
-                    overflow-y: auto;
-                    display: flex;
-                    flex-direction: column;
-                    flex-shrink: 0;
-                "
-            >
-                <div id="detail-container" style="padding: 20px">
-                    <p style="text-align: center; color: #666; margin-top: 100px">
-                        Select a society from the list or network to view details.
-                    </p>
                 </div>
-            </div>
+
+                <div class="view view--active" id="view-timeline">
+                    <canvas id="timeline-canvas" aria-label="Logarithmic timeline of societies and their lines of influence" role="img"></canvas>
+
+                    <div class="canvas-tooltip" id="timeline-tooltip" hidden></div>
+
+                    <div class="legend legend--timeline" id="timeline-legend"></div>
+
+                    <p class="canvas-hint" id="timeline-hint">Scroll or drag to travel in time · zoom with + and −</p>
+
+                    <div
+                        class="timerail"
+                        id="timeline-rail"
+                        tabindex="0"
+                        role="scrollbar"
+                        aria-orientation="vertical"
+                        aria-controls="timeline-canvas"
+                        aria-label="Travel through time"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        aria-valuenow="0"
+                    >
+                        <span class="timerail__thumb" id="timeline-thumb"></span>
+                    </div>
+
+                    <div class="canvas-zoom canvas-zoom--timeline" role="group" aria-label="Zoom">
+                        <button type="button" class="icon-btn icon-btn--solid" data-tzoom="in" aria-label="Zoom in">+</button>
+                        <button type="button" class="icon-btn icon-btn--solid" data-tzoom="out" aria-label="Zoom out">&minus;</button>
+                        <button type="button" class="icon-btn icon-btn--solid" data-tzoom="reset" aria-label="Fit the whole timeline" title="Fit to view">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ---------- Entry ---------- -->
+            <article id="pane-entry" class="pane pane--entry" aria-label="Entry" tabindex="-1">
+                <div id="detail-container" class="entry">
+                    <p class="empty-state">Select a society from the index or the graph.</p>
+                </div>
+            </article>
         </div>
 
-        <script src="database.js"></script>
-        <script src="tags.js"></script>
-        <script src="images.js"></script>
-        <script src="script.js"></script>
+        <!-- ============================ Mobile tab bar ============================ -->
+        <nav class="tabbar" aria-label="Sections">
+            <button type="button" class="tabbar__btn" data-pane="index">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" /></svg>
+                <span>Index</span>
+            </button>
+            <button type="button" class="tabbar__btn is-active" data-pane="canvas">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <circle cx="6" cy="7" r="2.4" />
+                    <circle cx="18" cy="6" r="2.4" />
+                    <circle cx="12" cy="17" r="2.4" />
+                    <path d="M7.9 8.4l2.7 6.6M16.6 8l-3.3 7.3M8.4 6.7h7.2" />
+                </svg>
+                <span>Map</span>
+            </button>
+            <button type="button" class="tabbar__btn" data-pane="entry">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M6 4h9l4 4v12H6z" /><path d="M14 4v5h5" />
+                </svg>
+                <span>Entry</span>
+            </button>
+        </nav>
+
+        <!-- ============================ Lightbox ============================ -->
+        <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+            <button type="button" class="lightbox__close icon-btn icon-btn--solid" id="lightbox-close" aria-label="Close image viewer">&times;</button>
+            <button type="button" class="lightbox__nav lightbox__nav--prev icon-btn icon-btn--solid" id="lightbox-prev" aria-label="Previous image">&#8249;</button>
+            <img id="lightbox-img" alt="" />
+            <button type="button" class="lightbox__nav lightbox__nav--next icon-btn icon-btn--solid" id="lightbox-next" aria-label="Next image">&#8250;</button>
+            <p class="lightbox__caption" id="lightbox-caption"></p>
+        </div>
+
+        <noscript>
+            <p style="padding: 2rem; text-align: center">
+                Occultopedia is an interactive atlas and needs JavaScript. The underlying data is plain text and can be read directly at
+                <a href="https://github.com/DominiqueMakowski/Occultopedia/blob/main/database.js">database.js</a>.
+            </p>
+        </noscript>
+
+        <script src="database.js" defer></script>
+        <script src="tags.js" defer></script>
+        <script src="images.js" defer></script>
+        <script src="script.js" defer></script>
     </body>
 </html>
